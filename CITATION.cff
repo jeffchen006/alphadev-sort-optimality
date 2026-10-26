@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "How Short Can a Branchless Sort Be? Certified Optimality of AlphaDev's sort3 and sort4 Kernels, and What Stands in the Way for sort5"
+authors:
+  - family-names: Chen
+    given-names: Zhiyang
+date-released: 2026-10-26
+doi: 10.5281/zenodo.23676958
+url: "https://doi.org/10.5281/zenodo.23676958"
+repository-code: "https://github.com/jeffchen006/alphadev-sort-optimality"
