@@ -1,0 +1,32 @@
+[
+  {
+    "skeleton": "artifacts/skeletons/c8_108b52d1733c50f9.skel",
+    "log": "logs/c8_108b52d1733c50f9_new_dag31.log",
+    "result": "RESULT LIMIT K=31 calls=10000053 leaves=0 sols=0 best=-1 time=65.6s (node limit hit: not exhaustive)",
+    "exit_code": 0
+  },
+  {
+    "skeleton": "artifacts/skeletons/c8_2754b681df96846f.skel",
+    "log": "logs/c8_2754b681df96846f_new_dag31.log",
+    "result": "RESULT LIMIT K=31 calls=10000075 leaves=0 sols=0 best=-1 time=64.5s (node limit hit: not exhaustive)",
+    "exit_code": 0
+  },
+  {
+    "skeleton": "artifacts/skeletons/c8_2c342e0e0fbafd57.skel",
+    "log": "logs/c8_2c342e0e0fbafd57_new_dag31.log",
+    "result": "RESULT LIMIT K=31 calls=10000065 leaves=144 sols=0 best=-1 time=67.5s (node limit hit: not exhaustive)",
+    "exit_code": 0
+  },
+  {
+    "skeleton": "artifacts/skeletons/c8_2fc1b3fefa56100b.skel",
+    "log": "logs/c8_2fc1b3fefa56100b_new_dag31.log",
+    "result": "RESULT LIMIT K=31 calls=10000099 leaves=0 sols=0 best=-1 time=64.6s (node limit hit: not exhaustive)",
+    "exit_code": 0
+  },
+  {
+    "skeleton": "artifacts/skeletons/c8_3395266762428bd.skel",
+    "log": "logs/c8_3395266762428bd_new_dag31.log",
+    "result": "RESULT LIMIT K=31 calls=10000066 leaves=0 sols=0 best=-1 time=24.4s (node limit hit: not exhaustive)",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "counts": {
+    "files": 12669,
+    "unique_zero_mov_cores": 6,
+    "zero_mov_files": 7
+  },
+  "programs": [
+    {
+      "source": "round2/verified/c8_215cbe6f0d1c7837.s",
+      "target": "round3/candidates/nomov_38bc4652d19a9d1c.s",
+      "copies": 2
+    },
+    {
+      "source": "candidates/p32a_sample_1038.s",
+      "target": "round3/candidates/nomov_68d29028b7fb54c4.s",
+      "copies": 1
+    },
+    {
+      "source": "candidates/p32a_sample_1127.s",
+      "target": "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+      "copies": 1
+    },
+    {
+      "source": "candidates/p32c_sample_1497.s",
+      "target": "round3/candidates/nomov_4c02da04dce39b74.s",
+      "copies": 1
+    },
+    {
+      "source": "candidates/p32c_sample_4075.s",
+      "target": "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+      "copies": 1
+    },
+    {
+      "source": "candidates/p32d_sample_542.s",
+      "target": "round3/candidates/nomov_cb7f7a699c4c9842.s",
+      "copies": 1
+    }
+  ],
+  "last_folder": "candidates",
+  "complete": true
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "tag": "n4_net5_0",
+    "file": "codex_work/r4/n4_net5_0.txt",
+    "size": 14,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "MIN k = 20",
+    "seconds": 3.172261224128306,
+    "log": "codex_work/r4/log_n4_net5_0_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net5_0",
+    "file": "codex_work/r4/n4_net5_0.txt",
+    "size": 14,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 5.428175561130047,
+    "log": "codex_work/r4/log_n4_net5_0_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_1",
+    "file": "codex_work/r4/n4_net6_1.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.14764767605811357,
+    "log": "codex_work/r4/log_n4_net6_1_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_1",
+    "file": "codex_work/r4/n4_net6_1.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.15198996476829052,
+    "log": "codex_work/r4/log_n4_net6_1_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_2",
+    "file": "codex_work/r4/n4_net6_2.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.1479335054755211,
+    "log": "codex_work/r4/log_n4_net6_2_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_2",
+    "file": "codex_work/r4/n4_net6_2.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.1479619462043047,
+    "log": "codex_work/r4/log_n4_net6_2_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_3",
+    "file": "codex_work/r4/n4_net6_3.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.1479678051546216,
+    "log": "codex_work/r4/log_n4_net6_3_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_3",
+    "file": "codex_work/r4/n4_net6_3.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.15196125488728285,
+    "log": "codex_work/r4/log_n4_net6_3_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_4",
+    "file": "codex_work/r4/n4_net6_4.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.14794895611703396,
+    "log": "codex_work/r4/log_n4_net6_4_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_4",
+    "file": "codex_work/r4/n4_net6_4.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.15196032542735338,
+    "log": "codex_work/r4/log_n4_net6_4_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_5",
+    "file": "codex_work/r4/n4_net6_5.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.1479342058300972,
+    "log": "codex_work/r4/log_n4_net6_5_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_5",
+    "file": "codex_work/r4/n4_net6_5.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09594297874718904,
+    "log": "codex_work/r4/log_n4_net6_5_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_6",
+    "file": "codex_work/r4/n4_net6_6.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09598058834671974,
+    "log": "codex_work/r4/log_n4_net6_6_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_6",
+    "file": "codex_work/r4/n4_net6_6.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.14798651542514563,
+    "log": "codex_work/r4/log_n4_net6_6_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_7",
+    "file": "codex_work/r4/n4_net6_7.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09993826691061258,
+    "log": "codex_work/r4/log_n4_net6_7_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_7",
+    "file": "codex_work/r4/n4_net6_7.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.1479341760277748,
+    "log": "codex_work/r4/log_n4_net6_7_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_8",
+    "file": "codex_work/r4/n4_net6_8.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.1479767868295312,
+    "log": "codex_work/r4/log_n4_net6_8_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_8",
+    "file": "codex_work/r4/n4_net6_8.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.1559481229633093,
+    "log": "codex_work/r4/log_n4_net6_8_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_9",
+    "file": "codex_work/r4/n4_net6_9.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.1519310837611556,
+    "log": "codex_work/r4/log_n4_net6_9_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_9",
+    "file": "codex_work/r4/n4_net6_9.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09592053852975368,
+    "log": "codex_work/r4/log_n4_net6_9_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_10",
+    "file": "codex_work/r4/n4_net6_10.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.10391911491751671,
+    "log": "codex_work/r4/log_n4_net6_10_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_10",
+    "file": "codex_work/r4/n4_net6_10.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.15600357297807932,
+    "log": "codex_work/r4/log_n4_net6_10_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_11",
+    "file": "codex_work/r4/n4_net6_11.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.06001762393862009,
+    "log": "codex_work/r4/log_n4_net6_11_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_11",
+    "file": "codex_work/r4/n4_net6_11.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09991549700498581,
+    "log": "codex_work/r4/log_n4_net6_11_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_12",
+    "file": "codex_work/r4/n4_net6_12.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09645211789757013,
+    "log": "codex_work/r4/log_n4_net6_12_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_12",
+    "file": "codex_work/r4/n4_net6_12.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.1519284751266241,
+    "log": "codex_work/r4/log_n4_net6_12_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_13",
+    "file": "codex_work/r4/n4_net6_13.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.093297079205513,
+    "log": "codex_work/r4/log_n4_net6_13_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_13",
+    "file": "codex_work/r4/n4_net6_13.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.10350907500833273,
+    "log": "codex_work/r4/log_n4_net6_13_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_14",
+    "file": "codex_work/r4/n4_net6_14.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.0959828682243824,
+    "log": "codex_work/r4/log_n4_net6_14_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_14",
+    "file": "codex_work/r4/n4_net6_14.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09850209765136242,
+    "log": "codex_work/r4/log_n4_net6_14_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_15",
+    "file": "codex_work/r4/n4_net6_15.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09990063682198524,
+    "log": "codex_work/r4/log_n4_net6_15_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_15",
+    "file": "codex_work/r4/n4_net6_15.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09197274968028069,
+    "log": "codex_work/r4/log_n4_net6_15_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_16",
+    "file": "codex_work/r4/n4_net6_16.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09597011841833591,
+    "log": "codex_work/r4/log_n4_net6_16_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_16",
+    "file": "codex_work/r4/n4_net6_16.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09591225907206535,
+    "log": "codex_work/r4/log_n4_net6_16_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_17",
+    "file": "codex_work/r4/n4_net6_17.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09189542010426521,
+    "log": "codex_work/r4/log_n4_net6_17_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_17",
+    "file": "codex_work/r4/n4_net6_17.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.08794821240007877,
+    "log": "codex_work/r4/log_n4_net6_17_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_18",
+    "file": "codex_work/r4/n4_net6_18.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.056026396341621876,
+    "log": "codex_work/r4/log_n4_net6_18_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_18",
+    "file": "codex_work/r4/n4_net6_18.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.1279554544016719,
+    "log": "codex_work/r4/log_n4_net6_18_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_19",
+    "file": "codex_work/r4/n4_net6_19.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09195352997630835,
+    "log": "codex_work/r4/log_n4_net6_19_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_19",
+    "file": "codex_work/r4/n4_net6_19.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.12389858718961477,
+    "log": "codex_work/r4/log_n4_net6_19_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_20",
+    "file": "codex_work/r4/n4_net6_20.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.09199053049087524,
+    "log": "codex_work/r4/log_n4_net6_20_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_20",
+    "file": "codex_work/r4/n4_net6_20.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.1079494645819068,
+    "log": "codex_work/r4/log_n4_net6_20_c6_w14.txt"
+  },
+  {
+    "tag": "n4_net6_21",
+    "file": "codex_work/r4/n4_net6_21.txt",
+    "size": 16,
+    "c_cap": 5,
+    "w_cap": 15,
+    "result": "NONE <= 20",
+    "seconds": 0.11197531130164862,
+    "log": "codex_work/r4/log_n4_net6_21_c5_w15.txt"
+  },
+  {
+    "tag": "n4_net6_21",
+    "file": "codex_work/r4/n4_net6_21.txt",
+    "size": 16,
+    "c_cap": 6,
+    "w_cap": 14,
+    "result": "NONE <= 20",
+    "seconds": 0.09519160911440849,
+    "log": "codex_work/r4/log_n4_net6_21_c6_w14.txt"
+  }
+]

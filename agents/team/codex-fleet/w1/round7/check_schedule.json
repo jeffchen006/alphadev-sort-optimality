@@ -1,0 +1,122 @@
+[
+  {
+    "base": 0,
+    "budget": 0,
+    "raw": 1,
+    "case_evaluations": 2,
+    "survivors": 0,
+    "cpu": 0.0002460999999999991
+  },
+  {
+    "base": 1,
+    "budget": 0,
+    "raw": 1,
+    "case_evaluations": 2,
+    "survivors": 0,
+    "cpu": 0.0002478600000000025
+  },
+  {
+    "base": 2,
+    "budget": 1,
+    "raw": 17010,
+    "case_evaluations": 30033,
+    "survivors": 0,
+    "cpu": 2.458241334
+  },
+  {
+    "base": 3,
+    "budget": 1,
+    "raw": 17010,
+    "case_evaluations": 30156,
+    "survivors": 0,
+    "cpu": 2.468535338
+  },
+  {
+    "base": 4,
+    "budget": 1,
+    "raw": 17010,
+    "case_evaluations": 30554,
+    "survivors": 0,
+    "cpu": 2.460303564
+  },
+  {
+    "base": 5,
+    "budget": 1,
+    "raw": 21000,
+    "case_evaluations": 37375,
+    "survivors": 0,
+    "cpu": 3.2061270750000004
+  },
+  {
+    "base": 6,
+    "budget": 1,
+    "raw": 21000,
+    "case_evaluations": 36998,
+    "survivors": 0,
+    "cpu": 3.209496177
+  },
+  {
+    "base": 7,
+    "budget": 1,
+    "raw": 17010,
+    "case_evaluations": 29685,
+    "survivors": 0,
+    "cpu": 2.394675448000001
+  },
+  {
+    "base": 8,
+    "budget": 0,
+    "raw": 1,
+    "case_evaluations": 2,
+    "survivors": 0,
+    "cpu": 0.00023691999999897462
+  },
+  {
+    "base": 9,
+    "budget": 1,
+    "raw": 21000,
+    "case_evaluations": 37034,
+    "survivors": 0,
+    "cpu": 3.167173839
+  },
+  {
+    "base": 11,
+    "budget": 0,
+    "raw": 1,
+    "case_evaluations": 2,
+    "survivors": 0,
+    "cpu": 0.00025816999999861423
+  },
+  {
+    "base": 12,
+    "budget": 1,
+    "raw": 17010,
+    "case_evaluations": 30403,
+    "survivors": 0,
+    "cpu": 2.4284537509999993
+  },
+  {
+    "base": 13,
+    "budget": 1,
+    "raw": 21000,
+    "case_evaluations": 37527,
+    "survivors": 0,
+    "cpu": 3.1948297310000022
+  },
+  {
+    "base": 14,
+    "budget": 0,
+    "raw": 1,
+    "case_evaluations": 2,
+    "survivors": 0,
+    "cpu": 0.00023506999999867162
+  },
+  {
+    "base": 15,
+    "budget": 0,
+    "raw": 1,
+    "case_evaluations": 2,
+    "survivors": 0,
+    "cpu": 0.00023887000000044623
+  }
+]

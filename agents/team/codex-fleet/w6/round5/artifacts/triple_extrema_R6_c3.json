@@ -1,0 +1,21 @@
+{
+  "name": "triple_extrema_R6_c3",
+  "command": [
+    "python3",
+    "-B",
+    "round5/src/triple_extrema.py",
+    "--registers",
+    "6",
+    "--comparisons",
+    "3",
+    "--first"
+  ],
+  "wall_limit": 240.0,
+  "exit": 1,
+  "seconds": 0.21175347175449133,
+  "log": "round5/logs/triple_extrema_R6_c3.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

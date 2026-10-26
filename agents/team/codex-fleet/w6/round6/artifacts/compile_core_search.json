@@ -1,0 +1,22 @@
+{
+  "name": "compile_core_search",
+  "command": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "round6/src/core_search.cpp",
+    "-o",
+    "round6/bin/core_search"
+  ],
+  "wall_limit": 60.0,
+  "exit": 0,
+  "seconds": 18.478233942762017,
+  "log": "round6/logs/compile_core_search.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 5.768287,
+  "peak_child_rss_kib": 356424
+}

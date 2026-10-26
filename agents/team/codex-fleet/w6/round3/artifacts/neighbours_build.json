@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "round3/src/neighbours.cpp",
+    "-o",
+    "round3/neighbours"
+  ],
+  "wall_limit": 40.0,
+  "exit": 0,
+  "seconds": 6.838197668083012,
+  "log": "round3/logs/neighbours_build.log"
+}

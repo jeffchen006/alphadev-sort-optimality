@@ -1,0 +1,23 @@
+# sorted pair P0<=P1; sorted triple P2<=P3<=P4
+mov S0, P1
+cmp P2, P0
+cmovl S1, P2
+cmovge S1, P0
+out 0, S1
+cmovle P2, P0
+cmp S0, P4
+cmovg S0, P2
+cmovg P2, P3
+cmovl P1, P4
+out 4, P1
+cmovle P4, P3
+cmp P4, S0
+cmovge P3, S0
+cmovge S0, P4
+out 3, S0
+cmovg P4, P3
+cmp P3, P2
+cmovg P3, P2
+out 1, P3
+cmovge P2, P4
+out 2, P2

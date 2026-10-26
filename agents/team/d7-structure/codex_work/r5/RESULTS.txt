@@ -1,0 +1,44 @@
+Round 5 result: no k <= 31 program found.
+
+Definitions: A=min012, B=median012, C=max012, D=min34, E=max34,
+L=max(A,D), H=(E>C). The input labels are the same as in w6_c8_k32.s.
+
+376 distinct design pools completed at K=31, automatic R=10. All gave NONE <= 31.
+The seven groups and every pool filename are in runs.csv and summary.json.
+An additional baseline search gave NONE <=31, and its K=32 control gave MIN k=32.
+Six preliminary calls to the unchanged root binary timed out. Three were interrupted.
+They are listed separately and do not count as exclusions.
+
+The completed searches use pool_bfs_live.cpp. This is the root pool_bfs.cpp with
+one necessary pruning condition. For each distinct-input case, each output rank
+not yet captured must still occur in a register. Mov and cmov only copy values.
+If a value is absent from every register, no later instruction can restore it.
+Thus this pruning condition preserves every successful path in the original pool model.
+The K=32 positive path was converted with path2prog.py and passed the strict judge.
+
+The two-select and three-select pools use every pair and triple from these eight
+new columns, written as (H ? true_value : false_value):
+(C:L), (E:L), (L:B), (E:B), (L:C), (B:C), (B:E), (C:E).
+Pair pools retain all 25 old columns. Triple pools remove old column 13, which
+is the first write of the two-cmov select that captures output zero. A mov can
+replace that first write at the same cost in the original capture sequence.
+The early-merge and final-pivot pools replace both old copy-substitute columns
+13 and 20 and add one or two new columns. These tests cover only their pools.
+
+Concrete maximum fix: control32_found.s grows C into max(all), preserves E, and
+passes the strict judge at c=8, g=19, v=5, k=32. It copies C instead of E.
+The six-copy accounting is unchanged: 18 required creations plus 6 extra writes.
+
+Local synthesis result: window_tailg_w4.json is UNSAT. Its start state is exactly
+the state after the four writes following cmp(E,C) in the supplied program.
+The query allows two cmp and four writes, with arbitrary intermediate selects.
+Mov creates a fresh register. Conditional writes to fresh scratch are allowed.
+All fresh scratch has the common value 5 in this relaxation. Every strict valid
+program must also work for this garbage assignment. An UNSAT result on its 24
+test cases therefore excludes a valid replacement in this local instruction model.
+It does not constrain a program that changes earlier register values or outputs.
+The otherwise identical five-write query produced window_tail_w5.s, which passed
+the strict judge at k=32. Three larger maximum-stage synthesis queries timed out.
+
+All search processes used nice -n 10 and affinity restricted to CPU 0 and CPU 1.
+All sessions completed. New source files, pools, programs, and results are in this directory.

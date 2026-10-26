@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round2/candidates/near14_frozen.s",
+    "round3/candidates/near14_full5.s",
+    "--changes",
+    "5",
+    "--change-cmp",
+    "--random-seed",
+    "8304"
+  ],
+  "wall_limit": 180.0,
+  "exit": 124,
+  "seconds": 180.0207566143945,
+  "log": "round3/logs/near14_full5.log"
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/path/to/repo/bin/kissat",
+    "--time=3600",
+    "round3/n4_k19_partial_sym_history.cnf"
+  ],
+  "scope": "Saved round3 sort4 formula; free flags and blocks; required used partial column",
+  "cnf_sha256": "dd810dfdc370f835aa214b0c132dd28bfa46923e37d39a5d89e1cf5648b2b54d",
+  "wall_limit_seconds": 3600
+}

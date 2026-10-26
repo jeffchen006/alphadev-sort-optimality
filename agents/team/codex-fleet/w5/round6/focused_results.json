@@ -1,0 +1,150 @@
+[
+  {
+    "seed": "near9",
+    "slots": [
+      13,
+      20
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 60.10160763282329,
+    "wall_limit": 60,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_all541_13_20.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_all541_13_20.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "13,20",
+      "--all-cases"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 541,
+      "clauses": 1387112,
+      "seconds": 14.530228410847485
+    }
+  },
+  {
+    "seed": "near9",
+    "slots": [
+      15,
+      20
+    ],
+    "status": "UNSAT",
+    "seconds": 47.79297813680023,
+    "wall_limit": 60,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_all541_15_20.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_all541_15_20.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "15,20",
+      "--all-cases"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 541,
+      "seconds": 47.237479131668806,
+      "stats": {
+        "restarts": 266,
+        "conflicts": 10743,
+        "decisions": 19477,
+        "propagations": 77953828
+      }
+    }
+  },
+  {
+    "seed": "near14",
+    "slots": [
+      13,
+      20
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 60.11552205774933,
+    "wall_limit": 60,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near14_all541_13_20.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near14.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near14_all541_13_20.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near14.json",
+      "--predicates",
+      "--slots",
+      "13,20",
+      "--all-cases"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 541,
+      "clauses": 1433785,
+      "seconds": 7.415823843330145
+    }
+  },
+  {
+    "seed": "near14",
+    "slots": [
+      14,
+      20
+    ],
+    "status": "UNSAT",
+    "seconds": 36.29418992996216,
+    "wall_limit": 60,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near14_all541_14_20.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near14.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near14_all541_14_20.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near14.json",
+      "--predicates",
+      "--slots",
+      "14,20",
+      "--all-cases"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 541,
+      "seconds": 35.947911001741886,
+      "stats": {
+        "restarts": 605,
+        "conflicts": 19865,
+        "decisions": 34791,
+        "propagations": 112317648
+      }
+    }
+  }
+]

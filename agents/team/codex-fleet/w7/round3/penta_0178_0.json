@@ -1,0 +1,60 @@
+{
+  "kind": "penta",
+  "index": 178,
+  "window": [
+    19,
+    23,
+    25,
+    27,
+    28
+  ],
+  "attempt": 0,
+  "status": "UNSAT",
+  "registers": 8,
+  "limit_seconds": 60.0,
+  "search_seconds": 34.28845580667257,
+  "peak_KiB": 372148,
+  "exit": 0,
+  "command": [
+    "nice",
+    "-n",
+    "19",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "round3/penta_0178_0.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--free",
+    "19,23,25,27,28",
+    "--proof",
+    "--initial",
+    "16",
+    "--all-cases",
+    "--binary"
+  ],
+  "solver_result": {
+    "status": "UNSAT",
+    "seconds": 34.12360383104533,
+    "cases": 541,
+    "registers": 8,
+    "changes": 0
+  },
+  "blocked_rejected_candidates": 0,
+  "search_resource_counters": {
+    "exit": 0,
+    "limited": false,
+    "seconds": 34.28845580667257,
+    "peak_KiB": 372148,
+    "user_seconds": 25.55,
+    "system_seconds": 0.39
+  },
+  "proof_verified": true,
+  "verify_seconds": 12.178933079354465,
+  "verify_peak_KiB": 116776,
+  "cnf_sha256": "9bf7e069259c0f0ec0c3c8cea3719a692979394b3f83bd444abb1f63062830e1",
+  "drat_sha256": "37b3b7f5a22578cc7ff8616ec0a476bef466a5679deb6253fa2b9501172e595d"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "source": "round3/candidates/nomov_38bc4652d19a9d1c.s",
+    "out_pass": true,
+    "out_log": "round3/logs/nomov_38bc4652d19a9d1c_out_judge.log",
+    "retained": "round3/verified/nomov_38bc4652d19a9d1c.s",
+    "out_sha256": "7e5fb8879b065ea864d070e7fcaa0eb974e0cf4e837676d119778e847f9b195e",
+    "memory": "round3/verified_mem/nomov_38bc4652d19a9d1c.s",
+    "mem_pass": true,
+    "mem_log": "round3/logs/nomov_38bc4652d19a9d1c_mem_judge.log",
+    "mem_sha256": "8c04c432fa8738059d28405d59eb9f4c7caae6aea352e4d3ae938ac8447dba6f"
+  },
+  {
+    "source": "round3/candidates/nomov_68d29028b7fb54c4.s",
+    "out_pass": true,
+    "out_log": "round3/logs/nomov_68d29028b7fb54c4_out_judge.log",
+    "retained": "round3/verified/nomov_68d29028b7fb54c4.s",
+    "out_sha256": "e04ca225a5cf3953c965e8affcdcb0ddeb2fa87756d6e57d9f077e1b075bf421",
+    "memory": "round3/verified_mem/nomov_68d29028b7fb54c4.s",
+    "mem_pass": true,
+    "mem_log": "round3/logs/nomov_68d29028b7fb54c4_mem_judge.log",
+    "mem_sha256": "76ab4b979ef35b08b5a10e8f8c5c3dca340f789ed49a56fce9d54a2d4f2068c5"
+  },
+  {
+    "source": "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+    "out_pass": true,
+    "out_log": "round3/logs/nomov_9f7a6fc77b297ff9_out_judge.log",
+    "retained": "round3/verified/nomov_9f7a6fc77b297ff9.s",
+    "out_sha256": "559ec2217d9993131237f0a739e8fcd5bedeb12e261c76a374a364673fc84184",
+    "memory": "round3/verified_mem/nomov_9f7a6fc77b297ff9.s",
+    "mem_pass": true,
+    "mem_log": "round3/logs/nomov_9f7a6fc77b297ff9_mem_judge.log",
+    "mem_sha256": "1db9fe5d6f40b81491a34b8a8c47b51df52e0fc49f8c87e6829fb331fccb366f"
+  },
+  {
+    "source": "round3/candidates/nomov_4c02da04dce39b74.s",
+    "out_pass": true,
+    "out_log": "round3/logs/nomov_4c02da04dce39b74_out_judge.log",
+    "retained": "round3/verified/nomov_4c02da04dce39b74.s",
+    "out_sha256": "6b89912bd57c69f3abda42328c56eacaa73d15c8c31eac26cd48cfedf1797017",
+    "memory": "round3/verified_mem/nomov_4c02da04dce39b74.s",
+    "mem_pass": true,
+    "mem_log": "round3/logs/nomov_4c02da04dce39b74_mem_judge.log",
+    "mem_sha256": "762f07cb25e911db27b53507969357ea21439770c4d509009631e04f7ec84ae1"
+  },
+  {
+    "source": "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+    "out_pass": true,
+    "out_log": "round3/logs/nomov_7e5d1b2681c79ac1_out_judge.log",
+    "retained": "round3/verified/nomov_7e5d1b2681c79ac1.s",
+    "out_sha256": "da5a4aa2873b78adb8a7d81215e2dc841bf9d05743f94764c13b82ae5c4d47f9",
+    "memory": "round3/verified_mem/nomov_7e5d1b2681c79ac1.s",
+    "mem_pass": true,
+    "mem_log": "round3/logs/nomov_7e5d1b2681c79ac1_mem_judge.log",
+    "mem_sha256": "67dfd18caac4dde7d6da127412df9abdcb7af7e269c6c7f489d976d327990d34"
+  },
+  {
+    "source": "round3/candidates/nomov_cb7f7a699c4c9842.s",
+    "out_pass": true,
+    "out_log": "round3/logs/nomov_cb7f7a699c4c9842_out_judge.log",
+    "retained": "round3/verified/nomov_cb7f7a699c4c9842.s",
+    "out_sha256": "f0f6193fb909c2cf3760b6252a409c5307547850ca430c11e91f6d4b10f9d387",
+    "memory": "round3/verified_mem/nomov_cb7f7a699c4c9842.s",
+    "mem_pass": true,
+    "mem_log": "round3/logs/nomov_cb7f7a699c4c9842_mem_judge.log",
+    "mem_sha256": "a5dc690fa09e61f1923af335b76594b802964b813cc03adbedb0fedeef091557"
+  }
+]

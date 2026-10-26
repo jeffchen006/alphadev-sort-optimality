@@ -1,0 +1,25 @@
+{
+  "name": "suffix12_dest_r9",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix12_dest.s",
+    "--changes",
+    "0",
+    "--registers",
+    "9",
+    "--prefix",
+    "12",
+    "--typed",
+    "--fixed-dest"
+  ],
+  "limit": 1800,
+  "seconds": 273.7904607318342,
+  "exit": 0,
+  "status": "finished"
+}

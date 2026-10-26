@@ -1,0 +1,2300 @@
+{
+  "result": "No strict PASS with core k <= 31 was found.",
+  "jobs": [
+    {
+      "name": "analyze_seeds",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/analyze.py"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 1.4990675831213593,
+      "log": "round6/logs/analyze_seeds.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "audit_c7",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/audit_c7.py"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 1.2972704507410526,
+      "log": "round6/logs/audit_c7.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "child_cpu_seconds": 0.10855999999999999,
+      "peak_child_rss_kib": 14660,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "audit_near",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/audit_near.py"
+      ],
+      "wall_limit": 120.0,
+      "exit": 0,
+      "seconds": 1.1724497489631176,
+      "log": "round6/logs/audit_near.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 1.006132,
+      "peak_child_rss_kib": 11348,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "c7_accept_control",
+      "command": [
+        "round6/bin/core_search",
+        "round6/seeds/c8_c7_0_out.s",
+        "round6/candidates/c7_accept_control",
+        "31",
+        "4",
+        "0.15",
+        "0.2",
+        "626077",
+        "7",
+        "0",
+        "7"
+      ],
+      "wall_limit": 15.0,
+      "exit": 0,
+      "seconds": 1.2539373505860567,
+      "log": "round6/logs/c7_accept_control.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 0.20900799999999997,
+      "peak_child_rss_kib": 10940,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY iterations=278528 accepted=46395 correct_visits=0 best=999 best_error=96 cpu=0.202258 newstructures=0 resets=0 archive=6 samples=0"
+      ]
+    },
+    {
+      "name": "c7_fixed_t10",
+      "command": [
+        "round6/bin/core_search",
+        "round6/seeds/c8_c7_0_out.s",
+        "round6/candidates/c7_fixed_t10",
+        "31",
+        "10",
+        "0.15",
+        "65",
+        "626070",
+        "7",
+        "0",
+        "7"
+      ],
+      "wall_limit": 150.0,
+      "exit": 0,
+      "seconds": 73.52735991869122,
+      "log": "round6/logs/c7_fixed_t10.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 65.008679,
+      "peak_child_rss_kib": 11132,
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS iterations=61865984 accepted=40909394 error=558 best=999 cpu=64.1745",
+        "SUMMARY iterations=62656512 accepted=41434119 correct_visits=0 best=999 best_error=113 cpu=65.0023 newstructures=0 resets=31 archive=2 samples=0"
+      ]
+    },
+    {
+      "name": "c7_fixed_t4",
+      "command": [
+        "round6/bin/core_search",
+        "round6/seeds/c8_c7_0_out.s",
+        "round6/candidates/c7_fixed_t4",
+        "31",
+        "4",
+        "0.15",
+        "65",
+        "626074",
+        "7",
+        "0",
+        "7"
+      ],
+      "wall_limit": 150.0,
+      "exit": 0,
+      "seconds": 76.61146041750908,
+      "log": "round6/logs/c7_fixed_t4.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 65.006776,
+      "peak_child_rss_kib": 11076,
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS iterations=94371840 accepted=26016544 error=104 best=999 cpu=64.5679",
+        "SUMMARY iterations=95014912 accepted=26182685 correct_visits=0 best=999 best_error=95 cpu=65.0004 newstructures=0 resets=47 archive=8 samples=0"
+      ]
+    },
+    {
+      "name": "c7_packed",
+      "command": [
+        "round5/bin/new_search",
+        "round6/seeds/c8_c7_0_out.s",
+        "round6/candidates/c7_packed",
+        "31",
+        "4",
+        "0.2",
+        "180",
+        "626071",
+        "7",
+        "0",
+        "7"
+      ],
+      "wall_limit": 240.0,
+      "exit": 0,
+      "seconds": 189.58539514336735,
+      "log": "round6/logs/c7_packed.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 180.00699400000002,
+      "peak_child_rss_kib": 10892,
+      "status": "INVALID_NO_SEARCH",
+      "last_status": [
+        "SUMMARY iterations=2040758272 accepted=0 correct_visits=0 best=999 best_error=114 cpu=180 newstructures=0 resets=1020 archive=1 samples=0"
+      ]
+    },
+    {
+      "name": "class_0_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+        "round6/candidates/class_0_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.118991036899388,
+      "log": "round6/logs/class_0_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.788269,
+      "peak_child_rss_kib": 10848,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=1982 full=1982 hits=0 best_error=9 best_fail=9 cpu=4.78169"
+      ]
+    },
+    {
+      "name": "class_10_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+        "round6/candidates/class_10_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.020411902107298,
+      "log": "round6/logs/class_10_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.911784,
+      "peak_child_rss_kib": 10812,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=2053 full=2053 hits=0 best_error=9 best_fail=9 cpu=4.90622"
+      ]
+    },
+    {
+      "name": "class_11_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_1347_out.s",
+        "round6/candidates/class_11_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.125627764500678,
+      "log": "round6/logs/class_11_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.845709,
+      "peak_child_rss_kib": 10948,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=1985 full=1985 hits=0 best_error=9 best_fail=9 cpu=4.84014"
+      ]
+    },
+    {
+      "name": "class_12_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_2036_out.s",
+        "round6/candidates/class_12_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.024554400704801,
+      "log": "round6/logs/class_12_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.937913,
+      "peak_child_rss_kib": 10884,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=4.93168"
+      ]
+    },
+    {
+      "name": "class_13_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_1999_out.s",
+        "round6/candidates/class_13_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 8.351725439541042,
+      "log": "round6/logs/class_13_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 8.085972,
+      "peak_child_rss_kib": 10980,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=9 alphabet=441 singles=13671 pairs=90433665 tried=90447336 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=8.08017"
+      ]
+    },
+    {
+      "name": "class_1_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+        "round6/candidates/class_1_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 4.802434829995036,
+      "log": "round6/logs/class_1_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.774356,
+      "peak_child_rss_kib": 10872,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=1982 full=1982 hits=0 best_error=9 best_fail=9 cpu=4.7686"
+      ]
+    },
+    {
+      "name": "class_2_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+        "round6/candidates/class_2_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.108422581106424,
+      "log": "round6/logs/class_2_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 5.042700000000001,
+      "peak_child_rss_kib": 10760,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=1919 full=1919 hits=0 best_error=9 best_fail=9 cpu=5.03636"
+      ]
+    },
+    {
+      "name": "class_3_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_729_out.s",
+        "round6/candidates/class_3_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.111660499125719,
+      "log": "round6/logs/class_3_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 5.10176,
+      "peak_child_rss_kib": 10792,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=2038 full=2038 hits=0 best_error=9 best_fail=9 cpu=5.09597"
+      ]
+    },
+    {
+      "name": "class_4_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_2023_out.s",
+        "round6/candidates/class_4_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.093472226522863,
+      "log": "round6/logs/class_4_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.997055,
+      "peak_child_rss_kib": 10888,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=4.99027"
+      ]
+    },
+    {
+      "name": "class_5_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_425_out.s",
+        "round6/candidates/class_5_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 9.507790976203978,
+      "log": "round6/logs/class_5_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 8.178276,
+      "peak_child_rss_kib": 10888,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=9 alphabet=441 singles=13671 pairs=90433665 tried=90447336 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=8.17234"
+      ]
+    },
+    {
+      "name": "class_6_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_460_out.s",
+        "round6/candidates/class_6_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 8.14960762206465,
+      "log": "round6/logs/class_6_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 8.006537,
+      "peak_child_rss_kib": 10996,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=9 alphabet=441 singles=13671 pairs=90433665 tried=90447336 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=8.00045"
+      ]
+    },
+    {
+      "name": "class_7_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_469_out.s",
+        "round6/candidates/class_7_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 5.142990797758102,
+      "log": "round6/logs/class_7_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 5.0685020000000005,
+      "peak_child_rss_kib": 10904,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=5.06233"
+      ]
+    },
+    {
+      "name": "class_8_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_1440_out.s",
+        "round6/candidates/class_8_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 4.9987662909552455,
+      "log": "round6/logs/class_8_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 4.952163,
+      "peak_child_rss_kib": 10976,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=1923 full=1923 hits=0 best_error=9 best_fail=9 cpu=4.94633"
+      ]
+    },
+    {
+      "name": "class_9_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round6/candidates/mem_a4_c8t1.2_near_447_out.s",
+        "round6/candidates/class_9_two"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 9.265287341549993,
+      "log": "round6/logs/class_9_two.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 8.297545,
+      "peak_child_rss_kib": 11044,
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY registers=9 alphabet=441 singles=13671 pairs=90433665 tried=90447336 filtered=0 full=0 hits=0 best_error=9 best_fail=9 cpu=8.29193"
+      ]
+    },
+    {
+      "name": "class_pair_batch",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/repair_classes.py"
+      ],
+      "wall_limit": 900.0,
+      "exit": 0,
+      "seconds": 87.55135686974972,
+      "log": "round6/logs/class_pair_batch.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 82.629915,
+      "peak_child_rss_kib": 12224,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "compile_core_search",
+      "command": [
+        "g++",
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "round6/src/core_search.cpp",
+        "-o",
+        "round6/bin/core_search"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 18.478233942762017,
+      "log": "round6/logs/compile_core_search.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 5.768287,
+      "peak_child_rss_kib": 356424,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "compile_suffix",
+      "command": [
+        "g++",
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "round6/src/suffix.cpp",
+        "-o",
+        "round6/bin/suffix"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 14.052418230101466,
+      "log": "round6/logs/compile_suffix.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "conversion_controls",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/conversion_controls.py"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 18.57880147639662,
+      "log": "round6/logs/conversion_controls.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 3.9251419999999997,
+      "peak_child_rss_kib": 27296,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "mem_a0_c9t0.6",
+      "command": [
+        "round6/bin/mcmc",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/net41_c9_0_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "0.6",
+        "-lam",
+        "0.1",
+        "-time",
+        "110",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270700",
+        "-out",
+        "round6/candidates/mem_a0_c9t0.6"
+      ],
+      "wall_limit": 125.0,
+      "exit": 124,
+      "seconds": 125.07697883248329,
+      "log": "round6/logs/mem_a0_c9t0.6.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mem_a1_c9t1.5",
+      "command": [
+        "round6/bin/mcmc",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/net41_c9_1_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "1.5",
+        "-lam",
+        "0.1",
+        "-time",
+        "110",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270701",
+        "-out",
+        "round6/candidates/mem_a1_c9t1.5"
+      ],
+      "wall_limit": 125.0,
+      "exit": 124,
+      "seconds": 125.03903532680124,
+      "log": "round6/logs/mem_a1_c9t1.5.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mem_a2_c9t3",
+      "command": [
+        "round6/bin/mcmc",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/partner_0_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "3",
+        "-lam",
+        "0.1",
+        "-time",
+        "110",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270702",
+        "-out",
+        "round6/candidates/mem_a2_c9t3"
+      ],
+      "wall_limit": 125.0,
+      "exit": 124,
+      "seconds": 125.01424683537334,
+      "log": "round6/logs/mem_a2_c9t3.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mem_a3_c9t6",
+      "command": [
+        "round6/bin/mcmc",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/partner_3_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "6",
+        "-lam",
+        "0.1",
+        "-time",
+        "110",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270703",
+        "-out",
+        "round6/candidates/mem_a3_c9t6"
+      ],
+      "wall_limit": 125.0,
+      "exit": 0,
+      "seconds": 110.57950018439442,
+      "log": "round6/logs/mem_a3_c9t6.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "bestwrong=21 savednear=0 partner_moves=668315 collected=0 done it=46931968 acc=8156496 restarts=148 time=110.0s rate=426651/s best=-1 curcost=82.1"
+      ]
+    },
+    {
+      "name": "mem_a4_c8t1.2",
+      "command": [
+        "round6/bin/mcmc",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "8",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/near9_c9_0_mem.s",
+        "-mincmp",
+        "8",
+        "-maxcmp",
+        "9",
+        "-T",
+        "1.2",
+        "-lam",
+        "0.1",
+        "-time",
+        "110",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270704",
+        "-out",
+        "round6/candidates/mem_a4_c8t1.2"
+      ],
+      "wall_limit": 125.0,
+      "exit": 124,
+      "seconds": 125.00753839500248,
+      "log": "round6/logs/mem_a4_c8t1.2.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mem_a5_c7t10",
+      "command": [
+        "round6/bin/mcmc",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/partner_8_mem.s",
+        "-mincmp",
+        "7",
+        "-maxcmp",
+        "9",
+        "-T",
+        "10",
+        "-lam",
+        "0.1",
+        "-time",
+        "110",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270705",
+        "-out",
+        "round6/candidates/mem_a5_c7t10"
+      ],
+      "wall_limit": 125.0,
+      "exit": 0,
+      "seconds": 119.09645361453295,
+      "log": "round6/logs/mem_a5_c7t10.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "bestwrong=52 savednear=0 partner_moves=500550 collected=0 done it=35889152 acc=7016045 restarts=114 time=110.0s rate=326230/s best=-1 curcost=225.1"
+      ]
+    },
+    {
+      "name": "mem_b0_c7t0.8",
+      "command": [
+        "round6/bin/mcmc2",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/c8_c7_0_mem.s",
+        "-mincmp",
+        "7",
+        "-maxcmp",
+        "7",
+        "-T",
+        "0.8",
+        "-lam",
+        "0.1",
+        "-time",
+        "75",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270800",
+        "-out",
+        "round6/candidates/mem_b0_c7t0.8"
+      ],
+      "wall_limit": 165.0,
+      "exit": 0,
+      "seconds": 149.48747986089438,
+      "log": "round6/logs/mem_b0_c7t0.8.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS it=27262976 acc=5198414 cpu=72.645 bestwrong=180",
+        "bestwrong=180 savednear=0 partner_moves=417282 collected=0 done it=28221440 acc=5384364 restarts=72 time=75.0s rate=376248/s best=-1 curcost=276.9"
+      ]
+    },
+    {
+      "name": "mem_b1_c7t2",
+      "command": [
+        "round6/bin/mcmc2",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/c8_c7_1_mem.s",
+        "-mincmp",
+        "7",
+        "-maxcmp",
+        "7",
+        "-T",
+        "2",
+        "-lam",
+        "0.1",
+        "-time",
+        "75",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270801",
+        "-out",
+        "round6/candidates/mem_b1_c7t2"
+      ],
+      "wall_limit": 165.0,
+      "exit": 0,
+      "seconds": 75.73854151275009,
+      "log": "round6/logs/mem_b1_c7t2.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS it=27262976 acc=4983921 cpu=72.482 bestwrong=258",
+        "bestwrong=258 savednear=0 partner_moves=440007 collected=0 done it=28217344 acc=5158423 restarts=108 time=75.0s rate=376206/s best=-1 curcost=300.9"
+      ]
+    },
+    {
+      "name": "mem_b2_c7t5",
+      "command": [
+        "round6/bin/mcmc2",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/c8_c7_0_mem.s",
+        "-mincmp",
+        "7",
+        "-maxcmp",
+        "7",
+        "-T",
+        "5",
+        "-lam",
+        "0.1",
+        "-time",
+        "75",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270802",
+        "-out",
+        "round6/candidates/mem_b2_c7t5"
+      ],
+      "wall_limit": 165.0,
+      "exit": 0,
+      "seconds": 75.42563735507429,
+      "log": "round6/logs/mem_b2_c7t5.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS it=29360128 acc=5777718 cpu=74.433 bestwrong=207",
+        "bestwrong=207 savednear=0 partner_moves=432218 collected=0 done it=29589504 acc=5822790 restarts=85 time=75.0s rate=394522/s best=-1 curcost=232.1"
+      ]
+    },
+    {
+      "name": "mem_b3_c9t1",
+      "command": [
+        "round6/bin/mcmc2",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/partner_1_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "1",
+        "-lam",
+        "0.1",
+        "-time",
+        "75",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270803",
+        "-out",
+        "round6/candidates/mem_b3_c9t1"
+      ],
+      "wall_limit": 165.0,
+      "exit": 0,
+      "seconds": 75.73975898232311,
+      "log": "round6/logs/mem_b3_c9t1.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS it=32505856 acc=5326438 cpu=74.370 bestwrong=39",
+        "bestwrong=39 savednear=0 partner_moves=468722 collected=0 done it=32784384 acc=5371725 restarts=117 time=75.0s rate=437118/s best=-1 curcost=91.1"
+      ]
+    },
+    {
+      "name": "mem_b4_c9t3",
+      "command": [
+        "round6/bin/mcmc2",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "10",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/partner_5_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "3",
+        "-lam",
+        "0.1",
+        "-time",
+        "75",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270804",
+        "-out",
+        "round6/candidates/mem_b4_c9t3"
+      ],
+      "wall_limit": 165.0,
+      "exit": 0,
+      "seconds": 76.00753762200475,
+      "log": "round6/logs/mem_b4_c9t3.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS it=30408704 acc=5427513 cpu=74.573 bestwrong=21",
+        "bestwrong=21 savednear=0 partner_moves=429234 collected=0 done it=30584832 acc=5459104 restarts=118 time=75.0s rate=407779/s best=-1 curcost=160.1"
+      ]
+    },
+    {
+      "name": "mem_b5_c9t0.5",
+      "command": [
+        "round6/bin/mcmc2",
+        "-n",
+        "5",
+        "-m",
+        "mem",
+        "-L",
+        "41",
+        "-S",
+        "8",
+        "-i",
+        "I1",
+        "-start",
+        "round6/seeds/near9_c9_0_mem.s",
+        "-mincmp",
+        "9",
+        "-maxcmp",
+        "9",
+        "-T",
+        "0.5",
+        "-lam",
+        "0.1",
+        "-time",
+        "75",
+        "-iters",
+        "10000000000",
+        "-restart",
+        "0.000003",
+        "-seed",
+        "6270805",
+        "-out",
+        "round6/candidates/mem_b5_c9t0.5"
+      ],
+      "wall_limit": 165.0,
+      "exit": 0,
+      "seconds": 103.26369180995971,
+      "log": "round6/logs/mem_b5_c9t0.5.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "STATUS it=32505856 acc=5237763 cpu=74.742 bestwrong=9",
+        "bestwrong=9 savednear=128 partner_moves=482695 collected=0 done it=32624640 acc=5257099 restarts=99 time=75.0s rate=434984/s best=-1 curcost=13.1"
+      ]
+    },
+    {
+      "name": "mine_near",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/mine_near.py"
+      ],
+      "wall_limit": 120.0,
+      "exit": 0,
+      "seconds": 34.48340571951121,
+      "log": "round6/logs/mine_near.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "mine_near_clean",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/mine_near.py",
+        "--clean"
+      ],
+      "wall_limit": 120.0,
+      "exit": 0,
+      "seconds": 15.086296938359737,
+      "log": "round6/logs/mine_near_clean.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 1.600889,
+      "peak_child_rss_kib": 41408,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "mined_0_typed4",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+        "round6/candidates/mined_0_typed4.s",
+        "--rank",
+        "--typed",
+        "--changes",
+        "4",
+        "--maxcmp",
+        "9",
+        "--fresh",
+        "1",
+        "--change-cmp",
+        "--random-seed",
+        "626400"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.02294064499438,
+      "log": "round6/logs/mined_0_typed4.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 82.93263400000001,
+      "peak_child_rss_kib": 126052,
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mined_1_typed4",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+        "round6/candidates/mined_1_typed4.s",
+        "--rank",
+        "--typed",
+        "--changes",
+        "4",
+        "--maxcmp",
+        "9",
+        "--fresh",
+        "1",
+        "--change-cmp",
+        "--random-seed",
+        "626401"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.03238105122,
+      "log": "round6/logs/mined_1_typed4.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 89.306049,
+      "peak_child_rss_kib": 111248,
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mined_2_typed4",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+        "round6/candidates/mined_2_typed4.s",
+        "--rank",
+        "--typed",
+        "--changes",
+        "4",
+        "--maxcmp",
+        "9",
+        "--fresh",
+        "1",
+        "--change-cmp",
+        "--random-seed",
+        "626402"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.03271583840251,
+      "log": "round6/logs/mined_2_typed4.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 89.42518799999999,
+      "peak_child_rss_kib": 132660,
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "mined_sat_batch",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/repair_mined.py"
+      ],
+      "wall_limit": 300.0,
+      "exit": 0,
+      "seconds": 270.3991398829967,
+      "log": "round6/logs/mined_sat_batch.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "child_cpu_seconds": 261.808101,
+      "peak_child_rss_kib": 132660,
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "near9_suffix12_free",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round6/candidates/near9_suffix12_free.s",
+        "--rank",
+        "--changes",
+        "0",
+        "--prefix",
+        "19",
+        "--maxcmp",
+        "9",
+        "--random-seed",
+        "626121"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.59931125771254,
+      "log": "round6/logs/near9_suffix12_free.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "near9_suffix12_typed",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round6/candidates/near9_suffix12_typed.s",
+        "--rank",
+        "--typed",
+        "--changes",
+        "0",
+        "--prefix",
+        "19",
+        "--maxcmp",
+        "9",
+        "--random-seed",
+        "626122"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 181.37794326618314,
+      "log": "round6/logs/near9_suffix12_typed.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "near9_suffix15",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round6/candidates/near9_suffix15.s",
+        "--rank",
+        "--typed",
+        "--changes",
+        "0",
+        "--prefix",
+        "16",
+        "--maxcmp",
+        "9",
+        "--fresh",
+        "1",
+        "--random-seed",
+        "6260915"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.0262308018282,
+      "log": "round6/logs/near9_suffix15.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": []
+    },
+    {
+      "name": "new32_cmp2",
+      "command": [
+        "round4/search_v2",
+        "round6/artifacts/new32.txt",
+        "0",
+        "1",
+        "cmp2",
+        "round6/candidates/new32_cmp2"
+      ],
+      "wall_limit": 240.0,
+      "exit": 0,
+      "seconds": 2.4626270243898034,
+      "log": "round6/logs/new32_cmp2.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY mode=cmp2 seeds=2 tried=8020754 filtered=18 full=18 hits=0 cpu=0.942152"
+      ]
+    },
+    {
+      "name": "new32_delete2",
+      "command": [
+        "round4/search_v2",
+        "round6/artifacts/new32.txt",
+        "0",
+        "1",
+        "delete2",
+        "round6/candidates/new32_delete2"
+      ],
+      "wall_limit": 240.0,
+      "exit": 0,
+      "seconds": 4.904964016750455,
+      "log": "round6/logs/new32_delete2.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY mode=delete2 seeds=2 tried=5725390 filtered=106 full=106 hits=0 cpu=0.657081"
+      ]
+    },
+    {
+      "name": "new32_flags",
+      "command": [
+        "round4/search_v2",
+        "round6/artifacts/new32.txt",
+        "0",
+        "1",
+        "flagswrites",
+        "round6/candidates/new32_flags"
+      ],
+      "wall_limit": 240.0,
+      "exit": 0,
+      "seconds": 4.633348350413144,
+      "log": "round6/logs/new32_flags.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": [
+        "SUMMARY mode=flagswrites seeds=2 tried=29661930 filtered=30 full=30 hits=0 cpu=3.23301"
+      ]
+    },
+    {
+      "name": "prepare",
+      "command": [
+        "python3",
+        "-B",
+        "round6/src/prepare.py"
+      ],
+      "wall_limit": 180.0,
+      "exit": 0,
+      "seconds": 51.035180043429136,
+      "log": "round6/logs/prepare.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED",
+      "last_status": []
+    },
+    {
+      "name": "suffix16_t3",
+      "command": [
+        "round6/bin/suffix",
+        "round5/candidates/fresh31_near.s",
+        "round6/candidates/suffix16_t3",
+        "31",
+        "3",
+        "0.05",
+        "180",
+        "626163",
+        "9",
+        "0",
+        "8",
+        "16"
+      ],
+      "wall_limit": 240.0,
+      "exit": 124,
+      "seconds": 240.165274085477,
+      "log": "round6/logs/suffix16_t3.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": [
+        "STATUS iterations=96468992 accepted=13710737 error=30 best=999 cpu=86.0048",
+        "STATUS iterations=105906176 accepted=15105152 error=78 best=999 cpu=94.3608"
+      ]
+    },
+    {
+      "name": "suffix19_t1",
+      "command": [
+        "round6/bin/suffix",
+        "round5/candidates/fresh31_near.s",
+        "round6/candidates/suffix19_t1",
+        "31",
+        "1",
+        "0.05",
+        "180",
+        "626191",
+        "9",
+        "0",
+        "8",
+        "19"
+      ],
+      "wall_limit": 240.0,
+      "exit": 124,
+      "seconds": 240.31783293373883,
+      "log": "round6/logs/suffix19_t1.log",
+      "affinity": [
+        73,
+        74
+      ],
+      "status": "UNKNOWN_LIMIT",
+      "last_status": [
+        "STATUS iterations=40894464 accepted=5601946 error=9 best=999 cpu=33.5575",
+        "STATUS iterations=44040192 accepted=6032263 error=9 best=999 cpu=36.1719"
+      ]
+    }
+  ],
+  "memory_runs": [
+    {
+      "name": "mem_a0_c9t0.6",
+      "exit": 124,
+      "status": "UNKNOWN_LIMIT",
+      "file": "round6/candidates/mem_a0_c9t0.6_best.s",
+      "header": "# n=5 model=mem iset=I1 error=39 failed_orders=39",
+      "instructions": {
+        "mov": 14,
+        "cmp": 9,
+        "cmovle": 5,
+        "cmovl": 4,
+        "cmovge": 6,
+        "cmovg": 3
+      },
+      "final_counters": false
+    },
+    {
+      "name": "mem_a1_c9t1.5",
+      "exit": 124,
+      "status": "UNKNOWN_LIMIT",
+      "file": "round6/candidates/mem_a1_c9t1.5_best.s",
+      "header": "# n=5 model=mem iset=I1 error=39 failed_orders=39",
+      "instructions": {
+        "mov": 13,
+        "cmp": 9,
+        "cmovle": 5,
+        "cmovg": 4,
+        "cmovge": 5,
+        "cmovl": 5
+      },
+      "final_counters": false
+    },
+    {
+      "name": "mem_a2_c9t3",
+      "exit": 124,
+      "status": "UNKNOWN_LIMIT",
+      "file": "round6/candidates/mem_a2_c9t3_best.s",
+      "header": "# n=5 model=mem iset=I1 error=21 failed_orders=21",
+      "instructions": {
+        "mov": 14,
+        "cmp": 9,
+        "cmovge": 4,
+        "cmovle": 5,
+        "cmovl": 5,
+        "cmovg": 4
+      },
+      "final_counters": false
+    },
+    {
+      "name": "mem_a3_c9t6",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_a3_c9t6_best.s",
+      "header": "# n=5 model=mem iset=I1 error=21 failed_orders=21",
+      "instructions": {
+        "mov": 14,
+        "cmp": 9,
+        "cmovle": 4,
+        "cmovl": 7,
+        "cmovge": 4,
+        "cmovg": 3
+      },
+      "final_counters": true,
+      "iterations": 46931968,
+      "accepted": 8156496,
+      "cpu_seconds": 110.0
+    },
+    {
+      "name": "mem_a4_c8t1.2",
+      "exit": 124,
+      "status": "UNKNOWN_LIMIT",
+      "file": "round6/candidates/mem_a4_c8t1.2_best.s",
+      "header": "# n=5 model=mem iset=I1 error=9 failed_orders=9",
+      "instructions": {
+        "mov": 12,
+        "cmp": 9,
+        "cmovge": 11,
+        "cmovg": 3,
+        "cmovle": 5,
+        "cmovl": 1
+      },
+      "final_counters": false
+    },
+    {
+      "name": "mem_a5_c7t10",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_a5_c7t10_best.s",
+      "header": "# n=5 model=mem iset=I1 error=52 failed_orders=39",
+      "instructions": {
+        "mov": 14,
+        "cmp": 9,
+        "cmovge": 6,
+        "cmovl": 3,
+        "cmovg": 4,
+        "cmovle": 5
+      },
+      "final_counters": true,
+      "iterations": 35889152,
+      "accepted": 7016045,
+      "cpu_seconds": 110.0
+    },
+    {
+      "name": "mem_b0_c7t0.8",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_b0_c7t0.8_best.s",
+      "header": "# n=5 model=mem iset=I1 error=180 failed_orders=180",
+      "instructions": {
+        "mov": 15,
+        "cmp": 7,
+        "cmovg": 6,
+        "cmovge": 6,
+        "cmovle": 4,
+        "cmovl": 3
+      },
+      "final_counters": true,
+      "iterations": 28221440,
+      "accepted": 5384364,
+      "cpu_seconds": 75.0
+    },
+    {
+      "name": "mem_b1_c7t2",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_b1_c7t2_best.s",
+      "header": "# n=5 model=mem iset=I1 error=258 failed_orders=232",
+      "instructions": {
+        "mov": 15,
+        "cmp": 7,
+        "cmovle": 7,
+        "cmovg": 7,
+        "cmovge": 4,
+        "cmovl": 1
+      },
+      "final_counters": true,
+      "iterations": 28217344,
+      "accepted": 5158423,
+      "cpu_seconds": 75.0
+    },
+    {
+      "name": "mem_b2_c7t5",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_b2_c7t5_best.s",
+      "header": "# n=5 model=mem iset=I1 error=207 failed_orders=126",
+      "instructions": {
+        "mov": 16,
+        "cmovle": 3,
+        "cmp": 7,
+        "cmovl": 4,
+        "cmovg": 6,
+        "cmovge": 5
+      },
+      "final_counters": true,
+      "iterations": 29589504,
+      "accepted": 5822790,
+      "cpu_seconds": 75.0
+    },
+    {
+      "name": "mem_b3_c9t1",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_b3_c9t1_best.s",
+      "header": "# n=5 model=mem iset=I1 error=39 failed_orders=39",
+      "instructions": {
+        "mov": 13,
+        "cmp": 9,
+        "cmovge": 8,
+        "cmovle": 5,
+        "cmovl": 2,
+        "cmovg": 4
+      },
+      "final_counters": true,
+      "iterations": 32784384,
+      "accepted": 5371725,
+      "cpu_seconds": 75.0
+    },
+    {
+      "name": "mem_b4_c9t3",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_b4_c9t3_best.s",
+      "header": "# n=5 model=mem iset=I1 error=21 failed_orders=21",
+      "instructions": {
+        "mov": 13,
+        "cmp": 9,
+        "cmovle": 4,
+        "cmovl": 3,
+        "cmovge": 9,
+        "cmovg": 3
+      },
+      "final_counters": true,
+      "iterations": 30584832,
+      "accepted": 5459104,
+      "cpu_seconds": 75.0
+    },
+    {
+      "name": "mem_b5_c9t0.5",
+      "exit": 0,
+      "status": "FINISHED",
+      "file": "round6/candidates/mem_b5_c9t0.5_best.s",
+      "header": "# n=5 model=mem iset=I1 error=9 failed_orders=9",
+      "instructions": {
+        "mov": 12,
+        "cmp": 9,
+        "cmovge": 11,
+        "cmovg": 3,
+        "cmovle": 5,
+        "cmovl": 1
+      },
+      "final_counters": true,
+      "iterations": 32624640,
+      "accepted": 5257099,
+      "cpu_seconds": 75.0
+    }
+  ],
+  "memory_complete_counter_totals": {
+    "iterations": 264843264,
+    "accepted": 47626046,
+    "runs": 8
+  },
+  "class_pair_repairs": [
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 1982,
+      "full": 1982,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.78169,
+      "log": "round6/logs/class_0_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 2053,
+      "full": 2053,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.90622,
+      "log": "round6/logs/class_10_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 1985,
+      "full": 1985,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.84014,
+      "log": "round6/logs/class_11_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.93168,
+      "log": "round6/logs/class_12_two.log"
+    },
+    {
+      "registers": 9,
+      "alphabet": 441,
+      "singles": 13671,
+      "pairs": 90433665,
+      "tried": 90447336,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 8.08017,
+      "log": "round6/logs/class_13_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 1982,
+      "full": 1982,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.7686,
+      "log": "round6/logs/class_1_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 1919,
+      "full": 1919,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 5.03636,
+      "log": "round6/logs/class_2_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 2038,
+      "full": 2038,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 5.09597,
+      "log": "round6/logs/class_3_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.99027,
+      "log": "round6/logs/class_4_two.log"
+    },
+    {
+      "registers": 9,
+      "alphabet": 441,
+      "singles": 13671,
+      "pairs": 90433665,
+      "tried": 90447336,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 8.17234,
+      "log": "round6/logs/class_5_two.log"
+    },
+    {
+      "registers": 9,
+      "alphabet": 441,
+      "singles": 13671,
+      "pairs": 90433665,
+      "tried": 90447336,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 8.00045,
+      "log": "round6/logs/class_6_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 5.06233,
+      "log": "round6/logs/class_7_two.log"
+    },
+    {
+      "registers": 8,
+      "alphabet": 344,
+      "singles": 10664,
+      "pairs": 55026240,
+      "tried": 55036904,
+      "filtered": 1923,
+      "full": 1923,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 4.94633,
+      "log": "round6/logs/class_8_two.log"
+    },
+    {
+      "registers": 9,
+      "alphabet": 441,
+      "singles": 13671,
+      "pairs": 90433665,
+      "tried": 90447336,
+      "filtered": 0,
+      "full": 0,
+      "hits": 0,
+      "best_error": 9,
+      "best_fail": 9,
+      "cpu": 8.29193,
+      "log": "round6/logs/class_9_two.log"
+    }
+  ],
+  "class_pair_totals": {
+    "singles": 161324,
+    "pairs": 911997060,
+    "tried": 912158384,
+    "filtered": 13882,
+    "full": 13882,
+    "hits": 0
+  },
+  "strict_passes": [
+    {
+      "file": "round6/candidates/conversion_clean_control32.s",
+      "model": "out",
+      "k": 32,
+      "log": "round6/logs/conversion_clean_control32_out_judge.log",
+      "sha256": "66450031f61ce5427facb5a405c1e13ac509459dc8f25d56c60adcd9778021ff"
+    },
+    {
+      "file": "round6/verified_mem/conversion_clean_control32.s",
+      "model": "mem",
+      "k": 32,
+      "log": "round6/logs/conversion_clean_control32_mem_judge.log",
+      "sha256": "4a339d345516b84ac84f862bea32ea9dd63944302103f108af08ce1295d488e3"
+    },
+    {
+      "file": "round6/candidates/conversion_control32.s",
+      "model": "out",
+      "k": 32,
+      "log": "round6/logs/conversion_control32_out_judge.log",
+      "sha256": "66450031f61ce5427facb5a405c1e13ac509459dc8f25d56c60adcd9778021ff"
+    },
+    {
+      "file": "round6/verified_mem/conversion_control32.s",
+      "model": "mem",
+      "k": 32,
+      "log": "round6/logs/conversion_control32_mem_judge.log",
+      "sha256": "4a339d345516b84ac84f862bea32ea9dd63944302103f108af08ce1295d488e3"
+    }
+  ],
+  "retained_pass_copies": [
+    {
+      "file": "round6/verified/conversion_clean_control32.s",
+      "source": "round6/candidates/conversion_clean_control32.s",
+      "sha256": "66450031f61ce5427facb5a405c1e13ac509459dc8f25d56c60adcd9778021ff"
+    },
+    {
+      "file": "round6/verified/conversion_control32.s",
+      "source": "round6/candidates/conversion_control32.s",
+      "sha256": "66450031f61ce5427facb5a405c1e13ac509459dc8f25d56c60adcd9778021ff"
+    }
+  ],
+  "near_strict_failures": [
+    {
+      "file": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_0_out_judge.log",
+      "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_31_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_b5_c9t0.5_near_31.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_0_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_31.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_1_out_judge.log",
+      "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_27_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_b5_c9t0.5_near_27.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_1_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_27.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_2_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_699_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_699.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_2_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_699.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_729_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_3_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_729_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_729.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_3_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_729.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_2023_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_4_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2023_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_2023.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_4_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2023.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_425_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_5_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_425_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_425.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_5_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_425.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_460_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_6_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_460_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_460.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_6_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_460.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_469_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_7_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_469_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_469.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_7_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_469.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1440_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_8_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1440_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1440.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_8_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1440.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_447_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_9_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_447_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_447.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_9_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_447.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_10_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_624_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_624.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_10_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_624.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1347_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_11_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1347_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1347.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_11_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1347.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_2036_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_12_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2036_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_2036.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_12_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2036.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1999_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_13_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1999_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1999.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_13_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1999.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_10_out.s",
+      "model": "out",
+      "exit": 1,
+      "log": "round6/logs/nearclass_14_out_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_10_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+    },
+    {
+      "file": "round6/candidates/mem_a4_c8t1.2_near_10.s",
+      "model": "mem",
+      "exit": 1,
+      "log": "round6/logs/nearclass_14_mem_judge.log",
+      "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_10.s [relaxed+strict] n=5 L=41 R=12 iset=I1 model=mem"
+    }
+  ],
+  "c7_near_strict_failures": [
+    {
+      "file": "round6/candidates/c7_fixed_t4_near.s",
+      "header": "# n=5 model=out iset=I1 source=w6-packed-near k=30 weak_fail=184 weak_error_sum=278",
+      "counts": {
+        "mov": 5,
+        "cmp": 7,
+        "cmovge": 3,
+        "cmovg": 4,
+        "cmovle": 8,
+        "cmovl": 3,
+        "out": 5
+      },
+      "result": "FAIL",
+      "judge": "round6/logs/c7_fixed_t4_near_judge.log",
+      "exit": 1,
+      "sha256": "c183c26453da320187ee32064f9cc6683582ae05c0c50dc7152cda3265abc04e"
+    },
+    {
+      "file": "round6/candidates/c7_fixed_t10_near.s",
+      "header": "# n=5 model=out iset=I1 source=w6-packed-near k=31 weak_fail=219 weak_error_sum=273",
+      "counts": {
+        "cmp": 7,
+        "mov": 4,
+        "cmovle": 4,
+        "cmovl": 4,
+        "cmovge": 5,
+        "cmovg": 7,
+        "out": 5
+      },
+      "result": "FAIL",
+      "judge": "round6/logs/c7_fixed_t10_near_judge.log",
+      "exit": 1,
+      "sha256": "16f3f230be78a53d6cd4445d08fb8d1c4ec3fdf95998197def4504b8a4acd166"
+    }
+  ],
+  "source_hashes": {
+    "round6/src/add_dce.py": "6e9c56a4834bfde4abe919cd875e1cd6fa56a3f0fe670a020b23b818cbe30eb6",
+    "round6/src/analyze.py": "595620385faf16d15c3874e21b41e7b0ca8c20baeb85bd6bd49ec1f8feeb6c18",
+    "round6/src/audit_c7.py": "65d4382d66509a76786a1fa9688234acef9b3cd524fcd28ffa6699220c1b1a7d",
+    "round6/src/audit_near.py": "09973c0494895778251deb3fbe74f93b5664b30e548b74c022f89eec07dbde5c",
+    "round6/src/c7_fixed_batch.py": "43ed49fd4e7e9de956d9312ebb52d4d08d09444772639a6f629c3d776c4282d9",
+    "round6/src/class_summary.py": "97ee27391e23279ae5c54db46e772a2f50f7490e0e193bc0aa72a699d947456a",
+    "round6/src/conversion_controls.py": "4848bca83900a61770efe28c713545bc081c584c94178d775d0953eaf99ae75e",
+    "round6/src/core_search.cpp": "dd5c90c3feb8478b6947151f55081be5932aac55aa03044679e1984fbd58664d",
+    "round6/src/finalize.py": "57c7fe0ba9d48fc57bcebb81f7bd1838076ade1b65d476e0d1758d2f3a0f1b5a",
+    "round6/src/later_batch.py": "9db81da2f0a25a53a70ae17612faf954e1390861733460e0fc1ae87f3f3216c2",
+    "round6/src/make_core_search.py": "02d1a70976dbcd1615155ed1ed4546a2e8fd9ea4d1209fb7b9d343d874ebf4a2",
+    "round6/src/make_suffix.py": "7afba276c683b73e3ba962be95132ec3c22b57d34546f986386d927f8a220e74",
+    "round6/src/mcmc.c": "5cd17c708ed0b66f5c52e654912aeea1c8a605c3d3f78a617ded2e1aa15085b8",
+    "round6/src/mcmc_initial.c": "ac33073080058c18f1bb098d795659320c37d48b4fabae77f4d38badb5de4374",
+    "round6/src/mem_batch.py": "df0abbd7aa18bfe048b3e42caa06afb946d6d3609a12d021df0412d38db6658d",
+    "round6/src/mem_to_out.py": "6cab7a690fed32fc14283611bd3d3db93240c600a1415a5d5034883afa905d08",
+    "round6/src/mine_near.py": "524dc44621880807cd132b3149b3892457192acec61c4e3bb84140174cbb6a36",
+    "round6/src/new_search_batch.py": "7b306abaeae805781818fef5eaed9d8cbf47a0e3bf5f616e92c2ebbe01cacb4f",
+    "round6/src/next_local.py": "3bcc02c31c4194f898a91a6d6a1e441b14a12051f6a28189417d11f4afd9125b",
+    "round6/src/patch_mcmc.py": "fb798f9851f08913f4935fa3602c46ee449e0af590c566e66ecf09e90ed31a31",
+    "round6/src/patch_status.py": "9f360dc2fc6037c979c17fb76920bc45ea267c7f869ab88edb81891bf6be922c",
+    "round6/src/post_batch.py": "c67ba8951ba5d15be6fa8754bd2949ba9275bcf574dc3d006ea2961f52a595fa",
+    "round6/src/prepare.py": "9524377279688066f99ef0335b98549231ba2fdf14220a989ed1f849fbf7f14f",
+    "round6/src/repair_classes.py": "d35bf2decfde40d7178ccc00d0a1ba5e9f28a4f79170b930175310e3b9fed65a",
+    "round6/src/repair_mined.py": "baddbd65b43e4a569567783139c7a92b38aea35a7e21af043938e99d187c3bc2",
+    "round6/src/run.py": "b9c0acd0f99790a9241ab4b5ae89be581d2d75a2472582aaa1a6581400469eea",
+    "round6/src/sim.h": "248db377320c2b4bf5eb361ba48afaaf157ba005e8d1903bfff06e1d8ca6ab17",
+    "round6/src/sources_snapshot.py": "4cb39ff38d27b4b217f617dc057f6b590ed4f91a33f5799b8e1dcabbbb52144a",
+    "round6/src/suffix.cpp": "f818a99a4b3f95ef40870118c2d989ae5524c3f42332b1ead7b2bb287347166a",
+    "round6/src/verify.py": "4ce697ea2189ac99332e6ee3b4c574586b469a2aad0ea3d2a674be172a0fe666"
+  }
+}

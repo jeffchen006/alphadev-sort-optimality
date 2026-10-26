@@ -1,0 +1,26 @@
+{
+  "name": "c7_fixed_t4",
+  "command": [
+    "round6/bin/core_search",
+    "round6/seeds/c8_c7_0_out.s",
+    "round6/candidates/c7_fixed_t4",
+    "31",
+    "4",
+    "0.15",
+    "65",
+    "626074",
+    "7",
+    "0",
+    "7"
+  ],
+  "wall_limit": 150.0,
+  "exit": 0,
+  "seconds": 76.61146041750908,
+  "log": "round6/logs/c7_fixed_t4.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 65.006776,
+  "peak_child_rss_kib": 11076
+}

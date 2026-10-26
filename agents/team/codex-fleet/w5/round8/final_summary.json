@@ -1,0 +1,42 @@
+{
+  "planned": 1720,
+  "finished": 1720,
+  "unstarted": 0,
+  "status_counts": {
+    "UNSAT": 1720
+  },
+  "seed_count": 144,
+  "solver_calls": 1799,
+  "queries_with_refinement": 40,
+  "query_seconds": 5762.985360022634,
+  "max_query_seconds": 31.34610101953149,
+  "max_observed_job_rss_kib": 75844,
+  "passes": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round8/verified/window_control32.s",
+      "model": "out",
+      "k": 32,
+      "code": 0,
+      "passed": true,
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round8/logs/judge_window_control32.log",
+      "sha256": "7177c9625ac8dafcd716a46aae7c383dc7fbcf38ff2d4852dfbb7f0113e0525b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round8/verified/window_control32_mem.s",
+      "model": "mem",
+      "k": 32,
+      "code": 0,
+      "passed": true,
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round8/logs/judge_window_control32_mem.log",
+      "sha256": "4f1362552e94b4bd70b62a0c61c6804511944aeb734503455aacd5479bf00c94"
+    }
+  ],
+  "all_jobs_finished": true,
+  "assumption_tags": [
+    "G1",
+    "G2",
+    "G3",
+    "A2",
+    "A11"
+  ]
+}

@@ -1,0 +1,62 @@
+% spec, 2026-10-24. Section "Related work". Source notes: agents/spec/prior_work.md (primary sources in agents/spec/ext/).
+\section{Related work}\label{sec:related}
+
+\paragraph{AlphaDev.} See Section~\ref{sec:background}. AlphaDev's only optimality statement is the brute-force claim for sort3
+(about $10^{32}$ programs, with pruning, no certificate, search space not stated)~\cite{alphadev}. The kernels went into
+LLVM libc++ (review D118029, landed 2022-04-08 as commit \texttt{194d1965d2c8})~\cite{d118029}, where they were accepted on
+benchmarks; the patch makes no optimality claim.
+
+\paragraph{Ullrich and Hack.} The closest work is ``Synthesis of Sorting Kernels''~\cite{ullrich} (CGO 2025). They search
+sorting kernels with A$^\ast$/Dijkstra over abstract states, with optimality-preserving heuristics and optional
+non-optimality-preserving cuts. They enumerate all optimal kernels for $n = 3$ (length 11 without memory instructions,
+5602 programs after symmetry reduction) and report that no kernel of length 19 exists for $n = 4$ (exhaustive, two weeks), a
+``new tight lower bound''; for $n = 5$ they find kernels of length about 33 with a cut, and give no lower bound.
+Table~\ref{tab:uh} compares their model with ours, point by point. Each point where their model is \emph{more restrictive}
+than AlphaDev's (fewer programs) means that their lower bound excludes fewer programs and so does not imply a lower bound
+for AlphaDev's setting.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{p{2.6cm}p{5.2cm}p{5.2cm}}\toprule
+ & Ullrich and Hack~\cite{ullrich} & this work (MM via RS) \\\midrule
+instructions & \texttt{mov}, \texttt{cmp}, \texttt{cmovl}, \texttt{cmovg} ($I_0$) & $I_1$ (adds \texttt{cmovle}, \texttt{cmovge}), as AlphaDev; $I_0$ as a side result \\
+memory, counting & none; registers only (add $2n$ to compare) & loads and stores counted; exact map $L = 2n + k$ (Lemma~\ref{lem:snapshot}) \\
+outputs & fixed in $r_1..r_n$ at the end (RF) & any register at any step (RS) = AlphaDev's stores \\
+scratch registers & a fixed number $m$; the paper does not state $m$; the artifact code uses one (\texttt{SWAPS = 1}) & unbounded ($R = n + k$ suffices, Lemma~L3) \\
+inputs tested & the $n!$ permutations (no ties) & all weak orders (ties); permutation subsets only inside sound relaxations \\
+initial state & registers hold the inputs; reads of uninitialised scratch registers are forbidden & strict: garbage registers and flags (reads of uninitialised registers allowed); lower bound via a sound relaxation \\
+pruning rules & argued in prose & each rule with a paper proof (and Lean where marked) \\
+evidence & exhaustive-search runs, no proof log & DRAT/LRAT certificates checked by \texttt{cake\_lpr}; verified checkers in Lean and Rocq; two independent search tools \\
+results & $n=3$: 11; $n=4$: 20; $n=5$: none & $n=3$: 11 (certified); $n=4$: 20 (exhaustive search, certificate checked to $k \le 17$); $n=5$: 32 best known, $\le 31$ open \\\bottomrule
+\end{tabular}
+\caption{Ullrich and Hack's model versus ours. In their model a lower bound of 11 / 20 does not imply one for AlphaDev's
+setting: $I_0 \subsetneq I_1$, RF is stricter than RS, one scratch register is stricter than unbounded registers, and
+forbidding reads of uninitialised registers excludes programs that are correct on x86 (e.g.\ a 0-\texttt{mov} sort3 core with one
+such read, found by our search).}
+\label{tab:uh}
+\end{table}
+
+\noindent Their $n = 3$ and $n = 4$ values agree with ours. Their lower bound transfers to tie-correct kernels in $I_0$ with one
+scratch register, fixed outputs and no reads of uninitialised registers (distinct-input correctness is weaker than tie correctness), but not to $I_1$, to more
+scratch registers, or to snapshot outputs. They also report that SMT, CEGIS, SyGuS (cvc5), ILP, PDDL planners and STOKE do not
+solve $n = 4$, and that STOKE fails already for $n = 3$.
+
+\paragraph{Shorter kernels outside the model.} Neri~\cite{neri} gives a 15-instruction branchless sort3 and a 14-instruction
+sort3 with a loop; both use \texttt{sbb}/\texttt{adc}, table lookups and indexed stores, so they are outside the
+\texttt{mov}/\texttt{cmp}/\texttt{cmov} model. Tunney~\cite{tunney} explains the AlphaDev saving as the deletion of one
+\texttt{mov} from three compare-and-swap blocks (her 17-instruction x86 kernel passes our judge; it needs \texttt{cmovge}) and
+shows a 14-instruction ARM64 kernel with the three-operand \texttt{csel}, also outside the model. Mimicry~\cite{mimicry} computes
+a shuffle index instead of swapping: a 9-instruction SIMD sort3, and scalar kernels with indexed stores (sort3 17, sort4 27
+for signed values); these use instructions outside our model and make speed claims only. None of them claims or refutes
+optimality in AlphaDev's model.
+
+\paragraph{Superoptimization.} Massalin's superoptimizer~\cite{massalin}, STOKE~\cite{stoke}, Lens~\cite{lens} and
+Souper~\cite{souper} find short or fast instruction sequences by enumeration, stochastic search or solvers; none of them reports
+an optimal sorting kernel, and STOKE fails on sort3 in the experiments of~\cite{ullrich}.
+
+\paragraph{Optimal sorting networks.} The comparator model is solved for small $n$ with SAT and computer-checked certificates:
+9 inputs need 25 comparators~\cite{codish}, with a Coq-verified checker of the certificate~\cite{cruzfilipe}, and 11 and 12
+inputs need 35 and 39 comparators, with an Isabelle-verified checker~\cite{harder}. These results count comparators, not
+instructions, and the 0-1 principle holds there. For cmov code a comparator is not atomic: one \texttt{cmp} can feed
+\texttt{cmov}s that do not form a full swap (the swap move), the instruction count is not $4 \times$ comparators, and the
+0-1 principle fails (SI App.~F of~\cite{alphadev}). Our method follows the same pattern (SAT encoding, symmetry breaking,
+verified certificate checking) for the instruction model.

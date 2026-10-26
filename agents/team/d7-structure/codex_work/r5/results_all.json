@@ -1,0 +1,42 @@
+[
+  {
+    "id": "control",
+    "idea": "Original 25-term pool",
+    "file": "codex_work/r5/pool_control.txt",
+    "size": 25,
+    "result": "TIMEOUT",
+    "R": 10,
+    "seconds": 40.071,
+    "rc": -9
+  },
+  {
+    "id": "bound_CEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_BLmin.txt",
+    "size": 27,
+    "result": "TIMEOUT",
+    "R": 10,
+    "seconds": 40.059,
+    "rc": -9
+  },
+  {
+    "id": "bound_CEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_BLmax.txt",
+    "size": 27,
+    "result": "TIMEOUT",
+    "R": 10,
+    "seconds": 40.064,
+    "rc": -9
+  },
+  {
+    "id": "bound_CEmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_AEmax.txt",
+    "size": 27,
+    "result": "TIMEOUT",
+    "R": 10,
+    "seconds": 40.069,
+    "rc": -9
+  }
+]

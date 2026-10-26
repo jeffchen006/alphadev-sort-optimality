@@ -1,0 +1,5 @@
+name = "sortproof"
+defaultTargets = ["SortProof"]
+
+[[lean_lib]]
+name = "SortProof"

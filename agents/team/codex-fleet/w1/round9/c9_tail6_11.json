@@ -1,0 +1,118 @@
+{
+  "status": "UNSAT",
+  "cpu": 0.9216588650000002,
+  "cases": 11,
+  "rounds": 1,
+  "args": {
+    "index": 11,
+    "mode": "tail",
+    "tail": 6,
+    "schedule_scope": "tail",
+    "cpu": 15.0,
+    "extra": 2,
+    "unbounded": true,
+    "control": false,
+    "all_cases": false,
+    "stem": "c9_tail6_11"
+  },
+  "key": "c9_b11",
+  "editable": [
+    16,
+    18,
+    19,
+    22,
+    25,
+    27
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      1
+    ]
+  ],
+  "vars": 12175,
+  "clauses": 113108,
+  "stats": {
+    "restarts": 310,
+    "conflicts": 3426,
+    "decisions": 16738,
+    "propagations": 3859498
+  },
+  "maxrss_kib": 43644,
+  "total_cpu": 0.9330446800000001,
+  "registers": 21,
+  "suffix_builds": 11
+}

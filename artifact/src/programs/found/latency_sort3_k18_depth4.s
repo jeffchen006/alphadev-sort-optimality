@@ -1,0 +1,22 @@
+# n=3 R=8 iset=I0 model=out source=latency (hand-compiled from joint relaxed DAG K=12: 3 cmp + 9 sel) k=18 depth U=4 E=4
+mov S0, P2
+mov S1, P2
+cmp P1, P2
+cmovl S0, P1
+cmovg S1, P1
+mov S2, P2
+mov S3, P2
+cmp P0, P2
+cmovl S2, P0
+cmovg S3, P0
+cmp P0, P1
+cmovl S0, S2
+out 0, S0
+mov S4, S1
+cmovg S4, S3
+out 2, S4
+cmovg S3, S1
+cmovl S2, P1
+cmp P1, P2
+cmovl S3, S2
+out 1, S3

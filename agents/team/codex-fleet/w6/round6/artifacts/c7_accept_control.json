@@ -1,0 +1,26 @@
+{
+  "name": "c7_accept_control",
+  "command": [
+    "round6/bin/core_search",
+    "round6/seeds/c8_c7_0_out.s",
+    "round6/candidates/c7_accept_control",
+    "31",
+    "4",
+    "0.15",
+    "0.2",
+    "626077",
+    "7",
+    "0",
+    "7"
+  ],
+  "wall_limit": 15.0,
+  "exit": 0,
+  "seconds": 1.2539373505860567,
+  "log": "round6/logs/c7_accept_control.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 0.20900799999999997,
+  "peak_child_rss_kib": 10940
+}

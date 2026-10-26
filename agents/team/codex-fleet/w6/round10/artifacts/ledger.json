@@ -1,0 +1,64 @@
+[
+  {
+    "file": "round10/sk/r00007.txt",
+    "seed": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "base": 0,
+    "repeat": 0,
+    "insert": 9,
+    "recipe": null,
+    "sha256": "9893d85d46016a5158b8a2b9f7bbb59887c8fa783eec5875260778f8cc73c88b",
+    "flag_key_sha256": "834b2140b72dd2b6f0f0b7979b8fb4c8102886efc24c71ac882bec82eacc4545",
+    "noninput_operands": 11,
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/r00007_k31.log",
+    "command": [
+      "round10/bin/dagx_safe",
+      "round10/sk/r00007.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 120,
+    "node_limit": null,
+    "wall_seconds": 120.02275134716183,
+    "cpu_seconds": 119.303048,
+    "max_rss_kib": 16168,
+    "result": null,
+    "engine_sha256": "3629d37aacbe252ce71de7c1c504d61c6c87f33801c270b4d775297683202c0e",
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  },
+  {
+    "file": "round10/sk/r00043.txt",
+    "seed": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+    "base": 1,
+    "repeat": 0,
+    "insert": 9,
+    "recipe": null,
+    "sha256": "94fbb19aeb63272f9fe65fcab467ae864fb9ba657a3b5e251ff48efaef25a6a8",
+    "flag_key_sha256": "39f62d714d283f76aac9bcc724c1e697bb6ed4574831de690178e2e99dd2a6ea",
+    "noninput_operands": 10,
+    "status": "NONE",
+    "exit_code": 0,
+    "log": "round10/logs/r00043_k31.log",
+    "command": [
+      "round10/bin/dagx_safe",
+      "round10/sk/r00043.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 120,
+    "node_limit": null,
+    "wall_seconds": 66.00270828045905,
+    "cpu_seconds": 65.87285999999999,
+    "max_rss_kib": 16168,
+    "result": "NONE K=31 calls=13193968 leaves=0 sols=0 best=-1 time=65.9s",
+    "engine_sha256": "3629d37aacbe252ce71de7c1c504d61c6c87f33801c270b4d775297683202c0e",
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  }
+]

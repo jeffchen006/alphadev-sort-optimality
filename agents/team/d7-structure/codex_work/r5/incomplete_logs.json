@@ -1,0 +1,20 @@
+[
+  {
+    "log": "log_bound_CEmin_AEmax.txt",
+    "id": "bound_CEmin_AEmax",
+    "pool": "codex_work/r5/pool_bound_CEmin_AEmax.txt",
+    "status": "TIMEOUT OR INTERRUPTED"
+  },
+  {
+    "log": "log_bound_CEmin_ADmin.txt",
+    "id": "bound_CEmin_ADmin",
+    "pool": "codex_work/r5/pool_bound_CEmin_ADmin.txt",
+    "status": "TIMEOUT OR INTERRUPTED"
+  },
+  {
+    "log": "log_control.txt",
+    "id": "control",
+    "pool": "codex_work/r5/pool_control.txt",
+    "status": "TIMEOUT OR INTERRUPTED"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "sources": 48,
+  "strict_out": {
+    "PASS": 47,
+    "FAIL": 1
+  },
+  "generated": 1641,
+  "selected": 360,
+  "oldflag_classes": 69363,
+  "excluded": 36,
+  "exclusion_files": {
+    "/path/to/repo/agents/team/codex-fleet/w2/sk": 39365,
+    "/path/to/repo/agents/team/d1-skeleton/sk": 87884
+  },
+  "unreadable_files": 105
+}

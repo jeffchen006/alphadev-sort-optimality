@@ -1,0 +1,57 @@
+[
+  {
+    "instruction_index": 3,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 0, 1, 0, 0] -> output [0, 0, 0, 0, 0] (T=5 means scratch value), expected [0, 0, 0, 0, 1]"
+  },
+  {
+    "instruction_index": 6,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 1, 1, 0, 0] -> output [0, 0, 1, 0, 1] (T=5 means scratch value), expected [0, 0, 0, 1, 1]"
+  },
+  {
+    "instruction_index": 9,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 0, 1, 0, 0] -> output [0, 0, 0, 0, 0] (T=5 means scratch value), expected [0, 0, 0, 0, 1]"
+  },
+  {
+    "instruction_index": 12,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 0, 0, 0, 1] -> output [0, 0, 0, 0, 0] (T=5 means scratch value), expected [0, 0, 0, 0, 1]"
+  },
+  {
+    "instruction_index": 16,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 0, 0, 1, 0] -> output [0, 0, 0, 1, 0] (T=5 means scratch value), expected [0, 0, 0, 0, 1]"
+  },
+  {
+    "instruction_index": 20,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 0, 2, 0, 1] -> output [0, 1, 0, 1, 2] (T=5 means scratch value), expected [0, 0, 0, 1, 2]"
+  },
+  {
+    "instruction_index": 22,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [1, 1, 2, 0, 2] -> output [0, 0, 1, 2, 2] (T=5 means scratch value), expected [0, 1, 1, 2, 2]"
+  },
+  {
+    "instruction_index": 24,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 2, 2, 1, 1] -> output [0, 2, 1, 1, 2] (T=5 means scratch value), expected [0, 1, 1, 2, 2]"
+  },
+  {
+    "instruction_index": 28,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 1, 1, 1, 1] -> output [1, 1, 1, 1, 1] (T=5 means scratch value), expected [0, 1, 1, 1, 1]"
+  },
+  {
+    "instruction_index": 31,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 1, 1, 0, 1] -> output [0, 0, 0, 1, 1] (T=5 means scratch value), expected [0, 0, 1, 1, 1]"
+  },
+  {
+    "instruction_index": 33,
+    "essential_by_relaxed_counterexample": true,
+    "counterexample": "order type [0, 0, 1, 2, 2] -> output [0, 0, 2, 1, 2] (T=5 means scratch value), expected [0, 0, 1, 2, 2]"
+  }
+]

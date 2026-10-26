@@ -1,0 +1,18 @@
+{
+  "name": "backward4_control",
+  "command": [
+    "round5/bin/backward",
+    "4",
+    "5",
+    "35",
+    "round5/candidates/backward4_control"
+  ],
+  "wall_limit": 40.0,
+  "exit": 0,
+  "seconds": 0.006384328007698059,
+  "log": "round5/logs/backward4_control.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "skeletons": 1347,
+  "distinct_required_columns": 848,
+  "min_nonlattice": 5,
+  "max_nonlattice": 14,
+  "histogram": {
+    "5": 50,
+    "6": 30,
+    "7": 126,
+    "8": 128,
+    "9": 183,
+    "10": 109,
+    "11": 99,
+    "12": 300,
+    "13": 303,
+    "14": 19
+  },
+  "all_cpp_counts_match": true,
+  "w11_exactly_two_columns_disjoint": true
+}

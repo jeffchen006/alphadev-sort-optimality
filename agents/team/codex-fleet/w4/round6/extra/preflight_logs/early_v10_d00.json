@@ -1,0 +1,127 @@
+{
+  "returncode": 0,
+  "limited": false,
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/src/search.py",
+    "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_3809e545578327.s",
+    "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/candidates/early_v10_d00.s",
+    "--registers",
+    "11",
+    "--delete",
+    "0",
+    "--free-dest",
+    "--binary"
+  ],
+  "seconds": 0.866,
+  "records": [
+    {
+      "step": "scope",
+      "k": 31,
+      "registers": 11,
+      "delete": 0,
+      "fixed": false,
+      "free_dest": true,
+      "canonical_scratch": true,
+      "binary_initial": true,
+      "comparison_positions": [
+        0,
+        6,
+        9,
+        13,
+        16,
+        19,
+        24,
+        28
+      ],
+      "initial_cases": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        26,
+        27,
+        29,
+        30,
+        37,
+        38,
+        40,
+        41,
+        150,
+        151,
+        153,
+        154,
+        161,
+        162,
+        164,
+        165,
+        201,
+        202,
+        204,
+        205,
+        212,
+        213,
+        215
+      ],
+      "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_3809e545578327.s",
+      "assumptions": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "A2",
+        "A4",
+        "A11"
+      ]
+    },
+    {
+      "step": "solve",
+      "iteration": 0,
+      "cases": 31,
+      "variables": 33671,
+      "clauses": 234471
+    },
+    {
+      "step": "kissat",
+      "iteration": 1,
+      "status": "UNKNOWN",
+      "returncode": 1,
+      "limited": false,
+      "command": [
+        "/path/to/workspace/schur6/bin/kissat",
+        "-f",
+        "--time=60",
+        "--seed=711",
+        "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/cnf/early_v10_d00.cnf",
+        "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/cnf/early_v10_d00.drat"
+      ],
+      "seconds": 0.031,
+      "cnf_sha256": "b6956fb82ac0bbc6219a21445fd02755e53d4031ee420497d7117a2c8d8c544f",
+      "peak_job_rss_kib": 65724,
+      "solver_cpu_seconds": 0.025,
+      "cpu_counter": "solver_only"
+    },
+    {
+      "status": "UNKNOWN",
+      "reason": "Kissat time or resource limit"
+    }
+  ],
+  "task": {
+    "tag": "early_v10_d00",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_3809e545578327.s",
+    "seed_sha256": "1ade4b9c2b4a439b2952b235804b25bf5f897b30d7c96c96734816600ed534ca",
+    "delete": 0,
+    "registers": 11,
+    "seconds": 60,
+    "mode": "free_dest",
+    "binary": true,
+    "group": "target"
+  },
+  "status": "UNKNOWN",
+  "peak_job_rss_kib": 65724
+}

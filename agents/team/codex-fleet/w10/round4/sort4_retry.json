@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/path/to/repo/bin/kissat",
+    "--time=3600",
+    "round3/n4_k19_partial_sym_history.cnf"
+  ],
+  "scope": "Saved round3 sort4 formula; free flags and blocks; required used partial column",
+  "cnf_sha256": "dd810dfdc370f835aa214b0c132dd28bfa46923e37d39a5d89e1cf5648b2b54d",
+  "wall_limit_seconds": 3600,
+  "returncode": 124,
+  "elapsed_seconds": 3600.0139805153012,
+  "status": "UNKNOWN",
+  "children_usage": [
+    2461.894815,
+    1.379094,
+    73336,
+    0,
+    0,
+    0,
+    221639,
+    0,
+    0,
+    12797,
+    468,
+    0,
+    0,
+    0,
+    9,
+    265593
+  ]
+}

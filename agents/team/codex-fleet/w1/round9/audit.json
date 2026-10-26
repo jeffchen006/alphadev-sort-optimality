@@ -1,0 +1,144 @@
+{
+  "status": "PASS_INTERNAL_AUDIT",
+  "records": [
+    {
+      "base": 0,
+      "gaps": [
+        20,
+        20
+      ],
+      "cases": 4,
+      "value_checks": 1400
+    },
+    {
+      "base": 0,
+      "gaps": [
+        20,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1400
+    },
+    {
+      "base": 0,
+      "gaps": [
+        31,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1400
+    },
+    {
+      "base": 20,
+      "gaps": [
+        18,
+        18
+      ],
+      "cases": 4,
+      "value_checks": 1540
+    },
+    {
+      "base": 20,
+      "gaps": [
+        18,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1540
+    },
+    {
+      "base": 20,
+      "gaps": [
+        31,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1540
+    },
+    {
+      "base": 26,
+      "gaps": [
+        22,
+        22
+      ],
+      "cases": 4,
+      "value_checks": 1260
+    },
+    {
+      "base": 26,
+      "gaps": [
+        22,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1260
+    },
+    {
+      "base": 26,
+      "gaps": [
+        31,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1260
+    },
+    {
+      "base": 56,
+      "gaps": [
+        21,
+        21
+      ],
+      "cases": 4,
+      "value_checks": 1400
+    },
+    {
+      "base": 56,
+      "gaps": [
+        21,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1400
+    },
+    {
+      "base": 56,
+      "gaps": [
+        31,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1400
+    },
+    {
+      "base": 169,
+      "gaps": [
+        21,
+        21
+      ],
+      "cases": 4,
+      "value_checks": 1540
+    },
+    {
+      "base": 169,
+      "gaps": [
+        21,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1540
+    },
+    {
+      "base": 169,
+      "gaps": [
+        31,
+        32
+      ],
+      "cases": 4,
+      "value_checks": 1540
+    }
+  ],
+  "schedule_traces": 32,
+  "budget_checks": 2,
+  "fresh_name_traces": 6561,
+  "value_checks": 21420
+}

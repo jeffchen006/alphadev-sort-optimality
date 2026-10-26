@@ -1,0 +1,18 @@
+[
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+    "source": "../w6/round5/candidates/fresh31_near.s",
+    "sha256": "008dac02924344be0865d7ca355c06cff00d9c83d92939acb25373cd085eb833",
+    "failures": 9,
+    "strict_judge": "FAIL",
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/judge_input_near9.log"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near14.s",
+    "source": "../w6/round2/candidates/near14_frozen.s",
+    "sha256": "882a29d3704cdd5c451f29e58a04428124aef8073eefdc142aae123058a6aa1f",
+    "failures": 14,
+    "strict_judge": "FAIL",
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/judge_input_near14.log"
+  }
+]

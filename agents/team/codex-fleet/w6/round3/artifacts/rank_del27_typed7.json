@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round3/candidates/nomov_4c02da04dce39b74_del27.s",
+    "round3/candidates/rank_del27_typed7.s",
+    "--rank",
+    "--typed",
+    "--fixed-dest",
+    "--changes",
+    "7",
+    "--change-cmp"
+  ],
+  "wall_limit": 150.0,
+  "exit": 124,
+  "seconds": 150.01091124117374,
+  "log": "round3/logs/rank_del27_typed7.log"
+}

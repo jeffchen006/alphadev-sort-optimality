@@ -1,0 +1,1 @@
+1 RESULT FOUND K=32 calls=77788 leaves=43 sols=1 best=32 time=1.1s

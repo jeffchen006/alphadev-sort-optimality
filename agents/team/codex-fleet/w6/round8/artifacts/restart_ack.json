@@ -1,0 +1,1 @@
+{"reason": "Increase the MCMC wall limit from 90 to 300 seconds. Keep the 40-CPU-second target. Preserve all completed ledger entries.\n", "interrupted_query": "round8/candidates/long_typed_s03_w6_i14.s"}

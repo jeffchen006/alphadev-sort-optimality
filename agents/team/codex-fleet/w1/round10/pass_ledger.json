@@ -1,0 +1,206 @@
+[
+  {
+    "query": "check2_three",
+    "n": 2,
+    "k": 6,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/check2_three.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/check2_three.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "returncode": 0,
+    "sha256": "c4f909d7b71987a7c9e4c2eb7109c6b30f7d3af6e37bf033f56f5a59f86c9384",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/check2_three.s [relaxed+strict] n=2 L=6 R=5 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S1; line 4: reads uninitialized S0; line 5: reads uninitialized S2; line 5: reads uninitialized S1; line 8: reads uninitialized S2\n"
+  },
+  {
+    "query": "check2_three",
+    "n": 2,
+    "k": 6,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/check2_three_mem.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/check2_three_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "returncode": 0,
+    "sha256": "00d3639d2a81b941afcd81a4aaec9822ea6c7eb732fecba68e5b6499207b6f0c",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/check2_three_mem.s [relaxed+strict] n=2 L=10 R=7 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 5: reads uninitialized S2; line 6: reads uninitialized S3; line 6: reads uninitialized S2; line 7: reads uninitialized S4; line 7: reads uninitialized S3; line 10: reads uninitialized S4\n"
+  },
+  {
+    "query": "n2_k6_three",
+    "n": 2,
+    "k": 6,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "returncode": 0,
+    "sha256": "1e563903d193c52c81905ba07674299247c1040ace0e9963247c91a19442d5af",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three.s [relaxed+strict] n=2 L=6 R=4 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S1; line 4: reads uninitialized S0; line 5: reads uninitialized S0; line 5: reads uninitialized S1; line 8: reads uninitialized S1\n"
+  },
+  {
+    "query": "n2_k6_three",
+    "n": 2,
+    "k": 6,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three_mem.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "returncode": 0,
+    "sha256": "acabcaed733528508a77f219789c32841c1758d859d17a265d9fcdf46b77159b",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three_mem.s [relaxed+strict] n=2 L=10 R=6 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 5: reads uninitialized S2; line 6: reads uninitialized S3; line 6: reads uninitialized S2; line 7: reads uninitialized S2; line 7: reads uninitialized S3; line 10: reads uninitialized S3; line 11: reads uninitialized S3\n"
+  },
+  {
+    "query": "check5_two",
+    "n": 5,
+    "k": 32,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_two.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_two.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "returncode": 0,
+    "sha256": "fde0a4e1c76c237ff09bd20a98feb05ea18e35d9d015ff5f7f78a28648d16120",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/check5_two.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 5: reads uninitialized S0; line 7: reads uninitialized S0; line 11: reads uninitialized S0; line 13: reads uninitialized S0; line 14: reads uninitialized S0; line 15: reads uninitialized S0\n"
+  },
+  {
+    "query": "check5_two",
+    "n": 5,
+    "k": 32,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_two_mem.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_two_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "returncode": 0,
+    "sha256": "f5846d57f78b3a665852f7e54c8fe495998ca293c5c24934fbae47d7e0687fa8",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/check5_two_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 10: reads uninitialized S5; line 12: reads uninitialized S5; line 16: reads uninitialized S5; line 18: reads uninitialized S5; line 19: reads uninitialized S5; line 20: reads uninitialized S5\n"
+  },
+  {
+    "query": "check5_three",
+    "n": 5,
+    "k": 33,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_three.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_three.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "returncode": 0,
+    "sha256": "0b73f5e798f6656649f021038097ddb915603ae180a71ea7955e086825dc6378",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/check5_three.s [relaxed+strict] n=5 L=33 R=10 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S1; line 6: reads uninitialized S1; line 8: reads uninitialized S1; line 12: reads uninitialized S1; line 14: reads uninitialized S1; line 15: reads uninitialized S1; line 16: reads uninitialized S1\n"
+  },
+  {
+    "query": "check5_three",
+    "n": 5,
+    "k": 33,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_three_mem.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_three_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "returncode": 0,
+    "sha256": "accb22b14c0e2d9df222057f55b1e0abbae7f6196ca1de5509bf334bcfe4141e",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/check5_three_mem.s [relaxed+strict] n=5 L=43 R=15 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 9: reads uninitialized S6; line 11: reads uninitialized S6; line 13: reads uninitialized S6; line 17: reads uninitialized S6; line 19: reads uninitialized S6; line 20: reads uninitialized S6; line 21: reads uninitialized S6\n"
+  },
+  {
+    "query": "strong_check2",
+    "n": 2,
+    "k": 6,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "returncode": 0,
+    "sha256": "c4f909d7b71987a7c9e4c2eb7109c6b30f7d3af6e37bf033f56f5a59f86c9384",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2.s [relaxed+strict] n=2 L=6 R=5 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S1; line 4: reads uninitialized S0; line 5: reads uninitialized S2; line 5: reads uninitialized S1; line 8: reads uninitialized S2\n"
+  },
+  {
+    "query": "strong_check2",
+    "n": 2,
+    "k": 6,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2_mem.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "returncode": 0,
+    "sha256": "00d3639d2a81b941afcd81a4aaec9822ea6c7eb732fecba68e5b6499207b6f0c",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2_mem.s [relaxed+strict] n=2 L=10 R=7 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 5: reads uninitialized S2; line 6: reads uninitialized S3; line 6: reads uninitialized S2; line 7: reads uninitialized S4; line 7: reads uninitialized S3; line 10: reads uninitialized S4\n"
+  },
+  {
+    "query": "strong_check5",
+    "n": 5,
+    "k": 33,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "returncode": 0,
+    "sha256": "c8cc7ee38fecd72bc2f1a151fa48f5a2252d176bfd1a62513a7b0c5740ba4db1",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.s [relaxed+strict] n=5 L=33 R=9 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 5: reads uninitialized S0; line 7: reads uninitialized S0; line 11: reads uninitialized S0; line 12: reads uninitialized S3; line 13: reads uninitialized S3; line 14: reads uninitialized S0; line 15: reads uninitialized S0; line 16: reads uninitialized S0; line 19: reads uninitialized S3; line 22: reads uninitialized S3; line 27: reads uninitialized S3; line 28: reads uninitialized S3\n"
+  },
+  {
+    "query": "strong_check5",
+    "n": 5,
+    "k": 33,
+    "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5_mem.s",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "returncode": 0,
+    "sha256": "861550dd06a448a419912226b7f45427f7f7419e10e287c9bd8a418476daa901",
+    "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5_mem.s [relaxed+strict] n=5 L=43 R=14 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 10: reads uninitialized S5; line 12: reads uninitialized S5; line 16: reads uninitialized S5; line 17: reads uninitialized S8; line 18: reads uninitialized S8; line 19: reads uninitialized S5; line 20: reads uninitialized S5; line 21: reads uninitialized S5; line 24: reads uninitialized S8; line 27: reads uninitialized S8; line 32: reads uninitialized S8; line 33: reads uninitialized S8; line 34: reads uninitialized S8\n"
+  }
+]

@@ -1,0 +1,742 @@
+{
+  "created_utc": "2026-10-25T23:14:46.584918+00:00",
+  "found": false,
+  "best_verified_core": 32,
+  "best_k31_failure": {
+    "file": "round5/candidates/fresh31_near.s",
+    "failed_weak_orders": 9,
+    "strict_distinct_failures": 4,
+    "judge_log": "round5/logs/fresh31_near_out_judge.log"
+  },
+  "jobs": [
+    {
+      "name": "backward4_control",
+      "command": [
+        "round5/bin/backward",
+        "4",
+        "5",
+        "35",
+        "round5/candidates/backward4_control"
+      ],
+      "wall_limit": 40.0,
+      "exit": 0,
+      "seconds": 0.006384328007698059,
+      "log": "round5/logs/backward4_control.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "backward5_control",
+      "command": [
+        "round5/bin/backward",
+        "5",
+        "9",
+        "30",
+        "round5/candidates/backward5_control"
+      ],
+      "wall_limit": 35.0,
+      "exit": 0,
+      "seconds": 0.4145966349169612,
+      "log": "round5/logs/backward5_control.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "backward8",
+      "command": [
+        "round5/bin/backward",
+        "5",
+        "8",
+        "600",
+        "round5/candidates/backward8"
+      ],
+      "wall_limit": 620.0,
+      "exit": 0,
+      "seconds": 1.211745971813798,
+      "log": "round5/logs/backward8.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "backward_check",
+      "command": [
+        "round5/bin/backward_check"
+      ],
+      "wall_limit": 40.0,
+      "exit": 0,
+      "seconds": 0.1891790423542261,
+      "log": "round5/logs/backward_check.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "fresh31",
+      "command": [
+        "round5/bin/new_search",
+        "round5/candidates/macro9one_sort_813.s",
+        "round5/candidates/fresh31",
+        "31",
+        "1.6",
+        "0.4",
+        "600",
+        "5231901",
+        "9",
+        "0"
+      ],
+      "wall_limit": 620.0,
+      "exit": 0,
+      "seconds": 601.1052285023034,
+      "log": "round5/logs/fresh31.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "global8_blocks_R7",
+      "command": [
+        "python3",
+        "-B",
+        "round5/src/global_sat.py",
+        "round5/candidates/global8_blocks_R7.s",
+        "--registers",
+        "7",
+        "--seed",
+        "523171"
+      ],
+      "wall_limit": 240.0,
+      "exit": 124,
+      "seconds": 240.0168350180611,
+      "log": "round5/logs/global8_blocks_R7.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT"
+    },
+    {
+      "name": "global9_pairs_R7",
+      "command": [
+        "python3",
+        "-B",
+        "round5/src/global_sat.py",
+        "round5/candidates/global9_pairs_R7.s",
+        "--registers",
+        "7",
+        "--prefix",
+        "8",
+        "--cmps",
+        "0,4,8,11,14,17,20,24,28",
+        "--seed",
+        "523191"
+      ],
+      "wall_limit": 300.0,
+      "exit": 124,
+      "seconds": 300.01533124037087,
+      "log": "round5/logs/global9_pairs_R7.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT"
+    },
+    {
+      "name": "macro8",
+      "command": [
+        "round5/bin/macros",
+        "round5/candidates/macro8",
+        "600",
+        "5231008",
+        "8"
+      ],
+      "wall_limit": 620.0,
+      "exit": 0,
+      "seconds": 615.3372335806489,
+      "log": "round5/logs/macro8.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "macro9",
+      "command": [
+        "round5/bin/macros9",
+        "round5/candidates/macro9",
+        "40",
+        "5231009",
+        "9"
+      ],
+      "wall_limit": 45.0,
+      "exit": 0,
+      "seconds": 40.20600445009768,
+      "log": "round5/logs/macro9.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "macro9_one",
+      "command": [
+        "round5/bin/macros9_one",
+        "round5/candidates/macro9one",
+        "25",
+        "5231091",
+        "9"
+      ],
+      "wall_limit": 30.0,
+      "exit": 0,
+      "seconds": 0.15599962882697582,
+      "log": "round5/logs/macro9_one.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "macro9one31",
+      "command": [
+        "./dagx",
+        "round5/artifacts/macro9one.skel",
+        "31",
+        "1"
+      ],
+      "wall_limit": 300.0,
+      "exit": 0,
+      "seconds": 0.9296657489612699,
+      "log": "round5/logs/macro9one31.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "macro_early",
+      "command": [
+        "round5/bin/macro_early"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 0.30449201818555593,
+      "log": "round5/logs/macro_early.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "near9_full4",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round5/candidates/near9_full4.s",
+        "--rank",
+        "--changes",
+        "4",
+        "--maxcmp",
+        "10",
+        "--fresh",
+        "1",
+        "--change-cmp",
+        "--random-seed",
+        "5231941"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.02213858161122,
+      "log": "round5/logs/near9_full4.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT"
+    },
+    {
+      "name": "near9_suffix15",
+      "status": "SKIPPED",
+      "reason": "Priority changed to the duplicate-extrema triple prefix",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round5/candidates/near9_suffix15.s",
+        "--rank",
+        "--typed",
+        "--changes",
+        "0",
+        "--prefix",
+        "16",
+        "--maxcmp",
+        "9",
+        "--fresh",
+        "1",
+        "--random-seed",
+        "5231915"
+      ]
+    },
+    {
+      "name": "near9_two",
+      "command": [
+        "round5/bin/near_repair",
+        "round5/candidates/fresh31_near.s",
+        "round5/candidates/near9_two"
+      ],
+      "wall_limit": 300.0,
+      "exit": 0,
+      "seconds": 5.006572453305125,
+      "log": "round5/logs/near9_two.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "near9_typed4",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round5/candidates/near9_typed4.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "4",
+        "--maxcmp",
+        "9",
+        "--change-cmp",
+        "--fresh",
+        "1",
+        "--random-seed",
+        "5231541"
+      ],
+      "wall_limit": 180.0,
+      "exit": 0,
+      "seconds": 7.945832129567862,
+      "log": "round5/logs/near9_typed4.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "near9_typed6",
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round5/candidates/fresh31_near.s",
+        "round5/candidates/near9_typed6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--maxcmp",
+        "9",
+        "--fresh",
+        "1",
+        "--change-cmp",
+        "--random-seed",
+        "5231961"
+      ],
+      "wall_limit": 180.0,
+      "exit": 0,
+      "seconds": 114.3703567609191,
+      "log": "round5/logs/near9_typed6.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "triple_extrema_R6_c3",
+      "command": [
+        "python3",
+        "-B",
+        "round5/src/triple_extrema.py",
+        "--registers",
+        "6",
+        "--comparisons",
+        "3",
+        "--first"
+      ],
+      "wall_limit": 240.0,
+      "exit": 1,
+      "seconds": 0.21175347175449133,
+      "log": "round5/logs/triple_extrema_R6_c3.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FAILED"
+    },
+    {
+      "name": "triple_extrema_R6_c3_fixed",
+      "command": [
+        "python3",
+        "-B",
+        "round5/src/triple_extrema.py",
+        "--registers",
+        "6",
+        "--comparisons",
+        "3",
+        "--first"
+      ],
+      "wall_limit": 240.0,
+      "exit": 124,
+      "seconds": 240.01653584185988,
+      "log": "round5/logs/triple_extrema_R6_c3_fixed.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT"
+    },
+    {
+      "name": "triple_extrema_R6_c4_safe",
+      "command": [
+        "python3",
+        "-B",
+        "round5/src/triple_extrema.py",
+        "--registers",
+        "6",
+        "--comparisons",
+        "4",
+        "--first",
+        "--safe"
+      ],
+      "wall_limit": 240.0,
+      "exit": 124,
+      "seconds": 240.01046254485846,
+      "log": "round5/logs/triple_extrema_R6_c4_safe.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT"
+    },
+    {
+      "name": "triple_extrema_control",
+      "command": [
+        "python3",
+        "-B",
+        "round5/src/triple_extrema.py",
+        "--control",
+        "--registers",
+        "6"
+      ],
+      "wall_limit": 30.0,
+      "exit": 0,
+      "seconds": 2.1915713539347053,
+      "log": "round5/logs/triple_extrema_control.log",
+      "affinity": [
+        78,
+        79
+      ],
+      "status": "FINISHED"
+    },
+    {
+      "name": "union9",
+      "command": [
+        "round5/bin/union",
+        "round5/candidates/fresh31_near.s",
+        "round5/candidates/union9",
+        "31",
+        "1.8",
+        "0.1",
+        "480",
+        "5231931",
+        "10",
+        "0"
+      ],
+      "wall_limit": 500.0,
+      "exit": 124,
+      "seconds": 500.00343795865774,
+      "log": "round5/logs/union9.log",
+      "affinity": [
+        74,
+        75
+      ],
+      "status": "UNKNOWN_LIMIT"
+    }
+  ],
+  "strict_passes": [
+    {
+      "file": "round5/candidates/backward4_control.s",
+      "n": 4,
+      "length": 20,
+      "model": "out",
+      "sha256": "6ed2f7a864c6df6a2fd28b46dbc0d716be5c49c3d59acba7ded2e88cfd0cc993",
+      "counts": {
+        "mov": 5,
+        "cmp": 5,
+        "cmovl": 0,
+        "cmovle": 0,
+        "cmovg": 10,
+        "cmovge": 0,
+        "out": 4
+      },
+      "judge_logs": [
+        "round5/logs/backward4_control_judge.log"
+      ]
+    },
+    {
+      "file": "round5/candidates/backward5_control.s",
+      "n": 5,
+      "length": 36,
+      "model": "out",
+      "sha256": "7cc1a19dbf1092bd3a615c558787223b7decd994914c33dcd28a35a4c6ec05a2",
+      "counts": {
+        "mov": 9,
+        "cmp": 9,
+        "cmovl": 0,
+        "cmovle": 0,
+        "cmovg": 18,
+        "cmovge": 0,
+        "out": 5
+      },
+      "judge_logs": [
+        "round5/logs/backward5_control_judge.log"
+      ]
+    },
+    {
+      "file": "round5/candidates/macro9one_sort_813.s",
+      "n": 5,
+      "length": 36,
+      "model": "out",
+      "sha256": "3f8a592a3339e461c63b530bc9b4c9dd771f92c8d0a22908f124227400dcb5f8",
+      "counts": {
+        "mov": 9,
+        "cmp": 9,
+        "cmovl": 0,
+        "cmovle": 0,
+        "cmovg": 18,
+        "cmovge": 0,
+        "out": 5
+      },
+      "judge_logs": [
+        "round5/logs/macro9one_sort_813_judge.log",
+        "round5/logs/macro9one_sort_813_out_judge.log"
+      ]
+    },
+    {
+      "file": "round5/verified_mem/macro9one_sort_813.s",
+      "n": 5,
+      "length": 46,
+      "model": "mem",
+      "sha256": "f17d3b9c793e5fdb164b52c945b471b6d589bb182b770e3af02cb3b106136f96",
+      "counts": {
+        "mov": 19,
+        "cmp": 9,
+        "cmovl": 0,
+        "cmovle": 0,
+        "cmovg": 18,
+        "cmovge": 0,
+        "out": 0
+      },
+      "judge_logs": [
+        "round5/logs/macro9one_sort_813_mem_judge.log"
+      ]
+    },
+    {
+      "file": "round5/verified_mem/near9_repair32.s",
+      "n": 5,
+      "length": 42,
+      "model": "mem",
+      "sha256": "da84bc001bbc8bdb1036fc3dd5bd63e2ab0b39f0cf3ec31dfbbcb2a24eaf7b6e",
+      "counts": {
+        "mov": 12,
+        "cmp": 9,
+        "cmovl": 2,
+        "cmovle": 5,
+        "cmovg": 3,
+        "cmovge": 11,
+        "out": 0
+      },
+      "judge_logs": [
+        "round5/logs/near9_repair32_mem_judge.log"
+      ]
+    },
+    {
+      "file": "round5/candidates/near9_repair32.s",
+      "n": 5,
+      "length": 32,
+      "model": "out",
+      "sha256": "2c6c570e713d986cc0660936cd95278b95a4e27d2758879ab782bc1b61e99717",
+      "counts": {
+        "mov": 2,
+        "cmp": 9,
+        "cmovl": 2,
+        "cmovle": 5,
+        "cmovg": 3,
+        "cmovge": 11,
+        "out": 5
+      },
+      "judge_logs": [
+        "round5/logs/near9_repair32_out_judge.log"
+      ]
+    },
+    {
+      "file": "round5/verified_mem/triple_extrema_13_R6_c3.s",
+      "n": 5,
+      "length": 42,
+      "model": "mem",
+      "sha256": "b74e3ac14c78137088ce9d37cd88ac0c75a47d78ea608d3231e48c59648b16b2",
+      "counts": {
+        "mov": 13,
+        "cmp": 9,
+        "cmovl": 2,
+        "cmovle": 7,
+        "cmovg": 4,
+        "cmovge": 7,
+        "out": 0
+      },
+      "judge_logs": [
+        "round5/logs/triple_extrema_13_R6_c3_mem_judge.log"
+      ]
+    },
+    {
+      "file": "round5/candidates/triple_extrema_13_R6_c3.s",
+      "n": 5,
+      "length": 32,
+      "model": "out",
+      "sha256": "8f59a09585d05f192bc62fc00ca1d8ee2440bd56e278bb724d9163cabd71e9bc",
+      "counts": {
+        "mov": 3,
+        "cmp": 9,
+        "cmovl": 2,
+        "cmovle": 7,
+        "cmovg": 4,
+        "cmovge": 7,
+        "out": 5
+      },
+      "judge_logs": [
+        "round5/logs/triple_extrema_13_R6_c3_out_judge.log"
+      ]
+    }
+  ],
+  "byte_identical_retained_copies": [
+    {
+      "file": "round5/verified/macro9one_sort_813.s",
+      "source": "round5/candidates/macro9one_sort_813.s",
+      "sha256": "3f8a592a3339e461c63b530bc9b4c9dd771f92c8d0a22908f124227400dcb5f8"
+    },
+    {
+      "file": "round5/verified/near9_repair32.s",
+      "source": "round5/candidates/near9_repair32.s",
+      "sha256": "2c6c570e713d986cc0660936cd95278b95a4e27d2758879ab782bc1b61e99717"
+    },
+    {
+      "file": "round5/verified/triple_extrema_13_R6_c3.s",
+      "source": "round5/candidates/triple_extrema_13_R6_c3.s",
+      "sha256": "8f59a09585d05f192bc62fc00ca1d8ee2440bd56e278bb724d9163cabd71e9bc"
+    }
+  ],
+  "search_summaries": {
+    "round5/logs/backward4_control.log": [
+      "RESULT FOUND n=4 swaps=5 calls=47 edges=3312 canonical=215 memo=41 hits=0 cpu=0.000569"
+    ],
+    "round5/logs/backward4_control_judge.log": [],
+    "round5/logs/backward5_control.log": [
+      "RESULT FOUND n=5 swaps=9 calls=3455 edges=690800 canonical=13976 memo=3411 hits=0 cpu=0.405949"
+    ],
+    "round5/logs/backward5_control_judge.log": [],
+    "round5/logs/backward8.log": [
+      "RESULT NONE n=5 swaps=8 calls=20755 edges=4151000 canonical=92601 memo=20592 hits=0 cpu=1.20403"
+    ],
+    "round5/logs/backward_check.log": [
+      "RESULT NONE n=5 swaps=0 calls=1 edges=0 canonical=0 memo=0 hits=0 cpu=4.2e-05",
+      "CHECK_PASS inverse_and_wire_equivalence_checks=234000"
+    ],
+    "round5/logs/fresh31.log": [
+      "SUMMARY iterations=702599168 accepted=94193543 correct_visits=0 best=999 best_error=4 cpu=600.001 newstructures=0 resets=351 archive=20 samples=0"
+    ],
+    "round5/logs/fresh31_near_out_judge.log": [],
+    "round5/logs/global8_blocks_R7.log": [],
+    "round5/logs/global9_pairs_R7.log": [],
+    "round5/logs/macro8.log": [
+      "SUMMARY iterations=1070268416 accepted=128192473 resets=10703 bestscore=6 states=17629 cpu=600.008"
+    ],
+    "round5/logs/macro9.log": [
+      "SUMMARY iterations=62439424 accepted=8851244 resets=625 bestscore=6 states=21930 cpu=40.0077"
+    ],
+    "round5/logs/macro9_one.log": [
+      "SUMMARY iterations=97965 accepted=13680 resets=1 bestscore=0 states=813 cpu=0.149541"
+    ],
+    "round5/logs/macro9one31.log": [
+      "RESULT NONE K=31 calls=377513 leaves=0 sols=0 best=-1 time=0.9s"
+    ],
+    "round5/logs/macro9one_sort_813_judge.log": [],
+    "round5/logs/macro9one_sort_813_mem_judge.log": [],
+    "round5/logs/macro9one_sort_813_out_judge.log": [],
+    "round5/logs/macro_early.log": [
+      "SUMMARY files=3001 deletions=96032 filtered=0 full=0 hits=0 valid32=0 cpu=0.262639"
+    ],
+    "round5/logs/near9_analysis.log": [],
+    "round5/logs/near9_full4.log": [],
+    "round5/logs/near9_repair32_mem_judge.log": [],
+    "round5/logs/near9_repair32_out_judge.log": [],
+    "round5/logs/near9_suffix15.log": [],
+    "round5/logs/near9_two.log": [
+      "SUMMARY registers=8 alphabet=344 singles=10664 pairs=55026240 tried=55036904 filtered=1692 full=1692 hits=0 best_error=9 best_fail=9 cpu=4.78022"
+    ],
+    "round5/logs/near9_typed4.log": [],
+    "round5/logs/near9_typed6.log": [],
+    "round5/logs/triple_extrema_13_R6_c3_mem_judge.log": [],
+    "round5/logs/triple_extrema_13_R6_c3_out_judge.log": [],
+    "round5/logs/triple_extrema_R6_c3.log": [],
+    "round5/logs/triple_extrema_R6_c3_fixed.log": [],
+    "round5/logs/triple_extrema_R6_c4_safe.log": [],
+    "round5/logs/triple_extrema_control.log": [],
+    "round5/logs/union9.log": [],
+    "round5/logs/union9_near_out_judge.log": []
+  },
+  "source_hashes": {
+    "round5/src/backward.cpp": "3d074acdfcec0b0a51930a0760c61223b3cb4298a3de5a8959680512e2b4ea34",
+    "round5/src/backward_check.cpp": "4a9661148b1388db8e52d0bd626cd2e1b0f34c87dd8b83dc8dec5bf2da6b8d7b",
+    "round5/src/direct9_batch.py": "64c51a95a60dfa8e33a6e92e966da1a36e8e7984a5a002a1f2acc3337b5e1cd0",
+    "round5/src/global_sat.py": "d71ac854a41be6057acc8fe7f3ce193fb64e8b08ab96acab5e36115bbdd2adc4",
+    "round5/src/macro_early.cpp": "3948ced36dad71e559e3c762112a88514e66a2144c4ce23f3d26ff84f0fbbb8a",
+    "round5/src/macros.cpp": "08f15dd88b819406d5114586f18a0a4287ba06a8149b18985046fdfcc508feb7",
+    "round5/src/macros9.cpp": "9d61e9950a2cdc5496594c210abca27e7af9408dc4ab82c67a2de5734ab838ae",
+    "round5/src/macros9_one.cpp": "85cb8ce8d3146a82e16d46abfc9d80f3c83287b5f85ba8d7d748277799ea7c70",
+    "round5/src/make_search.py": "010161d42b6036176e852642436fe161a9cd230dce32f770938a0ff096277e1c",
+    "round5/src/near9_analysis.py": "f3f0bfae697afb79e48f861005c47c268a7ddee8b54b5db0b44d8ee449126c94",
+    "round5/src/near9_batch.py": "19aa62803dc244b8d393b6744c61f6e8856718d0b1add1aaa65c3f1fe99c6dc3",
+    "round5/src/near_repair.cpp": "8710b825395f220f5ccd0b705feff00feed3c112f83f920724c575f607e7e3de",
+    "round5/src/new_search.cpp": "8b411db75254261b66d91efd31807a6d37b7933856849a6c84c1a799ab42e86c",
+    "round5/src/run.py": "7db6db479f4156d16ac0876fa5f2398c096255f45e8791ce9f83f961bd1289d7",
+    "round5/src/skeleton.py": "0c657ec73cfbd1a0724185c8ab7eb136119c53173f2d76d727657622658d5fc0",
+    "round5/src/triple_encode.py": "9c3cc53fa5ef428df56ba26aa7f2f8f92519aed55fe500a0d0f9c8174ecacee3",
+    "round5/src/triple_extrema.py": "883729c6c4935dc98cffac402bf0668bf2f5c4b88e6a244e0dcd194ffd46cf32",
+    "round5/src/union.cpp": "b3df6f79942dc8ec7f071ad95324a5f226f8ff7944a205568f36c545d680091d",
+    "round5/src/verify.py": "f71a1e9e5f6bb5fa47cffd057f76f13a994c329ed84318d8c2dcb42c3401d14b"
+  }
+}

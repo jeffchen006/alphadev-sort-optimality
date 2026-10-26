@@ -1,0 +1,16 @@
+{
+  "task": {
+    "tag": "large_registers_retry_free_v17_d28",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_de052e5a1c75d83.s",
+    "seed_sha256": "bdbda19db10a7b58df4284278bbfb88d07df4ab8de49ae4f508001b143be8d84",
+    "delete": 28,
+    "registers": 16,
+    "seconds": 180,
+    "mode": "free_dest",
+    "group": "target",
+    "binary": true,
+    "retry_source": "free_v17_d28",
+    "large_register_test": true
+  },
+  "started_unix": 1792998549.8949237
+}

@@ -1,0 +1,270 @@
+w6x_0 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_1 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_2 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_3 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_4 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_5 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_6 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_7 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_8 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_9 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_10 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_11 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_12 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_13 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_14 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_15 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_16 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_17 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_18 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_19 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_20 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_21 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_22 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_23 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_24 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_25 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_26 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_27 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_28 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_29 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_30 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_31 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_32 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_33 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_34 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_35 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_36 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_37 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_38 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_39 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_40 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_41 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_42 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_43 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_44 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_45 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_46 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_47 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_48 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_49 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_50 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_51 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_52 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_53 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_54 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_55 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_56 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_57 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_58 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_59 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_60 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_61 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_62 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_63 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_64 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_65 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_66 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_67 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_68 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_69 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_70 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_71 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 31 
+w6x_72 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_73 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_74 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_75 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_76 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_77 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_78 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_79 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_80 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_81 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_82 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_83 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_84 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_85 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_86 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_87 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_88 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_89 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_90 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_91 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_92 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_93 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_94 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_95 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_96 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_97 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_98 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_99 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_100 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_101 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_102 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_103 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_104 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_105 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_106 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_107 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_108 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_109 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_110 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_111 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_112 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_113 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_114 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_115 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_116 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_117 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_118 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_119 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_120 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_121 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_122 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_123 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_124 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_125 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_126 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_127 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_128 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_129 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_130 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_131 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_132 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_133 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_134 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_135 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_136 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_137 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_138 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_139 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_140 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_141 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_142 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_143 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_144 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_145 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_146 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_147 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_148 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_149 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_150 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_151 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_152 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_153 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_154 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_155 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_156 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_157 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_158 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_159 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_160 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_161 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_162 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_163 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_164 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_165 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_166 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_167 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_168 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_169 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_170 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_171 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_172 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_173 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_174 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_175 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_176 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_177 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_178 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_179 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_180 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_181 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_182 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_183 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_184 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_185 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_186 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_187 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_188 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_189 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_190 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_191 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_192 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_193 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_194 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_195 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_196 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_197 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_198 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_199 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_200 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_201 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_202 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_203 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_204 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_205 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_206 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_207 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_208 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_209 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_210 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_211 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_212 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_213 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_214 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_215 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_216 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_217 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_218 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_219 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_220 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_221 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_222 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_223 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_224 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_225 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_226 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_227 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_228 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_229 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_230 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_231 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_232 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_233 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_234 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_235 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_236 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_237 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_238 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_239 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_240 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_241 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_242 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_243 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_244 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_245 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_246 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_247 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_248 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_249 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_250 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_251 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_252 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_253 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_254 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_255 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_256 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_257 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_258 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_259 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_260 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_261 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_262 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_263 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_264 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_265 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_266 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_267 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_268 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+w6x_269 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 

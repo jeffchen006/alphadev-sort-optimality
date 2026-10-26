@@ -1,0 +1,2 @@
+5c0e5c1ec1afb054041d015278802dcdece107b9cdc848e54b44ac0cd26ae4c1  /path/to/repo/bin/kissat
+b535cc5334e97fba5b5db6013625c5a0b16ce348a98d59ff91b45a83fa56b39e  /path/to/repo/agents/proofs/tools/bin/drat-trim

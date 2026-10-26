@@ -1,0 +1,20 @@
+[
+  {
+    "name": "near14_general2",
+    "status": "UNSAT",
+    "seconds": 143.23242945037782,
+    "cases": 26,
+    "registers": 9,
+    "changes": 2,
+    "log": "round3/logs/near14_general2.log"
+  },
+  {
+    "name": "near14_general3",
+    "status": "TIMEOUT",
+    "cap": 900,
+    "code": 124,
+    "registers": 9,
+    "changes": 3,
+    "log": "round3/logs/near14_general3.log"
+  }
+]

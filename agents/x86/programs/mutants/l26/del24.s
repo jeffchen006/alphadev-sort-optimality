@@ -1,0 +1,26 @@
+# n=4 R=9 iset=I1 model=reg source=upper:mcmc variant=AlphaDev-memory-model+memory-operands (P=memory cells; cmp/cmov may READ memory; x86-legal: cmp r32,m32 / cmp m32,r32 / cmovcc r32,m32) L=26 (AlphaDev counting: every instruction 1)
+mov S1, P0
+mov S3, P2
+mov S4, P3
+cmp P0, S3
+mov S2, P1
+cmovl S1, S3
+cmovle S3, P0
+cmp S2, S4
+cmovle S4, S2
+cmovle S2, P3
+mov S0, S4
+cmp S3, S4
+cmovge S0, S3
+cmovle S4, S3
+mov S3, S1
+mov P0, S4
+cmp S1, S2
+cmovge S3, S2
+cmovg S2, S1
+cmovg S1, S3
+mov P3, S2
+cmp S0, S1
+cmovle S1, S0
+cmovg S3, S0
+mov P2, S3

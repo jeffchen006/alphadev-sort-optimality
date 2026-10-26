@@ -1,0 +1,224 @@
+{
+  "status": "MATCH",
+  "programs": 18,
+  "full_541_case_programs": 3,
+  "rows": [
+    {
+      "trial": 0,
+      "cases": 541,
+      "free": [
+        7,
+        8,
+        14,
+        32
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 1,
+      "cases": 541,
+      "free": [
+        12,
+        15,
+        26,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 2,
+      "cases": 541,
+      "free": [
+        0,
+        2,
+        17,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 3,
+      "cases": 27,
+      "free": [
+        12,
+        17,
+        21,
+        32
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 4,
+      "cases": 27,
+      "free": [
+        6,
+        10,
+        29,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 5,
+      "cases": 27,
+      "free": [
+        8,
+        18,
+        22,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 6,
+      "cases": 27,
+      "free": [
+        11,
+        23,
+        27,
+        32
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 7,
+      "cases": 27,
+      "free": [
+        6,
+        14,
+        28,
+        31
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 8,
+      "cases": 27,
+      "free": [
+        13,
+        15,
+        19,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 9,
+      "cases": 27,
+      "free": [
+        4,
+        21,
+        28,
+        32
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 10,
+      "cases": 27,
+      "free": [
+        4,
+        18,
+        30,
+        31
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 11,
+      "cases": 27,
+      "free": [
+        2,
+        6,
+        14,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 12,
+      "cases": 27,
+      "free": [
+        2,
+        7,
+        31,
+        32
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 13,
+      "cases": 27,
+      "free": [
+        1,
+        9,
+        18,
+        31
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 14,
+      "cases": 27,
+      "free": [
+        18,
+        20,
+        25,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    },
+    {
+      "trial": 15,
+      "cases": 27,
+      "free": [
+        3,
+        11,
+        26,
+        32
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 16,
+      "cases": 27,
+      "free": [
+        1,
+        3,
+        12,
+        31
+      ],
+      "expected_sat": true,
+      "actual_sat": true
+    },
+    {
+      "trial": 17,
+      "cases": 27,
+      "free": [
+        1,
+        8,
+        10,
+        31
+      ],
+      "expected_sat": false,
+      "actual_sat": false
+    }
+  ],
+  "seconds": 13.414878946729004
+}

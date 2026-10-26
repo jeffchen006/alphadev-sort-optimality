@@ -1,0 +1,23 @@
+{
+  "name": "suffix16_free_r10_new",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix16_free_new.s",
+    "--changes",
+    "0",
+    "--registers",
+    "10",
+    "--prefix",
+    "16"
+  ],
+  "limit": 1800,
+  "seconds": 1800.064801281318,
+  "exit": -15,
+  "status": "timeout"
+}

@@ -1,0 +1,45 @@
+R = 10 (auto: 5 + K - creations - blocks = 10)
+FOUND depth 32 path:
+  regs 0 1 2 3 4
+  regs 0 0 1 2 3 4
+  regs 0 0 1 1 2 3 4
+  regs 0 0 1 1 2 2 3 4
+  regs 0 0 1 1 2 2 3 4  flag 0:4
+  regs 0 1 1 2 2 3 4 20  flag 0:4
+  regs 1 1 2 2 3 4 7 20  flag 0:4
+  regs 1 1 2 2 3 7 7 20  flag 0:4
+  regs 1 1 2 2 3 7 7 20  flag 1:3
+  regs 1 2 2 3 7 7 16 20  flag 1:3
+  regs 2 2 3 7 7 9 16 20  flag 1:3
+  regs 2 2 3 7 7 9 16 20  flag 2:9
+  regs 2 3 7 7 9 13 16 20  flag 2:9
+  regs 2 3 7 7 8 13 16 20  flag 2:9
+  regs 2 3 7 7 8 13 16 20  flag 2:16
+  regs 3 7 7 8 13 16 18 20  flag 2:16
+  regs 3 7 7 8 12 16 18 20  flag 2:16
+  regs 3 7 7 8 12 16 18 20  flag 7:12
+  regs 3 7 8 12 15 16 18 20  flag 7:12
+  regs 7 8 12 15 15 16 18 20  flag 7:12
+  regs 6 7 8 15 15 16 18 20  flag 7:12
+  regs 6 7 8 15 15 16 18 20  flag 6:8
+  regs 7 8 11 15 15 16 18 20  flag 6:8
+  regs 5 8 11 15 15 16 18 20  flag 6:8
+  regs 5 8 11 15 15 16 18 20  flag 8:20
+  regs 5 11 15 15 16 18 20 21  flag 8:20
+  regs 5 10 15 15 16 18 20 21  flag 8:20
+  regs 5 10 15 15 16 18 20 21  flag 18:20
+  regs 5 10 15 15 16 18 21 22  flag 18:20
+  regs 5 10 15 15 16 17 21 22  flag 18:20
+  regs 5 10 15 15 16 17 21 22  flag 15:17
+  regs 5 10 15 16 17 19 21 22  flag 15:17
+  regs 5 10 14 16 17 19 21 22  flag 15:17
+FOUND depth 32 path:
+  regs 0 1 2 3 4
+  regs 0 0 1 2 3 4
+  regs 0 0 1 1 2 3 4
+  regs 0 0 1 1 2 2 3 4
+  regs 0 0 1 1 2 2 3 4  flag 0:4
+  regs 0 1 1 2 2 3 4 20  flag 0:4
+  regs 1 1 2 2 3 4 7 20  flag 0:4
+  regs 1 1 2 2 3 7 7 20  flag 0:4
+  regs 1 1 2 2 3 7 7 20  flag 1:3

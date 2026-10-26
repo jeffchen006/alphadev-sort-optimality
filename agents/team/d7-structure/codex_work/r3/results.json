@@ -1,0 +1,310 @@
+{
+  "41_p_l": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 6.653,
+    "log": "codex_work/r3/log_41_p_l.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_p_r": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 10.93,
+    "log": "codex_work/r3/log_41_p_r.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_p_f": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.111,
+    "log": "codex_work/r3/log_41_p_f.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_p_core": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 13.543,
+    "log": "codex_work/r3/log_41_p_core.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_p_j": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.909,
+    "log": "codex_work/r3/log_41_p_j.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_l_m": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.318,
+    "log": "codex_work/r3/log_41_l_m.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_j_f": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.305,
+    "log": "codex_work/r3/log_41_j_f.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_a3_a4": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 6.607,
+    "log": "codex_work/r3/log_41_a3_a4.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_a01_a02": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 6.803,
+    "log": "codex_work/r3/log_41_a01_a02.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_a01_p": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.258,
+    "log": "codex_work/r3/log_41_a01_p.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_a02_p": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.004,
+    "log": "codex_work/r3/log_41_a02_p.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_b3_b4": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 6.655,
+    "log": "codex_work/r3/log_41_b3_b4.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_c3_c4": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 5.917,
+    "log": "codex_work/r3/log_41_c3_c4.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_p_c3": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.367,
+    "log": "codex_work/r3/log_41_p_c3.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_p_c4": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.272,
+    "log": "codex_work/r3/log_41_p_c4.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_ref_core_r": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 10.226,
+    "log": "codex_work/r3/log_41_ref_core_r.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_ref_v3_v4": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.119,
+    "log": "codex_work/r3/log_41_ref_v3_v4.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_cd_l": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 9.077,
+    "log": "codex_work/r3/log_41_cd_l.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_be_l": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.81,
+    "log": "codex_work/r3/log_41_be_l.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_cd_le": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.514,
+    "log": "codex_work/r3/log_41_cd_le.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_be_le": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.307,
+    "log": "codex_work/r3/log_41_be_le.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "103_vm": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 7.994,
+    "log": "codex_work/r3/log_103_vm.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "103_vcore": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 13.242,
+    "log": "codex_work/r3/log_103_vcore.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "103_mcore": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 11.791,
+    "log": "codex_work/r3/log_103_mcore.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "103_vj": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.056,
+    "log": "codex_work/r3/log_103_vj.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "103_vinputs": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 5.7,
+    "log": "codex_work/r3/log_103_vinputs.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "103_mr": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.048,
+    "log": "codex_work/r3/log_103_mr.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_union105": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 6.068,
+    "log": "codex_work/r3/log_41_union105.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_union109": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 14.132,
+    "log": "codex_work/r3/log_41_union109.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_union17": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 9.709,
+    "log": "codex_work/r3/log_41_union17.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_union43": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 5.495,
+    "log": "codex_work/r3/log_41_union43.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_union34": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.932,
+    "log": "codex_work/r3/log_41_union34.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_union82": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 5.852,
+    "log": "codex_work/r3/log_41_union82.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_merge8_not": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 47.102,
+    "log": "codex_work/r3/log_41_merge8_not.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  },
+  "merge8": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 55.164,
+    "log": "codex_work/r3/log_merge8.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  },
+  "41_merge8_nou": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 43.486,
+    "log": "codex_work/r3/log_41_merge8_nou.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  },
+  "41_merge8_nov": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 62.048,
+    "log": "codex_work/r3/log_41_merge8_nov.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  },
+  "41_merge8_noh": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 52.285,
+    "log": "codex_work/r3/log_41_merge8_noh.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  },
+  "41_merge8_noz": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 43.436,
+    "log": "codex_work/r3/log_41_merge8_noz.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  },
+  "41_nested_l_l": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 5.916,
+    "log": "codex_work/r3/log_41_nested_l_l.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_nested_le_le": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.758,
+    "log": "codex_work/r3/log_41_nested_le_le.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_nested_l_le": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.202,
+    "log": "codex_work/r3/log_41_nested_l_le.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_nested_le_l": {
+    "R": 9,
+    "result": "NONE <= 31",
+    "seconds": 8.409,
+    "log": "codex_work/r3/log_41_nested_le_l.txt",
+    "root": "min creations 18, min cmp blocks 9"
+  },
+  "41_merge8_exchange": {
+    "R": 10,
+    "result": "NONE <= 31",
+    "seconds": 55.078,
+    "log": "codex_work/r3/log_41_merge8_exchange.txt",
+    "root": "min creations 18, min cmp blocks 8"
+  }
+}

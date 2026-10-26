@@ -1,0 +1,18 @@
+{
+  "name": "class_pair_batch",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/repair_classes.py"
+  ],
+  "wall_limit": 900.0,
+  "exit": 0,
+  "seconds": 87.55135686974972,
+  "log": "round6/logs/class_pair_batch.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 82.629915,
+  "peak_child_rss_kib": 12224
+}

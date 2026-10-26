@@ -1,0 +1,14 @@
+[
+  {
+    "path": "round3/verified/duplicate_min_control32.s",
+    "model": "out",
+    "pass": true,
+    "log": "round3/logs/duplicate_min_control32_out_judge.log"
+  },
+  {
+    "path": "round3/verified_mem/duplicate_min_control32.s",
+    "model": "mem",
+    "pass": true,
+    "log": "round3/logs/duplicate_min_control32_mem_judge.log"
+  }
+]

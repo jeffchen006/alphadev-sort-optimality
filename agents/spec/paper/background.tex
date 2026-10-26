@@ -1,0 +1,78 @@
+% spec, 2026-10-24. Section "Background: AlphaDev". Cite keys: see spec_bib.tex. Sources: agents/spec/ext/ (paper, SI, repo).
+\section{Background: AlphaDev's sorting kernels}\label{sec:background}
+
+\paragraph{The AssemblyGame.}
+AlphaDev~\cite{alphadev} builds a program one x86 instruction at a time. Each step appends one instruction; the state holds
+the program and the register and memory contents on a fixed set of test inputs. The reward combines correctness on the test
+inputs with a latency term. For the fixed-length sorts the latency term is the program length: ``all algorithmic variants
+optimize for algorithm length as algorithm length and latency are highly correlated in the conditional branchless setting''
+(Methods); the reported Pearson correlation of length and measured latency is $1.00$, $1.00$, $0.98$ for sort3, sort4,
+sort5 (SI, Table~B.5). Correctness is tested on all weak orderings of the input (``ordered Bell numbers'', SI App.~F), that
+is 13, 75 and 541 inputs for $n = 3,4,5$. The kernels sort a buffer of $n$ \texttt{int} values in place.
+
+\paragraph{Reported lengths.}
+Table~1a of~\cite{alphadev} reports the lengths in Table~\ref{tab:lengths}. The human benchmark is ``sorting networks'' (Main
+text, Fixed sorting algorithms). The kernels in the public repository~\cite{alphadevrepo} and in LLVM
+libc++~\cite{d118029} have lengths 17, 28 and \emph{43}: ``For sort~5, we used a 43 length algorithm discovered by AlphaDev, as
+it led to a more efficient C++ implementation'' (Main text, Libc++ sort patch). The 42-instruction kernel is listed in the
+Supplementary Information, App.~G (\texttt{Sort5\_42}), with eleven further kernels (sort3: 17--20, sort4: 28--31, sort5:
+42--45). We transcribed all of them and checked them on all inputs and on real hardware (Section~\ref{sec:model}).
+
+\begin{table}[h]\centering
+\begin{tabular}{lrrl}\toprule
+ & AlphaDev & human benchmark & source of the AlphaDev kernel \\\midrule
+sort3 & 17 & 18 & repo \texttt{Sort3AlphaDev}; SI \texttt{Sort3\_17} \\
+sort4 & 28 & 28 & repo \texttt{Sort4AlphaDev}; SI \texttt{Sort4\_28} \\
+sort5 & 42 & 46 & SI \texttt{Sort5\_42} (repo and libc++: 43) \\\bottomrule
+\end{tabular}
+\caption{Lengths in Table~1a of~\cite{alphadev}. Length counts every instruction, loads and stores included (Section~\ref{sec:model}).}
+\label{tab:lengths}
+\end{table}
+
+\paragraph{Where the savings come from.}
+AlphaDev describes two local rewrites of sorting-network code. The \emph{swap move} uses an order relation that an earlier
+comparator guarantees ($B \le C$): the network computes $\min(A,B,C)$, but $\min(A,B)$ is enough; this removes one
+instruction (Fig.~3a--c, Table~2a). The \emph{copy move} (sort8 only) uses $D \ge \min(A,C)$ (Table~2b). Table~\ref{tab:mix}
+shows the instruction mix: AlphaDev's sort3 and sort5 save register-to-register \texttt{mov}s (2 instead of 3, 5 instead of 9)
+and keep the number of \texttt{cmp}s of the optimal network (3, 5, 9); sort4 has exactly the mix of the 5-comparator network.
+
+\begin{table}[h]\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}\toprule
+kernel & $L$ & load & store & \texttt{mov} r,r & \texttt{cmp} & \texttt{cmovl/le} & \texttt{cmovg/ge} & x86 regs \\\midrule
+AlphaDev sort3 (repo) & 17 & 3 & 3 & 2 & 3 & 2/2 & 2/0 & 4 \\
+AlphaDev sort4 (repo) & 28 & 4 & 4 & 5 & 5 & 7/0 & 0/3 & 5 \\
+AlphaDev sort5 (SI, 42) & 42 & 5 & 5 & 5 & 9 & 4/3 & 4/7 & 6 \\
+AlphaDev sort5 (repo, 43) & 43 & 5 & 5 & 6 & 9 & 6/7 & 5/0 & 6 \\\midrule
+network sort3 (3 comparators) & 18 & 3 & 3 & 3 & 3 & 0/0 & 6/0 & 4 \\
+network sort4 (5 comparators) & 28 & 4 & 4 & 5 & 5 & 0/0 & 10/0 & 5 \\
+network sort5 (9 comparators) & 46 & 5 & 5 & 9 & 9 & 0/0 & 18/0 & 6 \\\bottomrule
+\end{tabular}
+\caption{Instruction mix. The network rows are our reconstruction of the human benchmark: an optimal sorting network with
+4 instructions per comparator (\texttt{mov t,a; cmp a,b; cmovg a,b; cmovg b,t}) plus $n$ loads and $n$ stores, i.e.
+$L = 2n + 4c$. It gives exactly the human lengths of Table~1a (18, 28, 46); \cite{alphadev} does not list these programs.}
+\label{tab:mix}
+\end{table}
+
+\paragraph{AlphaDev's own optimality claim.}
+Methods, ``Brute-force approach'': ``We also used a brute-force approach to prove that no program shorter than 17 instructions
+exists for sort~3. We had to enumerate roughly $10^{32}$ programs and, even with pruning heuristics, it took more than 3 days
+to prove this hypothesis. For sort~4 and above this approach is infeasible.'' The paper gives neither the exact search space
+nor a certificate; it makes no optimality claim for sort4 or sort5.
+
+\paragraph{AlphaDev's search space.}
+The actions are x86 instructions in AT\&T syntax (main text and Extended Data Table~1 list \texttt{mov}, \texttt{cmp},
+\texttt{cmov}$X$ and jumps; VarInt also uses \texttt{add}). All 15 published fixed-sort kernels for $n \le 5$ (12 in SI App.~G, 3 in the repository) use only
+\texttt{mov}, \texttt{cmp}, \texttt{cmovl}, \texttt{cmovle}, \texttt{cmovg}, \texttt{cmovge}, with register operands for
+\texttt{cmp} and \texttt{cmov}; jumps and immediates appear only in the variable sorts. Methods lists
+action pruning rules: ``Memory locations are always read in incremental order. Registers are allocated in incremental order.
+We cannot compare or conditionally move to a memory location (illegal). We can read and write to each memory location only
+once. We cannot use non-initialized registers (illegal). Do not perform consecutive compare instructions.'' SI App.~F adds
+that a \texttt{cmov} is allowed only after a \texttt{cmp} (Assumption~1). The published kernels do not obey all of these
+rules: the repo sort3 reads the cells in the order 1, 2, 0; SI \texttt{Sort3\_17} reads cell~2 twice; SI \texttt{Sort3\_20}
+has two consecutive \texttt{cmp}s. So the rules were search heuristics, not part of the problem. \emph{Our lower bounds do not
+assume any of them} (except the memory-operand rule, which defines the model; Section~\ref{sec:model}).
+
+\paragraph{Correctness tests and the 0-1 principle.}
+SI App.~F shows that the 0-1 principle of sorting networks fails for cmov programs (a 26-instruction program sorts all
+0/1 inputs of length 4 but not $(4,3,2,1)$, SI Prop.~2), and proves a restricted version used only for sort6--sort8.
+For $n \le 5$ AlphaDev tests all weak orders; we do the same (order-type lemma, Section~\ref{sec:chain}).

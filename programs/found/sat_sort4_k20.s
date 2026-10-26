@@ -1,0 +1,25 @@
+# n=4 R=9 iset=I1 model=out source=agents/sat/normalize.py normal form (RULES.md v3) of alphadev_sort4_28_repo_out.s; accepted by encode.py with all rules+hcmp (assumption check) k=20
+cmp P0, P1
+mov S0, P1
+cmovl S0, P0
+cmovl P0, P1
+cmp P2, P3
+mov S1, P3
+cmovl S1, P2
+mov S2, S1
+cmovl P2, P3
+mov S3, P2
+cmp S0, S1
+cmovl S2, S0
+out 0, S2
+cmovge S1, S0
+cmp P0, P2
+cmovl S3, P0
+mov S4, S3
+cmovge P2, P0
+out 3, P2
+cmp S1, S3
+cmovl S4, S1
+out 1, S4
+cmovge S3, S1
+out 2, S3

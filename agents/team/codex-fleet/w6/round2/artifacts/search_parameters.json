@@ -1,0 +1,68 @@
+{
+  "nice": 19,
+  "cpu_jobs_max": 2,
+  "n32a": {
+    "slots": 33,
+    "temperature": 1.3,
+    "lambda": 2,
+    "novelty": 2,
+    "cpu_seconds": 900,
+    "seed": 6601,
+    "maxcmp": 8,
+    "reset_proposals": 2000000
+  },
+  "b31a": {
+    "slots": 31,
+    "temperature": 1.3,
+    "lambda": 0,
+    "novelty": 0,
+    "cpu_seconds": 480,
+    "seed": 7001,
+    "maxcmp": 8,
+    "fitness": "sum(e + 0.05*e*e)",
+    "reset_proposals": 1000000
+  },
+  "repair": {
+    "mode0": "delete one write; change one operand of each of two cmp; change source and condition of one cmov, destination fixed",
+    "mode1": "delete one write; change both operands of one cmp; change sources of two writes, conditions and destinations fixed",
+    "fresh_registers": 1,
+    "filter_cases": 32,
+    "per_program_cpu_limit": 90
+  },
+  "n32b": {
+    "slots": 33,
+    "temperature": 0.8,
+    "lambda": 1.5,
+    "mov_penalty": 0.5,
+    "novelty": 0.35,
+    "cpu_seconds": 300,
+    "seed": 7101,
+    "maxcmp": 8,
+    "comparison_group_moves": true
+  },
+  "f31a": {
+    "slots": 31,
+    "temperature": 2.5,
+    "lambda": 0,
+    "cpu_seconds": 300,
+    "seed": 7201,
+    "maxcmp": 8,
+    "cases": 541,
+    "fitness": "sum(e + 0.01*e*e)",
+    "start": "round2/candidates/b31a_near.s",
+    "fresh_registers": 1,
+    "retain_improved_failing_seeds": true
+  },
+  "e31a": {
+    "slots": 31,
+    "temperature": 3,
+    "lambda": 0,
+    "cpu_seconds": 300,
+    "seed": 7301,
+    "maxcmp": 8,
+    "cases": 541,
+    "fitness": "sum(e + 0.01*e*e) plus 20 for either prior strict-operand signature",
+    "start": "round2/candidates/near14_frozen.s",
+    "fresh_registers": 1
+  }
+}

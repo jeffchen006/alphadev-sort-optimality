@@ -1,0 +1,49 @@
+{
+  "n": 5,
+  "weak_orders": 541,
+  "wrong_outputs": 0,
+  "undefined_comparisons": 0,
+  "partial_data_nodes": [],
+  "nonlattice_full_data_nodes": [],
+  "lattice_full_data_nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "k": 32,
+  "comparisons": 9,
+  "judges": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_control_pure.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w10/round4/gap_control_pure.s [relaxed+strict] n=5 L=32 R=10 iset=I1 model=out\n"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_control_pure_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w10/round4/gap_control_pure_mem.s [relaxed+strict] n=5 L=42 R=15 iset=I1 model=mem\n"
+    }
+  ]
+}

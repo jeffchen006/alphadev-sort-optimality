@@ -1,0 +1,52 @@
+{
+  "updated": "2026-10-26T07:29:26.516591+00:00",
+  "total": 1351,
+  "pass_completed": 1351,
+  "decided": 0,
+  "remaining": 1351,
+  "unknown": 1351,
+  "per_c": {
+    "9": {
+      "total": 254,
+      "completed": 254,
+      "decided": 0,
+      "unknown": 254
+    },
+    "10": {
+      "total": 232,
+      "completed": 232,
+      "decided": 0,
+      "unknown": 232
+    },
+    "11": {
+      "total": 211,
+      "completed": 211,
+      "decided": 0,
+      "unknown": 211
+    },
+    "12": {
+      "total": 191,
+      "completed": 191,
+      "decided": 0,
+      "unknown": 191
+    },
+    "13": {
+      "total": 172,
+      "completed": 172,
+      "decided": 0,
+      "unknown": 172
+    },
+    "14": {
+      "total": 154,
+      "completed": 154,
+      "decided": 0,
+      "unknown": 154
+    },
+    "15": {
+      "total": 137,
+      "completed": 137,
+      "decided": 0,
+      "unknown": 137
+    }
+  }
+}

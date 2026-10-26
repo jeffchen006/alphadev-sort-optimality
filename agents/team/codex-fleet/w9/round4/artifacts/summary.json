@@ -1,0 +1,122 @@
+{
+  "updated_utc": "2026-10-26T03:27:18.695522+00:00",
+  "preparation": {
+    "unresolved": 698,
+    "selected": 100,
+    "selected_weak_valid": 48,
+    "selected_failure_range": [
+      39,
+      163
+    ],
+    "selected_failure_counts": {
+      "39": 2,
+      "75": 4,
+      "93": 1,
+      "95": 1,
+      "96": 1,
+      "105": 9,
+      "111": 1,
+      "114": 1,
+      "116": 1,
+      "119": 3,
+      "126": 11,
+      "129": 3,
+      "135": 10,
+      "137": 7,
+      "138": 2,
+      "142": 2,
+      "145": 1,
+      "147": 27,
+      "153": 1,
+      "155": 7,
+      "157": 1,
+      "161": 1,
+      "163": 3
+    },
+    "structure_classes": 306,
+    "other_configurations": 598,
+    "other_family_counts": {
+      "d7295cd30ed8": 29,
+      "30ac78ad04f7": 49,
+      "fd7a081c6ece": 22,
+      "beece5b2a410": 35,
+      "60dfcab4ded3": 19,
+      "242d0e142400": 24,
+      "27a5f4f9f6ba": 17,
+      "54285964e250": 21,
+      "f8c7310a6b0d": 74,
+      "91d1f811abd4": 20,
+      "6ff943b22116": 40,
+      "45eb6f8f458c": 30,
+      "5a2e790ed42e": 41,
+      "65e288dc8ab2": 23,
+      "751316bb8571": 34,
+      "9edcfdc3f221": 43,
+      "e833b1345876": 12,
+      "976a46e1359d": 54,
+      "66221a2755ee": 11
+    },
+    "all_weak_valid": 254,
+    "independent_baseline_checks": 698,
+    "cpu_seconds": 7.237901975,
+    "ranking_method": "Minimum of recorded decoded-model errors and reordered-source deletion baseline; snapshot heuristic; concrete scratch=7; no claim of SAT compatibility or exact minimum"
+  },
+  "groups": [
+    {
+      "name": "ranked_600_second_reruns",
+      "completed": 1,
+      "planned": 100,
+      "status": {
+        "UNKNOWN": 1
+      },
+      "parent_cpu": 2.4790854820000003,
+      "child_cpu": 474.96973499999996,
+      "wall": 600.0324011063203,
+      "solver_calls": 1,
+      "models": 0,
+      "peak_rss_kib": 250108
+    },
+    {
+      "name": "median_plus_three_changed_slots",
+      "completed": 653,
+      "planned": 653,
+      "status": {
+        "UNSAT": 401,
+        "UNKNOWN": 252
+      },
+      "parent_cpu": 648.8760903260002,
+      "child_cpu": 867.3992059999997,
+      "wall": 2317.14660920389,
+      "solver_calls": 653,
+      "models": 0,
+      "peak_rss_kib": 147432
+    }
+  ],
+  "round2_latest_unsat": 97,
+  "round2_latest_unknown": 698,
+  "controls": {
+    "SAT_CANDIDATE": 3,
+    "UNSAT": 3
+  },
+  "strict_pass_paths": [
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/candidates/model_extra_control_0_3_30ac78ad04f7_37102465_1_k32.s",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/candidates/model_extra_control_0_3_30ac78ad04f7_37102465_1_k32_mem.s",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/candidates/model_extra_control_2_3_fd7a081c6ece_42031657_1_k32.s",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/candidates/model_extra_control_2_3_fd7a081c6ece_42031657_1_k32_mem.s",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/candidates/model_extra_control_5_3_66221a2755ee_42031756_1_k32.s",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/candidates/model_extra_control_5_3_66221a2755ee_42031756_1_k32_mem.s"
+  ],
+  "resources": {
+    "cpu_jobs": 1,
+    "nice": 19,
+    "address_space_mib": 2800,
+    "combined_rss_kib_limit": 2800000
+  },
+  "code_sha256": {
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/src/kissat_solver.py": "5b9fc71e1fa79501b373f71ae310c6e7afc1be22619c5bb211ec09685700288a",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/src/order_kissat.py": "40aeb168fa413a936b2dfc578aa3e4737e4d56ce00aa68d9513e6d6723d4af30",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/src/prepare.py": "4e806816f9657b8f52f48ea0bbe8bb3fd522f881e414d4050f4b72b482b36341",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/src/report.py": "025cae9202530cd10f5f50dbfef3134664200923441ad6107caf596ec9ef9f9d",
+    "/path/to/repo/agents/team/codex-fleet/w9/round4/src/run.py": "f5005a7c6bfe2e9c1901c098fb0b925f77a0522e6534e6b1f335b87bcf52b535"
+  }
+}

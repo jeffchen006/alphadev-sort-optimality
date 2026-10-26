@@ -1,0 +1,432 @@
+[
+  {
+    "path": "round2/verified/c8_15bdbe5ff6cbe16f.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=98707168 filtered=0 groups=14812 cpu=12.3654"
+    ],
+    "seconds": 12.514057014137506,
+    "log": "round2/logs/repair_m0_c8_15bdbe5ff6cbe16f.log"
+  },
+  {
+    "path": "round2/verified/c8_22e8c2d0d1b113b.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=141453312 filtered=0 groups=14168 cpu=18.916"
+    ],
+    "seconds": 18.93073765281588,
+    "log": "round2/logs/repair_m0_c8_22e8c2d0d1b113b.log"
+  },
+  {
+    "path": "round2/verified/c8_8fce06357f6d127.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=141453312 filtered=0 groups=14168 cpu=19.8163"
+    ],
+    "seconds": 19.977390102110803,
+    "log": "round2/logs/repair_m0_c8_8fce06357f6d127.log"
+  },
+  {
+    "path": "verified/c8_108b52d1733c50f9.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=128593920 filtered=0 groups=12880 cpu=14.9895"
+    ],
+    "seconds": 15.082510584034026,
+    "log": "round2/logs/repair_m0_c8_108b52d1733c50f9.log"
+  },
+  {
+    "path": "verified/c8_15d47dd100cf7fcb.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=128593920 filtered=0 groups=12880 cpu=15.8562"
+    ],
+    "seconds": 15.89515256229788,
+    "log": "round2/logs/repair_m0_c8_15d47dd100cf7fcb.log"
+  },
+  {
+    "path": "verified/c8_23f00ca3e09530d3.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=122164224 filtered=0 groups=12236 cpu=14.3943"
+    ],
+    "seconds": 14.52000115159899,
+    "log": "round2/logs/repair_m0_c8_23f00ca3e09530d3.log"
+  },
+  {
+    "path": "verified/c8_26e49cf60c846007.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=192798144 filtered=0 groups=13524 cpu=22.735"
+    ],
+    "seconds": 22.997180133126676,
+    "log": "round2/logs/repair_m0_c8_26e49cf60c846007.log"
+  },
+  {
+    "path": "verified/c8_2754b681df96846f.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=135023616 filtered=0 groups=13524 cpu=15.8307"
+    ],
+    "seconds": 15.871894997544587,
+    "log": "round2/logs/repair_m0_c8_2754b681df96846f.log"
+  },
+  {
+    "path": "verified/c8_2b1431ee7889f02b.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=183617280 filtered=0 groups=12880 cpu=22.3446"
+    ],
+    "seconds": 22.487329772673547,
+    "log": "round2/logs/repair_m0_c8_2b1431ee7889f02b.log"
+  },
+  {
+    "path": "verified/c8_2c342e0e0fbafd57.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=128593920 filtered=0 groups=12880 cpu=17.9579"
+    ],
+    "seconds": 18.176629474386573,
+    "log": "round2/logs/repair_m0_c8_2c342e0e0fbafd57.log"
+  },
+  {
+    "path": "verified/c8_2dfea391c9fdd3bb.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=141453312 filtered=0 groups=14168 cpu=17.1553"
+    ],
+    "seconds": 17.24012882821262,
+    "log": "round2/logs/repair_m0_c8_2dfea391c9fdd3bb.log"
+  },
+  {
+    "path": "verified/c8_2fc1b3fefa56100b.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=128593920 filtered=0 groups=12880 cpu=15.4318"
+    ],
+    "seconds": 15.471445236355066,
+    "log": "round2/logs/repair_m0_c8_2fc1b3fefa56100b.log"
+  },
+  {
+    "path": "verified/c8_3395266762428bd.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=128593920 filtered=0 groups=12880 cpu=14.9354"
+    ],
+    "seconds": 14.942332396283746,
+    "log": "round2/logs/repair_m0_c8_3395266762428bd.log"
+  },
+  {
+    "path": "verified/c8_3809e545578327.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=183617280 filtered=0 groups=12880 cpu=22.5574"
+    ],
+    "seconds": 22.627540084533393,
+    "log": "round2/logs/repair_m0_c8_3809e545578327.log"
+  },
+  {
+    "path": "verified/c8_57fa7c797ed6c84f.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=128593920 filtered=0 groups=12880 cpu=15.852"
+    ],
+    "seconds": 15.963285578414798,
+    "log": "round2/logs/repair_m0_c8_57fa7c797ed6c84f.log"
+  },
+  {
+    "path": "verified/c8_903a0e9b56d0fdc7.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=135023616 filtered=0 groups=13524 cpu=16.3116"
+    ],
+    "seconds": 16.499046112410724,
+    "log": "round2/logs/repair_m0_c8_903a0e9b56d0fdc7.log"
+  },
+  {
+    "path": "verified/c8_9dc3b82d8b1e62f.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=183617280 filtered=0 groups=12880 cpu=21.9637"
+    ],
+    "seconds": 22.06984545569867,
+    "log": "round2/logs/repair_m0_c8_9dc3b82d8b1e62f.log"
+  },
+  {
+    "path": "verified/c8_9f2faf3e2b5848b.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=174436416 filtered=0 groups=12236 cpu=21.5592"
+    ],
+    "seconds": 21.711530019529164,
+    "log": "round2/logs/repair_m0_c8_9f2faf3e2b5848b.log"
+  },
+  {
+    "path": "verified/c8_b71830c38f98f13.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=135023616 filtered=0 groups=13524 cpu=16.7813"
+    ],
+    "seconds": 16.85352191142738,
+    "log": "round2/logs/repair_m0_c8_b71830c38f98f13.log"
+  },
+  {
+    "path": "verified/c8_be0bab6887969b3.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=183617280 filtered=0 groups=12880 cpu=21.9763"
+    ],
+    "seconds": 22.13740065228194,
+    "log": "round2/logs/repair_m0_c8_be0bab6887969b3.log"
+  },
+  {
+    "path": "verified/c8_de052e5a1c75d83.s",
+    "mode": 0,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=122164224 filtered=0 groups=12236 cpu=14.1176"
+    ],
+    "seconds": 14.152664246968925,
+    "log": "round2/logs/repair_m0_c8_de052e5a1c75d83.log"
+  },
+  {
+    "path": "round2/verified/c8_156fdd193572fb27.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=32.497"
+    ],
+    "seconds": 32.75620207656175,
+    "log": "round2/logs/repair_m1_c8_156fdd193572fb27.log"
+  },
+  {
+    "path": "round2/verified/c8_15bdbe5ff6cbe16f.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=149954112 filtered=0 groups=48576 cpu=19.2876"
+    ],
+    "seconds": 19.31961765140295,
+    "log": "round2/logs/repair_m1_c8_15bdbe5ff6cbe16f.log"
+  },
+  {
+    "path": "round2/verified/c8_22e8c2d0d1b113b.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=31.4027"
+    ],
+    "seconds": 31.51422727573663,
+    "log": "round2/logs/repair_m1_c8_22e8c2d0d1b113b.log"
+  },
+  {
+    "path": "round2/verified/c8_8fce06357f6d127.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=31.2616"
+    ],
+    "seconds": 32.50841064564884,
+    "log": "round2/logs/repair_m1_c8_8fce06357f6d127.log"
+  },
+  {
+    "path": "verified/c8_108b52d1733c50f9.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=31.225"
+    ],
+    "seconds": 31.60812854208052,
+    "log": "round2/logs/repair_m1_c8_108b52d1733c50f9.log"
+  },
+  {
+    "path": "verified/c8_15d47dd100cf7fcb.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=34.8008"
+    ],
+    "seconds": 34.93190773110837,
+    "log": "round2/logs/repair_m1_c8_15d47dd100cf7fcb.log"
+  },
+  {
+    "path": "verified/c8_23f00ca3e09530d3.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=32.5651"
+    ],
+    "seconds": 32.882161282002926,
+    "log": "round2/logs/repair_m1_c8_23f00ca3e09530d3.log"
+  },
+  {
+    "path": "verified/c8_26e49cf60c846007.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=389530944 filtered=0 groups=48576 cpu=52.9918"
+    ],
+    "seconds": 53.32278524339199,
+    "log": "round2/logs/repair_m1_c8_26e49cf60c846007.log"
+  },
+  {
+    "path": "verified/c8_2754b681df96846f.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=33.6919"
+    ],
+    "seconds": 34.00658742990345,
+    "log": "round2/logs/repair_m1_c8_2754b681df96846f.log"
+  },
+  {
+    "path": "verified/c8_2b1431ee7889f02b.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=389530944 filtered=0 groups=48576 cpu=48.6647"
+    ],
+    "seconds": 48.9045017529279,
+    "log": "round2/logs/repair_m1_c8_2b1431ee7889f02b.log"
+  },
+  {
+    "path": "verified/c8_2c342e0e0fbafd57.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=31.8635"
+    ],
+    "seconds": 31.915407047607005,
+    "log": "round2/logs/repair_m1_c8_2c342e0e0fbafd57.log"
+  },
+  {
+    "path": "verified/c8_2dfea391c9fdd3bb.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=31.996"
+    ],
+    "seconds": 32.07880869321525,
+    "log": "round2/logs/repair_m1_c8_2dfea391c9fdd3bb.log"
+  },
+  {
+    "path": "verified/c8_2fc1b3fefa56100b.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=32.0703"
+    ],
+    "seconds": 32.24375381693244,
+    "log": "round2/logs/repair_m1_c8_2fc1b3fefa56100b.log"
+  },
+  {
+    "path": "verified/c8_3395266762428bd.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=32.0266"
+    ],
+    "seconds": 32.12995763588697,
+    "log": "round2/logs/repair_m1_c8_3395266762428bd.log"
+  },
+  {
+    "path": "verified/c8_3809e545578327.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=389530944 filtered=0 groups=48576 cpu=48.3747"
+    ],
+    "seconds": 48.6108838301152,
+    "log": "round2/logs/repair_m1_c8_3809e545578327.log"
+  },
+  {
+    "path": "verified/c8_57fa7c797ed6c84f.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=32.4701"
+    ],
+    "seconds": 32.565893625840545,
+    "log": "round2/logs/repair_m1_c8_57fa7c797ed6c84f.log"
+  },
+  {
+    "path": "verified/c8_903a0e9b56d0fdc7.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=30.1478"
+    ],
+    "seconds": 30.198430992662907,
+    "log": "round2/logs/repair_m1_c8_903a0e9b56d0fdc7.log"
+  },
+  {
+    "path": "verified/c8_9dc3b82d8b1e62f.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=389530944 filtered=0 groups=48576 cpu=46.9278"
+    ],
+    "seconds": 120.72460337821394,
+    "log": "round2/logs/repair_m1_c8_9dc3b82d8b1e62f.log"
+  },
+  {
+    "path": "verified/c8_9f2faf3e2b5848b.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=389530944 filtered=0 groups=48576 cpu=46.6975"
+    ],
+    "seconds": 46.83602306526154,
+    "log": "round2/logs/repair_m1_c8_9f2faf3e2b5848b.log"
+  },
+  {
+    "path": "verified/c8_b71830c38f98f13.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=30.1011"
+    ],
+    "seconds": 120.30160474032164,
+    "log": "round2/logs/repair_m1_c8_b71830c38f98f13.log"
+  },
+  {
+    "path": "verified/c8_be0bab6887969b3.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=389530944 filtered=0 groups=48576 cpu=45.5526"
+    ],
+    "seconds": 45.782778188586235,
+    "log": "round2/logs/repair_m1_c8_be0bab6887969b3.log"
+  },
+  {
+    "path": "verified/c8_de052e5a1c75d83.s",
+    "mode": 1,
+    "returncode": 0,
+    "summary": [
+      "SUMMARY status=COMPLETE_NO_HIT tried=248709120 filtered=0 groups=48576 cpu=30.3684"
+    ],
+    "seconds": 30.45113683398813,
+    "log": "round2/logs/repair_m1_c8_de052e5a1c75d83.log"
+  }
+]

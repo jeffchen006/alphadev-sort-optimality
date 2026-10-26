@@ -1,0 +1,25 @@
+{
+  "name": "suffix16_t3",
+  "command": [
+    "round6/bin/suffix",
+    "round5/candidates/fresh31_near.s",
+    "round6/candidates/suffix16_t3",
+    "31",
+    "3",
+    "0.05",
+    "180",
+    "626163",
+    "9",
+    "0",
+    "8",
+    "16"
+  ],
+  "wall_limit": 240.0,
+  "exit": 124,
+  "seconds": 240.165274085477,
+  "log": "round6/logs/suffix16_t3.log",
+  "affinity": [
+    73,
+    74
+  ]
+}

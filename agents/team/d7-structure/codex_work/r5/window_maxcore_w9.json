@@ -1,0 +1,16 @@
+{
+  "result": "unknown",
+  "reason": "timeout",
+  "mode": "maxcore",
+  "c": 3,
+  "writes": 9,
+  "initial": [
+    15,
+    12,
+    11,
+    5
+  ],
+  "cases": 12,
+  "iterations": 1,
+  "seconds": 120.03026436921209
+}

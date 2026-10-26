@@ -1,0 +1,166 @@
+[
+  {
+    "instruction": 1,
+    "dest": 0,
+    "source": 3,
+    "dest_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        1
+      ]
+    },
+    "source_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        8
+      ]
+    }
+  },
+  {
+    "instruction": 5,
+    "dest": 4,
+    "source": 2,
+    "dest_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        16
+      ]
+    },
+    "source_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        4
+      ]
+    }
+  },
+  {
+    "instruction": 9,
+    "dest": 4,
+    "source": 1,
+    "dest_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        20
+      ]
+    },
+    "source_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        2
+      ]
+    }
+  },
+  {
+    "instruction": 14,
+    "dest": 1,
+    "source": 5,
+    "dest_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        2
+      ]
+    },
+    "source_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        4,
+        16
+      ]
+    }
+  },
+  {
+    "instruction": 17,
+    "dest": 6,
+    "source": 4,
+    "dest_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        9
+      ]
+    },
+    "source_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        22
+      ]
+    }
+  },
+  {
+    "instruction": 20,
+    "dest": 7,
+    "source": 1,
+    "dest_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        1,
+        8
+      ]
+    },
+    "source_type": {
+      "kind": "minmax",
+      "dnf_masks": [
+        2,
+        4,
+        16
+      ]
+    }
+  },
+  {
+    "instruction": 25,
+    "dest": 0,
+    "source": 1,
+    "dest_type": {
+      "kind": "not_minmax",
+      "case": [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "actual": 0,
+      "candidate_minmax": 1
+    },
+    "source_type": {
+      "kind": "not_minmax",
+      "case": [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "actual": 1,
+      "candidate_minmax": 0
+    }
+  },
+  {
+    "instruction": 29,
+    "dest": 8,
+    "source": 4,
+    "dest_type": {
+      "kind": "not_minmax",
+      "case": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "actual": 0,
+      "candidate_minmax": 1
+    },
+    "source_type": {
+      "kind": "not_minmax",
+      "case": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "actual": 1,
+      "candidate_minmax": 0
+    }
+  }
+]

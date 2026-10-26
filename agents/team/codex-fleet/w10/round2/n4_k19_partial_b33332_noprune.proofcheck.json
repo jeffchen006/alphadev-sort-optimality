@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_b33332_noprune.json",
+  "cnf_sha256": "ed1f7ede713aee10456dbd603716ccd0b5776b365797f589acf66e6e7a0147ac",
+  "proof_sha256": "bf6b56d3151c8c0c6a283ca8f9164fb575053e17834655ace0da63adabd8182b",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 8.732899942435324
+}

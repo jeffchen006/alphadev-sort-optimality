@@ -1,0 +1,26 @@
+{
+  "name": "suffix12_dest_proof",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix12_dest_proof.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--prefix",
+    "12",
+    "--typed",
+    "--fixed-dest",
+    "--proof"
+  ],
+  "limit": 1200,
+  "seconds": 217.91046983376145,
+  "exit": 0,
+  "status": "finished"
+}

@@ -1,0 +1,11 @@
+{
+  "n": 4,
+  "c": 5,
+  "w": 14,
+  "L": 19,
+  "cases": 96,
+  "result": "unknown",
+  "seconds": 480.13162964675575,
+  "scope": "unbounded SSA; all strict permutations; all four initial flags; common garbage=n",
+  "reason": "timeout"
+}

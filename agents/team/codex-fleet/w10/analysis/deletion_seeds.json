@@ -1,0 +1,82 @@
+[
+  {
+    "seed": "programs/delete_0_0.s",
+    "deleted_core_index": 18,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_0_1.s",
+    "deleted_core_index": 19,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_0_2.s",
+    "deleted_core_index": 24,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_0_3.s",
+    "deleted_core_index": 30,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_1_0.s",
+    "deleted_core_index": 18,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_1_1.s",
+    "deleted_core_index": 19,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_1_2.s",
+    "deleted_core_index": 24,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_1_3.s",
+    "deleted_core_index": 30,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_2_0.s",
+    "deleted_core_index": 18,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_2_1.s",
+    "deleted_core_index": 19,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_2_2.s",
+    "deleted_core_index": 24,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_2_3.s",
+    "deleted_core_index": 30,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_3_0.s",
+    "deleted_core_index": 18,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_3_1.s",
+    "deleted_core_index": 19,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_3_2.s",
+    "deleted_core_index": 24,
+    "error_120": 24
+  },
+  {
+    "seed": "programs/delete_3_3.s",
+    "deleted_core_index": 30,
+    "error_120": 24
+  }
+]

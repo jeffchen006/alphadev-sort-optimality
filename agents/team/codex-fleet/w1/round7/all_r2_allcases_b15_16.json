@@ -1,0 +1,12 @@
+[
+  {
+    "base": 15,
+    "status": "UNKNOWN",
+    "cpu": 65.67,
+    "wall": 65.81021022796631,
+    "exit_code": 134,
+    "reason": "std::bad_alloc under the 2800 MiB address-space limit; no final solver result",
+    "maxrss_kib": 2642996,
+    "allocation_limit": true
+  }
+]

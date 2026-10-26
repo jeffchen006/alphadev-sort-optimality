@@ -1,0 +1,9 @@
+import KProto.D3k10I1G.Data
+set_option maxRecDepth 1000000
+namespace KProto.D3k10I1G
+open LeanReflect KProto
+theorem node444_ok : F (decodeKey M 3 2049010251668298597177217327567434968040146080807204932821325780680704, 6) = true := by decide +kernel
+theorem node445_ok : F (decodeKey M 3 2049010251668298597177217327567434968040146080807313202769251860021248, 6) = true := by decide +kernel
+theorem node446_ok : F (decodeKey M 3 2049010251668298597177217327567434968040146080807314427713166132707328, 6) = true := by decide +kernel
+theorem node447_ok : F (decodeKey M 3 2049010251668298597177217327567434968040181906114943392742289023500288, 5) = true := by decide +kernel
+end KProto.D3k10I1G

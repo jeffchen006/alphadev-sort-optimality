@@ -1,0 +1,25 @@
+# n=4 model=out iset=I1
+cmp P0, P2
+cmovle S1, P2
+cmovl P2, P0
+cmovle P0, S1
+mov S2, P1
+cmp P3, S2
+cmovl S2, P3
+cmovg P1, P3
+mov S0, P0
+cmp P1, S0
+cmovge P0, P1
+out 3, P0
+cmovge P1, S0
+cmp P2, S2
+cmovge S0, P2
+cmovg P2, S2
+out 0, P2
+mov P2, P1
+cmovle S0, S2
+cmp P1, S0
+cmovle P2, S0
+out 2, P2
+cmovge P1, S0
+out 1, P1

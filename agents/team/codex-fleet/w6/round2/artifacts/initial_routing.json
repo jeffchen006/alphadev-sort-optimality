@@ -1,0 +1,38 @@
+[
+  {
+    "program": "round2/verified/c8_156fdd193572fb27.s",
+    "skeleton": "round2/artifacts/skeletons/c8_156fdd193572fb27.skel",
+    "exit": 0,
+    "result": [
+      "RESULT NONE K=31 calls=9460441 leaves=0 sols=0 best=-1 time=34.7s"
+    ],
+    "seconds": 34.73372705373913
+  },
+  {
+    "program": "round2/verified/c8_15bdbe5ff6cbe16f.s",
+    "skeleton": "round2/artifacts/skeletons/c8_15bdbe5ff6cbe16f.skel",
+    "exit": 0,
+    "result": [
+      "RESULT NONE K=31 calls=20161593 leaves=0 sols=0 best=-1 time=56.5s"
+    ],
+    "seconds": 56.539390159770846
+  },
+  {
+    "program": "round2/verified/c8_22e8c2d0d1b113b.s",
+    "skeleton": "round2/artifacts/skeletons/c8_22e8c2d0d1b113b.skel",
+    "exit": 0,
+    "result": [
+      "RESULT NONE K=31 calls=58131395 leaves=2160 sols=0 best=-1 time=211.1s"
+    ],
+    "seconds": 211.0911626527086
+  },
+  {
+    "program": "round2/verified/c8_8fce06357f6d127.s",
+    "skeleton": "round2/artifacts/skeletons/c8_8fce06357f6d127.skel",
+    "exit": 0,
+    "result": [
+      "RESULT NONE K=31 calls=16796330 leaves=0 sols=0 best=-1 time=60.5s"
+    ],
+    "seconds": 60.51608061045408
+  }
+]

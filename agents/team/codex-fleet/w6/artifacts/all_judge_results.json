@@ -1,0 +1,387 @@
+[
+  {
+    "path": "artifacts/skeletons/c8_108b52d1733c50f9.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "372dc9a16d4b2176b27a847593ec64a23c0f75a68976dbeabfb55d61516714bc",
+    "output": "PASS artifacts/skeletons/c8_108b52d1733c50f9.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_15d47dd100cf7fcb.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "0ce8a387a6c182d42d9745969ec7c8a9deeafe178576e47e9ef8e325cdbea018",
+    "output": "PASS artifacts/skeletons/c8_15d47dd100cf7fcb.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_23f00ca3e09530d3.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "3e626701bdf1a22d51d0e73408f4d6185fc13fce09ea0a71010aa828ed28db1c",
+    "output": "PASS artifacts/skeletons/c8_23f00ca3e09530d3.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_26e49cf60c846007.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "33f719793851a71c6c355848f4004c3ad1c64b4bd2508fcb2c64b591bf4ca39e",
+    "output": "PASS artifacts/skeletons/c8_26e49cf60c846007.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 5: reads uninitialized S0; line 16: reads uninitialized S0; line 19: reads uninitialized S0\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_2754b681df96846f.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "c0dd624cfb86a9079e88028956c949b9ba8e1a8b665d020d4f3a9ca8502b624d",
+    "output": "PASS artifacts/skeletons/c8_2754b681df96846f.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 12: reads uninitialized S2; line 13: reads uninitialized S2; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 20: reads uninitialized S2\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_2b1431ee7889f02b.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "90cf813fd4a5b9a8f6f82ee14686967662fc871431259bdd0fa10ca3043a93c3",
+    "output": "PASS artifacts/skeletons/c8_2b1431ee7889f02b.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_2c342e0e0fbafd57.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "8d00d0b960e69103b9486643bd3f7bf35696ba82e3bbf723ecf649ac134bc0b7",
+    "output": "PASS artifacts/skeletons/c8_2c342e0e0fbafd57.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_2dfea391c9fdd3bb.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "596c92011343834c395c80a0b22f214f04a34df745c9a8e03f6edbc2cfda93a2",
+    "output": "PASS artifacts/skeletons/c8_2dfea391c9fdd3bb.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S1; line 9: reads uninitialized S1; line 14: reads uninitialized S1; line 15: reads uninitialized S1; line 16: reads uninitialized S1; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 27: reads uninitialized S2; line 28: reads uninitialized S2; line 33: reads uninitialized S2; line 34: reads uninitialized S2; line 35: reads uninitialized S2; line 37: reads uninitialized S2\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_2fc1b3fefa56100b.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "dd66638e80043ad62d3f523c950109361b3b51e7fa57f51b10af45686f99b81c",
+    "output": "PASS artifacts/skeletons/c8_2fc1b3fefa56100b.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_3395266762428bd.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "c0feed08b2271cb813978078dd0881657b8e21bb6bbb2df10e1ed1f61ba1f1f8",
+    "output": "PASS artifacts/skeletons/c8_3395266762428bd.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_3809e545578327.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "1ade4b9c2b4a439b2952b235804b25bf5f897b30d7c96c96734816600ed534ca",
+    "output": "PASS artifacts/skeletons/c8_3809e545578327.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_57fa7c797ed6c84f.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "cfc140417025adffa788e670d8495081bb76b538e7ae95f1841b900c7ededb21",
+    "output": "PASS artifacts/skeletons/c8_57fa7c797ed6c84f.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 7: reads uninitialized S0\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_903a0e9b56d0fdc7.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "e26f88a46ae26891f338fe5b7c65169a745c63174090f2fed29e4eca06a070e6",
+    "output": "PASS artifacts/skeletons/c8_903a0e9b56d0fdc7.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S0; line 22: reads uninitialized S0; line 23: reads uninitialized S0; line 24: reads uninitialized S0\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_9dc3b82d8b1e62f.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "d3e20cdaea4a5ab97ebe2bb188b6224f0de82b147e72dd01e18e4231379185e6",
+    "output": "PASS artifacts/skeletons/c8_9dc3b82d8b1e62f.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_9f2faf3e2b5848b.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "1df40c62465b6cbbd9931d78c78c1b30cb49460f7194d9bf91546d2912019d59",
+    "output": "PASS artifacts/skeletons/c8_9f2faf3e2b5848b.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_b71830c38f98f13.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "4bc439ae43c5e179caaeee53f3aa8ce7b9efc6ee10e8cd34575f20fb2cb249ff",
+    "output": "PASS artifacts/skeletons/c8_b71830c38f98f13.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_be0bab6887969b3.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "3228348bb922af60a8038ec93dd7323e540250e67a6486a19ca3fbac1eb47414",
+    "output": "PASS artifacts/skeletons/c8_be0bab6887969b3.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 4: reads uninitialized S1; line 5: reads uninitialized S1; line 19: reads uninitialized S1; line 23: reads uninitialized S1; line 24: reads uninitialized S1\n"
+  },
+  {
+    "path": "artifacts/skeletons/c8_de052e5a1c75d83.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "bdbda19db10a7b58df4284278bbfb88d07df4ab8de49ae4f508001b143be8d84",
+    "output": "PASS artifacts/skeletons/c8_de052e5a1c75d83.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "artifacts/sort5_c8_k32_mem.s",
+    "model": "mem",
+    "pass": true,
+    "sha256": "5a42d034827e3fcf9449c45e91770b9c438ab3160d1d0fc3251286b768f71ed4",
+    "output": "PASS artifacts/sort5_c8_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n"
+  },
+  {
+    "path": "artifacts/sort5_c8_k32_out.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "43aad8344a0af5165abc32492d5a282495d48422c050333a17086d9655c7fb87",
+    "output": "PASS artifacts/sort5_c8_k32_out.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8a_len32_c35b6.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "cb31e55dcaa641ddb8952c5b298d5d292525880b3f1358f9bf833e7f38196489",
+    "output": "PASS candidates/c8a_len32_c35b6.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S6; line 10: reads uninitialized S6; line 11: reads uninitialized S6; line 13: reads uninitialized S6; line 14: reads uninitialized S6; line 18: reads uninitialized S6\n"
+  },
+  {
+    "path": "candidates/c8a_len33_a32242.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "e93cf95800eafc21d4457f8afad654ee91c326c19e4809c47edc5f5605c898b1",
+    "output": "PASS candidates/c8a_len33_a32242.s [relaxed+strict] n=5 L=33 R=11 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8b_len32_64cc82.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "d13464d0a2eba9030df8acc1c2bcd796ef2f0cc0729c7617c23169f05aad7ae1",
+    "output": "PASS candidates/c8b_len32_64cc82.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8b_len33_6085ec.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "8b61c89099ecb1a340a65954efab04eb31b70350310311b4782ccada244ffeb6",
+    "output": "PASS candidates/c8b_len33_6085ec.s [relaxed+strict] n=5 L=33 R=11 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8c_len32_c29288.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "e0bfe10fba9346fe1a5d64866170138478dd07bcff635862b893777ab4a17a92",
+    "output": "PASS candidates/c8c_len32_c29288.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8c_len33_decb9e.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "e201553023f3ac9db26464853fb9c6689675c45b3876ab52e725194eaf3f807b",
+    "output": "PASS candidates/c8c_len33_decb9e.s [relaxed+strict] n=5 L=33 R=11 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8d_len33_3133e9.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "4d511a73077c93b9e88f10391ca26a46e23a892bf76e56b36c4185e7522bedc1",
+    "output": "PASS candidates/c8d_len33_3133e9.s [relaxed+strict] n=5 L=33 R=11 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8e_len32_fe5a3d.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "359caaa7bcaedb495707c0f1b793b11d8cd69e8fa7d0847637b9a11bd7e6f087",
+    "output": "PASS candidates/c8e_len32_fe5a3d.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/c8f_len32_238c31.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "77cfa543911f7065c41692dda8c4f6743b87e6c4f2cfbc4ac2e1711b6b2e3af9",
+    "output": "PASS candidates/c8f_len32_238c31.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/p32a_k32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "091e143f948163007a670642b3303ab4f8c18af34fe9e31cd9b5593b547cc6df",
+    "output": "PASS candidates/p32a_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/p32b_k32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "7d5420396ab5749630b56da453cfeb9b9d44f1b8515663eb916c7bb888414aaf",
+    "output": "PASS candidates/p32b_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S1; line 10: reads uninitialized S1; line 11: reads uninitialized S1; line 13: reads uninitialized S1; line 14: reads uninitialized S1; line 18: reads uninitialized S1\n"
+  },
+  {
+    "path": "candidates/p32c_k32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "091e143f948163007a670642b3303ab4f8c18af34fe9e31cd9b5593b547cc6df",
+    "output": "PASS candidates/p32c_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/p32d_k32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "6f26c477ccc91cd1e39dcd2b8839e9ddc881792282af2fa716d52a329cbdeb19",
+    "output": "PASS candidates/p32d_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "candidates/window5_16_k32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "0d69bc3ade08078050ba3721534ac405dfdf5cb836ddd282687ee04c4364802a",
+    "output": "PASS candidates/window5_16_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "seeds/c8_13_k32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "0ce8a387a6c182d42d9745969ec7c8a9deeafe178576e47e9ef8e325cdbea018",
+    "output": "PASS seeds/c8_13_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "seeds/c8_32.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "e0bfe10fba9346fe1a5d64866170138478dd07bcff635862b893777ab4a17a92",
+    "output": "PASS seeds/c8_32.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "path": "seeds/position33.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "c2a3af7aaa9e9b2341e11d953da6963bb9eed651448fb512ce71219c44bed84d",
+    "output": "PASS seeds/position33.s [relaxed+strict] n=5 L=33 R=18 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_108b52d1733c50f9.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "372dc9a16d4b2176b27a847593ec64a23c0f75a68976dbeabfb55d61516714bc",
+    "output": "PASS verified/c8_108b52d1733c50f9.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_15d47dd100cf7fcb.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "0ce8a387a6c182d42d9745969ec7c8a9deeafe178576e47e9ef8e325cdbea018",
+    "output": "PASS verified/c8_15d47dd100cf7fcb.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_23f00ca3e09530d3.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "3e626701bdf1a22d51d0e73408f4d6185fc13fce09ea0a71010aa828ed28db1c",
+    "output": "PASS verified/c8_23f00ca3e09530d3.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_26e49cf60c846007.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "33f719793851a71c6c355848f4004c3ad1c64b4bd2508fcb2c64b591bf4ca39e",
+    "output": "PASS verified/c8_26e49cf60c846007.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 5: reads uninitialized S0; line 16: reads uninitialized S0; line 19: reads uninitialized S0\n"
+  },
+  {
+    "path": "verified/c8_2754b681df96846f.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "c0dd624cfb86a9079e88028956c949b9ba8e1a8b665d020d4f3a9ca8502b624d",
+    "output": "PASS verified/c8_2754b681df96846f.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 12: reads uninitialized S2; line 13: reads uninitialized S2; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 20: reads uninitialized S2\n"
+  },
+  {
+    "path": "verified/c8_2b1431ee7889f02b.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "90cf813fd4a5b9a8f6f82ee14686967662fc871431259bdd0fa10ca3043a93c3",
+    "output": "PASS verified/c8_2b1431ee7889f02b.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_2c342e0e0fbafd57.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "8d00d0b960e69103b9486643bd3f7bf35696ba82e3bbf723ecf649ac134bc0b7",
+    "output": "PASS verified/c8_2c342e0e0fbafd57.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_2dfea391c9fdd3bb.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "596c92011343834c395c80a0b22f214f04a34df745c9a8e03f6edbc2cfda93a2",
+    "output": "PASS verified/c8_2dfea391c9fdd3bb.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S1; line 9: reads uninitialized S1; line 14: reads uninitialized S1; line 15: reads uninitialized S1; line 16: reads uninitialized S1; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 27: reads uninitialized S2; line 28: reads uninitialized S2; line 33: reads uninitialized S2; line 34: reads uninitialized S2; line 35: reads uninitialized S2; line 37: reads uninitialized S2\n"
+  },
+  {
+    "path": "verified/c8_2fc1b3fefa56100b.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "dd66638e80043ad62d3f523c950109361b3b51e7fa57f51b10af45686f99b81c",
+    "output": "PASS verified/c8_2fc1b3fefa56100b.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_3395266762428bd.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "c0feed08b2271cb813978078dd0881657b8e21bb6bbb2df10e1ed1f61ba1f1f8",
+    "output": "PASS verified/c8_3395266762428bd.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_3809e545578327.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "1ade4b9c2b4a439b2952b235804b25bf5f897b30d7c96c96734816600ed534ca",
+    "output": "PASS verified/c8_3809e545578327.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_57fa7c797ed6c84f.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "cfc140417025adffa788e670d8495081bb76b538e7ae95f1841b900c7ededb21",
+    "output": "PASS verified/c8_57fa7c797ed6c84f.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 7: reads uninitialized S0\n"
+  },
+  {
+    "path": "verified/c8_903a0e9b56d0fdc7.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "e26f88a46ae26891f338fe5b7c65169a745c63174090f2fed29e4eca06a070e6",
+    "output": "PASS verified/c8_903a0e9b56d0fdc7.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S0; line 22: reads uninitialized S0; line 23: reads uninitialized S0; line 24: reads uninitialized S0\n"
+  },
+  {
+    "path": "verified/c8_9dc3b82d8b1e62f.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "d3e20cdaea4a5ab97ebe2bb188b6224f0de82b147e72dd01e18e4231379185e6",
+    "output": "PASS verified/c8_9dc3b82d8b1e62f.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_9f2faf3e2b5848b.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "1df40c62465b6cbbd9931d78c78c1b30cb49460f7194d9bf91546d2912019d59",
+    "output": "PASS verified/c8_9f2faf3e2b5848b.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_b71830c38f98f13.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "4bc439ae43c5e179caaeee53f3aa8ce7b9efc6ee10e8cd34575f20fb2cb249ff",
+    "output": "PASS verified/c8_b71830c38f98f13.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_be0bab6887969b3.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "b8564599f0d92ecb4479d5ec612c971417c81efdd700b53521512f46086a3eee",
+    "output": "PASS verified/c8_be0bab6887969b3.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n"
+  },
+  {
+    "path": "verified/c8_de052e5a1c75d83.s",
+    "model": "out",
+    "pass": true,
+    "sha256": "bdbda19db10a7b58df4284278bbfb88d07df4ab8de49ae4f508001b143be8d84",
+    "output": "PASS verified/c8_de052e5a1c75d83.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n"
+  }
+]

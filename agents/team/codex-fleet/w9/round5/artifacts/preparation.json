@@ -1,0 +1,14 @@
+{
+  "classes": 306,
+  "source_configurations": 698,
+  "rejected_representatives": 200,
+  "accepted_representatives": 106,
+  "representative_rule": "minimum baseline/model failures, old variables, old clauses, queue index",
+  "execution_order": "information-filter rejected first, then decreasing fixed-prefix length, then formula size",
+  "input_sha256": {
+    "round4/artifacts/structure_classes.json": "c0fbc865e16edde73ce45712e522f36c38428889b712f6b8c3bc9e7c0c73b2f9",
+    "round4/artifacts/ranked_unknown.json": "a46ca2cc12f57316ab607340e3f1776bc13ac477d1a5164d8e1f1baba9fd8d86",
+    "round3/artifacts/unknown_queue.json": "0936a85cce04937690b1612b250ecf8f2de6d00d3570d9c8d06f79686cd2b637",
+    "round3/artifacts/unknown_weak_filter.json": "789aa4f1aace986b1ed7fa00da257c96b2675747afb6613c1fad2528d44c43dc"
+  }
+}

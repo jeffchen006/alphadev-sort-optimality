@@ -1,0 +1,78 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2024 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 4.0.4 8af8e56f174b778aef3aa45af9f739b2a5f492c2
+c gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0 -W -Wall -O3 -DNDEBUG
+c Tue Oct 20 22:28:58 CEST 2026 Linux build-host 5.15.0-190-generic x86_64
+c
+c ---- [ proving ] -----------------------------------------------------------
+c
+c opened and writing proof to DRAT file:
+c
+c   /path/to/repo/agents/team/codex-fleet/w1/round10/reject2_bound.drat
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   /path/to/repo/agents/team/codex-fleet/w1/round10/reject2_bound.cnf
+c
+c parsed 'p cnf 288 1470' header
+c closing input after reading 21463 bytes (21 KB)
+c finished parsing after 0.00 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c seconds switched rate     size/glue tier1 binary    remaining
+c        MB reductions conflicts size  tier2  irredundant
+c         level restarts redundant glue  trail    variables
+c
+c *  0.00  3 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 502 791 71 25%
+c (  0.00  3 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 502 791 71 25%
+c .  0.00  3 0 0 0  0 0   0   0 0.0 0 0 0 0 0%  81 117 71 25%
+c c  0.00  4 0 0 0  0 0   0   0 0.0 0 0 0 0 0%  84 79 54 19%
+c d  0.00  4 0 0 0  0 0   0   0 0.0 0 0 0 0 0%  84 79 50 17%
+c )  0.00  4 0 0 0  0 0   0   0 0.0 0 0 0 0 0%  84 79 50 17%
+c 0  0.00  4 0 0 0  0 0   0   0 0.0 0 0 0 0 0%  84 79 50 17%
+c
+c ---- [ result ] ------------------------------------------------------------
+c
+s UNSATISFIABLE
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c           0.00   48.82 %  parse
+c           0.00   18.27 %  preprocess
+c           0.00    9.47 %  probe
+c           0.00    7.24 %  congruence
+c           0.00    1.74 %  substitute
+c           0.00    0.71 %  lucky
+c           0.00    0.00 %  search
+c           0.00    0.00 %  simplify
+c =============================================
+c           0.00  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c conflicts:                                0                0.00 per second
+c congruent:                               17                6 %  variables
+c decisions:                                0                0.00 per conflict
+c propagations:                           311            98355    per second
+c switched:                                 0                0    interval
+c
+c ---- [ glue usage ] --------------------------------------------------------
+c
+c no clauses used at all
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:         17817600 bytes         17 MB
+c process-time:                                              0.00 seconds
+c
+c ---- [ shutting down ] -----------------------------------------------------
+c
+c exit 20

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round2/src/source_slots_sat.py",
+    "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+    "round3/candidates/zero75_sources5.s",
+    "--changes",
+    "5",
+    "--prefix",
+    "0"
+  ],
+  "wall_limit": 90.0,
+  "exit": 0,
+  "seconds": 59.16794974450022,
+  "log": "round3/logs/zero75_sources5.log"
+}

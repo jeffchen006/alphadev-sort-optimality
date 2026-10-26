@@ -1,0 +1,3615 @@
+[
+  {
+    "index": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_108b52d1733c50f9.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 5,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 7,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 0,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 6,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 0,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 2,
+        "changes": 316,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 4,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 5,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 0,
+        "changes": 285,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 5,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 2,
+        "changes": 228,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "changes": 174,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_15d47dd100cf7fcb.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_15d47dd100cf7fcb.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 2,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 4,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 16,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 1,
+        "changes": 226,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 5,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 4,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 3,
+        "changes": 292,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 7,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 5,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 2,
+        "changes": 189,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 5,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 7,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 2,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_23f00ca3e09530d3.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_23f00ca3e09530d3.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 9,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 7,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 5,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 5,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 3,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 4,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 2,
+        "changes": 218,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 6,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 7,
+        "changes": 325,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 7,
+        "changes": 126,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 6,
+        "changes": 174,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 6,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_26e49cf60c846007.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_26e49cf60c846007.txt",
+    "k": 32,
+    "registers": 9,
+    "cmovs": [
+      {
+        "at": 1,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 4,
+        "changes": 308,
+        "existing_result": [],
+        "partial_scratch": true
+      },
+      {
+        "at": 2,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [
+          1
+        ],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 2,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 0,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 4,
+        "changes": 316,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 2,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 6,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 1,
+        "changes": 297,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 25,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 7,
+        "changes": 303,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 2,
+        "changes": 213,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 2,
+        "changes": 227,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 1,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 1,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2754b681df96846f.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_2754b681df96846f.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 5,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 4,
+        "changes": 396,
+        "existing_result": [],
+        "partial_scratch": true
+      },
+      {
+        "at": 11,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 1,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 1,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 4,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 7,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 3,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 6,
+        "changes": 240,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 3,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 2,
+        "changes": 181,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 1,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 6,
+        "changes": 228,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 6,
+        "changes": 174,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2b1431ee7889f02b.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_2b1431ee7889f02b.txt",
+    "k": 32,
+    "registers": 9,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovge",
+        "dest": 8,
+        "source": 6,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 4,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 5,
+        "changes": 316,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 0,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 7,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 8,
+        "changes": 297,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovl",
+        "dest": 8,
+        "source": 4,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 8,
+        "source": 0,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 4,
+        "changes": 213,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 8,
+        "changes": 213,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 7,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 7,
+        "changes": 155,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2c342e0e0fbafd57.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_2c342e0e0fbafd57.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 2,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 3,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 0,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 0,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 4,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 7,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 6,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 2,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 5,
+        "changes": 316,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 4,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 3,
+        "changes": 297,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 2,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 0,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "changes": 213,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "changes": 213,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 4,
+        "changes": 155,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 4,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_2dfea391c9fdd3bb.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 2,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 5,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 5,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 0,
+        "changes": 308,
+        "existing_result": [],
+        "partial_scratch": true
+      },
+      {
+        "at": 6,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 9,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 6,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 16,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 2,
+        "changes": 274,
+        "existing_result": [],
+        "partial_scratch": true
+      },
+      {
+        "at": 17,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 1,
+        "changes": 218,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 0,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 7,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 4,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 3,
+        "changes": 325,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 3,
+        "changes": 126,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 7,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2fc1b3fefa56100b.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_2fc1b3fefa56100b.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 1,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 1,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 5,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 7,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 4,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 5,
+        "changes": 329,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 4,
+        "changes": 297,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 2,
+        "changes": 303,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 3,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 4,
+        "changes": 155,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 1,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 3,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 5,
+        "changes": 255,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 1,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3395266762428bd.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_3395266762428bd.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 5,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 7,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 6,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 0,
+        "changes": 316,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 5,
+        "changes": 297,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 2,
+        "changes": 303,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 4,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 5,
+        "changes": 204,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 7,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 4,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 0,
+        "changes": 255,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 0,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3809e545578327.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_3809e545578327.txt",
+    "k": 32,
+    "registers": 9,
+    "cmovs": [
+      {
+        "at": 2,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 5,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 9,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 0,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 1,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 16,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 19,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 8,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "changes": 150,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 6,
+        "changes": 129,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 6,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 5,
+        "changes": 219,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 3,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 4,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovle",
+        "dest": 4,
+        "source": 3,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_57fa7c797ed6c84f.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_57fa7c797ed6c84f.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 1,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 0,
+        "changes": 308,
+        "existing_result": [],
+        "partial_scratch": true
+      },
+      {
+        "at": 2,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 5,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 5,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 4,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 3,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 0,
+        "changes": 316,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 2,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 4,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 7,
+        "changes": 297,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 1,
+        "changes": 303,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 2,
+        "changes": 227,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 2,
+        "changes": 213,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 4,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 4,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_903a0e9b56d0fdc7.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_903a0e9b56d0fdc7.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 1,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 1,
+        "changes": 308,
+        "existing_result": [],
+        "partial_scratch": true
+      },
+      {
+        "at": 2,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 0,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 6,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovge",
+        "dest": 1,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 20,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "changes": 218,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 0,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "changes": 207,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 0,
+        "changes": 126,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "changes": 126,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 3,
+        "changes": 130,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 2,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 7,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9dc3b82d8b1e62f.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_9dc3b82d8b1e62f.txt",
+    "k": 32,
+    "registers": 9,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 1,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 7,
+        "changes": 251,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 3,
+        "changes": 264,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 19,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 7,
+        "changes": 150,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 5,
+        "changes": 129,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 5,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 8,
+        "changes": 219,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovge",
+        "dest": 8,
+        "source": 1,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 5,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 1,
+        "changes": 243,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9f2faf3e2b5848b.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_9f2faf3e2b5848b.txt",
+    "k": 32,
+    "registers": 9,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 4,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 4,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 3,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 16,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 8,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 19,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "changes": 150,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 5,
+        "changes": 129,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 5,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "changes": 201,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 3,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 5,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "changes": 198,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_b71830c38f98f13.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_b71830c38f98f13.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 4,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 5,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [
+          2
+        ],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 3,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 1,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 16,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 19,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 4,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 2,
+        "changes": 246,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 1,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 1,
+        "changes": 210,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 7,
+        "changes": 300,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 1,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 2,
+        "changes": 174,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 2,
+        "changes": 189,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_be0bab6887969b3.txt",
+    "k": 32,
+    "registers": 9,
+    "cmovs": [
+      {
+        "at": 2,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 3,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 1,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 12,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 6,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 16,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 1,
+        "changes": 290,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 3,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 19,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 5,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "changes": 150,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 2,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 6,
+        "changes": 129,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 6,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 0,
+        "changes": 219,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 6,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 7,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 7,
+        "changes": 216,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_de052e5a1c75d83.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/c8_de052e5a1c75d83.txt",
+    "k": 32,
+    "registers": 8,
+    "cmovs": [
+      {
+        "at": 2,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 3,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 1,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 8,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 0,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 6,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 15,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 7,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 19,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 7,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 2,
+        "changes": 246,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 3,
+        "changes": 210,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 0,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 4,
+        "changes": 300,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 3,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovge",
+        "dest": 0,
+        "source": 2,
+        "changes": 174,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 2,
+        "changes": 189,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/verified/palette_c8_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round2/seeds/palette_c8_k32.txt",
+    "k": 32,
+    "registers": 10,
+    "cmovs": [
+      {
+        "at": 2,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 3,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 3,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 0,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 6,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 2,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 7,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "changes": 233,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 10,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 2,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 11,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 1,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 13,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 6,
+        "changes": 145,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 14,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "changes": 321,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 17,
+        "op": "cmovl",
+        "dest": 8,
+        "source": 3,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 18,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "changes": 163,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 21,
+        "op": "cmovle",
+        "dest": 9,
+        "source": 5,
+        "changes": 303,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 22,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "changes": 129,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 23,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 1,
+        "changes": 267,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 24,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 2,
+        "changes": 312,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 26,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 9,
+        "changes": 219,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 27,
+        "op": "cmovl",
+        "dest": 9,
+        "source": 1,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 28,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "changes": 225,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 30,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      },
+      {
+        "at": 31,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 2,
+        "changes": 147,
+        "existing_result": [],
+        "partial_scratch": false
+      }
+    ]
+  }
+]

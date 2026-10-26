@@ -1,0 +1,39 @@
+{
+  "created": "2026-10-26T07:30:12.556894+00:00",
+  "cube_cover_checks": [
+    {
+      "case": "c10_21_21",
+      "cubes": 43,
+      "verified": true,
+      "checker": {
+        "command": [
+          "/path/to/repo/bin/lrat-check",
+          "/path/to/repo/agents/team/codex-fleet/w10/c2_short/review_checks/c10_21_21.cover.cnf",
+          "/path/to/repo/agents/team/codex-fleet/w10/c2_short/review_checks/c10_21_21.cover.lrat"
+        ],
+        "returncode": 0,
+        "wall_seconds": 0.03845000546425581,
+        "log": "/path/to/repo/agents/team/codex-fleet/w10/c2_short/review_checks/c10_21_21.cover.check.log",
+        "nice": 19
+      },
+      "cnf_sha256": "fc87e36b5cc8f06d2c672230a96071321820339ac3772e0c72ebc6e59d7d1bfe",
+      "proof_sha256": "f8669141e5209691876d91c6f235992de40b789ff0ee53e9d0cb37de3f107c2e"
+    }
+  ],
+  "finite_arithmetic_check": {
+    "n": 3,
+    "strict_orders": 6,
+    "full_columns": 729,
+    "lattice_columns": 18,
+    "nonlattice_columns": 711,
+    "lattice_completion_and_witness_disagreements": 0,
+    "comparison_cases": 1944,
+    "conditional_copy_cases": 69984,
+    "elapsed_seconds": 0.07961317803710699,
+    "scope": "Finite independent arithmetic checks, not a proof of A15"
+  },
+  "source_hashes": {
+    "c2_review_checks.py": "d5397b665498b208eb14a822ff039f00c324df3adcc9740361e67760e332e21a",
+    "threshold_check.py": "ca383f59c3f485ac1f18234b4f4ae94cc9877d455194f40145da263cc5b9fc3f"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "round5/candidates/macro9one_sort_813.s",
+  "k": 36,
+  "sha256": "3f8a592a3339e461c63b530bc9b4c9dd771f92c8d0a22908f124227400dcb5f8",
+  "out": {
+    "pass": true,
+    "file": "round5/candidates/macro9one_sort_813.s",
+    "log": "round5/logs/macro9one_sort_813_out_judge.log"
+  },
+  "mem": {
+    "pass": true,
+    "file": "round5/verified_mem/macro9one_sort_813.s",
+    "log": "round5/logs/macro9one_sort_813_mem_judge.log"
+  }
+}

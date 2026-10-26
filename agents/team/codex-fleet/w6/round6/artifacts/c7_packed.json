@@ -1,0 +1,26 @@
+{
+  "name": "c7_packed",
+  "command": [
+    "round5/bin/new_search",
+    "round6/seeds/c8_c7_0_out.s",
+    "round6/candidates/c7_packed",
+    "31",
+    "4",
+    "0.2",
+    "180",
+    "626071",
+    "7",
+    "0",
+    "7"
+  ],
+  "wall_limit": 240.0,
+  "exit": 0,
+  "seconds": 189.58539514336735,
+  "log": "round6/logs/c7_packed.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 180.00699400000002,
+  "peak_child_rss_kib": 10892
+}

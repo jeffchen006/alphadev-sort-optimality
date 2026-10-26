@@ -1,0 +1,354 @@
+{
+  "result": "No k<=31 candidate found",
+  "groups": [
+    {
+      "group": "s3",
+      "runs": 12,
+      "sizes": [
+        25
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 12
+      }
+    },
+    {
+      "group": "bound",
+      "runs": 8,
+      "sizes": [
+        27
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 8
+      }
+    },
+    {
+      "group": "trim_bound",
+      "runs": 41,
+      "sizes": [
+        24,
+        25
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 41
+      }
+    },
+    {
+      "group": "trim_tail",
+      "runs": 153,
+      "sizes": [
+        24,
+        25
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 153
+      }
+    },
+    {
+      "group": "trim_early",
+      "runs": 78,
+      "sizes": [
+        24,
+        25
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 78
+      }
+    },
+    {
+      "group": "hpair",
+      "runs": 28,
+      "sizes": [
+        27
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 28
+      }
+    },
+    {
+      "group": "htriple",
+      "runs": 56,
+      "sizes": [
+        27
+      ],
+      "R": [
+        10
+      ],
+      "results": {
+        "NONE <= 31": 56
+      }
+    }
+  ],
+  "completed_design_pool_searches": 376,
+  "distinct_design_pools": 376,
+  "baseline_controls": [
+    {
+      "id": "baseline_K31",
+      "idea": "Original term pool control",
+      "file": "codex_work/r5/pool_control.txt",
+      "size": 25,
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": null,
+      "engine": "pool_bfs + necessary rank-preservation pruning",
+      "group": "baseline",
+      "K": 31
+    },
+    {
+      "id": "baseline_K32",
+      "idea": "Original term pool control",
+      "file": "codex_work/r5/pool_control.txt",
+      "size": 25,
+      "R": 11,
+      "result": "MIN k = 32",
+      "seconds": null,
+      "engine": "pool_bfs + necessary rank-preservation pruning",
+      "group": "baseline",
+      "K": 32
+    }
+  ],
+  "preliminary": [
+    {
+      "id": "control",
+      "idea": "Original 25-term pool",
+      "file": "codex_work/r5/pool_control.txt",
+      "size": 25,
+      "result": "TIMEOUT",
+      "R": 10,
+      "seconds": 40.071,
+      "rc": -9,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "bound_CEmin_BLmin",
+      "idea": "Preserve max(3,4); alternate middle bounds",
+      "file": "codex_work/r5/pool_bound_CEmin_BLmin.txt",
+      "size": 27,
+      "result": "TIMEOUT",
+      "R": 10,
+      "seconds": 40.059,
+      "rc": -9,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "bound_CEmin_BLmax",
+      "idea": "Preserve max(3,4); alternate middle bounds",
+      "file": "codex_work/r5/pool_bound_CEmin_BLmax.txt",
+      "size": 27,
+      "result": "TIMEOUT",
+      "R": 10,
+      "seconds": 40.064,
+      "rc": -9,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "bound_CEmin_AEmax",
+      "idea": "Preserve max(3,4); alternate middle bounds",
+      "file": "codex_work/r5/pool_bound_CEmin_AEmax.txt",
+      "size": 27,
+      "result": "TIMEOUT",
+      "R": 10,
+      "seconds": 40.069,
+      "rc": -9,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "trim_bound_CEmin_BLmin",
+      "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+      "file": "codex_work/r5/pool_trim_bound_CEmin_BLmin.txt",
+      "size": 25,
+      "result": "TIMEOUT",
+      "R": 10,
+      "seconds": 60.07,
+      "rc": -9,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "trim_bound_CEmin_BLmax",
+      "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+      "file": "codex_work/r5/pool_trim_bound_CEmin_BLmax.txt",
+      "size": 25,
+      "result": "TIMEOUT",
+      "R": 10,
+      "seconds": 60.102,
+      "rc": -9,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "bound_CEmin_ADmin",
+      "idea": "Preserve max(3,4); alternate middle bounds",
+      "file": "codex_work/r5/pool_bound_CEmin_ADmin.txt",
+      "size": 26,
+      "R": 10,
+      "result": "INTERRUPTED",
+      "seconds": null,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "trim_bound_CEmin_AEmax",
+      "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+      "file": "codex_work/r5/pool_trim_bound_CEmin_AEmax.txt",
+      "size": 25,
+      "R": 10,
+      "result": "INTERRUPTED",
+      "seconds": null,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    },
+    {
+      "id": "trim_bound_CEmin_ADmin",
+      "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+      "file": "codex_work/r5/pool_trim_bound_CEmin_ADmin.txt",
+      "size": 24,
+      "R": 10,
+      "result": "INTERRUPTED",
+      "seconds": null,
+      "engine": "unmodified ./pool_bfs",
+      "group": "preliminary"
+    }
+  ],
+  "controls": [
+    {
+      "file": "control32_found.s",
+      "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/control32_found.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "rc": 0,
+      "c": 8,
+      "g": 19,
+      "v": 5
+    },
+    {
+      "file": "window_tail_w5.s",
+      "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/window_tail_w5.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n",
+      "rc": 0,
+      "c": 8,
+      "g": 20,
+      "v": 4
+    }
+  ],
+  "local_synthesis": [
+    {
+      "result": "unsat",
+      "reason": "",
+      "mode": "tail",
+      "c": 2,
+      "writes": 4,
+      "initial": [
+        0,
+        19,
+        14,
+        6,
+        4,
+        12,
+        18,
+        17,
+        16
+      ],
+      "cases": 24,
+      "iterations": 2,
+      "seconds": 5.680522107519209
+    },
+    {
+      "result": "unsat",
+      "reason": "",
+      "mode": "tailg",
+      "c": 2,
+      "writes": 4,
+      "initial": [
+        0,
+        19,
+        14,
+        6,
+        4,
+        12,
+        18,
+        17,
+        16,
+        25
+      ],
+      "cases": 24,
+      "iterations": 2,
+      "seconds": 16.283290969207883
+    },
+    {
+      "result": "unknown",
+      "reason": "timeout",
+      "mode": "max",
+      "c": 3,
+      "writes": 9,
+      "initial": [
+        0,
+        11,
+        14,
+        6,
+        4,
+        12,
+        5,
+        15
+      ],
+      "cases": 12,
+      "iterations": 1,
+      "seconds": 180.03680551797152
+    },
+    {
+      "result": "unknown",
+      "reason": "timeout",
+      "mode": "maxcore",
+      "c": 3,
+      "writes": 9,
+      "initial": [
+        15,
+        12,
+        11,
+        5
+      ],
+      "cases": 12,
+      "iterations": 1,
+      "seconds": 120.03026436921209
+    },
+    {
+      "result": "unknown",
+      "reason": "timeout",
+      "mode": "max",
+      "c": 3,
+      "writes": 9,
+      "initial": [
+        0,
+        11,
+        14,
+        6,
+        4,
+        12,
+        5,
+        15
+      ],
+      "cases": 24,
+      "iterations": 2,
+      "seconds": 45.05488653946668
+    }
+  ],
+  "limits": "Pool exclusions apply only to their columns. Local SMT result applies only to the fixed post-H register state. No global lower bound follows."
+}

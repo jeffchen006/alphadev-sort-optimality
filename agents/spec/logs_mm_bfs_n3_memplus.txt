@@ -1,0 +1,6 @@
+n=3 model=memplus iset=I1: none with L=1 (states 5)
+n=3 model=memplus iset=I1: none with L=2 (states 30)
+n=3 model=memplus iset=I1: none with L=3 (states 268)
+n=3 model=memplus iset=I1: none with L=4 (states 4117)
+n=3 model=memplus iset=I1: none with L=5 (states 74476)
+n=3 model=memplus iset=I1: none with L=6 (states 1512125)

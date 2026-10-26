@@ -1,0 +1,98 @@
+[
+  {
+    "command": [
+      "./round3/neighbours",
+      "round2/candidates/near14_frozen.s",
+      "round3/candidates/n14",
+      "scoreone"
+    ],
+    "wall_limit": 90.0,
+    "exit": 0,
+    "seconds": 0.03502717800438404,
+    "log": "round3/logs/near14_scoreone.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round3/candidates/nomov_38bc4652d19a9d1c.s",
+      "round3/candidates/nomov_38bc4652d19a9d1c",
+      "delete"
+    ],
+    "wall_limit": 20.0,
+    "exit": 0,
+    "seconds": 0.009693020954728127,
+    "log": "round3/logs/nomov_38bc4652d19a9d1c_deletions.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round3/candidates/nomov_4c02da04dce39b74.s",
+      "round3/candidates/nomov_4c02da04dce39b74",
+      "delete"
+    ],
+    "wall_limit": 20.0,
+    "exit": 0,
+    "seconds": 0.009452600963413715,
+    "log": "round3/logs/nomov_4c02da04dce39b74_deletions.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round3/candidates/nomov_68d29028b7fb54c4.s",
+      "round3/candidates/nomov_68d29028b7fb54c4",
+      "delete"
+    ],
+    "wall_limit": 20.0,
+    "exit": 0,
+    "seconds": 0.07893168553709984,
+    "log": "round3/logs/nomov_68d29028b7fb54c4_deletions.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+      "round3/candidates/nomov_7e5d1b2681c79ac1",
+      "delete"
+    ],
+    "wall_limit": 20.0,
+    "exit": 0,
+    "seconds": 0.018355602398514748,
+    "log": "round3/logs/nomov_7e5d1b2681c79ac1_deletions.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+      "round3/candidates/nomov_9f7a6fc77b297ff9",
+      "delete"
+    ],
+    "wall_limit": 20.0,
+    "exit": 0,
+    "seconds": 0.009582511149346828,
+    "log": "round3/logs/nomov_9f7a6fc77b297ff9_deletions.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round3/candidates/nomov_cb7f7a699c4c9842.s",
+      "round3/candidates/nomov_cb7f7a699c4c9842",
+      "delete"
+    ],
+    "wall_limit": 20.0,
+    "exit": 0,
+    "seconds": 0.028700223192572594,
+    "log": "round3/logs/nomov_cb7f7a699c4c9842_deletions.log"
+  },
+  {
+    "command": [
+      "./round3/neighbours",
+      "round2/candidates/near14_frozen.s",
+      "round3/candidates/n14",
+      "two"
+    ],
+    "wall_limit": 240.0,
+    "exit": 0,
+    "seconds": 6.087347578257322,
+    "log": "round3/logs/near14_two.log"
+  }
+]

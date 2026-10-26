@@ -1,0 +1,43 @@
+{
+  "partial": [
+    0,
+    1,
+    2
+  ],
+  "nonlattice": [],
+  "wrong": 0,
+  "badcmp": 0,
+  "cases": 3,
+  "judges": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three.s",
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/repo/shared/judge.py",
+        "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three.s",
+        "--strict",
+        "--model",
+        "out"
+      ],
+      "returncode": 0,
+      "sha256": "1e563903d193c52c81905ba07674299247c1040ace0e9963247c91a19442d5af",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three.s [relaxed+strict] n=2 L=6 R=4 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S1; line 4: reads uninitialized S0; line 5: reads uninitialized S0; line 5: reads uninitialized S1; line 8: reads uninitialized S1\n"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three_mem.s",
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/repo/shared/judge.py",
+        "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three_mem.s",
+        "--strict",
+        "--model",
+        "mem"
+      ],
+      "returncode": 0,
+      "sha256": "acabcaed733528508a77f219789c32841c1758d859d17a265d9fcdf46b77159b",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three_mem.s [relaxed+strict] n=2 L=10 R=6 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 5: reads uninitialized S2; line 6: reads uninitialized S3; line 6: reads uninitialized S2; line 7: reads uninitialized S2; line 7: reads uninitialized S3; line 10: reads uninitialized S3; line 11: reads uninitialized S3\n"
+    }
+  ],
+  "k": 6,
+  "n": 2
+}

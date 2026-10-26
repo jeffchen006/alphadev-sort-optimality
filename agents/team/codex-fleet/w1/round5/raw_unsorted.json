@@ -1,0 +1,19 @@
+{
+  "cases": 132,
+  "groups": [
+    1,
+    1,
+    3
+  ],
+  "strict": false,
+  "orders": 5040,
+  "functional_orders": 0,
+  "histogram": {
+    "IMPOSSIBLE": 5040
+  },
+  "best": null,
+  "states": 201600,
+  "cpu": 8.198005622,
+  "bestrows": [],
+  "complete": true
+}

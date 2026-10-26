@@ -1,0 +1,2 @@
+PASS /path/to/repo/agents/team/codex-fleet/w4/round6/extra/preflight_candidates/partial_data36.s.model000.s [relaxed+strict] n=5 L=36 R=10 iset=I1 model=out
+  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S1; line 4: reads uninitialized S0; line 5: reads uninitialized S1

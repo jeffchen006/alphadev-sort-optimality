@@ -1,0 +1,21 @@
+{
+  "name": "global8_blocks_R7",
+  "command": [
+    "python3",
+    "-B",
+    "round5/src/global_sat.py",
+    "round5/candidates/global8_blocks_R7.s",
+    "--registers",
+    "7",
+    "--seed",
+    "523171"
+  ],
+  "wall_limit": 240.0,
+  "exit": 124,
+  "seconds": 240.0168350180611,
+  "log": "round5/logs/global8_blocks_R7.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

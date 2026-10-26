@@ -1,0 +1,27 @@
+{
+  "name": "suffix16_typed_120",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix16_120.s",
+    "--changes",
+    "0",
+    "--registers",
+    "10",
+    "--prefix",
+    "16",
+    "--typed",
+    "--initial",
+    "120",
+    "--proof"
+  ],
+  "limit": 300,
+  "seconds": 300.16709519550204,
+  "exit": -15,
+  "status": "timeout"
+}

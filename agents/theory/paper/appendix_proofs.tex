@@ -1,0 +1,167 @@
+% Appendix: soundness proofs (theory, 2026-10-24). Source of truth: agents/theory/lemmas.md.
+% Needs: amsmath, amsthm, amssymb. Macros below.
+\newcommand{\lt}{\mathsf{lt}}\newcommand{\eqf}{\mathsf{eq}}\newcommand{\gt}{\mathsf{gt}}
+\newcommand{\Wn}{\mathcal{W}_n}\newcommand{\srt}{\mathrm{sort}}
+\newcommand{\RS}{\ensuremath{\mathrm{RS}}}\newcommand{\MM}{\ensuremath{\mathrm{MM}}}
+
+\section{Soundness proofs}\label{app:proofs}
+
+\subsection{Machine, semantics, output conventions}
+Registers $\mathrm{Reg}=\{P_0,\dots,P_{n-1}\}\cup\{S_0,S_1,\dots\}$, a flag $F\in\{\lt,\eqf,\gt\}$.
+Instructions (destination first): $\texttt{mov}\,D,S$; $\texttt{cmp}\,A,B$ sets $F$ to the outcome of comparing $A$ with $B$;
+$\texttt{cmov}c\,D,S$ for $c\in\{l,g,le,ge\}$ sets $D:=S$ iff $F\in C(c)$ with
+$C(l)=\{\lt\}$, $C(g)=\{\gt\}$, $C(le)=\{\lt,\eqf\}$, $C(ge)=\{\gt,\eqf\}$. $I_0$ uses $l,g$; $I_1$ uses all four.
+Reads and writes: $W(\texttt{mov}\,D,S)=\{D\}$, $R(\texttt{mov}\,D,S)=\{S\}$; $W(\texttt{cmp}\,A,B)=\{F\}$, $R=\{A,B\}$;
+$W(\texttt{cmov}c\,D,S)=\{D\}$, $R=\{D,S,F\}$. Only \texttt{mov} is a \emph{full definition} of its destination.
+
+A run of $p=i_1\cdots i_k$ from a state $\sigma_0$ gives states $\sigma_0,\dots,\sigma_k$ (position $t$ = after $i_t$).
+\emph{Strict} correctness quantifies over all inputs $x\in\mathbb{Z}_{32}^n$, all scratch values and all $F$.
+The real flags $(ZF, SF\oplus OF)$ have four states; the four conditions read them as
+$\lt$ iff $SF\neq OF$, $\eqf$ iff $SF=OF\wedge ZF$, $\gt$ iff $SF=OF\wedge\neg ZF$, so the three-valued $F$ is exact.
+\emph{T-relaxed} correctness: inputs with $x_i<\mathrm{INT\_MAX}$, all $S_j=T:=\mathrm{INT\_MAX}$, $F=\eqf$.
+
+An \RS{} program is a pair $(p,o)$ with $o(j)=(r_j,t_j)$, $0\le t_j\le k$; it is correct on $x$ if
+$\sigma_{t_j}(r_j)=\srt_j(x)$ for all $j$. (RF: $o(j)=(P_j,k)$. RE: $t_j=k$.)
+
+\subsection{Order types (L1)}
+Let $\Wn$ be the weak orders on $\{0..n-1\}$ ($|\Wn|=1,3,13,75,541$ for $n=1..5$).
+\emph{Abstract run} on $w\in\Wn$: registers hold labels in $\{0..n-1\}\cup\{T\}$, compared by $w$, with $T$ above every
+index and $\mathrm{cmp}(T,T)=\eqf$.
+\begin{lemma}[L1]
+Let $\tau(x)=w$ and $x_i<\mathrm{INT\_MAX}$. In the T-relaxed run on $x$, at every position every register holds
+$v_x(\ell)$, where $\ell$ is its label in the abstract run on $w$, $v_x(i)=x_i$, $v_x(T)=\mathrm{INT\_MAX}$; and the
+flags agree. Hence $(p,o)$ is relaxed-correct on $x$ iff it is abstractly correct on $w$.
+\end{lemma}
+\begin{proof}
+Induction on positions; the only nontrivial case is \texttt{cmp}: $v_x(\ell)<v_x(\ell')$ iff $\ell<_w\ell'$ because
+$\tau(x)=w$ and every $x_i<\mathrm{INT\_MAX}$. For outputs: $v_x(\ell)=\srt_j(x)$ iff $\ell\neq T$ and $x_\ell=\srt_j(x)$,
+a property of $w$ alone.
+\end{proof}
+\begin{corollary}[L1b]
+For $W\subseteq\Wn$: if no length-$k$ program is abstractly correct on $W$, none is relaxed-correct.
+\end{corollary}
+
+\subsection{Relaxation (L2) and registers (L3)}
+\begin{lemma}[L2] Strict correctness implies T-relaxed correctness (all output conventions). \end{lemma}
+\begin{proof} The relaxed run is the strict run with scratch $=\mathrm{INT\_MAX}$ and the real flag state $ZF=1$, $SF=OF$. \end{proof}
+\begin{lemma}[L3] If a relaxed-correct \RS{} program of length $k$ exists ($n\ge2$), one exists over $P_0..P_{n-1},S_0..S_{k-1}$. \end{lemma}
+\begin{proof}
+With no \texttt{cmp}, $F=\eqf$ throughout; $l,g$-cmovs are no-ops and $le,ge$-cmovs are \texttt{mov}s, so every label is
+independent of $w$, and output $0$ fails on some $w$. Hence $\le k-1$ instructions write registers. Never-written scratch
+registers hold $T$ forever: merge them into one. Rename the at most $k$ scratch names bijectively; all scratch registers
+start equal, so the run is unchanged.
+\end{proof}
+
+\subsection{Memory model and the counting map (L5)}
+An \MM{} program uses cells $m_0..m_{n-1}$ (holding $x$ at the start, required to hold $\srt(x)$ at the end) and
+registers. Instructions: register instructions as above, \emph{loads} $\texttt{mov}\,r,[m_i]$, \emph{stores}
+$\texttt{mov}\,[m_i],r$. Assumption (MM-1): no other instruction touches a cell.
+\begin{lemma}[L5]
+If an \MM{} program $q$ of length $L$ is correct (strict, or T-relaxed), then an \RS{} program of length $\le L-2n$ is
+correct in the same semantics. Conversely an \RS{} program of length $k$ yields an \MM{} program of length $k+2n$.
+\end{lemma}
+\begin{proof}
+\emph{(a) Each cell is loaded before it is first stored to.} Otherwise $x_i$ never reaches a register (MM-1), the final
+memory does not depend on $x_i$, but $\srt(x)$ does.
+\emph{(b) Each cell is stored to.} Otherwise $m_j$ ends as $x_j\neq\srt_j(x)$ for some $x$.
+
+\emph{Segments.} The stores to $m_i$ split time into segments $s=0,1,\dots,e_i$; segment $0$ is before the first store and
+has value $x_i$; segment $s\ge1$ starts at the $s$-th store. By (a) segment $0$ contains a load; by (b) $e_i\ge1$.
+Let $G_{i,0}:=P_i$ and let $G_{i,s}$ ($s\ge1$) be fresh registers.
+
+\emph{Live ranges.} A load or \texttt{mov} into $r$ at time $t$ starts a range of $r$ that ends just before the next
+load or \texttt{mov} into $r$ (or at the end). A \texttt{cmov} into $r$ stays in the current range.
+
+\emph{Translation $q\mapsto(p,o)$}, instruction by instruction, with a name map $\nu$ (initially identity on registers):
+\begin{itemize}
+\item register instruction: emit it with operands renamed by $\nu$;
+\item load $\texttt{mov}\,r,[m_i]$ in segment $s$: if it is not the last load of the segment, emit $\texttt{mov}\,\nu'(r),G_{i,s}$
+      with $\nu'(r)$ a fresh name, set $\nu(r):=\nu'(r)$; if it is the last load, emit nothing and set $\nu(r):=G_{i,s}$;
+\item store $\texttt{mov}\,[m_i],r$ that opens segment $s$: if the segment has a load, emit $\texttt{mov}\,G_{i,s},\nu(r)$;
+      otherwise emit nothing. If $s=e_i$, set $o(i):=(\nu(r),\text{current position})$.
+\end{itemize}
+\emph{Invariant.} After translating a prefix of $q$ (same semantics, corresponding initial states; fresh names start
+as garbage, resp.\ $T$): (I1) for every register $r$, the value of $r$ in $q$ equals the value of $\nu(r)$ in $p$
+whenever $r$'s current range is read later; (I2) for every cell $i$ in segment $s$ whose remaining loads are not
+yet all done, $G_{i,s}$ in $p$ holds the segment value; (I3) the flags agree.
+Each step keeps the invariant: register instructions act on corresponding values (I1, I3); a non-last load copies the segment
+value by (I2); at the last load, $G_{i,s}$ holds the segment value and is not read again except through $\nu(r)$ (no later
+load in this segment; later segments use other names), so (I1) holds for the new range; a store with a later load writes the
+segment value to $G_{i,s}$ (I2). Two ranges never share a name: fresh names are fresh, and $G_{i,s}$ is renamed into at most
+one range (the last load), after which nothing else reads or writes $G_{i,s}$. At the final store of $m_i$, (I1) gives
+$\sigma(\nu(r))$ = the value stored, which is the final content of $m_i$, i.e.\ $\srt_i(x)$. So $(p,o)$ is correct.
+
+\emph{Count.} Per cell: segment 0 loses its last load ($-1$); segment $e_i\ge1$ loses its store (no load) or its last
+load ($-1$). Every other emitted instruction replaces one instruction of $q$. Hence $|p|\le L-2n$.
+
+\emph{Converse.} Emit $\texttt{mov}\,P_i,[m_i]$ for all $i$, then $p$, inserting $\texttt{mov}\,[m_j],r_j$ at position $t_j$.
+Cells are not read after the first $n$ instructions, so the stores are safe.
+\end{proof}
+\begin{remark} (i) The proof needs neither ``loads first / stores last'' nor AlphaDev's read-once/write-once rule.
+(ii) Fixing both inputs and outputs (RF) is \emph{not} implied: \MM{} chooses load targets and store sources freely.
+(iii) Without MM-1 (memory sources in \texttt{cmp}/\texttt{cmov}) a load can merge into a compare and (a) gives no
+load per cell; the lemma then fails as stated.
+\end{remark}
+
+\subsection{Padding (L4)}
+\begin{lemma}[L4] (a) Without symmetry rules, UNSAT at exact length $k$ implies UNSAT for all $k'\le k$
+(append $\texttt{mov}\,P_0,P_0$). (b) With the rules of L6, use either the sweep ``UNSAT for every $k'\le K$'' or a
+\texttt{nop} opcode allowed only as a suffix (rules apply to the non-\texttt{nop} prefix).
+\end{lemma}
+\begin{proof} (b) If a correct program of length $\le K$ exists, a shortest one has length $m^\ast\le K$ and by
+Lemma~\ref{lem:master} a rule-satisfying one of length $m^\ast$ exists. \end{proof}
+
+\subsection{Symmetry breaking and pruning (L6)}\label{lem:master}
+Fix a total order $\prec$ on instructions (lexicographic in opcode, then operands, with a fixed register order) and
+extend it lexicographically to programs of equal length (snapshot lists break ties).
+Operations on relaxed-correct \RS{} programs of length $k$ (each preserves length and correctness):
+$\rho_\pi$ permutes scratch names (all start as $T$);
+$\iota_\pi$ permutes $P$ names, also in $o$ (the program then sorts $x\circ\pi$, and $\srt(x\circ\pi)=\srt(x)$; not valid in RF);
+$\sigma_t$ swaps $i_t,i_{t+1}$ if they are \emph{independent}:
+$W(i_t)\cap(R(i_{t+1})\cup W(i_{t+1}))=\emptyset=W(i_{t+1})\cap R(i_t)$, and moves a snapshot at position $t$ reading
+$r$ to $t+1$ if $r\in W(i_t)$, to $t-1$ if $r\in W(i_{t+1})$;
+$\phi_t$ replaces $\texttt{cmp}\,A,B$ at $t$ by $\texttt{cmp}\,B,A$ and swaps $l\leftrightarrow g$, $le\leftrightarrow ge$ in
+the cmovs up to the next \texttt{cmp}.
+Let $\mu$ replace every $le/ge$-cmov before the first \texttt{cmp} by \texttt{mov} (relaxed: $F=\eqf$ there).
+\begin{lemma}[Master lemma]
+Let $p$ be a shortest relaxed-correct program and $p^\ast=\min_\prec C(\mu(p))$, where $C$ is the closure under
+$\rho,\iota,\sigma,\phi$. Then $p^\ast$ is shortest and correct, has no $le/ge$-cmov before the first \texttt{cmp}, and
+$g(p^\ast)\not\prec p^\ast$ for every applicable operation $g$.
+\end{lemma}
+\begin{proof} $C(\mu(p))$ is finite and every member is correct of length $|p|$. No operation creates a pre-\texttt{cmp} cmov:
+$\sigma$ never swaps a cmov with a \texttt{cmp} (both use $F$), $\rho,\iota$ keep opcodes, $\phi$ acts after a \texttt{cmp}. \end{proof}
+Consequences (each is ``some $g$ would give a $\prec$-smaller program''):
+R1 scratch names first occur in the order $S_0,S_1,\dots$ in the scan order of $\prec$;
+R2 independent neighbours satisfy $i_t\prec i_{t+1}$ (identical instructions are never independent);
+R5 every $\texttt{cmp}\,A,B$ has $A\prec B$;
+R6 (RS/RE) $P$ names first occur in order;
+R7 no $le/ge$-cmov before the first \texttt{cmp}.
+Minimality rules (every shortest program satisfies them, since deleting the instruction keeps correctness):
+S1 no $\texttt{mov}/\texttt{cmov}\,D,D$; S2 no dead write ($D$ not read --- as a source, as a cmov destination, by a
+\texttt{cmp}, or by a snapshot --- before the next full definition of $D$ or the end); S3 every \texttt{cmp} is followed by a
+cmov before the next \texttt{cmp}/end; S4 no $l/g$-cmov before the first \texttt{cmp}; S5 no $\texttt{cmp}\,A,A$.
+Implied constraints (true for every correct program, e.g.\ ``a value needed by a later snapshot is held by some register'')
+combine with all rules.
+\begin{theorem}[Joint soundness]
+If a relaxed-correct \RS{} program of length $\le K$ exists, then for $m^\ast$ = the least such length, a relaxed-correct
+\RS{} program of length $m^\ast$ over $n+m^\ast$ registers satisfies R1, R2, R5, R6, R7, S1--S5 and every implied constraint.
+\end{theorem}
+\begin{proof} L3, then the master lemma applied to a shortest program over $n+m^\ast$ registers; $p^\ast$ is shortest, so S1--S5
+hold. \end{proof}
+
+\subsection{Comparison count (L7)}
+\begin{lemma}[L7] A program correct on all $n!$ permutations (T-relaxed, any output convention, $I_0$ or $I_1$) has at least
+$\lceil\log_2 n!\rceil$ \texttt{cmp} instructions. \end{lemma}
+\begin{proof} Permutations with equal flag histories have equal labels in all registers (induction). So a \texttt{cmp} compares
+one label pair on a whole class: equal labels or $T$ against anything give one outcome; distinct indices give $\lt$ or $\gt$.
+Each \texttt{cmp} at most doubles the number of classes. At the end, snapshot $j$ holds label $\pi^{-1}(j)$, so the $n!$
+permutations lie in distinct classes. \end{proof}
+
+\subsection{Main theorem}
+\begin{theorem}
+Fix $n$, $I\in\{I_0,I_1\}$, MM-1, AlphaDev counting (every instruction, incl.\ loads and stores), unbounded registers.
+If for every $k\le L-1-2n$ the encoding of ``a relaxed \RS{} program of length $k$ over $n+k$ registers, correct on
+$W\subseteq\Wn$, satisfying a subset of the rules'' is unsatisfiable, then no \MM{} program of length $\le L-1$ sorts all
+$x\in\mathbb{Z}_{32}^n$ for all garbage and flags.
+\end{theorem}
+\begin{proof} L2, L5, joint soundness, L1b. \end{proof}

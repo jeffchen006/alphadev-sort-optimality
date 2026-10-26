@@ -1,0 +1,28 @@
+{
+  "name": "near9_full4",
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round5/candidates/fresh31_near.s",
+    "round5/candidates/near9_full4.s",
+    "--rank",
+    "--changes",
+    "4",
+    "--maxcmp",
+    "10",
+    "--fresh",
+    "1",
+    "--change-cmp",
+    "--random-seed",
+    "5231941"
+  ],
+  "wall_limit": 180.0,
+  "exit": 124,
+  "seconds": 180.02213858161122,
+  "log": "round5/logs/near9_full4.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

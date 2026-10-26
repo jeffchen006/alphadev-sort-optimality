@@ -1,0 +1,1852 @@
+[
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample10.s",
+    "sha256": "01eba7f6ef2eac21111105a4b18679f1f0561c745aa5a9d659a19088f437c699",
+    "key": "9228e4dd96e49c956368a43d20e1bc9f85b8bf3ec7d87b4de766afd2562183fc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample101.s",
+    "sha256": "db0ce9421bec2369abad03164e4b49b23944712973c533b8c3283f4bbcb99aee",
+    "key": "eafb6128cf954d0115c1c13b3883e860a509ad3d5fdf7c91c1d391b8896b4fb2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample102.s",
+    "sha256": "ab3daa8c72cd64feb55f8912c8b5ab98031aa613e6b8859089d6bde147f21dd4",
+    "key": "cd5905b2a181a41775f7ab30c190361d0d664bc85110ce9f783a210dc3cff609"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample103.s",
+    "sha256": "de78d89b627d1df8fc0f7dc39a75d8e2d316421decfc04d4286f7d7f1925efe5",
+    "key": "58b607edb846941b96c72ef8bd6839ee587784020a439ade355f6e5ac3f38483"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample104.s",
+    "sha256": "b45b40fdf63c113bc617ec9e9051728e94dc0deb9a5cbdfa68639c4102f46169",
+    "key": "7f4c6b936af3f5c3662f8bd51ed29f2ef091d21a0f898c213a8669303183b25c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample106.s",
+    "sha256": "365d2474117ded97b8a9d471401d98188be0d433831090a069851be642bf1e99",
+    "key": "3fae23b7bee77d7a3f688f6c26f40232e0ea785796cb75d209e0f77e922b6576"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample107.s",
+    "sha256": "228e3f4a23a0ab83b2c6db9a0676b7d142f81539a105b8862a0fe988486898b8",
+    "key": "bcb05cff0286bbf84e8a742869d4c582dba8f95223aeb252e010d5203f3dfb49"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample110.s",
+    "sha256": "824019769c21252f7af80e38e966c61d9e54d30067229508841bfa78be3c0b71",
+    "key": "85399889d4618b813aa36dcfad9b6e20216dd3dad022987699447c0b8ccf9f02"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample113.s",
+    "sha256": "1158b77f141b6202c7b54a74062e70029ef211999990fffb19003886409377fb",
+    "key": "74ce5c3235b0ec862f6ecb8d2994a4a1741d75d34f8a8a04bbd65183b3ecd2b7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample114.s",
+    "sha256": "6b6acd4e1eab537ee75de8e2f1703e8e480290f712adc4ee4626a3cb9e909896",
+    "key": "3faa5e79a82cbb7ed58cb30117b395a7448c908516fb658b62f0956377b91c10"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample116.s",
+    "sha256": "f2f4821279a6cbf6bf4ac3374e33c32d2d4e8774b08e5c2cfa0b75f0c172e7f2",
+    "key": "30a128cbab906e23369f637c7b4d80d62a547605e263164e38336dfa7a19e207"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample117.s",
+    "sha256": "59df60d65f3d2fdf7f0028cd445a7a82dee4f568d0489b254a041d15c1ea1ecb",
+    "key": "8340e83258dccce58f7fe67d95b02a37a98ecb0ede85c9e0074e1890fbea7a0a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample118.s",
+    "sha256": "e1c9c10bc4ff93a3a2d7834018d0447c3503036337b09ad57530d3fda3df5217",
+    "key": "3faa5e79a82cbb7ed58cb30117b395a7448c908516fb658b62f0956377b91c10"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample119.s",
+    "sha256": "e05ab5bbc1cdf278503e90f14b22ffdda078d008cc63e9e878d4877007953729",
+    "key": "b5368ce0b99c4556814f5171c7853b3f170d693db84263cd008bd0bda6192bff"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample122.s",
+    "sha256": "ed4f92e8f21c49cee58e92709413345008a18a92ca15f764f8d2392da33e1487",
+    "key": "0087782c03ca94f18e6ff3104b926b9cfb3c1243e7e9595dc41b43495c2f1903"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample123.s",
+    "sha256": "573f978ce9406bedf65d3f5ef3d37d842a42597a32eb17ce92359e5840e61737",
+    "key": "fb34b166d8405f2d27cd14b6535f26201f27fc40f3cb4a1e8071c090e08a4520"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample125.s",
+    "sha256": "2ea2ac5058520a255b9da0126da49f7e2023ed77b7d9cf17d82d29564aff8f67",
+    "key": "fc3b4202ddea81da54ec26a5812370f9470a590c94ca0e01a7488d8a2670daf3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample126.s",
+    "sha256": "4a76abddc57255d0d340c62e7f3bbadaac3ba3c676c4c007cb687aab649c6844",
+    "key": "fc3b4202ddea81da54ec26a5812370f9470a590c94ca0e01a7488d8a2670daf3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample127.s",
+    "sha256": "9f4da1ef4cbf0dd19a45cdf6ed170761954c9c0179c6ec2cb013228a2b02be24",
+    "key": "1930fad0a93ff307ae085b13df7bc99076f0b091899316738bc889796dc4c63a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample128.s",
+    "sha256": "2a4b2e62285fbedc6c38b7508076070dac1ae5739dbcf4022166902f898b2818",
+    "key": "f8d9c8db6efae193c37029d727218c5f5dc24cbd20f30547f3e3f31046411e13"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample129.s",
+    "sha256": "b588a4cf38354d592b74a7becc639902173905db08e2d53057edff4c5cd35ae5",
+    "key": "6d464d23cbd86db3ee4ecd09d0c773c6f5244587d2f093fee9c3ca85f7d0b17f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample134.s",
+    "sha256": "9a8c2594ddf6f0009d82032811b86261cb1e37917347d7ea434604745562379d",
+    "key": "891cebe4cf7853462024154e101a615a5a22b0502968bde370958509ebea00d2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample135.s",
+    "sha256": "aa3c23635aa38471f98c01205087fc897c637afa40e5f726bafc176ddbcdd1d6",
+    "key": "2f4ca96d857e54d9dd0ddab8cfcd1a5bfed02ecfbc0cf29bff1f14ce6012088e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample137.s",
+    "sha256": "2829781a77c817b55bb55613a56958d09d4e59f3907dc37af041cc08f0957487",
+    "key": "d883d321c06a6fc11c32aae5eb55c3c4cee01a198e95ac1a89f8c0f020461bf4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample138.s",
+    "sha256": "22b2e8bfcc45fe5093ff2fc9a038ebf78e37780ddedf4a7ad7251439bc731519",
+    "key": "eab6527a95621a4e8bae6b9a448c3dd048b4012f50a9dab0a04affa29d625902"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample139.s",
+    "sha256": "f726f67b715f8f6bc7ea2da76d61eb221fd69fd377cc1b01cb778a6bfe34fc91",
+    "key": "f640e7c5dab2d5f3610fcafcae58c47816b29a2f67363a482fb9cb4542107057"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample14.s",
+    "sha256": "ebf69b1c289861f6cb493fd2d8b161738a9834871139362f0d16ca307b2ed5da",
+    "key": "b7cb3a7d84060404042953515760a88bbe3f8bc7b6545bf679239b9a309b0272"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample140.s",
+    "sha256": "95b1be785463e3509fc6d2ae46eafaf184525128d75faee7931a44fce04a0d59",
+    "key": "0a7d513351c23e51997e542068952e4412decfa5d3a58c366ad18e2f6d83a3e9"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample142.s",
+    "sha256": "610a8a13a3474ff031bebceacf7bacd1cce0b0da88ffe8673e80490e2530cf2d",
+    "key": "1e1ec7cfdb9ad710c800981ae93ec9c616d45b2dc00f7943e9e44bc6676892ae"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample143.s",
+    "sha256": "3caf12038955bf96d55cf68d316b5f5d4dcc686c21d3341c86e6ffffcb7c0e11",
+    "key": "06a8736ca1b28a279ac16724dc7c0d8d9bf51f24384657ef5f46619d587490ab"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample144.s",
+    "sha256": "8ee4df51f832cf47fabdab5ff2b34c73fa3b63b3bfcd62dcbd552e9d3276b19f",
+    "key": "9228e4dd96e49c956368a43d20e1bc9f85b8bf3ec7d87b4de766afd2562183fc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample145.s",
+    "sha256": "d50e8b364455034d8c1246194dbb93a7727d4a1c18259ad889a2ceee2a8877e4",
+    "key": "d0dfb59559d4f5c06df23353dc32c65320bfe4a7c3b3dba719c078ae9ba84bad"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample147.s",
+    "sha256": "809041010c0cc4fddede0237b742f5f5ab2e021b975ae23fb986ea7e24784f2b",
+    "key": "759b81a4455a7ab12bea6f3aeacd3c1c5eca99bdb62a7b2b45993c80776e8f11"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample148.s",
+    "sha256": "b7063497e335056537e0ff2fe53ea09f496a4e9be75720e154e5b9a038b0fe5d",
+    "key": "7d8c3c69724d3ae2dc3deffffcfae8c17aa767dc7976ea32def86a1b70ac6b0d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample149.s",
+    "sha256": "b211d7faddc6e765407ac3939d618522c2bdc6ddeb8cf9a59c0ca36b4d421b68",
+    "key": "2f4ca96d857e54d9dd0ddab8cfcd1a5bfed02ecfbc0cf29bff1f14ce6012088e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample154.s",
+    "sha256": "0817d836af3145c1bd26ee4f4c841640e9ae925d6e5c5bfca7a48a764c56dabb",
+    "key": "a2981e5ddcc136eb1a63659c249dfbc2b5cf7c7eb8c9534f5831e809ed22d529"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample155.s",
+    "sha256": "5e378b0a25d583227fc963fe7eeb8d21ff38db4860ebc87b960e811ca9174f8d",
+    "key": "312fca8a28c6a27477f5766cba907953de97dcb6fe87a4c14842569761ed8391"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample158.s",
+    "sha256": "5ae71698cb85e77e4cfb70f543f8f404f84882abfa6de34a76d5a8f6b2dca118",
+    "key": "810185f0d134349fefe7b09ea8cb12989d92f0cb76db494ba7d74d0b8897649c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample162.s",
+    "sha256": "12aa7275e21bf88fae45bbdcaa6ddf4499fcc63a04ae2b5e25f39a586faaa055",
+    "key": "b2c075c02a49aa14a1e2b1bdbea31b41b3c8b1fa07e5d258b0802ec7eaaf2879"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample167.s",
+    "sha256": "d6fc8ed4aa7406b97ec61a9d4a560816371960ef59ba41f0ac041861da13b2fc",
+    "key": "22a11a4122774082cf359b405c2ff3818058fa1b1b74a3d993408dd09bc81dd8"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample171.s",
+    "sha256": "204562f625b08a063a7eb1bb34e679bda54912aa860a72032491e5fe7d748823",
+    "key": "5c93648e2428d3ef2b0a17fdb04baabc8bc2751ddcabfdaf1a8524bb8d58b20e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample172.s",
+    "sha256": "a16996a4f2099830df3a855027b1f677db7f0f192b9c8c04294e9fd013af719b",
+    "key": "34ae9d67d4525d80565988b14a02900ecd3032f0e9520eb894b907cf81ad4802"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample173.s",
+    "sha256": "3929c1c3c3520442d737882fcadb8e8b897bf2a8119a1da3c68c5aaf7c5cc9bb",
+    "key": "0a7d513351c23e51997e542068952e4412decfa5d3a58c366ad18e2f6d83a3e9"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample174.s",
+    "sha256": "9737f15d691609ffb8233daf0a97e0c5d5462c9d4ab8add1efce008be11d35d9",
+    "key": "4580fcbe868438e4070233019910fd6bedec1313906e0428ea02d689cbe13c80"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample176.s",
+    "sha256": "8757e85629606a0e8da0bb46b16bfcf267194cca19cdd7b4512f19362153e17c",
+    "key": "80d24c252941ac90b59a88cb159a798fa856c70849d00460eb0c62dc94ec351a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample177.s",
+    "sha256": "f07316194b56ce1449db8147bcea8bc90051020dd1cefd6a1860ca67a4783921",
+    "key": "fedae83265e7344f961c5f53f58b1415b18155fd0d34d20d37a36c77c5b9e611"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample180.s",
+    "sha256": "b51bf8016f1509e8e8cd1664da80cddadcb3cdc712621dc88af8005106f89f94",
+    "key": "6abd425cc00ea33784a01212e6e8d6301e7da6cd899c4bd29f2e1e3c9240184e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample181.s",
+    "sha256": "32b00453f0e453abd83f06709f6f86182b60b76028aa949114480c78f8fe0d87",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample187.s",
+    "sha256": "ec32a28ef3cf2d64bb3584f1c38a9abf8295f588b056becdb6d3b766aa40719b",
+    "key": "ce0ee6f8cc4acc63b40eb0f82fa1d8161f78a227b04cd2126fe87ac6dac89aba"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample188.s",
+    "sha256": "0773ecbd138cdb2e01507b968ca4cd8e286613159e4b53fbf67daf009933b1a9",
+    "key": "fb1b265571b130ef2d2bddb4b7e49caf1fb3087d5e45e1444802dcf5594f0091"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample190.s",
+    "sha256": "406e17a222e20dd3c578d81ea98aab823c6662bc520ab0fb23e1fd0a6e10a98a",
+    "key": "1322895b8f6b25797a8cfccbca5aebbcfa020685e3b697d8419848a00c1526c2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample194.s",
+    "sha256": "c33fae789285b5e3c90994fd119afbd9f86d0fcb903a9985f2bcb4fe2c7cead1",
+    "key": "b5368ce0b99c4556814f5171c7853b3f170d693db84263cd008bd0bda6192bff"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample195.s",
+    "sha256": "eac541ff00886d897841fb6c05a95f0e85f9d9d3edee5d92a080bcdf0c89ea90",
+    "key": "f640e7c5dab2d5f3610fcafcae58c47816b29a2f67363a482fb9cb4542107057"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample20.s",
+    "sha256": "18016185a5e46d99b891ae605b972ccd8295d13d40f0e7a1ec0e7023d0db8bb5",
+    "key": "eab6527a95621a4e8bae6b9a448c3dd048b4012f50a9dab0a04affa29d625902"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample203.s",
+    "sha256": "65783e7d9a62ce4a60abf471b5b714cd59e3a3ac63f3b9d054bec5bbd7c3f6dd",
+    "key": "04a4c0fcac3d204299eaada4404681355ff4ce1cb837abb018b40dfe768f6edd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample205.s",
+    "sha256": "805f8f113dfc5f8d191ee048f5979b7db11b06cd7d9bb31424fa1e2d348bfdd7",
+    "key": "793ca4dc2715dc9685056c517ebc607d98fc595bee1670bd5c90e85a4bfbaad5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample206.s",
+    "sha256": "7846371a3ab4a437c7b74049d02e7b45d9284f003447fb26bb8f230f38337943",
+    "key": "8850d8f4215e18923402ab81ade6df2ec984ab0b3c3835bdd2806d7a1edebe15"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample21.s",
+    "sha256": "4aa4e34aa442ef9f8a69b4fd0833e6ef6e8441895aefc43eaf638de13b916ba2",
+    "key": "0087782c03ca94f18e6ff3104b926b9cfb3c1243e7e9595dc41b43495c2f1903"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample210.s",
+    "sha256": "a8f3e996fd1d907918284e85161be82ec784bee20e50b9fcb0d56ae34e21f384",
+    "key": "7d8c3c69724d3ae2dc3deffffcfae8c17aa767dc7976ea32def86a1b70ac6b0d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample213.s",
+    "sha256": "fc68f62225a20deffc8469cdfdc20eefd1caa176e244ce3da5ee465578276db9",
+    "key": "0465bde8dfc50e052997bb5f929822731d6ce1c87c10a5a4c63590ff6bccbafc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample216.s",
+    "sha256": "1d1c8fa8d3788f8d9589f7e7bb22f3afa5e3f7e79653e0046c8a8c9ac7b6b6f4",
+    "key": "9cf6a6350dbef3f6dac8c32f1fd8f9f7c3c72ac49b37aaf4a724ffedff80870d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample219.s",
+    "sha256": "dd0b2ba3d60a3eb2ba1602fdcd62e2b97ad41862dc7e6364fcaf2ffa585fff82",
+    "key": "22a11a4122774082cf359b405c2ff3818058fa1b1b74a3d993408dd09bc81dd8"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample224.s",
+    "sha256": "a50e92bf88fc42fd5e13a559af21d0d9c6f33254f2ed655d0991d8499ed058c9",
+    "key": "2bc56fce17b9dff9642da2f931ddcc6700b4e4cc9ac0301116b4b193abb8e6f7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample228.s",
+    "sha256": "e55b229bf9435a9c814fe5f50a5cc7815adb70e2c1334aa2ea2cc971faada9e9",
+    "key": "b7cb3a7d84060404042953515760a88bbe3f8bc7b6545bf679239b9a309b0272"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample230.s",
+    "sha256": "d30596bcef0dbdd57fa271110a05939a564bd27f25f035d98b72abd3c30364af",
+    "key": "2e65b3ca7bfba67a09d5b1aadd9b03106d475b6b9c516047dd063ab4f498a9f4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample231.s",
+    "sha256": "9523c923c87ebcb044a1be8edd2c39deb4743eae27d22c90924d6797e908dc80",
+    "key": "26ab05d02363041ad2848df97332614a59fba395b3e86ff3f3bbee3644b90683"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample235.s",
+    "sha256": "f53815cf18beb1fb242f121e6d971331570dbaa5e9ee2265310b9eb54ea66359",
+    "key": "0a8f2e1cb14df86b471eef83a2c3fcaac94f4db7d61db04a2d5f62ab5a322a03"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample236.s",
+    "sha256": "fcb793b03d72802eafd906b51c38e68f61c2ebb9e3e02635c3e8b5d739529349",
+    "key": "34ae9d67d4525d80565988b14a02900ecd3032f0e9520eb894b907cf81ad4802"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample239.s",
+    "sha256": "77999549828316d3eccebc5a9350dec8a4039f2fc9caf7c31721271a0ed0dfe4",
+    "key": "8f18f17b8ed0542e6a91427b9f01b6dd3d9b4b280331744dc227a1a4bf69b1e6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample242.s",
+    "sha256": "48cdb2821f923c757c745e1fd76b05a9e12cc04a1a1cd4a6d69ce717e648cae1",
+    "key": "a1356744e738ae624f8d177418fcb8e65cff3de6430d3766543e0dc657d8fbcb"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample243.s",
+    "sha256": "2a95f630ffd3ca382c444bba4734943162ae86fffa6e94619f1050b2ab068ddd",
+    "key": "f89849b81b0525a4519fdbfd149278743c4f03ba3809b81fc4408d8d11d4e0ac"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample245.s",
+    "sha256": "d8b419a21022060b3b4111b13392ea0f21db59eae1373bdb7b31e604ca1b550f",
+    "key": "5c93648e2428d3ef2b0a17fdb04baabc8bc2751ddcabfdaf1a8524bb8d58b20e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample25.s",
+    "sha256": "1e765cab1c16889b3d062d1b7efac3dc3971b3dd901f26a47a86b59fd4438a6a",
+    "key": "eed1c12af54d667ea160efaf84995dd148f4d23549919b2288fef3d6fd7e4554"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample253.s",
+    "sha256": "f65fcc2b28f1b9347d817b47864b3607e9e197bc9a865f88881f4df08631e2ae",
+    "key": "22a11a4122774082cf359b405c2ff3818058fa1b1b74a3d993408dd09bc81dd8"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample28.s",
+    "sha256": "0329604b601770079f1ed1d82141edf6572fba165dbcd962334e3b203b0dbf50",
+    "key": "abde2c92733a611529c41a386042592692a5b17736ed0178d3e4b7bbe4d65fdd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample29.s",
+    "sha256": "75768b5457f01828962af0bdcd0602ba4e0a66dd6d107478bb2c9a024dc664a5",
+    "key": "35a138758088cefb7092dfb40b7b7b765ccf2c2a3319bf62364ce547c6fc9c02"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample30.s",
+    "sha256": "bf6fef2f2d08163bd0f7389cc2fa023a4c4be484a4d5cf537cde918559694c0e",
+    "key": "4580fcbe868438e4070233019910fd6bedec1313906e0428ea02d689cbe13c80"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample46.s",
+    "sha256": "bfb9c295ba39ec354bf5ce0b74b9a243d23e7cd9d82a74e9c465b7d6c68be084",
+    "key": "eab6527a95621a4e8bae6b9a448c3dd048b4012f50a9dab0a04affa29d625902"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample51.s",
+    "sha256": "e0aff8402e67703341c62ae57513a4a3f0dd4e144f88eca8e2e01e6d172f228d",
+    "key": "b5368ce0b99c4556814f5171c7853b3f170d693db84263cd008bd0bda6192bff"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample56.s",
+    "sha256": "c9a0d22cd34f8710f750274555a02d0c50b3f4e95b05bc322add970c77ceb177",
+    "key": "06c28da6bf640537e4706468dc622c6f0386dd21e242cc12bfff02130481aa0a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample58.s",
+    "sha256": "a9b66b00034d0f60039a171d35df90ca5c5d68f88ccf7b9bf622549e90790ca8",
+    "key": "6b1fc0604c9e5928e127c3947104daf94416414338f8e4505aabd99ae6c8359e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample61.s",
+    "sha256": "13c0a1899d332abfdd6d335e972dbee971abcfb32339a5a49c5499903d4e03ee",
+    "key": "1322895b8f6b25797a8cfccbca5aebbcfa020685e3b697d8419848a00c1526c2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample65.s",
+    "sha256": "ef1c32fc0dce9783c047aef5f2d7b868324a7f39f61626cfe77f39f8246e4d79",
+    "key": "b81369515628e4bea28a5e51b773ff8d25ef44d070e456479c98dbc59f10f70a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample67.s",
+    "sha256": "b118b9e1e13c4bcd569247d352be785c7cba32058bb6569268f0d613ff5da091",
+    "key": "d0dfb59559d4f5c06df23353dc32c65320bfe4a7c3b3dba719c078ae9ba84bad"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample69.s",
+    "sha256": "2d215e4477905240482bbbefbca95e0fa07166e0c859407a5665d7c5818451b4",
+    "key": "d8ec2536eb13bf33c59617dd26e221dc96fedb649ac3c3933d1602205f22ade0"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample70.s",
+    "sha256": "4b735a75393828aa408f87f907902d32c0d270aa72382b40ad298fc96c241f37",
+    "key": "0f8ca2af6fa4dbe3a7f5aff9efdad246cb5806c2269d2e9ebf359ad5bd7f4a3b"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample8.s",
+    "sha256": "2add80768ae93bb325260ced5cb61f62384daf0f7f2cd5bb590ad49dc4d87101",
+    "key": "54998de31a407d16afa221d74afac5a36ad1f46fcd05a28a8a30929795b7c978"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample81.s",
+    "sha256": "a9d14d687f12fb0251630cad5e075d4f71114d8548f41e48b5fe52138b838cea",
+    "key": "eafb6128cf954d0115c1c13b3883e860a509ad3d5fdf7c91c1d391b8896b4fb2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample84.s",
+    "sha256": "99f2d4fefece1462b09d1a333e9523af1e840e73412e89dac765693b302398da",
+    "key": "f8d9c8db6efae193c37029d727218c5f5dc24cbd20f30547f3e3f31046411e13"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample91.s",
+    "sha256": "36e1f1d282f11867452d41057d728d26c5d7526aeacaa45642ec5568f508baf3",
+    "key": "7971a3d7b4fab46ec6f94b2ed884aa289056ab0a22218b2212f9a7de291af71f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample98.s",
+    "sha256": "40da7228f5eaeb7f8a5aefcff82fb92cf0985dd7c89e706730a87abceefd0014",
+    "key": "b87fb1832c3a9f446c1f0895127809c69da626b517924b83075f7bc5f6d32a39"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_final.s",
+    "sha256": "a1ba1a12c5a4914921f917b40cc5f30c47b0830d3f845b29dde78cc1bbacca43",
+    "key": "2ceb780f09c54bf1da1663aa1f5d891731009079c5b38638e0ae13561cb4bdde"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample100.s",
+    "sha256": "6ca04bb048fae71a85726c9d58cefa2acc0916835bc561dcb5c0622e28f29d63",
+    "key": "431fb60e41013f8820d08a11c71e394ddd8d928731251233e6240ec86516c7de"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample101.s",
+    "sha256": "18031c18ce79e4de30ae967296116c1c81a4a7f88270a553e0ac9e623a16dc55",
+    "key": "a76c778084469e26a7e856b435b7f30edae34d1770e78d935b4a6f02bf5732e0"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample108.s",
+    "sha256": "ea638476a7db2c7914c6d180fcc655539cef3a373c20fa0368c00adb72700088",
+    "key": "e61cfcd520927751ee815aee70d535cafdcb8a54cea27f4ee48d4be5392a6120"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample117.s",
+    "sha256": "e687e231c3d7c68e4a194efc237fb5b5450ea234acb5b51e28fff1826328e0c0",
+    "key": "c6270e965663c89e8b2988b561dee1dcbd5b3ecefa18068952e4a16e68cc693b"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample118.s",
+    "sha256": "e94a47e32dc7220e7bd1f5a04fa8caea5b4b4fbb8c4a99734da069bc5a539c87",
+    "key": "cd917298414459df0f226e0221e7196543cad65f67214a725b14f3ce659b894f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample121.s",
+    "sha256": "d63bbc2050b44f8c221c312944c8402ee0993fc584bf1f4f6e50e4502ab85615",
+    "key": "605d82e3c5a68a6e30fd7dbcf952b138b15535058a7d247a22e51236b53f5175"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample122.s",
+    "sha256": "5817d5450347419fbeae5f3e96f056db53508731396a292ef5f06ee5e3b1e008",
+    "key": "7d8c3c69724d3ae2dc3deffffcfae8c17aa767dc7976ea32def86a1b70ac6b0d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample124.s",
+    "sha256": "36d989af4f961318b9679008345b8c8caa43aeb19e2e6f47b6a32e84e2fe5d62",
+    "key": "d37e15c25127c5a97c3baefe494c4362a9e5dc268026ee69540200a4938a960a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample125.s",
+    "sha256": "2839d279adda74bd7b423115a2309609fb27f50fe323f85a04bb8cdfa438c68d",
+    "key": "d9296a67dd95a4860ecdf002ffe272cbee5b51bce1b420e79735c429e79a39ed"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample129.s",
+    "sha256": "62d8c293ac6ce34a79c9fb803771a6ecfb93ae6491667ae9f3ba24d72bee7b5d",
+    "key": "a0b4d51a00eed24e091cc63c473776da891658fdece3d1bef5ba8599faa683dc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample135.s",
+    "sha256": "a8af719ea87f8a6275f8d38dd7ef08f4b3c6c54ccbe479dbf7f5047d4176d8b7",
+    "key": "24c60e15a66601efba30cd8ade0e9dd7f125075bfeb5edc7ec9a7342040ed495"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample136.s",
+    "sha256": "11fe14424c28869c37e913b5a74c149e70b86b0d177fc02d74f4eb9c5c02b187",
+    "key": "2e65b3ca7bfba67a09d5b1aadd9b03106d475b6b9c516047dd063ab4f498a9f4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample137.s",
+    "sha256": "030fa7ffa70f32207c37406178e4061cf00fdf32ce8261b47e507962fb8ec940",
+    "key": "810185f0d134349fefe7b09ea8cb12989d92f0cb76db494ba7d74d0b8897649c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample143.s",
+    "sha256": "d2835c3d0f3ae33abe286996b80660303edd1c73d8196af31c62033567501258",
+    "key": "fc3455416402515284b1a90033113c89c9b5e555333b771bc36ba7aa9b4c3339"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample147.s",
+    "sha256": "aa6c088b1460fcb0d426836da8a05a27a644b1428006d40f09a10a1fad8104ba",
+    "key": "6cbbf39bff5826a8637a60567455e2132a862af5f43495b3be99f767165faa75"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample15.s",
+    "sha256": "9a2f066c045326dea789b795a781b6e81fddabe4e6e48b86212e31e9f90ca612",
+    "key": "9d26a727640900417af387d60493910f7cb40d1680bafa662022187f7450b5fc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample153.s",
+    "sha256": "d2e32a2b3578878e3694a66f391f17d3d4e17d84c51456092abf76c610c57c71",
+    "key": "4240670a3a04cebe6f66a3cbe669d7d6760c17cfb571000503aa9e6ca6b02238"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample160.s",
+    "sha256": "b22a1f7f9b83e00a002fe87fed18558adba282816d31694b7aa18442b0501732",
+    "key": "9d26a727640900417af387d60493910f7cb40d1680bafa662022187f7450b5fc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample168.s",
+    "sha256": "2ecb867bb9c4695e0e5da5ed825a244c12b0d5cc57d0bfc9ee77257afd585a3d",
+    "key": "142c82caf164856161fafe9930353e15e14378ddd42348866a91d8bdd9388755"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample173.s",
+    "sha256": "f7cebe052a83814d4f5db8e2fa716ccb9f3e6348729c6e77a23b2ebd584e9c74",
+    "key": "c2277b1182d83fb52c3b11b9e81d848f571d6d7d353c6f20791e067ea5184b6d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample175.s",
+    "sha256": "5f214bd51d1c920f07f162aaab35198a25bf53dcab1f214a1a04cf82b177db10",
+    "key": "793ca4dc2715dc9685056c517ebc607d98fc595bee1670bd5c90e85a4bfbaad5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample18.s",
+    "sha256": "514c96ce29206c6e1b6a0c04f5d8cfc6421b8c98e3342f972098434b195e8fbe",
+    "key": "b87fb1832c3a9f446c1f0895127809c69da626b517924b83075f7bc5f6d32a39"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample180.s",
+    "sha256": "a1a01b44c30ee6c45cf6ed7839c1df81e3692d2d72fcc78575c57d030aee9a20",
+    "key": "f6f21509fd29f3851f98e76a46dfe4834d307f4f1e0c14b1427effb1012c6f59"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample181.s",
+    "sha256": "b4fa924f54a905f7956683168704598c13866cdd2a9e5c3b66b066f35a15e72e",
+    "key": "f9bb62410866e41836cb211b8132018c052624783d78256120c24c3b77ddcbdb"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample183.s",
+    "sha256": "bcd844de8dc2d7083417bdc9297488404d66ad8dbb1852cb3203a5dfc8904b64",
+    "key": "8f18f17b8ed0542e6a91427b9f01b6dd3d9b4b280331744dc227a1a4bf69b1e6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample184.s",
+    "sha256": "e0c6dd7fe3e226433fc5ea80e31685d2ce40198acee1880515e208e26d0bc8f7",
+    "key": "3fae23b7bee77d7a3f688f6c26f40232e0ea785796cb75d209e0f77e922b6576"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample192.s",
+    "sha256": "70dd5ae4fc1db6d2ebb7352e46f34d4c3399bffc5751db75be6c49fff581bc79",
+    "key": "9d09ddd67acf2dc7000a56ad8d77cdfabd5aa5d4718c4326ff50602a549834e4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample196.s",
+    "sha256": "6631282194d6aacebea520dbd5a3d9c3a39912e47e91ce764c45db82263076fb",
+    "key": "01e8413ee2f138340bf24794807ab247f217a2b620f1dd3917fe81b4a63e35d1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample199.s",
+    "sha256": "4d529f4701887dc85c42e6392399528ecbd1894bb84fca558a36e6e1f2e2d895",
+    "key": "d0dfb59559d4f5c06df23353dc32c65320bfe4a7c3b3dba719c078ae9ba84bad"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample2.s",
+    "sha256": "cc67403929b68c45f830e146dd721d1a620952cf1df862fd628dab84eceaa84f",
+    "key": "2f4ca96d857e54d9dd0ddab8cfcd1a5bfed02ecfbc0cf29bff1f14ce6012088e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample203.s",
+    "sha256": "221e202a9bfdaea10765738932bf2fed7fe59ffbd81081667436a3651e053539",
+    "key": "1322895b8f6b25797a8cfccbca5aebbcfa020685e3b697d8419848a00c1526c2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample205.s",
+    "sha256": "5cfe6de4940ecc1282ddfea69c8f76b2333051c8ce4bc7ae62491b11a351ff20",
+    "key": "4240670a3a04cebe6f66a3cbe669d7d6760c17cfb571000503aa9e6ca6b02238"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample211.s",
+    "sha256": "615936b5d4a48949ef58f2a3de8d2804c15c385e00b37878f0a09f6cfd0f3f22",
+    "key": "34ae9d67d4525d80565988b14a02900ecd3032f0e9520eb894b907cf81ad4802"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample214.s",
+    "sha256": "7755622f97152492fa2aaa1f61bf246c0d4d8fcbba205bbcc8528e3479758ec4",
+    "key": "8d6abca13376d39bf9ecf43e2a0911e0cb0a7e086652318e64775e738c7b01bb"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample215.s",
+    "sha256": "c41c1ec00ff8ed1c23ba72f8a45414850480e939550ffb3cbdca80411f247caf",
+    "key": "35a138758088cefb7092dfb40b7b7b765ccf2c2a3319bf62364ce547c6fc9c02"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample224.s",
+    "sha256": "327b2c1f018716a6134fd512e8de183f5a7e4c822b805c5af3771b015470efba",
+    "key": "91fb100870f1b9d74e8d9011ccc1958375a7b58d9b6c74be8860e53f16b96ac4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample226.s",
+    "sha256": "7dc6355af8c8f31bd6c2a65e8d4e60782925237a6aa540b0dd82098f9f84bda1",
+    "key": "e7ad3a48d5d80d63cba3e8f72b08e6c907973294cf83dd56cd60b713a231ce22"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample235.s",
+    "sha256": "b8cbe48329e9dcfb33c75545d209a7b0d03f546eff4ace0abb27acb05a6b6632",
+    "key": "db09b96c054bad8f6b07f860ea93036676e5c0647975a1b9f965566a7cff559a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample237.s",
+    "sha256": "a126d888c57dc710511ad6dce16ccaedb72dba350ec00988f62d5eb87e01c6a2",
+    "key": "01e8413ee2f138340bf24794807ab247f217a2b620f1dd3917fe81b4a63e35d1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample244.s",
+    "sha256": "a960a0ad21e2cf2c8d6de0dbf43a2b16292cd05ef418d76345a03166a9705c92",
+    "key": "d37e15c25127c5a97c3baefe494c4362a9e5dc268026ee69540200a4938a960a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample249.s",
+    "sha256": "84dd4cc0453e5682affe5c13f1fd26d2a97d9803e52fd604497b3e3af5d827bb",
+    "key": "e7ad3a48d5d80d63cba3e8f72b08e6c907973294cf83dd56cd60b713a231ce22"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample250.s",
+    "sha256": "d57b459763cdc369a6149f74706c5caf0d5dcee5c68a24afb02398a7f57ac055",
+    "key": "c93594fa4191ceba3609e5caae418a65ac082ae6f1de51cde8d3bb5215ece170"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample253.s",
+    "sha256": "b5c29f849dcbe69590c2c4e1f056d1f948a6b35a12a2eba2c10bef107ddabc2a",
+    "key": "87e8ce208464ac967059683968876c4711d7ae42466738779c8f86d015d145db"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample258.s",
+    "sha256": "1c0e66982bff8716abc253e2509dc56b085417ab625b0730f0d7ea0bc32cb284",
+    "key": "f3f50c0fd9f190a76d97ab6d3f52c75a10dbfe93447c18ae6a442c597ae6e216"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample259.s",
+    "sha256": "ffdb0fa09ed4697d8cfbdd70348bd80ed664ec7555ab70646e8950c17cf82dce",
+    "key": "ffaca43694ca0e8eb9ede370fb04302bff11232cbf49881b519028df7302c283"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample266.s",
+    "sha256": "9c752b39265694cb5531d9807c38ea518be7fd8ab6d02f7d0a1d18b976d27f1b",
+    "key": "d2e472ead59c5a1059cc274281594cfee7296511185d8f5f047050ec9b2fe897"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample267.s",
+    "sha256": "f4523dc47b45b3f699f44274304ee7178e54b6351cbfed95b696d18ca26b2361",
+    "key": "a2981e5ddcc136eb1a63659c249dfbc2b5cf7c7eb8c9534f5831e809ed22d529"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample269.s",
+    "sha256": "ebee7a9bd9afecc6711d16204ae7805ed826d57853ad057b7a2e7ea717b0d233",
+    "key": "9d20dd003a0995c1076c3666675c43b1bcf9d78c929937cdb16ea8cb1a8964c6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample275.s",
+    "sha256": "aa38e138ef98f9c0ecb43cc3e53776f3c03f2ff4679113e88ef6d4f7e4d1306c",
+    "key": "01d76f9dac9bbf11680133ecb1564c98efbe82a22dbeb7eab0209cfed7e7c561"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample28.s",
+    "sha256": "3fc95e74dfd51e1a90bb8cd1a5f5a5165f1738bcecc031e3a7b408ad2aee19bc",
+    "key": "8d625ada7fed4d6dd6cce405bcd7929cbbecc59b753134efe6e655c62e611ca5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample287.s",
+    "sha256": "a6c8b79fa8207aa71b19f18b2b30d9097f8d654b92ef39dc43d99d3122c772a1",
+    "key": "10a19e8b02b6f7255769957c421854eecc8d66c7f0f7f348d16cbca98c061a4f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample299.s",
+    "sha256": "5281a7563daa7ec6b143bef8e880b6a8c14221106e7f898a40370e1aca133ebd",
+    "key": "f571985aeb6dedd29982b39cf7e419608642efbb5fddc120139ee8da844f1373"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample3.s",
+    "sha256": "88b4817348e2a641bbf88c4d07df8d49b85b1b4274f118f274df02c048b4b9b0",
+    "key": "31577d9c18fe61f4e6b0604808136f4649c83c6ed4909d479524760a2d447799"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample30.s",
+    "sha256": "77f2afd56a256c17d0caeb383502bc307fd569752b4b411398f6074bf368ee4b",
+    "key": "d0fa399226637870549acaec68052f86a7e997d0f0a7f7ea4fc5e4271107cab4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample301.s",
+    "sha256": "82e9da0395a4d8c55a730b722b4851a4f13aadf21d20cddc7d110aacf591aca8",
+    "key": "005a5aecea5cac415e57e20775f038d873107c479c302d51bbfd1dbb7fd5c175"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample313.s",
+    "sha256": "6cefdcd808880a2b4ac461cca6fe877999420d9b706507cce404bbba037bc2b1",
+    "key": "6c97dfb2491bacbbf1d3512ff9b8cbf0879dd3772a69ad6b8c9da1a07ed6ffa6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample314.s",
+    "sha256": "25725b0f66b7c55e633a62151097a029bf926deea8fbd32567235bcd26409ea2",
+    "key": "db09b96c054bad8f6b07f860ea93036676e5c0647975a1b9f965566a7cff559a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample317.s",
+    "sha256": "6ac71507a76ee47fafc2626d0bba8a6f6ea1c38c9b7d36e0aeeab86b8fa91390",
+    "key": "255799564ccd3286cce363bf9e60b110ec15bdaa197309b2ea84a5e6497281a8"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample318.s",
+    "sha256": "856297d1d83d1f4fa309268bd09052c4c45e3bb6fc18bb32b5da9fef018bc884",
+    "key": "10a19e8b02b6f7255769957c421854eecc8d66c7f0f7f348d16cbca98c061a4f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample320.s",
+    "sha256": "82a087096167db39da95518e367778c980877b806b44108ea92ed046a7edb2c1",
+    "key": "3b3f620a82704eef0685bc4f86ec64a49c89c83828555c4114aafdb8aa011846"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample338.s",
+    "sha256": "37cce1f94fff3a55009cd126f7268186b7ac151f74f6d852fdbbe4428184f762",
+    "key": "74ce5c3235b0ec862f6ecb8d2994a4a1741d75d34f8a8a04bbd65183b3ecd2b7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample344.s",
+    "sha256": "86be9f4e9babb57ce4d83fa282ab3fa26f69702493ed76e2515f7e5ba15b0780",
+    "key": "a76c778084469e26a7e856b435b7f30edae34d1770e78d935b4a6f02bf5732e0"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample347.s",
+    "sha256": "51d1da822c2a1720de8ff39baed996e8c5d05cab2e7fb1d2ddc0f0205e12368d",
+    "key": "db09b96c054bad8f6b07f860ea93036676e5c0647975a1b9f965566a7cff559a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample357.s",
+    "sha256": "cab1fe96d7398bc075609f4c0f75801ea33e7f335c8ff1c19ca3c8a72259a8ed",
+    "key": "c75bef3b4e18f226b8c07fe97e55a5bc0d9ad53dbc502017d61b1c7726002961"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample368.s",
+    "sha256": "dbb49aa111681a9fa14c55b960cc66135f70a2f988eee5a3b477a3905d67f4ed",
+    "key": "db09b96c054bad8f6b07f860ea93036676e5c0647975a1b9f965566a7cff559a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample369.s",
+    "sha256": "052b893f4c7927c38fa38bd603b9f955c75f94a3ae2f7cd24091c4cde939a6fb",
+    "key": "b34ec2984f5c1f02af25942caeb5a7caae2a453c596f9bc9732ce2279b1db43f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample372.s",
+    "sha256": "bb25da4f5eb27a603599a8ded61696cd5f4d669f5312b74d6173f9375476d77b",
+    "key": "eafb6128cf954d0115c1c13b3883e860a509ad3d5fdf7c91c1d391b8896b4fb2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample373.s",
+    "sha256": "dc8a37f050c4d0c957faa4add7f03dffad1d4273bc1b25e084ef5c88f34438d9",
+    "key": "c7ffac88f425d378d6cca28b63914d0a9679443f54352d0644ed7ed55245fa77"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample375.s",
+    "sha256": "88267f137a3b7c9d3dd4566cfddf43a7a18425a101f3388ff33dc8718cd6f15c",
+    "key": "ebf1e92f2fa4a608e8119dda335d115f01563290f5ab618a9d102bfeb7349dff"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample378.s",
+    "sha256": "24a2a0e5ab2f67fa83b40976b5f267f623b848590987a1e9bebcb58b9b486823",
+    "key": "7f4c6b936af3f5c3662f8bd51ed29f2ef091d21a0f898c213a8669303183b25c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample385.s",
+    "sha256": "ee13102a37cb83a8ec78ca5c1a3484946552471e7a5ed8ebcb308a3f1e62131e",
+    "key": "76094ae5f44af019477ce1128c62f03b1d36cc6eb428eae65a2dd89438ae4484"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample396.s",
+    "sha256": "47025539136201127959f265f0aead65a10b939a5a0c87743607ef4b7d4b7457",
+    "key": "fb7afc554e38d5b3fc4ae21925a713866595a6383767a068105d05f0c682ca89"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample399.s",
+    "sha256": "44e5c3944af5f598af0f23905c1c64bc8d83cebdc0a0f684f6e462aa6119da11",
+    "key": "46f74f92f08cd70f22f42349d0ec67a37c2cc154271b400f2d675ccbcea1570c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample401.s",
+    "sha256": "cac8a1a4ea523211ba98fa0547a1886db31a221e45e38cab373476327a517b26",
+    "key": "b7cb3a7d84060404042953515760a88bbe3f8bc7b6545bf679239b9a309b0272"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample407.s",
+    "sha256": "17823cd35e65829c83271f9839423fb3917553d334ae6896c8d2c4998ce6d154",
+    "key": "2d67c3c9bbde863f8fa18aa099b0ecdfb133f6346d64868b867c00011f78ec0e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample408.s",
+    "sha256": "67ff75cbe476d6da7f10c37eb4c2ce8442943aa88481576b728f49586c4dc2ad",
+    "key": "23f7b7cc27767d4b44bda372fbb68958fc8a16bba71cd5c8a81d4ff249789952"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample420.s",
+    "sha256": "9ed99a28a0fda202f87aafa2d13b74c963e2611213ec5c35d8b246c2215f1d8e",
+    "key": "43ce03dd4a123e579d4ab81c18bb9086829a8ed8fa6a9870d7f69ee7639b33f3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample423.s",
+    "sha256": "c36c75a10146b20ac4227a8d52ae0710b59f31b5ab117e70edad1f0009a5868e",
+    "key": "24842ff3b7b5408fd7905ae8c0404a0ddbffba26343e80e307de05fe4f18c5af"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample428.s",
+    "sha256": "93079ee0e9227996f739ec882fe9288c8c2c864337308cc154abe7fa0eb28f72",
+    "key": "10a19e8b02b6f7255769957c421854eecc8d66c7f0f7f348d16cbca98c061a4f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample429.s",
+    "sha256": "48ec7e36b5af992d47041de634bc313e565ffa73dc40d8418046a5b09745cbe9",
+    "key": "dba4436a7e7bde1d40769fe436f0f9d88c5d67f7e831d829bf210ed6a5a42bfd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample43.s",
+    "sha256": "f62f6077fabd101a5a2267bbd5e992e2dd3ac56e1985412c3fbb32131317f452",
+    "key": "dbfa03c4af089bb1bf590b110dd4111386cdcfaa1adf3fb2f7ceb841003a4efe"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample431.s",
+    "sha256": "4217b59e93d6f67dad42ec43f25d19570fd5b52f1da648cdf6d7ae40d40dc583",
+    "key": "c05e233d5190971cbe27a4f6c1916bbf3c5c42aeb70634621940d79b11568ef2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample432.s",
+    "sha256": "3c27f6d2a57c146176e7bed7b8ad94053f11d854388182d7f6ff4c201d3d7081",
+    "key": "d47f88a989ee18ca7ac487b43da5e94fc717132af73a2efb23e3e1ea08675274"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample433.s",
+    "sha256": "f82cdd2f89b687f59110bbcb21b251c579409b071418337b7a8fc23af2287d4d",
+    "key": "8d625ada7fed4d6dd6cce405bcd7929cbbecc59b753134efe6e655c62e611ca5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample440.s",
+    "sha256": "0205a916d9d656da704479b9514a349e32655eb565428f36c3407331b6599f34",
+    "key": "a9115d3fc26a1e0b5b04a91e4c608faa4c7b6e66c37f8c8cb384be928ca47a38"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample443.s",
+    "sha256": "fe06b510322e7482fad57fce585b8cb40ffe3789cf4390c7dad0e67cf6e7b933",
+    "key": "8b1d456e97f7b2df5bd9a040074bde9ed9753ef2b67cbad6307f4188b8c91276"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample45.s",
+    "sha256": "8d39bc432f440a05eb7555310a1d6e1b7ee2cd9c8c5f8a55fcee4fb780b4fb48",
+    "key": "673a4fc3ec687519706af416c4de2e0938eff1f6f9c7a90ea56ab13c49af8da3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample456.s",
+    "sha256": "d9431d3d61dea7dcc7a09c4919ff4f6568b4857802128bae37d7839131473fd5",
+    "key": "555dd870c2d04571422349dae468f3be7b00caa9db19db93f38e31f9a19b3578"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample468.s",
+    "sha256": "57c774a394e00fbb0992800298bb44252bc6440aea6d118c159618dea0644e0e",
+    "key": "3dda52c3c0353e1de8509fec63f6da72fe2eaf487ffae6086cd964ba73e7c103"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample478.s",
+    "sha256": "c1212a63a7484d32f23b3235dc884a8c75f65fbdc34bec761150390e2ab20a1c",
+    "key": "cd5905b2a181a41775f7ab30c190361d0d664bc85110ce9f783a210dc3cff609"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample48.s",
+    "sha256": "34d07df7e63337569becc58b380aefe2bbaf6e54411103aee0a273ec927dd73f",
+    "key": "cccb3ae1cbb818b48ba758d3c5a9c75a586001576ac488803c5e0f08b374fff1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample485.s",
+    "sha256": "644ce1aec89d727f7ae55546a2ef42429d68ee407f222a6e9607dfa1be03838f",
+    "key": "23f7b7cc27767d4b44bda372fbb68958fc8a16bba71cd5c8a81d4ff249789952"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample49.s",
+    "sha256": "2d6bbb8fcea7a0736554622b692d1c585ec8eac47e84a7f29c6d7514efe2b05c",
+    "key": "eed1c12af54d667ea160efaf84995dd148f4d23549919b2288fef3d6fd7e4554"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample490.s",
+    "sha256": "727bba1329c813c7bc193242057a89688f72a0ed23f8ccf59c92a4c059dcd635",
+    "key": "b7aa5d274574ac07d1bcbbe7aeb6c04cab335b21628570df5ede0a5bb36fadf9"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample496.s",
+    "sha256": "2f0fcd843b7fd85e2d03c104b9eabbd52b2ff37e4260271f9dde94ea92e42464",
+    "key": "87e8ce208464ac967059683968876c4711d7ae42466738779c8f86d015d145db"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample500.s",
+    "sha256": "13ff8f6c623f024ad20ceb9feae120638e5e3d4a4f4df076e3ad525fe6a0bb9e",
+    "key": "80d24c252941ac90b59a88cb159a798fa856c70849d00460eb0c62dc94ec351a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample513.s",
+    "sha256": "61914879ea216201f27d4f946e603e0cd0fb3274a902ad3de0bf0709defe96fa",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample54.s",
+    "sha256": "373addbed47a740c80293caf4b99c10e28b41664eb2502375a1ba5706c2a5406",
+    "key": "142c82caf164856161fafe9930353e15e14378ddd42348866a91d8bdd9388755"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample58.s",
+    "sha256": "487ac2a7be02e0a2fee2c7cff1af0e8425631b4cc602bc67b4f966134fdfca84",
+    "key": "326a205b383d599f72e3aa92a412b951b7a2ab68575e7635d60ae85f289397bd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample65.s",
+    "sha256": "e00c0982fda414035b6d0e19b40bd349acf246955169ee0019503edcd316128f",
+    "key": "cccb3ae1cbb818b48ba758d3c5a9c75a586001576ac488803c5e0f08b374fff1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample66.s",
+    "sha256": "999d2d2f29febd38a6cd55211de8416d16a53e6ab87ebe8ebfd39e5e7c205055",
+    "key": "b242b4c56b716e67a680df87dd2021c1e5dbb9c9372887c04a6f440f5ed77b01"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample79.s",
+    "sha256": "bce5b4d3f60cb80017fba7f774123e4e825bcd669e35712f1c5078ceca015e81",
+    "key": "ea6d762c0b0e2eb780bca56e3b20631eefcc8de6edd74c3c6ffe576a9f3d339a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample8.s",
+    "sha256": "fb1061225537c596925bcd2bb38523a37c214e46f078550e2c6b1b533e3f45c1",
+    "key": "a0b4d51a00eed24e091cc63c473776da891658fdece3d1bef5ba8599faa683dc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample97.s",
+    "sha256": "f2b9d4a50c944c3061c0cfcae5d171d59ca86dbdf9ef4228e491f34b4a5e9dda",
+    "key": "c7ffac88f425d378d6cca28b63914d0a9679443f54352d0644ed7ed55245fa77"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample98.s",
+    "sha256": "eece67198019e54fd62a1ac61a40d70feb2069a85511a3ae28946c93ec1418ff",
+    "key": "3b447200fefb67797b13ef904f860167758d3ab031660076af6baa6a59895f79"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk1_checkpoint.s",
+    "sha256": "d4655dc068a8aa4c304eaff12ad819e731ffb8821d899215905849b267b84fbc",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk1_final.s",
+    "sha256": "d4655dc068a8aa4c304eaff12ad819e731ffb8821d899215905849b267b84fbc",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk2_checkpoint.s",
+    "sha256": "f7a721e83a3ee7416dd741657aa2150e1286bcf5ab98fef7e2ee30c147b90a29",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk2_final.s",
+    "sha256": "f7a721e83a3ee7416dd741657aa2150e1286bcf5ab98fef7e2ee30c147b90a29",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk3_checkpoint.s",
+    "sha256": "d39f77c668ad4ef336b0740bd0e9f0e2b2aeea688ca893e7360c7d7985644dee",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk3_final.s",
+    "sha256": "d39f77c668ad4ef336b0740bd0e9f0e2b2aeea688ca893e7360c7d7985644dee",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk4_checkpoint.s",
+    "sha256": "60cbe69eaec822a124ca190c574222bbfb708b3142ff45d24baa1441a06944d4",
+    "key": "5c02d0d4b42006de37d577fcbf7e59c64cb9e00d04279fa236bfceaef43a5776"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/c8_walk4_final.s",
+    "sha256": "60cbe69eaec822a124ca190c574222bbfb708b3142ff45d24baa1441a06944d4",
+    "key": "5c02d0d4b42006de37d577fcbf7e59c64cb9e00d04279fa236bfceaef43a5776"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/palette_c8_k32.s",
+    "sha256": "a49b1139e41988d3078c280e8bdb4f6ff9af2c2ab77cf6f25eaf61e4f72e4ff7",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/walk30_checkpoint.s",
+    "sha256": "d381d3969b0c1929df7a64e48b953afcad7d86e9cd006e1cfec2e04898c18086",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/walk30_delete_k32.s",
+    "sha256": "5d2f00d79e86f871e312340bb6b227abebf48e48e1ad05d963c5d7cf78879709",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/walk30_final.s",
+    "sha256": "d381d3969b0c1929df7a64e48b953afcad7d86e9cd006e1cfec2e04898c18086",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_10040eff416c0867.s",
+    "sha256": "f4464097333765736a806367355760741453a01461dd492aba90d352cfc12a5e",
+    "key": "431fb60e41013f8820d08a11c71e394ddd8d928731251233e6240ec86516c7de"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_100fdc9beb7f87fb.s",
+    "sha256": "78124a29c893a4dbef4362c072bdf4fe05930e03d53ecb958a9286ed7c04d500",
+    "key": "b81369515628e4bea28a5e51b773ff8d25ef44d070e456479c98dbc59f10f70a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1125a776aad66f0f.s",
+    "sha256": "6ae45d5571eb9155c317d4842ea82853de7df343a20ca597c5c88a490534128c",
+    "key": "be322e6da3070e2942b5c4d3ca0c8bfe24458d62f3ff5a72d7dea91972abb2e3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1133ec48c6cddf1b.s",
+    "sha256": "5a7f85497dd979f04f2431f77f163be3693c39dbcd4ab910b1acb6631341ce21",
+    "key": "c0b80bad4b6b5ee32fa045067c293c0f5876c4d8b3d568ae9e3603e10c5660d5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11c9d4867493ab47.s",
+    "sha256": "5f26f109bc96380ad48a1ae70a487ad2e46564c1519a1aefa1680172051b7236",
+    "key": "a5d327344d949c02beb87c3f39334a1894a9bbb04736a0150899318c3dd65a7a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11ff7541f319ba6f.s",
+    "sha256": "a5870fa1d39841ace10d181d5fd561f3f5835b893ced4c9ac8b9bb6df66fe0e6",
+    "key": "a91d1c07f45aab04ca6d12c2b03862b14c9a95a8ebc6298ef02547943f053d54"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1225fd780bdd0fe7.s",
+    "sha256": "5732a053e0357d272c49250b1d2d65fd5f505e080566fe1daa4fc7317b7c7c03",
+    "key": "24842ff3b7b5408fd7905ae8c0404a0ddbffba26343e80e307de05fe4f18c5af"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12651d8baa33ba0f.s",
+    "sha256": "ea9d5b38dc9e4618c099a077240d8b8b73362925bcd7b1826ab405cea628a2ee",
+    "key": "6cbbf39bff5826a8637a60567455e2132a862af5f43495b3be99f767165faa75"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12b75491c4d308a3.s",
+    "sha256": "3089ffce809c5c34bad120122c2d807efa3841fe59c75b91840202dd369b2fc3",
+    "key": "cd5905b2a181a41775f7ab30c190361d0d664bc85110ce9f783a210dc3cff609"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1338d3424477e129.s",
+    "sha256": "6374e6600c60816a2d7daa320e35beab15b2aa8216852b5990e2a4dd7146e3b0",
+    "key": "bde7b89c194a6f27a5c4305a5d43917827021f489b890ae7f0011a5a9ff31acf"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_141a02776a21d45.s",
+    "sha256": "28049fbbe6bc88669c78be0946a331db8a30aa87caccc8d6328c72eae8b75da5",
+    "key": "365ce54c3793ed33a263ce1942c03357c672c12008407e4b299d7d3246b3d599"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_153074ef2f383393.s",
+    "sha256": "2cd473c6469eb530c1513c184860a6cc28103fb44a0ce23f79cda3eeec9f5168",
+    "key": "4580fcbe868438e4070233019910fd6bedec1313906e0428ea02d689cbe13c80"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_156fdd193572fb27.s",
+    "sha256": "3766a7566971eeb14db2af9deb7676e6ddcbd2de44844151aa8e2c95e1f21ccb",
+    "key": "e7ad3a48d5d80d63cba3e8f72b08e6c907973294cf83dd56cd60b713a231ce22"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15a18d5fe8f0f427.s",
+    "sha256": "d6599bc3468fa346bbc7255353cde6a9a12de47650da065d8292e848984bb095",
+    "key": "58f13eb1b20bc21c302679d2e91046de8a3b60a3ae525db9bb33b21ddf7c18cd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15bdbe5ff6cbe16f.s",
+    "sha256": "652f7be1ad2e1daf0116fe1653c2d9c201fb471237d8467c7cd53d96f01c1bb3",
+    "key": "6ca42e62c1a5a7d048c10a2e86877db187cce152f5d8fdddeed02ab3ba1de586"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_161f27bdd6e9955b.s",
+    "sha256": "aea5097196ffcf4aad9ed1b69a21ab93d5fa1dc30489c77c02f72fd37662f21a",
+    "key": "7fe12164f371c72a93ea36fce0385923c59db96d03dde8b6d59150dab70ab475"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_164a24929b8970bb.s",
+    "sha256": "3f6925d44b698dadb72531ca5de36a546ebb9cbe57b515d544b27545ff70cca8",
+    "key": "a2e543c060d0d5c59e3ce4239400b3a2fa69e5cbdc7964641194eabe87a5a57c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_166731603245e2eb.s",
+    "sha256": "96e24e0fe08a420f4e72ce3074f2765cf6f2c3253ded688e2dc1bfcefd7b921f",
+    "key": "8f2c435c22edf34a33db86573de881f3b59047e83b9d18bb7338f039614f1bb1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_17907dae653ca8f.s",
+    "sha256": "0b83e57fe7ac28b79dee0d4deabcf1a6963d1484b4d3677fd81aaa996732ab01",
+    "key": "2d5df329660482976dffc61ba1bb7866d1eb6329cde68926cd954cbff1bc6154"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_185d571c2e0f14f.s",
+    "sha256": "38c7d7accd70bbfc1a575f084b4d8a74e57fd59007aa3c527a9e6611eea4974e",
+    "key": "4665882cd2b696881ed5213937f3b062f59650082ca2c5cabe6be367a9ed8af9"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a082026b9b8a97.s",
+    "sha256": "7e24cd1cca4731f9ffb1ecfaea77ca25778a18a323d443bf618cc56f1408f447",
+    "key": "0f3ea07ed340802d0728dde202aaa0117ec9e74dcf7640c893b2c3b1ba5addb5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a613ac2485250c7.s",
+    "sha256": "6c45c8a5b43199eb4d46e3f6481af69f654c9f5b9bc5d116df81217a4104e875",
+    "key": "d883d321c06a6fc11c32aae5eb55c3c4cee01a198e95ac1a89f8c0f020461bf4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a63d93b1f04a2cb.s",
+    "sha256": "a7030d8cd4645cb1f25168aa1853251789c5dec2f33fbd576f72259ca2868211",
+    "key": "b4015d22443a2943fbdf0f3698cca4435f54261797b4291feb11f774e7f3f154"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1ac755463afdc2ab.s",
+    "sha256": "0f27d3618dd2079e5cc8e4601b0c6781b82471bfccb644ab804be1687ce30213",
+    "key": "fb34b166d8405f2d27cd14b6535f26201f27fc40f3cb4a1e8071c090e08a4520"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1b0c08cec2e379c3.s",
+    "sha256": "12f10b6d8a89646a6d0432b8be9dbe427cc6010b63b14f36c5c6875d9a4e6900",
+    "key": "21070218716c678ebf9913b3818f6f4ed082c2f17b116667025d024ef95332fe"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1be80efe56e14ebf.s",
+    "sha256": "8f1d000433d2a03c2a531ef363b9c88afc866a64fcc219179e8e66add23cdbdb",
+    "key": "3a6b5e2a65ab3be330b8e1c5458b85f77512c28cd743d68d42d19e4e4dad17bf"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1c180823effee2ab.s",
+    "sha256": "455c8e1d1e30161907cd043433262a27d10d91ee13ab3440b6112f8c912b37e6",
+    "key": "edcef8b29efb5b14fa5f5ed63eaa0ac889b7253a72f9ae6170faecfe3c465f70"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1cc416f5fb6c5bef.s",
+    "sha256": "5bb9340894dc12673a21aade846dd2bf7d027555447e94b9f7b589b07b29790d",
+    "key": "24b640d0a462c59d863319de18f4f3905d71279fced180ead848a2f2ecbbd5be"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1d4ad416e35cc60b.s",
+    "sha256": "27895e0ab1f7cfa80df8df2fdd43d31c762e3809bb833264a7d0cc506ca283f7",
+    "key": "87e8ce208464ac967059683968876c4711d7ae42466738779c8f86d015d145db"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1e7b08432020f0b7.s",
+    "sha256": "9461d8660866b06008cbc108ba7dea2f5e00d8852ae4b15e434ef1f67e7f8273",
+    "key": "a1356744e738ae624f8d177418fcb8e65cff3de6430d3766543e0dc657d8fbcb"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1f71d7979bb91b7.s",
+    "sha256": "e15dd5f60635d3438f5247287ef5eb7339ed544abc790efcd468b179768e0a4d",
+    "key": "6d5ba8eaaf52db242e0866a931d784d8ad734a78daeb9ff8b87ba33be0a15e34"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1fa5731a2358af7.s",
+    "sha256": "a2b5a0079cb6ecc9677a7da2bf8d5264900e05a484c59a215bc55b7f39b7ad4a",
+    "key": "23f7b7cc27767d4b44bda372fbb68958fc8a16bba71cd5c8a81d4ff249789952"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_203f14ede4be42f.s",
+    "sha256": "c68954bae8525bbb61db121f123e05c7c3d06ad89739b1dffd160092450ecbce",
+    "key": "76094ae5f44af019477ce1128c62f03b1d36cc6eb428eae65a2dd89438ae4484"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_215cbe6f0d1c7837.s",
+    "sha256": "7e5fb8879b065ea864d070e7fcaa0eb974e0cf4e837676d119778e847f9b195e",
+    "key": "c8e7b513acbcbc8718e9607c3634fb22b58f946d81f2677efc3b228fe4b0a78b"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21a6f16bedc5b8bf.s",
+    "sha256": "ecbdca9c827024caf95971bab8d1aaa216ecb486ad1b9f80203ec7b4d333c721",
+    "key": "43ecdc50c05cae3178b8259ca9c843dee9f8857aedb724dae81a4960314aa120"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21abacdf36bcd7b3.s",
+    "sha256": "f22f2350d3a662ca1ec113c07828fe90648758dcfa0270fc715fd223279dac1e",
+    "key": "26ab05d02363041ad2848df97332614a59fba395b3e86ff3f3bbee3644b90683"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21f839ca06fe77d3.s",
+    "sha256": "6199ad5f726ad933192646bc723be371db48664bbcc9181743895a5b2ee85ce2",
+    "key": "064c59a3cf28d8d625f465c1f9b1101244321772a9985bde432053868b29d5fc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_220dcb420effb46b.s",
+    "sha256": "95672b2d46cde1bb23b3499ef20cf392671fb0a9293959d4c9bf7117121a9940",
+    "key": "01d76f9dac9bbf11680133ecb1564c98efbe82a22dbeb7eab0209cfed7e7c561"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_22389f7b99df6097.s",
+    "sha256": "6ade54684c657c0239598f83bf91a86bc3a600b5dd52069f36bcac092262eefa",
+    "key": "b6dccc289b879431d04565ad824be0255a27d2007448dc77f7984c6f3d4ba46b"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_224e45102f6e86b.s",
+    "sha256": "d36b4767884638f05f45334efc4446b33b29c09c1e6352b0ffc4abb45e02ef52",
+    "key": "074e47dce889407793fc5fd0256ed9af48eb5bdf8215693f6dc7459635c1b5f4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2289ab6219955a3b.s",
+    "sha256": "1a217ce348b6b62ccc41e726ab96ab23c5dfabe7d753484e93636eb592b380a1",
+    "key": "a9c792c9f55539d096b04ef52f4eae3baeed0ec5f1f4c69022d1a81bf7c4d6d3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_22e8c2d0d1b113b.s",
+    "sha256": "4152ca5a68f3f9b184f74df79fe99c4cb1196b33cd563601f25ad92f125ca40f",
+    "key": "10a19e8b02b6f7255769957c421854eecc8d66c7f0f7f348d16cbca98c061a4f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_23831cd511228447.s",
+    "sha256": "c69e85c94b98152750a1d339cd4c654601604f0daa5ea4fbdf2c02ed06b3b9a5",
+    "key": "89214726d26604820d0028ba1e7896dbe7dd9e81b2405fe34841996784cb5b2b"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24853a2a978e287f.s",
+    "sha256": "07ea91e7aca0fd1f6d310b55959b675d5ad6f76024407ab1f4234386aeedc9e7",
+    "key": "e61cfcd520927751ee815aee70d535cafdcb8a54cea27f4ee48d4be5392a6120"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24abc8199dc03077.s",
+    "sha256": "ee10b5b460969ba4b5589eea1713a04b7b3a4d82461021250d05ec371bd78bb3",
+    "key": "46f74f92f08cd70f22f42349d0ec67a37c2cc154271b400f2d675ccbcea1570c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24f787e7e88ef5ab.s",
+    "sha256": "38307182b1db4c6fdfc47417557be59fe531261c8b8310f3909e19efd2b75379",
+    "key": "dbfa03c4af089bb1bf590b110dd4111386cdcfaa1adf3fb2f7ceb841003a4efe"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2596dc2f20910faf.s",
+    "sha256": "ee8563cf4de184b94e6000518345078282bd4f26984d5f5d9a8797387c4b2460",
+    "key": "b7aa5d274574ac07d1bcbbe7aeb6c04cab335b21628570df5ede0a5bb36fadf9"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2642972b24ea19b.s",
+    "sha256": "53d1ab82c2a2cfff24ba0a22ca1a7a5d3a7f4f7c6841df5c0e7466bba550fbcc",
+    "key": "f302c4a516b91aa8b33f8c5d896fd8dc030cd01dce68886cf1c176c65c90e99e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_267a2e3d4909af4b.s",
+    "sha256": "a343c4ce01260730ee3a1cd7a49b318f0897de9cc52c2c7bb447ef51eede8b59",
+    "key": "f92c51d90adab72c61140895ce116642144171e01b66d0015cbc5c2b06c810e1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2726f4afb2d799.s",
+    "sha256": "ac08a7b487f129ffc1fd0c36506ad532ab571f90243a191aa974e79d51038799",
+    "key": "f6f21509fd29f3851f98e76a46dfe4834d307f4f1e0c14b1427effb1012c6f59"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_273efbe5788053db.s",
+    "sha256": "03dfca1f415e9d1ab59e217b1ea987db4f0a68b1bcbaf62ba96e1b17673826a9",
+    "key": "ad523f2d2906ceacdf0c1711067b068677dde9cb677a9c7d88fb3954211b3433"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2755e8d9e8382207.s",
+    "sha256": "7b22f2b8f380119de1ed6d278dba51c462bd14f233a293fee2847a1667264506",
+    "key": "960fb022dcf6b40f1e9d1dd1533e73530caed1338bdd38d79d24e72dde2a430c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_27f65daa1cee4f4b.s",
+    "sha256": "99c2e826ed3fa171e9bace9dc27f3132bf63a926a6ed5db07e0587b854cc9eb3",
+    "key": "cefc2e548efd8475a1ec2a005277fbac6b20ccb19f78da732265307198647fa2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_281eb7be1ab4dfb.s",
+    "sha256": "f62125e6768f46db9611af46ce190b7939bd1b0dbbb424af71d7be91329171e2",
+    "key": "9cf6a6350dbef3f6dac8c32f1fd8f9f7c3c72ac49b37aaf4a724ffedff80870d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_289340d6380f179f.s",
+    "sha256": "ab3bf0fcf6ffa5de3005d1684e178de98a729bbf2eff7bd8bec9cc1fd897e49f",
+    "key": "22271361d5f9fa0c857f6a58a54f2b916964a38e0f1e857746e0ea7e6be5175e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2896d97bea6f9f9f.s",
+    "sha256": "1af19d345fe3e115df55c90125e8ac4c8d9a59c1439c2e03496ea82bdbae6833",
+    "key": "ecc5682057b51880de1f406caaf513ff55d834c43b92901d1f684f1f7b730a51"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_290ba1ab50398fa7.s",
+    "sha256": "b5b8aa193b1a1442a00caa647920ef09672639dc1e0fc293afcd55e6febe4a94",
+    "key": "97572e1d211f20ccd748365d022276f476949c71f8b66770f00a186cfb299564"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2a67840a0b9e7f13.s",
+    "sha256": "d988d455515849b1544baa46c36152bda8d03edb2b7f5d3f103877c73c073001",
+    "key": "6183b5096e78e0c4629c54583db2d7bedd83e8e07e415616e885f2efb75411ce"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2ab6c13ccb245a63.s",
+    "sha256": "b893dbcce95c505fa13115ed30f5918d9f4ba92dcacc49900556a0852bebcf32",
+    "key": "b89aebac8208fc8243c1c22392f92a924380f8eb94a021707729c1ff3ce6936e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2e9b0f58dbb178a7.s",
+    "sha256": "f6779c965c11fefd1d9a8f3035688732a837ceee41b408cabc5d023091624dc7",
+    "key": "07d1d44c6a2eec005a38f24844193077720cc4e2cb5ec54c72db47299d66dda7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2fc2edb8474e5733.s",
+    "sha256": "d59413ae246101b8c7c2a6009f50bb30f8a11f90824ecb65e679f3603de5848b",
+    "key": "1e1ec7cfdb9ad710c800981ae93ec9c616d45b2dc00f7943e9e44bc6676892ae"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_308486b4944cbdf.s",
+    "sha256": "122132a863a6e4964104d0003450983ed8ccf402e436acfe992c3850c87a2ad4",
+    "key": "9c00473174b4632826e31b8cd65ce58d176ecfb6aecdbe097b4cb3ad19d5d31c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_30f500aaf2d3b42b.s",
+    "sha256": "94625058fbe59e3dd874211f8adcec1929299e38bcb03247fa031ffb696cb7ce",
+    "key": "04a4c0fcac3d204299eaada4404681355ff4ce1cb837abb018b40dfe768f6edd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3169712e775f63e7.s",
+    "sha256": "12253e7baed53ffe5088d31e15dc5a49328b377e2ae3864a7f4f541d35310a67",
+    "key": "62b8df96876c56e485c08792cbe4ed7f806ce536332151dc90e13dd976ee4ef3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_336a411e8b85279.s",
+    "sha256": "3aa11f5e8efbd5a906d767438f1c768206a9dd1a709fd64a8ccc8ec149908046",
+    "key": "782412dd4d415ff716f7fe719277bcbeb6ddeeaacbe0b54b8fc6c3f228dda8e7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33e730edcd75dbbf.s",
+    "sha256": "24bc36085073df18f5ae626f020ff519d3433987c5bc8a631a67ea05a7321479",
+    "key": "4924e0d0f59b96220fcc27568932d48bdd3ede2dc26f65ce90558c9b9f976263"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33fd8cbe2fbbf34f.s",
+    "sha256": "49b0ba92576ad847b90c203550125295eb8af7b89256211cc6395a647e089d85",
+    "key": "b344c053aa24202077e3f5e601eb8b1fd16ed5d6d5894d61a7d5fbea4db827a0"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_34bda9f2efbb141b.s",
+    "sha256": "7412073089a19f5ba6c88555a694d3c3e9397882ed26482a27450669804f1f1b",
+    "key": "8f18f17b8ed0542e6a91427b9f01b6dd3d9b4b280331744dc227a1a4bf69b1e6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_35006f3bfb8deb1b.s",
+    "sha256": "73280e82fb99e55ade2b06051905a7fa2df27458f215addcf49d5b44a9910cb6",
+    "key": "89f601e28655b21c7df44a8865b7a919bb80fd8b2a0ca1e30b3af8964ed24412"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3524001ad0523527.s",
+    "sha256": "566c3fa80bcc35970d156118aab83170ee7bbc8628c464e8205c7f04149214a6",
+    "key": "28b15cb85f62169ad438736318236332dbc04a55c79ca7620ea4e6139a26a5c3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3631163abf06d7af.s",
+    "sha256": "02cc6e3065380ef0c28692a22cdbaf3da1e8e5238e4e2134822ba999722469e0",
+    "key": "f5ded074594822bacaadad0cdd742a381a4f455124e6f42a2bd38b94c5cfa682"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36b2b7961244aaf3.s",
+    "sha256": "4e2f33956025602f6d8a9ba1432143093518263599bd71bcea488867c5b8863f",
+    "key": "3db8da13a9e690f70a28b4ddc12b4f13a8105c23145b2e762825b5ed4ab17649"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c3eb8e6d6769f.s",
+    "sha256": "d31cdf0d3401857af2d439d3d059a7c46e445f3e1f5e47c6fd39a3c624464ea1",
+    "key": "12a770993496e0fbaaa261f45d596ea72fc2195d4e175ee021b466720e95fb2d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c68fd07f08ff.s",
+    "sha256": "836f9fe7755c73329d8d6b12cbd5bb2b3035586169e7d4a95de1603e9c5746cb",
+    "key": "80d24c252941ac90b59a88cb159a798fa856c70849d00460eb0c62dc94ec351a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36e5e6298381a683.s",
+    "sha256": "b5b32a45fbe296ec48664e91404da12183a08cf95f1389fd58ea7d9eccd692b1",
+    "key": "6c97dfb2491bacbbf1d3512ff9b8cbf0879dd3772a69ad6b8c9da1a07ed6ffa6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_397c742a631c1cdb.s",
+    "sha256": "30c52d4fe8eac03a90255e0710974ec07a965fe8ad8ba50a3eb18cfe2fa30995",
+    "key": "109775f5a524d78e514ef38fded4b0bf94b7756a67a63d4d3d78d6b7a2efbc88"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_399842c2f1576827.s",
+    "sha256": "c0d203924e37abc1ff762ec720fd8cff692bf394d090f3e6c2eec55af1f723a2",
+    "key": "0a8f2e1cb14df86b471eef83a2c3fcaac94f4db7d61db04a2d5f62ab5a322a03"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_39a6ceb5b893673.s",
+    "sha256": "72e1104a8a689d3ec2a2ff7bdda9db4b2a3876497e71c925a1836512d7a0d378",
+    "key": "fb1b265571b130ef2d2bddb4b7e49caf1fb3087d5e45e1444802dcf5594f0091"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_39ca71836246603.s",
+    "sha256": "309addc393a5610a558a0ae791aa6888500d7feb5464117210fe9a510929032d",
+    "key": "5c93648e2428d3ef2b0a17fdb04baabc8bc2751ddcabfdaf1a8524bb8d58b20e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3af92b135d8fbddb.s",
+    "sha256": "58ab4cff0e45fb7a7bf509a76cd3b876e64ff40195411dc9d6daac84e618096a",
+    "key": "8d8bfd29b42aec2223970c3c3d230e19e1b3f6ae28b6f7058ba1bbcd0c7b187e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3c8472e7eb77e88f.s",
+    "sha256": "0004b354325f9386c482bfa6ba94cf45b91aa3a2cda6c9ba87e2d4ef8ea841bf",
+    "key": "0a0da0f06f679d94b10033362b726261041adab841399e16d5b2675d776dc0a1"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3dab8eea3595c0cf.s",
+    "sha256": "a29b96cb5219dc5c447b76910e087aab91b12dd0679d76d768156c39af8d4618",
+    "key": "4e341d954d44bf8d8b45ffce665f385f3a5f90f23bcd31dfbc655eecf04c3781"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f3513bf9cd6caf3.s",
+    "sha256": "37cb865c8f9150c73639839cc08766dcede2bed9e567be116020395283f3fdd5",
+    "key": "b2c075c02a49aa14a1e2b1bdbea31b41b3c8b1fa07e5d258b0802ec7eaaf2879"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f8371a2666ae5c7.s",
+    "sha256": "e73c59cfdf01dc66c8048035b45802e8629badcc3cf65d94b79c739e3efeeb21",
+    "key": "759b81a4455a7ab12bea6f3aeacd3c1c5eca99bdb62a7b2b45993c80776e8f11"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3ff1974fb517ed2b.s",
+    "sha256": "c21051881d69bfa5551ff4f2df949ae338dbf5ea9d45d708a7300f99fba18b54",
+    "key": "5c2536eb91d4b3ba12f969f792e723cb5013ee96cd9dc276fa562e87a4fdd505"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4033c0cef9939583.s",
+    "sha256": "f4f9e02394f7ac73e32deae6eacb603b4f8ec0c0b77f52afbadbcb4ee1bbb013",
+    "key": "7f5df0036257a09670634985d13809f8c2f67db35dced5f48c318e9070b1ca01"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4065e579161132f.s",
+    "sha256": "dd272b6d0866d35db847dc51ff7f17c39bdf321cd2cc5f2f6374fa1f86b87778",
+    "key": "705b0e7809b4f381b09921adb139636a1a2aa44b3078be8ff23410abaf4545a3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_40718fc8b65bfb.s",
+    "sha256": "57e739e07fb4ed442d174a68ebc97d51c6d5bc92fcbd06af9f7f3e70a9dc7ff0",
+    "key": "1930fad0a93ff307ae085b13df7bc99076f0b091899316738bc889796dc4c63a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43a93e06324c3bc3.s",
+    "sha256": "cd70fe44fafb6ff38acb6ba9b22cd5f0728834ce1ac904cd1194dd3941d2e551",
+    "key": "c055f205f3e37a73668e5930c9cfffc483d2627b2de4c04549ecb9a363327260"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43e28701f70f0cf.s",
+    "sha256": "acafaeef8b9a2046479108bbeac0c7dd5a4fa3097059600c6905deb16c9bfd66",
+    "key": "c5cf2d3431ca9026b708ae4ff8f42d0beab7b04be08d14175ac1cadb0dd3c322"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4480f6c61beea14b.s",
+    "sha256": "e91f4c46a5cd7fc1c8a5fd52e45abd4e9e8d93f4f07dc92c6ab50307a9bdb5cc",
+    "key": "a9115d3fc26a1e0b5b04a91e4c608faa4c7b6e66c37f8c8cb384be928ca47a38"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_44a89463151f5b8f.s",
+    "sha256": "3634d2b3b71bcfa27942421d13090db51de1b7ac4f44b815ca02cd30d6df7b69",
+    "key": "891cebe4cf7853462024154e101a615a5a22b0502968bde370958509ebea00d2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_45647ba89f2ce4ff.s",
+    "sha256": "b460336db052c66d31fa892d950010954cf4ee6cb54b572713b851e96297ec79",
+    "key": "d7437808e846c321a7d897a35bee429dcd7f2659f6c279ad17c744d889c102fb"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4568144e518d6cff.s",
+    "sha256": "4a3c8def5b19572e26ea5c788fb8fcd8480b19f4de39eb4db5f55cdfe4d2d8a6",
+    "key": "296a70ebaa2b69e74050fa61654456205448cedb3996c6846ab4393f8fbf1d82"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_490153be8f1298b.s",
+    "sha256": "24d4126232a16aa6af8c725d83ffba3f2a478f084ced9ae06c0454e4f9ef4a52",
+    "key": "58bcccd5f8bbf90ea0e802ae4a9c3fb52a76cbaea9280885c527b7669d6dcabc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4a225b46e63e8737.s",
+    "sha256": "87de5caf814a86378fc04b2dee33bb994a6cd274fc5cc7b6498828c43a1bd847",
+    "key": "9a6394a4e5cbc50f77c5030564c8a760891981b4bcbc69829be7531184b7a592"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4c82686d8d30d33.s",
+    "sha256": "74f3262a31e29b8720e61e196027cb5c46775fae5b61847026bb4621981d37b4",
+    "key": "326a205b383d599f72e3aa92a412b951b7a2ab68575e7635d60ae85f289397bd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_504956aa3c140ea3.s",
+    "sha256": "4a0bb4e0bc4d15068bff5f2cc01db53febe5347282bb75b9ee285e8ae6880540",
+    "key": "312fca8a28c6a27477f5766cba907953de97dcb6fe87a4c14842569761ed8391"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_54b8fd94e189948f.s",
+    "sha256": "b72c70d9182e6d54b4569c79216bf2e254cc4d4fd88d1ed53a3f2ac8c5e3b2dc",
+    "key": "91fb100870f1b9d74e8d9011ccc1958375a7b58d9b6c74be8860e53f16b96ac4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_59bb347d4b01a577.s",
+    "sha256": "6f6716870ed223780c3b6ff079ee96fa6a13d3231b0d594e0eb8c724aa1f5cc2",
+    "key": "c130ebc2ad20aa08189431fe8b28ee45352f97bae707a8051fa26bdac4534878"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_5bdf24a222d2b63.s",
+    "sha256": "ab49d3e0cdff859aef8878c29fba018dd7af3b2527eb5b8fc4e7a38b6c6f56fd",
+    "key": "6abd425cc00ea33784a01212e6e8d6301e7da6cd899c4bd29f2e1e3c9240184e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_63f1e94b2830099.s",
+    "sha256": "822814a68a54be41ebe9eadd76f4a34b1cf8387e9e3b5572b9c7cfb76be6718c",
+    "key": "555dd870c2d04571422349dae468f3be7b00caa9db19db93f38e31f9a19b3578"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_6580b4e99d6036b.s",
+    "sha256": "02e7e7f1ca791fcc732588d0684a1e5437e23a29ea086f6b8a2bd0342785a500",
+    "key": "a0b4d51a00eed24e091cc63c473776da891658fdece3d1bef5ba8599faa683dc"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66303d2fe517211.s",
+    "sha256": "3117c2994174154e1db78ccfbe2802494f6f9f618f2b6e366d0e3930ae17e75e",
+    "key": "6a1bf337bd79387d474d8b8fe15beaa838138f069b52c0debf289f4ae1c4a4bd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66ea7778158faf.s",
+    "sha256": "1ccfb16326124df2036584ca09c8245b4a84bd6f2d2ace9272752b3be2247034",
+    "key": "4e49f172842ce30ba725b34b0dee1407f4d6541559999ba589a04bc1961f5e8e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_6e38bedf286f04f.s",
+    "sha256": "8e9a682e06a62c19f46dbe52fde7bf4d74f5fcea94008789d4b9c79bf360e824",
+    "key": "bcb05cff0286bbf84e8a742869d4c582dba8f95223aeb252e010d5203f3dfb49"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_70dac6520f0a05af.s",
+    "sha256": "a00eadfd94bf2517bbd957ef5650913b86b6a108518910d35b9339d13bfaadb1",
+    "key": "b242b4c56b716e67a680df87dd2021c1e5dbb9c9372887c04a6f440f5ed77b01"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_784551952e246563.s",
+    "sha256": "a03e621eda6d35239ed9034d32cf332996c74561c88bb3f369a77b760c4b80cb",
+    "key": "7f4c6b936af3f5c3662f8bd51ed29f2ef091d21a0f898c213a8669303183b25c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7c7f65877f171ab.s",
+    "sha256": "79c549862993dc14833daa6f166c95c4d4c47ea20c7c67e5f04dfa800328acb3",
+    "key": "817b5e841419d0c039c72dfd68d1c3cfd85752d98f3032afccb7ef7c30001664"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7f146a90e5e9bcf.s",
+    "sha256": "474fa48e534cf448454291be826f2a9815087b235dc54bbee6d770f12ef4a0a6",
+    "key": "6ddc1863b0d62905b9f0983ff9976ed5d8223bcf221b40897ee6942a80f3b858"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8034dffd5d8c457.s",
+    "sha256": "37b7dad5cdd3aa7a822600e2bb3d362d1ca126066ad14727dd04f8897867ec62",
+    "key": "b34ec2984f5c1f02af25942caeb5a7caae2a453c596f9bc9732ce2279b1db43f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_81ed52dfbe00faf.s",
+    "sha256": "61531ebf9415fa06c3f233ff1aabd56bd14e23244af740adfe5126eb695cc7af",
+    "key": "16ff2d305ac7bd30b967a0669f8c0a4a858bd460f99f246092a6f41ce4c90d7c"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_845547c9459fdb7b.s",
+    "sha256": "64e8dbb6afcf26a27652091916e270203b5905bce12dfad1ae33829d4b2167da",
+    "key": "310f76fa1b56108a68eeb9617126676ac95f92bbeb650eff444cd7d75a32abdb"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_85b4809f0fae497.s",
+    "sha256": "4e065a8ec33faba522e8d600f0937717a9db5d9acdfa52a6e15a9db0e59886a3",
+    "key": "9afaa28d7c87294f991f402fbdf6f5674fe3c0b63cfc2b7305cff7c7e7070c59"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8a1b7bc87d5e633.s",
+    "sha256": "4e1262a99a87e8094f0ec1ba3e877df75d08345c5a002e5430c312bf0e849389",
+    "key": "adffc489edd7e8118edc17ebd0ffc054db5382066ab2a435fab1c95aba2e0992"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8d0dd0ee89a970f.s",
+    "sha256": "2891cf820cba2bbd0da5772e143b49e1bd2a84ab62c9675d885a9dcb9848d462",
+    "key": "663f09f41204578d45874b89f9ac2aa80478b13032b5515a115383d87805a64a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8fce06357f6d127.s",
+    "sha256": "9bcba6ca54caf66bc51d2864e9d4c148aaffacea671a9d8793eca2aed3c1656c",
+    "key": "676dd1c47e4a9ff0f88421e328dc5582e539340a6e1dfc2521627676cdb5368f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9356fd7b120de37.s",
+    "sha256": "7024baff8327b1d253583df6cd59c3bbfd64722e6727404bec2998be52d1fbd1",
+    "key": "e7bc7b008f1d499f9e4c08df78db12c3580d4382fbdb6188096b22b2ca19feb7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9755d36ddedc6b7.s",
+    "sha256": "6bca63cbb0cedd304629e7c4e149843ab3a183ef42d1af053468a2bdeaac88eb",
+    "key": "18cc8d85ecb4181be70ca009ad3a75fd5b3df03ef6b08b562f16ed5e66c266c0"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_978e4716e9a7b55.s",
+    "sha256": "ec20f28270a2dec9a29a422901af3aed5025b41359b77af9a4131e4aac35d5f8",
+    "key": "f340f45c740e6be988242093644e60eaffde09421edd952deffdf979ef939a80"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9e1a0f74131d81f.s",
+    "sha256": "910e61316174435884edf605ebaa81163764af4fecf1fb755630b9f77f9875ae",
+    "key": "9d09ddd67acf2dc7000a56ad8d77cdfabd5aa5d4718c4326ff50602a549834e4"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a333f1fdc61ed4b.s",
+    "sha256": "b14b6024799346b8d09555c992e51760f30a5d16b57388aae1feaacb390ca48b",
+    "key": "cd917298414459df0f226e0221e7196543cad65f67214a725b14f3ce659b894f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a7b174f83a0f43b.s",
+    "sha256": "97299c50af0e3ff61e9d60815735d47176e2c008f4b2573acaf3bd7ede149438",
+    "key": "85399889d4618b813aa36dcfad9b6e20216dd3dad022987699447c0b8ccf9f02"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_adb02b770a6193.s",
+    "sha256": "4fa9e1021f777a9e38499bb1d4a3f11e5db8659cb430befa3760068ed5ca6584",
+    "key": "5d3e0b500fba6855b571f636e421423c56457caaf5c9dca5e026b735298c7b38"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_b1dc9333293688f.s",
+    "sha256": "838312b0a89ad1587c2c0276afe1da5cf9bc419cbb0182a25a87a6aa9262b985",
+    "key": "8340e83258dccce58f7fe67d95b02a37a98ecb0ede85c9e0074e1890fbea7a0a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_bcbcb19411aea31.s",
+    "sha256": "7d935ee7e4b5f70ebf72c8b4e98f24b3e1a4250002d8d7b34477aedfdbfea928",
+    "key": "e8ed9de1c746ad1ac149e1a7664db89b5edb994d6672402f4ffa871c09828acf"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c060accd56c0c2f.s",
+    "sha256": "fda0aae1bf4b60cc78a660e464d70159a075ba0341d4b37776d6fcb5d1e40f43",
+    "key": "9a4ce05960e48c7ba7d7563772411caee6966d9561aaa308773028cdc46252f5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c3208d05a5329e7.s",
+    "sha256": "c978b860c2a56344006c01349b2dedd6d0e8caacebb1a9baa4be204b8026511b",
+    "key": "9d20dd003a0995c1076c3666675c43b1bcf9d78c929937cdb16ea8cb1a8964c6"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd249ed48c06697.s",
+    "sha256": "449b9f20e32cbfa1302c4302e0414914091b41ac596acb7b7bbf89052908c896",
+    "key": "fc3455416402515284b1a90033113c89c9b5e555333b771bc36ba7aa9b4c3339"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd2c6a654c268eb.s",
+    "sha256": "415b17a5f19da2ea41cca2e215cb9d0edd7cffc35bb80526b330cd1d748672b1",
+    "key": "c05e233d5190971cbe27a4f6c1916bbf3c5c42aeb70634621940d79b11568ef2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ce431b9f3a92ab9.s",
+    "sha256": "bafde7c90e9a759208dd2aa8564f13908a1da66ab789b8968939cad4126f6d74",
+    "key": "3dda52c3c0353e1de8509fec63f6da72fe2eaf487ffae6086cd964ba73e7c103"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d7ea38d35580a9b.s",
+    "sha256": "c9da531966e0850ae294c9dcd1e88b7a972732aeb1b1f3fb0ab6fea8cee95a9b",
+    "key": "abde2c92733a611529c41a386042592692a5b17736ed0178d3e4b7bbe4d65fdd"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d971bb526287b89.s",
+    "sha256": "8eb75dc321b09016ab0454c4f7c605f553cd2cdfff719cac6a46c3292627e2f6",
+    "key": "94c378280d7609f90dd3a85d246f29ecaf62647ac86b7a59d688b91be8d29df5"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_db8ff5154396dd7.s",
+    "sha256": "74c5e4329c4f9f3aa828820ea91dfa7384e8732c4cc56fa8cd79955a362035de",
+    "key": "30a128cbab906e23369f637c7b4d80d62a547605e263164e38336dfa7a19e207"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_dbbbb77809455d7.s",
+    "sha256": "a03eadba9f8e136c7bb786ce372fcae8afa4bc0ecd6b914f643c3fa01777d52a",
+    "key": "4d5f9a609634b724a611d792cb17828b81a55329f003349dea0012e528b6844a"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_e1c0ebef11c2d07.s",
+    "sha256": "5838e65b01a9a0bcc1ba1c292f33a572a13ad8bdba832e47874880034b48017e",
+    "key": "255799564ccd3286cce363bf9e60b110ec15bdaa197309b2ea84a5e6497281a8"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_e32bfb331db9cf7.s",
+    "sha256": "d68d3e85a2c22d7604f390ef51c162d0b1ec955926a9ec22459c4d2b36d79d1f",
+    "key": "60a8af6767aa51178327aaec0f00da275ef06ba658ccb1a023f370270bb54348"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ee55e6ba214fb31.s",
+    "sha256": "1839ae0cbce87cfbb12b20a55c62a342941335560110cdbf92f06d8ec7021942",
+    "key": "cff6988fd9ab55c75c6e4d3048ef44c20a889d539d18894219b9a93ee6014ca3"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_efa0c71440608fb.s",
+    "sha256": "f573ba92d1a884186cb6858da6f904af648890277b510a1baf0891d1bf39033a",
+    "key": "18182257c19ea76a24b41bf004c2bc3f66e363ab104e9a18711c09a419749256"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f76ab7383f3162f.s",
+    "sha256": "a8b7c1ba919f7dd7bf4d9431ad80cd0a3ae9faaf90525deea70244a980078e48",
+    "key": "413a0b9fb1119e40a088e5923ed402afb2809609b26c7dae7b93dd45d27f9a74"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f861da3879904ef.s",
+    "sha256": "5fabf8891684f5004a237f6ce135258bf6f13939ee6f737c78247cb0c921ca6a",
+    "key": "f764d91ed417882ddd79af80c0cf5fa0e586aa98599b400c43df1a0bf93ccb09"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f8dffa39345ffaf.s",
+    "sha256": "2e082913da1715ba29f92b22ddcde2a8f19e61817520f5319dfef7ba24fb9d2e",
+    "key": "7ab9fa92fe46495da0936ac5009066bfa236a1b4eb29df2817be66d00fb56fd2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ffb1da4812016b.s",
+    "sha256": "49de375de451bf233290e32d047b772c1d3312bcdc4433e1ab4939bc700efec5",
+    "key": "5b6b96a2c1af45188f27bc4c247ea8b1f2438bb29434c861a5e230ec6ec2f1a0"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s",
+    "sha256": "372dc9a16d4b2176b27a847593ec64a23c0f75a68976dbeabfb55d61516714bc",
+    "key": "305b8c098e4a512596fc7aec4e3a1afbcd9408dca0b03f9da73ddd30de267bc7"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_15d47dd100cf7fcb.s",
+    "sha256": "0ce8a387a6c182d42d9745969ec7c8a9deeafe178576e47e9ef8e325cdbea018",
+    "key": "ab0d9e4283e0aa8398354d78283716648d3332e269e4cecb758b55998565fc44"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_23f00ca3e09530d3.s",
+    "sha256": "3e626701bdf1a22d51d0e73408f4d6185fc13fce09ea0a71010aa828ed28db1c",
+    "key": "40eaadaf00270b5603cde47bfd7fa78665e38cb50bff2624647cd3466488e832"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_26e49cf60c846007.s",
+    "sha256": "33f719793851a71c6c355848f4004c3ad1c64b4bd2508fcb2c64b591bf4ca39e",
+    "key": "d0dfb59559d4f5c06df23353dc32c65320bfe4a7c3b3dba719c078ae9ba84bad"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2754b681df96846f.s",
+    "sha256": "c0dd624cfb86a9079e88028956c949b9ba8e1a8b665d020d4f3a9ca8502b624d",
+    "key": "de1bbf894fdec2c5a02f72c17e8dd4cb7f3e663bb5f45016940303b7de4ac22f"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2b1431ee7889f02b.s",
+    "sha256": "90cf813fd4a5b9a8f6f82ee14686967662fc871431259bdd0fa10ca3043a93c3",
+    "key": "2ceb780f09c54bf1da1663aa1f5d891731009079c5b38638e0ae13561cb4bdde"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2c342e0e0fbafd57.s",
+    "sha256": "8d00d0b960e69103b9486643bd3f7bf35696ba82e3bbf723ecf649ac134bc0b7",
+    "key": "58b607edb846941b96c72ef8bd6839ee587784020a439ade355f6e5ac3f38483"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s",
+    "sha256": "596c92011343834c395c80a0b22f214f04a34df745c9a8e03f6edbc2cfda93a2",
+    "key": "75cc396cbb01a9a7d13b9066eced86cd8ff1fd05ef78aa6459481ffe0672be94"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2fc1b3fefa56100b.s",
+    "sha256": "dd66638e80043ad62d3f523c950109361b3b51e7fa57f51b10af45686f99b81c",
+    "key": "c7204d66bbdaa42f0a991afa00231032b63596876a23d62bf2fb91a16cb90072"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3395266762428bd.s",
+    "sha256": "c0feed08b2271cb813978078dd0881657b8e21bb6bbb2df10e1ed1f61ba1f1f8",
+    "key": "efd4c4b52527c446cebd68cfe7b2089d271e2b087866b41a4ac01301a6eacd6e"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3809e545578327.s",
+    "sha256": "1ade4b9c2b4a439b2952b235804b25bf5f897b30d7c96c96734816600ed534ca",
+    "key": "f89849b81b0525a4519fdbfd149278743c4f03ba3809b81fc4408d8d11d4e0ac"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_57fa7c797ed6c84f.s",
+    "sha256": "cfc140417025adffa788e670d8495081bb76b538e7ae95f1841b900c7ededb21",
+    "key": "eafb6128cf954d0115c1c13b3883e860a509ad3d5fdf7c91c1d391b8896b4fb2"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_903a0e9b56d0fdc7.s",
+    "sha256": "e26f88a46ae26891f338fe5b7c65169a745c63174090f2fed29e4eca06a070e6",
+    "key": "c2277b1182d83fb52c3b11b9e81d848f571d6d7d353c6f20791e067ea5184b6d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9dc3b82d8b1e62f.s",
+    "sha256": "d3e20cdaea4a5ab97ebe2bb188b6224f0de82b147e72dd01e18e4231379185e6",
+    "key": "62a4d9729edbf96d26a133ae96942911dced22dd0f85f015cdfe631e1c1aee68"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9f2faf3e2b5848b.s",
+    "sha256": "1df40c62465b6cbbd9931d78c78c1b30cb49460f7194d9bf91546d2912019d59",
+    "key": "eed1c12af54d667ea160efaf84995dd148f4d23549919b2288fef3d6fd7e4554"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_b71830c38f98f13.s",
+    "sha256": "4bc439ae43c5e179caaeee53f3aa8ce7b9efc6ee10e8cd34575f20fb2cb249ff",
+    "key": "7d8c3c69724d3ae2dc3deffffcfae8c17aa767dc7976ea32def86a1b70ac6b0d"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s",
+    "sha256": "b8564599f0d92ecb4479d5ec612c971417c81efdd700b53521512f46086a3eee",
+    "key": "ee8255b87f498eb9e1c231b1bc87fcfad7ed6b9e89ed534e820309ef257c3231"
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_de052e5a1c75d83.s",
+    "sha256": "bdbda19db10a7b58df4284278bbfb88d07df4ab8de49ae4f508001b143be8d84",
+    "key": "5c02d0d4b42006de37d577fcbf7e59c64cb9e00d04279fa236bfceaef43a5776"
+  }
+]

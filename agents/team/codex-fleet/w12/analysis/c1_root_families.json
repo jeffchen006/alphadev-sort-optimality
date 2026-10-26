@@ -1,0 +1,63 @@
+{
+  "scope": "all root/copy/anchor split permutations for m=1..5; four uniform cmov conditions",
+  "cases": [
+    {
+      "unbound_members": 1,
+      "defined_anchors": 1,
+      "later_conditional_reads": 2,
+      "programs": 8,
+      "input_order_checks": 600,
+      "original_k": 4,
+      "normalized_k": 4,
+      "accepted": true
+    },
+    {
+      "unbound_members": 2,
+      "defined_anchors": 1,
+      "later_conditional_reads": 3,
+      "programs": 24,
+      "input_order_checks": 1800,
+      "original_k": 6,
+      "normalized_k": 6,
+      "accepted": true
+    },
+    {
+      "unbound_members": 3,
+      "defined_anchors": 1,
+      "later_conditional_reads": 4,
+      "programs": 96,
+      "input_order_checks": 7200,
+      "original_k": 8,
+      "normalized_k": 8,
+      "accepted": true
+    },
+    {
+      "unbound_members": 4,
+      "defined_anchors": 1,
+      "later_conditional_reads": 5,
+      "programs": 480,
+      "input_order_checks": 36000,
+      "original_k": 10,
+      "normalized_k": 10,
+      "accepted": true
+    },
+    {
+      "unbound_members": 5,
+      "defined_anchors": 1,
+      "later_conditional_reads": 6,
+      "programs": 2880,
+      "input_order_checks": 216000,
+      "original_k": 12,
+      "normalized_k": 12,
+      "accepted": true
+    }
+  ],
+  "programs": 3488,
+  "input_order_checks": 261600,
+  "remaining": 0,
+  "unknown": 0,
+  "source_sha256": {
+    "/path/to/repo/agents/team/codex-fleet/w12/src/check_c1_roots.py": "3b4b1794bb2259ca53063ee5983451fbe61daf9487a204a86c1213a87626c088",
+    "/path/to/repo/agents/team/codex-fleet/w12/src/normalize_c1.py": "b94e7acdb5b5993019c3a41f79664491d97fb75c2d1ef15dbde1ceda1ba4f091"
+  }
+}

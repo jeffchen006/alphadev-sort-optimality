@@ -1,0 +1,28 @@
+{
+  "updated_utc": "2026-10-26T06:44:31.052744+00:00",
+  "planned": 306,
+  "recorded": 205,
+  "statuses": {
+    "UNSAT": 200,
+    "UNKNOWN": 5
+  },
+  "unrun": 101,
+  "current": "class_237_q0111",
+  "parent_cpu_seconds": 159.12447754599995,
+  "child_cpu_seconds": 3844.0276590000003,
+  "summed_wall_seconds": 4747.606214767322,
+  "peak_job_rss_kib": 297148,
+  "models": 0,
+  "resources": {
+    "cpu_jobs": 1,
+    "nice": 19,
+    "address_space_mib": 2800,
+    "combined_rss_limit_kib": 2800000
+  },
+  "code_sha256": {
+    "audit.py": "f464e484bfec8f502d0bc53b1be52527fb003939b6311e02fbc65a2acc7524f6",
+    "kissat_solver.py": "5b9fc71e1fa79501b373f71ae310c6e7afc1be22619c5bb211ec09685700288a",
+    "order_kissat.py": "40aeb168fa413a936b2dfc578aa3e4737e4d56ce00aa68d9513e6d6723d4af30",
+    "run.py": "02317aaa353a4210b9874ce4fb5c3215cdff0af04200fae02ea8f2f99f997abc"
+  }
+}

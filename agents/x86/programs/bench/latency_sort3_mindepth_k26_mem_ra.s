@@ -1,0 +1,34 @@
+# n=3 R=12 iset=I0 model=mem source=latency/construct.py RD-depths=4,5,4 cl=2 k=26 depthU=4 depthE=4 depthZ2=5 strict=True (out2mem)
+# S registers re-coloured by agents/x86/src/regalloc.py: 9 -> 7
+mov S4, P0
+mov S5, P1
+mov S6, P2
+mov S0, S6
+cmp S5, S6
+cmovl S0, S5
+mov S1, S4
+cmp S6, S4
+cmovl S1, S6
+cmp S4, S5
+cmovl S0, S1
+mov S2, S4
+cmp S5, S4
+cmovl S2, S5
+cmp S4, S6
+cmovl S2, S6
+mov S3, S5
+cmp S5, S4
+cmovl S3, S1
+cmp S5, S6
+cmovl S2, S3
+mov S1, S6
+cmp S6, S5
+cmovl S1, S5
+mov S3, S6
+cmp S6, S4
+cmovl S3, S4
+cmp S5, S4
+cmovl S1, S3
+mov P0, S0
+mov P1, S2
+mov P2, S1

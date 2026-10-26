@@ -1,0 +1,92 @@
+pool 14 terms
+rules 7574
+reduced rules 48
+root: min creations 10, min cmp blocks 5
+R = 9 (auto: 4 + K - creations - blocks = 9)
+depth 1 states 18 seen 18
+depth 2 states 92 seen 110
+depth 3 states 320 seen 430
+depth 4 states 777 seen 1207
+depth 5 states 1494 seen 2701
+depth 6 states 2524 seen 5225
+depth 7 states 4364 seen 9589
+depth 8 states 5696 seen 15285
+depth 9 states 8328 seen 23613
+depth 10 states 14116 seen 37729
+depth 11 states 12384 seen 50113
+depth 12 states 18260 seen 68373
+depth 13 states 31966 seen 100339
+depth 14 states 13822 seen 114161
+depth 15 states 13568 seen 127729
+depth 16 states 35364 seen 163093
+depth 17 states 6882 seen 169975
+depth 18 states 4050 seen 174025
+depth 19 states 12810 seen 186835
+FOUND depth 20 path:
+  regs 0 1 2 3
+  regs 0 0 1 2 3
+  regs 0 0 1 2 2 3
+  regs 0 0 1 2 2 3  flag 0:1
+  regs 0 1 2 2 3 8  flag 0:1
+  regs 0 1 2 2 3 8 8  flag 0:1
+  regs 1 2 2 3 5 8 8  flag 0:1
+  regs 2 2 3 5 5 8 8  flag 0:1
+  regs 2 2 3 5 5 8 8  flag 2:3
+  regs 2 3 5 5 8 8 12  flag 2:3
+  regs 3 5 5 8 8 9 12  flag 2:3
+  regs 3 5 5 8 8 9 12  flag 5:9
+  regs 3 5 8 8 9 10 12  flag 5:9
+  regs 5 8 8 9 10 10 12  flag 5:9
+  regs 4 8 8 9 10 10 12  flag 5:9
+  regs 4 8 8 9 10 10 12  flag 8:12
+  regs 4 8 9 10 10 12 13  flag 8:12
+  regs 4 7 9 10 10 12 13  flag 8:12
+  regs 4 7 9 10 10 12 13  flag 7:10
+  regs 4 6 7 9 10 12 13  flag 7:10
+  regs 4 6 9 10 11 12 13  flag 7:10
+FOUND depth 20 path:
+  regs 0 1 2 3
+  regs 0 0 1 2 3
+  regs 0 0 1 2 2 3
+  regs 0 0 1 2 2 3  flag 0:1
+  regs 0 1 2 2 3 8  flag 0:1
+  regs 0 1 2 2 3 8 8  flag 0:1
+  regs 1 2 2 3 5 8 8  flag 0:1
+  regs 2 2 3 5 5 8 8  flag 0:1
+  regs 2 2 3 5 5 8 8  flag 2:3
+  regs 2 3 5 5 8 8 12  flag 2:3
+  regs 3 5 5 8 8 9 12  flag 2:3
+  regs 3 5 5 8 8 9 12  flag 5:9
+  regs 3 5 8 8 9 10 12  flag 5:9
+  regs 5 8 8 9 10 10 12  flag 5:9
+  regs 4 8 8 9 10 10 12  flag 5:9
+  regs 4 8 8 9 10 10 12  flag 8:12
+  regs 4 8 9 10 10 12 13  flag 8:12
+  regs 4 7 9 10 10 12 13  flag 8:12
+  regs 4 7 9 10 10 12 13  flag 7:10
+  regs 4 6 7 9 10 12 13  flag 7:10
+  regs 4 6 9 10 11 12 13  flag 7:10
+FOUND depth 20 path:
+  regs 0 1 2 3
+  regs 0 0 1 2 3
+  regs 0 0 1 2 2 3
+  regs 0 0 1 2 2 3  flag 0:1
+  regs 0 1 2 2 3 8  flag 0:1
+  regs 0 1 2 2 3 8 8  flag 0:1
+  regs 1 2 2 3 5 8 8  flag 0:1
+  regs 2 2 3 5 5 8 8  flag 0:1
+  regs 2 2 3 5 5 8 8  flag 2:3
+  regs 2 3 5 5 8 8 12  flag 2:3
+  regs 3 5 5 8 8 9 12  flag 2:3
+  regs 3 5 5 8 8 9 12  flag 5:9
+  regs 3 5 8 8 9 10 12  flag 5:9
+  regs 5 8 8 9 10 10 12  flag 5:9
+  regs 4 8 8 9 10 10 12  flag 5:9
+  regs 4 8 8 9 10 10 12  flag 8:12
+  regs 4 8 9 10 10 12 13  flag 8:12
+  regs 4 7 9 10 10 12 13  flag 8:12
+  regs 4 7 9 10 10 12 13  flag 7:10
+  regs 4 6 7 9 10 12 13  flag 7:10
+  regs 4 6 7 9 11 12 13  flag 7:10
+depth 20 states 522 seen 187357
+MIN k = 20

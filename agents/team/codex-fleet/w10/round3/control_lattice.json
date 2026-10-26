@@ -1,0 +1,31 @@
+{
+  "k": 20,
+  "c": 5,
+  "mode": "lattice",
+  "timeout": 60,
+  "tag": "/path/to/repo/agents/team/codex-fleet/w10/round3/control_lattice",
+  "fixed": "/path/to/repo/agents/team/codex-fleet/w10/round3/n4_k20_lattice_synth_canonical.s",
+  "no_histories": false,
+  "no_capacity": false,
+  "n": 4,
+  "cases": "strict",
+  "orders": 24,
+  "flags": "free",
+  "blocks": "free",
+  "registers": "unbounded SSA",
+  "variables": 19322,
+  "clauses": 317693,
+  "strengthening": {
+    "symmetry_variables": 0,
+    "symmetry_clauses": 929,
+    "history_variables": 14016,
+    "history_clauses": 160092
+  },
+  "cnf_sha256": "64fe62dbba4a5185571776e61b37636fdfd963d2c3b62b91025ab498b3786d08",
+  "build_seconds": 1.005375632084906,
+  "returncode": 10,
+  "status": "SATISFIABLE",
+  "assignment_checked": true,
+  "elapsed_seconds": 1.3239572132006288,
+  "children_cpu_seconds": 0.0639
+}

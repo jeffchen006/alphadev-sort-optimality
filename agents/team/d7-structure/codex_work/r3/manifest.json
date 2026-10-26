@@ -1,0 +1,414 @@
+[
+  {
+    "tag": "41_p_r",
+    "idea": "net41 + paired factors p/r",
+    "file": "codex_work/r3/pool_41_p_r.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_p_l",
+    "idea": "net41 + paired factors p/l",
+    "file": "codex_work/r3/pool_41_p_l.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_p_core",
+    "idea": "net41 + paired factors p/core",
+    "file": "codex_work/r3/pool_41_p_core.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_p_f",
+    "idea": "net41 + paired factors p/f",
+    "file": "codex_work/r3/pool_41_p_f.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_p_j",
+    "idea": "net41 + paired factors p/j",
+    "file": "codex_work/r3/pool_41_p_j.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_l_m",
+    "idea": "net41 + paired factors l/m",
+    "file": "codex_work/r3/pool_41_l_m.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_j_f",
+    "idea": "net41 + paired factors j/f",
+    "file": "codex_work/r3/pool_41_j_f.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_a3_a4",
+    "idea": "net41 + paired factors a3/a4",
+    "file": "codex_work/r3/pool_41_a3_a4.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_a01_a02",
+    "idea": "net41 + paired factors a01/a02",
+    "file": "codex_work/r3/pool_41_a01_a02.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_a01_p",
+    "idea": "net41 + paired factors a01/p",
+    "file": "codex_work/r3/pool_41_a01_p.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_a02_p",
+    "idea": "net41 + paired factors a02/p",
+    "file": "codex_work/r3/pool_41_a02_p.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_b3_b4",
+    "idea": "net41 + paired factors b3/b4",
+    "file": "codex_work/r3/pool_41_b3_b4.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_c3_c4",
+    "idea": "net41 + paired factors c3/c4",
+    "file": "codex_work/r3/pool_41_c3_c4.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_p_c3",
+    "idea": "net41 + paired factors p/c3",
+    "file": "codex_work/r3/pool_41_p_c3.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_p_c4",
+    "idea": "net41 + paired factors p/c4",
+    "file": "codex_work/r3/pool_41_p_c4.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_ref_core_r",
+    "idea": "replace min(A,E) by max(A,D), plus core/r",
+    "file": "codex_work/r3/pool_41_ref_core_r.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_ref_v3_v4",
+    "idea": "replace min(A,E) by max(A,D), plus v3/v4",
+    "file": "codex_work/r3/pool_41_ref_v3_v4.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_cd_l",
+    "idea": "three routes for max012 vs min34 (l)",
+    "file": "codex_work/r3/pool_41_cd_l.txt",
+    "size": 26,
+    "notes": null
+  },
+  {
+    "tag": "41_be_l",
+    "idea": "selected pivots for median012 vs max34 (l)",
+    "file": "codex_work/r3/pool_41_be_l.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_cd_le",
+    "idea": "three routes for max012 vs min34 (le)",
+    "file": "codex_work/r3/pool_41_cd_le.txt",
+    "size": 26,
+    "notes": null
+  },
+  {
+    "tag": "41_be_le",
+    "idea": "selected pivots for median012 vs max34 (le)",
+    "file": "codex_work/r3/pool_41_be_le.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "103_vm",
+    "idea": "aligned net103 + bounded sources vm",
+    "file": "codex_work/r3/pool_103_vm.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "103_vcore",
+    "idea": "aligned net103 + bounded sources vcore",
+    "file": "codex_work/r3/pool_103_vcore.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "103_mcore",
+    "idea": "aligned net103 + bounded sources mcore",
+    "file": "codex_work/r3/pool_103_mcore.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "103_vj",
+    "idea": "aligned net103 + bounded sources vj",
+    "file": "codex_work/r3/pool_103_vj.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "103_mr",
+    "idea": "aligned net103 + bounded sources mr",
+    "file": "codex_work/r3/pool_103_mr.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "103_vinputs",
+    "idea": "aligned net103 + bounded sources vinputs",
+    "file": "codex_work/r3/pool_103_vinputs.txt",
+    "size": 25,
+    "notes": null
+  },
+  {
+    "tag": "41_union105",
+    "idea": "net41 union relabelled net105",
+    "file": "codex_work/r3/pool_41_union105.txt",
+    "size": 25,
+    "notes": {
+      "network": 105,
+      "permutation": [
+        3,
+        4,
+        1,
+        0,
+        2
+      ],
+      "reversal": 1,
+      "extra_bits": [
+        3900735616,
+        3892314112
+      ]
+    }
+  },
+  {
+    "tag": "41_union109",
+    "idea": "net41 union relabelled net109",
+    "file": "codex_work/r3/pool_41_union109.txt",
+    "size": 25,
+    "notes": {
+      "network": 109,
+      "permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "reversal": 1,
+      "extra_bits": [
+        4294967168,
+        2829625512
+      ]
+    }
+  },
+  {
+    "tag": "41_union17",
+    "idea": "net41 union relabelled net17",
+    "file": "codex_work/r3/pool_41_union17.txt",
+    "size": 25,
+    "notes": {
+      "network": 17,
+      "permutation": [
+        1,
+        3,
+        0,
+        2,
+        4
+      ],
+      "reversal": 0,
+      "extra_bits": [
+        3892314112,
+        2829625512
+      ]
+    }
+  },
+  {
+    "tag": "41_union34",
+    "idea": "net41 union relabelled net34",
+    "file": "codex_work/r3/pool_41_union34.txt",
+    "size": 25,
+    "notes": {
+      "network": 34,
+      "permutation": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "reversal": 0,
+      "extra_bits": [
+        3892314112,
+        4294967168
+      ]
+    }
+  },
+  {
+    "tag": "41_union43",
+    "idea": "net41 union relabelled net43",
+    "file": "codex_work/r3/pool_41_union43.txt",
+    "size": 25,
+    "notes": {
+      "network": 43,
+      "permutation": [
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "reversal": 1,
+      "extra_bits": [
+        4276676608,
+        3892314112
+      ]
+    }
+  },
+  {
+    "tag": "41_union82",
+    "idea": "net41 union relabelled net82",
+    "file": "codex_work/r3/pool_41_union82.txt",
+    "size": 25,
+    "notes": {
+      "network": 82,
+      "permutation": [
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "reversal": 0,
+      "extra_bits": [
+        3900735616,
+        4286611584
+      ]
+    }
+  },
+  {
+    "tag": "merge8",
+    "idea": "eight-comparison merge aligned to net41 core",
+    "file": "codex_work/r3/pool_merge8.txt",
+    "size": 23,
+    "notes": null
+  },
+  {
+    "tag": "41_merge8_not",
+    "idea": "net41 minus t plus full adaptive merge",
+    "file": "codex_work/r3/pool_41_merge8_not.txt",
+    "size": 27,
+    "notes": null
+  },
+  {
+    "tag": "41_merge8_nou",
+    "idea": "net41 minus u plus full adaptive merge",
+    "file": "codex_work/r3/pool_41_merge8_nou.txt",
+    "size": 27,
+    "notes": null
+  },
+  {
+    "tag": "41_merge8_nov",
+    "idea": "net41 minus v plus full adaptive merge",
+    "file": "codex_work/r3/pool_41_merge8_nov.txt",
+    "size": 27,
+    "notes": null
+  },
+  {
+    "tag": "41_merge8_noh",
+    "idea": "net41 minus h plus full adaptive merge",
+    "file": "codex_work/r3/pool_41_merge8_noh.txt",
+    "size": 27,
+    "notes": null
+  },
+  {
+    "tag": "41_merge8_noz",
+    "idea": "net41 minus z plus full adaptive merge",
+    "file": "codex_work/r3/pool_41_merge8_noz.txt",
+    "size": 27,
+    "notes": null
+  },
+  {
+    "tag": "41_merge8_exchange",
+    "idea": "all net41 + alternate c8 middle exchange",
+    "file": "codex_work/r3/pool_41_merge8_exchange.txt",
+    "size": 27,
+    "notes": null
+  },
+  {
+    "tag": "41_nested_l_l",
+    "idea": "base + three nested merge pivots l/l",
+    "file": "codex_work/r3/pool_41_nested_l_l.txt",
+    "size": 26,
+    "notes": {
+      "first_flag": "B,D",
+      "V": "first ? C:B",
+      "L": "first ? C:A",
+      "N": "(V l E) ? C:A"
+    }
+  },
+  {
+    "tag": "41_nested_le_le",
+    "idea": "base + three nested merge pivots le/le",
+    "file": "codex_work/r3/pool_41_nested_le_le.txt",
+    "size": 26,
+    "notes": {
+      "first_flag": "B,D",
+      "V": "first ? C:B",
+      "L": "first ? C:A",
+      "N": "(V le E) ? C:A"
+    }
+  },
+  {
+    "tag": "41_nested_l_le",
+    "idea": "base + three nested merge pivots l/le",
+    "file": "codex_work/r3/pool_41_nested_l_le.txt",
+    "size": 26,
+    "notes": {
+      "first_flag": "B,D",
+      "V": "first ? C:B",
+      "L": "first ? C:A",
+      "N": "(V le E) ? C:A"
+    }
+  },
+  {
+    "tag": "41_nested_le_l",
+    "idea": "base + three nested merge pivots le/l",
+    "file": "codex_work/r3/pool_41_nested_le_l.txt",
+    "size": 26,
+    "notes": {
+      "first_flag": "B,D",
+      "V": "first ? C:B",
+      "L": "first ? C:A",
+      "N": "(V l E) ? C:A"
+    }
+  }
+]

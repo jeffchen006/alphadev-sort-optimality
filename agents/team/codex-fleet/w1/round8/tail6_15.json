@@ -1,0 +1,130 @@
+{
+  "status": "UNSAT",
+  "cpu": 6.162159807,
+  "cases": 12,
+  "rounds": 0,
+  "args": {
+    "index": 15,
+    "mode": "tail",
+    "tail": 6,
+    "cpu": 12.0,
+    "extra": 2,
+    "control": false,
+    "all_cases": false,
+    "stem": "tail6_15",
+    "fast": true,
+    "unbounded": false
+  },
+  "key": "repair_b07_p32",
+  "editable": [
+    21,
+    22,
+    24,
+    27,
+    28,
+    30
+  ],
+  "drop": 1,
+  "free_outputs": [
+    2,
+    3
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      2,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      3,
+      3,
+      2
+    ],
+    [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    [
+      0,
+      1,
+      4,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    [
+      1,
+      0,
+      4,
+      3,
+      2
+    ]
+  ],
+  "vars": 4161,
+  "clauses": 38279,
+  "stats": {
+    "restarts": 4421,
+    "conflicts": 78911,
+    "decisions": 250017,
+    "propagations": 29141068
+  },
+  "maxrss_kib": 35264,
+  "total_cpu": 6.16903324,
+  "suffix_builds": 7,
+  "registers": 9
+}

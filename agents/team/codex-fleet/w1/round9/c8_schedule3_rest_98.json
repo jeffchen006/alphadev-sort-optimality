@@ -1,0 +1,174 @@
+{
+  "status": "UNSAT",
+  "cpu": 1.266906653,
+  "cases": 19,
+  "rounds": 2,
+  "args": {
+    "index": 124,
+    "mode": "schedule",
+    "tail": 3,
+    "schedule_scope": "tail",
+    "cpu": 15.0,
+    "extra": 2,
+    "unbounded": true,
+    "control": false,
+    "all_cases": false,
+    "stem": "c8_schedule3_rest_98",
+    "resume_json": null
+  },
+  "key": "c8_b98",
+  "editable": [
+    26,
+    28,
+    30
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      3,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      3,
+      2,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      3,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      2
+    ]
+  ],
+  "vars": 18268,
+  "clauses": 168539,
+  "stats": {
+    "restarts": 280,
+    "conflicts": 2928,
+    "decisions": 15101,
+    "propagations": 7783706
+  },
+  "maxrss_kib": 58828,
+  "total_cpu": 1.275439996,
+  "registers": 15,
+  "suffix_builds": 18,
+  "schedule_normalized": true,
+  "requested_cpu": 15.0
+}

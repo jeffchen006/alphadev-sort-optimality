@@ -1,0 +1,10 @@
+{
+  "source": "round5/candidates/fresh31_near.s",
+  "k": 31,
+  "sha256": "008dac02924344be0865d7ca355c06cff00d9c83d92939acb25373cd085eb833",
+  "out": {
+    "pass": false,
+    "file": "round5/candidates/fresh31_near.s",
+    "log": "round5/logs/fresh31_near_out_judge.log"
+  }
+}

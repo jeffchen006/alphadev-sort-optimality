@@ -1,0 +1,336 @@
+[
+  {
+    "command": [
+      "python3",
+      "round5/check_encoding.py"
+    ],
+    "stem": "check_encoding",
+    "exit": 0,
+    "wall_seconds": 4.958145875483751,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/rank_chains.py"
+    ],
+    "stem": "raw_sorted",
+    "exit": 0,
+    "wall_seconds": 3.0159179428592324,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/rank_chains.py",
+      "--unsorted-pair"
+    ],
+    "stem": "raw_unsorted",
+    "exit": 0,
+    "wall_seconds": 11.175824874080718,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/rank_chains.py",
+      "--strict"
+    ],
+    "stem": "raw_sorted_distinct",
+    "exit": 0,
+    "wall_seconds": 1.6833194755017757,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/rank_chains.py",
+      "--unsorted-pair",
+      "--strict"
+    ],
+    "stem": "raw_unsorted_distinct",
+    "exit": 0,
+    "wall_seconds": 4.739186366088688,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "g++",
+      "-O3",
+      "-std=c++17",
+      "round5/forward_chains.cpp",
+      "-o",
+      "round5/forward_chains"
+    ],
+    "stem": "forward_build",
+    "exit": 0,
+    "wall_seconds": 1.9764129919931293,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "./round5/forward_chains"
+    ],
+    "stem": "forward_chains",
+    "exit": 0,
+    "wall_seconds": 3.906414900906384,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round5/control34.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "stem": "control34_judge_out",
+    "exit": 0,
+    "wall_seconds": 0.8252584002912045,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round3/lower.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round5/control34.s",
+      "/path/to/repo/agents/team/codex-fleet/w1/round5/control34_mem.s"
+    ],
+    "stem": "control34_lower",
+    "exit": 0,
+    "wall_seconds": 0.037082964554429054,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round5/control34_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "stem": "control34_judge_mem",
+    "exit": 0,
+    "wall_seconds": 1.1121700080111623,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/rank_dag.py",
+      "--gates",
+      "10",
+      "--cpu",
+      "180",
+      "--order",
+      "0,1,2,5,4,3",
+      "--stem",
+      "rank_dag10_fixed"
+    ],
+    "stem": "rank_dag10_fixed",
+    "exit": 0,
+    "wall_seconds": 6.917996129952371,
+    "source_hashes": {
+      "merge_sat.py": "2d15bca1a6436a0a355eabc9023aefe8b447ed5c920be684621ef7f4bc7cfc30",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "5700ee83ffcb9725d35a4103699850ba0d7d2e2e7bec2f31b8d11a3cb73e2333",
+      "check_encoding.py": "25f7336aa8d47b2a38e51e97b06793cc2f9d8434e4e3c86a6fbaf5a94eaacae9",
+      "summarize.py": "ed6a1a58b0c8d0d6a345d4b8c6009c324c9a6d2ce7afc8a7c6a2315f23b91ec6",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/merge_sat.py",
+      "--k",
+      "17",
+      "--cmps",
+      "4",
+      "--regs",
+      "8",
+      "--prefix",
+      "pair",
+      "--fixed",
+      "binary",
+      "--creation-outputs",
+      "--cpu",
+      "300",
+      "--conflicts",
+      "2000",
+      "--stem",
+      "binary17_c4"
+    ],
+    "stem": "binary17_c4",
+    "exit": 0,
+    "wall_seconds": 558.9793260805309,
+    "source_hashes": {
+      "merge_sat.py": "f2b469557cc6121cb785111226c6066ef26951298ac291e60c0abc62bdbfe4d5",
+      "rank_batch.py": "95f31cf19cdb4385a8b235477de8daae42e11b40ff0a96355461b38d7da107f5",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "52bf934c5750117fa6061e0d24efc003f7757f84f83c3c7e3b88a3d48d45a298",
+      "check_encoding.py": "0f7c4e39dd7a205bfee8be02760bb1d8d1bb8178e026bf6424ed67c81a7e96a2",
+      "summarize.py": "ed6a1a58b0c8d0d6a345d4b8c6009c324c9a6d2ce7afc8a7c6a2315f23b91ec6",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/merge_shapes.py",
+      "--cpu",
+      "180"
+    ],
+    "stem": "binary16_shapes",
+    "exit": 0,
+    "wall_seconds": 404.45226464793086,
+    "source_hashes": {
+      "merge_sat.py": "f2b469557cc6121cb785111226c6066ef26951298ac291e60c0abc62bdbfe4d5",
+      "rank_batch.py": "526cff0777e194c9400bde0c85f49cb7d16c383ee63b8c5a56a85e4fed54c4d5",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "run_jobs.py": "8ae8b7ad36edd517404d19ccdc8c437a3f27bcad4159a149bf30a3863d0450a3",
+      "check_encoding.py": "0f7c4e39dd7a205bfee8be02760bb1d8d1bb8178e026bf6424ed67c81a7e96a2",
+      "summarize.py": "11564bbbe705a5d9fda535bead080cc6bccf97b725fb136f7528ecd26a63212a",
+      "merge_shapes.py": "7ad544d0c3bd45cb7fb91f6224194835495e1ed0c1978b55cd31eab8baeea6de",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/rank_units.py",
+      "--cpu",
+      "300"
+    ],
+    "stem": "rank_dag10_units",
+    "exit": 0,
+    "wall_seconds": 568.0141322556883,
+    "source_hashes": {
+      "merge_sat.py": "b529ed8633b32d6c684429908e08adcb03240bc834453b592f6e36950350ed5a",
+      "rank_batch.py": "526cff0777e194c9400bde0c85f49cb7d16c383ee63b8c5a56a85e4fed54c4d5",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "rank_units.py": "d8bd412862dfc7d4826f9451bcb45a1011ebf53ab604c0f8487b878933004289",
+      "run_jobs.py": "1bffc22cd095ad19317499d5cd2fafd9476433a3da37a979b99ebc3347df645e",
+      "check_encoding.py": "3185e01b19f2540fba094a00792187ca7aee297ccbf01ad056efefeb62ad2fad",
+      "summarize.py": "76e3103f7a2136daebd9fe341f07af4bbcafb2d5f6aa4978911bca675d7dcab2",
+      "merge_shapes.py": "7ad544d0c3bd45cb7fb91f6224194835495e1ed0c1978b55cd31eab8baeea6de",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "round5/merge_sat.py",
+      "--k",
+      "20",
+      "--cmps",
+      "5",
+      "--regs",
+      "8",
+      "--prefix",
+      "triple",
+      "--fixed",
+      "binary",
+      "--creation-outputs",
+      "--cpu",
+      "180",
+      "--predicate-order",
+      "0,2,1,3",
+      "--conflicts",
+      "2000",
+      "--stem",
+      "triple20_c5"
+    ],
+    "stem": "triple20_c5",
+    "exit": 0,
+    "wall_seconds": 330.43371222540736,
+    "source_hashes": {
+      "merge_sat.py": "b529ed8633b32d6c684429908e08adcb03240bc834453b592f6e36950350ed5a",
+      "rank_batch.py": "526cff0777e194c9400bde0c85f49cb7d16c383ee63b8c5a56a85e4fed54c4d5",
+      "forward_chains.cpp": "deae5aa1a004ebaa5a392bd897bf0656d0ea33c35974cb9514c54537b13437f9",
+      "rank_chains.py": "c4c502331cadce4b7bd733271bfcbbb7890cdc05f8c17fc02f35d445456dbe54",
+      "rank_units.py": "d8bd412862dfc7d4826f9451bcb45a1011ebf53ab604c0f8487b878933004289",
+      "run_jobs.py": "990484cdcaad6b9d5fe1b382354b202f88aaf7c9738c85f0cac3540da6d24510",
+      "check_encoding.py": "3185e01b19f2540fba094a00792187ca7aee297ccbf01ad056efefeb62ad2fad",
+      "summarize.py": "76e3103f7a2136daebd9fe341f07af4bbcafb2d5f6aa4978911bca675d7dcab2",
+      "merge_shapes.py": "7ad544d0c3bd45cb7fb91f6224194835495e1ed0c1978b55cd31eab8baeea6de",
+      "rank_dag.py": "582122194967f9f2994fb09d532ec49014873b9eb62b7a316c891eb7419bc39e"
+    }
+  }
+]

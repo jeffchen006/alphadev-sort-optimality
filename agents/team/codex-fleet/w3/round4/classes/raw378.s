@@ -1,0 +1,25 @@
+# n=4 model=out iset=I1 source=sort4_collection
+cmp P0, P2
+mov S1, P1
+mov S2, P2
+cmovle P2, P0
+cmovg S2, P0
+mov P0, S2
+cmp S1, P3
+cmovge S1, P3
+cmovg P3, P1
+cmp S1, P2
+cmovle P1, P2
+cmovle P2, S1
+out 0, P2
+cmovle S1, P1
+cmp P0, P3
+mov P2, S1
+cmovle P0, P3
+out 3, P0
+cmovg S2, P3
+cmp S1, S2
+cmovg S1, S2
+out 1, S1
+cmovg S2, P2
+out 2, S2

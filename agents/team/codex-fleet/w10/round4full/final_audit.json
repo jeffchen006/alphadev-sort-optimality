@@ -1,0 +1,80 @@
+{
+  "query_statuses": {
+    "SATISFIABLE": 2,
+    "UNSATISFIABLE": 1,
+    "UNKNOWN": 4
+  },
+  "target_statuses": {
+    "UNKNOWN": 4
+  },
+  "combined_synthesis_statuses": {
+    "SATISFIABLE": 5,
+    "UNSATISFIABLE": 12,
+    "UNKNOWN": 8
+  },
+  "strict_pass_files": [
+    {
+      "file": "round4full/control_one_exception.s",
+      "k": 32,
+      "model": "out"
+    },
+    {
+      "file": "round4full/control_one_exception_mem.s",
+      "k": 32,
+      "model": "mem"
+    },
+    {
+      "file": "round4full/control_pure.s",
+      "k": 32,
+      "model": "out"
+    },
+    {
+      "file": "round4full/control_pure_mem.s",
+      "k": 32,
+      "model": "mem"
+    }
+  ],
+  "certificates": [
+    {
+      "command": [
+        "/path/to/repo/bin/drat-trim",
+        "/path/to/repo/agents/team/codex-fleet/w10/round4full/reject_nonlat_bound0.cnf",
+        "/path/to/repo/agents/team/codex-fleet/w10/round4full/reject_nonlat_bound0.drat",
+        "-t",
+        "30"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.456140915863216,
+      "cpu_seconds": 1.4223980000000054,
+      "maxrss_kib": 386044,
+      "log": "/path/to/repo/agents/team/codex-fleet/w10/round4full/reject_nonlat_bound0.proofcheck.runlog",
+      "cnf_sha256": "bcac099efc00e0410bcfa1b9366e385b3e9c4c2f6758b12077f2219eff7c36d5",
+      "proof_sha256": "a55f58c7a6033384a1b8b39588ad507ee99ebeecb7e82e3810e7231269928448",
+      "verified": true,
+      "checker_status": "s VERIFIED"
+    }
+  ],
+  "artifact_hashes": {
+    "round4full/control_one_exception.cnf": "dcc46de2ce40372057bfd0f41178e91fcc4e1a98905d9544abd33a78dc1dba05",
+    "round4full/control_one_exception.s": "efd525af64eb265f4ebd3428b40455d0d274d750cf6279511e738b5b3a1cf600",
+    "round4full/control_one_exception_mem.s": "5c2977b2705952b679cc6ec1272004053c2ea7f5378fc29ba00bdfa78867fb13",
+    "round4full/control_pure.cnf": "59d07db2853e0f460237de0a54c4e3e96c814385688d0ff1fe504bdad4f2d790",
+    "round4full/control_pure.s": "139c01ba05a3b0f5d8c4df5492a9d9ee38fb7f4fe8fffddcd2454dd67e0c7421",
+    "round4full/control_pure_mem.s": "1e8545c035a0b86c195fc18b5122d9fc7924c7b904d003d27421aeda9054ff46",
+    "round4full/reject_nonlat_bound0.cnf": "bcac099efc00e0410bcfa1b9366e385b3e9c4c2f6758b12077f2219eff7c36d5",
+    "round4full/n5_k31_full3_fixedflags.cnf": "62f981320302757a505f11636dfd82c8f19eb30ffa0b27a5eeeb6e1f42fa1ab1",
+    "round4full/n5_k31_full3_freeflags.cnf": "6ebe509c2e470ab4a98e2719cc963f51e047db8cce2ee3f99b23cfbb5d3ccd4a",
+    "round4full/n5_k31_full2_fixedflags.cnf": "9c432e2cd26d38d15d1616eb36eee83a9629b893d84c47b17a9927d100558ab1",
+    "round4full/n5_k31_full2_freeflags.cnf": "4293b8125ee1818c82464fcea178f47b2f2af20f5de6010c38fa2696d01da3b0",
+    "src/full_gap.py": "769d46b7b69f514ebc6015db2618867724f346f0dd54f5d30447a3d147260ffc",
+    "src/full_run.py": "2dcb9411b5aaf88543bf4629ba9f99b6f94c33e04ec1e310072972c62a6e80d8",
+    "src/full_two_run.py": "fa837ad1ba7ff11c0a8fc49646507c785ac072b5d251d1c0c3b965591c772217",
+    "src/full_audit.py": "955b57cc6c5f044fcb670156a8918486e659c87dd3bb71455eb29907d52cff6c",
+    "round4full/METHOD.md": "6340e2948b55de8418b4748c51235f3a606079f0f6fb5239b575f1899d99b49e"
+  },
+  "certificate_statuses": {
+    "VERIFIED": 1
+  },
+  "recorded_child_cpu_seconds": 2333.338361,
+  "maximum_recorded_child_rss_kib": 386044
+}

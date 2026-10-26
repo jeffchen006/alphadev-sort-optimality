@@ -1,0 +1,18 @@
+{
+  "name": "mined_sat_batch",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/repair_mined.py"
+  ],
+  "wall_limit": 300.0,
+  "exit": 0,
+  "seconds": 270.3991398829967,
+  "log": "round6/logs/mined_sat_batch.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 261.808101,
+  "peak_child_rss_kib": 132660
+}

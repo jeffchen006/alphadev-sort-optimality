@@ -1,0 +1,22 @@
+[
+  {
+    "path": "round2/verified/c8_8fce06357f6d127.s",
+    "returncode": 0,
+    "output": "PASS round2/verified/c8_8fce06357f6d127.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S0; line 11: reads uninitialized S2; line 13: reads uninitialized S2; line 14: reads uninitialized S2; line 15: reads uninitialized S2; line 17: reads uninitialized S0; line 18: reads uninitialized S0; line 19: reads uninitialized S0; line 26: reads uninitialized S2; line 27: reads uninitialized S2; line 32: reads uninitialized S2; line 34: reads uninitialized S2; line 37: reads uninitialized S2\n"
+  },
+  {
+    "path": "round2/verified/c8_22e8c2d0d1b113b.s",
+    "returncode": 0,
+    "output": "PASS round2/verified/c8_22e8c2d0d1b113b.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 6: reads uninitialized S0; line 22: reads uninitialized S0; line 23: reads uninitialized S0; line 24: reads uninitialized S0\n"
+  },
+  {
+    "path": "round2/verified/c8_156fdd193572fb27.s",
+    "returncode": 0,
+    "output": "PASS round2/verified/c8_156fdd193572fb27.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S0; line 22: reads uninitialized S0; line 23: reads uninitialized S0; line 24: reads uninitialized S0; line 34: reads uninitialized S2; line 37: reads uninitialized S2\n"
+  },
+  {
+    "path": "round2/verified/c8_15bdbe5ff6cbe16f.s",
+    "returncode": 0,
+    "output": "PASS round2/verified/c8_15bdbe5ff6cbe16f.s [relaxed+strict] n=5 L=32 R=7 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S0; line 22: reads uninitialized S0; line 23: reads uninitialized S0; line 24: reads uninitialized S0\n"
+  }
+]

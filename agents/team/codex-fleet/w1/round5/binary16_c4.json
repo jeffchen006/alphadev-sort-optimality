@@ -1,0 +1,29 @@
+{
+  "status": "UNKNOWN",
+  "reason": "Interrupted to prioritize finite comparison-position queries.",
+  "cpu": 233.05,
+  "cpu_is_last_completed_progress_record": true,
+  "cases": 10,
+  "vars": 11376,
+  "clauses": 82077,
+  "stats": {
+    "restarts": 82995,
+    "conflicts": 1935119,
+    "decisions": 7912743,
+    "propagations": 824537644
+  },
+  "args": {
+    "k": 16,
+    "regs": 8,
+    "cmps": 4,
+    "cpu": 600,
+    "conflicts": 2000,
+    "batch": 8,
+    "solver": "cadical195",
+    "stem": "binary16_c4",
+    "creation_outputs": true,
+    "fixed": "binary",
+    "prefix": "pair",
+    "predicate_order": "0,2,1,3"
+  }
+}

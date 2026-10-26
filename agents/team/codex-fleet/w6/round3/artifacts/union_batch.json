@@ -1,0 +1,61 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/near_analysis.py"
+    ],
+    "wall_limit": 15.0,
+    "exit": 0,
+    "seconds": 0.08964062295854092,
+    "log": "round3/logs/near14_analysis.log"
+  },
+  {
+    "command": [
+      "g++",
+      "-O3",
+      "-march=native",
+      "-std=c++17",
+      "round3/src/union.cpp",
+      "-o",
+      "round3/union"
+    ],
+    "wall_limit": 35.0,
+    "exit": 0,
+    "seconds": 6.640575652010739,
+    "log": "round3/logs/union_build.log"
+  },
+  {
+    "command": [
+      "./round3/union",
+      "round2/candidates/near14_frozen.s",
+      "round3/candidates/union31",
+      "31",
+      "0.7",
+      "1.5",
+      "180",
+      "8821",
+      "9",
+      "0"
+    ],
+    "wall_limit": 300.0,
+    "exit": 0,
+    "seconds": 180.01388314273208,
+    "log": "round3/logs/union31.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "/path/to/repo/shared/judge.py",
+      "round3/candidates/union31_near.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "wall_limit": 30.0,
+    "exit": 1,
+    "seconds": 0.032885896041989326,
+    "log": "round3/logs/union31_near_judge.log"
+  }
+]

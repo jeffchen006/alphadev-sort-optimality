@@ -1,0 +1,44 @@
+{
+  "index": 102,
+  "window": [
+    19,
+    21,
+    23,
+    27
+  ],
+  "attempt": 0,
+  "status": "UNSAT",
+  "registers": 8,
+  "limit_seconds": 10.0,
+  "search_seconds": 2.6395124262198806,
+  "exit": 0,
+  "command": [
+    "nice",
+    "-n",
+    "19",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "round2/quad_0102_0.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--free",
+    "19,21,23,27",
+    "--proof"
+  ],
+  "solver_result": {
+    "status": "UNSAT",
+    "seconds": 2.4896786538884044,
+    "cases": 27,
+    "registers": 8,
+    "changes": 0
+  },
+  "blocked_rejected_candidates": 0,
+  "proof_verified": true,
+  "verify_seconds": 0.9723185198381543,
+  "cnf_sha256": "430334af3cc18300daa9c7286a5e063b0b5f6f12b2ed7990bac0e9a1b8099fd4",
+  "drat_sha256": "7ab387b472eb8b5e8d1968a271292bbcc968ee6bdd88aa9504ba9eadde556f85"
+}

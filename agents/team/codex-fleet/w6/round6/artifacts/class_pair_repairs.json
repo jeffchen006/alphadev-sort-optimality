@@ -1,0 +1,58 @@
+[
+  {
+    "source": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "name": "class_0_two"
+  },
+  {
+    "source": "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+    "name": "class_1_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+    "name": "class_2_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_729_out.s",
+    "name": "class_3_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_2023_out.s",
+    "name": "class_4_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_425_out.s",
+    "name": "class_5_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_460_out.s",
+    "name": "class_6_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_469_out.s",
+    "name": "class_7_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_1440_out.s",
+    "name": "class_8_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_447_out.s",
+    "name": "class_9_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+    "name": "class_10_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_1347_out.s",
+    "name": "class_11_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_2036_out.s",
+    "name": "class_12_two"
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_1999_out.s",
+    "name": "class_13_two"
+  }
+]

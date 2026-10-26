@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/path/to/repo/bin/drat-trim",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4full/reject_nonlat_bound0.cnf",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4full/reject_nonlat_bound0.drat",
+    "-t",
+    "30"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.456140915863216,
+  "cpu_seconds": 1.4223980000000054,
+  "maxrss_kib": 386044,
+  "log": "/path/to/repo/agents/team/codex-fleet/w10/round4full/reject_nonlat_bound0.proofcheck.runlog",
+  "cnf_sha256": "bcac099efc00e0410bcfa1b9366e385b3e9c4c2f6758b12077f2219eff7c36d5",
+  "proof_sha256": "a55f58c7a6033384a1b8b39588ad507ee99ebeecb7e82e3810e7231269928448",
+  "verified": true,
+  "checker_status": "s VERIFIED"
+}

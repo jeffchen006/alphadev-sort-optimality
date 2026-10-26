@@ -1,0 +1,4 @@
+#!/bin/bash
+printf waiting > logs/round2_fast_waiting
+while [ ! -x ./dagx_fast ]; do sleep 1; done
+exec ./dagx_fast "$@"

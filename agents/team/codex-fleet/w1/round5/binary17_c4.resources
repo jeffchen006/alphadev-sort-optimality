@@ -1,0 +1,23 @@
+	Command being timed: "python3 round5/merge_sat.py --k 17 --cmps 4 --regs 8 --prefix pair --fixed binary --creation-outputs --cpu 300 --conflicts 2000 --stem binary17_c4"
+	User time (seconds): 299.71
+	System time (seconds): 0.45
+	Percent of CPU this job got: 53%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:18.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 97084
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 128095
+	Voluntary context switches: 10
+	Involuntary context switches: 63501
+	Swaps: 0
+	File system inputs: 980
+	File system outputs: 367
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

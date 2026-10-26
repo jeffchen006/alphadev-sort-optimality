@@ -1,0 +1,32 @@
+{
+  "n": 5,
+  "k": 32,
+  "c": 8,
+  "bound": 3,
+  "mode": "gap",
+  "cases": "strict",
+  "flag_program": null,
+  "blocks": null,
+  "fixed": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0.s",
+  "free_first": true,
+  "timeout": 60,
+  "proof": true,
+  "tag": "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_nonlattice",
+  "orders": 120,
+  "variables": 39969,
+  "clauses": 1892417,
+  "gap_size": {
+    "variables": 3696,
+    "clauses": 87571
+  },
+  "symmetry_clauses": 0,
+  "build_seconds": 7.290076676756144,
+  "cnf_sha256": "17b22ede84ce41142e19e95904766839076eb768321b37225fa745a5a465da36",
+  "count_kind": "All satisfying programs: zero only if UNSAT; otherwise unknown",
+  "registers": "Unbounded creation-order values",
+  "bound_kind": "Written data columns with any undefined entry",
+  "encoder_sha256": "87c20a7404d4bd5e5bbc6253f5eb6d735f1f4cf6c38a5697707e14b023d49975",
+  "base_encoder_sha256": "1b02cc848e9cf10b4b2ce4c70bcac79e3b6229644415e11d3942a840915f00bd",
+  "flag_program_sha256": null,
+  "fixed_program_sha256": "94c84e7a6366a0802ac5dc4430c34c4d63ff8131ff5250c08a07855e62631c4b"
+}

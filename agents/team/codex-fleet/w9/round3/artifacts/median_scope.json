@@ -1,0 +1,11 @@
+{
+  "orders": 653,
+  "source_programs": 178,
+  "free_data_slots": {
+    "18": 102,
+    "19": 309,
+    "20": 199,
+    "16": 43
+  },
+  "single_deletion_choices": 12375
+}

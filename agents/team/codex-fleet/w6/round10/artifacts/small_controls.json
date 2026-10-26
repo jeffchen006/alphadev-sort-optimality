@@ -1,0 +1,64 @@
+[
+  {
+    "engine": "fast",
+    "k": 11,
+    "result": "FOUND",
+    "log": "round10/logs/sort3_fast_k11.log",
+    "wall_seconds": 0.009927724488079548,
+    "strict_candidates": [
+      {
+        "file": "round10/candidates/sort3_fast_control_0_out.s",
+        "log": "round10/logs/sort3_fast_control_0_out_judge.log",
+        "result": "FAIL"
+      },
+      {
+        "file": "round10/candidates/sort3_fast_control_1_out.s",
+        "log": "round10/logs/sort3_fast_control_1_out_judge.log",
+        "result": "FAIL"
+      },
+      {
+        "file": "round10/candidates/sort3_fast_control_2_out.s",
+        "log": "round10/logs/sort3_fast_control_2_out_judge.log",
+        "result": "PASS"
+      }
+    ]
+  },
+  {
+    "engine": "fast",
+    "k": 10,
+    "result": "NONE",
+    "log": "round10/logs/sort3_fast_k10.log",
+    "wall_seconds": 0.0094512440264225
+  },
+  {
+    "engine": "safe",
+    "k": 11,
+    "result": "FOUND",
+    "log": "round10/logs/sort3_safe_k11.log",
+    "wall_seconds": 0.007801716215908527,
+    "strict_candidates": [
+      {
+        "file": "round10/candidates/sort3_safe_control_0_out.s",
+        "log": "round10/logs/sort3_safe_control_0_out_judge.log",
+        "result": "FAIL"
+      },
+      {
+        "file": "round10/candidates/sort3_safe_control_1_out.s",
+        "log": "round10/logs/sort3_safe_control_1_out_judge.log",
+        "result": "FAIL"
+      },
+      {
+        "file": "round10/candidates/sort3_safe_control_2_out.s",
+        "log": "round10/logs/sort3_safe_control_2_out_judge.log",
+        "result": "PASS"
+      }
+    ]
+  },
+  {
+    "engine": "safe",
+    "k": 10,
+    "result": "NONE",
+    "log": "round10/logs/sort3_safe_k10.log",
+    "wall_seconds": 0.01564249023795128
+  }
+]

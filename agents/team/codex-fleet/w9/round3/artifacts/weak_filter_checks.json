@@ -1,0 +1,16 @@
+[
+  {
+    "queue": "median",
+    "rows": 653,
+    "rejection_witnesses_checked": 402,
+    "valid_orders_sampled": 21,
+    "different_flag_generation": true
+  },
+  {
+    "queue": "unknown",
+    "rows": 701,
+    "rejection_witnesses_checked": 447,
+    "valid_orders_sampled": 26,
+    "different_flag_generation": true
+  }
+]

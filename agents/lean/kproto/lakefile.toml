@@ -1,0 +1,15 @@
+name = "kproto"
+[[lean_lib]]
+name = "LeanReflect"
+[[lean_lib]]
+name = "SortProof"
+[[lean_lib]]
+name = "KProto"
+
+[[lean_exe]]
+name = "gen"
+root = "Gen"
+
+[[lean_exe]]
+name = "gen2"
+root = "Gen2"

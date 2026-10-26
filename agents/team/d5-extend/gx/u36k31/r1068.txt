@@ -1,0 +1,2 @@
+skeleton c=9 K=31 budget(gates+copies)=22 lb(root)=17 classes(c)=120
+RESULT NONE K=31 calls=5168311 leaves=0 sols=0 best=-1 time=10.0s

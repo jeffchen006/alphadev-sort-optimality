@@ -1,0 +1,452 @@
+[
+  {
+    "number": 0,
+    "seed": 47,
+    "pair": [
+      14,
+      15
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "47",
+      "14",
+      "15",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_47_14_15.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 2.2692602165043354,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_47_14_15.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_47_14_15.s"
+  },
+  {
+    "number": 1,
+    "seed": 43,
+    "pair": [
+      8,
+      10
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "43",
+      "8",
+      "10",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_43_8_10.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.019745802506804,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_43_8_10.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_43_8_10.s"
+  },
+  {
+    "number": 2,
+    "seed": 44,
+    "pair": [
+      8,
+      10
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "44",
+      "8",
+      "10",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_44_8_10.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.019258332438767,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_44_8_10.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_44_8_10.s"
+  },
+  {
+    "number": 3,
+    "seed": 61,
+    "pair": [
+      12,
+      14
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "61",
+      "12",
+      "14",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_61_12_14.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 10.639518791809678,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_61_12_14.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_61_12_14.s"
+  },
+  {
+    "number": 4,
+    "seed": 83,
+    "pair": [
+      9,
+      11
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "83",
+      "9",
+      "11",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_83_9_11.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.018949597142637,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_83_9_11.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_83_9_11.s"
+  },
+  {
+    "number": 5,
+    "seed": 101,
+    "pair": [
+      8,
+      10
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "101",
+      "8",
+      "10",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_8_10.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.020703895017505,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_101_8_10.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_8_10.s"
+  },
+  {
+    "number": 6,
+    "seed": 110,
+    "pair": [
+      8,
+      10
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "110",
+      "8",
+      "10",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_8_10.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.018772455863655,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_110_8_10.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_8_10.s"
+  },
+  {
+    "number": 7,
+    "seed": 61,
+    "pair": [
+      12,
+      15
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "61",
+      "12",
+      "15",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_61_12_15.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.01902009639889,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_61_12_15.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_61_12_15.s"
+  },
+  {
+    "number": 8,
+    "seed": 83,
+    "pair": [
+      9,
+      12
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "83",
+      "9",
+      "12",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_83_9_12.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.016946766525507,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_83_9_12.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_83_9_12.s"
+  },
+  {
+    "number": 9,
+    "seed": 101,
+    "pair": [
+      8,
+      11
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "101",
+      "8",
+      "11",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_8_11.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.022150265052915,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_101_8_11.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_8_11.s"
+  },
+  {
+    "number": 10,
+    "seed": 110,
+    "pair": [
+      8,
+      11
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "110",
+      "8",
+      "11",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_8_11.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 14.135600384324789,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_110_8_11.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_8_11.s"
+  },
+  {
+    "number": 11,
+    "seed": 43,
+    "pair": [
+      8,
+      12
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "43",
+      "8",
+      "12",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_43_8_12.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.019239276647568,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_43_8_12.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_43_8_12.s"
+  },
+  {
+    "number": 12,
+    "seed": 44,
+    "pair": [
+      8,
+      12
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "44",
+      "8",
+      "12",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_44_8_12.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.025111312046647,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_44_8_12.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_44_8_12.s"
+  },
+  {
+    "number": 13,
+    "seed": 101,
+    "pair": [
+      8,
+      12
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "101",
+      "8",
+      "12",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_8_12.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.022266443818808,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_101_8_12.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_8_12.s"
+  },
+  {
+    "number": 14,
+    "seed": 110,
+    "pair": [
+      8,
+      12
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "110",
+      "8",
+      "12",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_8_12.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.018616235814989,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_110_8_12.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_8_12.s"
+  },
+  {
+    "number": 15,
+    "seed": 47,
+    "pair": [
+      15,
+      20
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "47",
+      "15",
+      "20",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_47_15_20.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.019110046327114,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_47_15_20.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_47_15_20.s"
+  },
+  {
+    "number": 16,
+    "seed": 78,
+    "pair": [
+      5,
+      10
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "78",
+      "5",
+      "10",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_78_5_10.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 5.491668458096683,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_78_5_10.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_78_5_10.s"
+  },
+  {
+    "number": 17,
+    "seed": 29,
+    "pair": [
+      8,
+      14
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "29",
+      "8",
+      "14",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_29_8_14.s"
+    ],
+    "code": null,
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 15.020543435588479,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_29_8_14.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_29_8_14.s"
+  }
+]

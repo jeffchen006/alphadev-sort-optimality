@@ -1,0 +1,2 @@
+#!/bin/sh
+ROOTORDER=1 FASTCPL=1 CACHECPL=1 LEGACYFILL=1 FASTLB=1 exec ./dagx_lb "$@"

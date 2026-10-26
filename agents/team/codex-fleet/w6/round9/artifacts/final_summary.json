@@ -1,0 +1,2642 @@
+{
+  "result": "No strict PASS with core k <= 31 was found.",
+  "scope": [
+    "A1",
+    "A2",
+    "A11"
+  ],
+  "statuses": {
+    "COMPLETE": 6
+  },
+  "summary": {
+    "out": {
+      "runs": 3,
+      "iterations": 367464448,
+      "accepted": 73004663,
+      "cpu_seconds": 1800.0378609999998,
+      "binary_cpu_seconds": 1800.0173869999999,
+      "wall_seconds": 2078.2201582603157,
+      "best_failed_orders": 9,
+      "states_with_at_most_six_failures": 0
+    },
+    "mem": {
+      "runs": 3,
+      "iterations": 223424512,
+      "accepted": 41403111,
+      "cpu_seconds": 360.032858,
+      "binary_cpu_seconds": 360.014052,
+      "wall_seconds": 392.5719680041075,
+      "best_failed_orders": 9,
+      "states_with_at_most_six_failures": 0
+    }
+  },
+  "peak_child_rss_kib": 15052,
+  "score_check": {
+    "status": "MATCH",
+    "files": 12,
+    "cases_per_file": 541
+  },
+  "search_scores": [
+    {
+      "file": "round9/candidates/weighted_out_s00_best_fail.s",
+      "weak_fail": 9,
+      "weak_error_sum": 9,
+      "focus_fail": 9,
+      "median_error": 9,
+      "median_lost": 9,
+      "fitness": 90.009,
+      "failure_inputs": [
+        [
+          0,
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          0,
+          3
+        ]
+      ],
+      "mode": "out",
+      "length": 31,
+      "budget": {
+        "cmp": 9,
+        "mov": 3,
+        "cmov": 19
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_out_s00_best_fail.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s00_best_fail_out_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_out_s00_best_objective.s",
+      "weak_fail": 39,
+      "weak_error_sum": 48,
+      "focus_fail": 0,
+      "median_error": 9,
+      "median_lost": 0,
+      "fitness": 57.048,
+      "failure_inputs": [
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          0,
+          2,
+          4
+        ],
+        [
+          3,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0,
+          4
+        ],
+        [
+          3,
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1,
+          4
+        ],
+        [
+          3,
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          1,
+          0,
+          4
+        ],
+        [
+          4,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          4,
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          4,
+          2,
+          1,
+          0,
+          3
+        ]
+      ],
+      "mode": "out",
+      "length": 31,
+      "budget": {
+        "cmp": 9,
+        "mov": 4,
+        "cmov": 18
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_out_s00_best_objective.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s00_best_objective_out_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_mem_s00_best_fail.s",
+      "weak_fail": 9,
+      "weak_error_sum": 9,
+      "focus_fail": 9,
+      "median_error": 9,
+      "median_lost": 9,
+      "fitness": 90.009,
+      "failure_inputs": [
+        [
+          0,
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          0,
+          3
+        ]
+      ],
+      "mode": "mem",
+      "length": 41,
+      "budget": {
+        "cmp": 9,
+        "mov": 13,
+        "cmov": 19,
+        "loads": 5,
+        "stores": 5
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_mem_s00_best_fail.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s00_best_fail_mem_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_mem_s00_best_objective.s",
+      "weak_fail": 39,
+      "weak_error_sum": 48,
+      "focus_fail": 0,
+      "median_error": 9,
+      "median_lost": 0,
+      "fitness": 57.048,
+      "failure_inputs": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1,
+          4
+        ],
+        [
+          0,
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          0,
+          4
+        ],
+        [
+          1,
+          4,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          1,
+          0,
+          4
+        ],
+        [
+          2,
+          4,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          1,
+          0,
+          3
+        ]
+      ],
+      "mode": "mem",
+      "length": 41,
+      "budget": {
+        "cmp": 9,
+        "mov": 15,
+        "cmov": 17,
+        "loads": 7,
+        "stores": 5
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_mem_s00_best_objective.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s00_best_objective_mem_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_out_s02_best_fail.s",
+      "weak_fail": 9,
+      "weak_error_sum": 9,
+      "focus_fail": 9,
+      "median_error": 9,
+      "median_lost": 9,
+      "fitness": 144.009,
+      "failure_inputs": [
+        [
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "mode": "out",
+      "length": 31,
+      "budget": {
+        "cmp": 9,
+        "mov": 2,
+        "cmov": 20
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_out_s02_best_fail.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s02_best_fail_out_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_out_s02_best_objective.s",
+      "weak_fail": 39,
+      "weak_error_sum": 39,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 39.039,
+      "failure_inputs": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          3,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          4,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          4,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          4,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          2,
+          1,
+          0
+        ],
+        [
+          4,
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          3,
+          0,
+          2,
+          1
+        ],
+        [
+          4,
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          4,
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "mode": "out",
+      "length": 31,
+      "budget": {
+        "cmp": 8,
+        "mov": 5,
+        "cmov": 18
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_out_s02_best_objective.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s02_best_objective_out_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_mem_s02_best_fail.s",
+      "weak_fail": 9,
+      "weak_error_sum": 9,
+      "focus_fail": 9,
+      "median_error": 9,
+      "median_lost": 9,
+      "fitness": 144.009,
+      "failure_inputs": [
+        [
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "mode": "mem",
+      "length": 41,
+      "budget": {
+        "cmp": 9,
+        "mov": 12,
+        "cmov": 20,
+        "loads": 5,
+        "stores": 5
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_mem_s02_best_fail.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s02_best_fail_mem_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_mem_s02_best_objective.s",
+      "weak_fail": 39,
+      "weak_error_sum": 48,
+      "focus_fail": 0,
+      "median_error": 9,
+      "median_lost": 0,
+      "fitness": 57.048,
+      "failure_inputs": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          1,
+          4,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          4,
+          3
+        ],
+        [
+          1,
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          0,
+          4,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          0,
+          1,
+          4,
+          3
+        ],
+        [
+          2,
+          1,
+          0,
+          3,
+          3
+        ],
+        [
+          2,
+          1,
+          0,
+          3,
+          4
+        ],
+        [
+          2,
+          1,
+          0,
+          4,
+          3
+        ]
+      ],
+      "mode": "mem",
+      "length": 41,
+      "budget": {
+        "cmp": 9,
+        "mov": 15,
+        "cmov": 17,
+        "loads": 5,
+        "stores": 5
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_mem_s02_best_objective.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s02_best_objective_mem_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_out_s10_best_fail.s",
+      "weak_fail": 9,
+      "weak_error_sum": 9,
+      "focus_fail": 9,
+      "median_error": 9,
+      "median_lost": 9,
+      "fitness": 252.009,
+      "failure_inputs": [
+        [
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "mode": "out",
+      "length": 31,
+      "budget": {
+        "cmp": 9,
+        "mov": 4,
+        "cmov": 18
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_out_s10_best_fail.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s10_best_fail_out_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_out_s10_best_objective.s",
+      "weak_fail": 39,
+      "weak_error_sum": 39,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 39.039,
+      "failure_inputs": [
+        [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          3,
+          3,
+          1
+        ],
+        [
+          2,
+          0,
+          3,
+          4,
+          1
+        ],
+        [
+          2,
+          0,
+          4,
+          3,
+          1
+        ],
+        [
+          2,
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          4,
+          0
+        ],
+        [
+          2,
+          1,
+          4,
+          3,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          2,
+          4,
+          1
+        ],
+        [
+          3,
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          0,
+          4,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          4,
+          2,
+          0
+        ],
+        [
+          4,
+          0,
+          2,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          4,
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          4,
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "mode": "out",
+      "length": 31,
+      "budget": {
+        "cmp": 9,
+        "mov": 3,
+        "cmov": 19
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_out_s10_best_objective.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s10_best_objective_out_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_mem_s10_best_fail.s",
+      "weak_fail": 9,
+      "weak_error_sum": 9,
+      "focus_fail": 9,
+      "median_error": 9,
+      "median_lost": 9,
+      "fitness": 252.009,
+      "failure_inputs": [
+        [
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "mode": "mem",
+      "length": 41,
+      "budget": {
+        "cmp": 9,
+        "mov": 14,
+        "cmov": 18,
+        "loads": 5,
+        "stores": 5
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_mem_s10_best_fail.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s10_best_fail_mem_judge.log"
+      }
+    },
+    {
+      "file": "round9/candidates/weighted_mem_s10_best_objective.s",
+      "weak_fail": 39,
+      "weak_error_sum": 39,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 39.039,
+      "failure_inputs": [
+        [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          3,
+          1,
+          4
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          3,
+          0,
+          4
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        [
+          3,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0,
+          4
+        ],
+        [
+          3,
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          4,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          4,
+          1,
+          3,
+          0,
+          2
+        ]
+      ],
+      "mode": "mem",
+      "length": 41,
+      "budget": {
+        "cmp": 9,
+        "mov": 14,
+        "cmov": 18,
+        "loads": 6,
+        "stores": 5
+      },
+      "judge": {
+        "file": "round9/candidates/weighted_mem_s10_best_objective.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s10_best_objective_mem_judge.log"
+      }
+    }
+  ],
+  "positive_controls": [
+    {
+      "file": "round9/candidates/control_out_best_fail.s",
+      "weak_fail": 0,
+      "weak_error_sum": 0,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 0.0,
+      "failure_inputs": [],
+      "judge": "round9/logs/control_out_best_fail_judge.log",
+      "model": "out"
+    },
+    {
+      "file": "round9/candidates/control_out_best_objective.s",
+      "weak_fail": 0,
+      "weak_error_sum": 0,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 0.0,
+      "failure_inputs": [],
+      "judge": "round9/logs/control_out_best_objective_judge.log",
+      "model": "out"
+    },
+    {
+      "file": "round9/candidates/control_mem_best_fail.s",
+      "weak_fail": 0,
+      "weak_error_sum": 0,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 0.0,
+      "failure_inputs": [],
+      "judge": "round9/logs/control_mem_best_fail_judge.log",
+      "model": "mem"
+    },
+    {
+      "file": "round9/candidates/control_mem_best_objective.s",
+      "weak_fail": 0,
+      "weak_error_sum": 0,
+      "focus_fail": 0,
+      "median_error": 0,
+      "median_lost": 0,
+      "fitness": 0.0,
+      "failure_inputs": [],
+      "judge": "round9/logs/control_mem_best_objective_judge.log",
+      "model": "mem"
+    }
+  ],
+  "source_hashes": {
+    "round9/src/check.py": "a203f60441f9d3b9db8841827e34f72b867f3312eca259903697030c299b7e2f",
+    "round9/src/mine.py": "aea975461727f2fc8ee00389f161f5454ce8d81e3efba49667c7a9ba898c11ae",
+    "round9/src/report.py": "b2b757f917b612e18cb1fded608dce6df09137d4c4104d4e885ed511319fb994",
+    "round9/src/run.py": "b7282f72ca4cff1e1618939ecd0215f1954b51df535c40d7ce412e52886a88f6",
+    "round9/src/verify.py": "2d3cb7f5aa6520583dfefbb06c05080fd146532aa1e575b9433d37bbdaae00b9",
+    "round9/src/weighted.cpp": "6abc80d9f50122d600509899ded8f7f95746ffae6aa063ad70df6b96be17928d"
+  },
+  "binary_sha256": "dc7fd078aa6de7b9fba38c6ad7fb5364b25df5ae707f07973a65ca98487669f3",
+  "scorer_control_inventory": {
+    "status": "MATCH",
+    "files": 120,
+    "cases_per_file": 541
+  },
+  "snapshot_mining": {
+    "conversions": [
+      {
+        "source": "round9/candidates/weighted_mem_s00_best_fail.s",
+        "converted": "round9/artifacts/memory_conversions/weighted_mem_s00_best_fail_out.s",
+        "exit": 0,
+        "stderr": "k=31 L=41 L-2n=31 OK\n",
+        "k": 31
+      },
+      {
+        "source": "round9/candidates/weighted_mem_s00_best_objective.s",
+        "converted": "round9/artifacts/memory_conversions/weighted_mem_s00_best_objective_out.s",
+        "exit": 0,
+        "stderr": "k=31 L=41 L-2n=31 OK\n",
+        "k": 31
+      },
+      {
+        "source": "round9/candidates/weighted_mem_s02_best_fail.s",
+        "converted": "round9/artifacts/memory_conversions/weighted_mem_s02_best_fail_out.s",
+        "exit": 0,
+        "stderr": "k=31 L=41 L-2n=31 OK\n",
+        "k": 31
+      },
+      {
+        "source": "round9/candidates/weighted_mem_s02_best_objective.s",
+        "converted": "round9/artifacts/memory_conversions/weighted_mem_s02_best_objective_out.s",
+        "exit": 0,
+        "stderr": "k=31 L=41 L-2n=31 OK\n",
+        "k": 31
+      },
+      {
+        "source": "round9/candidates/weighted_mem_s10_best_fail.s",
+        "converted": "round9/artifacts/memory_conversions/weighted_mem_s10_best_fail_out.s",
+        "exit": 0,
+        "stderr": "k=31 L=41 L-2n=31 OK\n",
+        "k": 31
+      },
+      {
+        "source": "round9/candidates/weighted_mem_s10_best_objective.s",
+        "converted": "round9/artifacts/memory_conversions/weighted_mem_s10_best_objective_out.s",
+        "exit": 0,
+        "stderr": "k=31 L=41 L-2n=31 OK\n",
+        "k": 31
+      }
+    ],
+    "programs": [
+      {
+        "source": "round9/candidates/weighted_out_s00_best_fail.s",
+        "best_failed_orders": 9,
+        "nodes": 9,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          4,
+          1,
+          1
+        ],
+        "retained": "round9/candidates/weighted_out_s00_best_fail_snapshots.s",
+        "sha256": "5358aff59a1b12ee69a49e637b9c3d6c9199ac22cf827777d07f3758fcfbadfb"
+      },
+      {
+        "source": "round9/candidates/weighted_out_s00_best_objective.s",
+        "best_failed_orders": 39,
+        "nodes": 15,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          5,
+          6,
+          1
+        ]
+      },
+      {
+        "source": "round9/candidates/weighted_out_s02_best_fail.s",
+        "best_failed_orders": 9,
+        "nodes": 9,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          4,
+          1,
+          1
+        ],
+        "retained": "round9/candidates/weighted_out_s02_best_fail_snapshots.s",
+        "sha256": "63f0d536f0514b001691d41e5e08fa5f2f8e5fbac430202d9df0b8c299eedb34"
+      },
+      {
+        "source": "round9/candidates/weighted_out_s02_best_objective.s",
+        "best_failed_orders": 39,
+        "nodes": 14,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          9,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "source": "round9/candidates/weighted_out_s10_best_fail.s",
+        "best_failed_orders": 9,
+        "nodes": 9,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          4,
+          1,
+          1
+        ],
+        "retained": "round9/candidates/weighted_out_s10_best_fail_snapshots.s",
+        "sha256": "cd04aaff4fd50cc6ce2441eafac5123c385d6d99a3182b9d8850140b90a4e090"
+      },
+      {
+        "source": "round9/candidates/weighted_out_s10_best_objective.s",
+        "best_failed_orders": 39,
+        "nodes": 11,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          6,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "source": "round9/artifacts/memory_conversions/weighted_mem_s00_best_fail_out.s",
+        "best_failed_orders": 9,
+        "nodes": 9,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          4,
+          1,
+          1
+        ],
+        "retained": "round9/candidates/weighted_mem_s00_best_fail_out_snapshots.s",
+        "sha256": "403b2413357301809c6bed2cfa29cf4b2ff002a661ec1fad3ee7757ff4f7760c"
+      },
+      {
+        "source": "round9/artifacts/memory_conversions/weighted_mem_s00_best_objective_out.s",
+        "best_failed_orders": 39,
+        "nodes": 15,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          5,
+          6,
+          1
+        ]
+      },
+      {
+        "source": "round9/artifacts/memory_conversions/weighted_mem_s02_best_fail_out.s",
+        "best_failed_orders": 9,
+        "nodes": 9,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          4,
+          1,
+          1
+        ],
+        "retained": "round9/candidates/weighted_mem_s02_best_fail_out_snapshots.s",
+        "sha256": "09d7fa967a2d76c0677a1238c5f18bd4bc9bdc6bfb084a06a7e9414ca273f39f"
+      },
+      {
+        "source": "round9/artifacts/memory_conversions/weighted_mem_s02_best_objective_out.s",
+        "best_failed_orders": 39,
+        "nodes": 15,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          5,
+          6,
+          1
+        ]
+      },
+      {
+        "source": "round9/artifacts/memory_conversions/weighted_mem_s10_best_fail_out.s",
+        "best_failed_orders": 9,
+        "nodes": 9,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          1,
+          4,
+          1,
+          1
+        ],
+        "retained": "round9/candidates/weighted_mem_s10_best_fail_out_snapshots.s",
+        "sha256": "9c4c2467ae3c6ed0efe1a7df3556a52fd320a3b93b4f026d2e9824c8c91c7338"
+      },
+      {
+        "source": "round9/artifacts/memory_conversions/weighted_mem_s10_best_objective_out.s",
+        "best_failed_orders": 39,
+        "nodes": 11,
+        "status": "COMPLETE",
+        "domain_sizes": [
+          1,
+          6,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "judge_audit": {
+    "logs": 28,
+    "passes": 4,
+    "failures": 24
+  }
+}

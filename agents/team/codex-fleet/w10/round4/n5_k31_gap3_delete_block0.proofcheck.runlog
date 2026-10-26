@@ -1,0 +1,5 @@
+c turning on binary mode checking
+c parsing input formula with 35239 variables and 1268532 clauses
+c finished parsing, read 46453188 bytes from proof file
+c detected empty clause; start verification via backward checking
+s TIMEOUT

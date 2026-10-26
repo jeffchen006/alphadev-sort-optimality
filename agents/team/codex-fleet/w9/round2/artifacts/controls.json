@@ -1,0 +1,32 @@
+[
+  {
+    "family": "30ac78ad04f7",
+    "status": "SAT",
+    "cases": 32,
+    "length": 32,
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_30ac78ad04f7_k32.s",
+    "judge_returncode": 0,
+    "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_30ac78ad04f7_judge.log",
+    "cpu": 1.181181603
+  },
+  {
+    "family": "fd7a081c6ece",
+    "status": "SAT",
+    "cases": 32,
+    "length": 32,
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_fd7a081c6ece_k32.s",
+    "judge_returncode": 0,
+    "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_fd7a081c6ece_judge.log",
+    "cpu": 1.2536581830000002
+  },
+  {
+    "family": "66221a2755ee",
+    "status": "SAT",
+    "cases": 32,
+    "length": 32,
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_66221a2755ee_k32.s",
+    "judge_returncode": 0,
+    "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_66221a2755ee_judge.log",
+    "cpu": 1.3439991889999998
+  }
+]

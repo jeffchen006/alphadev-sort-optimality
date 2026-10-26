@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round2/candidates/near14_frozen.s",
+    "round3/candidates/rank_fixedout_c9full5.s",
+    "--rank",
+    "--fixed-outputs",
+    "--maxcmp",
+    "9",
+    "--changes",
+    "5",
+    "--change-cmp",
+    "--random-seed",
+    "8602"
+  ],
+  "wall_limit": 90.0,
+  "exit": 124,
+  "seconds": 90.01634458079934,
+  "log": "round3/logs/rank_fixedout_c9full5.log"
+}

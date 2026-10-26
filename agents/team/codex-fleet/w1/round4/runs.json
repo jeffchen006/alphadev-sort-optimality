@@ -1,0 +1,18 @@
+[
+  {
+    "stem": "reuse_pred_pilot",
+    "args": ["./round4/reuse", "round4/problems.txt", "144", "145", "0", "40", "1", "round4/reuse_pred_pilot", "31", "0"]
+  },
+  {
+    "stem": "reuse_pred_suffix",
+    "args": ["./round4/reuse", "round4/problems.txt", "144", "145", "40", "506", "1", "round4/reuse_pred_suffix", "31", "0"]
+  },
+  {
+    "stem": "reuse_copy_hold",
+    "args": ["./round4/reuse", "round4/problems.txt", "0", "170", "0", "10000", "0", "round4/reuse_copy_hold", "31", "0", "1", "1"]
+  },
+  {
+    "stem": "reuse_copy_free_hold",
+    "args": ["./round4/reuse", "round4/problems.txt", "0", "170", "0", "10000", "1", "round4/reuse_copy_free_hold", "31", "1", "1", "1"]
+  }
+]

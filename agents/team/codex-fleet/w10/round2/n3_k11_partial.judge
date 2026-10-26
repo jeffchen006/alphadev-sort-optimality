@@ -1,0 +1,5 @@
+PASS /path/to/repo/agents/team/codex-fleet/w10/round2/n3_k11_partial.s [relaxed+strict] n=3 L=11 R=5 iset=I1 model=out
+  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 6: reads uninitialized S0
+PASS /path/to/repo/agents/team/codex-fleet/w10/round2/n3_k11_partial_mem.s [relaxed+strict] n=3 L=17 R=8 iset=I1 model=mem
+  AlphaDev-pruning notes (not enforced): line 6: reads uninitialized S3; line 9: reads uninitialized S3
+{"n": 3, "weak_orders": 13, "wrong_outputs": 0, "undefined_comparisons": 0, "partial_data_nodes": [0], "nonlattice_full_data_nodes": [], "lattice_full_data_nodes": [1, 2, 3, 4, 5, 6, 7], "k": 11, "comparisons": 3}

@@ -1,0 +1,58 @@
+{
+  "variables": 279793,
+  "clauses": 2959129,
+  "cnf": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.cnf",
+  "cnf_sha256": "5c9ec5f8c2e8b61569b6f0029224ee415f248927b2ffbdcb5c76c91411ea1e87",
+  "n": 5,
+  "k": 33,
+  "c": 9,
+  "q": 3,
+  "orders": 541,
+  "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5",
+  "source_sha256": "5ae0ef056d40c755dfc1f4922637ccc114ce7dad8746979129692652cf596cf5",
+  "base_sha256": "1b02cc848e9cf10b4b2ce4c70bcac79e3b6229644415e11d3942a840915f00bd",
+  "returncode": 10,
+  "status": "SATISFIABLE",
+  "assignment_checked": true,
+  "partial_positions": [
+    0,
+    3,
+    8
+  ],
+  "command": [
+    "/path/to/repo/bin/kissat",
+    "--time=20",
+    "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.cnf",
+    "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.drat"
+  ],
+  "seconds": 20,
+  "solver_cpu_seconds": 0.867731,
+  "maxrss_kib": 527732,
+  "elapsed_seconds": 6.2668984131887555,
+  "exhaustive_program_count": null,
+  "args": {
+    "n": 5,
+    "k": 33,
+    "c": 9,
+    "q": 3,
+    "cases": "weak",
+    "topology": null,
+    "histories": true,
+    "fixed": "/path/to/repo/agents/team/codex-fleet/w1/round10/control5_three_live_input.s",
+    "free_first": true,
+    "timeout": 20,
+    "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5"
+  },
+  "strengthening": {
+    "variables": 64476,
+    "clauses": 586212,
+    "mixed": true,
+    "useful": true,
+    "live": true,
+    "histories": true
+  },
+  "strong_source_sha256": "467f4d1c0daa7dca98f5d7c14e9c055018dca330474321ea92467d67ef77170a",
+  "total_seconds": 16.431543971411884,
+  "process_maxrss_kib": 527732,
+  "nice": 19
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ ! -f round2/artifacts/near_followup_started ]; then
+  touch round2/artifacts/near_followup_started
+  nice -n 19 ./dagx round2/artifacts/b31a_near.skel 31 1 60000000 > round2/logs/b31a_near_route31.log 2>&1
+  nice -n 19 timeout 90s python3 round2/src/source_sat.py round2/candidates/b31a_near.s round2/candidates/b31a_source_repair31.s --changes 3 > round2/logs/b31a_source_repair31.log 2>&1
+  touch round2/artifacts/near_followup_done
+fi
+if [ ! -f round2/artifacts/near_general_started ]; then
+  touch round2/artifacts/near_general_started
+  nice -n 19 timeout 90s python3 round2/src/source_sat.py round2/candidates/b31a_near.s round2/candidates/b31a_general_repair31.s --changes 3 --prefix 0 --general --fresh 1 > round2/logs/b31a_general_repair31.log 2>&1
+  touch round2/artifacts/near_general_done
+fi
+exec nice -n 19 ./round2/doublecmp.bin "$@"

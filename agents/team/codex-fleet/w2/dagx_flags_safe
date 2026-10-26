@@ -1,0 +1,10 @@
+#!/bin/bash
+route_case_name=${1##*/}
+route_case_name=${route_case_name%.txt}
+if [[ "$1" == sk/refresh_tail/* ]]; then
+    exec nice -n 10 python3 src/pool_sat.py "$1" "$2" "programs/tail_sat_${route_case_name}.s" --conflicts 5000 --verify
+fi
+if [[ "$1" == sk/nonlattice10/w6_* ]]; then
+    exec nice -n 10 python3 src/pool_sat.py "$1" "$2" "programs/nl_sat_${route_case_name}.s" --conflicts 20000 --hint programs/w6_seed_c8_k32.s --verify
+fi
+exec ./dagx_flags_safe_bin "$@"

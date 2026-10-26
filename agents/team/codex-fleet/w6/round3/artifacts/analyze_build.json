@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "round3/src/analyze.cpp",
+    "-o",
+    "round3/analyze"
+  ],
+  "wall_limit": 35.0,
+  "exit": 0,
+  "seconds": 5.167481093667448,
+  "log": "round3/logs/analyze_build.log"
+}

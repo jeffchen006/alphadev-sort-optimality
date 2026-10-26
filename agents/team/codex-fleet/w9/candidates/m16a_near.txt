@@ -1,0 +1,16 @@
+cmp P0, P2
+mov S0, P4
+mov S1, P0
+cmovl P0, P2
+cmovle P2, S1
+cmp P1, S0
+cmovle P4, P1
+cmovge S0, P1
+cmovle S1, P3
+cmp S1, P4
+cmovl S1, P4
+cmovge P3, P4
+cmovl P1, P3
+cmp P1, P0
+cmovl P3, P0
+cmovl P0, P1

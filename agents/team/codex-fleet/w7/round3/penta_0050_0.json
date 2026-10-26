@@ -1,0 +1,48 @@
+{
+  "kind": "penta",
+  "index": 50,
+  "window": [
+    12,
+    14,
+    15,
+    23,
+    26
+  ],
+  "attempt": 0,
+  "status": "UNKNOWN",
+  "registers": 8,
+  "limit_seconds": 20.0,
+  "search_seconds": 20.018588224425912,
+  "peak_KiB": 122596,
+  "exit": 143,
+  "command": [
+    "nice",
+    "-n",
+    "19",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "round3/penta_0050_0.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--free",
+    "12,14,15,23,26",
+    "--proof",
+    "--initial",
+    "120",
+    "--binary"
+  ],
+  "solver_result": null,
+  "blocked_rejected_candidates": 0,
+  "search_resource_counters": {
+    "exit": 143,
+    "limited": true,
+    "seconds": 20.018588224425912,
+    "peak_KiB": 122596,
+    "user_seconds": 14.95,
+    "system_seconds": 0.18
+  }
+}

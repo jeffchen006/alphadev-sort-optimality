@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n3_k10_partial.json",
+  "cnf_sha256": "2a622a02733d6242c5cf3cd63cabc8e213875731eb3c4fe0e1ba36cf83e039c0",
+  "proof_sha256": "7a8ea20994303ab1d7ce78c07b682d82b3deaa107b3eb09bd022c3e961948896",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 90.16181190218776
+}

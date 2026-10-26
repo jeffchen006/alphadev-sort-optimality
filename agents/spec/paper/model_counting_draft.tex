@@ -1,0 +1,101 @@
+% spec, 2026-10-24. Section "Exact model and counting". Matches shared/MODEL.md v1.6 §4. Uses \pending from theory's main.tex.
+\section{The exact model and the counting}\label{sec:model}
+
+\subsection{What AlphaDev counts}
+\emph{Length} in~\cite{alphadev} is the number of x86 instructions of the kernel. Every instruction counts~1: loads
+(\texttt{mov} memory$\to$register), stores (\texttt{mov} register$\to$memory), register moves, \texttt{cmp} and
+\texttt{cmov}$X$. We checked this on every published kernel: the instruction counts of the listings are exactly the reported
+lengths (17, 28, 42, and 43 for the libc++ sort5). The kernels of Table~\ref{tab:lengths} have exactly $n$ loads and $n$
+stores (Table~\ref{tab:mix}); some SI variants load a cell twice (e.g.\ \texttt{Sort3\_17}: 4 loads). The data are 32-bit \texttt{int}s in a memory buffer, sorted in place; the conditions
+\texttt{l}, \texttt{le}, \texttt{g}, \texttt{ge} are the \emph{signed} ones. Ties are judged by value (the test inputs
+contain equal elements).
+
+\paragraph{Instruction set.} $I_0 = \{\texttt{mov}, \texttt{cmp}, \texttt{cmovl}, \texttt{cmovg}\}$ and
+$I_1 = I_0 \cup \{\texttt{cmovle}, \texttt{cmovge}\}$. AlphaDev's kernels need $I_1$: the repository sort3 and both sort5
+kernels (42, 43) fail if \texttt{le}/\texttt{ge} are replaced by \texttt{l}/\texttt{g}; SI \texttt{Sort3\_17} and both
+sort4 kernels still sort after this replacement. A lower bound for AlphaDev must therefore hold in $I_1$. (The shortcut
+``on distinct inputs \texttt{cmovle} $=$ \texttt{cmovl}'' is false: a \texttt{cmp} of two registers that hold copies of one
+input gives \textsf{eq} also on distinct inputs.) Lengths 17/28/42 are reachable in $I_0$ as well: $I_0$ kernels of these
+lengths exist for $n = 3, 4$ (above) and for $n = 5$ (found by our search, \texttt{programs/found/upper\_sort5\_I0\_L42\_mem.s}).
+
+\paragraph{Flags.} \texttt{cmovl} reads $SF \ne OF$, \texttt{cmovle} reads $ZF \lor SF \ne OF$, \texttt{cmovg} reads
+$\lnot ZF \land SF = OF$, \texttt{cmovge} reads $SF = OF$. For these four conditions every one of the 16 states of
+$(CF, ZF, SF, OF)$ acts as one of three abstract states \textsf{lt}, \textsf{eq}, \textsf{gt}; the state $ZF = 1, SF \ne OF$
+acts as \textsf{lt} (Lean theorem \texttt{xeval\_eq}; also checked on hardware).
+
+\subsection{The memory model MM}
+\begin{itemize}
+\item Memory cells $m_0, \dots, m_{n-1}$ hold the inputs $x_0, \dots, x_{n-1}$ at the start. At the end $m_j$ must hold the
+$j$-th smallest input.
+\item Registers $r_0, r_1, \dots$: unbounded in number, arbitrary (garbage) values at the start; the flags are arbitrary at the
+start.
+\item Instructions: \texttt{mov r,[m]} (load), \texttt{mov [m],r} (store), \texttt{mov r,r'}, \texttt{cmp r,r'},
+\texttt{cmov}$X$\texttt{ r,r'}, $X$ from the instruction set.
+\item \textbf{MM-1}: memory is accessed only by loads and stores. This is AlphaDev's rule ``We cannot compare or conditionally
+move to a memory location (illegal)'' (Methods). The x86 ISA also has memory \emph{source} operands (\texttt{cmp r,[m]},
+\texttt{cmp [m],r}, \texttt{cmov}$X$\texttt{ r,[m]}); no published AlphaDev kernel uses them. We treat MM-1 as part of the
+model and study the variant without it separately (MM+, below).
+\item Correct = sorts every $x \in \mathbb{Z}_{32}^n$ for every initial register and flag state. Length = number of
+instructions.
+\end{itemize}
+We do not assume AlphaDev's search heuristics (cells read in order and only once, registers allocated in order, no reads of
+uninitialised registers, no \texttt{cmov} before the first \texttt{cmp}, no consecutive \texttt{cmp}s). A lower bound in MM
+therefore covers every program AlphaDev's search could produce, and more.
+
+\paragraph{Main claim.} In MM with $I_1$ and unbounded registers, no kernel of length $16$, $27$, $41$ sorts $3$, $4$, $5$
+inputs. Equivalently, AlphaDev's lengths $17$, $28$, $42$ are optimal. \pending
+
+\subsection{From memory to registers: the snapshot model}
+Search tools work on registers only. The natural register model puts $x_i$ in register $P_i$ and asks for the sorted values
+in $P_0, \dots, P_{n-1}$ at the end (model RF, ``fixed outputs''). RF is \emph{too strict}: a store can copy any register to
+memory at any time, so AlphaDev's model lets each output come from any register at any step. A lower bound in RF therefore
+does not bound MM. The exact register model is the \emph{snapshot model} RS: as RF, plus a free pseudo-instruction
+\texttt{out j, r} that records the current value of $r$ as output $j$ (the last \texttt{out j} counts). Its cost $k$ counts
+\texttt{mov}, \texttt{cmp} and \texttt{cmov} only.
+
+\begin{lemma}[Snapshot lemma]\label{lem:snapshot}
+Under MM-1, with unbounded registers, in the strict and in the relaxed semantics: $L^{\min}_{\mathrm{MM}}(n) = 2n +
+k^{\min}_{\mathrm{RS}}(n)$.
+\end{lemma}
+\noindent\emph{Proof sketch} (full proof: Lemma~L5 in the appendix). ($\le$) Load every $x_i$ into a register first; replace
+each \texttt{out j, r} by a store at the same position. ($\ge$) Every cell is loaded before its first store (else $x_i$ is
+lost) and stored at least once (else output $j$ is $x_j$, wrong for $n \ge 2$). For each cell, the last load before the first
+store is deleted and its target register renamed to $P_i$ for its live range; every store becomes an \texttt{out}, plus a copy
+into a fresh register per segment if the cell is read again, and in each such segment the last load is deleted and renamed to
+that copy. Per cell this saves one load (before the first store) and one store (the final store, or the last reload after it).
+Cost $\le L - 2n$. $\square$
+
+\noindent The construction is implemented (\texttt{agents/spec/tools/ad2out.py}); it maps all 15 published kernels with
+$n \le 5$ to RS programs of cost $\le L - 2n$ (sort3: 11, sort4: 20, sort5: 32), and each image passes the strict judge.
+Hence the targets in RS are: no program of cost $\le 10$, $\le 19$, $\le 31$ for $n = 3, 4, 5$, in $I_1$.
+
+\paragraph{Fixed outputs at the end.} Let RE be RS with all outputs taken at the end (any registers). Always
+$k_{\mathrm{RS}} \le k_{\mathrm{RE}} \le k_{\mathrm{RF}}$. All published kernels still sort when their stores are moved to
+the end, so $k_{\mathrm{RE}} \le L_{\mathrm{AD}} - 2n$, and a lower bound $k_{\mathrm{RS}} \ge L_{\mathrm{AD}} - 2n$ gives
+$k_{\mathrm{RS}} = k_{\mathrm{RE}}$. For $n = 2$: $k_{\mathrm{RS}} = k_{\mathrm{RE}} = 4$ (exhaustive search without
+pruning), so $L^{\min}_{\mathrm{MM}}(2) = 8$; for $n = 3$: $11$. We do not need, and do not claim, $k_{\mathrm{RS}} =
+k_{\mathrm{RE}}$ for all $n$.
+
+\subsection{The variant MM+: memory source operands}
+MM+ is MM without MM-1: \texttt{cmp r,[m]}, \texttt{cmp [m],r} and \texttt{cmov}$X$\texttt{ r,[m]} are allowed (all are
+x86-legal; there is no form with two memory operands and no \texttt{cmov} with a memory destination). Cells are still written
+only by stores; every instruction counts~1. The snapshot lemma fails in MM+: a \texttt{cmp} or \texttt{cmov} may read a cell
+after its last load (so the load cannot be renamed away), a final store cannot be removed if the cell is read later, and $x_i$
+can reach a register by a \texttt{cmov} from memory alone. In general only $L^{\min}_{\mathrm{MM+}} \ge k^{\min}_{\mathrm{RS}}$
+holds. MM+ is strictly stronger than MM: for $n = 2$ a 7-instruction kernel exists
+(\texttt{mov r0,[m0]; cmp r0,[m1]; mov r1,[m1]; cmovg r1,[m0]; cmovg r0,[m1]; mov [m0],r0; mov [m1],r1}), against 8 in MM;
+and our search found MM+ kernels of length 15, 26, 40 for $n = 3, 4, 5$, all checked in the strict judge (sort4 and sort5
+also on hardware \pending{} for sort2/sort3).
+So AlphaDev's lengths are optimal only \emph{because of} its rule MM-1; under AlphaDev's counting, the full x86 ISA allows
+shorter kernels.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{lp{7.2cm}p{4.6cm}}\toprule
+model & definition & use \\\midrule
+MM & memory via loads/stores only (MM-1), all instructions count & main claim (AlphaDev's setting) \\
+RS & registers, free snapshot outputs; $L_{\mathrm{MM}} = 2n + k_{\mathrm{RS}}$ & search for the main claim \\
+RE, RF & outputs at the end (any / fixed registers) & not a bound for MM \\
+MM+ & MM plus memory source operands in \texttt{cmp}, \texttt{cmov} & side result: 15 / 26 / 40 \\\bottomrule
+\end{tabular}
+\caption{Models. Lower bounds transfer only from RS to MM (Lemma~\ref{lem:snapshot}).}
+\end{table}

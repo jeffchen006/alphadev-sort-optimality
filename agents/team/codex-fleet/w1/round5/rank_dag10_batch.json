@@ -1,0 +1,10168 @@
+{
+  "status": "UNKNOWN",
+  "cpu": 194.38065784900002,
+  "args": {
+    "cpu": 600.0,
+    "stem": "rank_dag10_batch"
+  },
+  "cases": 10,
+  "counts": {
+    "UNSAT": 1,
+    "SAT_DAG": 0,
+    "SAT_STRICT_DAG": 0,
+    "UNKNOWN": 719
+  },
+  "strict_raw_condition_normalization": true,
+  "orders_represented": 720,
+  "order_records": [
+    {
+      "order": [
+        0,
+        1,
+        2,
+        5,
+        4,
+        3
+      ],
+      "status": "UNSAT",
+      "seed": "/path/to/repo/agents/team/codex-fleet/w1/round5/rank_dag10_fixed.json"
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.040128038000000005
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.090505839
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.162596879
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.301930217
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.35766082
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.42465078599999995
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.490039444
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.568167577
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.6459806499999999
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.7171139089999999
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.832327148
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.9032114680000001
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.9705489350000001
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.049750958
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.127414221
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.2059626239999999
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.279939464
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.356168756
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.429127867
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.512783052
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.634461482
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.7116512449999999
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.7929884489999999
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.866408589
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.96333966
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.046197215
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.1144256329999997
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.187804724
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.275497691
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.358818915
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.452497434
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.544139693
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.630419409
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.712393243
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.869145848
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.951432982
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.026962614
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.129385026
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.205854168
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.2885306229999998
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.37693494
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.472691911
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.556653136
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.644593403
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.751300868
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.844024617
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.9331263140000003
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.024361783000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.125380615
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.210914071
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.289047224000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.380983432000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.554588934000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.633150737
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.718373442000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.802592015
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.896931434000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        5,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.982067378
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.071682326
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.155262331
+    },
+    {
+      "order": [
+        5,
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.25042833
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        1,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.343267889000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        2,
+        4,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.430898706000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        4,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.525782705
+    },
+    {
+      "order": [
+        5,
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.624682776
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.7216754970000006
+    },
+    {
+      "order": [
+        5,
+        3,
+        2,
+        1,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.806727212
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        5,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.897045790000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        2,
+        0,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.002953355000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        5,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.129665007000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        2,
+        0,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.225924848
+    },
+    {
+      "order": [
+        0,
+        2,
+        4,
+        1,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.323266718
+    },
+    {
+      "order": [
+        5,
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.414327086
+    },
+    {
+      "order": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.603709415
+    },
+    {
+      "order": [
+        5,
+        3,
+        1,
+        4,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.726718786
+    },
+    {
+      "order": [
+        0,
+        2,
+        4,
+        3,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.815279343
+    },
+    {
+      "order": [
+        5,
+        3,
+        1,
+        2,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.903873610000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        4,
+        3,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.988190546
+    },
+    {
+      "order": [
+        5,
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.097272951000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        4,
+        5,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.200470775
+    },
+    {
+      "order": [
+        5,
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.307377649
+    },
+    {
+      "order": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.4193717260000005
+    },
+    {
+      "order": [
+        5,
+        3,
+        1,
+        0,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.508529973000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        5,
+        1,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.607786545000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.7079312170000005
+    },
+    {
+      "order": [
+        0,
+        2,
+        5,
+        1,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.81083938
+    },
+    {
+      "order": [
+        5,
+        3,
+        0,
+        4,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.914355863000001
+    },
+    {
+      "order": [
+        0,
+        2,
+        5,
+        3,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.019888248
+    },
+    {
+      "order": [
+        5,
+        3,
+        0,
+        2,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.123743491
+    },
+    {
+      "order": [
+        0,
+        2,
+        5,
+        3,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.249094963000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.347996175
+    },
+    {
+      "order": [
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.452614158000001
+    },
+    {
+      "order": [
+        5,
+        3,
+        0,
+        1,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.564204574
+    },
+    {
+      "order": [
+        0,
+        2,
+        5,
+        4,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.666931627
+    },
+    {
+      "order": [
+        5,
+        3,
+        0,
+        1,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.762771047000001
+    },
+    {
+      "order": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.850230533000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        4,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.026734317
+    },
+    {
+      "order": [
+        0,
+        3,
+        1,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.120749927
+    },
+    {
+      "order": [
+        5,
+        2,
+        4,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.209410754
+    },
+    {
+      "order": [
+        0,
+        3,
+        1,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.307415584000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        4,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.39313111
+    },
+    {
+      "order": [
+        0,
+        3,
+        1,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.474306184
+    },
+    {
+      "order": [
+        5,
+        2,
+        4,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.573603366
+    },
+    {
+      "order": [
+        0,
+        3,
+        1,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.671534766
+    },
+    {
+      "order": [
+        5,
+        2,
+        4,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.763054765
+    },
+    {
+      "order": [
+        0,
+        3,
+        1,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.875175351000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        4,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.9691094
+    },
+    {
+      "order": [
+        0,
+        3,
+        2,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.059283338
+    },
+    {
+      "order": [
+        5,
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.150235066
+    },
+    {
+      "order": [
+        0,
+        3,
+        2,
+        1,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.254871959
+    },
+    {
+      "order": [
+        5,
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.35767368
+    },
+    {
+      "order": [
+        0,
+        3,
+        2,
+        4,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.452048079
+    },
+    {
+      "order": [
+        5,
+        2,
+        3,
+        1,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.549493530000001
+    },
+    {
+      "order": [
+        0,
+        3,
+        2,
+        4,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.650776513
+    },
+    {
+      "order": [
+        5,
+        2,
+        3,
+        1,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.74006645
+    },
+    {
+      "order": [
+        0,
+        3,
+        2,
+        5,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.853974558
+    },
+    {
+      "order": [
+        5,
+        2,
+        3,
+        0,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.974575428
+    },
+    {
+      "order": [
+        0,
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.068075097000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        3,
+        0,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.166854128
+    },
+    {
+      "order": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.26682033
+    },
+    {
+      "order": [
+        5,
+        2,
+        1,
+        4,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.379615417
+    },
+    {
+      "order": [
+        0,
+        3,
+        4,
+        1,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.498836627000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        1,
+        4,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.618334577
+    },
+    {
+      "order": [
+        0,
+        3,
+        4,
+        2,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.826271933000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        1,
+        3,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.920532633
+    },
+    {
+      "order": [
+        0,
+        3,
+        4,
+        2,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.020951315
+    },
+    {
+      "order": [
+        5,
+        2,
+        1,
+        3,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.116575105
+    },
+    {
+      "order": [
+        0,
+        3,
+        4,
+        5,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.212927145
+    },
+    {
+      "order": [
+        5,
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.303861533000001
+    },
+    {
+      "order": [
+        0,
+        3,
+        4,
+        5,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.411681428
+    },
+    {
+      "order": [
+        5,
+        2,
+        1,
+        0,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.510933049
+    },
+    {
+      "order": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.615626443
+    },
+    {
+      "order": [
+        5,
+        2,
+        0,
+        4,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.710394973
+    },
+    {
+      "order": [
+        0,
+        3,
+        5,
+        1,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.811085535
+    },
+    {
+      "order": [
+        5,
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.916425549000001
+    },
+    {
+      "order": [
+        0,
+        3,
+        5,
+        2,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.027192955
+    },
+    {
+      "order": [
+        5,
+        2,
+        0,
+        3,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.106961198
+    },
+    {
+      "order": [
+        0,
+        3,
+        5,
+        2,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.220084056000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.321276598
+    },
+    {
+      "order": [
+        0,
+        3,
+        5,
+        4,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.427201782000001
+    },
+    {
+      "order": [
+        5,
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.508603976
+    },
+    {
+      "order": [
+        0,
+        3,
+        5,
+        4,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.61364616
+    },
+    {
+      "order": [
+        5,
+        2,
+        0,
+        1,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.695661424
+    },
+    {
+      "order": [
+        0,
+        4,
+        1,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.771729996000001
+    },
+    {
+      "order": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.85439942
+    },
+    {
+      "order": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.936498385
+    },
+    {
+      "order": [
+        5,
+        1,
+        4,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.04580842
+    },
+    {
+      "order": [
+        0,
+        4,
+        1,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.158212396
+    },
+    {
+      "order": [
+        5,
+        1,
+        4,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.282541227000001
+    },
+    {
+      "order": [
+        0,
+        4,
+        1,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.387338151
+    },
+    {
+      "order": [
+        5,
+        1,
+        4,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.507905171
+    },
+    {
+      "order": [
+        0,
+        4,
+        1,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.625345280000001
+    },
+    {
+      "order": [
+        5,
+        1,
+        4,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.731959375
+    },
+    {
+      "order": [
+        0,
+        4,
+        1,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.852640575
+    },
+    {
+      "order": [
+        5,
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.082811762
+    },
+    {
+      "order": [
+        0,
+        4,
+        2,
+        1,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.195608779
+    },
+    {
+      "order": [
+        5,
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.302179213
+    },
+    {
+      "order": [
+        0,
+        4,
+        2,
+        1,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.411163849000001
+    },
+    {
+      "order": [
+        5,
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.537370952
+    },
+    {
+      "order": [
+        0,
+        4,
+        2,
+        3,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.653494610000001
+    },
+    {
+      "order": [
+        5,
+        1,
+        3,
+        2,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.74957599
+    },
+    {
+      "order": [
+        0,
+        4,
+        2,
+        3,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.868155559
+    },
+    {
+      "order": [
+        5,
+        1,
+        3,
+        2,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.985314726999999
+    },
+    {
+      "order": [
+        0,
+        4,
+        2,
+        5,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.099965525
+    },
+    {
+      "order": [
+        5,
+        1,
+        3,
+        0,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.232732561
+    },
+    {
+      "order": [
+        0,
+        4,
+        2,
+        5,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.337624215
+    },
+    {
+      "order": [
+        5,
+        1,
+        3,
+        0,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.468163109
+    },
+    {
+      "order": [
+        0,
+        4,
+        3,
+        1,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.579910586
+    },
+    {
+      "order": [
+        5,
+        1,
+        2,
+        4,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.702123187
+    },
+    {
+      "order": [
+        0,
+        4,
+        3,
+        1,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.821974577
+    },
+    {
+      "order": [
+        5,
+        1,
+        2,
+        4,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.908551863
+    },
+    {
+      "order": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.02155023
+    },
+    {
+      "order": [
+        5,
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.135115207000002
+    },
+    {
+      "order": [
+        0,
+        4,
+        3,
+        2,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.242393062
+    },
+    {
+      "order": [
+        5,
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.362621442000002
+    },
+    {
+      "order": [
+        0,
+        4,
+        3,
+        5,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.466880506
+    },
+    {
+      "order": [
+        5,
+        1,
+        2,
+        0,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.580243473
+    },
+    {
+      "order": [
+        0,
+        4,
+        3,
+        5,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.688378878
+    },
+    {
+      "order": [
+        5,
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.785652826
+    },
+    {
+      "order": [
+        0,
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.885379587
+    },
+    {
+      "order": [
+        5,
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.001924455
+    },
+    {
+      "order": [
+        0,
+        4,
+        5,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.110613419
+    },
+    {
+      "order": [
+        5,
+        1,
+        0,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.23151162
+    },
+    {
+      "order": [
+        0,
+        4,
+        5,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.332885442000002
+    },
+    {
+      "order": [
+        5,
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.446052419
+    },
+    {
+      "order": [
+        0,
+        4,
+        5,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.54473655
+    },
+    {
+      "order": [
+        5,
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.664292030000002
+    },
+    {
+      "order": [
+        0,
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.80812193
+    },
+    {
+      "order": [
+        5,
+        1,
+        0,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.124852153
+    },
+    {
+      "order": [
+        0,
+        4,
+        5,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.283105559
+    },
+    {
+      "order": [
+        5,
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.434108632
+    },
+    {
+      "order": [
+        0,
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.538664856
+    },
+    {
+      "order": [
+        5,
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.680602624
+    },
+    {
+      "order": [
+        0,
+        5,
+        1,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.798655333
+    },
+    {
+      "order": [
+        5,
+        0,
+        4,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.972770846
+    },
+    {
+      "order": [
+        0,
+        5,
+        1,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.110860773
+    },
+    {
+      "order": [
+        5,
+        0,
+        4,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.24730909
+    },
+    {
+      "order": [
+        0,
+        5,
+        1,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.36607064
+    },
+    {
+      "order": [
+        5,
+        0,
+        4,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.532774269
+    },
+    {
+      "order": [
+        0,
+        5,
+        1,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.660939963
+    },
+    {
+      "order": [
+        5,
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.793058939
+    },
+    {
+      "order": [
+        0,
+        5,
+        1,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.925672805
+    },
+    {
+      "order": [
+        5,
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.074938958
+    },
+    {
+      "order": [
+        0,
+        5,
+        2,
+        1,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.217670397
+    },
+    {
+      "order": [
+        5,
+        0,
+        3,
+        4,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.340790459
+    },
+    {
+      "order": [
+        0,
+        5,
+        2,
+        1,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.485780577
+    },
+    {
+      "order": [
+        5,
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.639473031
+    },
+    {
+      "order": [
+        0,
+        5,
+        2,
+        3,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.764420053000002
+    },
+    {
+      "order": [
+        5,
+        0,
+        3,
+        2,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.883518183
+    },
+    {
+      "order": [
+        0,
+        5,
+        2,
+        3,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.988602407000002
+    },
+    {
+      "order": [
+        5,
+        0,
+        3,
+        2,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.095982481
+    },
+    {
+      "order": [
+        0,
+        5,
+        2,
+        4,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.231852528
+    },
+    {
+      "order": [
+        5,
+        0,
+        3,
+        1,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.376332849
+    },
+    {
+      "order": [
+        0,
+        5,
+        2,
+        4,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.49717058
+    },
+    {
+      "order": [
+        5,
+        0,
+        3,
+        1,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.633279137
+    },
+    {
+      "order": [
+        0,
+        5,
+        3,
+        1,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.757508609000002
+    },
+    {
+      "order": [
+        5,
+        0,
+        2,
+        4,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.885587484000002
+    },
+    {
+      "order": [
+        0,
+        5,
+        3,
+        1,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.997742031
+    },
+    {
+      "order": [
+        5,
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.099467944
+    },
+    {
+      "order": [
+        0,
+        5,
+        3,
+        2,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.231880750000002
+    },
+    {
+      "order": [
+        5,
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.34297038
+    },
+    {
+      "order": [
+        0,
+        5,
+        3,
+        2,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.473212945
+    },
+    {
+      "order": [
+        5,
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.625409649
+    },
+    {
+      "order": [
+        0,
+        5,
+        3,
+        4,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.74720345
+    },
+    {
+      "order": [
+        5,
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.880169335
+    },
+    {
+      "order": [
+        0,
+        5,
+        3,
+        4,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.149317828
+    },
+    {
+      "order": [
+        5,
+        0,
+        2,
+        1,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.287378796
+    },
+    {
+      "order": [
+        0,
+        5,
+        4,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.43862954
+    },
+    {
+      "order": [
+        5,
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.55889354
+    },
+    {
+      "order": [
+        0,
+        5,
+        4,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.671507078
+    },
+    {
+      "order": [
+        5,
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.814802018
+    },
+    {
+      "order": [
+        0,
+        5,
+        4,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.923303854
+    },
+    {
+      "order": [
+        5,
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.03265424
+    },
+    {
+      "order": [
+        0,
+        5,
+        4,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.157950885
+    },
+    {
+      "order": [
+        5,
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.275127943
+    },
+    {
+      "order": [
+        0,
+        5,
+        4,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.38693723
+    },
+    {
+      "order": [
+        5,
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.486030901
+    },
+    {
+      "order": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.60169136
+    },
+    {
+      "order": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.700291121
+    },
+    {
+      "order": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.822998442
+    },
+    {
+      "order": [
+        4,
+        5,
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.923262904
+    },
+    {
+      "order": [
+        1,
+        0,
+        2,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.037929112
+    },
+    {
+      "order": [
+        4,
+        5,
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.136519273
+    },
+    {
+      "order": [
+        1,
+        0,
+        2,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.247807689000002
+    },
+    {
+      "order": [
+        4,
+        5,
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.364275718000002
+    },
+    {
+      "order": [
+        1,
+        0,
+        2,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.461531909
+    },
+    {
+      "order": [
+        4,
+        5,
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.578590937
+    },
+    {
+      "order": [
+        1,
+        0,
+        2,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.711439263
+    },
+    {
+      "order": [
+        4,
+        5,
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.832110073
+    },
+    {
+      "order": [
+        1,
+        0,
+        2,
+        5,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.938171707000002
+    },
+    {
+      "order": [
+        4,
+        5,
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.044645901
+    },
+    {
+      "order": [
+        1,
+        0,
+        3,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.169071461
+    },
+    {
+      "order": [
+        4,
+        5,
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.291668643
+    },
+    {
+      "order": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.402252649
+    },
+    {
+      "order": [
+        4,
+        5,
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.518536477
+    },
+    {
+      "order": [
+        1,
+        0,
+        3,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.654147244
+    },
+    {
+      "order": [
+        4,
+        5,
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.809076179
+    },
+    {
+      "order": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.940887754000002
+    },
+    {
+      "order": [
+        4,
+        5,
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.04943832
+    },
+    {
+      "order": [
+        1,
+        0,
+        3,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.175949693
+    },
+    {
+      "order": [
+        4,
+        5,
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.31132697
+    },
+    {
+      "order": [
+        1,
+        0,
+        3,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.432447941
+    },
+    {
+      "order": [
+        4,
+        5,
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.583681864
+    },
+    {
+      "order": [
+        1,
+        0,
+        4,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.709915707
+    },
+    {
+      "order": [
+        4,
+        5,
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.825886174
+    },
+    {
+      "order": [
+        1,
+        0,
+        4,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.978876236
+    },
+    {
+      "order": [
+        4,
+        5,
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.269481908
+    },
+    {
+      "order": [
+        1,
+        0,
+        4,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.385511026
+    },
+    {
+      "order": [
+        4,
+        5,
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.508083837
+    },
+    {
+      "order": [
+        1,
+        0,
+        4,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.617600683
+    },
+    {
+      "order": [
+        4,
+        5,
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.734605242
+    },
+    {
+      "order": [
+        1,
+        0,
+        4,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.875429101
+    },
+    {
+      "order": [
+        4,
+        5,
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.067067651000002
+    },
+    {
+      "order": [
+        1,
+        0,
+        4,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.209860671
+    },
+    {
+      "order": [
+        4,
+        5,
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.334282352
+    },
+    {
+      "order": [
+        1,
+        0,
+        5,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.453653692
+    },
+    {
+      "order": [
+        4,
+        5,
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.574839793
+    },
+    {
+      "order": [
+        1,
+        0,
+        5,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.668635511
+    },
+    {
+      "order": [
+        4,
+        5,
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.799239935
+    },
+    {
+      "order": [
+        1,
+        0,
+        5,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.911382502000002
+    },
+    {
+      "order": [
+        4,
+        5,
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.045847738
+    },
+    {
+      "order": [
+        1,
+        0,
+        5,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.176833323
+    },
+    {
+      "order": [
+        4,
+        5,
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.298910004
+    },
+    {
+      "order": [
+        1,
+        0,
+        5,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.435815841
+    },
+    {
+      "order": [
+        4,
+        5,
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.539742805
+    },
+    {
+      "order": [
+        1,
+        0,
+        5,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.655698123
+    },
+    {
+      "order": [
+        4,
+        5,
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.769478930000002
+    },
+    {
+      "order": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.8655326
+    },
+    {
+      "order": [
+        4,
+        3,
+        5,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.977651887
+    },
+    {
+      "order": [
+        1,
+        2,
+        0,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.087973423
+    },
+    {
+      "order": [
+        4,
+        3,
+        5,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.197066238
+    },
+    {
+      "order": [
+        1,
+        2,
+        0,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.314485807
+    },
+    {
+      "order": [
+        4,
+        3,
+        5,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.446060082
+    },
+    {
+      "order": [
+        1,
+        2,
+        0,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.553328406
+    },
+    {
+      "order": [
+        4,
+        3,
+        5,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.656769599
+    },
+    {
+      "order": [
+        1,
+        2,
+        0,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.77852282
+    },
+    {
+      "order": [
+        4,
+        3,
+        5,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.893307258
+    },
+    {
+      "order": [
+        1,
+        2,
+        0,
+        5,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.995740251
+    },
+    {
+      "order": [
+        4,
+        3,
+        5,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.104088646
+    },
+    {
+      "order": [
+        1,
+        2,
+        3,
+        0,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.231459428
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        5,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.349769617
+    },
+    {
+      "order": [
+        1,
+        2,
+        3,
+        0,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.458995553
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        5,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.586496846
+    },
+    {
+      "order": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.69373965
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        1,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.802848106
+    },
+    {
+      "order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.909978551
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.00424441
+    },
+    {
+      "order": [
+        1,
+        2,
+        3,
+        5,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.102687561
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        0,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.230041045
+    },
+    {
+      "order": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.354674227000004
+    },
+    {
+      "order": [
+        4,
+        3,
+        2,
+        0,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.718168706
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        0,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.855832733
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        5,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.965388919
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        0,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.068805492
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        5,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.190679963
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        3,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.307663172
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        2,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.42231552
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        3,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.538543868
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        2,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.669472743
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        5,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.792936044
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        0,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.90305383
+    },
+    {
+      "order": [
+        1,
+        2,
+        4,
+        5,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.039133647
+    },
+    {
+      "order": [
+        4,
+        3,
+        1,
+        0,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.149768703
+    },
+    {
+      "order": [
+        1,
+        2,
+        5,
+        0,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.273536544
+    },
+    {
+      "order": [
+        4,
+        3,
+        0,
+        5,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.396775314
+    },
+    {
+      "order": [
+        1,
+        2,
+        5,
+        0,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.545344076
+    },
+    {
+      "order": [
+        4,
+        3,
+        0,
+        5,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.715033007
+    },
+    {
+      "order": [
+        1,
+        2,
+        5,
+        3,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.8424059
+    },
+    {
+      "order": [
+        4,
+        3,
+        0,
+        2,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.964007931
+    },
+    {
+      "order": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.100546718000004
+    },
+    {
+      "order": [
+        4,
+        3,
+        0,
+        2,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.247462339
+    },
+    {
+      "order": [
+        1,
+        2,
+        5,
+        4,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.395268911
+    },
+    {
+      "order": [
+        4,
+        3,
+        0,
+        1,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.504437456
+    },
+    {
+      "order": [
+        1,
+        2,
+        5,
+        4,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.628366838
+    },
+    {
+      "order": [
+        4,
+        3,
+        0,
+        1,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.717197565
+    },
+    {
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.835284214
+    },
+    {
+      "order": [
+        4,
+        2,
+        5,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.982803416
+    },
+    {
+      "order": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.132763128
+    },
+    {
+      "order": [
+        4,
+        2,
+        5,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.30717785
+    },
+    {
+      "order": [
+        1,
+        3,
+        0,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.504443922
+    },
+    {
+      "order": [
+        4,
+        2,
+        5,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.656179266
+    },
+    {
+      "order": [
+        1,
+        3,
+        0,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.793267973
+    },
+    {
+      "order": [
+        4,
+        2,
+        5,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.900373937
+    },
+    {
+      "order": [
+        1,
+        3,
+        0,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.012049514
+    },
+    {
+      "order": [
+        4,
+        2,
+        5,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.123638431
+    },
+    {
+      "order": [
+        1,
+        3,
+        0,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.26472099
+    },
+    {
+      "order": [
+        4,
+        2,
+        5,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.397133655
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        0,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.534010562
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        5,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.655287083
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        0,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.807404056
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        5,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.945247594
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        4,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.108349551
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        1,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.212322014
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        4,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.324327901000004
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        1,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.426716863
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        5,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.569743853
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        0,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.690954664
+    },
+    {
+      "order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.824133839
+    },
+    {
+      "order": [
+        4,
+        2,
+        3,
+        0,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.933601085
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        0,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.067941121
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        5,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.204066308
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        0,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.3269948
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        5,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.472570791
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        2,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.593264951
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        3,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.709678629
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        2,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.843131294
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        3,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.971723187
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        5,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.109967055
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        0,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.233856836
+    },
+    {
+      "order": [
+        1,
+        3,
+        4,
+        5,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.368621783
+    },
+    {
+      "order": [
+        4,
+        2,
+        1,
+        0,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.502667129
+    },
+    {
+      "order": [
+        1,
+        3,
+        5,
+        0,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.631137933
+    },
+    {
+      "order": [
+        4,
+        2,
+        0,
+        5,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.800495963
+    },
+    {
+      "order": [
+        1,
+        3,
+        5,
+        0,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.929195438
+    },
+    {
+      "order": [
+        4,
+        2,
+        0,
+        5,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.273842232
+    },
+    {
+      "order": [
+        1,
+        3,
+        5,
+        2,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.418826643
+    },
+    {
+      "order": [
+        4,
+        2,
+        0,
+        3,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.542903055000004
+    },
+    {
+      "order": [
+        1,
+        3,
+        5,
+        2,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.674984678
+    },
+    {
+      "order": [
+        4,
+        2,
+        0,
+        3,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.809978634000004
+    },
+    {
+      "order": [
+        1,
+        3,
+        5,
+        4,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.952466814
+    },
+    {
+      "order": [
+        4,
+        2,
+        0,
+        1,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.117390103
+    },
+    {
+      "order": [
+        1,
+        3,
+        5,
+        4,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.266929474
+    },
+    {
+      "order": [
+        4,
+        2,
+        0,
+        1,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.460466145
+    },
+    {
+      "order": [
+        1,
+        4,
+        0,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.618167521000004
+    },
+    {
+      "order": [
+        4,
+        1,
+        5,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.731625088
+    },
+    {
+      "order": [
+        1,
+        4,
+        0,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.862689613
+    },
+    {
+      "order": [
+        4,
+        1,
+        5,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.985841014
+    },
+    {
+      "order": [
+        1,
+        4,
+        0,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.0963689
+    },
+    {
+      "order": [
+        4,
+        1,
+        5,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.227852016
+    },
+    {
+      "order": [
+        1,
+        4,
+        0,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.357790331000004
+    },
+    {
+      "order": [
+        4,
+        1,
+        5,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.509437601
+    },
+    {
+      "order": [
+        1,
+        4,
+        0,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.641155604
+    },
+    {
+      "order": [
+        4,
+        1,
+        5,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.792814797
+    },
+    {
+      "order": [
+        1,
+        4,
+        0,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.926749133
+    },
+    {
+      "order": [
+        4,
+        1,
+        5,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.061744850000004
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        0,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.179717549
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        5,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.306255192
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        0,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.436498646
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        5,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.556937787
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        3,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.675914796
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        2,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.799229758
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        3,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.927732941
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        2,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.057560985
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        5,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.223589225
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        0,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.356706691
+    },
+    {
+      "order": [
+        1,
+        4,
+        2,
+        5,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.512745864
+    },
+    {
+      "order": [
+        4,
+        1,
+        3,
+        0,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.628393452
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        0,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.727308563
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        5,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.840758631
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        0,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.969743955
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        5,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.081859001
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        2,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.19741914
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        3,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.326491484
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        2,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.443924003
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        3,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.5810697
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        5,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.726053241
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        0,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.870548841
+    },
+    {
+      "order": [
+        1,
+        4,
+        3,
+        5,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.985905689
+    },
+    {
+      "order": [
+        4,
+        1,
+        2,
+        0,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.093973204
+    },
+    {
+      "order": [
+        1,
+        4,
+        5,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.199881318
+    },
+    {
+      "order": [
+        4,
+        1,
+        0,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.341182405
+    },
+    {
+      "order": [
+        1,
+        4,
+        5,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.475876911
+    },
+    {
+      "order": [
+        4,
+        1,
+        0,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.606253716
+    },
+    {
+      "order": [
+        1,
+        4,
+        5,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.735613210000004
+    },
+    {
+      "order": [
+        4,
+        1,
+        0,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.897753977
+    },
+    {
+      "order": [
+        1,
+        4,
+        5,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.299346715
+    },
+    {
+      "order": [
+        4,
+        1,
+        0,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.447889818
+    },
+    {
+      "order": [
+        1,
+        4,
+        5,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.637812767
+    },
+    {
+      "order": [
+        4,
+        1,
+        0,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.76372748
+    },
+    {
+      "order": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.88342464
+    },
+    {
+      "order": [
+        4,
+        1,
+        0,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.011176643
+    },
+    {
+      "order": [
+        1,
+        5,
+        0,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.128860121
+    },
+    {
+      "order": [
+        4,
+        0,
+        5,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.256109124
+    },
+    {
+      "order": [
+        1,
+        5,
+        0,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.380526237
+    },
+    {
+      "order": [
+        4,
+        0,
+        5,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.525945597
+    },
+    {
+      "order": [
+        1,
+        5,
+        0,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.642263356
+    },
+    {
+      "order": [
+        4,
+        0,
+        5,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.767454048
+    },
+    {
+      "order": [
+        1,
+        5,
+        0,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.8915368
+    },
+    {
+      "order": [
+        4,
+        0,
+        5,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.051946057
+    },
+    {
+      "order": [
+        1,
+        5,
+        0,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.183100101
+    },
+    {
+      "order": [
+        4,
+        0,
+        5,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.329811862
+    },
+    {
+      "order": [
+        1,
+        5,
+        0,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.487589858
+    },
+    {
+      "order": [
+        4,
+        0,
+        5,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.620814723
+    },
+    {
+      "order": [
+        1,
+        5,
+        2,
+        0,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.749503037000004
+    },
+    {
+      "order": [
+        4,
+        0,
+        3,
+        5,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.883311363
+    },
+    {
+      "order": [
+        1,
+        5,
+        2,
+        0,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.02068096
+    },
+    {
+      "order": [
+        4,
+        0,
+        3,
+        5,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.135024928
+    },
+    {
+      "order": [
+        1,
+        5,
+        2,
+        3,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.268587084
+    },
+    {
+      "order": [
+        4,
+        0,
+        3,
+        2,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.40616058
+    },
+    {
+      "order": [
+        1,
+        5,
+        2,
+        3,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.535932174
+    },
+    {
+      "order": [
+        4,
+        0,
+        3,
+        2,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.703257834
+    },
+    {
+      "order": [
+        1,
+        5,
+        2,
+        4,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.812190069
+    },
+    {
+      "order": [
+        4,
+        0,
+        3,
+        1,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.970357705
+    },
+    {
+      "order": [
+        1,
+        5,
+        2,
+        4,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.105000891
+    },
+    {
+      "order": [
+        4,
+        0,
+        3,
+        1,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.250043812
+    },
+    {
+      "order": [
+        1,
+        5,
+        3,
+        0,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.409492759
+    },
+    {
+      "order": [
+        4,
+        0,
+        2,
+        5,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.544991475
+    },
+    {
+      "order": [
+        1,
+        5,
+        3,
+        0,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.689712006
+    },
+    {
+      "order": [
+        4,
+        0,
+        2,
+        5,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.861765257
+    },
+    {
+      "order": [
+        1,
+        5,
+        3,
+        2,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.025000175
+    },
+    {
+      "order": [
+        4,
+        0,
+        2,
+        3,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.166331124
+    },
+    {
+      "order": [
+        1,
+        5,
+        3,
+        2,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.34910806
+    },
+    {
+      "order": [
+        4,
+        0,
+        2,
+        3,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.470938111
+    },
+    {
+      "order": [
+        1,
+        5,
+        3,
+        4,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.618610393
+    },
+    {
+      "order": [
+        4,
+        0,
+        2,
+        1,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.755234970000004
+    },
+    {
+      "order": [
+        1,
+        5,
+        3,
+        4,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.896230339
+    },
+    {
+      "order": [
+        4,
+        0,
+        2,
+        1,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.034929257
+    },
+    {
+      "order": [
+        1,
+        5,
+        4,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.18539317
+    },
+    {
+      "order": [
+        4,
+        0,
+        1,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.338546884
+    },
+    {
+      "order": [
+        1,
+        5,
+        4,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.479356044
+    },
+    {
+      "order": [
+        4,
+        0,
+        1,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.612927169
+    },
+    {
+      "order": [
+        1,
+        5,
+        4,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.750379544
+    },
+    {
+      "order": [
+        4,
+        0,
+        1,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.879800848
+    },
+    {
+      "order": [
+        1,
+        5,
+        4,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.029540311
+    },
+    {
+      "order": [
+        4,
+        0,
+        1,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.176676333
+    },
+    {
+      "order": [
+        1,
+        5,
+        4,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.296704763
+    },
+    {
+      "order": [
+        4,
+        0,
+        1,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.41171359
+    },
+    {
+      "order": [
+        1,
+        5,
+        4,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.513846473
+    },
+    {
+      "order": [
+        4,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.637753615
+    },
+    {
+      "order": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.061455542
+    },
+    {
+      "order": [
+        3,
+        5,
+        4,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.179296632
+    },
+    {
+      "order": [
+        2,
+        0,
+        1,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.315861509
+    },
+    {
+      "order": [
+        3,
+        5,
+        4,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.445549994000004
+    },
+    {
+      "order": [
+        2,
+        0,
+        1,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.581239295
+    },
+    {
+      "order": [
+        3,
+        5,
+        4,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.723351744
+    },
+    {
+      "order": [
+        2,
+        0,
+        1,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.891409584
+    },
+    {
+      "order": [
+        3,
+        5,
+        4,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.019202448
+    },
+    {
+      "order": [
+        2,
+        0,
+        1,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.129522874
+    },
+    {
+      "order": [
+        3,
+        5,
+        4,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.26270069
+    },
+    {
+      "order": [
+        2,
+        0,
+        1,
+        5,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.405094129
+    },
+    {
+      "order": [
+        3,
+        5,
+        4,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.509801553
+    },
+    {
+      "order": [
+        2,
+        0,
+        3,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.644887329
+    },
+    {
+      "order": [
+        3,
+        5,
+        2,
+        4,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.767659001
+    },
+    {
+      "order": [
+        2,
+        0,
+        3,
+        1,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.900364006000004
+    },
+    {
+      "order": [
+        3,
+        5,
+        2,
+        4,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.021251467
+    },
+    {
+      "order": [
+        2,
+        0,
+        3,
+        4,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.175478771
+    },
+    {
+      "order": [
+        3,
+        5,
+        2,
+        1,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.308321597
+    },
+    {
+      "order": [
+        2,
+        0,
+        3,
+        4,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.467321951
+    },
+    {
+      "order": [
+        3,
+        5,
+        2,
+        1,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.598585576
+    },
+    {
+      "order": [
+        2,
+        0,
+        3,
+        5,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.739293185
+    },
+    {
+      "order": [
+        3,
+        5,
+        2,
+        0,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.869406689
+    },
+    {
+      "order": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.023714924000004
+    },
+    {
+      "order": [
+        3,
+        5,
+        2,
+        0,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.18313414
+    },
+    {
+      "order": [
+        2,
+        0,
+        4,
+        1,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.324007949
+    },
+    {
+      "order": [
+        3,
+        5,
+        1,
+        4,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.478390383
+    },
+    {
+      "order": [
+        2,
+        0,
+        4,
+        1,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.621586773
+    },
+    {
+      "order": [
+        3,
+        5,
+        1,
+        4,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.756728959
+    },
+    {
+      "order": [
+        2,
+        0,
+        4,
+        3,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.885597973
+    },
+    {
+      "order": [
+        3,
+        5,
+        1,
+        2,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.051651392000004
+    },
+    {
+      "order": [
+        2,
+        0,
+        4,
+        3,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.229589236
+    },
+    {
+      "order": [
+        3,
+        5,
+        1,
+        2,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.448528504
+    },
+    {
+      "order": [
+        2,
+        0,
+        4,
+        5,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.595043686000004
+    },
+    {
+      "order": [
+        3,
+        5,
+        1,
+        0,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.732705633
+    },
+    {
+      "order": [
+        2,
+        0,
+        4,
+        5,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.907756426
+    },
+    {
+      "order": [
+        3,
+        5,
+        1,
+        0,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.048797515000004
+    },
+    {
+      "order": [
+        2,
+        0,
+        5,
+        1,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.177449219
+    },
+    {
+      "order": [
+        3,
+        5,
+        0,
+        4,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.329023292
+    },
+    {
+      "order": [
+        2,
+        0,
+        5,
+        1,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.460297188
+    },
+    {
+      "order": [
+        3,
+        5,
+        0,
+        4,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.629094058
+    },
+    {
+      "order": [
+        2,
+        0,
+        5,
+        3,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.792728947
+    },
+    {
+      "order": [
+        3,
+        5,
+        0,
+        2,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.958334426
+    },
+    {
+      "order": [
+        2,
+        0,
+        5,
+        3,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.11988142099999
+    },
+    {
+      "order": [
+        3,
+        5,
+        0,
+        2,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.298231136
+    },
+    {
+      "order": [
+        2,
+        0,
+        5,
+        4,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.42907008099999
+    },
+    {
+      "order": [
+        3,
+        5,
+        0,
+        1,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.605403525
+    },
+    {
+      "order": [
+        2,
+        0,
+        5,
+        4,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.75819385899999
+    },
+    {
+      "order": [
+        3,
+        5,
+        0,
+        1,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.897170366
+    },
+    {
+      "order": [
+        2,
+        1,
+        0,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.02361700899999
+    },
+    {
+      "order": [
+        3,
+        4,
+        5,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.129788783
+    },
+    {
+      "order": [
+        2,
+        1,
+        0,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.25134665399999
+    },
+    {
+      "order": [
+        3,
+        4,
+        5,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.37412768499999
+    },
+    {
+      "order": [
+        2,
+        1,
+        0,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.50280029
+    },
+    {
+      "order": [
+        3,
+        4,
+        5,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.628983032
+    },
+    {
+      "order": [
+        2,
+        1,
+        0,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.76608997
+    },
+    {
+      "order": [
+        3,
+        4,
+        5,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.90212871499999
+    },
+    {
+      "order": [
+        2,
+        1,
+        0,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.04181787399999
+    },
+    {
+      "order": [
+        3,
+        4,
+        5,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.51003974999999
+    },
+    {
+      "order": [
+        2,
+        1,
+        0,
+        5,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.642393816
+    },
+    {
+      "order": [
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.77710262299999
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        0,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.94013873099999
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        5,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.12859499
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        0,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.29371026999999
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        5,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.46969021199999
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        4,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.64279276399999
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        1,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.82650543099999
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.03455458799999
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        1,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.217570505
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        5,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.39731936
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        0,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.56265056
+    },
+    {
+      "order": [
+        2,
+        1,
+        3,
+        5,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.722370246
+    },
+    {
+      "order": [
+        3,
+        4,
+        2,
+        0,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.920392729
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        0,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.12588017499999
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        5,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.302955219
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        0,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.43781405499999
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        5,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.62043104099999
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        3,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.78073852899999
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        2,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.956167091
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        3,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.125154912
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        2,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.32391382399999
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        5,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.53184864999999
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        0,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.74805005099999
+    },
+    {
+      "order": [
+        2,
+        1,
+        4,
+        5,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.887741498
+    },
+    {
+      "order": [
+        3,
+        4,
+        1,
+        0,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.024818684
+    },
+    {
+      "order": [
+        2,
+        1,
+        5,
+        0,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.193974226
+    },
+    {
+      "order": [
+        3,
+        4,
+        0,
+        5,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.350558071
+    },
+    {
+      "order": [
+        2,
+        1,
+        5,
+        0,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.49336326999999
+    },
+    {
+      "order": [
+        3,
+        4,
+        0,
+        5,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.65784769
+    },
+    {
+      "order": [
+        2,
+        1,
+        5,
+        3,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.78596939299999
+    },
+    {
+      "order": [
+        3,
+        4,
+        0,
+        2,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.93826234699999
+    },
+    {
+      "order": [
+        2,
+        1,
+        5,
+        3,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.102126926
+    },
+    {
+      "order": [
+        3,
+        4,
+        0,
+        2,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.23697730299999
+    },
+    {
+      "order": [
+        2,
+        1,
+        5,
+        4,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.379995122
+    },
+    {
+      "order": [
+        3,
+        4,
+        0,
+        1,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.52394413299999
+    },
+    {
+      "order": [
+        2,
+        1,
+        5,
+        4,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.677496767
+    },
+    {
+      "order": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.78824447299999
+    },
+    {
+      "order": [
+        2,
+        3,
+        0,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.902714752
+    },
+    {
+      "order": [
+        3,
+        2,
+        5,
+        4,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.020500191
+    },
+    {
+      "order": [
+        2,
+        3,
+        0,
+        1,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.183424799
+    },
+    {
+      "order": [
+        3,
+        2,
+        5,
+        4,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.317505035
+    },
+    {
+      "order": [
+        2,
+        3,
+        0,
+        4,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.472723179
+    },
+    {
+      "order": [
+        3,
+        2,
+        5,
+        1,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.61418242799999
+    },
+    {
+      "order": [
+        2,
+        3,
+        0,
+        4,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.730409517
+    },
+    {
+      "order": [
+        3,
+        2,
+        5,
+        1,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.87840856899999
+    },
+    {
+      "order": [
+        2,
+        3,
+        0,
+        5,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.993121327
+    },
+    {
+      "order": [
+        3,
+        2,
+        5,
+        0,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.14197231899999
+    },
+    {
+      "order": [
+        2,
+        3,
+        0,
+        5,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.317501212
+    },
+    {
+      "order": [
+        3,
+        2,
+        5,
+        0,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.46087854199999
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        0,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.62700658199999
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        5,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.75380438399999
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        0,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.87366394399999
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        5,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.985288231
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        4,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.124824377
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        1,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.239668954
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.391384877
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        1,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.532798676
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        5,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.681134738
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        0,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.84753398699999
+    },
+    {
+      "order": [
+        2,
+        3,
+        1,
+        5,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.34685533499999
+    },
+    {
+      "order": [
+        3,
+        2,
+        4,
+        0,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.51334901499999
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        0,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.666989179
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        5,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.81805895199999
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        0,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.953872315
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        5,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.09237570299999
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        1,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.21847568599999
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        4,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.364970487
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        1,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.512510088
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        4,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.655476708
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.808499512
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.95482444299999
+    },
+    {
+      "order": [
+        2,
+        3,
+        4,
+        5,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.13813058
+    },
+    {
+      "order": [
+        3,
+        2,
+        1,
+        0,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.30723861999999
+    },
+    {
+      "order": [
+        2,
+        3,
+        5,
+        0,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.461443025
+    },
+    {
+      "order": [
+        3,
+        2,
+        0,
+        5,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.62698213399999
+    },
+    {
+      "order": [
+        2,
+        3,
+        5,
+        0,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.74551591299999
+    },
+    {
+      "order": [
+        3,
+        2,
+        0,
+        5,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.905525208
+    },
+    {
+      "order": [
+        2,
+        3,
+        5,
+        1,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.051626589
+    },
+    {
+      "order": [
+        3,
+        2,
+        0,
+        4,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.21051654499999
+    },
+    {
+      "order": [
+        2,
+        3,
+        5,
+        1,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.36803299099999
+    },
+    {
+      "order": [
+        3,
+        2,
+        0,
+        4,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.542215473
+    },
+    {
+      "order": [
+        2,
+        3,
+        5,
+        4,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.669689697
+    },
+    {
+      "order": [
+        3,
+        2,
+        0,
+        1,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.82577524199999
+    },
+    {
+      "order": [
+        2,
+        3,
+        5,
+        4,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.948230133
+    },
+    {
+      "order": [
+        3,
+        2,
+        0,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.11123432
+    },
+    {
+      "order": [
+        2,
+        4,
+        0,
+        1,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.24665527699999
+    },
+    {
+      "order": [
+        3,
+        1,
+        5,
+        4,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.40445130299999
+    },
+    {
+      "order": [
+        2,
+        4,
+        0,
+        1,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.538794779
+    },
+    {
+      "order": [
+        3,
+        1,
+        5,
+        4,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.71444971
+    },
+    {
+      "order": [
+        2,
+        4,
+        0,
+        3,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.91500571399999
+    },
+    {
+      "order": [
+        3,
+        1,
+        5,
+        2,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.053996082
+    },
+    {
+      "order": [
+        2,
+        4,
+        0,
+        3,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.187406617
+    },
+    {
+      "order": [
+        3,
+        1,
+        5,
+        2,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.34074844099999
+    },
+    {
+      "order": [
+        2,
+        4,
+        0,
+        5,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.48973952399999
+    },
+    {
+      "order": [
+        3,
+        1,
+        5,
+        0,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.699915482
+    },
+    {
+      "order": [
+        2,
+        4,
+        0,
+        5,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.85361119699999
+    },
+    {
+      "order": [
+        3,
+        1,
+        5,
+        0,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.03371667399999
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        0,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.195705722
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        5,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.354402469
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        0,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.53250446599999
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        5,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.697114065
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        3,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.83959864399999
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        2,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.981318154
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        3,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.165017881
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        2,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.320102995
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        5,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.470892318
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        0,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.60940194599999
+    },
+    {
+      "order": [
+        2,
+        4,
+        1,
+        5,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.74788741399999
+    },
+    {
+      "order": [
+        3,
+        1,
+        4,
+        0,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.885613231
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        0,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.005588241
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        5,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.147023951
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        0,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.31225002699999
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        5,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.469316212
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        1,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.60337330799999
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        4,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.7518621
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        1,
+        5,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.926868723
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        4,
+        0,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.121691624
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        5,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.30784822199999
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        0,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.445604589
+    },
+    {
+      "order": [
+        2,
+        4,
+        3,
+        5,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.57346499299999
+    },
+    {
+      "order": [
+        3,
+        1,
+        2,
+        0,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.73794249199999
+    },
+    {
+      "order": [
+        2,
+        4,
+        5,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.89677281799999
+    },
+    {
+      "order": [
+        3,
+        1,
+        0,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.05413061499999
+    },
+    {
+      "order": [
+        2,
+        4,
+        5,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.197044201
+    },
+    {
+      "order": [
+        3,
+        1,
+        0,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.75142935199999
+    },
+    {
+      "order": [
+        2,
+        4,
+        5,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.93465292799999
+    },
+    {
+      "order": [
+        3,
+        1,
+        0,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.07403919599999
+    },
+    {
+      "order": [
+        2,
+        4,
+        5,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.220576637
+    },
+    {
+      "order": [
+        3,
+        1,
+        0,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.39468842999999
+    },
+    {
+      "order": [
+        2,
+        4,
+        5,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.58262454899999
+    },
+    {
+      "order": [
+        3,
+        1,
+        0,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.76181459399999
+    },
+    {
+      "order": [
+        2,
+        4,
+        5,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.935354937
+    },
+    {
+      "order": [
+        3,
+        1,
+        0,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.07052926799999
+    },
+    {
+      "order": [
+        2,
+        5,
+        0,
+        1,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.22600881299999
+    },
+    {
+      "order": [
+        3,
+        0,
+        5,
+        4,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.366970922
+    },
+    {
+      "order": [
+        2,
+        5,
+        0,
+        1,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.51779105499999
+    },
+    {
+      "order": [
+        3,
+        0,
+        5,
+        4,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.65171665099999
+    },
+    {
+      "order": [
+        2,
+        5,
+        0,
+        3,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.78660525699999
+    },
+    {
+      "order": [
+        3,
+        0,
+        5,
+        2,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.93418921899999
+    },
+    {
+      "order": [
+        2,
+        5,
+        0,
+        3,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.070304576
+    },
+    {
+      "order": [
+        3,
+        0,
+        5,
+        2,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.230189013
+    },
+    {
+      "order": [
+        2,
+        5,
+        0,
+        4,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.38658266799999
+    },
+    {
+      "order": [
+        3,
+        0,
+        5,
+        1,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.55889526
+    },
+    {
+      "order": [
+        2,
+        5,
+        0,
+        4,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.71664593599999
+    },
+    {
+      "order": [
+        3,
+        0,
+        5,
+        1,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.886151755
+    },
+    {
+      "order": [
+        2,
+        5,
+        1,
+        0,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.024550342
+    },
+    {
+      "order": [
+        3,
+        0,
+        4,
+        5,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.156290097
+    },
+    {
+      "order": [
+        2,
+        5,
+        1,
+        0,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.30350755799999
+    },
+    {
+      "order": [
+        3,
+        0,
+        4,
+        5,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.446901898
+    },
+    {
+      "order": [
+        2,
+        5,
+        1,
+        3,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.58003424399999
+    },
+    {
+      "order": [
+        3,
+        0,
+        4,
+        2,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.733277878
+    },
+    {
+      "order": [
+        2,
+        5,
+        1,
+        3,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.9071027
+    },
+    {
+      "order": [
+        3,
+        0,
+        4,
+        2,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.024613879
+    },
+    {
+      "order": [
+        2,
+        5,
+        1,
+        4,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.176711583
+    },
+    {
+      "order": [
+        3,
+        0,
+        4,
+        1,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.342003052
+    },
+    {
+      "order": [
+        2,
+        5,
+        1,
+        4,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.52763162999999
+    },
+    {
+      "order": [
+        3,
+        0,
+        4,
+        1,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.700895952
+    },
+    {
+      "order": [
+        2,
+        5,
+        3,
+        0,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.903894985
+    },
+    {
+      "order": [
+        3,
+        0,
+        2,
+        5,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.090535742
+    },
+    {
+      "order": [
+        2,
+        5,
+        3,
+        0,
+        4,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.25842417199999
+    },
+    {
+      "order": [
+        3,
+        0,
+        2,
+        5,
+        1,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.437719277
+    },
+    {
+      "order": [
+        2,
+        5,
+        3,
+        1,
+        0,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.56622306099999
+    },
+    {
+      "order": [
+        3,
+        0,
+        2,
+        4,
+        5,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.68407314
+    },
+    {
+      "order": [
+        2,
+        5,
+        3,
+        1,
+        4,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.82818895
+    },
+    {
+      "order": [
+        3,
+        0,
+        2,
+        4,
+        1,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.97489783099999
+    },
+    {
+      "order": [
+        2,
+        5,
+        3,
+        4,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.12466289299999
+    },
+    {
+      "order": [
+        3,
+        0,
+        2,
+        1,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.287889071
+    },
+    {
+      "order": [
+        2,
+        5,
+        3,
+        4,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.40788655099999
+    },
+    {
+      "order": [
+        3,
+        0,
+        2,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.555815403
+    },
+    {
+      "order": [
+        2,
+        5,
+        4,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.701727623
+    },
+    {
+      "order": [
+        3,
+        0,
+        1,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.863154
+    },
+    {
+      "order": [
+        2,
+        5,
+        4,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.02167972599999
+    },
+    {
+      "order": [
+        3,
+        0,
+        1,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.196424119
+    },
+    {
+      "order": [
+        2,
+        5,
+        4,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.345115841
+    },
+    {
+      "order": [
+        3,
+        0,
+        1,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.514088351
+    },
+    {
+      "order": [
+        2,
+        5,
+        4,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.63336242099999
+    },
+    {
+      "order": [
+        3,
+        0,
+        1,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.778484341
+    },
+    {
+      "order": [
+        2,
+        5,
+        4,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.91797982
+    },
+    {
+      "order": [
+        3,
+        0,
+        1,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.09625987499999
+    },
+    {
+      "order": [
+        2,
+        5,
+        4,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.257466352
+    },
+    {
+      "order": [
+        3,
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.42104900899999
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 96.87947111599999
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 98.710088961
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 100.24804349799999
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 101.843640854
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 103.246977719
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 104.662497729
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 106.101073883
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 107.543374917
+    },
+    {
+      "order": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 108.923998622
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 110.40448364699999
+    },
+    {
+      "order": [
+        5,
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 111.559282399
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 112.89034987199999
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        3,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 114.486062087
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 116.21958502999999
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        3,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 117.90029399999999
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 119.374260837
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        1,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 121.040894712
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 123.448248975
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 124.810061237
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 126.37434386999999
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        0,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 127.83473343799999
+    },
+    {
+      "order": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 129.347737649
+    },
+    {
+      "order": [
+        5,
+        4,
+        2,
+        0,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 131.09181661600002
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 132.71776354600001
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 134.728384075
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        2,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 136.01619007300002
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        3,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 137.440417005
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 138.777044173
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        2,
+        3,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 140.189549962
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 141.96176594000002
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 143.516214829
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 145.259069676
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        0,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 146.72538026700002
+    },
+    {
+      "order": [
+        0,
+        1,
+        4,
+        5,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 148.53880920400002
+    },
+    {
+      "order": [
+        5,
+        4,
+        1,
+        0,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 150.598828812
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        2,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 152.195583505
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 153.952713415
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 155.486627241
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 157.017915053
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        3,
+        2,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 158.76176160100002
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        2,
+        3,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 160.56389613500002
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        3,
+        4,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 162.31073672300002
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 163.99910163
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        4,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 166.11877593100002
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 167.88863895400002
+    },
+    {
+      "order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 169.594665157
+    },
+    {
+      "order": [
+        5,
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 171.244562385
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 172.726176895
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        2,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 174.091762639
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        3,
+        5,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 175.831394281
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        2,
+        0,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 177.401211907
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 179.026910988
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        1,
+        2,
+        0
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 180.66133990100002
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        4,
+        5,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 182.501658684
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        1,
+        0,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 184.255310384
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        5,
+        3,
+        4
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 186.228281919
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 188.218786187
+    },
+    {
+      "order": [
+        0,
+        2,
+        1,
+        5,
+        4,
+        3
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 190.103887621
+    },
+    {
+      "order": [
+        5,
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 192.150411474
+    },
+    {
+      "order": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 194.38050600900002
+    }
+  ],
+  "stats": {
+    "restarts": 98633,
+    "conflicts": 2638737,
+    "decisions": 5092750,
+    "propagations": 238250857
+  },
+  "vars": 2491,
+  "clauses": 30703,
+  "reason": "Interrupted to prioritize permanent-unit fixed-order formulas.",
+  "cpu_is_last_completed_checkpoint": true
+}

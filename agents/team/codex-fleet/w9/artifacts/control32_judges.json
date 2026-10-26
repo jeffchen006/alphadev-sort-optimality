@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/control32_out.s",
+    "model": "out",
+    "log": "logs/control32_out_judge.log",
+    "pass": true,
+    "returncode": 0
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/control32_mem.s",
+    "model": "mem",
+    "log": "logs/control32_mem_judge.log",
+    "pass": true,
+    "returncode": 0
+  }
+]

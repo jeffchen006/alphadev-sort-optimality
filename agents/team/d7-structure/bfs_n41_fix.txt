@@ -1,0 +1,3 @@
+n41_1744 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+n41_2073 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+n41_645 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 

@@ -1,0 +1,6 @@
+{
+  "predicate": "min(x0,x1)<x2<min(x3,x4) and max(x0,x1)>=max(x3,x4)",
+  "matches_all_541": true,
+  "failures": 12,
+  "strict_failures": 4
+}

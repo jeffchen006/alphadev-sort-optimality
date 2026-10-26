@@ -1,0 +1,33 @@
+Data 3.25 s user 0.29 sys 2.94 mem 367652 KB
+Mod0 89.18 s user 18.32 sys 70.25 mem 2316828 KB
+Mod1 202.53 s user 54.65 sys 146.83 mem 5017900 KB
+Mod10 203.83 s user 48.94 sys 153.73 mem 7068924 KB
+Mod12 142.61 s user 62.73 sys 79.19 mem 7829212 KB
+Mod13 325.87 s user 52.98 sys 269.85 mem 8474964 KB
+Mod11 560.90 s user 118.30 sys 438.03 mem 13700812 KB
+Mod15 398.75 s user 54.58 sys 340.50 mem 8362624 KB
+Mod16 316.54 s user 50.84 sys 262.01 mem 7857244 KB
+Mod14 734.46 s user 130.44 sys 596.43 mem 15240684 KB
+Mod18 395.86 s user 58.50 sys 329.45 mem 6787440 KB
+Mod19 209.00 s user 58.70 sys 149.27 mem 8398504 KB
+Mod17 515.93 s user 131.41 sys 377.18 mem 14313068 KB
+Mod2 187.22 s user 79.25 sys 107.27 mem 7825892 KB
+Mod3 107.93 s user 25.37 sys 81.99 mem 2985704 KB
+Mod20 489.08 s user 118.97 sys 367.86 mem 15912056 KB
+Mod4 288.26 s user 40.12 sys 246.98 mem 5072060 KB
+Mod6 215.29 s user 33.52 sys 180.89 mem 4266080 KB
+Mod21 710.24 s user 115.40 sys 591.94 mem 15243112 KB
+Mod7 81.37 s user 27.43 sys 53.71 mem 4350956 KB
+Mod5 339.06 s user 84.35 sys 253.14 mem 7495304 KB
+Mod22 839.03 s user 153.53 sys 681.40 mem 15909864 KB
+NMod0 99.49 s user 53.23 sys 46.03 mem 2225632 KB
+Mod8 193.08 s user 68.28 sys 124.27 mem 8784696 KB
+Mod9 162.38 s user 73.36 sys 88.66 mem 7053832 KB
+NMod2 82.35 s user 80.63 sys 1.71 mem 2854196 KB
+NMod1 155.82 s user 124.96 sys 30.68 mem 3193752 KB
+FINAL OK
+Final 0.57 s user 0.40 sys 0.14 mem 397268 KB
+
+real	34m35.594s
+user	31m59.814s
+sys	101m12.579s

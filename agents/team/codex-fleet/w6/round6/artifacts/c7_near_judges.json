@@ -1,0 +1,36 @@
+[
+  {
+    "file": "round6/candidates/c7_fixed_t4_near.s",
+    "header": "# n=5 model=out iset=I1 source=w6-packed-near k=30 weak_fail=184 weak_error_sum=278",
+    "counts": {
+      "mov": 5,
+      "cmp": 7,
+      "cmovge": 3,
+      "cmovg": 4,
+      "cmovle": 8,
+      "cmovl": 3,
+      "out": 5
+    },
+    "result": "FAIL",
+    "judge": "round6/logs/c7_fixed_t4_near_judge.log",
+    "exit": 1,
+    "sha256": "c183c26453da320187ee32064f9cc6683582ae05c0c50dc7152cda3265abc04e"
+  },
+  {
+    "file": "round6/candidates/c7_fixed_t10_near.s",
+    "header": "# n=5 model=out iset=I1 source=w6-packed-near k=31 weak_fail=219 weak_error_sum=273",
+    "counts": {
+      "cmp": 7,
+      "mov": 4,
+      "cmovle": 4,
+      "cmovl": 4,
+      "cmovge": 5,
+      "cmovg": 7,
+      "out": 5
+    },
+    "result": "FAIL",
+    "judge": "round6/logs/c7_fixed_t10_near_judge.log",
+    "exit": 1,
+    "sha256": "16f3f230be78a53d6cd4445d08fb8d1c4ec3fdf95998197def4504b8a4acd166"
+  }
+]

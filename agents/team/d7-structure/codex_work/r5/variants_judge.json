@@ -1,0 +1,62 @@
+[
+  {
+    "file": "codex_work/r5/s3_01_lo.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_01_lo.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_01_lo_dual.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_01_lo_dual.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_01_hi.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_01_hi.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_01_hi_dual.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_01_hi_dual.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_02_lo.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_02_lo.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_02_lo_dual.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_02_lo_dual.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_02_hi.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_02_hi.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_02_hi_dual.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_02_hi_dual.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_12_lo.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_12_lo.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_12_lo_dual.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_12_lo_dual.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_12_hi.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_12_hi.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  },
+  {
+    "file": "codex_work/r5/s3_12_hi_dual.s",
+    "rc": 0,
+    "result": "PASS /path/to/repo/agents/team/d7-structure/codex_work/r5/s3_12_hi_dual.s [relaxed+strict] n=5 L=32 R=12 iset=I1 model=out\n"
+  }
+]

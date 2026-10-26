@@ -1,0 +1,134 @@
+[
+  {
+    "id": "s3_01_lo",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_01_lo.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_01_lo.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.632,
+    "rc": 0
+  },
+  {
+    "id": "s3_01_lo_dual",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_01_lo_dual.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_01_lo_dual.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.277,
+    "rc": 0
+  },
+  {
+    "id": "s3_01_hi",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_01_hi.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_01_hi.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.356,
+    "rc": 0
+  },
+  {
+    "id": "s3_01_hi_dual",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_01_hi_dual.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_01_hi_dual.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.572,
+    "rc": 0
+  },
+  {
+    "id": "s3_02_lo",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_02_lo.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_02_lo.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.16,
+    "rc": 0
+  },
+  {
+    "id": "s3_02_lo_dual",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_02_lo_dual.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_02_lo_dual.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.416,
+    "rc": 0
+  },
+  {
+    "id": "s3_02_hi",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_02_hi.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_02_hi.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.012,
+    "rc": 0
+  },
+  {
+    "id": "s3_02_hi_dual",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_02_hi_dual.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_02_hi_dual.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.892,
+    "rc": 0
+  },
+  {
+    "id": "s3_12_lo",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_12_lo.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_12_lo.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.208,
+    "rc": 0
+  },
+  {
+    "id": "s3_12_lo_dual",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_12_lo_dual.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_12_lo_dual.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.856,
+    "rc": 0
+  },
+  {
+    "id": "s3_12_hi",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_12_hi.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_12_hi.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.808,
+    "rc": 0
+  },
+  {
+    "id": "s3_12_hi_dual",
+    "idea": "Sort3 uses another initial pair / upper-first / reversed merge",
+    "file": "codex_work/r5/pool_s3_12_hi_dual.txt",
+    "size": 25,
+    "program": "codex_work/r5/s3_12_hi_dual.s",
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 4.88,
+    "rc": 0
+  }
+]

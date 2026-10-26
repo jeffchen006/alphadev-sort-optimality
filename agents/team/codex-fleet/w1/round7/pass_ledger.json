@@ -1,0 +1,546 @@
+[
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/control.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "7ffe399a286dc2be38193462735d29b8866fd0766920f11dd88b02aafece1a8e",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/control.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/control.judge.log",
+    "seconds": 0.9016580581665039
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/control_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "be498690fc325552166ac12aa0ca305d2c269b38b41baa4cc40b6866d49903f5",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/control_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/control_mem.judge.log",
+    "seconds": 1.2341868877410889
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b00.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "3b283f57b7644605ae17a4b69f63267655c569e528fb9bd1841d3ca80ccc5daa",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b00.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b00.judge.log",
+    "seconds": 0.9368150234222412
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b00_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "a94173e6de39bc02ce1b7dc2146a95ee74fc0eb83fa20d4df67dcf7458a969c8",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b00_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b00_mem.judge.log",
+    "seconds": 1.2732534408569336
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b01.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "33e2b617af55f926227acbdecd7fa28004164b0e6188bcfa3f3de8659eb52f5a",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b01.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b01.judge.log",
+    "seconds": 0.9218056201934814
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b01_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "6d0c28e6e8023648ed9e63a6645d393a004aea4daa4cf99fd6fd8c0e9f1c10ab",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b01_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b01_mem.judge.log",
+    "seconds": 1.2653982639312744
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b02.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "48a1857f55cd9b4cf97d833bbe085a7edd1cb76310a4b0d9edbc217a4deadbde",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b02.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b02.judge.log",
+    "seconds": 0.9367871284484863
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b02_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "ae9969814981fafa7418f9317a6cd07853d35e809a227b72a166cab5e158a7e2",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b02_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b02_mem.judge.log",
+    "seconds": 1.293440818786621
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b03.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "172489cc4274481dfed5da3396893e1a299ba3039cc0e2b2b00404f0e2d600bf",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b03.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b03.judge.log",
+    "seconds": 0.9471158981323242
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b03_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "07b348957ed9248b231e8b4677ef3352af1e601a1957c170658ca7088797822b",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b03_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b03_mem.judge.log",
+    "seconds": 1.266413688659668
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b04.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "7d9d8774f3a668fab870afcefa1d3855c6574c6d9233f5649a49cc293fe245e6",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b04.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b04.judge.log",
+    "seconds": 0.9597253799438477
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b04_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "8fa8617a434edce3f0391bb905be17d1396f037d41e0fecf15bc3bea4fd380a7",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b04_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b04_mem.judge.log",
+    "seconds": 1.270857334136963
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b05.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "139720c523668032f45baa03ef06f65a6ebf3a21b16e58b673936235c70c8821",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b05.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b05.judge.log",
+    "seconds": 0.9896700382232666
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b05_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "0643fd73482023c30430ea84d7d2289bbd1018332ade86f9f10f5da12aec9713",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b05_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b05_mem.judge.log",
+    "seconds": 1.3182096481323242
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b06.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "fad278eb8b9072cb0f9038c70ad1abb5b7fc5a94496c1ba77e9d2b623834eddc",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b06.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b06.judge.log",
+    "seconds": 0.9817681312561035
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b06_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "23979de2ee52dfdb32af04c413f834e16a0583cbcb8e8d57f23581d12687ac0f",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b06_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b06_mem.judge.log",
+    "seconds": 1.3235406875610352
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b07.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "b273bf5e7eafd143aa2182af3b15d5cbe49f2b1b5171db08913adb7f9ce1ce51",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b07.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b07.judge.log",
+    "seconds": 0.9496026039123535
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b07_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "47657ee2f1031e1408ff6020f9963f2453db2c6c6dd2c59cd421902e22a8108c",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b07_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b07_mem.judge.log",
+    "seconds": 1.286085844039917
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b08.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "7a55894ee8fae6aea9520c547950f0214a02eb9b6620a515854ed5f15fb5de2f",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b08.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b08.judge.log",
+    "seconds": 0.9582688808441162
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b08_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "deb36294caf9af30fe6dfa7d7a469bca6307ebe36a801bb86ffa0f6d7cfa66f1",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b08_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b08_mem.judge.log",
+    "seconds": 1.2952134609222412
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b09.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "495f048d5b544cfb1fee69e0581fe46615ac5b73943968779419bb23b03558e6",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b09.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b09.judge.log",
+    "seconds": 0.9816365242004395
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b09_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "5171b51cdc72afe1f8f6685de85f93542e9a4d330587175013bed786aeabb441",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b09_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b09_mem.judge.log",
+    "seconds": 1.3100695610046387
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b10.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "a7d6da360aea9dd85b23d681da46f2dfebc6114d06136b745816b6a2732ad19a",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b10.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b10.judge.log",
+    "seconds": 0.9129774570465088
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b10_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "55c0bbfc45bb2f5580a095f601141807dc4d1e6f65cdbff2fa14010bebc0fdae",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b10_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b10_mem.judge.log",
+    "seconds": 1.2513988018035889
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b11.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "4131d3d639008f2954c25a59bb6938c5e7ffecba0f143fce8fe0f5c1f6db9014",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b11.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b11.judge.log",
+    "seconds": 0.9217455387115479
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b11_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "78ee3e6b9f08661ce1b0360002d3ee63474fa7b8bb7cc71c337e08f38a0a0eb6",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b11_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b11_mem.judge.log",
+    "seconds": 1.2573869228363037
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b12.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "ab612cb6430b50d66ea37b83ce1fc4406811bad0af03d796d276bf8a9051802b",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b12.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b12.judge.log",
+    "seconds": 0.937507152557373
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b12_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "3d0117850237173267b93b43116a183f2dd2ba663373006c2eb4aa177b2ebcb2",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b12_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b12_mem.judge.log",
+    "seconds": 1.278223991394043
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b13.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "2d189b344cdae934aab1a654dc29316c3857bad672bb5016fcbaff075865b358",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b13.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b13.judge.log",
+    "seconds": 1.0065393447875977
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b13_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "70bff478183d166a22a11bcbf38bb0ae58382b36023c0af18f208f7484a3d674",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b13_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b13_mem.judge.log",
+    "seconds": 1.2876977920532227
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b14.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "47732c46c2c6bb49473355eeee1872365dc42911abfbbe8a8b1e1eaff5894c5f",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b14.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b14.judge.log",
+    "seconds": 0.7758398056030273
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b14_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "e28a774ad8dc281e05992eac1ff53a4e87ffb04f62a460e875e9daf2492de631",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b14_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b14_mem.judge.log",
+    "seconds": 1.055098533630371
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b15.s",
+    "model": "out",
+    "result": "PASS",
+    "sha256": "58de363b88c3f92a65a0a314d0a41f76523472b616c86001e0902aceed739524",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b15.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b15.judge.log",
+    "seconds": 0.9394218921661377
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b15_mem.s",
+    "model": "mem",
+    "result": "PASS",
+    "sha256": "20a7bf2f84cba5590c9ab49c4438508bd62df85ef58ca7f3ecc865d72d800a54",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b15_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round7/schedule_control_r2_b15_mem.judge.log",
+    "seconds": 1.1017513275146484
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source": "round5/candidates/near9_repair32.s",
+  "k": 32,
+  "sha256": "2c6c570e713d986cc0660936cd95278b95a4e27d2758879ab782bc1b61e99717",
+  "out": {
+    "pass": true,
+    "file": "round5/candidates/near9_repair32.s",
+    "log": "round5/logs/near9_repair32_out_judge.log"
+  },
+  "mem": {
+    "pass": true,
+    "file": "round5/verified_mem/near9_repair32.s",
+    "log": "round5/logs/near9_repair32_mem_judge.log"
+  }
+}

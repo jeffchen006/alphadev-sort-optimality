@@ -1,0 +1,25 @@
+{
+  "status": "UNKNOWN",
+  "cases": 10,
+  "cpu": 300.03682162599995,
+  "rounds": 0,
+  "args": {
+    "k": 16,
+    "regs": 8,
+    "cmps": 4,
+    "cpu": 300.0,
+    "conflicts": 1000,
+    "batch": 8,
+    "solver": "cadical195",
+    "stem": "merge16_c4"
+  },
+  "total_cpu": 300.04070933800006,
+  "vars": 11308,
+  "clauses": 78169,
+  "stats": {
+    "restarts": 233901,
+    "conflicts": 3812169,
+    "decisions": 15739965,
+    "propagations": 688082785
+  }
+}

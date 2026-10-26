@@ -1,0 +1,29 @@
+{
+  "name": "triples_4307",
+  "free": [
+    19,
+    23,
+    29
+  ],
+  "registers": 13,
+  "status": "finished",
+  "exit": 0,
+  "seconds": 0.15233009960502386,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/triples_4307.s",
+    "--changes",
+    "0",
+    "--registers",
+    "13",
+    "--free",
+    "19,23,29",
+    "--proof"
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "status": "MATCH",
+  "files": 61,
+  "cases_per_file": 541,
+  "records": [
+    {
+      "file": "round8/candidates/failure_control_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s00_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s00_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s00_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s00_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s01_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s01_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s01_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s01_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s02_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s02_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s02_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s02_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s03_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s03_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s03_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s03_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s04_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s04_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s04_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s04_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s05_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s05_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s05_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s05_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s06_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s06_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s06_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s06_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s07_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s07_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s07_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s07_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s08_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s08_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s08_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s08_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s09_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s09_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s09_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s09_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s10_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s10_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s10_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s10_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s11_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s11_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s11_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s11_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s12_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s12_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s12_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s12_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s13_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s13_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s13_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s13_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s14_t0.25_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s14_t0.8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s14_t2.4_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    },
+    {
+      "file": "round8/candidates/failure_s14_t8_near.s",
+      "failed_orders": 9,
+      "output_errors": 9
+    }
+  ]
+}

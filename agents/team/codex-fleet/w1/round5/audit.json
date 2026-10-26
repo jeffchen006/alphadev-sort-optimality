@@ -1,0 +1,10 @@
+{
+  "status": "PASS_AUDIT",
+  "raw_tables_checked": 4,
+  "forward_cost_cells": 3600,
+  "weak_and_strict_cost_tables_equal": true,
+  "forward_total_conditional_move_lower_bound": 12,
+  "distinct_closed_rank_orders": 28,
+  "closed_comparison_placements": 97,
+  "strict_program_pairs": 1
+}

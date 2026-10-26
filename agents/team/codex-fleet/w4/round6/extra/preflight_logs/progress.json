@@ -1,0 +1,31 @@
+{
+  "finished": true,
+  "completed": 25,
+  "planned": 25,
+  "statuses": {
+    "UNKNOWN": 25
+  },
+  "checked_unsat": 0,
+  "query_wall_seconds": 20.814,
+  "solver_cpu_seconds": 0.535,
+  "peak_job_rss_kib": 81272,
+  "decoded_models": 0,
+  "assumptions": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "A2",
+    "A4",
+    "A11"
+  ],
+  "source_sha256": {
+    "controller.py": "65d138e0d6eb1a0982fdf32f46e19d3774e6b923d7e60cfab4b74fc5ef4cad31",
+    "encode.py": "d383c8d3d9f6098a01fa093cbe65f113e9d2310a22d3abf49298f29c9403d357",
+    "audit.py": "1b09b56e20d0a2ba69faaaece035136f8f3fed183a58930a9a00ef907b724d0f",
+    "search.py": "518658d83eb3f787c598813f197bf8a2fb05d5e47cfc7c4dc6092c766f5b44bb",
+    "reference_window.py": "cddc9e5900d0698cdb644bda5e791c52e29d18e512916a0988c12513d18db172",
+    "spine_encode.py": "774b709687440ebd59044636ece6e6dfee565c252eaa475ea2c21a20c74c91bf",
+    "kissat_adapter.py": "3e7b9a7f80983a055f0ba6f00c4452569c010816027c8e642ab76fca3c5a3bd2"
+  }
+}

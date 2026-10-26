@@ -1,0 +1,9 @@
+c turning on binary mode checking
+c parsing input formula with 39969 variables and 1892417 clauses
+c finished parsing, read 429163 bytes from proof file
+c UNSAT via unit propagation on the input instance
+c 7108 of 1892417 clauses in core                            
+c 1 of 22257 lemmas in core using 7108 resolution steps
+c 0 RAT lemmas in core; 0 redundant literals in core lemmas
+s VERIFIED
+c verification time: 1.481 seconds

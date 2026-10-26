@@ -1,0 +1,433 @@
+{
+  "sat_queries": 40,
+  "sat_statuses": {
+    "UNSAT": 40
+  },
+  "mcmc_runs": 60,
+  "mcmc_statuses": {
+    "FINISHED_AT_WALL_LIMIT": 4,
+    "FINISHED": 56
+  },
+  "mcmc_groups": {
+    "0.25": {
+      "runs": 15,
+      "proposals": 351346688,
+      "accepted": 43097499,
+      "best_failures": 9,
+      "cpu_seconds": 560.0031,
+      "saved_le6": 0
+    },
+    "0.8": {
+      "runs": 15,
+      "proposals": 371675136,
+      "accepted": 45592184,
+      "best_failures": 9,
+      "cpu_seconds": 600.0507000000001,
+      "saved_le6": 0
+    },
+    "2.4": {
+      "runs": 15,
+      "proposals": 383287296,
+      "accepted": 47738612,
+      "best_failures": 9,
+      "cpu_seconds": 600.0352,
+      "saved_le6": 0
+    },
+    "8": {
+      "runs": 15,
+      "proposals": 213651456,
+      "accepted": 153540412,
+      "best_failures": 9,
+      "cpu_seconds": 600.0932000000001,
+      "saved_le6": 0
+    }
+  },
+  "proposals": 1319960576,
+  "accepted": 289968707,
+  "best_failures": 9,
+  "saved_le6": [],
+  "sat_cpu_seconds": 871.337208999999,
+  "mcmc_cpu_seconds": 2360.5412140000003,
+  "wall_seconds": 5357.0042083757,
+  "peak_child_rss_kib": 39224,
+  "solve_calls": 40,
+  "sat_models": 0,
+  "score_check": {
+    "status": "MATCH",
+    "files": 61,
+    "cases_per_file": 541,
+    "records": [
+      {
+        "file": "round8/candidates/failure_control_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s00_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s00_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s00_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s00_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s01_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s01_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s01_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s01_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s02_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s02_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s02_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s02_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s03_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s03_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s03_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s03_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s04_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s04_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s04_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s04_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s05_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s05_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s05_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s05_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s06_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s06_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s06_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s06_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s07_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s07_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s07_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s07_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s08_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s08_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s08_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s08_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s09_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s09_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s09_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s09_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s10_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s10_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s10_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s10_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s11_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s11_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s11_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s11_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s12_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s12_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s12_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s12_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s13_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s13_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s13_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s13_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s14_t0.25_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s14_t0.8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s14_t2.4_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      },
+      {
+        "file": "round8/candidates/failure_s14_t8_near.s",
+        "failed_orders": 9,
+        "output_errors": 9
+      }
+    ]
+  },
+  "scope": [
+    "A1: stochastic search, not exhaustive",
+    "A2: SAT uses one fresh register; MCMC uses two",
+    "A11: window fixes every outside instruction"
+  ],
+  "source_hashes": {
+    "round8/src/check.py": "539c3bec618d54836f24c105b053babab0a2f043bf1a2ff049c4acb0ef975432",
+    "round8/src/failure_search.cpp": "64a1957bbfc0f65d4fcfc8be94e5a321c81857ce5f2db50320f0d16439ed30e3",
+    "round8/src/finalize.py": "01449229347efe377a56401bca77084d2bd0101724328d9ec378a9f4b94ef665",
+    "round8/src/hot.py": "d8e41a4c2f828d3ea59079ce00bbbd7283aca298edd482b9bbad60bc95a718ce",
+    "round8/src/mine.py": "f160329531020f072d3c3993e894cd072648cf30269a82991ad1c0b035024c7c",
+    "round8/src/prepare.py": "596c2284c62127d5de85601bc288264ff2a9173b4c371d0a0559df056b0ce19a",
+    "round8/src/report.py": "41fe168e67cd692a2ad9f75b24e345a420b0971e4715f91db3f4b65838be42a6",
+    "round8/src/run.py": "c59ec27c132d50521c5e45709bb91d02d0bcf24e18215d60e756602980eee018",
+    "round8/src/status.py": "a806f8c457f690f6ae1ba1feb1261471d6bb115bfbb0279c3cc8226e3c6a86d1",
+    "round8/src/verify.py": "91c51fca5684efed1778800cb1892106f089eafc990798fbee0298d5b709cec7",
+    "round8/src/window.py": "6411e255affcff47b5130639fc086d87a0dc20efa93b739e6e341b8dd2d1d7e6",
+    "src/local.cpp": "0b9f001ff5860e38907ae655780e338f46a42f62e566755ece7d95924065c7d9",
+    "src/window_sat.py": "cddc9e5900d0698cdb644bda5e791c52e29d18e512916a0988c12513d18db172",
+    "round7/src/binary_encode.py": "b395cc1e60059916540addff5fb065bf6e740fac8d04b5b6e1e957c756850c57",
+    "round3/src/rank_encode.py": "5960ad2fee12dee27738b588085d45e0b9501b53074a9d575766f3839f50726a",
+    "round3/src/satrep.py": "2fc41dd3edb2c0987bae38d022b7415590084e04bf9dce748f196627857e7dcb"
+  },
+  "judges": [],
+  "sat_groups": {
+    "6": {
+      "UNSAT": 25
+    },
+    "7": {
+      "UNSAT": 7
+    },
+    "8": {
+      "UNSAT": 8
+    }
+  },
+  "audited_cut_dependencies": 41,
+  "round7_overlay": {
+    "distinct_window_queries": 465,
+    "scoped_unsat": 302,
+    "remaining_unknown": 163,
+    "note": "Updates only the selected formerly UNKNOWN scopes; does not add distinct windows."
+  },
+  "model_mining": {
+    "models": 0,
+    "unique_programs": 0,
+    "failure_histogram": {},
+    "retained": [],
+    "seconds": 0.28772971499711275
+  },
+  "seed_hashes": {
+    "round6/candidates/mem_b5_c9t0.5_near_31_out.s": "4c8505703c6fcab5ceea7d567db685912b72584b962ab35b4e996fbeffd97e68",
+    "round6/candidates/mem_b5_c9t0.5_near_27_out.s": "f02371b86189ae8a3b14c706bf485ef316b2d2c69bf00363c411f89faec32958",
+    "round6/candidates/mem_a4_c8t1.2_near_699_out.s": "32bbd57b63583bf660981be23ed1aef158279ccf6fbf32ff3ca81054627177ce",
+    "round6/candidates/mem_a4_c8t1.2_near_729_out.s": "44fb170a540fd37c9bad795ae8cca9689c6142069d9d7db99b16c0076c36a03b",
+    "round6/candidates/mem_a4_c8t1.2_near_2023_out.s": "b5136d3a8909e945e55bb0c8ad68bb745b790d13cbe91067b8978d876cb67120",
+    "round6/candidates/mem_a4_c8t1.2_near_425_out.s": "223f56ac93d528e3f96ae701dc63df93c59200dbd690eaf1ef51e9c48af5c199",
+    "round6/candidates/mem_a4_c8t1.2_near_460_out.s": "273bc44e935f59ec289d192d0698b168ca3dedf8ab88a70fcffc8be6cdfd6539",
+    "round6/candidates/mem_a4_c8t1.2_near_469_out.s": "edb7c1548546e0f84453f493abce8d8a9fcce7aaeb800021a97171e70767a2a9",
+    "round6/candidates/mem_a4_c8t1.2_near_1440_out.s": "24efa2544b4d69cc888a3fcccd98665d7ab0d3c3162fc3531f6c73484fc3df11",
+    "round6/candidates/mem_a4_c8t1.2_near_447_out.s": "74891f12b73a6e7309c01568a2e226d24b86382b9351cb7a20e77abd5f1dcd1c",
+    "round6/candidates/mem_a4_c8t1.2_near_624_out.s": "7523a8d0b847ea40e628dacf04d53c0f98f618b5ec80711b1693f76c9742fda7",
+    "round6/candidates/mem_a4_c8t1.2_near_1347_out.s": "bf0634d6e725fa59fc53bc81d166a1eb84a7ea26636dda3bce49adc01f0629b3",
+    "round6/candidates/mem_a4_c8t1.2_near_2036_out.s": "ca86e45c2b378c108182fdfe041e71fc39578099ba6ea32a2fd4810d49b07678",
+    "round6/candidates/mem_a4_c8t1.2_near_1999_out.s": "08abf472e81fb31b76588f9012692734bcac790694fac1fc317b6c89732a6519",
+    "round6/candidates/mem_a4_c8t1.2_near_10_out.s": "9bb73e10f610c6becb2c29069041b7e4ecbd2ae3c1a833adeb07e865abc9df8d"
+  }
+}

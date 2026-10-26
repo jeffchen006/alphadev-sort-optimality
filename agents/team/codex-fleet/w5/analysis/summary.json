@@ -1,0 +1,62 @@
+{
+  "walks": [
+    {
+      "name": "walk00",
+      "moves": 657714612,
+      "accepted": 12184658,
+      "unique": 10900050,
+      "trials": 988368527,
+      "seconds": 601.834
+    },
+    {
+      "name": "walk27repair",
+      "moves": 7020341,
+      "accepted": 118989,
+      "unique": 107000,
+      "trials": 7117656616,
+      "seconds": 600.2
+    },
+    {
+      "name": "walk30",
+      "moves": 3230644,
+      "accepted": 73821,
+      "unique": 58500,
+      "trials": 7647600013,
+      "seconds": 601.026
+    },
+    {
+      "name": "c8_walk1",
+      "moves": 12080833,
+      "accepted": 224867,
+      "unique": 193500,
+      "trials": 5472537245,
+      "seconds": 600.368
+    },
+    {
+      "name": "c8_walk2",
+      "moves": 12163237,
+      "accepted": 225872,
+      "unique": 194400,
+      "trials": 5498015250,
+      "seconds": 600.743
+    },
+    {
+      "name": "c8_walk3",
+      "moves": 12781671,
+      "accepted": 248524,
+      "unique": 214800,
+      "trials": 6074333084,
+      "seconds": 600.3
+    },
+    {
+      "name": "c8_walk4",
+      "moves": 13438774,
+      "accepted": 246481,
+      "unique": 210600,
+      "trials": 5956437223,
+      "seconds": 600.365
+    }
+  ],
+  "seed_delete_and_repair_trials": 257671968,
+  "seed_cmp_cmov_repair_trials": 2583112698
+}

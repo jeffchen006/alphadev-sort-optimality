@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n3_k10_lattice.json",
+  "cnf_sha256": "14cf5a58f30952cfcb72c5330c38f06d871a01c665ff5e780ef9a47a3b03e714",
+  "proof_sha256": "ae7453e2128e0ed1894ad16ef9b8e004ea86bd63beed6df9f08a858fc973250b",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 6.345429005101323
+}

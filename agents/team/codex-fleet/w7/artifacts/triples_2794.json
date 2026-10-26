@@ -1,0 +1,29 @@
+{
+  "name": "triples_2794",
+  "free": [
+    8,
+    12,
+    23
+  ],
+  "registers": 13,
+  "status": "finished",
+  "exit": 0,
+  "seconds": 0.4684408726170659,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/triples_2794.s",
+    "--changes",
+    "0",
+    "--registers",
+    "13",
+    "--free",
+    "8,12,23",
+    "--proof"
+  ]
+}

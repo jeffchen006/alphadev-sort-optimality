@@ -1,0 +1,1292 @@
+[
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_00.s",
+    "sha256": "3c8ad24d850f0c37ce4767d7cd3fe4954a1c58ce39d218136360125ae10aea79",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_00.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_00.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_00_mem.s",
+    "sha256": "1277851891ddb2bc6ec1293ffef8dcd7be7a47ff6d7799434400dbff0fac6fce",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_00_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_00_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_01.s",
+    "sha256": "3ffa34113d0f2a4d555ed075a626fea6997a5eb8f4fa6a98e6d450163e6e6027",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_01.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_01.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_01_mem.s",
+    "sha256": "5b5389af4db3b536984edfb2302631641eeeb9f9e3da83f86f8124f3447820b9",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_01_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_01_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_02.s",
+    "sha256": "08b9476fe7d10749179c8b66c7fb95092038ae3bd86776b64246842e2c285743",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_02.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_02.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_02_mem.s",
+    "sha256": "9e86db130efc9a3d7b046cd1cea15423de151a48e60927b7ade1bc465bb291d6",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_02_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_02_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_03.s",
+    "sha256": "3a9f86182accd2d9ce519ce256ead9e48ee1f2b2cbdba878558c6e41ffba595a",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_03.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_03.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_03_mem.s",
+    "sha256": "c76bcf84865b7e1560bdc14fbb2746f17cd727869d552f37fac9141336d56d6d",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_03_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_03_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_04.s",
+    "sha256": "1111c455e7da6475e676fb2d6499e3b5fad5dc33305af0c7391ce2ca507e05d5",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_04.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_04.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_04_mem.s",
+    "sha256": "8d6058b4a985437b650dcb75dd443e501173fdf13c78903cf13ec6ce9be73999",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_04_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_04_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_05.s",
+    "sha256": "548f992a1d6854138a9328b67dbe02812072549a029ce6eea365b39d981caa5d",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_05.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_05.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_05_mem.s",
+    "sha256": "f81e477bfe99b68f27de74cfb74b0783f31a674812ac93af722fe44e20bd22ef",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_05_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_05_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_06.s",
+    "sha256": "47cc9cee03070f7ea67a78a9c400682de34dd369bace8e2805a0788ab8ade034",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_06.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_06.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_06_mem.s",
+    "sha256": "02fbeea6887035d6a4a1b2b66ee596b3571a9df3ef605f14be20b154109f611b",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_06_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_06_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_07.s",
+    "sha256": "e7384bab091f2ab266cbfb1df307c8f3c430f38f8eafa857462ac1859f332bbe",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_07.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_07.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_07_mem.s",
+    "sha256": "3b2be3c71a2fbc614140edc168dffa12f8599b2a64ae1dc635d58fe4f9e9adbe",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_07_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_07_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_08.s",
+    "sha256": "a81bce4eec5038828bd3ca6abe30a525f991e29200db67247d87af19508ebf02",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_08.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_08.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_08_mem.s",
+    "sha256": "a947dcf7fb6b89c3d51ac04ec0fc50ab78417c8ce20006fdb0b2b215226bfcc9",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_08_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_08_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_09.s",
+    "sha256": "9a51902f6857f26ac46cff088dee0acba2a80ead466d0788debfde76407eb6e7",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_09.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_09.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_09_mem.s",
+    "sha256": "ec8005cbe8b467ffcf919b11f0b464f124023f1bfe287a27ea9d17fdbda58fda",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_09_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_09_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_10.s",
+    "sha256": "57490aa2c745197e08292dc9b93d4d8697aaeff73017499282d9c2acc2d12064",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_10.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_10.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_10_mem.s",
+    "sha256": "6c26b1db325c89f842ba10f24f9f170fcfd5ed60209cf1a2995909068fdc337a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_10_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_10_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_11.s",
+    "sha256": "df31cc30d0c85600675ae581eec7d0816e80cf8f5216dec5cba115c00833966c",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_11.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_11.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_11_mem.s",
+    "sha256": "013c7d831953b8f1448b227293b3ab5a7f0a960a6e13e4f389fb50c8aa7a026a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_11_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_11_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_12.s",
+    "sha256": "a008b8158a5383e3a16e5c57ddac0845a014b6b1f74f5d40c1b683692f482856",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_12.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_12.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_12_mem.s",
+    "sha256": "8c7f061adf31cf0c07573145fefb962ffd0725adde48c7c872353e0730755ab0",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_12_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_12_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_13.s",
+    "sha256": "e252b1a70b16477b336b72c5164245fb9a773cce8c9863bfdce13f2ec09e39ca",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_13.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_13.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_13_mem.s",
+    "sha256": "450cb7e49c8b1c1780f6fce90932ea30075eefbd0d655f836c5e1074bd3c230d",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_13_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_13_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_14.s",
+    "sha256": "09817a9909fff7ec301beb83e2eb2c195bfef91894f1f543883ed0da93c153b6",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_14.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_14.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_14_mem.s",
+    "sha256": "81fbc04a6a6744f78a2a9f95de66f0f289687594715bf8904d4044f494e4b201",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_14_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_14_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_15.s",
+    "sha256": "0624dc0205e63852fe06175155709981360bdeb3aa9ea29251d240466e108c9c",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_15.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_15.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_15_mem.s",
+    "sha256": "96982f7be72bfca991a7b6acfefa4884f8a6938a877c6b3d5245467f1123da3d",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_15_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_15_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_16.s",
+    "sha256": "68b4889177581d7ab0f08c6a969287ebb20c20aa823287402635a5f0e3b209ba",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_16.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_16.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_16_mem.s",
+    "sha256": "25c4fb182302c98d0922606a552e6853d257ba659c107ee3a0528e834e9c867b",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_16_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_16_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_17.s",
+    "sha256": "6cf5b0e1ea2fe07b5027508e477ac0d0b8dce24cd5e0360bb1c09560ba91a4e4",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_17.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_17.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_17_mem.s",
+    "sha256": "31a25b16bb10969d16a22ddfe46374c56d4c4a7d8412573965791de646b359e6",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_17_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_17_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_18.s",
+    "sha256": "005e2b8d8173147a7e60fde6774b9f0cf9271dca9f7c95ee0e1d200577b91a71",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_18.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_18.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_18_mem.s",
+    "sha256": "69c4f8c632090fffcd05c2915874baba7808483acdba14f05451de10f905ff21",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_18_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_18_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_19.s",
+    "sha256": "c7ced7ba6d86ebf2cab16bd731dd92e6aeb9f15cb283fc59279da2fa942c43a5",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_19.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_19.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_19_mem.s",
+    "sha256": "0abd4724d8ad010a4559525d1c3dd94e5dffd6ec57f06cfa51c818815f86944c",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_19_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_19_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_20.s",
+    "sha256": "a09ed63028734f0600ec707e8a2ef5d9481e46e98d1380bc1a244eb693074ac1",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_20.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_20.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_20_mem.s",
+    "sha256": "403bb4769129d695d8b755a1f796cc484309db5e8bc3568b03fd4249f9d7d56e",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_20_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_20_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_21.s",
+    "sha256": "2841cdeeee5b8320a72d33863ade647233fa2ff02f37482fbdaa13b9346ee559",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_21.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_21.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_21_mem.s",
+    "sha256": "d96b7d62a70b31a757d96db9cb7f04d373137fc02522d202835f2306003d5503",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_21_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_21_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_22.s",
+    "sha256": "1cc608fef8a62ac072808dd8ff7b58a74d6c2348f75d112fc525161244097477",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_22.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_22.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_22_mem.s",
+    "sha256": "7cedbf3ed69a6d4e153a9a8fbfc3a1f04b67082de41be5102218734f28d8a575",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_22_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_22_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_23.s",
+    "sha256": "d4018f3559bdb9c6ea2d4ddb313992c02f8cf18e199050445a3cef0d922e257d",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_23.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_23.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_23_mem.s",
+    "sha256": "e6d193f5dd4a2c3c9c0cbc5728468b3a255d047cc04328bb3f9220f5cf3eaafb",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_23_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_23_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_24.s",
+    "sha256": "81d6edae87eeaaae7b0c9854ae0c562fb410ea4285b75f304421176af86080c0",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_24.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_24.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_24_mem.s",
+    "sha256": "14fa3c0efb69bec2798a37c8674aceef916c6ad6c63bb23795356e75c5eaa954",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_24_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_24_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_25.s",
+    "sha256": "2d0b3d0f486d7339b72ffaefe5edb18620209c4a216a60ed74e7e4966b3317bb",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_25.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_25.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_25_mem.s",
+    "sha256": "568a81426b2c82678d6df256a7d324cc354174157bf73a0b6b473d0b32f4ff99",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_25_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c9_control_25_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_00.s",
+    "sha256": "d655e34c55a5c657da25ba1049bd61f971d1e4e201a04b9c79b23f511899c057",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_00.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_00.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_00_mem.s",
+    "sha256": "86c40d7df74db5e9452a7ef42db29a102fb4b8bb2130b407f50e81bbf77756ec",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_00_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_00_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_01.s",
+    "sha256": "cbddc8e9bbc179ece2e7833dc3ed422142db7797f074d0e54458346b790237ee",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_01.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_01.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_01_mem.s",
+    "sha256": "5c070291219e26e62ec67d47064f2cb1ed94efa191e781705204c610fa354d8a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_01_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_01_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_02.s",
+    "sha256": "c4ad9c7ec9e63b80c74ab344ee0705787fc13bedf620263c1c9be537f7cedbe2",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_02.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_02.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_02_mem.s",
+    "sha256": "05a43af2c369c2e8731c45c015a64c3a8f4b61287dea6866b33662a81b508e44",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_02_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_02_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_03.s",
+    "sha256": "3cccab559bea69cefceb1a91446e7421c2dada1d1e310bde868561a06d6c9a7a",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_03.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_03.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_03_mem.s",
+    "sha256": "0643a72caddae8b81eb151ad49a4a08a51a77ede9accb84380d20fdcbce1e71d",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_03_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_03_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_04.s",
+    "sha256": "9e25300c85d0ee4485291a54ce8ca83c4760c0f43a8d0bf7c1bbcb27a53f0a49",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_04.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_04.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_04_mem.s",
+    "sha256": "8fc98650ee47160d85ff8bf1474a202b67b03a21c48df469651b0affc3134c38",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_04_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_04_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_05.s",
+    "sha256": "78909ca6fe80045cddaac3d64560a75b6b426f994077667fb56579031ef13ad1",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_05.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_05.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_05_mem.s",
+    "sha256": "4b351d380cb9fa91674001690b1c8e109f920a1ba89b9aba1d4ac9779cffc56c",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_05_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_05_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_06.s",
+    "sha256": "2fc62be5e60c55623b883126c370f74fa79a9fdb195cc00a9f43c089ae08bde6",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_06.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_06.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_06_mem.s",
+    "sha256": "9cd731554ecf63f91d73df4204d42bb26384563791ac32b1306478d025add063",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_06_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_06_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_07.s",
+    "sha256": "a1b4bb8e61940b600345943eac2499e41395177d1b1f5e00e96dfc4a21ba1858",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_07.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_07.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_07_mem.s",
+    "sha256": "61995c89c11c9475001b925cccc304ab0629a70db90256caeb9c26e8b68b0a20",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_07_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_control_07_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_00.s",
+    "sha256": "d655e34c55a5c657da25ba1049bd61f971d1e4e201a04b9c79b23f511899c057",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_00.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_00.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_00_mem.s",
+    "sha256": "86c40d7df74db5e9452a7ef42db29a102fb4b8bb2130b407f50e81bbf77756ec",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_00_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_00_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_01.s",
+    "sha256": "cbddc8e9bbc179ece2e7833dc3ed422142db7797f074d0e54458346b790237ee",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_01.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_01.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_01_mem.s",
+    "sha256": "5c070291219e26e62ec67d47064f2cb1ed94efa191e781705204c610fa354d8a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_01_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_01_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_02.s",
+    "sha256": "c4ad9c7ec9e63b80c74ab344ee0705787fc13bedf620263c1c9be537f7cedbe2",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_02.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_02.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_02_mem.s",
+    "sha256": "05a43af2c369c2e8731c45c015a64c3a8f4b61287dea6866b33662a81b508e44",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_02_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_02_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_03.s",
+    "sha256": "3cccab559bea69cefceb1a91446e7421c2dada1d1e310bde868561a06d6c9a7a",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_03.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_03.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_03_mem.s",
+    "sha256": "0643a72caddae8b81eb151ad49a4a08a51a77ede9accb84380d20fdcbce1e71d",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_03_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_03_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_04.s",
+    "sha256": "9e25300c85d0ee4485291a54ce8ca83c4760c0f43a8d0bf7c1bbcb27a53f0a49",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_04.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_04.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_04_mem.s",
+    "sha256": "8fc98650ee47160d85ff8bf1474a202b67b03a21c48df469651b0affc3134c38",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_04_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_04_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_05.s",
+    "sha256": "78909ca6fe80045cddaac3d64560a75b6b426f994077667fb56579031ef13ad1",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_05.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_05.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_05_mem.s",
+    "sha256": "4b351d380cb9fa91674001690b1c8e109f920a1ba89b9aba1d4ac9779cffc56c",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_05_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_05_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_06.s",
+    "sha256": "2fc62be5e60c55623b883126c370f74fa79a9fdb195cc00a9f43c089ae08bde6",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_06.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_06.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_06_mem.s",
+    "sha256": "9cd731554ecf63f91d73df4204d42bb26384563791ac32b1306478d025add063",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_06_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_06_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_07.s",
+    "sha256": "a1b4bb8e61940b600345943eac2499e41395177d1b1f5e00e96dfc4a21ba1858",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_07.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_07.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_07_mem.s",
+    "sha256": "61995c89c11c9475001b925cccc304ab0629a70db90256caeb9c26e8b68b0a20",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_07_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_07_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_08.s",
+    "sha256": "52be9a1348c7ff55c22feb090214ba0b36cec3ca1e80a23ad1d15c16d9d91af0",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_08.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_08.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_08_mem.s",
+    "sha256": "146fd2080091e7f869a663eff15192f10dc4315ef2befefb42917a6e947db8ac",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_08_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round9/c8_schedule3_control_08_mem.judge.log"
+  }
+]

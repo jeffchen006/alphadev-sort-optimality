@@ -1,0 +1,9 @@
+{
+  "analyzed": 868567,
+  "cpu_milliseconds": 159940,
+  "full_lattice_plus_partial": 368301,
+  "noncompletable_partial": 5706,
+  "normalization_success": 368301,
+  "reached_eof": 1,
+  "with_partial": 441515
+}

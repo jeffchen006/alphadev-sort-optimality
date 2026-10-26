@@ -1,0 +1,18 @@
+#!/bin/bash
+case "$1:$4" in
+  sk/recompute9_wide/*:3000000)
+    if [ ! -f .recompute9_gatecap_control_ready ]; then
+      nice -n 19 python3 src/prog2skel.py 5 programs/control_c10_k33.s > sk/recompute9_gatecap_control.txt || exit 1
+      MAXGATES=18 nice -n 19 ./dagx_gatecap_exact_bin sk/recompute9_gatecap_control.txt 33 1 3000000 > logs/recompute9_gatecap_control33_fixed.log 2>&1 || exit 1
+      nice -n 19 python3 src/verify_log.py logs/recompute9_gatecap_control33_fixed.log recompute9_gatecap_control33 > logs/recompute9_gatecap_control33_verify.log 2>&1 || exit 1
+      if [ "$(rg -c '^PASS ' logs/recompute9_gatecap_control33_verify.log)" != 2 ]; then
+        printf 'RESULT ERROR gatecap_positive_control_failed (unknown)\n'
+        exit 1
+      fi
+      touch .recompute9_gatecap_control_ready
+    fi
+    printf 'ROUND_BUDGET requested_nodes=%s actual_nodes=300000 finite_first_pass gate_cap=19\n' "$4"
+    exec ./dagx_gatecap_exact_bin "$1" "$2" "$3" 300000
+    ;;
+  *) exec ./dagx_gatecap_exact_bin "$@" ;;
+esac

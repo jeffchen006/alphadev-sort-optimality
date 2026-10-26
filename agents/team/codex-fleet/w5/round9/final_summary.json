@@ -1,0 +1,63 @@
+{
+  "planned": 580,
+  "finished": 580,
+  "unstarted": 0,
+  "selected_seeds": [
+    87,
+    101,
+    110,
+    14,
+    35,
+    37,
+    49,
+    54,
+    55,
+    85,
+    134,
+    136,
+    0,
+    2,
+    3,
+    6,
+    7,
+    9,
+    10,
+    12
+  ],
+  "status_counts": {
+    "UNSAT": 580
+  },
+  "solver_calls": 640,
+  "queries_with_refinement": 27,
+  "query_seconds": 5374.701862244867,
+  "max_query_seconds": 47.22050214745104,
+  "max_observed_job_rss_kib": 68036,
+  "passes": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round9/verified/window4_control32.s",
+      "model": "out",
+      "k": 32,
+      "code": 0,
+      "passed": true,
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round9/logs/judge_window4_control32.log",
+      "sha256": "8e765a24da31b8cee5546e1d747775ee101c022f87c426a8791f40938756d1a3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round9/verified/window4_control32_mem.s",
+      "model": "mem",
+      "k": 32,
+      "code": 0,
+      "passed": true,
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round9/logs/judge_window4_control32_mem.log",
+      "sha256": "e91c82e48a18ffcb55bc6c71a66cb57ede59d53fffb435bab0b6e101e7a6f3a4"
+    }
+  ],
+  "all_jobs_finished": true,
+  "assumption_tags": [
+    "G1",
+    "G2",
+    "G3",
+    "A2",
+    "A11"
+  ]
+}

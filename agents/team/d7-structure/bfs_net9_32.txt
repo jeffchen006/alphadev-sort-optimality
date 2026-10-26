@@ -1,0 +1,177 @@
+net9_101 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_10 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_0 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_1 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_104 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_102 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_100 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_103 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_106 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_105 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_11 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_110 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_107 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_111 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_108 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_112 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_114 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_109 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_113 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_116 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_117 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_115 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_119 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_118 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_12 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_121 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_120 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_123 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_125 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_124 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_126 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_127 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_128 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_129 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_122 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_13 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_131 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_130 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_134 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_133 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_132 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_135 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_136 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_139 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_137 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_138 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_14 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_141 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_140 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_144 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_143 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_145 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_146 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_142 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_148 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_147 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_150 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_149 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_15 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_153 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_152 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_154 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_155 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_151 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_159 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_156 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_16 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_158 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_160 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_157 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_162 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_163 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_166 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_164 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_165 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_161 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_168 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_170 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_169 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_167 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_171 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_174 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_172 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_173 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_17 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_176 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_175 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_18 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_2 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_19 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_21 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_22 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_24 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_20 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_26 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_25 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_23 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_27 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_28 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_30 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_29 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_3 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_32 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_35 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_33 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_31 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_36 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_38 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_39 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_34 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_37 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_4 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_40 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_44 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_42 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_41 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_43 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_45 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_47 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_46 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_48 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_51 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_52 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_5 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_49 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_53 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_54 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_50 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_57 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_56 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_55 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_60 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_58 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_6 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_62 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_59 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_61 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_65 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_67 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_64 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_66 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_63 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_7 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_69 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_71 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_74 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_70 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_73 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_68 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_75 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_72 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_76 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_80 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_78 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_77 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_79 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_8 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_81 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_84 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_83 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_85 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_87 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_82 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_9 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_90 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_86 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_88 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_89 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_92 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_91 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_93 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_98 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_97 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_94 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_95 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 
+net9_99 R = 10 (auto: 5 + K - creations - blocks = 10) NONE <= 32 
+net9_96 R = 10 (auto: 5 + K - creations - blocks = 10) MIN k = 32 

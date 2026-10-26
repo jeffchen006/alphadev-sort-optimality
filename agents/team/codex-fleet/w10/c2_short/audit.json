@@ -1,0 +1,52 @@
+{
+  "created": "2026-10-26T07:30:22.464276+00:00",
+  "cases": 1351,
+  "complete_short_pass": true,
+  "status_counts": {
+    "UNKNOWN": 1351
+  },
+  "per_c": {
+    "9": {
+      "UNKNOWN": 254
+    },
+    "10": {
+      "UNKNOWN": 232
+    },
+    "11": {
+      "UNKNOWN": 211
+    },
+    "12": {
+      "UNKNOWN": 191
+    },
+    "13": {
+      "UNKNOWN": 172
+    },
+    "14": {
+      "UNKNOWN": 154
+    },
+    "15": {
+      "UNKNOWN": 137
+    }
+  },
+  "max_solver_rss_bytes": 69210112,
+  "summed_reported_solver_cpu_seconds": 4481.93,
+  "reconstructed_formula_hashes_checked": 1351,
+  "artifacts": {
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c9.cnf": "92bd9e5cb905bb9d0f2352614b3836223473a17f91d5f8cd403e66e38b1b971e",
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c10.cnf": "ac1889e0fe81bfb4c420ca651539b223c410c4246c5d5a557e3591cd275bec6b",
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c11.cnf": "f66d049fcaf623b3a9b48aef5b6ee218c3aa1d357f412573135fd97fabfbfdab",
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c12.cnf": "643c0dd1c24d7bbddd0754ef172ef327c6397231ada141f181a98012612b3868",
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c13.cnf": "f6c6e8f1b44d05c1d7866e0c8840542f8c66c2a99eabc4bbdf66fafcb825d44d",
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c14.cnf": "4463d0c20cb18f7d7f292cae3befde8e255f87e7b0aa94cfb94ac2cc2a7edb35",
+    "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c15.cnf": "9d0913c8e1f4dbdd94e432e2a1ae4e7295f570582ce482a9ed534d1be7be7aab",
+    "/path/to/repo/agents/team/codex-fleet/w10/src/c2_short_audit.py": "c920daa54af3fa82d7fbf154ceb5c0afd6e2aecdb49676c4431e3fc318a7dfc8",
+    "/path/to/repo/agents/team/codex-fleet/w10/src/c2_short.py": "818bc65df68fb70403686628f068c1dec26d133dfb5ba612f4686826f14f3133",
+    "/path/to/repo/agents/team/codex-fleet/w10/round5/C2_COVERAGE.md": "ea64a126bf0566771ff18f746a29a02bcf18d3a2cb3ceea3cd4f207e7f8220ba"
+  },
+  "post_audit_watch_extension": {
+    "created": "2026-10-26T07:32:31.196188+00:00",
+    "original_runner_sha256": "0290f077229c291c6d2f55fa8ab6b3920d4dd377fcf9554ac1e2d08d130af277",
+    "current_runner_sha256": "818bc65df68fb70403686628f068c1dec26d133dfb5ba612f4686826f14f3133",
+    "note": "Added the external-result watcher after the completed short-pass audit. The solver, formula builder and case-audit functions did not change."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "n": 2,
+  "k": 4,
+  "c": 1,
+  "mode": "partial",
+  "cases": "weak",
+  "network": null,
+  "blocks": null,
+  "fixed": null,
+  "free_first": false,
+  "tag": "round2/n2_k4_partial",
+  "timeout": 20,
+  "proof": true,
+  "variables": 143,
+  "clauses": 754,
+  "orders": 3,
+  "build_seconds": 0.003387157805263996,
+  "cnf_sha256": "2135e882a5790854c7be4fdafa3cb2739843484b8b9c382b356c3c22be792d33",
+  "returncode": 10,
+  "status": "SATISFIABLE",
+  "elapsed_seconds": 0.02133981231600046,
+  "assignment_checked": true
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "file": "round10/sk_single/s00058.txt",
+    "seed": "round6/candidates/mem_a4_c8t1.2_near_2023_out.s",
+    "base": 4,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "fixed_transformed_repeat",
+    "alternatives": 1,
+    "sha256": "225df0a4e2444e45267de038c050c06d60f0539564848ed6cf577c1e505a1451",
+    "alternative": 0,
+    "required_noninput": 15,
+    "parent": "round10/sk_expanded/e00259.txt",
+    "rank_in_base": 3,
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/s00058_fast_k31_order1_retry.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_single/s00058.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 180,
+    "node_limit": null,
+    "wall_seconds": 180.009757257998,
+    "cpu_seconds": 166.08608999999998,
+    "max_rss_kib": 16052,
+    "result": null,
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 1,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  },
+  {
+    "file": "round10/sk_single/s00066.txt",
+    "seed": "round6/candidates/mem_a4_c8t1.2_near_2036_out.s",
+    "base": 12,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "fixed_transformed_repeat",
+    "alternatives": 1,
+    "sha256": "a449010032a98c25b93864f7ea1dc668d0eaa7321269dac4e65b689914145109",
+    "alternative": 0,
+    "required_noninput": 15,
+    "parent": "round10/sk_expanded/e00835.txt",
+    "rank_in_base": 3,
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/s00066_fast_k31_order1_retry.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_single/s00066.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 180,
+    "node_limit": null,
+    "wall_seconds": 180.01420631539077,
+    "cpu_seconds": 164.28423700000005,
+    "max_rss_kib": 16052,
+    "result": null,
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 1,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  },
+  {
+    "file": "round10/sk_single/s00140.txt",
+    "seed": "round6/candidates/mem_a4_c8t1.2_near_10_out.s",
+    "base": 14,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "fixed_transformed_repeat",
+    "alternatives": 1,
+    "sha256": "77bab35de4848095df5a17be2fef65f0b2ba4a9db7d4f7b35a356a36aa4285b7",
+    "alternative": 0,
+    "required_noninput": 15,
+    "parent": "round10/sk_expanded/e00979.txt",
+    "rank_in_base": 7,
+    "status": "NONE",
+    "exit_code": 0,
+    "log": "round10/logs/s00140_fast_k31_order1_retry.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_single/s00140.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 180,
+    "node_limit": null,
+    "wall_seconds": 54.82298313360661,
+    "cpu_seconds": 51.907041000000014,
+    "max_rss_kib": 16052,
+    "result": "NONE K=31 calls=61640027 leaves=0 sols=0 best=-1 time=54.8s",
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 1,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  },
+  {
+    "file": "round10/sk_single/s00141.txt",
+    "seed": "round5/verified/near9_repair32.s",
+    "base": 15,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "fixed_transformed_repeat",
+    "alternatives": 1,
+    "sha256": "45ff71aef08c5d86258e192c1cf8550bd3197d426cb4e74357f4748e0f155177",
+    "alternative": 0,
+    "required_noninput": 15,
+    "parent": "round10/sk_expanded/e01051.txt",
+    "rank_in_base": 7,
+    "status": "NONE",
+    "exit_code": 0,
+    "log": "round10/logs/s00141_fast_k31_order1_retry.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_single/s00141.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 180,
+    "node_limit": null,
+    "wall_seconds": 122.98669262602925,
+    "cpu_seconds": 116.71004500000001,
+    "max_rss_kib": 16052,
+    "result": "NONE K=31 calls=121061067 leaves=0 sols=0 best=-1 time=122.9s",
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 1,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  }
+]

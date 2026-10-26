@@ -1,0 +1,28 @@
+{
+  "status": "UNSAT",
+  "cpu": 0.144932911,
+  "cases": 12,
+  "rounds": 0,
+  "args": {
+    "base": 10,
+    "mode": "exclusive",
+    "tail": 6,
+    "cpu": 60,
+    "extra": 2,
+    "control": false,
+    "stem": "exclusive10"
+  },
+  "editable": [
+    16,
+    21,
+    31
+  ],
+  "vars": 5412,
+  "clauses": 47786,
+  "stats": {
+    "restarts": 33,
+    "conflicts": 623,
+    "decisions": 3669,
+    "propagations": 438565
+  }
+}

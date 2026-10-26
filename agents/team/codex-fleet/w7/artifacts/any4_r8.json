@@ -1,0 +1,21 @@
+{
+  "name": "any4_r8",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/any4_r8.s",
+    "--changes",
+    "4",
+    "--registers",
+    "8"
+  ],
+  "limit": 1800,
+  "seconds": 1800.135969819501,
+  "exit": -15,
+  "status": "timeout"
+}

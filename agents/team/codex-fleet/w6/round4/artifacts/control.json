@@ -1,0 +1,20 @@
+{
+  "name": "control",
+  "command": [
+    "./round4/search",
+    "round4/artifacts/all.txt",
+    "0",
+    "1",
+    "control",
+    "round4/candidates/check",
+    "1"
+  ],
+  "wall_limit": 30.0,
+  "exit": 0,
+  "seconds": 0.008163465186953545,
+  "log": "round4/logs/control.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

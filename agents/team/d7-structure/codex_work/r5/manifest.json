@@ -1,0 +1,1640 @@
+[
+  {
+    "id": "trim_control",
+    "idea": "Original 25-term pool; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_control.txt",
+    "size": 23
+  },
+  {
+    "id": "trim_bound_CEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CEmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_AEmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CEmin_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_ADmin.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_CEmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CEmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CDmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CDmax_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CDmax_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_AEmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CDmax_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_ADmin.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_CDmax_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CDmax_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmax_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmax_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_AEmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmax_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_ADmin.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_BEmax_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmax_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BCpair_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BCpair_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BCpair_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_AEmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BCpair_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_ADmin.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_BCpair_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BCpair_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_AEmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmin_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_ADmin.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_BEmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_BEmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_LEmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_LEmax_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_LEmax_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_AEmax.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_LEmax_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_LEmax_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CLmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_BLmin.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CLmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_BLmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CLmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_AEmax.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CLmin_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_ADmin.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_bound_CLmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_C1L1min.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_bound_CLmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_C1L1max.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_16_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_16_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_16_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_16_cmovl_hi.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_16_12_16_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_16_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_17_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_17_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_12_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_12_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_17_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_17_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_16_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_16_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_16_17_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_16_17_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_16_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_16_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_12_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_17_cmovl_hi.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_17_12_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_12_17_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_17_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_17_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_16_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_16_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_17_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_17_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_17_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_17_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_17_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_17_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_17_17_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_17_17_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_12_19_12_16_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_19_12_16_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_19_12_16_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_19_12_16_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_19_16_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_19_16_17_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_19_16_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_19_16_19_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_12_19_17_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_12_19_17_19_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_16_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_16_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_17_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_17_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_12_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_12_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_17_cmovl_hi.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_17_16_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_17_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_16_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_16_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovle_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovg_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_17_17_19_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_17_17_19_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_16_19_12_16_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_16_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_16_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_16_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_16_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_16_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_17_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_17_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_17_cmovle_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_17_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_17_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_19_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_19_cmovle_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_19_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_12_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_12_19_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_16_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_16_17_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_16_17_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_16_17_cmovle_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_16_17_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_16_17_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_16_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_16_17_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_17_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_17_19_cmovl_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_17_19_cmovle_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_17_19_cmovle_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_17_19_cmovg_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_17_19_cmovg_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_16_19_17_19_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_16_19_17_19_cmovge_lo.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_tail_17_19_12_16_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_12_16_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_12_16_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_12_16_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_12_16_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_12_16_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_12_16_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_12_16_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_12_16_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_12_16_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_12_16_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_12_16_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_17_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_17_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_17_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_17_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_17_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_17_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_17_cmovg_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_17_cmovg_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_17_cmovge_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_17_cmovge_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_17_cmovge_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_17_cmovge_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_19_cmovl_lo",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_19_cmovl_lo.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_19_cmovl_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_16_19_cmovle_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_16_19_cmovle_hi.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_tail_17_19_17_19_cmovl_hi",
+    "idea": "Change last two pivots and conditional pair tracking; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_tail_17_19_17_19_cmovl_hi.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_early_11_6_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_15_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_15_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_12_5_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_12_5_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_6_cmovg.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_early_11_6_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_7_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_6_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_7_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_15_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_15_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_12_5_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_11_6_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_6_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_6_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_7_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_5_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_7_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_15_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_15_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_12_5_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_12_5_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_6_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_7_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_11_15_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_7_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_15_12_cmovl.txt",
+    "size": 24
+  },
+  {
+    "id": "trim_early_12_15_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_15_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_12_5_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_12_5_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_6_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_7_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_12_15_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_7_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_15_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_15_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_12_5_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_12_5_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_11_6_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_6_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_6_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_7_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_10_5_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_7_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_15_12_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_15_12_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_5_15_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_5_15_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_12_5_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_12_5_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_11_6_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_6_cmovl.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_6_cmovg.txt",
+    "size": 25
+  },
+  {
+    "id": "trim_early_7_5_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_5_7_cmovg.txt",
+    "size": 25
+  }
+]

@@ -1,0 +1,2276 @@
+{
+  "jobs": [
+    {
+      "index": 167,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        30
+      ],
+      "variables": 25048,
+      "clauses": 136103,
+      "cnf_bytes": 2147449,
+      "prefix": "round4/penta_0167"
+    },
+    {
+      "index": 156,
+      "window": [
+        14,
+        15,
+        16,
+        18,
+        21
+      ],
+      "variables": 25279,
+      "clauses": 137027,
+      "cnf_bytes": 2166526,
+      "prefix": "round4/penta_0156"
+    },
+    {
+      "index": 158,
+      "window": [
+        14,
+        15,
+        18,
+        19,
+        21
+      ],
+      "variables": 25279,
+      "clauses": 137027,
+      "cnf_bytes": 2167092,
+      "prefix": "round4/penta_0158"
+    },
+    {
+      "index": 160,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        22
+      ],
+      "variables": 25279,
+      "clauses": 137027,
+      "cnf_bytes": 2166986,
+      "prefix": "round4/penta_0160"
+    },
+    {
+      "index": 163,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        25
+      ],
+      "variables": 25279,
+      "clauses": 137027,
+      "cnf_bytes": 2166874,
+      "prefix": "round4/penta_0163"
+    },
+    {
+      "index": 166,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        28
+      ],
+      "variables": 25279,
+      "clauses": 137027,
+      "cnf_bytes": 2166742,
+      "prefix": "round4/penta_0166"
+    },
+    {
+      "index": 106,
+      "window": [
+        14,
+        18,
+        21,
+        29,
+        30
+      ],
+      "variables": 25558,
+      "clauses": 138653,
+      "cnf_bytes": 2193796,
+      "prefix": "round4/penta_0106"
+    },
+    {
+      "index": 97,
+      "window": [
+        14,
+        18,
+        19,
+        21,
+        29
+      ],
+      "variables": 25789,
+      "clauses": 139577,
+      "cnf_bytes": 2213362,
+      "prefix": "round4/penta_0097"
+    },
+    {
+      "index": 99,
+      "window": [
+        14,
+        18,
+        21,
+        22,
+        29
+      ],
+      "variables": 25789,
+      "clauses": 139577,
+      "cnf_bytes": 2213256,
+      "prefix": "round4/penta_0099"
+    },
+    {
+      "index": 102,
+      "window": [
+        14,
+        18,
+        21,
+        25,
+        29
+      ],
+      "variables": 25789,
+      "clauses": 139577,
+      "cnf_bytes": 2213148,
+      "prefix": "round4/penta_0102"
+    },
+    {
+      "index": 105,
+      "window": [
+        14,
+        18,
+        21,
+        28,
+        29
+      ],
+      "variables": 25789,
+      "clauses": 139577,
+      "cnf_bytes": 2213016,
+      "prefix": "round4/penta_0105"
+    },
+    {
+      "index": 94,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        29
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216099,
+      "prefix": "round4/penta_0094"
+    },
+    {
+      "index": 157,
+      "window": [
+        14,
+        15,
+        17,
+        18,
+        21
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216105,
+      "prefix": "round4/penta_0157"
+    },
+    {
+      "index": 159,
+      "window": [
+        14,
+        15,
+        18,
+        20,
+        21
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216099,
+      "prefix": "round4/penta_0159"
+    },
+    {
+      "index": 161,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        23
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216099,
+      "prefix": "round4/penta_0161"
+    },
+    {
+      "index": 162,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        24
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216099,
+      "prefix": "round4/penta_0162"
+    },
+    {
+      "index": 164,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        26
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216099,
+      "prefix": "round4/penta_0164"
+    },
+    {
+      "index": 165,
+      "window": [
+        14,
+        15,
+        18,
+        21,
+        27
+      ],
+      "variables": 26054,
+      "clauses": 139671,
+      "cnf_bytes": 2216099,
+      "prefix": "round4/penta_0165"
+    },
+    {
+      "index": 95,
+      "window": [
+        14,
+        16,
+        18,
+        21,
+        29
+      ],
+      "variables": 26021,
+      "clauses": 140495,
+      "cnf_bytes": 2233115,
+      "prefix": "round4/penta_0095"
+    },
+    {
+      "index": 96,
+      "window": [
+        14,
+        17,
+        18,
+        21,
+        29
+      ],
+      "variables": 26394,
+      "clauses": 141711,
+      "cnf_bytes": 2254192,
+      "prefix": "round4/penta_0096"
+    },
+    {
+      "index": 98,
+      "window": [
+        14,
+        18,
+        20,
+        21,
+        29
+      ],
+      "variables": 26564,
+      "clauses": 142221,
+      "cnf_bytes": 2262617,
+      "prefix": "round4/penta_0098"
+    },
+    {
+      "index": 100,
+      "window": [
+        14,
+        18,
+        21,
+        23,
+        29
+      ],
+      "variables": 26564,
+      "clauses": 142221,
+      "cnf_bytes": 2262617,
+      "prefix": "round4/penta_0100"
+    },
+    {
+      "index": 101,
+      "window": [
+        14,
+        18,
+        21,
+        24,
+        29
+      ],
+      "variables": 26564,
+      "clauses": 142221,
+      "cnf_bytes": 2262617,
+      "prefix": "round4/penta_0101"
+    },
+    {
+      "index": 103,
+      "window": [
+        14,
+        18,
+        21,
+        26,
+        29
+      ],
+      "variables": 26564,
+      "clauses": 142221,
+      "cnf_bytes": 2262617,
+      "prefix": "round4/penta_0103"
+    },
+    {
+      "index": 104,
+      "window": [
+        14,
+        18,
+        21,
+        27,
+        29
+      ],
+      "variables": 26564,
+      "clauses": 142221,
+      "cnf_bytes": 2262617,
+      "prefix": "round4/penta_0104"
+    },
+    {
+      "index": 37,
+      "window": [
+        12,
+        13,
+        15,
+        19,
+        21
+      ],
+      "variables": 35370,
+      "clauses": 176442,
+      "cnf_bytes": 2905368,
+      "prefix": "round4/penta_0037"
+    },
+    {
+      "index": 38,
+      "window": [
+        12,
+        13,
+        15,
+        21,
+        25
+      ],
+      "variables": 35370,
+      "clauses": 176442,
+      "cnf_bytes": 2905378,
+      "prefix": "round4/penta_0038"
+    },
+    {
+      "index": 55,
+      "window": [
+        12,
+        15,
+        16,
+        19,
+        21
+      ],
+      "variables": 35409,
+      "clauses": 178066,
+      "cnf_bytes": 2937981,
+      "prefix": "round4/penta_0055"
+    },
+    {
+      "index": 56,
+      "window": [
+        12,
+        15,
+        16,
+        21,
+        25
+      ],
+      "variables": 35409,
+      "clauses": 178066,
+      "cnf_bytes": 2938040,
+      "prefix": "round4/penta_0056"
+    },
+    {
+      "index": 62,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        22
+      ],
+      "variables": 35409,
+      "clauses": 178066,
+      "cnf_bytes": 2938843,
+      "prefix": "round4/penta_0062"
+    },
+    {
+      "index": 65,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        25
+      ],
+      "variables": 35409,
+      "clauses": 178066,
+      "cnf_bytes": 2938846,
+      "prefix": "round4/penta_0065"
+    },
+    {
+      "index": 68,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        28
+      ],
+      "variables": 35409,
+      "clauses": 178066,
+      "cnf_bytes": 2938686,
+      "prefix": "round4/penta_0068"
+    },
+    {
+      "index": 72,
+      "window": [
+        12,
+        15,
+        21,
+        22,
+        25
+      ],
+      "variables": 35409,
+      "clauses": 178066,
+      "cnf_bytes": 2938846,
+      "prefix": "round4/penta_0072"
+    },
+    {
+      "index": 34,
+      "window": [
+        11,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 35567,
+      "clauses": 178246,
+      "cnf_bytes": 2942563,
+      "prefix": "round4/penta_0034"
+    },
+    {
+      "index": 35,
+      "window": [
+        11,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 35567,
+      "clauses": 178246,
+      "cnf_bytes": 2942436,
+      "prefix": "round4/penta_0035"
+    },
+    {
+      "index": 93,
+      "window": [
+        13,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 36490,
+      "clauses": 179159,
+      "cnf_bytes": 2956150,
+      "prefix": "round4/penta_0093"
+    },
+    {
+      "index": 155,
+      "window": [
+        13,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 36490,
+      "clauses": 179159,
+      "cnf_bytes": 2955029,
+      "prefix": "round4/penta_0155"
+    },
+    {
+      "index": 36,
+      "window": [
+        12,
+        13,
+        14,
+        15,
+        23
+      ],
+      "variables": 36682,
+      "clauses": 181034,
+      "cnf_bytes": 2991556,
+      "prefix": "round4/penta_0036"
+    },
+    {
+      "index": 54,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        30
+      ],
+      "variables": 36390,
+      "clauses": 181334,
+      "cnf_bytes": 2998251,
+      "prefix": "round4/penta_0054"
+    },
+    {
+      "index": 57,
+      "window": [
+        12,
+        15,
+        17,
+        19,
+        21
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009445,
+      "prefix": "round4/penta_0057"
+    },
+    {
+      "index": 58,
+      "window": [
+        12,
+        15,
+        17,
+        21,
+        25
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009445,
+      "prefix": "round4/penta_0058"
+    },
+    {
+      "index": 59,
+      "window": [
+        12,
+        15,
+        18,
+        19,
+        21
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009394,
+      "prefix": "round4/penta_0059"
+    },
+    {
+      "index": 60,
+      "window": [
+        12,
+        15,
+        18,
+        21,
+        25
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009394,
+      "prefix": "round4/penta_0060"
+    },
+    {
+      "index": 61,
+      "window": [
+        12,
+        15,
+        19,
+        20,
+        21
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009343,
+      "prefix": "round4/penta_0061"
+    },
+    {
+      "index": 63,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        23
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009343,
+      "prefix": "round4/penta_0063"
+    },
+    {
+      "index": 64,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        24
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009343,
+      "prefix": "round4/penta_0064"
+    },
+    {
+      "index": 66,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        26
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009343,
+      "prefix": "round4/penta_0066"
+    },
+    {
+      "index": 67,
+      "window": [
+        12,
+        15,
+        19,
+        21,
+        27
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009343,
+      "prefix": "round4/penta_0067"
+    },
+    {
+      "index": 71,
+      "window": [
+        12,
+        15,
+        20,
+        21,
+        25
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009285,
+      "prefix": "round4/penta_0071"
+    },
+    {
+      "index": 73,
+      "window": [
+        12,
+        15,
+        21,
+        23,
+        25
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009234,
+      "prefix": "round4/penta_0073"
+    },
+    {
+      "index": 74,
+      "window": [
+        12,
+        15,
+        21,
+        24,
+        25
+      ],
+      "variables": 36524,
+      "clauses": 181870,
+      "cnf_bytes": 3009234,
+      "prefix": "round4/penta_0074"
+    },
+    {
+      "index": 39,
+      "window": [
+        12,
+        14,
+        15,
+        16,
+        23
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3024988,
+      "prefix": "round4/penta_0039"
+    },
+    {
+      "index": 42,
+      "window": [
+        12,
+        14,
+        15,
+        19,
+        21
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3025794,
+      "prefix": "round4/penta_0042"
+    },
+    {
+      "index": 43,
+      "window": [
+        12,
+        14,
+        15,
+        19,
+        23
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3025794,
+      "prefix": "round4/penta_0043"
+    },
+    {
+      "index": 46,
+      "window": [
+        12,
+        14,
+        15,
+        21,
+        25
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3025794,
+      "prefix": "round4/penta_0046"
+    },
+    {
+      "index": 47,
+      "window": [
+        12,
+        14,
+        15,
+        22,
+        23
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3025794,
+      "prefix": "round4/penta_0047"
+    },
+    {
+      "index": 49,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        25
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3025794,
+      "prefix": "round4/penta_0049"
+    },
+    {
+      "index": 52,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        28
+      ],
+      "variables": 36721,
+      "clauses": 182658,
+      "cnf_bytes": 3025794,
+      "prefix": "round4/penta_0052"
+    },
+    {
+      "index": 33,
+      "window": [
+        11,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 36879,
+      "clauses": 182838,
+      "cnf_bytes": 3028912,
+      "prefix": "round4/penta_0033"
+    },
+    {
+      "index": 40,
+      "window": [
+        12,
+        14,
+        15,
+        17,
+        23
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096598,
+      "prefix": "round4/penta_0040"
+    },
+    {
+      "index": 41,
+      "window": [
+        12,
+        14,
+        15,
+        18,
+        23
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096598,
+      "prefix": "round4/penta_0041"
+    },
+    {
+      "index": 44,
+      "window": [
+        12,
+        14,
+        15,
+        20,
+        23
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096598,
+      "prefix": "round4/penta_0044"
+    },
+    {
+      "index": 45,
+      "window": [
+        12,
+        14,
+        15,
+        21,
+        23
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096598,
+      "prefix": "round4/penta_0045"
+    },
+    {
+      "index": 48,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        24
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096612,
+      "prefix": "round4/penta_0048"
+    },
+    {
+      "index": 50,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        26
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096624,
+      "prefix": "round4/penta_0050"
+    },
+    {
+      "index": 51,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        27
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096573,
+      "prefix": "round4/penta_0051"
+    },
+    {
+      "index": 53,
+      "window": [
+        12,
+        14,
+        15,
+        23,
+        29
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096464,
+      "prefix": "round4/penta_0053"
+    },
+    {
+      "index": 92,
+      "window": [
+        12,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3097675,
+      "prefix": "round4/penta_0092"
+    },
+    {
+      "index": 154,
+      "window": [
+        12,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 37836,
+      "clauses": 186462,
+      "cnf_bytes": 3096614,
+      "prefix": "round4/penta_0154"
+    },
+    {
+      "index": 91,
+      "window": [
+        11,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 38534,
+      "clauses": 189882,
+      "cnf_bytes": 3161505,
+      "prefix": "round4/penta_0091"
+    },
+    {
+      "index": 153,
+      "window": [
+        11,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 38534,
+      "clauses": 189882,
+      "cnf_bytes": 3160430,
+      "prefix": "round4/penta_0153"
+    },
+    {
+      "index": 31,
+      "window": [
+        10,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 53316,
+      "clauses": 246977,
+      "cnf_bytes": 4228920,
+      "prefix": "round4/penta_0031"
+    },
+    {
+      "index": 32,
+      "window": [
+        10,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 53316,
+      "clauses": 246977,
+      "cnf_bytes": 4228920,
+      "prefix": "round4/penta_0032"
+    },
+    {
+      "index": 30,
+      "window": [
+        10,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 55248,
+      "clauses": 253739,
+      "cnf_bytes": 4356145,
+      "prefix": "round4/penta_0030"
+    },
+    {
+      "index": 90,
+      "window": [
+        10,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 56378,
+      "clauses": 257269,
+      "cnf_bytes": 4417387,
+      "prefix": "round4/penta_0090"
+    },
+    {
+      "index": 152,
+      "window": [
+        10,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 56378,
+      "clauses": 257269,
+      "cnf_bytes": 4415733,
+      "prefix": "round4/penta_0152"
+    },
+    {
+      "index": 28,
+      "window": [
+        9,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 69941,
+      "clauses": 309939,
+      "cnf_bytes": 5404728,
+      "prefix": "round4/penta_0028"
+    },
+    {
+      "index": 29,
+      "window": [
+        9,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 69941,
+      "clauses": 309939,
+      "cnf_bytes": 5404728,
+      "prefix": "round4/penta_0029"
+    },
+    {
+      "index": 25,
+      "window": [
+        8,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 69922,
+      "clauses": 311355,
+      "cnf_bytes": 5437643,
+      "prefix": "round4/penta_0025"
+    },
+    {
+      "index": 26,
+      "window": [
+        8,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 69922,
+      "clauses": 311355,
+      "cnf_bytes": 5437643,
+      "prefix": "round4/penta_0026"
+    },
+    {
+      "index": 22,
+      "window": [
+        7,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 71154,
+      "clauses": 316610,
+      "cnf_bytes": 5534143,
+      "prefix": "round4/penta_0022"
+    },
+    {
+      "index": 23,
+      "window": [
+        7,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 71154,
+      "clauses": 316610,
+      "cnf_bytes": 5534088,
+      "prefix": "round4/penta_0023"
+    },
+    {
+      "index": 128,
+      "window": [
+        6,
+        15,
+        19,
+        23,
+        25
+      ],
+      "variables": 71410,
+      "clauses": 318172,
+      "cnf_bytes": 5553473,
+      "prefix": "round4/penta_0128"
+    },
+    {
+      "index": 130,
+      "window": [
+        6,
+        15,
+        19,
+        23,
+        28
+      ],
+      "variables": 71410,
+      "clauses": 318172,
+      "cnf_bytes": 5553358,
+      "prefix": "round4/penta_0130"
+    },
+    {
+      "index": 137,
+      "window": [
+        6,
+        15,
+        23,
+        25,
+        28
+      ],
+      "variables": 71410,
+      "clauses": 318172,
+      "cnf_bytes": 5553358,
+      "prefix": "round4/penta_0137"
+    },
+    {
+      "index": 27,
+      "window": [
+        9,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 72473,
+      "clauses": 318801,
+      "cnf_bytes": 5571113,
+      "prefix": "round4/penta_0027"
+    },
+    {
+      "index": 24,
+      "window": [
+        8,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 72454,
+      "clauses": 320217,
+      "cnf_bytes": 5603907,
+      "prefix": "round4/penta_0024"
+    },
+    {
+      "index": 19,
+      "window": [
+        6,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 72100,
+      "clauses": 321008,
+      "cnf_bytes": 5615266,
+      "prefix": "round4/penta_0019"
+    },
+    {
+      "index": 20,
+      "window": [
+        6,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 72100,
+      "clauses": 321008,
+      "cnf_bytes": 5615146,
+      "prefix": "round4/penta_0020"
+    },
+    {
+      "index": 108,
+      "window": [
+        6,
+        12,
+        15,
+        19,
+        23
+      ],
+      "variables": 72100,
+      "clauses": 321008,
+      "cnf_bytes": 5615169,
+      "prefix": "round4/penta_0108"
+    },
+    {
+      "index": 110,
+      "window": [
+        6,
+        12,
+        15,
+        23,
+        25
+      ],
+      "variables": 72100,
+      "clauses": 321008,
+      "cnf_bytes": 5615113,
+      "prefix": "round4/penta_0110"
+    },
+    {
+      "index": 112,
+      "window": [
+        6,
+        12,
+        15,
+        23,
+        28
+      ],
+      "variables": 72100,
+      "clauses": 321008,
+      "cnf_bytes": 5615026,
+      "prefix": "round4/penta_0112"
+    },
+    {
+      "index": 89,
+      "window": [
+        9,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 73945,
+      "clauses": 323379,
+      "cnf_bytes": 5650443,
+      "prefix": "round4/penta_0089"
+    },
+    {
+      "index": 151,
+      "window": [
+        9,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 73945,
+      "clauses": 323379,
+      "cnf_bytes": 5648209,
+      "prefix": "round4/penta_0151"
+    },
+    {
+      "index": 16,
+      "window": [
+        5,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 72745,
+      "clauses": 324371,
+      "cnf_bytes": 5680866,
+      "prefix": "round4/penta_0016"
+    },
+    {
+      "index": 17,
+      "window": [
+        5,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 72745,
+      "clauses": 324371,
+      "cnf_bytes": 5680787,
+      "prefix": "round4/penta_0017"
+    },
+    {
+      "index": 88,
+      "window": [
+        8,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 73916,
+      "clauses": 324723,
+      "cnf_bytes": 5681178,
+      "prefix": "round4/penta_0088"
+    },
+    {
+      "index": 150,
+      "window": [
+        8,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 73916,
+      "clauses": 324723,
+      "cnf_bytes": 5678843,
+      "prefix": "round4/penta_0150"
+    },
+    {
+      "index": 21,
+      "window": [
+        7,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 73686,
+      "clauses": 325472,
+      "cnf_bytes": 5700356,
+      "prefix": "round4/penta_0021"
+    },
+    {
+      "index": 121,
+      "window": [
+        6,
+        15,
+        18,
+        19,
+        23
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689455,
+      "prefix": "round4/penta_0121"
+    },
+    {
+      "index": 123,
+      "window": [
+        6,
+        15,
+        18,
+        23,
+        25
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689455,
+      "prefix": "round4/penta_0123"
+    },
+    {
+      "index": 125,
+      "window": [
+        6,
+        15,
+        18,
+        23,
+        28
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689455,
+      "prefix": "round4/penta_0125"
+    },
+    {
+      "index": 127,
+      "window": [
+        6,
+        15,
+        19,
+        21,
+        23
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689437,
+      "prefix": "round4/penta_0127"
+    },
+    {
+      "index": 129,
+      "window": [
+        6,
+        15,
+        19,
+        23,
+        27
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689437,
+      "prefix": "round4/penta_0129"
+    },
+    {
+      "index": 131,
+      "window": [
+        6,
+        15,
+        19,
+        23,
+        29
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689437,
+      "prefix": "round4/penta_0131"
+    },
+    {
+      "index": 132,
+      "window": [
+        6,
+        15,
+        21,
+        23,
+        25
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689340,
+      "prefix": "round4/penta_0132"
+    },
+    {
+      "index": 134,
+      "window": [
+        6,
+        15,
+        21,
+        23,
+        28
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689340,
+      "prefix": "round4/penta_0134"
+    },
+    {
+      "index": 136,
+      "window": [
+        6,
+        15,
+        23,
+        25,
+        27
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689261,
+      "prefix": "round4/penta_0136"
+    },
+    {
+      "index": 138,
+      "window": [
+        6,
+        15,
+        23,
+        25,
+        29
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689261,
+      "prefix": "round4/penta_0138"
+    },
+    {
+      "index": 139,
+      "window": [
+        6,
+        15,
+        23,
+        27,
+        28
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689261,
+      "prefix": "round4/penta_0139"
+    },
+    {
+      "index": 141,
+      "window": [
+        6,
+        15,
+        23,
+        28,
+        29
+      ],
+      "variables": 73562,
+      "clauses": 325514,
+      "cnf_bytes": 5689261,
+      "prefix": "round4/penta_0141"
+    },
+    {
+      "index": 115,
+      "window": [
+        6,
+        14,
+        15,
+        19,
+        23
+      ],
+      "variables": 73942,
+      "clauses": 327034,
+      "cnf_bytes": 5720439,
+      "prefix": "round4/penta_0115"
+    },
+    {
+      "index": 117,
+      "window": [
+        6,
+        14,
+        15,
+        23,
+        25
+      ],
+      "variables": 73942,
+      "clauses": 327034,
+      "cnf_bytes": 5720439,
+      "prefix": "round4/penta_0117"
+    },
+    {
+      "index": 119,
+      "window": [
+        6,
+        14,
+        15,
+        23,
+        28
+      ],
+      "variables": 73942,
+      "clauses": 327034,
+      "cnf_bytes": 5720439,
+      "prefix": "round4/penta_0119"
+    },
+    {
+      "index": 107,
+      "window": [
+        6,
+        12,
+        15,
+        18,
+        23
+      ],
+      "variables": 74252,
+      "clauses": 328350,
+      "cnf_bytes": 5751212,
+      "prefix": "round4/penta_0107"
+    },
+    {
+      "index": 109,
+      "window": [
+        6,
+        12,
+        15,
+        21,
+        23
+      ],
+      "variables": 74252,
+      "clauses": 328350,
+      "cnf_bytes": 5751212,
+      "prefix": "round4/penta_0109"
+    },
+    {
+      "index": 111,
+      "window": [
+        6,
+        12,
+        15,
+        23,
+        27
+      ],
+      "variables": 74252,
+      "clauses": 328350,
+      "cnf_bytes": 5751212,
+      "prefix": "round4/penta_0111"
+    },
+    {
+      "index": 113,
+      "window": [
+        6,
+        12,
+        15,
+        23,
+        29
+      ],
+      "variables": 74252,
+      "clauses": 328350,
+      "cnf_bytes": 5751212,
+      "prefix": "round4/penta_0113"
+    },
+    {
+      "index": 13,
+      "window": [
+        4,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 73899,
+      "clauses": 329501,
+      "cnf_bytes": 5773522,
+      "prefix": "round4/penta_0013"
+    },
+    {
+      "index": 14,
+      "window": [
+        4,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 73899,
+      "clauses": 329501,
+      "cnf_bytes": 5773522,
+      "prefix": "round4/penta_0014"
+    },
+    {
+      "index": 18,
+      "window": [
+        6,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 74632,
+      "clauses": 329870,
+      "cnf_bytes": 5781401,
+      "prefix": "round4/penta_0018"
+    },
+    {
+      "index": 87,
+      "window": [
+        7,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 75148,
+      "clauses": 329978,
+      "cnf_bytes": 5777836,
+      "prefix": "round4/penta_0087"
+    },
+    {
+      "index": 149,
+      "window": [
+        7,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 75148,
+      "clauses": 329978,
+      "cnf_bytes": 5775527,
+      "prefix": "round4/penta_0149"
+    },
+    {
+      "index": 122,
+      "window": [
+        6,
+        15,
+        18,
+        21,
+        23
+      ],
+      "variables": 75714,
+      "clauses": 332856,
+      "cnf_bytes": 5825768,
+      "prefix": "round4/penta_0122"
+    },
+    {
+      "index": 124,
+      "window": [
+        6,
+        15,
+        18,
+        23,
+        27
+      ],
+      "variables": 75714,
+      "clauses": 332856,
+      "cnf_bytes": 5825768,
+      "prefix": "round4/penta_0124"
+    },
+    {
+      "index": 126,
+      "window": [
+        6,
+        15,
+        18,
+        23,
+        29
+      ],
+      "variables": 75714,
+      "clauses": 332856,
+      "cnf_bytes": 5825768,
+      "prefix": "round4/penta_0126"
+    },
+    {
+      "index": 133,
+      "window": [
+        6,
+        15,
+        21,
+        23,
+        27
+      ],
+      "variables": 75714,
+      "clauses": 332856,
+      "cnf_bytes": 5825768,
+      "prefix": "round4/penta_0133"
+    },
+    {
+      "index": 135,
+      "window": [
+        6,
+        15,
+        21,
+        23,
+        29
+      ],
+      "variables": 75714,
+      "clauses": 332856,
+      "cnf_bytes": 5825768,
+      "prefix": "round4/penta_0135"
+    },
+    {
+      "index": 140,
+      "window": [
+        6,
+        15,
+        23,
+        27,
+        29
+      ],
+      "variables": 75714,
+      "clauses": 332856,
+      "cnf_bytes": 5825768,
+      "prefix": "round4/penta_0140"
+    },
+    {
+      "index": 15,
+      "window": [
+        5,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 75277,
+      "clauses": 333233,
+      "cnf_bytes": 5847239,
+      "prefix": "round4/penta_0015"
+    },
+    {
+      "index": 86,
+      "window": [
+        6,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 76094,
+      "clauses": 334376,
+      "cnf_bytes": 5859418,
+      "prefix": "round4/penta_0086"
+    },
+    {
+      "index": 114,
+      "window": [
+        6,
+        14,
+        15,
+        18,
+        23
+      ],
+      "variables": 76094,
+      "clauses": 334376,
+      "cnf_bytes": 5857225,
+      "prefix": "round4/penta_0114"
+    },
+    {
+      "index": 116,
+      "window": [
+        6,
+        14,
+        15,
+        21,
+        23
+      ],
+      "variables": 76094,
+      "clauses": 334376,
+      "cnf_bytes": 5857225,
+      "prefix": "round4/penta_0116"
+    },
+    {
+      "index": 118,
+      "window": [
+        6,
+        14,
+        15,
+        23,
+        27
+      ],
+      "variables": 76094,
+      "clauses": 334376,
+      "cnf_bytes": 5857136,
+      "prefix": "round4/penta_0118"
+    },
+    {
+      "index": 120,
+      "window": [
+        6,
+        14,
+        15,
+        23,
+        29
+      ],
+      "variables": 76094,
+      "clauses": 334376,
+      "cnf_bytes": 5857109,
+      "prefix": "round4/penta_0120"
+    },
+    {
+      "index": 148,
+      "window": [
+        6,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 76094,
+      "clauses": 334376,
+      "cnf_bytes": 5857225,
+      "prefix": "round4/penta_0148"
+    },
+    {
+      "index": 10,
+      "window": [
+        3,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 75671,
+      "clauses": 337140,
+      "cnf_bytes": 5925686,
+      "prefix": "round4/penta_0010"
+    },
+    {
+      "index": 11,
+      "window": [
+        3,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 75671,
+      "clauses": 337140,
+      "cnf_bytes": 5925686,
+      "prefix": "round4/penta_0011"
+    },
+    {
+      "index": 85,
+      "window": [
+        5,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 76679,
+      "clauses": 337513,
+      "cnf_bytes": 5920004,
+      "prefix": "round4/penta_0085"
+    },
+    {
+      "index": 147,
+      "window": [
+        5,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 76679,
+      "clauses": 337513,
+      "cnf_bytes": 5917949,
+      "prefix": "round4/penta_0147"
+    },
+    {
+      "index": 7,
+      "window": [
+        2,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 75659,
+      "clauses": 338115,
+      "cnf_bytes": 5944787,
+      "prefix": "round4/penta_0007"
+    },
+    {
+      "index": 8,
+      "window": [
+        2,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 75659,
+      "clauses": 338115,
+      "cnf_bytes": 5944787,
+      "prefix": "round4/penta_0008"
+    },
+    {
+      "index": 12,
+      "window": [
+        4,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 76431,
+      "clauses": 338363,
+      "cnf_bytes": 5940188,
+      "prefix": "round4/penta_0012"
+    },
+    {
+      "index": 4,
+      "window": [
+        1,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 76573,
+      "clauses": 342155,
+      "cnf_bytes": 6020598,
+      "prefix": "round4/penta_0004"
+    },
+    {
+      "index": 5,
+      "window": [
+        1,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 76573,
+      "clauses": 342155,
+      "cnf_bytes": 6020670,
+      "prefix": "round4/penta_0005"
+    },
+    {
+      "index": 84,
+      "window": [
+        4,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 77833,
+      "clauses": 342643,
+      "cnf_bytes": 6012711,
+      "prefix": "round4/penta_0084"
+    },
+    {
+      "index": 146,
+      "window": [
+        4,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 77833,
+      "clauses": 342643,
+      "cnf_bytes": 6010550,
+      "prefix": "round4/penta_0146"
+    },
+    {
+      "index": 1,
+      "window": [
+        0,
+        12,
+        15,
+        19,
+        21
+      ],
+      "variables": 76372,
+      "clauses": 342933,
+      "cnf_bytes": 6034487,
+      "prefix": "round4/penta_0001"
+    },
+    {
+      "index": 2,
+      "window": [
+        0,
+        12,
+        15,
+        21,
+        25
+      ],
+      "variables": 76372,
+      "clauses": 342933,
+      "cnf_bytes": 6034486,
+      "prefix": "round4/penta_0002"
+    },
+    {
+      "index": 9,
+      "window": [
+        3,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 78203,
+      "clauses": 346002,
+      "cnf_bytes": 6092051,
+      "prefix": "round4/penta_0009"
+    },
+    {
+      "index": 6,
+      "window": [
+        2,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 78191,
+      "clauses": 346977,
+      "cnf_bytes": 6111152,
+      "prefix": "round4/penta_0006"
+    },
+    {
+      "index": 83,
+      "window": [
+        3,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 79605,
+      "clauses": 350282,
+      "cnf_bytes": 6164051,
+      "prefix": "round4/penta_0083"
+    },
+    {
+      "index": 145,
+      "window": [
+        3,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 79605,
+      "clauses": 350282,
+      "cnf_bytes": 6161817,
+      "prefix": "round4/penta_0145"
+    },
+    {
+      "index": 3,
+      "window": [
+        1,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 79105,
+      "clauses": 351017,
+      "cnf_bytes": 6186893,
+      "prefix": "round4/penta_0003"
+    },
+    {
+      "index": 82,
+      "window": [
+        2,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 79593,
+      "clauses": 351257,
+      "cnf_bytes": 6183515,
+      "prefix": "round4/penta_0082"
+    },
+    {
+      "index": 144,
+      "window": [
+        2,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 79593,
+      "clauses": 351257,
+      "cnf_bytes": 6181281,
+      "prefix": "round4/penta_0144"
+    },
+    {
+      "index": 0,
+      "window": [
+        0,
+        12,
+        14,
+        15,
+        23
+      ],
+      "variables": 78904,
+      "clauses": 351795,
+      "cnf_bytes": 6200791,
+      "prefix": "round4/penta_0000"
+    },
+    {
+      "index": 81,
+      "window": [
+        1,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 81897,
+      "clauses": 360279,
+      "cnf_bytes": 6357028,
+      "prefix": "round4/penta_0081"
+    },
+    {
+      "index": 143,
+      "window": [
+        1,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 81897,
+      "clauses": 360279,
+      "cnf_bytes": 6354719,
+      "prefix": "round4/penta_0143"
+    },
+    {
+      "index": 80,
+      "window": [
+        0,
+        14,
+        18,
+        21,
+        29
+      ],
+      "variables": 81758,
+      "clauses": 361243,
+      "cnf_bytes": 6372388,
+      "prefix": "round4/penta_0080"
+    },
+    {
+      "index": 142,
+      "window": [
+        0,
+        14,
+        15,
+        18,
+        21
+      ],
+      "variables": 81758,
+      "clauses": 361243,
+      "cnf_bytes": 6370079,
+      "prefix": "round4/penta_0142"
+    }
+  ],
+  "ordering": [
+    "initial clause count",
+    "initial variable count",
+    "prior window index"
+  ],
+  "prior_summary_sha256": "c12e5ea909b4cba9342ae4cdb7f345e7a6b30f247960afc2a7cefa31739f0cf3",
+  "prior_selection_sha256": "0661bd998a40e6b606b3645a4943d8d1a9795dddf4e0ccab5bf87c0a5edbc3a8",
+  "registers": 8,
+  "new_registers": 1,
+  "initial_cases": 128,
+  "assumptions": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "A2",
+    "A11"
+  ]
+}

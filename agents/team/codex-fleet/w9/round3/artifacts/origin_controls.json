@@ -1,0 +1,1454 @@
+[
+  {
+    "family": "30ac78ad04f7",
+    "order": [
+      3,
+      7,
+      1,
+      0,
+      2,
+      4,
+      6,
+      5
+    ],
+    "k": 32,
+    "regs": 8,
+    "status": "SAT_CANDIDATE",
+    "wall": 2.215827821753919,
+    "cpu": 1.3373847380000001,
+    "cases": 13,
+    "iterations": 1,
+    "variables": 38592,
+    "clauses": 314306,
+    "stats": {
+      "peak_job_rss_kib": 81840,
+      "child_cpu_seconds": 0.8480939999999999,
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "SAT",
+          "seconds": 0.04145989567041397,
+          "returncode": 10,
+          "cnf_sha256": "1cf9524b764ef2be0dc04257b75aee5eb1e360eb347b22bc4070569e919a6047",
+          "variables": 38592,
+          "clauses": 314306,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/origin_control_0_0_kissat_01.log",
+          "cnf_model_checked": true
+        }
+      ],
+      "limit_reason": null
+    },
+    "prefix_length": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s",
+    "polarity": false,
+    "positions": null,
+    "models": [
+      {
+        "iteration": 1,
+        "output_failed_orders": 0,
+        "target_failed_orders": 0,
+        "unsafe_orders": 0,
+        "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_0_0_30ac78ad04f7_37102465_1_k32.s",
+        "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/model_origin_control_0_0_30ac78ad04f7_37102465_1_k32_strict.log",
+        "strict_pass": true
+      }
+    ],
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_0_0_30ac78ad04f7_37102465_1_k32.s",
+    "program": [
+      [
+        "cmp",
+        1,
+        2
+      ],
+      [
+        "mov",
+        5,
+        1
+      ],
+      [
+        "mov",
+        6,
+        0
+      ],
+      [
+        "cmovg",
+        1,
+        2
+      ],
+      [
+        "cmovge",
+        2,
+        5
+      ],
+      [
+        "mov",
+        7,
+        3
+      ],
+      [
+        "cmp",
+        3,
+        4
+      ],
+      [
+        "cmovge",
+        3,
+        4
+      ],
+      [
+        "cmovge",
+        4,
+        7
+      ],
+      [
+        "cmp",
+        6,
+        3
+      ],
+      [
+        "cmovl",
+        6,
+        3
+      ],
+      [
+        "cmovle",
+        3,
+        0
+      ],
+      [
+        "cmp",
+        6,
+        4
+      ],
+      [
+        "mov",
+        7,
+        1
+      ],
+      [
+        "cmovle",
+        0,
+        4
+      ],
+      [
+        "cmovl",
+        4,
+        6
+      ],
+      [
+        "cmp",
+        3,
+        7
+      ],
+      [
+        "cmovle",
+        7,
+        3
+      ],
+      [
+        "cmovl",
+        3,
+        1
+      ],
+      [
+        "cmp",
+        2,
+        0
+      ],
+      [
+        "cmovle",
+        5,
+        4
+      ],
+      [
+        "cmovl",
+        4,
+        3
+      ],
+      [
+        "cmovl",
+        3,
+        2
+      ],
+      [
+        "cmovl",
+        2,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        5
+      ],
+      [
+        "cmp",
+        3,
+        0
+      ],
+      [
+        "cmovle",
+        5,
+        3
+      ],
+      [
+        "cmovle",
+        3,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        5
+      ],
+      [
+        "cmp",
+        4,
+        5
+      ],
+      [
+        "cmovle",
+        5,
+        4
+      ],
+      [
+        "cmovg",
+        0,
+        4
+      ]
+    ],
+    "outputs": [
+      [
+        18,
+        7
+      ],
+      [
+        31,
+        5
+      ],
+      [
+        32,
+        0
+      ],
+      [
+        28,
+        3
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "strict_pass": true,
+    "origin_cuts": true
+  },
+  {
+    "family": "30ac78ad04f7",
+    "order": [
+      3,
+      7,
+      1,
+      0,
+      2,
+      4,
+      6,
+      5
+    ],
+    "k": 32,
+    "regs": 8,
+    "status": "SAT_CANDIDATE",
+    "wall": 2.4204821111634374,
+    "cpu": 1.557048419,
+    "cases": 13,
+    "iterations": 1,
+    "variables": 39509,
+    "clauses": 376838,
+    "stats": {
+      "peak_job_rss_kib": 97000,
+      "child_cpu_seconds": 0.855648,
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "SAT",
+          "seconds": 0.04579564929008484,
+          "returncode": 10,
+          "cnf_sha256": "6a61987e68f52afb8d3706b7c9b0b28bda99d85fb4410e5ae2707f61d53e08d0",
+          "variables": 39509,
+          "clauses": 376838,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/origin_control_0_1_kissat_01.log",
+          "cnf_model_checked": true
+        }
+      ],
+      "limit_reason": null
+    },
+    "prefix_length": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s",
+    "polarity": true,
+    "positions": null,
+    "models": [
+      {
+        "iteration": 1,
+        "output_failed_orders": 0,
+        "target_failed_orders": 0,
+        "unsafe_orders": 0,
+        "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_0_1_30ac78ad04f7_37102465_1_k32.s",
+        "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/model_origin_control_0_1_30ac78ad04f7_37102465_1_k32_strict.log",
+        "strict_pass": true
+      }
+    ],
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_0_1_30ac78ad04f7_37102465_1_k32.s",
+    "program": [
+      [
+        "cmp",
+        1,
+        2
+      ],
+      [
+        "mov",
+        5,
+        1
+      ],
+      [
+        "mov",
+        6,
+        0
+      ],
+      [
+        "cmovg",
+        1,
+        2
+      ],
+      [
+        "cmovge",
+        2,
+        5
+      ],
+      [
+        "mov",
+        7,
+        3
+      ],
+      [
+        "cmp",
+        3,
+        4
+      ],
+      [
+        "cmovge",
+        3,
+        4
+      ],
+      [
+        "cmovge",
+        4,
+        7
+      ],
+      [
+        "cmp",
+        6,
+        3
+      ],
+      [
+        "cmovl",
+        6,
+        3
+      ],
+      [
+        "cmovle",
+        3,
+        0
+      ],
+      [
+        "cmp",
+        6,
+        4
+      ],
+      [
+        "mov",
+        7,
+        1
+      ],
+      [
+        "cmovle",
+        0,
+        4
+      ],
+      [
+        "cmovl",
+        4,
+        6
+      ],
+      [
+        "cmp",
+        3,
+        7
+      ],
+      [
+        "cmovle",
+        7,
+        3
+      ],
+      [
+        "cmovl",
+        3,
+        1
+      ],
+      [
+        "cmp",
+        2,
+        0
+      ],
+      [
+        "cmovle",
+        5,
+        4
+      ],
+      [
+        "cmovl",
+        4,
+        3
+      ],
+      [
+        "cmovl",
+        3,
+        2
+      ],
+      [
+        "cmovl",
+        2,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        5
+      ],
+      [
+        "cmp",
+        0,
+        3
+      ],
+      [
+        "cmovge",
+        5,
+        3
+      ],
+      [
+        "cmovge",
+        3,
+        0
+      ],
+      [
+        "cmovg",
+        0,
+        5
+      ],
+      [
+        "cmp",
+        4,
+        5
+      ],
+      [
+        "cmovle",
+        5,
+        4
+      ],
+      [
+        "cmovg",
+        0,
+        4
+      ]
+    ],
+    "outputs": [
+      [
+        18,
+        7
+      ],
+      [
+        31,
+        5
+      ],
+      [
+        32,
+        0
+      ],
+      [
+        28,
+        3
+      ],
+      [
+        24,
+        2
+      ]
+    ],
+    "strict_pass": true,
+    "origin_cuts": true
+  },
+  {
+    "family": "fd7a081c6ece",
+    "order": [
+      4,
+      2,
+      0,
+      3,
+      1,
+      6,
+      5,
+      7
+    ],
+    "k": 32,
+    "regs": 8,
+    "status": "SAT_CANDIDATE",
+    "wall": 2.2120560575276613,
+    "cpu": 1.3422973699999998,
+    "cases": 13,
+    "iterations": 1,
+    "variables": 38592,
+    "clauses": 314616,
+    "stats": {
+      "peak_job_rss_kib": 89692,
+      "child_cpu_seconds": 0.8610430000000002,
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "SAT",
+          "seconds": 0.03901930805295706,
+          "returncode": 10,
+          "cnf_sha256": "923aa95712123308781a769dff58652d0793132ab38a94df275f277720316852",
+          "variables": 38592,
+          "clauses": 314616,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/origin_control_2_0_kissat_01.log",
+          "cnf_model_checked": true
+        }
+      ],
+      "limit_reason": null
+    },
+    "prefix_length": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s",
+    "polarity": false,
+    "positions": null,
+    "models": [
+      {
+        "iteration": 1,
+        "output_failed_orders": 0,
+        "target_failed_orders": 0,
+        "unsafe_orders": 0,
+        "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_2_0_fd7a081c6ece_42031657_1_k32.s",
+        "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/model_origin_control_2_0_fd7a081c6ece_42031657_1_k32_strict.log",
+        "strict_pass": true
+      }
+    ],
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_2_0_fd7a081c6ece_42031657_1_k32.s",
+    "program": [
+      [
+        "cmp",
+        2,
+        3
+      ],
+      [
+        "mov",
+        5,
+        2
+      ],
+      [
+        "cmovle",
+        2,
+        3
+      ],
+      [
+        "cmovl",
+        3,
+        5
+      ],
+      [
+        "cmp",
+        0,
+        1
+      ],
+      [
+        "cmovge",
+        6,
+        0
+      ],
+      [
+        "cmovge",
+        0,
+        1
+      ],
+      [
+        "cmovl",
+        6,
+        1
+      ],
+      [
+        "cmp",
+        0,
+        4
+      ],
+      [
+        "cmovle",
+        1,
+        4
+      ],
+      [
+        "cmovl",
+        4,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        1
+      ],
+      [
+        "cmp",
+        6,
+        1
+      ],
+      [
+        "cmovg",
+        1,
+        6
+      ],
+      [
+        "cmovl",
+        0,
+        6
+      ],
+      [
+        "cmp",
+        4,
+        3
+      ],
+      [
+        "cmovge",
+        7,
+        4
+      ],
+      [
+        "cmovl",
+        7,
+        3
+      ],
+      [
+        "cmovg",
+        4,
+        3
+      ],
+      [
+        "cmp",
+        2,
+        1
+      ],
+      [
+        "cmovl",
+        3,
+        2
+      ],
+      [
+        "cmovl",
+        2,
+        1
+      ],
+      [
+        "cmovl",
+        1,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        7
+      ],
+      [
+        "cmovl",
+        7,
+        3
+      ],
+      [
+        "mov",
+        6,
+        0
+      ],
+      [
+        "cmp",
+        1,
+        3
+      ],
+      [
+        "cmovge",
+        3,
+        1
+      ],
+      [
+        "cmovle",
+        7,
+        1
+      ],
+      [
+        "cmp",
+        7,
+        0
+      ],
+      [
+        "cmovge",
+        6,
+        7
+      ],
+      [
+        "cmovg",
+        7,
+        0
+      ]
+    ],
+    "outputs": [
+      [
+        19,
+        4
+      ],
+      [
+        32,
+        7
+      ],
+      [
+        31,
+        6
+      ],
+      [
+        28,
+        3
+      ],
+      [
+        22,
+        2
+      ]
+    ],
+    "strict_pass": true,
+    "origin_cuts": true
+  },
+  {
+    "family": "fd7a081c6ece",
+    "order": [
+      4,
+      2,
+      0,
+      3,
+      1,
+      6,
+      5,
+      7
+    ],
+    "k": 32,
+    "regs": 8,
+    "status": "SAT_CANDIDATE",
+    "wall": 2.4343067733570933,
+    "cpu": 1.5485388959999993,
+    "cases": 13,
+    "iterations": 1,
+    "variables": 39509,
+    "clauses": 376626,
+    "stats": {
+      "peak_job_rss_kib": 105200,
+      "child_cpu_seconds": 0.873363,
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "SAT",
+          "seconds": 0.0515173114836216,
+          "returncode": 10,
+          "cnf_sha256": "7cdcba6c940d265f9ecc374544e249a44918fca815ffcfe7acf1769016876485",
+          "variables": 39509,
+          "clauses": 376626,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/origin_control_2_1_kissat_01.log",
+          "cnf_model_checked": true
+        }
+      ],
+      "limit_reason": null
+    },
+    "prefix_length": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s",
+    "polarity": true,
+    "positions": null,
+    "models": [
+      {
+        "iteration": 1,
+        "output_failed_orders": 0,
+        "target_failed_orders": 0,
+        "unsafe_orders": 0,
+        "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_2_1_fd7a081c6ece_42031657_1_k32.s",
+        "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/model_origin_control_2_1_fd7a081c6ece_42031657_1_k32_strict.log",
+        "strict_pass": true
+      }
+    ],
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_2_1_fd7a081c6ece_42031657_1_k32.s",
+    "program": [
+      [
+        "cmp",
+        2,
+        3
+      ],
+      [
+        "mov",
+        5,
+        2
+      ],
+      [
+        "cmovle",
+        2,
+        3
+      ],
+      [
+        "cmovl",
+        3,
+        5
+      ],
+      [
+        "cmp",
+        0,
+        1
+      ],
+      [
+        "cmovge",
+        6,
+        0
+      ],
+      [
+        "cmovge",
+        0,
+        1
+      ],
+      [
+        "cmovl",
+        6,
+        1
+      ],
+      [
+        "cmp",
+        0,
+        4
+      ],
+      [
+        "cmovle",
+        1,
+        4
+      ],
+      [
+        "cmovl",
+        4,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        1
+      ],
+      [
+        "cmp",
+        6,
+        1
+      ],
+      [
+        "cmovg",
+        1,
+        6
+      ],
+      [
+        "cmovl",
+        0,
+        6
+      ],
+      [
+        "cmp",
+        4,
+        3
+      ],
+      [
+        "cmovge",
+        7,
+        4
+      ],
+      [
+        "cmovl",
+        7,
+        3
+      ],
+      [
+        "cmovg",
+        4,
+        3
+      ],
+      [
+        "cmp",
+        2,
+        1
+      ],
+      [
+        "cmovl",
+        3,
+        2
+      ],
+      [
+        "cmovl",
+        2,
+        1
+      ],
+      [
+        "cmovl",
+        1,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        7
+      ],
+      [
+        "cmovl",
+        7,
+        3
+      ],
+      [
+        "mov",
+        6,
+        0
+      ],
+      [
+        "cmp",
+        3,
+        1
+      ],
+      [
+        "cmovle",
+        3,
+        1
+      ],
+      [
+        "cmovge",
+        7,
+        1
+      ],
+      [
+        "cmp",
+        7,
+        0
+      ],
+      [
+        "cmovge",
+        6,
+        7
+      ],
+      [
+        "cmovg",
+        7,
+        0
+      ]
+    ],
+    "outputs": [
+      [
+        19,
+        4
+      ],
+      [
+        32,
+        7
+      ],
+      [
+        31,
+        6
+      ],
+      [
+        28,
+        3
+      ],
+      [
+        22,
+        2
+      ]
+    ],
+    "strict_pass": true,
+    "origin_cuts": true
+  },
+  {
+    "family": "66221a2755ee",
+    "order": [
+      4,
+      2,
+      0,
+      3,
+      1,
+      7,
+      5,
+      6
+    ],
+    "k": 32,
+    "regs": 9,
+    "status": "SAT_CANDIDATE",
+    "wall": 2.330508050508797,
+    "cpu": 1.4042518490000004,
+    "cases": 13,
+    "iterations": 1,
+    "variables": 40996,
+    "clauses": 333037,
+    "stats": {
+      "peak_job_rss_kib": 93104,
+      "child_cpu_seconds": 0.9033470000000003,
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "SAT",
+          "seconds": 0.04173751547932625,
+          "returncode": 10,
+          "cnf_sha256": "94e563795a072d2d3545a380d38c3a1e488a64064698728404ef62ea672cccf7",
+          "variables": 40996,
+          "clauses": 333037,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/origin_control_5_0_kissat_01.log",
+          "cnf_model_checked": true
+        }
+      ],
+      "limit_reason": null
+    },
+    "prefix_length": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s",
+    "polarity": false,
+    "positions": null,
+    "models": [
+      {
+        "iteration": 1,
+        "output_failed_orders": 0,
+        "target_failed_orders": 0,
+        "unsafe_orders": 0,
+        "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_5_0_66221a2755ee_42031756_1_k32.s",
+        "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/model_origin_control_5_0_66221a2755ee_42031756_1_k32_strict.log",
+        "strict_pass": true
+      }
+    ],
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_5_0_66221a2755ee_42031756_1_k32.s",
+    "program": [
+      [
+        "cmp",
+        2,
+        3
+      ],
+      [
+        "mov",
+        5,
+        2
+      ],
+      [
+        "cmovle",
+        2,
+        3
+      ],
+      [
+        "cmovg",
+        5,
+        3
+      ],
+      [
+        "mov",
+        6,
+        0
+      ],
+      [
+        "cmp",
+        6,
+        1
+      ],
+      [
+        "mov",
+        7,
+        5
+      ],
+      [
+        "cmovl",
+        6,
+        1
+      ],
+      [
+        "cmovg",
+        0,
+        1
+      ],
+      [
+        "cmp",
+        0,
+        4
+      ],
+      [
+        "cmovle",
+        1,
+        4
+      ],
+      [
+        "cmovle",
+        4,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        1
+      ],
+      [
+        "mov",
+        8,
+        2
+      ],
+      [
+        "cmp",
+        6,
+        1
+      ],
+      [
+        "cmovge",
+        1,
+        6
+      ],
+      [
+        "cmovge",
+        6,
+        0
+      ],
+      [
+        "cmp",
+        4,
+        7
+      ],
+      [
+        "cmovg",
+        7,
+        4
+      ],
+      [
+        "cmovg",
+        4,
+        5
+      ],
+      [
+        "cmp",
+        2,
+        1
+      ],
+      [
+        "cmovg",
+        2,
+        7
+      ],
+      [
+        "cmovle",
+        8,
+        1
+      ],
+      [
+        "cmovg",
+        7,
+        6
+      ],
+      [
+        "cmovle",
+        1,
+        6
+      ],
+      [
+        "cmp",
+        1,
+        2
+      ],
+      [
+        "cmovge",
+        6,
+        2
+      ],
+      [
+        "cmovg",
+        2,
+        1
+      ],
+      [
+        "cmovge",
+        1,
+        6
+      ],
+      [
+        "cmp",
+        6,
+        7
+      ],
+      [
+        "cmovl",
+        1,
+        7
+      ],
+      [
+        "cmovg",
+        6,
+        7
+      ]
+    ],
+    "outputs": [
+      [
+        20,
+        4
+      ],
+      [
+        32,
+        6
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        28,
+        2
+      ],
+      [
+        23,
+        8
+      ]
+    ],
+    "strict_pass": true,
+    "origin_cuts": true
+  },
+  {
+    "family": "66221a2755ee",
+    "order": [
+      4,
+      2,
+      0,
+      3,
+      1,
+      7,
+      5,
+      6
+    ],
+    "k": 32,
+    "regs": 9,
+    "status": "SAT_CANDIDATE",
+    "wall": 2.543571997433901,
+    "cpu": 1.6307567789999995,
+    "cases": 13,
+    "iterations": 1,
+    "variables": 41913,
+    "clauses": 394505,
+    "stats": {
+      "peak_job_rss_kib": 105484,
+      "child_cpu_seconds": 0.9052730000000002,
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "SAT",
+          "seconds": 0.04919649474322796,
+          "returncode": 10,
+          "cnf_sha256": "eb2e54b59b01f8239c4da18f9b69bf617c8f7540c2ca8bcfac171fb8c3c97c54",
+          "variables": 41913,
+          "clauses": 394505,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/origin_control_5_1_kissat_01.log",
+          "cnf_model_checked": true
+        }
+      ],
+      "limit_reason": null
+    },
+    "prefix_length": 0,
+    "source": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s",
+    "polarity": true,
+    "positions": null,
+    "models": [
+      {
+        "iteration": 1,
+        "output_failed_orders": 0,
+        "target_failed_orders": 0,
+        "unsafe_orders": 0,
+        "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_5_1_66221a2755ee_42031756_1_k32.s",
+        "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round3/logs/model_origin_control_5_1_66221a2755ee_42031756_1_k32_strict.log",
+        "strict_pass": true
+      }
+    ],
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/round3/candidates/model_origin_control_5_1_66221a2755ee_42031756_1_k32.s",
+    "program": [
+      [
+        "cmp",
+        2,
+        3
+      ],
+      [
+        "mov",
+        5,
+        2
+      ],
+      [
+        "cmovle",
+        2,
+        3
+      ],
+      [
+        "cmovg",
+        5,
+        3
+      ],
+      [
+        "mov",
+        6,
+        0
+      ],
+      [
+        "cmp",
+        6,
+        1
+      ],
+      [
+        "mov",
+        7,
+        5
+      ],
+      [
+        "cmovl",
+        6,
+        1
+      ],
+      [
+        "cmovg",
+        0,
+        1
+      ],
+      [
+        "cmp",
+        0,
+        4
+      ],
+      [
+        "cmovle",
+        1,
+        4
+      ],
+      [
+        "cmovle",
+        4,
+        0
+      ],
+      [
+        "cmovl",
+        0,
+        1
+      ],
+      [
+        "mov",
+        8,
+        2
+      ],
+      [
+        "cmp",
+        6,
+        1
+      ],
+      [
+        "cmovge",
+        1,
+        6
+      ],
+      [
+        "cmovge",
+        6,
+        0
+      ],
+      [
+        "cmp",
+        4,
+        7
+      ],
+      [
+        "cmovg",
+        7,
+        4
+      ],
+      [
+        "cmovg",
+        4,
+        5
+      ],
+      [
+        "cmp",
+        2,
+        1
+      ],
+      [
+        "cmovg",
+        2,
+        7
+      ],
+      [
+        "cmovle",
+        8,
+        1
+      ],
+      [
+        "cmovg",
+        7,
+        6
+      ],
+      [
+        "cmovle",
+        1,
+        6
+      ],
+      [
+        "cmp",
+        2,
+        1
+      ],
+      [
+        "cmovle",
+        6,
+        2
+      ],
+      [
+        "cmovl",
+        2,
+        1
+      ],
+      [
+        "cmovle",
+        1,
+        6
+      ],
+      [
+        "cmp",
+        6,
+        7
+      ],
+      [
+        "cmovl",
+        1,
+        7
+      ],
+      [
+        "cmovg",
+        6,
+        7
+      ]
+    ],
+    "outputs": [
+      [
+        20,
+        4
+      ],
+      [
+        32,
+        6
+      ],
+      [
+        31,
+        1
+      ],
+      [
+        28,
+        2
+      ],
+      [
+        23,
+        8
+      ]
+    ],
+    "strict_pass": true,
+    "origin_cuts": true
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "suffix19_t1",
+  "command": [
+    "round6/bin/suffix",
+    "round5/candidates/fresh31_near.s",
+    "round6/candidates/suffix19_t1",
+    "31",
+    "1",
+    "0.05",
+    "180",
+    "626191",
+    "9",
+    "0",
+    "8",
+    "19"
+  ],
+  "wall_limit": 240.0,
+  "exit": 124,
+  "seconds": 240.31783293373883,
+  "log": "round6/logs/suffix19_t1.log",
+  "affinity": [
+    73,
+    74
+  ]
+}

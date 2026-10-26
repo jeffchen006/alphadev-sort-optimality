@@ -1,0 +1,182 @@
+[
+  {
+    "index": 0,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_100_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/00_net9_100_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 1,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_103_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/01_net9_103_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 2,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_105_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/02_net9_105_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 3,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_108_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/03_net9_108_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 4,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_124_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/04_net9_124_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 5,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_135_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/05_net9_135_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 6,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_150_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/06_net9_150_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 7,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_153_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/07_net9_153_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 8,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_155_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/08_net9_155_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 9,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_156_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/09_net9_156_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 10,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_157_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/10_net9_157_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 11,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_172_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/11_net9_172_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 12,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_17_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/12_net9_17_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 13,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_19_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/13_net9_19_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 14,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_21_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/14_net9_21_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 15,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_22_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/15_net9_22_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 16,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_25_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/16_net9_25_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 17,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_27_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/17_net9_27_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 18,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_28_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/18_net9_28_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 19,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_41_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/19_net9_41_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 20,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_50_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/20_net9_50_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 21,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_68_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/21_net9_68_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 22,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_82_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/22_net9_82_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 23,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_91_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/23_net9_91_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 24,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_95_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/24_net9_95_k32.txt",
+    "registers": 8
+  },
+  {
+    "index": 25,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_96_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/25_net9_96_k32.txt",
+    "registers": 9
+  },
+  {
+    "index": 26,
+    "source": "/path/to/repo/programs/found/upper_sort5_I0_k32_out.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/26_upper_sort5_I0_k32_out.txt",
+    "registers": 9
+  },
+  {
+    "index": 27,
+    "source": "/path/to/repo/programs/found/upper_sort5_I1_k32_out.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/27_upper_sort5_I1_k32_out.txt",
+    "registers": 8
+  },
+  {
+    "index": 28,
+    "source": "/path/to/repo/programs/found/upper_sort5_k32_depthU10.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/28_upper_sort5_k32_depthU10.txt",
+    "registers": 9
+  },
+  {
+    "index": 29,
+    "source": "/path/to/repo/programs/found/sat_sort5_k32.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/seeds/29_sat_sort5_k32.txt",
+    "registers": 10
+  }
+]

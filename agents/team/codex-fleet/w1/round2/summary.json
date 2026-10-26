@@ -1,0 +1,37 @@
+{
+  "omit7.log": {
+    "c": 7,
+    "leaves": 0,
+    "functional": 0,
+    "seconds": 1.06598,
+    "nodes": 13911168
+  },
+  "omit8.log": {
+    "c": 8,
+    "leaves": 198,
+    "functional": 198,
+    "seconds": 0.681496,
+    "nodes": 3145338
+  },
+  "extend1.log": {
+    "c": 8,
+    "leaves": 264,
+    "functional": 198,
+    "seconds": 24.2214,
+    "nodes": 82582920
+  },
+  "extend2.log": {
+    "c": 8,
+    "leaves": 264,
+    "functional": 198,
+    "seconds": 288.07,
+    "nodes": 986691720
+  },
+  "extend7.log": {
+    "c": 7,
+    "leaves": 0,
+    "functional": 0,
+    "seconds": 1981.43,
+    "nodes": 4586741148
+  }
+}

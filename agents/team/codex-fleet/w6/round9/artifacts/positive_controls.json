@@ -1,0 +1,50 @@
+[
+  {
+    "file": "round9/candidates/control_out_best_fail.s",
+    "weak_fail": 0,
+    "weak_error_sum": 0,
+    "focus_fail": 0,
+    "median_error": 0,
+    "median_lost": 0,
+    "fitness": 0.0,
+    "failure_inputs": [],
+    "judge": "round9/logs/control_out_best_fail_judge.log",
+    "model": "out"
+  },
+  {
+    "file": "round9/candidates/control_out_best_objective.s",
+    "weak_fail": 0,
+    "weak_error_sum": 0,
+    "focus_fail": 0,
+    "median_error": 0,
+    "median_lost": 0,
+    "fitness": 0.0,
+    "failure_inputs": [],
+    "judge": "round9/logs/control_out_best_objective_judge.log",
+    "model": "out"
+  },
+  {
+    "file": "round9/candidates/control_mem_best_fail.s",
+    "weak_fail": 0,
+    "weak_error_sum": 0,
+    "focus_fail": 0,
+    "median_error": 0,
+    "median_lost": 0,
+    "fitness": 0.0,
+    "failure_inputs": [],
+    "judge": "round9/logs/control_mem_best_fail_judge.log",
+    "model": "mem"
+  },
+  {
+    "file": "round9/candidates/control_mem_best_objective.s",
+    "weak_fail": 0,
+    "weak_error_sum": 0,
+    "focus_fail": 0,
+    "median_error": 0,
+    "median_lost": 0,
+    "fitness": 0.0,
+    "failure_inputs": [],
+    "judge": "round9/logs/control_mem_best_objective_judge.log",
+    "model": "mem"
+  }
+]

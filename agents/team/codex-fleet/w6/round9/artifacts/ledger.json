@@ -1,0 +1,380 @@
+[
+  {
+    "name": "weighted_out_s00",
+    "mode": "out",
+    "source": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "source_sha256": "4c8505703c6fcab5ceea7d567db685912b72584b962ab35b4e996fbeffd97e68",
+    "cpu_limit": 600,
+    "wall_limit": 3660,
+    "temperature": 2,
+    "weights": [
+      4,
+      2,
+      4
+    ],
+    "command": [
+      "round9/bin/weighted",
+      "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+      "round9/candidates/weighted_out_s00",
+      "out",
+      "600",
+      "952600",
+      "2",
+      "4",
+      "2",
+      "4",
+      "2"
+    ],
+    "exit": 0,
+    "log": "round9/logs/weighted_out_s00.log",
+    "wall_seconds": 724.4097552783787,
+    "cpu_seconds": 600.009758,
+    "peak_child_rss_kib": 14716,
+    "affinity": [
+      73,
+      74
+    ],
+    "status": "COMPLETE",
+    "summary": {
+      "iterations": 136351744,
+      "accepted": 16352727,
+      "resets": 68,
+      "archive": 128,
+      "best_fail": 9,
+      "best_error": 9,
+      "best_fitness": 57.048,
+      "lowfiles": 0,
+      "zero_candidates": 0,
+      "cpu": 600.002724
+    },
+    "judges": [
+      {
+        "file": "round9/candidates/weighted_out_s00_best_fail.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s00_best_fail_out_judge.log"
+      },
+      {
+        "file": "round9/candidates/weighted_out_s00_best_objective.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s00_best_objective_out_judge.log"
+      }
+    ]
+  },
+  {
+    "name": "weighted_mem_s00",
+    "mode": "mem",
+    "source": "round6/candidates/mem_b5_c9t0.5_near_31.s",
+    "source_sha256": "c7ba2a05a5f56e99f97a0cd4e1fb4f0ca5583e220d2eadddc43035abc2bdaea7",
+    "cpu_limit": 120,
+    "wall_limit": 780,
+    "temperature": 2,
+    "weights": [
+      4,
+      2,
+      4
+    ],
+    "command": [
+      "round9/bin/weighted",
+      "round6/candidates/mem_b5_c9t0.5_near_31.s",
+      "round9/candidates/weighted_mem_s00",
+      "mem",
+      "120",
+      "952601",
+      "2",
+      "4",
+      "2",
+      "4",
+      "2"
+    ],
+    "exit": 0,
+    "log": "round9/logs/weighted_mem_s00.log",
+    "wall_seconds": 131.99633034318686,
+    "cpu_seconds": 120.00869799999998,
+    "peak_child_rss_kib": 14716,
+    "affinity": [
+      73,
+      74
+    ],
+    "status": "COMPLETE",
+    "summary": {
+      "iterations": 86974464,
+      "accepted": 8421617,
+      "resets": 43,
+      "archive": 128,
+      "best_fail": 9,
+      "best_error": 9,
+      "best_fitness": 57.048,
+      "lowfiles": 0,
+      "zero_candidates": 0,
+      "cpu": 120.002827
+    },
+    "judges": [
+      {
+        "file": "round9/candidates/weighted_mem_s00_best_fail.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s00_best_fail_mem_judge.log"
+      },
+      {
+        "file": "round9/candidates/weighted_mem_s00_best_objective.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s00_best_objective_mem_judge.log"
+      }
+    ]
+  },
+  {
+    "name": "weighted_out_s02",
+    "mode": "out",
+    "source": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+    "source_sha256": "32bbd57b63583bf660981be23ed1aef158279ccf6fbf32ff3ca81054627177ce",
+    "cpu_limit": 600,
+    "wall_limit": 3660,
+    "temperature": 4,
+    "weights": [
+      8,
+      2,
+      6
+    ],
+    "command": [
+      "round9/bin/weighted",
+      "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+      "round9/candidates/weighted_out_s02",
+      "out",
+      "600",
+      "952700",
+      "4",
+      "8",
+      "2",
+      "6",
+      "2"
+    ],
+    "exit": 0,
+    "log": "round9/logs/weighted_out_s02.log",
+    "wall_seconds": 699.1383464923128,
+    "cpu_seconds": 600.007749,
+    "peak_child_rss_kib": 15052,
+    "affinity": [
+      73,
+      74
+    ],
+    "status": "COMPLETE",
+    "summary": {
+      "iterations": 116760576,
+      "accepted": 27307907,
+      "resets": 58,
+      "archive": 128,
+      "best_fail": 9,
+      "best_error": 9,
+      "best_fitness": 39.039,
+      "lowfiles": 0,
+      "zero_candidates": 0,
+      "cpu": 600.001094
+    },
+    "judges": [
+      {
+        "file": "round9/candidates/weighted_out_s02_best_fail.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s02_best_fail_out_judge.log"
+      },
+      {
+        "file": "round9/candidates/weighted_out_s02_best_objective.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s02_best_objective_out_judge.log"
+      }
+    ]
+  },
+  {
+    "name": "weighted_mem_s02",
+    "mode": "mem",
+    "source": "round6/candidates/mem_a4_c8t1.2_near_699.s",
+    "source_sha256": "a1b83a0c58da1592d6f94665d15bd40fbb04070c51029353eda8cd214843a9dc",
+    "cpu_limit": 120,
+    "wall_limit": 780,
+    "temperature": 4,
+    "weights": [
+      8,
+      2,
+      6
+    ],
+    "command": [
+      "round9/bin/weighted",
+      "round6/candidates/mem_a4_c8t1.2_near_699.s",
+      "round9/candidates/weighted_mem_s02",
+      "mem",
+      "120",
+      "952701",
+      "4",
+      "8",
+      "2",
+      "6",
+      "2"
+    ],
+    "exit": 0,
+    "log": "round9/logs/weighted_mem_s02.log",
+    "wall_seconds": 133.67416892014444,
+    "cpu_seconds": 120.01496900000002,
+    "peak_child_rss_kib": 15052,
+    "affinity": [
+      73,
+      74
+    ],
+    "status": "COMPLETE",
+    "summary": {
+      "iterations": 70475776,
+      "accepted": 16495652,
+      "resets": 35,
+      "archive": 128,
+      "best_fail": 9,
+      "best_error": 9,
+      "best_fitness": 57.048,
+      "lowfiles": 0,
+      "zero_candidates": 0,
+      "cpu": 120.008365
+    },
+    "judges": [
+      {
+        "file": "round9/candidates/weighted_mem_s02_best_fail.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s02_best_fail_mem_judge.log"
+      },
+      {
+        "file": "round9/candidates/weighted_mem_s02_best_objective.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s02_best_objective_mem_judge.log"
+      }
+    ]
+  },
+  {
+    "name": "weighted_out_s10",
+    "mode": "out",
+    "source": "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+    "source_sha256": "7523a8d0b847ea40e628dacf04d53c0f98f618b5ec80711b1693f76c9742fda7",
+    "cpu_limit": 600,
+    "wall_limit": 3660,
+    "temperature": 8,
+    "weights": [
+      16,
+      4,
+      8
+    ],
+    "command": [
+      "round9/bin/weighted",
+      "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+      "round9/candidates/weighted_out_s10",
+      "out",
+      "600",
+      "952800",
+      "8",
+      "16",
+      "4",
+      "8",
+      "2"
+    ],
+    "exit": 0,
+    "log": "round9/logs/weighted_out_s10.log",
+    "wall_seconds": 654.6720564896241,
+    "cpu_seconds": 600.0203539999999,
+    "peak_child_rss_kib": 15052,
+    "affinity": [
+      73,
+      74
+    ],
+    "status": "COMPLETE",
+    "summary": {
+      "iterations": 114352128,
+      "accepted": 29344029,
+      "resets": 57,
+      "archive": 128,
+      "best_fail": 9,
+      "best_error": 9,
+      "best_fitness": 39.039,
+      "lowfiles": 0,
+      "zero_candidates": 0,
+      "cpu": 600.013569
+    },
+    "judges": [
+      {
+        "file": "round9/candidates/weighted_out_s10_best_fail.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s10_best_fail_out_judge.log"
+      },
+      {
+        "file": "round9/candidates/weighted_out_s10_best_objective.s",
+        "model": "out",
+        "passed": false,
+        "log": "round9/logs/weighted_out_s10_best_objective_out_judge.log"
+      }
+    ]
+  },
+  {
+    "name": "weighted_mem_s10",
+    "mode": "mem",
+    "source": "round6/candidates/mem_a4_c8t1.2_near_624.s",
+    "source_sha256": "c885fa38b7500eb1fe5d007729e492d3b5c4816cb56462a91a946dcf55949adf",
+    "cpu_limit": 120,
+    "wall_limit": 780,
+    "temperature": 8,
+    "weights": [
+      16,
+      4,
+      8
+    ],
+    "command": [
+      "round9/bin/weighted",
+      "round6/candidates/mem_a4_c8t1.2_near_624.s",
+      "round9/candidates/weighted_mem_s10",
+      "mem",
+      "120",
+      "952801",
+      "8",
+      "16",
+      "4",
+      "8",
+      "2"
+    ],
+    "exit": 0,
+    "log": "round9/logs/weighted_mem_s10.log",
+    "wall_seconds": 126.90146874077618,
+    "cpu_seconds": 120.00919099999999,
+    "peak_child_rss_kib": 15052,
+    "affinity": [
+      73,
+      74
+    ],
+    "status": "COMPLETE",
+    "summary": {
+      "iterations": 65974272,
+      "accepted": 16485842,
+      "resets": 32,
+      "archive": 128,
+      "best_fail": 9,
+      "best_error": 9,
+      "best_fitness": 39.039,
+      "lowfiles": 0,
+      "zero_candidates": 0,
+      "cpu": 120.00286
+    },
+    "judges": [
+      {
+        "file": "round9/candidates/weighted_mem_s10_best_fail.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s10_best_fail_mem_judge.log"
+      },
+      {
+        "file": "round9/candidates/weighted_mem_s10_best_objective.s",
+        "model": "mem",
+        "passed": false,
+        "log": "round9/logs/weighted_mem_s10_best_objective_mem_judge.log"
+      }
+    ]
+  }
+]

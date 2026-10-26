@@ -1,0 +1,74 @@
+{
+  "planned": 797,
+  "completed": 797,
+  "not_started": 0,
+  "status_counts": {
+    "UNSAT": 797
+  },
+  "by_seed": {
+    "near9": {
+      "UNSAT": 364
+    },
+    "near14": {
+      "UNSAT": 433
+    }
+  },
+  "combined_round6_round7": {
+    "near9": {
+      "UNSAT": 465
+    },
+    "near14": {
+      "UNSAT": 465
+    }
+  },
+  "query_wall_seconds": 2411.845474666916,
+  "max_query_wall_seconds": 29.555257479660213,
+  "max_observed_job_rss_kib": 69820,
+  "encoded_type_counts": {
+    "20": 364,
+    "31": 3,
+    "34": 2,
+    "24": 404,
+    "30": 7,
+    "33": 4,
+    "35": 1,
+    "26": 3,
+    "32": 6,
+    "28": 1,
+    "37": 1,
+    "38": 1
+  },
+  "solver_calls": 832,
+  "queries_with_counterexample_refinement": 29,
+  "max_encoded_cases": 38,
+  "pass_files": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round7/verified/kissat_slots_control32.s",
+      "model": "out",
+      "k": 32,
+      "code": 0,
+      "passed": true,
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round7/logs/judge_kissat_slots_control32.log",
+      "sha256": "168855cb78b143ca123c49da675e74ec959baed31d297734f2028f45881dc117"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round7/verified/kissat_slots_control32_mem.s",
+      "model": "mem",
+      "k": 32,
+      "code": 0,
+      "passed": true,
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round7/logs/judge_kissat_slots_control32_mem.log",
+      "sha256": "2b9d322643b9dc61549bd542031912098e02961e5dcccae4bf9ddb989318dc86"
+    }
+  ],
+  "audited_unsat_logs": 797,
+  "checked_source_and_solver_hashes": 11,
+  "all_jobs_finished": true,
+  "assumption_tags": [
+    "G1",
+    "G2",
+    "G3",
+    "A2",
+    "A11"
+  ]
+}

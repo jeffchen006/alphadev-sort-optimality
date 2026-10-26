@@ -1,0 +1,194 @@
+{
+  "k": 32,
+  "correct_120": true,
+  "partial_columns": 2,
+  "noncompletable_partial": 1,
+  "nonlattice_full": 0
+}
+[
+  {
+    "step": 2,
+    "instruction": "cmovle S1, P1",
+    "garbage_entries": 60,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 3,
+    "instruction": "cmovl P1, P3",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 4,
+    "instruction": "cmovl P3, S1",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 6,
+    "instruction": "cmovle S1, P2",
+    "garbage_entries": 30,
+    "lattice_completion": false,
+    "witness": {
+      "kind": "same_set",
+      "first": {
+        "input": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "value": 3,
+        "upper_set": 28
+      },
+      "second": {
+        "input": [
+          0,
+          1,
+          3,
+          4,
+          2
+        ],
+        "value": 1,
+        "upper_set": 28
+      }
+    }
+  },
+  {
+    "step": 7,
+    "instruction": "cmovl P2, P4",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 8,
+    "instruction": "mov S4, P2",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 9,
+    "instruction": "mov S3, P3",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 10,
+    "instruction": "cmovge S1, P4",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 11,
+    "instruction": "mov S0, P0",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 13,
+    "instruction": "cmovl P3, S1",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 14,
+    "instruction": "cmovge S3, S1",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 16,
+    "instruction": "cmovle P0, P3",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 17,
+    "instruction": "cmovle P3, S0",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 19,
+    "instruction": "cmovg P0, S3",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 20,
+    "instruction": "cmovg S3, S0",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 23,
+    "instruction": "cmovle S4, P1",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 24,
+    "instruction": "cmovg P2, P1",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 26,
+    "instruction": "cmovl S0, S4",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 28,
+    "instruction": "cmovle S4, P3",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 30,
+    "instruction": "cmovg P3, P2",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 31,
+    "instruction": "cmovle S4, P2",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 34,
+    "instruction": "cmovl P3, P0",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  },
+  {
+    "step": 36,
+    "instruction": "cmovl P0, P2",
+    "garbage_entries": 0,
+    "lattice_completion": true,
+    "witness": null
+  }
+]

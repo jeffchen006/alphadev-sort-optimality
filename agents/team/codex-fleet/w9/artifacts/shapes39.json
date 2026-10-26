@@ -1,0 +1,749 @@
+{
+  "args": {
+    "tree": 39,
+    "regs": 6,
+    "seconds": 2.0,
+    "count": 80,
+    "tag": "shapes39"
+  },
+  "results": [
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.06462448,
+      "vars": 7776,
+      "clauses": 47973,
+      "stats": {
+        "restarts": 2408,
+        "conflicts": 18028,
+        "decisions": 136753,
+        "propagations": 8587960
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.014397488,
+      "vars": 7776,
+      "clauses": 47973,
+      "stats": {
+        "restarts": 2338,
+        "conflicts": 18013,
+        "decisions": 135828,
+        "propagations": 8104580
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0840163459999994,
+      "vars": 7776,
+      "clauses": 47971,
+      "stats": {
+        "restarts": 2199,
+        "conflicts": 17030,
+        "decisions": 128057,
+        "propagations": 8862324
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0284966120000005,
+      "vars": 7776,
+      "clauses": 47965,
+      "stats": {
+        "restarts": 2628,
+        "conflicts": 20017,
+        "decisions": 151600,
+        "propagations": 9140364
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.029428831999999,
+      "vars": 7776,
+      "clauses": 47981,
+      "stats": {
+        "restarts": 2665,
+        "conflicts": 21028,
+        "decisions": 159085,
+        "propagations": 10864575
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0305498659999994,
+      "vars": 7776,
+      "clauses": 47975,
+      "stats": {
+        "restarts": 2666,
+        "conflicts": 22020,
+        "decisions": 157062,
+        "propagations": 10260619
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.013622741999999,
+      "vars": 7776,
+      "clauses": 47973,
+      "stats": {
+        "restarts": 2613,
+        "conflicts": 22013,
+        "decisions": 155429,
+        "propagations": 10105770
+      }
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0890505929999996,
+      "vars": 7776,
+      "clauses": 47981,
+      "stats": {
+        "restarts": 2978,
+        "conflicts": 24038,
+        "decisions": 171708,
+        "propagations": 9987883
+      }
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0408387790000013,
+      "vars": 7776,
+      "clauses": 47975,
+      "stats": {
+        "restarts": 2844,
+        "conflicts": 24024,
+        "decisions": 160679,
+        "propagations": 10720453
+      }
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.004222782000003,
+      "vars": 7776,
+      "clauses": 47979,
+      "stats": {
+        "restarts": 2694,
+        "conflicts": 30050,
+        "decisions": 123455,
+        "propagations": 11188863
+      }
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.047267197,
+      "vars": 7776,
+      "clauses": 47967,
+      "stats": {
+        "restarts": 2962,
+        "conflicts": 22024,
+        "decisions": 169477,
+        "propagations": 10384510
+      }
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0195400059999997,
+      "vars": 7776,
+      "clauses": 47971,
+      "stats": {
+        "restarts": 2803,
+        "conflicts": 23014,
+        "decisions": 169352,
+        "propagations": 10318482
+      }
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.101698857999999,
+      "vars": 7776,
+      "clauses": 47965,
+      "stats": {
+        "restarts": 3168,
+        "conflicts": 24036,
+        "decisions": 180689,
+        "propagations": 10747291
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0058222060000013,
+      "vars": 7776,
+      "clauses": 47981,
+      "stats": {
+        "restarts": 2989,
+        "conflicts": 23013,
+        "decisions": 171006,
+        "propagations": 10766889
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0535100479999997,
+      "vars": 7776,
+      "clauses": 47975,
+      "stats": {
+        "restarts": 2916,
+        "conflicts": 24022,
+        "decisions": 166946,
+        "propagations": 10209178
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.032485772000001,
+      "vars": 7776,
+      "clauses": 47979,
+      "stats": {
+        "restarts": 2765,
+        "conflicts": 22021,
+        "decisions": 164076,
+        "propagations": 10099027
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.037412931999995,
+      "vars": 7776,
+      "clauses": 47967,
+      "stats": {
+        "restarts": 2840,
+        "conflicts": 22033,
+        "decisions": 162642,
+        "propagations": 10888119
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.023712017000001,
+      "vars": 7776,
+      "clauses": 47977,
+      "stats": {
+        "restarts": 3022,
+        "conflicts": 23024,
+        "decisions": 168933,
+        "propagations": 10092289
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0494961539999963,
+      "vars": 7776,
+      "clauses": 47959,
+      "stats": {
+        "restarts": 2652,
+        "conflicts": 21015,
+        "decisions": 154663,
+        "propagations": 10509985
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.026962961999999,
+      "vars": 7776,
+      "clauses": 47969,
+      "stats": {
+        "restarts": 2267,
+        "conflicts": 20024,
+        "decisions": 135750,
+        "propagations": 9011876
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.040715900000002,
+      "vars": 7776,
+      "clauses": 47963,
+      "stats": {
+        "restarts": 2680,
+        "conflicts": 22021,
+        "decisions": 158644,
+        "propagations": 10333813
+      }
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0016553150000007,
+      "vars": 7776,
+      "clauses": 47957,
+      "stats": {
+        "restarts": 2741,
+        "conflicts": 22028,
+        "decisions": 157597,
+        "propagations": 10146367
+      }
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0280041059999974,
+      "vars": 7776,
+      "clauses": 47973,
+      "stats": {
+        "restarts": 3055,
+        "conflicts": 23017,
+        "decisions": 167727,
+        "propagations": 10116142
+      }
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0288556369999995,
+      "vars": 7776,
+      "clauses": 47971,
+      "stats": {
+        "restarts": 2804,
+        "conflicts": 25026,
+        "decisions": 162328,
+        "propagations": 10062269
+      }
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.017741005000005,
+      "vars": 7776,
+      "clauses": 47965,
+      "stats": {
+        "restarts": 3164,
+        "conflicts": 22031,
+        "decisions": 172026,
+        "propagations": 10048861
+      }
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0010189830000016,
+      "vars": 7776,
+      "clauses": 47969,
+      "stats": {
+        "restarts": 2688,
+        "conflicts": 21012,
+        "decisions": 153973,
+        "propagations": 9771853
+      }
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0853110399999935,
+      "vars": 7776,
+      "clauses": 47963,
+      "stats": {
+        "restarts": 3165,
+        "conflicts": 23023,
+        "decisions": 171549,
+        "propagations": 10535548
+      }
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0098007360000025,
+      "vars": 7776,
+      "clauses": 47957,
+      "stats": {
+        "restarts": 2814,
+        "conflicts": 23021,
+        "decisions": 160185,
+        "propagations": 10671970
+      }
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0697298859999975,
+      "vars": 7776,
+      "clauses": 47989,
+      "stats": {
+        "restarts": 3072,
+        "conflicts": 24040,
+        "decisions": 180190,
+        "propagations": 11091636
+      }
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0408300150000045,
+      "vars": 7776,
+      "clauses": 47983,
+      "stats": {
+        "restarts": 3317,
+        "conflicts": 24015,
+        "decisions": 192339,
+        "propagations": 10980481
+      }
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0818594800000056,
+      "vars": 7776,
+      "clauses": 47977,
+      "stats": {
+        "restarts": 3140,
+        "conflicts": 24030,
+        "decisions": 185658,
+        "propagations": 11195663
+      }
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.015891834999998,
+      "vars": 7776,
+      "clauses": 47981,
+      "stats": {
+        "restarts": 3158,
+        "conflicts": 23035,
+        "decisions": 185599,
+        "propagations": 10822458
+      }
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.010205365999994,
+      "vars": 7776,
+      "clauses": 47975,
+      "stats": {
+        "restarts": 3256,
+        "conflicts": 24022,
+        "decisions": 187995,
+        "propagations": 10979312
+      }
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.05677999400001,
+      "vars": 7776,
+      "clauses": 47973,
+      "stats": {
+        "restarts": 3303,
+        "conflicts": 26027,
+        "decisions": 194046,
+        "propagations": 11193547
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0477944459999975,
+      "vars": 7776,
+      "clauses": 47989,
+      "stats": {
+        "restarts": 2893,
+        "conflicts": 24027,
+        "decisions": 169758,
+        "propagations": 11221379
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.001090117000004,
+      "vars": 7776,
+      "clauses": 47983,
+      "stats": {
+        "restarts": 2749,
+        "conflicts": 22041,
+        "decisions": 163508,
+        "propagations": 10442812
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0310803859999993,
+      "vars": 7776,
+      "clauses": 47977,
+      "stats": {
+        "restarts": 2846,
+        "conflicts": 21010,
+        "decisions": 163228,
+        "propagations": 10894010
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0173509100000047,
+      "vars": 7776,
+      "clauses": 47987,
+      "stats": {
+        "restarts": 2904,
+        "conflicts": 22020,
+        "decisions": 168026,
+        "propagations": 10353128
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.027357792999993,
+      "vars": 7776,
+      "clauses": 47969,
+      "stats": {
+        "restarts": 2779,
+        "conflicts": 22026,
+        "decisions": 164926,
+        "propagations": 10606192
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0175947600000086,
+      "vars": 7776,
+      "clauses": 47979,
+      "stats": {
+        "restarts": 2831,
+        "conflicts": 21019,
+        "decisions": 167182,
+        "propagations": 10459221
+      }
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "cpu": 2.0816797129999998,
+      "vars": 7776,
+      "clauses": 47967,
+      "stats": {
+        "restarts": 2695,
+        "conflicts": 22015,
+        "decisions": 162338,
+        "propagations": 10203941
+      }
+    }
+  ]
+}

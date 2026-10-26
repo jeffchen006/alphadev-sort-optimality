@@ -1,0 +1,32 @@
+{
+  "name": "triples_2283",
+  "free": [
+    6,
+    11,
+    14
+  ],
+  "registers": 13,
+  "status": "UNSAT",
+  "exit": 0,
+  "seconds": 10.043111719191074,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/triples_2283.s",
+    "--changes",
+    "0",
+    "--registers",
+    "13",
+    "--free",
+    "6,11,14",
+    "--proof"
+  ],
+  "proof_verified": true,
+  "cnf_sha256": "008c82667d8495d34fae253ae8090f56caea4c38f9513d57f5013e871bf263ac",
+  "drat_sha256": "7755110c9b48c3de00bf1db9df3cfe1957a309db3ab63cfd5550b41810efc019"
+}

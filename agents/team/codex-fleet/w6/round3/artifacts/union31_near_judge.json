@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/path/to/repo/shared/judge.py",
+    "round3/candidates/union31_near.s",
+    "--strict",
+    "--model",
+    "out"
+  ],
+  "wall_limit": 30.0,
+  "exit": 1,
+  "seconds": 0.032885896041989326,
+  "log": "round3/logs/union31_near_judge.log"
+}

@@ -1,0 +1,44 @@
+{
+  "selected": 299,
+  "attempts": 360,
+  "attempt_statuses": {
+    "UNSAT": 296,
+    "UNKNOWN": 64
+  },
+  "processed_windows": 299,
+  "final_statuses": {
+    "UNSAT": 296,
+    "UNKNOWN": 3
+  },
+  "checked_UNSAT_windows": 296,
+  "pending": 0,
+  "unknown_windows": [
+    [
+      12,
+      15,
+      19,
+      21
+    ],
+    [
+      12,
+      15,
+      21,
+      25
+    ],
+    [
+      12,
+      14,
+      15,
+      23
+    ]
+  ],
+  "search_seconds": 3688.9772956278175,
+  "verify_seconds": 744.3509826222435,
+  "blocked_rejected_candidates": 0,
+  "source_hashes": {
+    "src/round2.py": "b24050150683abc8f3df223005843519accd5c6231c693bd51b33d90e351bfff",
+    "src/search.py": "636751cfad14952d8c5309965ced0ceaa4585f94d4b37208b283b14a2558edce",
+    "src/rank_encode.py": "5cb122fd14157bb9058447d9e199a9ee6cc2e734f140768e7ecda87df56ffe48",
+    "src/encode.py": "d383c8d3d9f6098a01fa093cbe65f113e9d2310a22d3abf49298f29c9403d357"
+  }
+}

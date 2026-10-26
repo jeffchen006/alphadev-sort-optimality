@@ -1,0 +1,20 @@
+{
+  "name": "near14_judge",
+  "command": [
+    "python3",
+    "-B",
+    "/path/to/repo/shared/judge.py",
+    "round4/candidates/flagswrites_1_seed161_near.s",
+    "--strict",
+    "--model",
+    "out"
+  ],
+  "wall_limit": 30.0,
+  "exit": 1,
+  "seconds": 0.04656006954610348,
+  "log": "round4/logs/near14_judge.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

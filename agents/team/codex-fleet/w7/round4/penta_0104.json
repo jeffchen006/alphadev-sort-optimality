@@ -1,0 +1,53 @@
+{
+  "index": 104,
+  "window": [
+    14,
+    18,
+    21,
+    27,
+    29
+  ],
+  "variables": 26564,
+  "clauses": 142221,
+  "cnf_bytes": 2262617,
+  "prefix": "round4/penta_0104",
+  "registers": 8,
+  "limit_seconds": 900,
+  "status": "UNSAT",
+  "attempts": [
+    {
+      "command": [
+        "nice",
+        "-n",
+        "19",
+        "/path/to/repo/bin/kissat",
+        "round4/penta_0104.s.cnf",
+        "round4/penta_0104.drat"
+      ],
+      "exit": 20,
+      "limited": false,
+      "seconds": 10.771627875976264,
+      "peak_KiB": 21920,
+      "user_seconds": 9.5,
+      "system_seconds": 0.04,
+      "log": "round4/penta_0104.solve000.log"
+    }
+  ],
+  "blocked_mappings": 0,
+  "strict_judge_calls": 0,
+  "initial_cnf_sha256": "6f6f82d6508eaa7d3df9da6c628115c18aa6fb85e70c5b255e27fa0f278aaa2f",
+  "solver_status": "UNSAT",
+  "verification": {
+    "exit": 0,
+    "limited": false,
+    "seconds": 12.707500440068543,
+    "peak_KiB": 80868,
+    "user_seconds": 12.05,
+    "system_seconds": 0.06
+  },
+  "proof_verified": true,
+  "cnf_sha256": "6f6f82d6508eaa7d3df9da6c628115c18aa6fb85e70c5b255e27fa0f278aaa2f",
+  "drat_sha256": "391fd0be01117fd05d132da562623d7431d4ca94ea7c3e1d8a10be4a01e39103",
+  "search_seconds": 10.771627875976264,
+  "peak_KiB": 80868
+}

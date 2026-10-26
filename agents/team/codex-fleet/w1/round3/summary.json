@@ -1,0 +1,1770 @@
+{
+  "programs": 143,
+  "searches": [
+    {
+      "label": "Required values retained",
+      "log": "round3/masked31.log",
+      "expected": 143,
+      "completed": 143,
+      "statuses": {
+        "NONE": 143
+      },
+      "generated": 635688,
+      "kept": 327948,
+      "write_candidates": 87467320,
+      "cmp_candidates": 2744152,
+      "cpu": 2.405776,
+      "peak_layer": 3245,
+      "peak_columns": 176
+    },
+    {
+      "label": "One internal write omitted",
+      "log": "round3/drop31_final.log",
+      "expected": 2717,
+      "completed": 2717,
+      "statuses": {
+        "NONE": 2717
+      },
+      "generated": 4015368,
+      "kept": 2569957,
+      "write_candidates": 516145505,
+      "cmp_candidates": 27818696,
+      "cpu": 11.662980000000015,
+      "peak_layer": 18226,
+      "peak_columns": 176
+    },
+    {
+      "label": "Values required only at creation",
+      "log": "round3/loose31_exact.log",
+      "expected": 143,
+      "completed": 143,
+      "statuses": {
+        "NONE": 143
+      },
+      "generated": 1953318,
+      "kept": 1069476,
+      "write_candidates": 290693540,
+      "cmp_candidates": 4406564,
+      "cpu": 5.8052529999999996,
+      "peak_layer": 26174,
+      "peak_columns": 221
+    },
+    {
+      "label": "Creation masks plus one write omitted",
+      "log": "round3/loose_drop31.log",
+      "expected": 2717,
+      "completed": 2717,
+      "statuses": {
+        "NONE": 2717
+      },
+      "generated": 19396526,
+      "kept": 11374789,
+      "write_candidates": 2305985280,
+      "cmp_candidates": 80552153,
+      "cpu": 50.278833999999954,
+      "peak_layer": 89042,
+      "peak_columns": 231
+    },
+    {
+      "label": "One input value requirement waived",
+      "log": "round3/waive_input31.log",
+      "expected": 715,
+      "completed": 715,
+      "statuses": {
+        "NONE": 715
+      },
+      "generated": 4040095,
+      "kept": 2081368,
+      "write_candidates": 509007265,
+      "cmp_candidates": 17533811,
+      "cpu": 15.706714000000002,
+      "peak_layer": 7019,
+      "peak_columns": 342
+    },
+    {
+      "label": "Free comparisons and early outputs",
+      "log": "round3/freecmp_early31.log",
+      "expected": 143,
+      "completed": 143,
+      "statuses": {
+        "NONE": 143
+      },
+      "generated": 10327400,
+      "kept": 5860811,
+      "write_candidates": 1713750480,
+      "cmp_candidates": 4570083,
+      "cpu": 43.27269100000001,
+      "peak_layer": 164311,
+      "peak_columns": 3626
+    },
+    {
+      "label": "Each copy omitted; free comparisons and early outputs",
+      "log": "round3/copydrop_free31.log",
+      "expected": 629,
+      "completed": 629,
+      "statuses": {
+        "NONE": 629
+      },
+      "generated": 5317900,
+      "kept": 3880239,
+      "write_candidates": 863856925,
+      "cmp_candidates": 3534791,
+      "cpu": 17.258570999999996,
+      "peak_layer": 71457,
+      "peak_columns": 1464
+    }
+  ],
+  "independent": {
+    "complete": [
+      0,
+      143
+    ],
+    "programs": 143,
+    "candidates": 0,
+    "states": 564751,
+    "peak": 9378,
+    "cpu": 131.92637205800003
+  },
+  "strict_pass_files": [
+    {
+      "file": "round3/control32_d-1_c8_10040eff416c0867.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c584e151dc90633d1f1292c73a2e50a1f0e436674569227ccca4627bc2b9f612",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_100fdc9beb7f87fb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "518dac070bf83682f065842cafda37862672e3780afda4c91b24e0c06436ba75",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1125a776aad66f0f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "8f75169eea34f6c19dae45be18bc3d85c2eef7f7207dd356dd73f934338d7f3f",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1133ec48c6cddf1b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "5fe074e700698dd3543681cd43111afd8597062fe8b1484162ce450ebde98393",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_11c9d4867493ab47.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e82a46ee4f5d29e58efbbab323b87943f7e44574be90cd385dfef2651ffac66a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_11ff7541f319ba6f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "05624fd5227438f4cb005b8a357b3e841396588dc7f3f41c548c2f04e08b3e4d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1225fd780bdd0fe7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9c6f4dda4c23daefce28a3b6757e1e7446bf87a08868d0f286b71331e1a59cbf",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_12651d8baa33ba0f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "f14f936e8950327128dd7a4fd04b3fdc60c74e036920f59d7d518bb15a0c6cfd",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_12b75491c4d308a3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "8e9e41a3f24a75c41a9754715fccbabf4d2ac3df7b01796fd212f9202e34dbaf",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1338d3424477e129.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "6ba1ddfd4c576e31f1695267c8d2efdc45536d7f93ba3f97214c15a058f5ad77",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_141a02776a21d45.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "93cd8ac7ee6b031d994b8aa338c0d859b19411731d2ebb45b36d08e90e0126bd",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_153074ef2f383393.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "528092ab1ad0062c6c76310bebec533598ac079ba435a374b730eca2ba767233",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_156fdd193572fb27.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "ec589bf7ee66886456445fa2ea639b5e47fcc55d12cd295c31bdc6adf86887f5",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_15a18d5fe8f0f427.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "cec7877c7f5e91abaa1929abba5b796fef98222926832103dda942bbb601f200",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_15bdbe5ff6cbe16f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "67c0e4b2016561d9262d66c7af2c93c36be624c57dfd35b7d5bc449b04063a93",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_161f27bdd6e9955b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "5433183e0ecb6d63cded224c622a1103a1913f27f5da35303cda2040ae365174",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_164a24929b8970bb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "cd513a35e962fbf9f3e308b8151c65216693a974a66e5d26681839d38403c2ed",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_166731603245e2eb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "84657cae3a7b6f91c3266f11566bf6486e627eb49215e9ba4fe76ddf9475e41b",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_17907dae653ca8f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c7068595c34a3738a0eaa89c8e2e457dc20a9facfe40b866c6907cb205da60de",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_185d571c2e0f14f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9c279d3c8b2f7d60647ed9856be9752d3058d57c93c6dbb5746890fe37848148",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1a082026b9b8a97.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "ac6de1c20c72d3dbf09a8e2a2b5a44b6ba1a3b317a82a51c53d5b4508859380e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1a613ac2485250c7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "122eff688ee2d4b3aa6e0d63c5535211efdd6d4cfa541678859f3dc70640875e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1a63d93b1f04a2cb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "dba2b3a671ad9c67cf01e863ee8f9e0a43728c8fb490e407cbb37bc752c4eebe",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1ac755463afdc2ab.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "60f3775b7c6f5529be5f100c935c43db7de84a3ef4fa0004dd30ad1d1e509902",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1b0c08cec2e379c3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "485ecad76f25b4360193ec5da88247bed9a12ad026bdb37452c2aac4443f934c",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1be80efe56e14ebf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "085868cd3fdaf05956b2a8566b2a839d767cf9009c85462aed142bfb7d1bb451",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1c180823effee2ab.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "620186071c947f2dcd58d77e980eccd91c92b1486165644eb3a43eb6650b7bfa",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1cc416f5fb6c5bef.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9c0128bd1c77ec5fc975dfe4dffdb8ddc85173e296fa7e4a9863dbec0bcef1dd",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1d4ad416e35cc60b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "60bf229c40b5348a519331f9313f4bf0a1a30be56e4a6a6bda9359d16ad1125a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1e7b08432020f0b7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0fa377b0874f54fb8992c2335a43c0a6918971ed8a683ea18ff63a522d457a84",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1f71d7979bb91b7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "fab9c03d0d9ee288f1161fdadeb6346143a2e4e9a07dd536fcfb238c69f6e5a3",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_1fa5731a2358af7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "85b45fe207c0f0c0cfcb8bb94d76dbaacd0b6a09e274af311598e76d2323fb71",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_203f14ede4be42f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "35455f3adbe28980873533328d3d786b038ac1b023984702f9c47bf08d44e8bc",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_215cbe6f0d1c7837.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "a96219f5dfdd647ff8bab65853f2c8aa4a8a13d1b86c526f18e2781c43809e55",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_21a6f16bedc5b8bf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "4b7783b537d7dbdb3f9a522dd5a51d78574d13141be0c3d9cafeddf8c9b7e791",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_21abacdf36bcd7b3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "24023e003fbe442f10b35b0d0233b6769de27f126e1f2c9de0ae2765f58b2047",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_21f839ca06fe77d3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "a72939dafd86e382cf2989804bdb5cdf71303ceeb868cea01186ba8bd306bcee",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_220dcb420effb46b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "65633d9a50318fe76bdc250520029db66306a4935c280be910afc035899ddd44",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_22389f7b99df6097.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "2017343e8eb1455ee409b0703f025c9a31090649d959c9f0509334e27df397e6",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_224e45102f6e86b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "782f56dec6a79de7ffb75dc0afaf9243f0f53813eec69dcfee0eec3153ea1271",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2289ab6219955a3b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "effc51962d7c0c36ae2edbc975456c06f9ed0202651dcffd598858ba84b18f79",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_22e8c2d0d1b113b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e234c498fa5ff028b3656451e7cd4d8d228c919aef657c54ad2e5a6207095e5a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_23831cd511228447.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "602b0370f1f42ede78f5b46e013eea798e44c8539919efa4b03d1368a8f6796f",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_24853a2a978e287f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "6a894e9c595661dfc0c01b0dbb3979153f80ca1f38f8e019e58de9fc6faf9400",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_24abc8199dc03077.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "224d921290b246197aaa460f41cf65a3c923cf924165aa016abdf73370f0505a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_24f787e7e88ef5ab.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "02e56125b49d44c24be35f8fc97c7feacc3faf4c45e348886d61a8cd4e51a17f",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2596dc2f20910faf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "5684137d0ca118a70be7a25475bf42901a9c2db10ebc72bf78fbe83c5ebbf0c9",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2642972b24ea19b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "ef472631a6538b53a3848e448915a5c294154da4d84b0ea97422f3fb84955027",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_267a2e3d4909af4b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "8c4ad4fe7a3e829323060b3966069cb62e9e5fbbc2bf59fe4139d594adfe0f44",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2726f4afb2d799.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "b53bb4fbc09fb41170c9fad6dbef5c17afd5b5e7b8745c42eac839ac35d0b63b",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_273efbe5788053db.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "44c8b69c8b9c25652d9b59d3e6163588efd94c75f259a8764a7dc4b73d1bb76d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2755e8d9e8382207.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "8587665d9c1438a084016b75b11b9c47585ada0dae151bbe483574b3a4511c18",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_27f65daa1cee4f4b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "af392cd4b699decf8ede90209f7c76d0905f684c5ced706e497e521b3b9eb609",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_281eb7be1ab4dfb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9ab7e768f6f121874368f436001f9bb1789b1c51e9abe549ccfd2c01efde4997",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_289340d6380f179f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c4a3031a6d54853750e0b513884ed7f04e4d39389ded56532510cf8e5e28199d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2896d97bea6f9f9f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "db896257c689580ba219525f7d874d90703266b0d7f27176fc4de67bedf561cf",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_290ba1ab50398fa7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "a04006b364522a6766635ce70632d13c6bd54df226257a4aa6b484e95909d9a7",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2a67840a0b9e7f13.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "d590fa6c7f59b1e78d73d88641bff6434fa2df812720cdeab3bed04a1669823e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2ab6c13ccb245a63.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "1a8911fb3354fef4b97be83cc09eea80ec655f6804216f83498c22cae7bb39c2",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2e9b0f58dbb178a7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "48b9137375023c8d3a713b90697da991e49491e534150e4b26ddc0beaf9557cb",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_2fc2edb8474e5733.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "a72939dafd86e382cf2989804bdb5cdf71303ceeb868cea01186ba8bd306bcee",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_308486b4944cbdf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "40e14158eac200a95d61d6368685216085a998b9b7b90141fabf9288bd631e7d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_30f500aaf2d3b42b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "617e78eacf6435d7873472ffe41658c702e7e5e54e6d261eeae8fbbb3a8a2eea",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3169712e775f63e7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "82a6d53d8d5825415032c026fc7044df5d4b4761879027cc12e267da3401434d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_336a411e8b85279.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "ddc9fa3f296e4612d3c612ee25037ad17ab8d2e336c4b23fda8a4f73e865b92b",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_33e730edcd75dbbf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c0e8fa2faf1b3f8f823292a4649c89245d2ba08ee7e301ec489a82173b14e9a0",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_33fd8cbe2fbbf34f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "2298503792214e62f7a5ed8e815a36f6e1f05d3041e9598b96b960418575d2f2",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_34bda9f2efbb141b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "91d08ed05dc673a8e6d9c21ac8b63576e6332f5c646429e723557f9983656bd4",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_35006f3bfb8deb1b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "99563e43250a6df06af275aff867e659a5ad29c049a60bc5fe5b69a7f2e0f131",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3524001ad0523527.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "76ad33966d81a303dc305a4356620ae0917a74c5f04822f6d95b8a830273280d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3631163abf06d7af.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "eddba3c3e2119697ab9ab4cc99ced610be06c6c57dc654f4d0b17796f6fb9fd1",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_36b2b7961244aaf3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "66c63674382c2f17e37ed96bf8a3aae37f172a37444a82019f155bc1cff0b03d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_36c3eb8e6d6769f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "b9fa04f4dac3ce61c7169bfdb2b92bb4c9415415d1e841b92d29f07c2e523033",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_36c68fd07f08ff.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "344ce1938b892b2616a92f5ed412913da5408342b135a96b2c2aae7816e6ffee",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_36e5e6298381a683.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0ebaba5e04000e946423a4367a55f42f8f984e558547a7346d82b113aa2bad4e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_397c742a631c1cdb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "165585e7d033ca7615f6fa021c310f2fe9e13dafc61829c5a8a155d6330994a9",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_399842c2f1576827.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "157579bdfd4958a3b1eda06e9285bb14a969127d980405ae560b49c42276bfbe",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_39a6ceb5b893673.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "bc0a68308acbe8755d28a6d3647eb757cbcc76fd0e3ee20161374b6f63d8ced0",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_39ca71836246603.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c702a1f8208996cfb8fe5472bb4152e699ca609a61b8240e974605af19c05705",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3af92b135d8fbddb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "fcb4574b33a736debd5cd321d3a5e00017eb86e4de0e0f1b8f3e313afbc8a771",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3c8472e7eb77e88f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "37b8233dcb3b23dd4af2074edf3a0bd0329b72f7cf79f21925a7a1c2ffd82404",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3dab8eea3595c0cf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "a6e4740c809c9e8ba0a77a81da81d0e43fc49f718aece509a7a89b48e5076830",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3f3513bf9cd6caf3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "84008305af870950bc33c85fc450251cdef6d1663d6a222b4b8426a6fa660b96",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3f8371a2666ae5c7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "ee747ccc00ad80d6bbdfff0286f1be108348b08f815c9f16bc1bd0063b0cec1d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_3ff1974fb517ed2b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c77e50523e670b28e9221d908d890722066c36f50f042c218003bd770ef1b731",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_4033c0cef9939583.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9e4c1425642eb9d6ad6f659f1aebbc13ac0f6f36b5b235af1fed004a3539f855",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_4065e579161132f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "8f38c6d8f586ddcc3b1ea634030a27c26f5f91ae2caae608e0fdf3e35d7ed5ee",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_40718fc8b65bfb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "04a053e3811e861a622a0e96a4582f3d0c5a25dec0aa8e68971509655831f78e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_43a93e06324c3bc3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "cec3ee77e10e57fbbd9d6764a61c9e8e139bde1bc575a1662bd326ee0803b859",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_43e28701f70f0cf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0d6c89686ae56f27106f9012a87b4157514891915364194088462d40bb7fe05f",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_4480f6c61beea14b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "67f807f8205610eb34409a49255d19e1f4655ad0adb073249574fd16752e0ca8",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_44a89463151f5b8f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "489f5fa6efedd6278490bd638381b4ff608558b31b7f89ddf551b7308ba65814",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_45647ba89f2ce4ff.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "85c3adb98761c5f8aac294b14eb8c727f496524ef03716867a414a3ab9f038ed",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_4568144e518d6cff.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "7afa0040c448772e6c1d5687c3081023d69e2302b420b297c00b098d9959d41c",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_490153be8f1298b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e6b42fd94615b063728a7f92f70ccf548779640d4f9e4ff030fcf69e8e469a22",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_4a225b46e63e8737.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c551422af4daacccb10bdc593876e451b660eeeb72f29e08626ff9ee2e8bb835",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_4c82686d8d30d33.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "20dc0211f4738f1bb5fa79029e203e63563e51531cff002e64d3243139bee086",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_504956aa3c140ea3.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "fcf2393451043520ad62c4ca94f2b61ccea600604eb1aabb5a315ccece6b283a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_54b8fd94e189948f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "5a481cea68bd2e684bcb9e877a5bea937b70d70a508dc3b4686d6988efbe8ff9",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_59bb347d4b01a577.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "549e17b4b3de50650dbd4a78e8564389d4b3a8bcbc1d6042df0aaf7ac4360993",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_5bdf24a222d2b63.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c4439b3436cbbf04f92c275a1808003b474f518efabaf892a56239945750f19f",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_63f1e94b2830099.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9b52b8a1e019d5decf740bbc058abf67f546322fc46048130a6c56426ccbb384",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_6580b4e99d6036b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0569354d59dbb83105d77328e29ef2a2ab5447ae68682e3f89580ea68bd9c835",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_66303d2fe517211.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "6dde0d031b6b9efb7b21430ef9ddd172a94a3a23e706176fbcacb3b299290d7e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_66ea7778158faf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0518e86bcf3b07d61c58c919d7b4ba1ce63f2bfe883db726472117c9ba25e510",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_6e38bedf286f04f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9b4ce3ad214a0177b9152baa97fb41915bbd2accd42b36a2ca4c5178eeb16572",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_70dac6520f0a05af.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "3a4ba285a6c8ff2a31f0d122492c0be98ee103716590e6c8aabc1db0dd44fba9",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_784551952e246563.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "b22a3707bdf1f5a68fd941fec1457a1ab462854e1aa887a33bf1b044028271f6",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_7c7f65877f171ab.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e91c3e9b333b80cda0967383723c794da90516a4e2477acbdfceef2919b9d346",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_7f146a90e5e9bcf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "fbd3d615403533f985f2e140c0b78209cf4cfd8d4c0009e72d71c8194525aae9",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_8034dffd5d8c457.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "2e88091d12dbb9687ddb6a5d877e3ca3a7d622c20921956b960438fc2b6f2611",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_81ed52dfbe00faf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "f0bb78bc05650ecddaafbd297c899c5ccf0209be87bba41237fa0fc94c005234",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_845547c9459fdb7b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0ee59bf5964537b637594278b20662535f8cf2f7b1e62f869f704d754da83427",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_85b4809f0fae497.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e7ac2f4203f5873a85b0bf16e31f2ea75e0da8118fa1bda6649be42bd422607a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_8a1b7bc87d5e633.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "99c09f9a2a877357cb6e5bc25a09e647292de481f18fdebd3894370a68a9cafe",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_8d0dd0ee89a970f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "8ad534e2308658ac9faa9132c892ae29e443e10b53748c3545bb68819c9b0b06",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_8fce06357f6d127.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "2b450e3807ff90bbc7f26f23acb848baf1fc7ee61e3bd639bb272b040c2d66b8",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_9356fd7b120de37.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "b9f9c9a5079a308fc14d00e165b63fd614e036180f1c499467f74b7c3b1c1c9e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_9755d36ddedc6b7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "1c4687d26b3ae401a0edf02b86277afae6ce7608f5675a1bbcc89a770b99467c",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_978e4716e9a7b55.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "ae74fac61a4429912b93021b4bf8d5d8388b526a2bbebd1873e6831403309a5f",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_9e1a0f74131d81f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "09dd9161d1b82570def7a0655d5266c54a7eccba7c8278cadbc3b9e3e766bc08",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_a333f1fdc61ed4b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "b95cf529138a2b5a611e51c332064144b65dc516e27b7db2805410e3f8849f2a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_a7b174f83a0f43b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "7ab096aaa91bc6a48e1c6c621cd9209d5576c731f77980f6dd88db3f7d43b266",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_adb02b770a6193.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "037f62270de17c68d723f63da3471f1fc331a42f445e5c78b559898aa813286a",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_b1dc9333293688f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "d38c1f3c6bc421f84d52a33ddb6cffd813b633483442f88f3f54d5fed69f8de0",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_bcbcb19411aea31.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "1fd9c378e70cad308cf3406d0e87d2048d157457e613e6c59c8e08544c687995",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_c060accd56c0c2f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e3ce91df7d14591cd46b77666f78c4a74244c040315754ec3a57f8d91f0bb941",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_c3208d05a5329e7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0cc1621b3514a6ac4306c2a22f616837627a74a46ce21b504d5b9078a0ee2212",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_cd249ed48c06697.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "dc5adc0795c06ca3f518c3410aa2c0851beaa7b9c238c5e9cf6188ab65300124",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_cd2c6a654c268eb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "dc661a35fbf859a83b3e50a442c726f8702c56fb8f98fb7d85f9941b4fe83672",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_ce431b9f3a92ab9.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9c6f4dda4c23daefce28a3b6757e1e7446bf87a08868d0f286b71331e1a59cbf",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_d7ea38d35580a9b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "93cd8ac7ee6b031d994b8aa338c0d859b19411731d2ebb45b36d08e90e0126bd",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_d971bb526287b89.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "6ee21e0c13d92f7768cbd1917ff9cb80925c96b29c7238e81d7f7c679cb64598",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_db8ff5154396dd7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e3c459a439c561b690762797961a738f02a4c649c95cb4a681ab63effdbec6e9",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_dbbbb77809455d7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "d60d8c8d42b435cbd678a5daebaa55246625db08b91c14fd3cae34119c336b75",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_e1c0ebef11c2d07.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "1a1464e5b2e61cead6ef98ecc8a45b6d43bad2ef353acb636e81fd820e23e49e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_e32bfb331db9cf7.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "44ae1eed82f001412d4aed49ac9444121f9f3a356bca2887e5bec74163f517b4",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_ee55e6ba214fb31.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "488ff6a935de2ef18e51502c68e9361efb3637b25b45094b8c5c60fd3c0be0b7",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_efa0c71440608fb.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "e710363d406194b5fd1dcf0f0bbb6b6138a33501391f1e37b171565203ba4e0e",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_f76ab7383f3162f.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "0febcd898c604feb20d5cd779f49c16a0ee84e2e12069a39597c9888574a2738",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_f861da3879904ef.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "873a72df2ef759fc2fd2dbebd21994ba2618522e05d9a2013772c395baab9794",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_f8dffa39345ffaf.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "2cb3df00056e6ad77957e43cd14ad4256a6633482d2266e4719fbb92279e15db",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control32_d-1_c8_ffb1da4812016b.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "40e4ff6fbfbed1d99f27e8e60adaf9e197c954fb00e65ebe921017ea287b492d",
+      "judge_log": "round3/control_judges.log"
+    },
+    {
+      "file": "round3/control_exact_c8_10040eff416c0867.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "9495c7b56d5d4fb1af83e45fc2126439244daf22dd9d53e1b642735cea3e13c4",
+      "judge_log": "round3/control_exact_judge.log"
+    },
+    {
+      "file": "round3/control_mem42.s",
+      "length": 42,
+      "model": "mem",
+      "sha256": "ecc20ae09e06e4d30a188fc59069165b927ff10e5c4420a2027ee4d5d953e9ce",
+      "judge_log": "round3/delayed_control_judges.log"
+    },
+    {
+      "file": "round3/delayed_control32.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "d386a2d8418424f57997bd24394bd01fabbadae9222a3df8aeb7e3d94d602440",
+      "judge_log": "round3/delayed_control_judges.log"
+    },
+    {
+      "file": "round3/delayed_early_d-1_delayed_control32.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c584e151dc90633d1f1292c73a2e50a1f0e436674569227ccca4627bc2b9f612",
+      "judge_log": "round3/delayed_early_d-1_delayed_control32.judge.log"
+    },
+    {
+      "file": "round3/deleted_control_d32_padded_control33.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c584e151dc90633d1f1292c73a2e50a1f0e436674569227ccca4627bc2b9f612",
+      "judge_log": "round3/deleted_control_judges.log"
+    },
+    {
+      "file": "round3/early_control32_d-1_c8_10040eff416c0867.s",
+      "length": 32,
+      "model": "out",
+      "sha256": "c584e151dc90633d1f1292c73a2e50a1f0e436674569227ccca4627bc2b9f612",
+      "judge_log": "round3/early_control32_judge.log"
+    },
+    {
+      "file": "round3/padded_control33.s",
+      "length": 33,
+      "model": "out",
+      "sha256": "cf0acdf299220d98a70d6ba46098a9e3b3883212526a3c8790db1ef57222d5d9",
+      "judge_log": "round3/padded_control33.judge.log"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_10040eff416c0867.s",
+      "sha256": "f4464097333765736a806367355760741453a01461dd492aba90d352cfc12a5e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_100fdc9beb7f87fb.s",
+      "sha256": "78124a29c893a4dbef4362c072bdf4fe05930e03d53ecb958a9286ed7c04d500"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1125a776aad66f0f.s",
+      "sha256": "6ae45d5571eb9155c317d4842ea82853de7df343a20ca597c5c88a490534128c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1133ec48c6cddf1b.s",
+      "sha256": "5a7f85497dd979f04f2431f77f163be3693c39dbcd4ab910b1acb6631341ce21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11c9d4867493ab47.s",
+      "sha256": "5f26f109bc96380ad48a1ae70a487ad2e46564c1519a1aefa1680172051b7236"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11ff7541f319ba6f.s",
+      "sha256": "a5870fa1d39841ace10d181d5fd561f3f5835b893ced4c9ac8b9bb6df66fe0e6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1225fd780bdd0fe7.s",
+      "sha256": "5732a053e0357d272c49250b1d2d65fd5f505e080566fe1daa4fc7317b7c7c03"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12651d8baa33ba0f.s",
+      "sha256": "ea9d5b38dc9e4618c099a077240d8b8b73362925bcd7b1826ab405cea628a2ee"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12b75491c4d308a3.s",
+      "sha256": "3089ffce809c5c34bad120122c2d807efa3841fe59c75b91840202dd369b2fc3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1338d3424477e129.s",
+      "sha256": "6374e6600c60816a2d7daa320e35beab15b2aa8216852b5990e2a4dd7146e3b0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_141a02776a21d45.s",
+      "sha256": "28049fbbe6bc88669c78be0946a331db8a30aa87caccc8d6328c72eae8b75da5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_153074ef2f383393.s",
+      "sha256": "2cd473c6469eb530c1513c184860a6cc28103fb44a0ce23f79cda3eeec9f5168"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_156fdd193572fb27.s",
+      "sha256": "3766a7566971eeb14db2af9deb7676e6ddcbd2de44844151aa8e2c95e1f21ccb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15a18d5fe8f0f427.s",
+      "sha256": "d6599bc3468fa346bbc7255353cde6a9a12de47650da065d8292e848984bb095"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15bdbe5ff6cbe16f.s",
+      "sha256": "652f7be1ad2e1daf0116fe1653c2d9c201fb471237d8467c7cd53d96f01c1bb3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_161f27bdd6e9955b.s",
+      "sha256": "aea5097196ffcf4aad9ed1b69a21ab93d5fa1dc30489c77c02f72fd37662f21a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_164a24929b8970bb.s",
+      "sha256": "3f6925d44b698dadb72531ca5de36a546ebb9cbe57b515d544b27545ff70cca8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_166731603245e2eb.s",
+      "sha256": "96e24e0fe08a420f4e72ce3074f2765cf6f2c3253ded688e2dc1bfcefd7b921f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_17907dae653ca8f.s",
+      "sha256": "0b83e57fe7ac28b79dee0d4deabcf1a6963d1484b4d3677fd81aaa996732ab01"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_185d571c2e0f14f.s",
+      "sha256": "38c7d7accd70bbfc1a575f084b4d8a74e57fd59007aa3c527a9e6611eea4974e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a082026b9b8a97.s",
+      "sha256": "7e24cd1cca4731f9ffb1ecfaea77ca25778a18a323d443bf618cc56f1408f447"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a613ac2485250c7.s",
+      "sha256": "6c45c8a5b43199eb4d46e3f6481af69f654c9f5b9bc5d116df81217a4104e875"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a63d93b1f04a2cb.s",
+      "sha256": "a7030d8cd4645cb1f25168aa1853251789c5dec2f33fbd576f72259ca2868211"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1ac755463afdc2ab.s",
+      "sha256": "0f27d3618dd2079e5cc8e4601b0c6781b82471bfccb644ab804be1687ce30213"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1b0c08cec2e379c3.s",
+      "sha256": "12f10b6d8a89646a6d0432b8be9dbe427cc6010b63b14f36c5c6875d9a4e6900"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1be80efe56e14ebf.s",
+      "sha256": "8f1d000433d2a03c2a531ef363b9c88afc866a64fcc219179e8e66add23cdbdb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1c180823effee2ab.s",
+      "sha256": "455c8e1d1e30161907cd043433262a27d10d91ee13ab3440b6112f8c912b37e6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1cc416f5fb6c5bef.s",
+      "sha256": "5bb9340894dc12673a21aade846dd2bf7d027555447e94b9f7b589b07b29790d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1d4ad416e35cc60b.s",
+      "sha256": "27895e0ab1f7cfa80df8df2fdd43d31c762e3809bb833264a7d0cc506ca283f7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1e7b08432020f0b7.s",
+      "sha256": "9461d8660866b06008cbc108ba7dea2f5e00d8852ae4b15e434ef1f67e7f8273"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1f71d7979bb91b7.s",
+      "sha256": "e15dd5f60635d3438f5247287ef5eb7339ed544abc790efcd468b179768e0a4d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1fa5731a2358af7.s",
+      "sha256": "a2b5a0079cb6ecc9677a7da2bf8d5264900e05a484c59a215bc55b7f39b7ad4a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_203f14ede4be42f.s",
+      "sha256": "c68954bae8525bbb61db121f123e05c7c3d06ad89739b1dffd160092450ecbce"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_215cbe6f0d1c7837.s",
+      "sha256": "7e5fb8879b065ea864d070e7fcaa0eb974e0cf4e837676d119778e847f9b195e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21a6f16bedc5b8bf.s",
+      "sha256": "ecbdca9c827024caf95971bab8d1aaa216ecb486ad1b9f80203ec7b4d333c721"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21abacdf36bcd7b3.s",
+      "sha256": "f22f2350d3a662ca1ec113c07828fe90648758dcfa0270fc715fd223279dac1e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21f839ca06fe77d3.s",
+      "sha256": "6199ad5f726ad933192646bc723be371db48664bbcc9181743895a5b2ee85ce2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_220dcb420effb46b.s",
+      "sha256": "95672b2d46cde1bb23b3499ef20cf392671fb0a9293959d4c9bf7117121a9940"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_22389f7b99df6097.s",
+      "sha256": "6ade54684c657c0239598f83bf91a86bc3a600b5dd52069f36bcac092262eefa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_224e45102f6e86b.s",
+      "sha256": "d36b4767884638f05f45334efc4446b33b29c09c1e6352b0ffc4abb45e02ef52"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2289ab6219955a3b.s",
+      "sha256": "1a217ce348b6b62ccc41e726ab96ab23c5dfabe7d753484e93636eb592b380a1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_22e8c2d0d1b113b.s",
+      "sha256": "4152ca5a68f3f9b184f74df79fe99c4cb1196b33cd563601f25ad92f125ca40f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_23831cd511228447.s",
+      "sha256": "c69e85c94b98152750a1d339cd4c654601604f0daa5ea4fbdf2c02ed06b3b9a5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24853a2a978e287f.s",
+      "sha256": "07ea91e7aca0fd1f6d310b55959b675d5ad6f76024407ab1f4234386aeedc9e7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24abc8199dc03077.s",
+      "sha256": "ee10b5b460969ba4b5589eea1713a04b7b3a4d82461021250d05ec371bd78bb3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24f787e7e88ef5ab.s",
+      "sha256": "38307182b1db4c6fdfc47417557be59fe531261c8b8310f3909e19efd2b75379"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2596dc2f20910faf.s",
+      "sha256": "ee8563cf4de184b94e6000518345078282bd4f26984d5f5d9a8797387c4b2460"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2642972b24ea19b.s",
+      "sha256": "53d1ab82c2a2cfff24ba0a22ca1a7a5d3a7f4f7c6841df5c0e7466bba550fbcc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_267a2e3d4909af4b.s",
+      "sha256": "a343c4ce01260730ee3a1cd7a49b318f0897de9cc52c2c7bb447ef51eede8b59"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2726f4afb2d799.s",
+      "sha256": "ac08a7b487f129ffc1fd0c36506ad532ab571f90243a191aa974e79d51038799"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_273efbe5788053db.s",
+      "sha256": "03dfca1f415e9d1ab59e217b1ea987db4f0a68b1bcbaf62ba96e1b17673826a9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2755e8d9e8382207.s",
+      "sha256": "7b22f2b8f380119de1ed6d278dba51c462bd14f233a293fee2847a1667264506"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_27f65daa1cee4f4b.s",
+      "sha256": "99c2e826ed3fa171e9bace9dc27f3132bf63a926a6ed5db07e0587b854cc9eb3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_281eb7be1ab4dfb.s",
+      "sha256": "f62125e6768f46db9611af46ce190b7939bd1b0dbbb424af71d7be91329171e2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_289340d6380f179f.s",
+      "sha256": "ab3bf0fcf6ffa5de3005d1684e178de98a729bbf2eff7bd8bec9cc1fd897e49f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2896d97bea6f9f9f.s",
+      "sha256": "1af19d345fe3e115df55c90125e8ac4c8d9a59c1439c2e03496ea82bdbae6833"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_290ba1ab50398fa7.s",
+      "sha256": "b5b8aa193b1a1442a00caa647920ef09672639dc1e0fc293afcd55e6febe4a94"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2a67840a0b9e7f13.s",
+      "sha256": "d988d455515849b1544baa46c36152bda8d03edb2b7f5d3f103877c73c073001"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2ab6c13ccb245a63.s",
+      "sha256": "b893dbcce95c505fa13115ed30f5918d9f4ba92dcacc49900556a0852bebcf32"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2e9b0f58dbb178a7.s",
+      "sha256": "f6779c965c11fefd1d9a8f3035688732a837ceee41b408cabc5d023091624dc7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2fc2edb8474e5733.s",
+      "sha256": "d59413ae246101b8c7c2a6009f50bb30f8a11f90824ecb65e679f3603de5848b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_308486b4944cbdf.s",
+      "sha256": "122132a863a6e4964104d0003450983ed8ccf402e436acfe992c3850c87a2ad4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_30f500aaf2d3b42b.s",
+      "sha256": "94625058fbe59e3dd874211f8adcec1929299e38bcb03247fa031ffb696cb7ce"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3169712e775f63e7.s",
+      "sha256": "12253e7baed53ffe5088d31e15dc5a49328b377e2ae3864a7f4f541d35310a67"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_336a411e8b85279.s",
+      "sha256": "3aa11f5e8efbd5a906d767438f1c768206a9dd1a709fd64a8ccc8ec149908046"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33e730edcd75dbbf.s",
+      "sha256": "24bc36085073df18f5ae626f020ff519d3433987c5bc8a631a67ea05a7321479"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33fd8cbe2fbbf34f.s",
+      "sha256": "49b0ba92576ad847b90c203550125295eb8af7b89256211cc6395a647e089d85"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_34bda9f2efbb141b.s",
+      "sha256": "7412073089a19f5ba6c88555a694d3c3e9397882ed26482a27450669804f1f1b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_35006f3bfb8deb1b.s",
+      "sha256": "73280e82fb99e55ade2b06051905a7fa2df27458f215addcf49d5b44a9910cb6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3524001ad0523527.s",
+      "sha256": "566c3fa80bcc35970d156118aab83170ee7bbc8628c464e8205c7f04149214a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3631163abf06d7af.s",
+      "sha256": "02cc6e3065380ef0c28692a22cdbaf3da1e8e5238e4e2134822ba999722469e0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36b2b7961244aaf3.s",
+      "sha256": "4e2f33956025602f6d8a9ba1432143093518263599bd71bcea488867c5b8863f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c3eb8e6d6769f.s",
+      "sha256": "d31cdf0d3401857af2d439d3d059a7c46e445f3e1f5e47c6fd39a3c624464ea1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c68fd07f08ff.s",
+      "sha256": "836f9fe7755c73329d8d6b12cbd5bb2b3035586169e7d4a95de1603e9c5746cb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36e5e6298381a683.s",
+      "sha256": "b5b32a45fbe296ec48664e91404da12183a08cf95f1389fd58ea7d9eccd692b1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_397c742a631c1cdb.s",
+      "sha256": "30c52d4fe8eac03a90255e0710974ec07a965fe8ad8ba50a3eb18cfe2fa30995"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_399842c2f1576827.s",
+      "sha256": "c0d203924e37abc1ff762ec720fd8cff692bf394d090f3e6c2eec55af1f723a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_39a6ceb5b893673.s",
+      "sha256": "72e1104a8a689d3ec2a2ff7bdda9db4b2a3876497e71c925a1836512d7a0d378"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_39ca71836246603.s",
+      "sha256": "309addc393a5610a558a0ae791aa6888500d7feb5464117210fe9a510929032d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3af92b135d8fbddb.s",
+      "sha256": "58ab4cff0e45fb7a7bf509a76cd3b876e64ff40195411dc9d6daac84e618096a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3c8472e7eb77e88f.s",
+      "sha256": "0004b354325f9386c482bfa6ba94cf45b91aa3a2cda6c9ba87e2d4ef8ea841bf"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3dab8eea3595c0cf.s",
+      "sha256": "a29b96cb5219dc5c447b76910e087aab91b12dd0679d76d768156c39af8d4618"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f3513bf9cd6caf3.s",
+      "sha256": "37cb865c8f9150c73639839cc08766dcede2bed9e567be116020395283f3fdd5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f8371a2666ae5c7.s",
+      "sha256": "e73c59cfdf01dc66c8048035b45802e8629badcc3cf65d94b79c739e3efeeb21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3ff1974fb517ed2b.s",
+      "sha256": "c21051881d69bfa5551ff4f2df949ae338dbf5ea9d45d708a7300f99fba18b54"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4033c0cef9939583.s",
+      "sha256": "f4f9e02394f7ac73e32deae6eacb603b4f8ec0c0b77f52afbadbcb4ee1bbb013"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4065e579161132f.s",
+      "sha256": "dd272b6d0866d35db847dc51ff7f17c39bdf321cd2cc5f2f6374fa1f86b87778"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_40718fc8b65bfb.s",
+      "sha256": "57e739e07fb4ed442d174a68ebc97d51c6d5bc92fcbd06af9f7f3e70a9dc7ff0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43a93e06324c3bc3.s",
+      "sha256": "cd70fe44fafb6ff38acb6ba9b22cd5f0728834ce1ac904cd1194dd3941d2e551"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43e28701f70f0cf.s",
+      "sha256": "acafaeef8b9a2046479108bbeac0c7dd5a4fa3097059600c6905deb16c9bfd66"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4480f6c61beea14b.s",
+      "sha256": "e91f4c46a5cd7fc1c8a5fd52e45abd4e9e8d93f4f07dc92c6ab50307a9bdb5cc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_44a89463151f5b8f.s",
+      "sha256": "3634d2b3b71bcfa27942421d13090db51de1b7ac4f44b815ca02cd30d6df7b69"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_45647ba89f2ce4ff.s",
+      "sha256": "b460336db052c66d31fa892d950010954cf4ee6cb54b572713b851e96297ec79"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4568144e518d6cff.s",
+      "sha256": "4a3c8def5b19572e26ea5c788fb8fcd8480b19f4de39eb4db5f55cdfe4d2d8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_490153be8f1298b.s",
+      "sha256": "24d4126232a16aa6af8c725d83ffba3f2a478f084ced9ae06c0454e4f9ef4a52"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4a225b46e63e8737.s",
+      "sha256": "87de5caf814a86378fc04b2dee33bb994a6cd274fc5cc7b6498828c43a1bd847"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4c82686d8d30d33.s",
+      "sha256": "74f3262a31e29b8720e61e196027cb5c46775fae5b61847026bb4621981d37b4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_504956aa3c140ea3.s",
+      "sha256": "4a0bb4e0bc4d15068bff5f2cc01db53febe5347282bb75b9ee285e8ae6880540"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_54b8fd94e189948f.s",
+      "sha256": "b72c70d9182e6d54b4569c79216bf2e254cc4d4fd88d1ed53a3f2ac8c5e3b2dc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_59bb347d4b01a577.s",
+      "sha256": "6f6716870ed223780c3b6ff079ee96fa6a13d3231b0d594e0eb8c724aa1f5cc2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_5bdf24a222d2b63.s",
+      "sha256": "ab49d3e0cdff859aef8878c29fba018dd7af3b2527eb5b8fc4e7a38b6c6f56fd"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_63f1e94b2830099.s",
+      "sha256": "822814a68a54be41ebe9eadd76f4a34b1cf8387e9e3b5572b9c7cfb76be6718c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_6580b4e99d6036b.s",
+      "sha256": "02e7e7f1ca791fcc732588d0684a1e5437e23a29ea086f6b8a2bd0342785a500"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66303d2fe517211.s",
+      "sha256": "3117c2994174154e1db78ccfbe2802494f6f9f618f2b6e366d0e3930ae17e75e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66ea7778158faf.s",
+      "sha256": "1ccfb16326124df2036584ca09c8245b4a84bd6f2d2ace9272752b3be2247034"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_6e38bedf286f04f.s",
+      "sha256": "8e9a682e06a62c19f46dbe52fde7bf4d74f5fcea94008789d4b9c79bf360e824"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_70dac6520f0a05af.s",
+      "sha256": "a00eadfd94bf2517bbd957ef5650913b86b6a108518910d35b9339d13bfaadb1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_784551952e246563.s",
+      "sha256": "a03e621eda6d35239ed9034d32cf332996c74561c88bb3f369a77b760c4b80cb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7c7f65877f171ab.s",
+      "sha256": "79c549862993dc14833daa6f166c95c4d4c47ea20c7c67e5f04dfa800328acb3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7f146a90e5e9bcf.s",
+      "sha256": "474fa48e534cf448454291be826f2a9815087b235dc54bbee6d770f12ef4a0a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8034dffd5d8c457.s",
+      "sha256": "37b7dad5cdd3aa7a822600e2bb3d362d1ca126066ad14727dd04f8897867ec62"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_81ed52dfbe00faf.s",
+      "sha256": "61531ebf9415fa06c3f233ff1aabd56bd14e23244af740adfe5126eb695cc7af"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_845547c9459fdb7b.s",
+      "sha256": "64e8dbb6afcf26a27652091916e270203b5905bce12dfad1ae33829d4b2167da"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_85b4809f0fae497.s",
+      "sha256": "4e065a8ec33faba522e8d600f0937717a9db5d9acdfa52a6e15a9db0e59886a3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8a1b7bc87d5e633.s",
+      "sha256": "4e1262a99a87e8094f0ec1ba3e877df75d08345c5a002e5430c312bf0e849389"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8d0dd0ee89a970f.s",
+      "sha256": "2891cf820cba2bbd0da5772e143b49e1bd2a84ab62c9675d885a9dcb9848d462"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8fce06357f6d127.s",
+      "sha256": "9bcba6ca54caf66bc51d2864e9d4c148aaffacea671a9d8793eca2aed3c1656c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9356fd7b120de37.s",
+      "sha256": "7024baff8327b1d253583df6cd59c3bbfd64722e6727404bec2998be52d1fbd1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9755d36ddedc6b7.s",
+      "sha256": "6bca63cbb0cedd304629e7c4e149843ab3a183ef42d1af053468a2bdeaac88eb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_978e4716e9a7b55.s",
+      "sha256": "ec20f28270a2dec9a29a422901af3aed5025b41359b77af9a4131e4aac35d5f8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9e1a0f74131d81f.s",
+      "sha256": "910e61316174435884edf605ebaa81163764af4fecf1fb755630b9f77f9875ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a333f1fdc61ed4b.s",
+      "sha256": "b14b6024799346b8d09555c992e51760f30a5d16b57388aae1feaacb390ca48b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a7b174f83a0f43b.s",
+      "sha256": "97299c50af0e3ff61e9d60815735d47176e2c008f4b2573acaf3bd7ede149438"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_adb02b770a6193.s",
+      "sha256": "4fa9e1021f777a9e38499bb1d4a3f11e5db8659cb430befa3760068ed5ca6584"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_b1dc9333293688f.s",
+      "sha256": "838312b0a89ad1587c2c0276afe1da5cf9bc419cbb0182a25a87a6aa9262b985"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_bcbcb19411aea31.s",
+      "sha256": "7d935ee7e4b5f70ebf72c8b4e98f24b3e1a4250002d8d7b34477aedfdbfea928"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c060accd56c0c2f.s",
+      "sha256": "fda0aae1bf4b60cc78a660e464d70159a075ba0341d4b37776d6fcb5d1e40f43"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c3208d05a5329e7.s",
+      "sha256": "c978b860c2a56344006c01349b2dedd6d0e8caacebb1a9baa4be204b8026511b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd249ed48c06697.s",
+      "sha256": "449b9f20e32cbfa1302c4302e0414914091b41ac596acb7b7bbf89052908c896"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd2c6a654c268eb.s",
+      "sha256": "415b17a5f19da2ea41cca2e215cb9d0edd7cffc35bb80526b330cd1d748672b1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ce431b9f3a92ab9.s",
+      "sha256": "bafde7c90e9a759208dd2aa8564f13908a1da66ab789b8968939cad4126f6d74"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d7ea38d35580a9b.s",
+      "sha256": "c9da531966e0850ae294c9dcd1e88b7a972732aeb1b1f3fb0ab6fea8cee95a9b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d971bb526287b89.s",
+      "sha256": "8eb75dc321b09016ab0454c4f7c605f553cd2cdfff719cac6a46c3292627e2f6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_db8ff5154396dd7.s",
+      "sha256": "74c5e4329c4f9f3aa828820ea91dfa7384e8732c4cc56fa8cd79955a362035de"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_dbbbb77809455d7.s",
+      "sha256": "a03eadba9f8e136c7bb786ce372fcae8afa4bc0ecd6b914f643c3fa01777d52a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_e1c0ebef11c2d07.s",
+      "sha256": "5838e65b01a9a0bcc1ba1c292f33a572a13ad8bdba832e47874880034b48017e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_e32bfb331db9cf7.s",
+      "sha256": "d68d3e85a2c22d7604f390ef51c162d0b1ec955926a9ec22459c4d2b36d79d1f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ee55e6ba214fb31.s",
+      "sha256": "1839ae0cbce87cfbb12b20a55c62a342941335560110cdbf92f06d8ec7021942"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_efa0c71440608fb.s",
+      "sha256": "f573ba92d1a884186cb6858da6f904af648890277b510a1baf0891d1bf39033a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f76ab7383f3162f.s",
+      "sha256": "a8b7c1ba919f7dd7bf4d9431ad80cd0a3ae9faaf90525deea70244a980078e48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f861da3879904ef.s",
+      "sha256": "5fabf8891684f5004a237f6ce135258bf6f13939ee6f737c78247cb0c921ca6a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f8dffa39345ffaf.s",
+      "sha256": "2e082913da1715ba29f92b22ddcde2a8f19e61817520f5319dfef7ba24fb9d2e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ffb1da4812016b.s",
+      "sha256": "49de375de451bf233290e32d047b772c1d3312bcdc4433e1ab4939bc700efec5"
+    }
+  ],
+  "max_recorded_search_rss_kb": 70996,
+  "resource_logs": {
+    "round3/freeflag31_sample.resources": 22584,
+    "round3/freecmp_early31.resources": 70996,
+    "round3/loose_drop31.resources": 28596,
+    "round3/crosscheck.resources": 64352,
+    "round3/loose31_sample.resources": 6644,
+    "round3/early_control32.resources": 31776,
+    "round3/copydrop_free31.resources": 47892,
+    "round3/crosscheck_sample.resources": 44484,
+    "round3/drop31_final.resources": 12424,
+    "round3/loose31_exact.resources": 16640,
+    "round3/waive_input31.resources": 7660
+  },
+  "strict_predicate_classes": 72,
+  "weak_predicate_classes": 141
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "source": "round2/verified/c8_215cbe6f0d1c7837.s",
+    "skeleton": "round2/artifacts/skeletons/c8_215cbe6f0d1c7837.skel",
+    "node_limit": 60000000,
+    "wall_limit": 180,
+    "returncode": 0,
+    "result": [
+      "RESULT NONE K=31 calls=32930695 leaves=51840 sols=0 best=-1 time=88.9s"
+    ],
+    "seconds": 88.89352022018284,
+    "log": "round2/logs/c8_215cbe6f0d1c7837_selected_route31.log"
+  },
+  {
+    "source": "round2/verified/c8_70dac6520f0a05af.s",
+    "skeleton": "round2/artifacts/skeletons/c8_70dac6520f0a05af.skel",
+    "node_limit": 10000000,
+    "wall_limit": 60,
+    "returncode": 0,
+    "result": [
+      "RESULT LIMIT K=31 calls=10000049 leaves=0 sols=0 best=-1 time=25.8s (node limit hit: not exhaustive)"
+    ],
+    "seconds": 25.819693974219263,
+    "log": "round2/logs/c8_70dac6520f0a05af_selected_route31.log"
+  },
+  {
+    "source": "round2/verified/c8_44a89463151f5b8f.s",
+    "skeleton": "round2/artifacts/skeletons/c8_44a89463151f5b8f.skel",
+    "node_limit": 10000000,
+    "wall_limit": 60,
+    "returncode": 0,
+    "result": [
+      "RESULT LIMIT K=31 calls=10000083 leaves=14112 sols=0 best=-1 time=27.4s (node limit hit: not exhaustive)"
+    ],
+    "seconds": 27.36371031589806,
+    "log": "round2/logs/c8_44a89463151f5b8f_selected_route31.log"
+  },
+  {
+    "source": "round2/verified/c8_24f787e7e88ef5ab.s",
+    "skeleton": "round2/artifacts/skeletons/c8_24f787e7e88ef5ab.skel",
+    "node_limit": 10000000,
+    "wall_limit": 60,
+    "returncode": 0,
+    "result": [
+      "RESULT LIMIT K=31 calls=10000077 leaves=0 sols=0 best=-1 time=24.6s (node limit hit: not exhaustive)"
+    ],
+    "seconds": 24.60644779819995,
+    "log": "round2/logs/c8_24f787e7e88ef5ab_selected_route31.log"
+  },
+  {
+    "source": "round2/verified/c8_ffb1da4812016b.s",
+    "skeleton": "round2/artifacts/skeletons/c8_ffb1da4812016b.skel",
+    "node_limit": 10000000,
+    "wall_limit": 60,
+    "returncode": 0,
+    "result": [
+      "RESULT LIMIT K=31 calls=10000057 leaves=0 sols=0 best=-1 time=27.6s (node limit hit: not exhaustive)"
+    ],
+    "seconds": 27.58731415309012,
+    "log": "round2/logs/c8_ffb1da4812016b_selected_route31.log"
+  },
+  {
+    "source": "round2/verified/c8_36e5e6298381a683.s",
+    "skeleton": "round2/artifacts/skeletons/c8_36e5e6298381a683.skel",
+    "node_limit": 10000000,
+    "wall_limit": 60,
+    "returncode": 0,
+    "result": [
+      "RESULT LIMIT K=31 calls=10000060 leaves=17280 sols=0 best=-1 time=32.1s (node limit hit: not exhaustive)"
+    ],
+    "seconds": 32.12861798517406,
+    "log": "round2/logs/c8_36e5e6298381a683_selected_route31.log"
+  }
+]

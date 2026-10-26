@@ -1,0 +1,782 @@
+[
+  {
+    "id": "trim_early_11_6_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.404,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.552,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_15_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.556,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_15_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 11.704,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.136,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.4,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.824,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.292,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_12_5_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.476,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_12_5_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.552,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_11_6_cmovg.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.776,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_7_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.732,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_6_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_6_5_7_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.784,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.576,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.392,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_15_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.86,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_15_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.652,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.7,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.388,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.756,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.012,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_12_5_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.308,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_11_6_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_6_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.432,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_11_6_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.536,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_7_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.196,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_5_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_5_5_7_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.76,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.908,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.588,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_15_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.592,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_15_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.648,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.76,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.552,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.5,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_12_5_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.824,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_12_5_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.608,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_11_6_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.44,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_7_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.6,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_11_15_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_11_15_5_7_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.752,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.704,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.12,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_15_12_cmovl.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.544,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_15_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.492,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.652,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.652,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.652,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.444,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_12_5_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.544,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_12_5_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.812,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_11_6_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.752,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_7_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.496,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_12_15_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_12_15_5_7_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.652,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.244,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.46,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_15_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.532,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_15_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.66,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.192,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.14,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.888,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.248,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_12_5_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.088,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_12_5_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.576,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_11_6_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_6_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.428,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_11_6_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.088,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_5_7_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_7_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.088,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_10_5_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_10_5_5_7_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.924,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_11_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.84,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_11_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.832,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_15_12_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_15_12_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.08,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_15_12_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_15_12_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.14,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_11_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.2,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_11_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.3,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_5_15_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_5_15_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.412,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_5_15_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_5_15_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.692,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_12_5_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_12_5_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.172,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_12_5_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_12_5_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.708,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_11_6_cmovl",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_6_cmovl.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.596,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_11_6_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_11_6_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.076,
+    "rc": 0
+  },
+  {
+    "id": "trim_early_7_5_5_7_cmovg",
+    "idea": "Move max output and start merge before sort3 finishes; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_early_7_5_5_7_cmovg.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.7,
+    "rc": 0
+  }
+]

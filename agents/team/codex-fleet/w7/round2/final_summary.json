@@ -1,0 +1,198 @@
+{
+  "selected": 299,
+  "attempts": 360,
+  "attempt_statuses": {
+    "UNSAT": 296,
+    "UNKNOWN": 64
+  },
+  "processed_windows": 299,
+  "final_statuses": {
+    "UNSAT": 296,
+    "UNKNOWN": 3
+  },
+  "checked_UNSAT_windows": 296,
+  "pending": 0,
+  "unknown_windows": [
+    [
+      12,
+      15,
+      19,
+      21
+    ],
+    [
+      12,
+      15,
+      21,
+      25
+    ],
+    [
+      12,
+      14,
+      15,
+      23
+    ]
+  ],
+  "search_seconds": 3688.9772956278175,
+  "verify_seconds": 744.3509826222435,
+  "blocked_rejected_candidates": 0,
+  "source_hashes": {
+    "src/round2.py": "b24050150683abc8f3df223005843519accd5c6231c693bd51b33d90e351bfff",
+    "src/search.py": "636751cfad14952d8c5309965ced0ceaa4585f94d4b37208b283b14a2558edce",
+    "src/rank_encode.py": "5cb122fd14157bb9058447d9e199a9ee6cc2e734f140768e7ecda87df56ffe48",
+    "src/encode.py": "d383c8d3d9f6098a01fa093cbe65f113e9d2310a22d3abf49298f29c9403d357",
+    "src/round2_crosscheck.py": "8dac6b6b4a2a080ef256791befb4a99b7335464c1696ad337317f9eeab2216e4",
+    "src/round2_audit.py": "5cd018a13ac924407a5bd51290e898ee90a441697fad7dbf0b8b9f4cad120c9d",
+    "src/round2_report.py": "497ec142d73b19512f2ca384629d9844ec700cfd3a0053ab23e952fd5930d20f",
+    "src/binary_encode.py": "935fc1fb1e100becc6c6166eb3d922b24d5482f7ffbef40414480b3ebea4e47b"
+  },
+  "families_disjoint": [
+    {
+      "family": "Tail dependencies",
+      "windows": 140,
+      "statuses": {
+        "UNSAT": 138,
+        "UNKNOWN": 2
+      },
+      "checked_certificates": 138
+    },
+    {
+      "family": "Median routes",
+      "windows": 55,
+      "statuses": {
+        "UNSAT": 55
+      },
+      "checked_certificates": 55
+    },
+    {
+      "family": "Additional median-loss windows",
+      "windows": 104,
+      "statuses": {
+        "UNSAT": 103,
+        "UNKNOWN": 1
+      },
+      "checked_certificates": 103
+    }
+  ],
+  "attempt_groups": [
+    {
+      "attempt": 0,
+      "queries": 299,
+      "statuses": {
+        "UNSAT": 250,
+        "UNKNOWN": 49
+      },
+      "limits_seconds": {
+        "20.0": 12,
+        "10.0": 287
+      }
+    },
+    {
+      "attempt": 1,
+      "queries": 49,
+      "statuses": {
+        "UNSAT": 42,
+        "UNKNOWN": 7
+      },
+      "limits_seconds": {
+        "30.0": 49
+      }
+    },
+    {
+      "attempt": 2,
+      "queries": 7,
+      "statuses": {
+        "UNKNOWN": 5,
+        "UNSAT": 2
+      },
+      "limits_seconds": {
+        "120.0": 7
+      }
+    },
+    {
+      "attempt": 3,
+      "queries": 5,
+      "statuses": {
+        "UNKNOWN": 3,
+        "UNSAT": 2
+      },
+      "limits_seconds": {
+        "60.0": 5
+      }
+    }
+  ],
+  "encoding_audit": {
+    "status": "MATCH",
+    "truth_table_checks": 8192,
+    "attempts": 360,
+    "truth_table_checks_by_helper": {
+      "RankEnc": 4096,
+      "BinaryEnc": 4096
+    },
+    "UNSAT_formulas_reproduced": 296,
+    "boolean_collision_hits": 0,
+    "minimum_data_literal": 194,
+    "seconds": 201.62102735880762,
+    "helper_source_hashes": {
+      "round2/rank_encode_before.py": "5960ad2fee12dee27738b588085d45e0b9501b53074a9d575766f3839f50726a",
+      "src/rank_encode.py": "5cb122fd14157bb9058447d9e199a9ee6cc2e734f140768e7ecda87df56ffe48",
+      "src/binary_encode.py": "935fc1fb1e100becc6c6166eb3d922b24d5482f7ffbef40414480b3ebea4e47b"
+    }
+  },
+  "variable_domain_controls": {
+    "status": "MATCH",
+    "programs": 18,
+    "full_541_case_programs": 3,
+    "seconds": 13.414878946729004
+  },
+  "binary_variable_domain_controls": {
+    "status": "MATCH",
+    "programs": 18,
+    "encoder": "BinaryEnc",
+    "full_541_case_programs": 3,
+    "seconds": 13.989510044455528
+  },
+  "scope": "Four arbitrary substitutions at selected non-contiguous positions; eight registers; free output snapshots; top-scratch relaxation.",
+  "assumptions": [
+    "A2",
+    "A11"
+  ],
+  "strict_PASS_files_new": [],
+  "selection_sha256": "ad9bc56ee0c4aaa47ef326b5ba808ef7c6b5d80b9aa77f6c32801473c68950bb",
+  "timed_job_resource_counters": {
+    "round2/retry_trial.log": {
+      "user_seconds": 56.91,
+      "system_seconds": 1.58,
+      "peak_rss_KiB": 254200.0
+    },
+    "round2/retry_remaining.log": {
+      "user_seconds": 644.38,
+      "system_seconds": 15.0,
+      "peak_rss_KiB": 366776.0
+    },
+    "round2/retry_all541.log": {
+      "user_seconds": 491.73,
+      "system_seconds": 8.76,
+      "peak_rss_KiB": 884528.0
+    },
+    "round2/encoding_audit.log": {
+      "user_seconds": 102.56,
+      "system_seconds": 0.97,
+      "peak_rss_KiB": 221248.0
+    },
+    "round2/retry_binary.log": {
+      "user_seconds": 191.99,
+      "system_seconds": 3.25,
+      "peak_rss_KiB": 453500.0
+    },
+    "round2/binary_variable_domain_crosscheck.log": {
+      "user_seconds": 11.9,
+      "system_seconds": 0.45,
+      "peak_rss_KiB": 304864.0
+    },
+    "round2/variable_domain_crosscheck.log": {
+      "user_seconds": 8.68,
+      "system_seconds": 0.52,
+      "peak_rss_KiB": 279508.0
+    }
+  }
+}

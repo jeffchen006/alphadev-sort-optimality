@@ -1,0 +1,9 @@
+import KProto.D3k9I1.Data
+set_option maxRecDepth 1000000
+namespace KProto.D3k9I1
+open LeanReflect KProto
+theorem chunk836_ok : (chunk836.toList M 3).all F = true := by decide +kernel
+theorem chunk837_ok : (chunk837.toList M 3).all F = true := by decide +kernel
+theorem chunk838_ok : (chunk838.toList M 3).all F = true := by decide +kernel
+theorem chunk839_ok : (chunk839.toList M 3).all F = true := by decide +kernel
+end KProto.D3k9I1

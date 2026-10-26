@@ -1,0 +1,2519 @@
+[
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/candidates/b31a_near.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 1,
+    "log": "round2/logs/b31a_near_judge.log",
+    "seconds": 0.03589728754013777
+  },
+  {
+    "args": [
+      "timeout",
+      "25s",
+      "python3",
+      "round2/src/source_slots_sat.py",
+      "round2/verified/c8_156fdd193572fb27.s",
+      "round2/candidates/slots_control32.s",
+      "--control"
+    ],
+    "exit": 0,
+    "log": "round2/logs/slots_control.log",
+    "seconds": 0.7973362598568201
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/candidates/slots_control32.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/slots_control32_judge.log",
+    "seconds": 1.1080745458602905
+  },
+  {
+    "args": [
+      "timeout",
+      "90s",
+      "python3",
+      "round2/src/source_slots_sat.py",
+      "round2/verified/c8_156fdd193572fb27.s",
+      "round2/candidates/slots_free31.s",
+      "--changes",
+      "5",
+      "--free-dest"
+    ],
+    "exit": 124,
+    "log": "round2/logs/slots_free31.log",
+    "seconds": 90.04019178263843
+  },
+  {
+    "args": [
+      "timeout",
+      "90s",
+      "python3",
+      "round2/src/source_slots_sat.py",
+      "round2/verified/c8_15bdbe5ff6cbe16f.s",
+      "round2/candidates/slots_sources31.s",
+      "--changes",
+      "8"
+    ],
+    "exit": 124,
+    "log": "round2/logs/slots_sources31.log",
+    "seconds": 90.09809924755245
+  },
+  {
+    "args": [
+      "g++",
+      "-O3",
+      "-march=native",
+      "-std=c++17",
+      "round2/src/canonical.cpp",
+      "-o",
+      "round2/canonical"
+    ],
+    "exit": 0,
+    "log": "round2/logs/canonical_build.log",
+    "seconds": 5.196930055506527
+  },
+  {
+    "args": [
+      "./round2/canonical",
+      "round2/verified/c8_156fdd193572fb27.s",
+      "round2/candidates/n32b",
+      "33",
+      "0.8",
+      "1.5",
+      "300",
+      "7101",
+      "8",
+      "0.35"
+    ],
+    "exit": 0,
+    "log": "round2/logs/n32b.log",
+    "seconds": 304.54604051448405
+  },
+  {
+    "args": [
+      "./round2/analyze",
+      "verified/c8_108b52d1733c50f9.s",
+      "verified/c8_15d47dd100cf7fcb.s",
+      "verified/c8_23f00ca3e09530d3.s",
+      "verified/c8_26e49cf60c846007.s",
+      "verified/c8_2754b681df96846f.s",
+      "verified/c8_2b1431ee7889f02b.s",
+      "verified/c8_2c342e0e0fbafd57.s",
+      "verified/c8_2dfea391c9fdd3bb.s",
+      "verified/c8_2fc1b3fefa56100b.s",
+      "verified/c8_3395266762428bd.s",
+      "verified/c8_3809e545578327.s",
+      "verified/c8_57fa7c797ed6c84f.s",
+      "verified/c8_903a0e9b56d0fdc7.s",
+      "verified/c8_9dc3b82d8b1e62f.s",
+      "verified/c8_9f2faf3e2b5848b.s",
+      "verified/c8_b71830c38f98f13.s",
+      "verified/c8_be0bab6887969b3.s",
+      "verified/c8_de052e5a1c75d83.s",
+      "round2/verified/c8_156fdd193572fb27.s",
+      "round2/verified/c8_15bdbe5ff6cbe16f.s",
+      "round2/verified/c8_161f27bdd6e9955b.s",
+      "round2/verified/c8_166731603245e2eb.s",
+      "round2/verified/c8_1a082026b9b8a97.s",
+      "round2/verified/c8_22e8c2d0d1b113b.s",
+      "round2/verified/c8_35006f3bfb8deb1b.s",
+      "round2/verified/c8_4033c0cef9939583.s",
+      "round2/verified/c8_40718fc8b65bfb.s",
+      "round2/verified/c8_8fce06357f6d127.s",
+      "round2/verified/c8_dbbbb77809455d7.s",
+      "round2/verified/c8_e32bfb331db9cf7.s",
+      "round2/candidates/n32b_structure_1.s",
+      "round2/candidates/n32b_structure_10.s",
+      "round2/candidates/n32b_structure_100.s",
+      "round2/candidates/n32b_structure_101.s",
+      "round2/candidates/n32b_structure_102.s",
+      "round2/candidates/n32b_structure_103.s",
+      "round2/candidates/n32b_structure_104.s",
+      "round2/candidates/n32b_structure_105.s",
+      "round2/candidates/n32b_structure_106.s",
+      "round2/candidates/n32b_structure_107.s",
+      "round2/candidates/n32b_structure_108.s",
+      "round2/candidates/n32b_structure_109.s",
+      "round2/candidates/n32b_structure_11.s",
+      "round2/candidates/n32b_structure_110.s",
+      "round2/candidates/n32b_structure_111.s",
+      "round2/candidates/n32b_structure_112.s",
+      "round2/candidates/n32b_structure_113.s",
+      "round2/candidates/n32b_structure_114.s",
+      "round2/candidates/n32b_structure_115.s",
+      "round2/candidates/n32b_structure_116.s",
+      "round2/candidates/n32b_structure_117.s",
+      "round2/candidates/n32b_structure_118.s",
+      "round2/candidates/n32b_structure_119.s",
+      "round2/candidates/n32b_structure_12.s",
+      "round2/candidates/n32b_structure_120.s",
+      "round2/candidates/n32b_structure_121.s",
+      "round2/candidates/n32b_structure_122.s",
+      "round2/candidates/n32b_structure_123.s",
+      "round2/candidates/n32b_structure_124.s",
+      "round2/candidates/n32b_structure_125.s",
+      "round2/candidates/n32b_structure_126.s",
+      "round2/candidates/n32b_structure_127.s",
+      "round2/candidates/n32b_structure_128.s",
+      "round2/candidates/n32b_structure_129.s",
+      "round2/candidates/n32b_structure_13.s",
+      "round2/candidates/n32b_structure_130.s",
+      "round2/candidates/n32b_structure_131.s",
+      "round2/candidates/n32b_structure_132.s",
+      "round2/candidates/n32b_structure_133.s",
+      "round2/candidates/n32b_structure_134.s",
+      "round2/candidates/n32b_structure_135.s",
+      "round2/candidates/n32b_structure_136.s",
+      "round2/candidates/n32b_structure_137.s",
+      "round2/candidates/n32b_structure_138.s",
+      "round2/candidates/n32b_structure_139.s",
+      "round2/candidates/n32b_structure_14.s",
+      "round2/candidates/n32b_structure_140.s",
+      "round2/candidates/n32b_structure_141.s",
+      "round2/candidates/n32b_structure_142.s",
+      "round2/candidates/n32b_structure_143.s",
+      "round2/candidates/n32b_structure_144.s",
+      "round2/candidates/n32b_structure_145.s",
+      "round2/candidates/n32b_structure_146.s",
+      "round2/candidates/n32b_structure_147.s",
+      "round2/candidates/n32b_structure_148.s",
+      "round2/candidates/n32b_structure_149.s",
+      "round2/candidates/n32b_structure_15.s",
+      "round2/candidates/n32b_structure_150.s",
+      "round2/candidates/n32b_structure_151.s",
+      "round2/candidates/n32b_structure_152.s",
+      "round2/candidates/n32b_structure_153.s",
+      "round2/candidates/n32b_structure_154.s",
+      "round2/candidates/n32b_structure_155.s",
+      "round2/candidates/n32b_structure_156.s",
+      "round2/candidates/n32b_structure_157.s",
+      "round2/candidates/n32b_structure_158.s",
+      "round2/candidates/n32b_structure_159.s",
+      "round2/candidates/n32b_structure_16.s",
+      "round2/candidates/n32b_structure_160.s",
+      "round2/candidates/n32b_structure_161.s",
+      "round2/candidates/n32b_structure_162.s",
+      "round2/candidates/n32b_structure_163.s",
+      "round2/candidates/n32b_structure_164.s",
+      "round2/candidates/n32b_structure_165.s",
+      "round2/candidates/n32b_structure_166.s",
+      "round2/candidates/n32b_structure_167.s",
+      "round2/candidates/n32b_structure_168.s",
+      "round2/candidates/n32b_structure_169.s",
+      "round2/candidates/n32b_structure_17.s",
+      "round2/candidates/n32b_structure_170.s",
+      "round2/candidates/n32b_structure_171.s",
+      "round2/candidates/n32b_structure_172.s",
+      "round2/candidates/n32b_structure_173.s",
+      "round2/candidates/n32b_structure_174.s",
+      "round2/candidates/n32b_structure_175.s",
+      "round2/candidates/n32b_structure_176.s",
+      "round2/candidates/n32b_structure_177.s",
+      "round2/candidates/n32b_structure_178.s",
+      "round2/candidates/n32b_structure_179.s",
+      "round2/candidates/n32b_structure_18.s",
+      "round2/candidates/n32b_structure_180.s",
+      "round2/candidates/n32b_structure_181.s",
+      "round2/candidates/n32b_structure_182.s",
+      "round2/candidates/n32b_structure_183.s",
+      "round2/candidates/n32b_structure_184.s",
+      "round2/candidates/n32b_structure_185.s",
+      "round2/candidates/n32b_structure_186.s",
+      "round2/candidates/n32b_structure_187.s",
+      "round2/candidates/n32b_structure_188.s",
+      "round2/candidates/n32b_structure_189.s",
+      "round2/candidates/n32b_structure_19.s",
+      "round2/candidates/n32b_structure_190.s",
+      "round2/candidates/n32b_structure_191.s",
+      "round2/candidates/n32b_structure_192.s",
+      "round2/candidates/n32b_structure_193.s",
+      "round2/candidates/n32b_structure_194.s",
+      "round2/candidates/n32b_structure_195.s",
+      "round2/candidates/n32b_structure_196.s",
+      "round2/candidates/n32b_structure_197.s",
+      "round2/candidates/n32b_structure_198.s",
+      "round2/candidates/n32b_structure_199.s",
+      "round2/candidates/n32b_structure_2.s",
+      "round2/candidates/n32b_structure_20.s",
+      "round2/candidates/n32b_structure_200.s",
+      "round2/candidates/n32b_structure_201.s",
+      "round2/candidates/n32b_structure_202.s",
+      "round2/candidates/n32b_structure_203.s",
+      "round2/candidates/n32b_structure_204.s",
+      "round2/candidates/n32b_structure_205.s",
+      "round2/candidates/n32b_structure_206.s",
+      "round2/candidates/n32b_structure_207.s",
+      "round2/candidates/n32b_structure_208.s",
+      "round2/candidates/n32b_structure_209.s",
+      "round2/candidates/n32b_structure_21.s",
+      "round2/candidates/n32b_structure_210.s",
+      "round2/candidates/n32b_structure_211.s",
+      "round2/candidates/n32b_structure_212.s",
+      "round2/candidates/n32b_structure_213.s",
+      "round2/candidates/n32b_structure_214.s",
+      "round2/candidates/n32b_structure_215.s",
+      "round2/candidates/n32b_structure_216.s",
+      "round2/candidates/n32b_structure_217.s",
+      "round2/candidates/n32b_structure_218.s",
+      "round2/candidates/n32b_structure_219.s",
+      "round2/candidates/n32b_structure_22.s",
+      "round2/candidates/n32b_structure_220.s",
+      "round2/candidates/n32b_structure_221.s",
+      "round2/candidates/n32b_structure_222.s",
+      "round2/candidates/n32b_structure_223.s",
+      "round2/candidates/n32b_structure_224.s",
+      "round2/candidates/n32b_structure_225.s",
+      "round2/candidates/n32b_structure_226.s",
+      "round2/candidates/n32b_structure_227.s",
+      "round2/candidates/n32b_structure_228.s",
+      "round2/candidates/n32b_structure_229.s",
+      "round2/candidates/n32b_structure_23.s",
+      "round2/candidates/n32b_structure_230.s",
+      "round2/candidates/n32b_structure_231.s",
+      "round2/candidates/n32b_structure_232.s",
+      "round2/candidates/n32b_structure_233.s",
+      "round2/candidates/n32b_structure_234.s",
+      "round2/candidates/n32b_structure_235.s",
+      "round2/candidates/n32b_structure_236.s",
+      "round2/candidates/n32b_structure_237.s",
+      "round2/candidates/n32b_structure_238.s",
+      "round2/candidates/n32b_structure_239.s",
+      "round2/candidates/n32b_structure_24.s",
+      "round2/candidates/n32b_structure_240.s",
+      "round2/candidates/n32b_structure_241.s",
+      "round2/candidates/n32b_structure_242.s",
+      "round2/candidates/n32b_structure_243.s",
+      "round2/candidates/n32b_structure_244.s",
+      "round2/candidates/n32b_structure_245.s",
+      "round2/candidates/n32b_structure_246.s",
+      "round2/candidates/n32b_structure_247.s",
+      "round2/candidates/n32b_structure_248.s",
+      "round2/candidates/n32b_structure_249.s",
+      "round2/candidates/n32b_structure_25.s",
+      "round2/candidates/n32b_structure_250.s",
+      "round2/candidates/n32b_structure_251.s",
+      "round2/candidates/n32b_structure_252.s",
+      "round2/candidates/n32b_structure_253.s",
+      "round2/candidates/n32b_structure_254.s",
+      "round2/candidates/n32b_structure_255.s",
+      "round2/candidates/n32b_structure_256.s",
+      "round2/candidates/n32b_structure_257.s",
+      "round2/candidates/n32b_structure_258.s",
+      "round2/candidates/n32b_structure_259.s",
+      "round2/candidates/n32b_structure_26.s",
+      "round2/candidates/n32b_structure_260.s",
+      "round2/candidates/n32b_structure_261.s",
+      "round2/candidates/n32b_structure_262.s",
+      "round2/candidates/n32b_structure_263.s",
+      "round2/candidates/n32b_structure_264.s",
+      "round2/candidates/n32b_structure_265.s",
+      "round2/candidates/n32b_structure_266.s",
+      "round2/candidates/n32b_structure_267.s",
+      "round2/candidates/n32b_structure_268.s",
+      "round2/candidates/n32b_structure_269.s",
+      "round2/candidates/n32b_structure_27.s",
+      "round2/candidates/n32b_structure_270.s",
+      "round2/candidates/n32b_structure_271.s",
+      "round2/candidates/n32b_structure_272.s",
+      "round2/candidates/n32b_structure_273.s",
+      "round2/candidates/n32b_structure_274.s",
+      "round2/candidates/n32b_structure_275.s",
+      "round2/candidates/n32b_structure_276.s",
+      "round2/candidates/n32b_structure_277.s",
+      "round2/candidates/n32b_structure_278.s",
+      "round2/candidates/n32b_structure_279.s",
+      "round2/candidates/n32b_structure_28.s",
+      "round2/candidates/n32b_structure_280.s",
+      "round2/candidates/n32b_structure_281.s",
+      "round2/candidates/n32b_structure_282.s",
+      "round2/candidates/n32b_structure_283.s",
+      "round2/candidates/n32b_structure_284.s",
+      "round2/candidates/n32b_structure_285.s",
+      "round2/candidates/n32b_structure_286.s",
+      "round2/candidates/n32b_structure_287.s",
+      "round2/candidates/n32b_structure_288.s",
+      "round2/candidates/n32b_structure_289.s",
+      "round2/candidates/n32b_structure_29.s",
+      "round2/candidates/n32b_structure_290.s",
+      "round2/candidates/n32b_structure_291.s",
+      "round2/candidates/n32b_structure_292.s",
+      "round2/candidates/n32b_structure_293.s",
+      "round2/candidates/n32b_structure_294.s",
+      "round2/candidates/n32b_structure_295.s",
+      "round2/candidates/n32b_structure_296.s",
+      "round2/candidates/n32b_structure_297.s",
+      "round2/candidates/n32b_structure_298.s",
+      "round2/candidates/n32b_structure_299.s",
+      "round2/candidates/n32b_structure_3.s",
+      "round2/candidates/n32b_structure_30.s",
+      "round2/candidates/n32b_structure_300.s",
+      "round2/candidates/n32b_structure_301.s",
+      "round2/candidates/n32b_structure_302.s",
+      "round2/candidates/n32b_structure_303.s",
+      "round2/candidates/n32b_structure_304.s",
+      "round2/candidates/n32b_structure_305.s",
+      "round2/candidates/n32b_structure_306.s",
+      "round2/candidates/n32b_structure_307.s",
+      "round2/candidates/n32b_structure_308.s",
+      "round2/candidates/n32b_structure_309.s",
+      "round2/candidates/n32b_structure_31.s",
+      "round2/candidates/n32b_structure_310.s",
+      "round2/candidates/n32b_structure_311.s",
+      "round2/candidates/n32b_structure_312.s",
+      "round2/candidates/n32b_structure_313.s",
+      "round2/candidates/n32b_structure_314.s",
+      "round2/candidates/n32b_structure_315.s",
+      "round2/candidates/n32b_structure_316.s",
+      "round2/candidates/n32b_structure_317.s",
+      "round2/candidates/n32b_structure_318.s",
+      "round2/candidates/n32b_structure_319.s",
+      "round2/candidates/n32b_structure_32.s",
+      "round2/candidates/n32b_structure_320.s",
+      "round2/candidates/n32b_structure_321.s",
+      "round2/candidates/n32b_structure_322.s",
+      "round2/candidates/n32b_structure_323.s",
+      "round2/candidates/n32b_structure_324.s",
+      "round2/candidates/n32b_structure_325.s",
+      "round2/candidates/n32b_structure_326.s",
+      "round2/candidates/n32b_structure_327.s",
+      "round2/candidates/n32b_structure_328.s",
+      "round2/candidates/n32b_structure_329.s",
+      "round2/candidates/n32b_structure_33.s",
+      "round2/candidates/n32b_structure_330.s",
+      "round2/candidates/n32b_structure_331.s",
+      "round2/candidates/n32b_structure_332.s",
+      "round2/candidates/n32b_structure_333.s",
+      "round2/candidates/n32b_structure_334.s",
+      "round2/candidates/n32b_structure_335.s",
+      "round2/candidates/n32b_structure_336.s",
+      "round2/candidates/n32b_structure_337.s",
+      "round2/candidates/n32b_structure_338.s",
+      "round2/candidates/n32b_structure_339.s",
+      "round2/candidates/n32b_structure_34.s",
+      "round2/candidates/n32b_structure_340.s",
+      "round2/candidates/n32b_structure_341.s",
+      "round2/candidates/n32b_structure_342.s",
+      "round2/candidates/n32b_structure_343.s",
+      "round2/candidates/n32b_structure_344.s",
+      "round2/candidates/n32b_structure_345.s",
+      "round2/candidates/n32b_structure_346.s",
+      "round2/candidates/n32b_structure_347.s",
+      "round2/candidates/n32b_structure_348.s",
+      "round2/candidates/n32b_structure_349.s",
+      "round2/candidates/n32b_structure_35.s",
+      "round2/candidates/n32b_structure_350.s",
+      "round2/candidates/n32b_structure_351.s",
+      "round2/candidates/n32b_structure_352.s",
+      "round2/candidates/n32b_structure_353.s",
+      "round2/candidates/n32b_structure_354.s",
+      "round2/candidates/n32b_structure_355.s",
+      "round2/candidates/n32b_structure_356.s",
+      "round2/candidates/n32b_structure_357.s",
+      "round2/candidates/n32b_structure_358.s",
+      "round2/candidates/n32b_structure_359.s",
+      "round2/candidates/n32b_structure_36.s",
+      "round2/candidates/n32b_structure_360.s",
+      "round2/candidates/n32b_structure_361.s",
+      "round2/candidates/n32b_structure_362.s",
+      "round2/candidates/n32b_structure_363.s",
+      "round2/candidates/n32b_structure_364.s",
+      "round2/candidates/n32b_structure_365.s",
+      "round2/candidates/n32b_structure_366.s",
+      "round2/candidates/n32b_structure_367.s",
+      "round2/candidates/n32b_structure_368.s",
+      "round2/candidates/n32b_structure_369.s",
+      "round2/candidates/n32b_structure_37.s",
+      "round2/candidates/n32b_structure_370.s",
+      "round2/candidates/n32b_structure_371.s",
+      "round2/candidates/n32b_structure_372.s",
+      "round2/candidates/n32b_structure_373.s",
+      "round2/candidates/n32b_structure_374.s",
+      "round2/candidates/n32b_structure_375.s",
+      "round2/candidates/n32b_structure_376.s",
+      "round2/candidates/n32b_structure_377.s",
+      "round2/candidates/n32b_structure_378.s",
+      "round2/candidates/n32b_structure_379.s",
+      "round2/candidates/n32b_structure_38.s",
+      "round2/candidates/n32b_structure_380.s",
+      "round2/candidates/n32b_structure_381.s",
+      "round2/candidates/n32b_structure_382.s",
+      "round2/candidates/n32b_structure_383.s",
+      "round2/candidates/n32b_structure_384.s",
+      "round2/candidates/n32b_structure_385.s",
+      "round2/candidates/n32b_structure_386.s",
+      "round2/candidates/n32b_structure_387.s",
+      "round2/candidates/n32b_structure_388.s",
+      "round2/candidates/n32b_structure_389.s",
+      "round2/candidates/n32b_structure_39.s",
+      "round2/candidates/n32b_structure_390.s",
+      "round2/candidates/n32b_structure_391.s",
+      "round2/candidates/n32b_structure_392.s",
+      "round2/candidates/n32b_structure_393.s",
+      "round2/candidates/n32b_structure_394.s",
+      "round2/candidates/n32b_structure_395.s",
+      "round2/candidates/n32b_structure_396.s",
+      "round2/candidates/n32b_structure_397.s",
+      "round2/candidates/n32b_structure_398.s",
+      "round2/candidates/n32b_structure_399.s",
+      "round2/candidates/n32b_structure_4.s",
+      "round2/candidates/n32b_structure_40.s",
+      "round2/candidates/n32b_structure_400.s",
+      "round2/candidates/n32b_structure_401.s",
+      "round2/candidates/n32b_structure_402.s",
+      "round2/candidates/n32b_structure_403.s",
+      "round2/candidates/n32b_structure_404.s",
+      "round2/candidates/n32b_structure_405.s",
+      "round2/candidates/n32b_structure_406.s",
+      "round2/candidates/n32b_structure_407.s",
+      "round2/candidates/n32b_structure_408.s",
+      "round2/candidates/n32b_structure_409.s",
+      "round2/candidates/n32b_structure_41.s",
+      "round2/candidates/n32b_structure_410.s",
+      "round2/candidates/n32b_structure_411.s",
+      "round2/candidates/n32b_structure_412.s",
+      "round2/candidates/n32b_structure_413.s",
+      "round2/candidates/n32b_structure_414.s",
+      "round2/candidates/n32b_structure_415.s",
+      "round2/candidates/n32b_structure_416.s",
+      "round2/candidates/n32b_structure_417.s",
+      "round2/candidates/n32b_structure_418.s",
+      "round2/candidates/n32b_structure_419.s",
+      "round2/candidates/n32b_structure_42.s",
+      "round2/candidates/n32b_structure_420.s",
+      "round2/candidates/n32b_structure_421.s",
+      "round2/candidates/n32b_structure_422.s",
+      "round2/candidates/n32b_structure_423.s",
+      "round2/candidates/n32b_structure_424.s",
+      "round2/candidates/n32b_structure_425.s",
+      "round2/candidates/n32b_structure_426.s",
+      "round2/candidates/n32b_structure_427.s",
+      "round2/candidates/n32b_structure_428.s",
+      "round2/candidates/n32b_structure_429.s",
+      "round2/candidates/n32b_structure_43.s",
+      "round2/candidates/n32b_structure_430.s",
+      "round2/candidates/n32b_structure_431.s",
+      "round2/candidates/n32b_structure_432.s",
+      "round2/candidates/n32b_structure_433.s",
+      "round2/candidates/n32b_structure_434.s",
+      "round2/candidates/n32b_structure_435.s",
+      "round2/candidates/n32b_structure_436.s",
+      "round2/candidates/n32b_structure_437.s",
+      "round2/candidates/n32b_structure_438.s",
+      "round2/candidates/n32b_structure_439.s",
+      "round2/candidates/n32b_structure_44.s",
+      "round2/candidates/n32b_structure_440.s",
+      "round2/candidates/n32b_structure_441.s",
+      "round2/candidates/n32b_structure_442.s",
+      "round2/candidates/n32b_structure_443.s",
+      "round2/candidates/n32b_structure_444.s",
+      "round2/candidates/n32b_structure_445.s",
+      "round2/candidates/n32b_structure_446.s",
+      "round2/candidates/n32b_structure_447.s",
+      "round2/candidates/n32b_structure_448.s",
+      "round2/candidates/n32b_structure_449.s",
+      "round2/candidates/n32b_structure_45.s",
+      "round2/candidates/n32b_structure_450.s",
+      "round2/candidates/n32b_structure_451.s",
+      "round2/candidates/n32b_structure_452.s",
+      "round2/candidates/n32b_structure_453.s",
+      "round2/candidates/n32b_structure_454.s",
+      "round2/candidates/n32b_structure_455.s",
+      "round2/candidates/n32b_structure_456.s",
+      "round2/candidates/n32b_structure_457.s",
+      "round2/candidates/n32b_structure_458.s",
+      "round2/candidates/n32b_structure_459.s",
+      "round2/candidates/n32b_structure_46.s",
+      "round2/candidates/n32b_structure_460.s",
+      "round2/candidates/n32b_structure_461.s",
+      "round2/candidates/n32b_structure_462.s",
+      "round2/candidates/n32b_structure_463.s",
+      "round2/candidates/n32b_structure_464.s",
+      "round2/candidates/n32b_structure_465.s",
+      "round2/candidates/n32b_structure_466.s",
+      "round2/candidates/n32b_structure_467.s",
+      "round2/candidates/n32b_structure_468.s",
+      "round2/candidates/n32b_structure_469.s",
+      "round2/candidates/n32b_structure_47.s",
+      "round2/candidates/n32b_structure_470.s",
+      "round2/candidates/n32b_structure_471.s",
+      "round2/candidates/n32b_structure_472.s",
+      "round2/candidates/n32b_structure_473.s",
+      "round2/candidates/n32b_structure_474.s",
+      "round2/candidates/n32b_structure_475.s",
+      "round2/candidates/n32b_structure_476.s",
+      "round2/candidates/n32b_structure_477.s",
+      "round2/candidates/n32b_structure_478.s",
+      "round2/candidates/n32b_structure_479.s",
+      "round2/candidates/n32b_structure_48.s",
+      "round2/candidates/n32b_structure_480.s",
+      "round2/candidates/n32b_structure_481.s",
+      "round2/candidates/n32b_structure_482.s",
+      "round2/candidates/n32b_structure_483.s",
+      "round2/candidates/n32b_structure_484.s",
+      "round2/candidates/n32b_structure_485.s",
+      "round2/candidates/n32b_structure_486.s",
+      "round2/candidates/n32b_structure_487.s",
+      "round2/candidates/n32b_structure_488.s",
+      "round2/candidates/n32b_structure_489.s",
+      "round2/candidates/n32b_structure_49.s",
+      "round2/candidates/n32b_structure_490.s",
+      "round2/candidates/n32b_structure_491.s",
+      "round2/candidates/n32b_structure_492.s",
+      "round2/candidates/n32b_structure_493.s",
+      "round2/candidates/n32b_structure_494.s",
+      "round2/candidates/n32b_structure_495.s",
+      "round2/candidates/n32b_structure_496.s",
+      "round2/candidates/n32b_structure_497.s",
+      "round2/candidates/n32b_structure_498.s",
+      "round2/candidates/n32b_structure_499.s",
+      "round2/candidates/n32b_structure_5.s",
+      "round2/candidates/n32b_structure_50.s",
+      "round2/candidates/n32b_structure_500.s",
+      "round2/candidates/n32b_structure_501.s",
+      "round2/candidates/n32b_structure_502.s",
+      "round2/candidates/n32b_structure_503.s",
+      "round2/candidates/n32b_structure_504.s",
+      "round2/candidates/n32b_structure_505.s",
+      "round2/candidates/n32b_structure_506.s",
+      "round2/candidates/n32b_structure_507.s",
+      "round2/candidates/n32b_structure_508.s",
+      "round2/candidates/n32b_structure_509.s",
+      "round2/candidates/n32b_structure_51.s",
+      "round2/candidates/n32b_structure_510.s",
+      "round2/candidates/n32b_structure_511.s",
+      "round2/candidates/n32b_structure_512.s",
+      "round2/candidates/n32b_structure_513.s",
+      "round2/candidates/n32b_structure_514.s",
+      "round2/candidates/n32b_structure_515.s",
+      "round2/candidates/n32b_structure_516.s",
+      "round2/candidates/n32b_structure_517.s",
+      "round2/candidates/n32b_structure_518.s",
+      "round2/candidates/n32b_structure_519.s",
+      "round2/candidates/n32b_structure_52.s",
+      "round2/candidates/n32b_structure_520.s",
+      "round2/candidates/n32b_structure_521.s",
+      "round2/candidates/n32b_structure_522.s",
+      "round2/candidates/n32b_structure_523.s",
+      "round2/candidates/n32b_structure_524.s",
+      "round2/candidates/n32b_structure_525.s",
+      "round2/candidates/n32b_structure_526.s",
+      "round2/candidates/n32b_structure_527.s",
+      "round2/candidates/n32b_structure_528.s",
+      "round2/candidates/n32b_structure_529.s",
+      "round2/candidates/n32b_structure_53.s",
+      "round2/candidates/n32b_structure_530.s",
+      "round2/candidates/n32b_structure_531.s",
+      "round2/candidates/n32b_structure_532.s",
+      "round2/candidates/n32b_structure_533.s",
+      "round2/candidates/n32b_structure_534.s",
+      "round2/candidates/n32b_structure_535.s",
+      "round2/candidates/n32b_structure_536.s",
+      "round2/candidates/n32b_structure_537.s",
+      "round2/candidates/n32b_structure_538.s",
+      "round2/candidates/n32b_structure_539.s",
+      "round2/candidates/n32b_structure_54.s",
+      "round2/candidates/n32b_structure_540.s",
+      "round2/candidates/n32b_structure_541.s",
+      "round2/candidates/n32b_structure_542.s",
+      "round2/candidates/n32b_structure_543.s",
+      "round2/candidates/n32b_structure_544.s",
+      "round2/candidates/n32b_structure_545.s",
+      "round2/candidates/n32b_structure_546.s",
+      "round2/candidates/n32b_structure_547.s",
+      "round2/candidates/n32b_structure_548.s",
+      "round2/candidates/n32b_structure_549.s",
+      "round2/candidates/n32b_structure_55.s",
+      "round2/candidates/n32b_structure_550.s",
+      "round2/candidates/n32b_structure_551.s",
+      "round2/candidates/n32b_structure_552.s",
+      "round2/candidates/n32b_structure_553.s",
+      "round2/candidates/n32b_structure_554.s",
+      "round2/candidates/n32b_structure_555.s",
+      "round2/candidates/n32b_structure_556.s",
+      "round2/candidates/n32b_structure_557.s",
+      "round2/candidates/n32b_structure_558.s",
+      "round2/candidates/n32b_structure_559.s",
+      "round2/candidates/n32b_structure_56.s",
+      "round2/candidates/n32b_structure_560.s",
+      "round2/candidates/n32b_structure_561.s",
+      "round2/candidates/n32b_structure_562.s",
+      "round2/candidates/n32b_structure_563.s",
+      "round2/candidates/n32b_structure_564.s",
+      "round2/candidates/n32b_structure_565.s",
+      "round2/candidates/n32b_structure_566.s",
+      "round2/candidates/n32b_structure_567.s",
+      "round2/candidates/n32b_structure_568.s",
+      "round2/candidates/n32b_structure_569.s",
+      "round2/candidates/n32b_structure_57.s",
+      "round2/candidates/n32b_structure_570.s",
+      "round2/candidates/n32b_structure_571.s",
+      "round2/candidates/n32b_structure_572.s",
+      "round2/candidates/n32b_structure_573.s",
+      "round2/candidates/n32b_structure_574.s",
+      "round2/candidates/n32b_structure_575.s",
+      "round2/candidates/n32b_structure_576.s",
+      "round2/candidates/n32b_structure_577.s",
+      "round2/candidates/n32b_structure_578.s",
+      "round2/candidates/n32b_structure_579.s",
+      "round2/candidates/n32b_structure_58.s",
+      "round2/candidates/n32b_structure_580.s",
+      "round2/candidates/n32b_structure_581.s",
+      "round2/candidates/n32b_structure_582.s",
+      "round2/candidates/n32b_structure_583.s",
+      "round2/candidates/n32b_structure_584.s",
+      "round2/candidates/n32b_structure_585.s",
+      "round2/candidates/n32b_structure_586.s",
+      "round2/candidates/n32b_structure_587.s",
+      "round2/candidates/n32b_structure_588.s",
+      "round2/candidates/n32b_structure_589.s",
+      "round2/candidates/n32b_structure_59.s",
+      "round2/candidates/n32b_structure_590.s",
+      "round2/candidates/n32b_structure_591.s",
+      "round2/candidates/n32b_structure_592.s",
+      "round2/candidates/n32b_structure_593.s",
+      "round2/candidates/n32b_structure_594.s",
+      "round2/candidates/n32b_structure_595.s",
+      "round2/candidates/n32b_structure_596.s",
+      "round2/candidates/n32b_structure_597.s",
+      "round2/candidates/n32b_structure_598.s",
+      "round2/candidates/n32b_structure_599.s",
+      "round2/candidates/n32b_structure_6.s",
+      "round2/candidates/n32b_structure_60.s",
+      "round2/candidates/n32b_structure_600.s",
+      "round2/candidates/n32b_structure_601.s",
+      "round2/candidates/n32b_structure_602.s",
+      "round2/candidates/n32b_structure_603.s",
+      "round2/candidates/n32b_structure_604.s",
+      "round2/candidates/n32b_structure_605.s",
+      "round2/candidates/n32b_structure_606.s",
+      "round2/candidates/n32b_structure_607.s",
+      "round2/candidates/n32b_structure_608.s",
+      "round2/candidates/n32b_structure_609.s",
+      "round2/candidates/n32b_structure_61.s",
+      "round2/candidates/n32b_structure_610.s",
+      "round2/candidates/n32b_structure_611.s",
+      "round2/candidates/n32b_structure_612.s",
+      "round2/candidates/n32b_structure_613.s",
+      "round2/candidates/n32b_structure_614.s",
+      "round2/candidates/n32b_structure_615.s",
+      "round2/candidates/n32b_structure_616.s",
+      "round2/candidates/n32b_structure_617.s",
+      "round2/candidates/n32b_structure_618.s",
+      "round2/candidates/n32b_structure_619.s",
+      "round2/candidates/n32b_structure_62.s",
+      "round2/candidates/n32b_structure_620.s",
+      "round2/candidates/n32b_structure_621.s",
+      "round2/candidates/n32b_structure_622.s",
+      "round2/candidates/n32b_structure_623.s",
+      "round2/candidates/n32b_structure_624.s",
+      "round2/candidates/n32b_structure_625.s",
+      "round2/candidates/n32b_structure_626.s",
+      "round2/candidates/n32b_structure_627.s",
+      "round2/candidates/n32b_structure_628.s",
+      "round2/candidates/n32b_structure_629.s",
+      "round2/candidates/n32b_structure_63.s",
+      "round2/candidates/n32b_structure_630.s",
+      "round2/candidates/n32b_structure_631.s",
+      "round2/candidates/n32b_structure_632.s",
+      "round2/candidates/n32b_structure_633.s",
+      "round2/candidates/n32b_structure_634.s",
+      "round2/candidates/n32b_structure_635.s",
+      "round2/candidates/n32b_structure_636.s",
+      "round2/candidates/n32b_structure_637.s",
+      "round2/candidates/n32b_structure_638.s",
+      "round2/candidates/n32b_structure_639.s",
+      "round2/candidates/n32b_structure_64.s",
+      "round2/candidates/n32b_structure_640.s",
+      "round2/candidates/n32b_structure_641.s",
+      "round2/candidates/n32b_structure_642.s",
+      "round2/candidates/n32b_structure_643.s",
+      "round2/candidates/n32b_structure_644.s",
+      "round2/candidates/n32b_structure_645.s",
+      "round2/candidates/n32b_structure_646.s",
+      "round2/candidates/n32b_structure_647.s",
+      "round2/candidates/n32b_structure_648.s",
+      "round2/candidates/n32b_structure_649.s",
+      "round2/candidates/n32b_structure_65.s",
+      "round2/candidates/n32b_structure_650.s",
+      "round2/candidates/n32b_structure_651.s",
+      "round2/candidates/n32b_structure_652.s",
+      "round2/candidates/n32b_structure_653.s",
+      "round2/candidates/n32b_structure_654.s",
+      "round2/candidates/n32b_structure_655.s",
+      "round2/candidates/n32b_structure_656.s",
+      "round2/candidates/n32b_structure_657.s",
+      "round2/candidates/n32b_structure_658.s",
+      "round2/candidates/n32b_structure_659.s",
+      "round2/candidates/n32b_structure_66.s",
+      "round2/candidates/n32b_structure_660.s",
+      "round2/candidates/n32b_structure_661.s",
+      "round2/candidates/n32b_structure_662.s",
+      "round2/candidates/n32b_structure_663.s",
+      "round2/candidates/n32b_structure_664.s",
+      "round2/candidates/n32b_structure_665.s",
+      "round2/candidates/n32b_structure_67.s",
+      "round2/candidates/n32b_structure_68.s",
+      "round2/candidates/n32b_structure_69.s",
+      "round2/candidates/n32b_structure_7.s",
+      "round2/candidates/n32b_structure_70.s",
+      "round2/candidates/n32b_structure_71.s",
+      "round2/candidates/n32b_structure_72.s",
+      "round2/candidates/n32b_structure_73.s",
+      "round2/candidates/n32b_structure_74.s",
+      "round2/candidates/n32b_structure_75.s",
+      "round2/candidates/n32b_structure_76.s",
+      "round2/candidates/n32b_structure_77.s",
+      "round2/candidates/n32b_structure_78.s",
+      "round2/candidates/n32b_structure_79.s",
+      "round2/candidates/n32b_structure_8.s",
+      "round2/candidates/n32b_structure_80.s",
+      "round2/candidates/n32b_structure_81.s",
+      "round2/candidates/n32b_structure_82.s",
+      "round2/candidates/n32b_structure_83.s",
+      "round2/candidates/n32b_structure_84.s",
+      "round2/candidates/n32b_structure_85.s",
+      "round2/candidates/n32b_structure_86.s",
+      "round2/candidates/n32b_structure_87.s",
+      "round2/candidates/n32b_structure_88.s",
+      "round2/candidates/n32b_structure_89.s",
+      "round2/candidates/n32b_structure_9.s",
+      "round2/candidates/n32b_structure_90.s",
+      "round2/candidates/n32b_structure_91.s",
+      "round2/candidates/n32b_structure_92.s",
+      "round2/candidates/n32b_structure_93.s",
+      "round2/candidates/n32b_structure_94.s",
+      "round2/candidates/n32b_structure_95.s",
+      "round2/candidates/n32b_structure_96.s",
+      "round2/candidates/n32b_structure_97.s",
+      "round2/candidates/n32b_structure_98.s",
+      "round2/candidates/n32b_structure_99.s"
+    ],
+    "exit": 0,
+    "log": "round2/logs/analyze_n32b.log",
+    "seconds": 0.373461602255702
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_10040eff416c0867.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_10040eff416c0867_judge.log",
+    "seconds": 0.7408838868141174
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_100fdc9beb7f87fb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_100fdc9beb7f87fb_judge.log",
+    "seconds": 0.8590310867875814
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1125a776aad66f0f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1125a776aad66f0f_judge.log",
+    "seconds": 0.7382949274033308
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1133ec48c6cddf1b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1133ec48c6cddf1b_judge.log",
+    "seconds": 0.7924982784315944
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_11c9d4867493ab47.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_11c9d4867493ab47_judge.log",
+    "seconds": 0.7855148408561945
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_11ff7541f319ba6f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_11ff7541f319ba6f_judge.log",
+    "seconds": 0.8606779649853706
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1225fd780bdd0fe7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1225fd780bdd0fe7_judge.log",
+    "seconds": 0.7958289375528693
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_12651d8baa33ba0f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_12651d8baa33ba0f_judge.log",
+    "seconds": 0.8045623544603586
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_12b75491c4d308a3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_12b75491c4d308a3_judge.log",
+    "seconds": 0.8488004999235272
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1338d3424477e129.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1338d3424477e129_judge.log",
+    "seconds": 0.8304194957017899
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_141a02776a21d45.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_141a02776a21d45_judge.log",
+    "seconds": 0.8581499569118023
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_153074ef2f383393.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_153074ef2f383393_judge.log",
+    "seconds": 0.9441720666363835
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_15a18d5fe8f0f427.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_15a18d5fe8f0f427_judge.log",
+    "seconds": 0.8178223092108965
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_164a24929b8970bb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_164a24929b8970bb_judge.log",
+    "seconds": 0.7794473534449935
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_17907dae653ca8f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_17907dae653ca8f_judge.log",
+    "seconds": 0.7898273086175323
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_185d571c2e0f14f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_185d571c2e0f14f_judge.log",
+    "seconds": 0.7942642578855157
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1a613ac2485250c7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1a613ac2485250c7_judge.log",
+    "seconds": 0.855661696754396
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1a63d93b1f04a2cb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1a63d93b1f04a2cb_judge.log",
+    "seconds": 0.7911758590489626
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1ac755463afdc2ab.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1ac755463afdc2ab_judge.log",
+    "seconds": 0.8168258806690574
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1b0c08cec2e379c3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1b0c08cec2e379c3_judge.log",
+    "seconds": 0.8279883172363043
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1be80efe56e14ebf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1be80efe56e14ebf_judge.log",
+    "seconds": 0.773429935798049
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1c180823effee2ab.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1c180823effee2ab_judge.log",
+    "seconds": 0.8940031444653869
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1cc416f5fb6c5bef.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1cc416f5fb6c5bef_judge.log",
+    "seconds": 0.8205988993868232
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1d4ad416e35cc60b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1d4ad416e35cc60b_judge.log",
+    "seconds": 0.8756146412342787
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1e7b08432020f0b7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1e7b08432020f0b7_judge.log",
+    "seconds": 0.8269417770206928
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1f71d7979bb91b7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1f71d7979bb91b7_judge.log",
+    "seconds": 0.8359535438939929
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_1fa5731a2358af7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_1fa5731a2358af7_judge.log",
+    "seconds": 0.8719597710296512
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_203f14ede4be42f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_203f14ede4be42f_judge.log",
+    "seconds": 0.8707359721884131
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_215cbe6f0d1c7837.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_215cbe6f0d1c7837_judge.log",
+    "seconds": 0.9024157207459211
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_21a6f16bedc5b8bf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_21a6f16bedc5b8bf_judge.log",
+    "seconds": 0.8476670514792204
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_21abacdf36bcd7b3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_21abacdf36bcd7b3_judge.log",
+    "seconds": 0.831582386046648
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_21f839ca06fe77d3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_21f839ca06fe77d3_judge.log",
+    "seconds": 0.9411981282755733
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_220dcb420effb46b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_220dcb420effb46b_judge.log",
+    "seconds": 0.8286018362268806
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_22389f7b99df6097.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_22389f7b99df6097_judge.log",
+    "seconds": 0.881171889603138
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_224e45102f6e86b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_224e45102f6e86b_judge.log",
+    "seconds": 0.8290225369855762
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2289ab6219955a3b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2289ab6219955a3b_judge.log",
+    "seconds": 0.7745566451922059
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_23831cd511228447.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_23831cd511228447_judge.log",
+    "seconds": 0.7689894568175077
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_24853a2a978e287f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_24853a2a978e287f_judge.log",
+    "seconds": 0.8363090939819813
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_24abc8199dc03077.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_24abc8199dc03077_judge.log",
+    "seconds": 0.856147738173604
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_24f787e7e88ef5ab.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_24f787e7e88ef5ab_judge.log",
+    "seconds": 0.8856143364682794
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2596dc2f20910faf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2596dc2f20910faf_judge.log",
+    "seconds": 0.9896149514243007
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2642972b24ea19b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2642972b24ea19b_judge.log",
+    "seconds": 0.7931536780670285
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_267a2e3d4909af4b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_267a2e3d4909af4b_judge.log",
+    "seconds": 0.8067811243236065
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2726f4afb2d799.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2726f4afb2d799_judge.log",
+    "seconds": 0.7873854693025351
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_273efbe5788053db.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_273efbe5788053db_judge.log",
+    "seconds": 0.813839421607554
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2755e8d9e8382207.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2755e8d9e8382207_judge.log",
+    "seconds": 0.8800801495090127
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_27f65daa1cee4f4b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_27f65daa1cee4f4b_judge.log",
+    "seconds": 0.8283206773921847
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_281eb7be1ab4dfb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_281eb7be1ab4dfb_judge.log",
+    "seconds": 0.9377262089401484
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_289340d6380f179f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_289340d6380f179f_judge.log",
+    "seconds": 0.8750351704657078
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2896d97bea6f9f9f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2896d97bea6f9f9f_judge.log",
+    "seconds": 0.8828913383185863
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_290ba1ab50398fa7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_290ba1ab50398fa7_judge.log",
+    "seconds": 0.8802432380616665
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2a67840a0b9e7f13.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2a67840a0b9e7f13_judge.log",
+    "seconds": 0.8765666205435991
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2ab6c13ccb245a63.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2ab6c13ccb245a63_judge.log",
+    "seconds": 0.8416808312758803
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2e9b0f58dbb178a7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2e9b0f58dbb178a7_judge.log",
+    "seconds": 0.9143067169934511
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_2fc2edb8474e5733.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_2fc2edb8474e5733_judge.log",
+    "seconds": 0.8913422543555498
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_308486b4944cbdf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_308486b4944cbdf_judge.log",
+    "seconds": 0.8282745871692896
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_30f500aaf2d3b42b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_30f500aaf2d3b42b_judge.log",
+    "seconds": 0.8173779202625155
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3169712e775f63e7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3169712e775f63e7_judge.log",
+    "seconds": 0.7744132149964571
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_336a411e8b85279.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_336a411e8b85279_judge.log",
+    "seconds": 0.8126304214820266
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_33e730edcd75dbbf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_33e730edcd75dbbf_judge.log",
+    "seconds": 0.8312369761988521
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_33fd8cbe2fbbf34f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_33fd8cbe2fbbf34f_judge.log",
+    "seconds": 0.8725625909864902
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_34bda9f2efbb141b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_34bda9f2efbb141b_judge.log",
+    "seconds": 0.8679764941334724
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3524001ad0523527.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3524001ad0523527_judge.log",
+    "seconds": 0.864267123863101
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3631163abf06d7af.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3631163abf06d7af_judge.log",
+    "seconds": 0.8952405732125044
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_36b2b7961244aaf3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_36b2b7961244aaf3_judge.log",
+    "seconds": 0.7954721581190825
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_36c3eb8e6d6769f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_36c3eb8e6d6769f_judge.log",
+    "seconds": 0.8252596780657768
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_36c68fd07f08ff.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_36c68fd07f08ff_judge.log",
+    "seconds": 0.8903701361268759
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_36e5e6298381a683.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_36e5e6298381a683_judge.log",
+    "seconds": 0.835279674269259
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_397c742a631c1cdb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_397c742a631c1cdb_judge.log",
+    "seconds": 0.8829988082870841
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_399842c2f1576827.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_399842c2f1576827_judge.log",
+    "seconds": 0.8164529409259558
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_39a6ceb5b893673.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_39a6ceb5b893673_judge.log",
+    "seconds": 0.8583677178248763
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_39ca71836246603.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_39ca71836246603_judge.log",
+    "seconds": 0.8872156972065568
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3af92b135d8fbddb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3af92b135d8fbddb_judge.log",
+    "seconds": 0.9951211102306843
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3c8472e7eb77e88f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3c8472e7eb77e88f_judge.log",
+    "seconds": 0.8813489181920886
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3dab8eea3595c0cf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3dab8eea3595c0cf_judge.log",
+    "seconds": 0.8143099406734109
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3f3513bf9cd6caf3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3f3513bf9cd6caf3_judge.log",
+    "seconds": 0.8262503575533628
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3f8371a2666ae5c7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3f8371a2666ae5c7_judge.log",
+    "seconds": 0.8173235896974802
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_3ff1974fb517ed2b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_3ff1974fb517ed2b_judge.log",
+    "seconds": 0.8365214234218001
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_4065e579161132f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_4065e579161132f_judge.log",
+    "seconds": 0.8701519118621945
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_43a93e06324c3bc3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_43a93e06324c3bc3_judge.log",
+    "seconds": 0.860611205920577
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_43e28701f70f0cf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_43e28701f70f0cf_judge.log",
+    "seconds": 0.8640375956892967
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_4480f6c61beea14b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_4480f6c61beea14b_judge.log",
+    "seconds": 0.8297435659915209
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_44a89463151f5b8f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_44a89463151f5b8f_judge.log",
+    "seconds": 0.835935864597559
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_45647ba89f2ce4ff.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_45647ba89f2ce4ff_judge.log",
+    "seconds": 0.8699436634778976
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_4568144e518d6cff.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_4568144e518d6cff_judge.log",
+    "seconds": 0.8504850594326854
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_490153be8f1298b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_490153be8f1298b_judge.log",
+    "seconds": 0.8915484957396984
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_4a225b46e63e8737.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_4a225b46e63e8737_judge.log",
+    "seconds": 0.889569235034287
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_4c82686d8d30d33.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_4c82686d8d30d33_judge.log",
+    "seconds": 0.8155782613903284
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_504956aa3c140ea3.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_504956aa3c140ea3_judge.log",
+    "seconds": 0.9134768787771463
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_54b8fd94e189948f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_54b8fd94e189948f_judge.log",
+    "seconds": 0.9172558262944221
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_59bb347d4b01a577.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_59bb347d4b01a577_judge.log",
+    "seconds": 1.0988739123567939
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_5bdf24a222d2b63.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_5bdf24a222d2b63_judge.log",
+    "seconds": 1.0835546990856528
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_63f1e94b2830099.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_63f1e94b2830099_judge.log",
+    "seconds": 1.0135786533355713
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_6580b4e99d6036b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_6580b4e99d6036b_judge.log",
+    "seconds": 0.9469505259767175
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_66303d2fe517211.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_66303d2fe517211_judge.log",
+    "seconds": 0.8579021971672773
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_66ea7778158faf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_66ea7778158faf_judge.log",
+    "seconds": 0.9013985814526677
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_6e38bedf286f04f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_6e38bedf286f04f_judge.log",
+    "seconds": 0.8751188516616821
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_70dac6520f0a05af.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_70dac6520f0a05af_judge.log",
+    "seconds": 0.8344943150877953
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_784551952e246563.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_784551952e246563_judge.log",
+    "seconds": 0.8139663422480226
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_7c7f65877f171ab.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_7c7f65877f171ab_judge.log",
+    "seconds": 0.8148061009123921
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_7f146a90e5e9bcf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_7f146a90e5e9bcf_judge.log",
+    "seconds": 0.8920838544145226
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_8034dffd5d8c457.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_8034dffd5d8c457_judge.log",
+    "seconds": 0.8169025015085936
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_81ed52dfbe00faf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_81ed52dfbe00faf_judge.log",
+    "seconds": 0.8942767139524221
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_845547c9459fdb7b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_845547c9459fdb7b_judge.log",
+    "seconds": 0.9594619022682309
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_85b4809f0fae497.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_85b4809f0fae497_judge.log",
+    "seconds": 0.8621643260121346
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_8a1b7bc87d5e633.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_8a1b7bc87d5e633_judge.log",
+    "seconds": 0.8339294344186783
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_8d0dd0ee89a970f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_8d0dd0ee89a970f_judge.log",
+    "seconds": 0.9081383990123868
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_9356fd7b120de37.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_9356fd7b120de37_judge.log",
+    "seconds": 0.8184772599488497
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_9755d36ddedc6b7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_9755d36ddedc6b7_judge.log",
+    "seconds": 0.8685365514829755
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_978e4716e9a7b55.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_978e4716e9a7b55_judge.log",
+    "seconds": 0.8004581164568663
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_9e1a0f74131d81f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_9e1a0f74131d81f_judge.log",
+    "seconds": 0.7564659714698792
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_a333f1fdc61ed4b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_a333f1fdc61ed4b_judge.log",
+    "seconds": 0.8204647889360785
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_a7b174f83a0f43b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_a7b174f83a0f43b_judge.log",
+    "seconds": 0.9154830165207386
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_adb02b770a6193.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_adb02b770a6193_judge.log",
+    "seconds": 0.8187785586342216
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_b1dc9333293688f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_b1dc9333293688f_judge.log",
+    "seconds": 0.8457328313961625
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_bcbcb19411aea31.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_bcbcb19411aea31_judge.log",
+    "seconds": 0.8257520264014602
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_c060accd56c0c2f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_c060accd56c0c2f_judge.log",
+    "seconds": 0.8428990701213479
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_c3208d05a5329e7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_c3208d05a5329e7_judge.log",
+    "seconds": 0.87114327121526
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_cd249ed48c06697.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_cd249ed48c06697_judge.log",
+    "seconds": 0.9105241391807795
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_cd2c6a654c268eb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_cd2c6a654c268eb_judge.log",
+    "seconds": 1.4886524016037583
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_ce431b9f3a92ab9.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_ce431b9f3a92ab9_judge.log",
+    "seconds": 1.7460540337488055
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_d7ea38d35580a9b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_d7ea38d35580a9b_judge.log",
+    "seconds": 1.8409933503717184
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_d971bb526287b89.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_d971bb526287b89_judge.log",
+    "seconds": 3.1287103397771716
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_db8ff5154396dd7.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_db8ff5154396dd7_judge.log",
+    "seconds": 2.524790366180241
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_e1c0ebef11c2d07.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_e1c0ebef11c2d07_judge.log",
+    "seconds": 6.733991636894643
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_ee55e6ba214fb31.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_ee55e6ba214fb31_judge.log",
+    "seconds": 1.938773817382753
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_efa0c71440608fb.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_efa0c71440608fb_judge.log",
+    "seconds": 1.299582534469664
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_f76ab7383f3162f.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_f76ab7383f3162f_judge.log",
+    "seconds": 1.0223886212334037
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_f861da3879904ef.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_f861da3879904ef_judge.log",
+    "seconds": 0.8718932112678885
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_f8dffa39345ffaf.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_f8dffa39345ffaf_judge.log",
+    "seconds": 0.8738600313663483
+  },
+  {
+    "args": [
+      "python3",
+      "/path/to/repo/shared/judge.py",
+      "round2/artifacts/skeletons/c8_ffb1da4812016b.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "exit": 0,
+    "log": "round2/logs/c8_ffb1da4812016b_judge.log",
+    "seconds": 0.7666587475687265
+  },
+  {
+    "args": [
+      "python3",
+      "round2/src/memory_audit.py"
+    ],
+    "exit": 0,
+    "log": "round2/logs/memory_audit.log",
+    "seconds": 168.9359115222469
+  }
+]

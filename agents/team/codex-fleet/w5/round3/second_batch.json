@@ -1,0 +1,112 @@
+[
+  {
+    "name": "rank_transition_check",
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "round3/test_rank.py"
+    ],
+    "cap": 60,
+    "status": "EXIT_0",
+    "code": 0,
+    "seconds": 5.359805689193308,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/rank_transition_check.log"
+  },
+  {
+    "name": "rank_control32",
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "round3/repair_sat.py",
+      "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_100fdc9beb7f87fb.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round3/candidates/rank_control32.s",
+      "--control",
+      "--rank"
+    ],
+    "cap": 60,
+    "status": "CANDIDATE",
+    "code": 0,
+    "seconds": 0.46813421975821257,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/rank_control32.log"
+  },
+  {
+    "name": "build_near_score",
+    "command": [
+      "g++",
+      "-O3",
+      "-std=c++17",
+      "-msse4.1",
+      "round3/near_repair.cpp",
+      "-o",
+      "round3/near_score_repair"
+    ],
+    "cap": 60,
+    "status": "EXIT_0",
+    "code": 0,
+    "seconds": 2.531110485084355,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/build_near_score.log"
+  },
+  {
+    "name": "near14_exact2_scored",
+    "command": [
+      "round3/near_score_repair",
+      "round3/seeds/near14_frozen.txt",
+      "round3/candidates/near14_exact2_scored",
+      "1"
+    ],
+    "cap": 120,
+    "status": "EXIT_0",
+    "code": 0,
+    "seconds": 6.450370602309704,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/near14_exact2_scored.log"
+  },
+  {
+    "name": "build_near_repair3",
+    "command": [
+      "g++",
+      "-O3",
+      "-std=c++17",
+      "-msse4.1",
+      "round3/near_repair3.cpp",
+      "-o",
+      "round3/near_repair3"
+    ],
+    "cap": 60,
+    "status": "EXIT_0",
+    "code": 0,
+    "seconds": 2.5871120002120733,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/build_near_repair3.log"
+  },
+  {
+    "name": "near14_suffix_cmp2cmov",
+    "command": [
+      "round3/near_repair3",
+      "round3/seeds/near14_frozen.txt",
+      "round3/candidates/near14_suffix3",
+      "15"
+    ],
+    "cap": 600,
+    "status": "EXIT_0",
+    "code": 0,
+    "seconds": 62.75978722516447,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/near14_suffix_cmp2cmov.log"
+  },
+  {
+    "name": "rank_near14_general3",
+    "command": [
+      "/usr/bin/python3",
+      "-B",
+      "round3/repair_sat.py",
+      "/path/to/repo/agents/team/codex-fleet/w6/round2/candidates/near14_frozen.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round3/candidates/rank_near14_general3.s",
+      "--changes",
+      "3",
+      "--rank"
+    ],
+    "cap": 300,
+    "status": "TIMEOUT",
+    "code": null,
+    "seconds": 300.0288269529119,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round3/logs/rank_near14_general3.log"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "mined_0_typed4",
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "round6/candidates/mined_0_typed4.s",
+    "--rank",
+    "--typed",
+    "--changes",
+    "4",
+    "--maxcmp",
+    "9",
+    "--fresh",
+    "1",
+    "--change-cmp",
+    "--random-seed",
+    "626400"
+  ],
+  "wall_limit": 90.0,
+  "exit": 124,
+  "seconds": 90.02294064499438,
+  "log": "round6/logs/mined_0_typed4.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 82.93263400000001,
+  "peak_child_rss_kib": 126052
+}

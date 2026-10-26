@@ -1,0 +1,267 @@
+{
+  "cases": 541,
+  "seed_classes": 18,
+  "new_walk_classes": 3,
+  "seed_classes_distinct": 18,
+  "new_walk_classes_distinct": 0,
+  "new_representatives": {
+    "99b46df5276e664d6e19e9fe": [
+      "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final.s"
+    ],
+    "58b838ef0d868286491cb2fe": [
+      "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final.s"
+    ],
+    "3363866678859d225cf71170": [
+      "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final.s"
+    ]
+  },
+  "new_representatives_distinct": {},
+  "rows": [
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s",
+      "comparisons": 8,
+      "signature": "e0f50ccddc04b4eef099133c",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_15d47dd100cf7fcb.s",
+      "comparisons": 8,
+      "signature": "0cfebd5199cac3fc9fea3491",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_23f00ca3e09530d3.s",
+      "comparisons": 8,
+      "signature": "c49edb4656cf75cd0967cd21",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_26e49cf60c846007.s",
+      "comparisons": 8,
+      "signature": "fb37c2e9584b657147f4c8a6",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2754b681df96846f.s",
+      "comparisons": 8,
+      "signature": "5c142d6b7798b8956b0423ce",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2b1431ee7889f02b.s",
+      "comparisons": 8,
+      "signature": "e9e650858228c602d02f14d9",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2c342e0e0fbafd57.s",
+      "comparisons": 8,
+      "signature": "b1326da83ea8ef327bcbe5a0",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s",
+      "comparisons": 8,
+      "signature": "729cd0b6823efabcf55ccbdc",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2fc1b3fefa56100b.s",
+      "comparisons": 8,
+      "signature": "ae60c9a9e4073609753087d4",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3395266762428bd.s",
+      "comparisons": 8,
+      "signature": "9347d1aa81167b4578b07d0c",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3809e545578327.s",
+      "comparisons": 8,
+      "signature": "21522605747620212f2c4f7b",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_57fa7c797ed6c84f.s",
+      "comparisons": 8,
+      "signature": "b520aba891a7db892fd12ef8",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_903a0e9b56d0fdc7.s",
+      "comparisons": 8,
+      "signature": "58d284531b3cbd5c17e35e20",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9dc3b82d8b1e62f.s",
+      "comparisons": 8,
+      "signature": "b6ad8629334f03f46ea8fac2",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9f2faf3e2b5848b.s",
+      "comparisons": 8,
+      "signature": "c4044a5235e36f455ccdfc62",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_b71830c38f98f13.s",
+      "comparisons": 8,
+      "signature": "11e99fb271744c5879cb8413",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s",
+      "comparisons": 8,
+      "signature": "85d88cca3625a66967b411ab",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_de052e5a1c75d83.s",
+      "comparisons": 8,
+      "signature": "8fcf4126ec4ec41b9aeee1a2",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "seed",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/verified/palette_c8_k32.s",
+      "comparisons": 8,
+      "signature": "b6ad8629334f03f46ea8fac2",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint.s",
+      "comparisons": 8,
+      "signature": "fb37c2e9584b657147f4c8a6",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final.s",
+      "comparisons": 8,
+      "signature": "fb37c2e9584b657147f4c8a6",
+      "new_against_seeds": false,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint.s",
+      "comparisons": 8,
+      "signature": "99b46df5276e664d6e19e9fe",
+      "new_against_seeds": true,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final.s",
+      "comparisons": 8,
+      "signature": "99b46df5276e664d6e19e9fe",
+      "new_against_seeds": true,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint.s",
+      "comparisons": 8,
+      "signature": "58b838ef0d868286491cb2fe",
+      "new_against_seeds": true,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final.s",
+      "comparisons": 8,
+      "signature": "58b838ef0d868286491cb2fe",
+      "new_against_seeds": true,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint.s",
+      "comparisons": 8,
+      "signature": "3363866678859d225cf71170",
+      "new_against_seeds": true,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    },
+    {
+      "category": "walk",
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final.s",
+      "comparisons": 8,
+      "signature": "3363866678859d225cf71170",
+      "new_against_seeds": true,
+      "new_on_distinct_inputs": false,
+      "unknown_comparison_entries": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "round7/seeds/near14.json": {
+    "sha256": "b5f026caa3af1ee48cb9f434a7cb13dfde3b6450481f42da3c1a8c284b6a7262",
+    "same_as_round6": true
+  },
+  "round7/seeds/near14.s": {
+    "sha256": "882a29d3704cdd5c451f29e58a04428124aef8073eefdc142aae123058a6aa1f",
+    "same_as_round6": true
+  },
+  "round7/seeds/near9.json": {
+    "sha256": "a4c46d20a28effb0924882ab9cdd464f52384c4f25122c09fe8409226a614a5e",
+    "same_as_round6": true
+  },
+  "round7/seeds/near9.s": {
+    "sha256": "008dac02924344be0865d7ca355c06cff00d9c83d92939acb25373cd085eb833",
+    "same_as_round6": true
+  }
+}

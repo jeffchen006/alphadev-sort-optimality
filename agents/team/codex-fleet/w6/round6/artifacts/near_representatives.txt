@@ -1,0 +1,15 @@
+round6/candidates/mem_b5_c9t0.5_near_31_out.s
+round6/candidates/mem_b5_c9t0.5_near_27_out.s
+round6/candidates/mem_a4_c8t1.2_near_699_out.s
+round6/candidates/mem_a4_c8t1.2_near_729_out.s
+round6/candidates/mem_a4_c8t1.2_near_2023_out.s
+round6/candidates/mem_a4_c8t1.2_near_425_out.s
+round6/candidates/mem_a4_c8t1.2_near_460_out.s
+round6/candidates/mem_a4_c8t1.2_near_469_out.s
+round6/candidates/mem_a4_c8t1.2_near_1440_out.s
+round6/candidates/mem_a4_c8t1.2_near_447_out.s
+round6/candidates/mem_a4_c8t1.2_near_624_out.s
+round6/candidates/mem_a4_c8t1.2_near_1347_out.s
+round6/candidates/mem_a4_c8t1.2_near_2036_out.s
+round6/candidates/mem_a4_c8t1.2_near_1999_out.s
+round6/candidates/mem_a4_c8t1.2_near_10_out.s

@@ -1,0 +1,126 @@
+{
+  "status": "UNSAT",
+  "cpu": 0.31197472,
+  "cases": 12,
+  "rounds": 0,
+  "args": {
+    "index": 61,
+    "mode": "exclusive",
+    "tail": 6,
+    "cpu": 30.0,
+    "extra": 2,
+    "control": false,
+    "all_cases": false,
+    "stem": "exclusive_61",
+    "fast": false
+  },
+  "key": "near_b14_p32",
+  "editable": [
+    20,
+    24,
+    26,
+    29
+  ],
+  "drop": 0,
+  "free_outputs": [
+    2,
+    3
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      4
+    ],
+    [
+      1,
+      2,
+      4,
+      0,
+      3
+    ]
+  ],
+  "vars": 6652,
+  "clauses": 60046,
+  "stats": {
+    "restarts": 264,
+    "conflicts": 3942,
+    "decisions": 14486,
+    "propagations": 1961141
+  },
+  "maxrss_kib": 32884,
+  "total_cpu": 0.315718682,
+  "suffix_builds": null
+}

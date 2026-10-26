@@ -1,0 +1,1784 @@
+{
+  "inventory": {
+    "counts": {
+      "files": 12669,
+      "unique_zero_mov_cores": 6,
+      "zero_mov_files": 7
+    },
+    "programs": [
+      {
+        "source": "round2/verified/c8_215cbe6f0d1c7837.s",
+        "target": "round3/candidates/nomov_38bc4652d19a9d1c.s",
+        "copies": 2
+      },
+      {
+        "source": "candidates/p32a_sample_1038.s",
+        "target": "round3/candidates/nomov_68d29028b7fb54c4.s",
+        "copies": 1
+      },
+      {
+        "source": "candidates/p32a_sample_1127.s",
+        "target": "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+        "copies": 1
+      },
+      {
+        "source": "candidates/p32c_sample_1497.s",
+        "target": "round3/candidates/nomov_4c02da04dce39b74.s",
+        "copies": 1
+      },
+      {
+        "source": "candidates/p32c_sample_4075.s",
+        "target": "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+        "copies": 1
+      },
+      {
+        "source": "candidates/p32d_sample_542.s",
+        "target": "round3/candidates/nomov_cb7f7a699c4c9842.s",
+        "copies": 1
+      }
+    ],
+    "last_folder": "candidates",
+    "complete": true
+  },
+  "deletions": [
+    {
+      "source": "round3/candidates/nomov_38bc4652d19a9d1c.s",
+      "tried": 24,
+      "best_error_sum": 126,
+      "best_failed_orders": 126,
+      "best_file": "round3/candidates/nomov_38bc4652d19a9d1c_del27.s"
+    },
+    {
+      "source": "round3/candidates/nomov_68d29028b7fb54c4.s",
+      "tried": 24,
+      "best_error_sum": 111,
+      "best_failed_orders": 111,
+      "best_file": "round3/candidates/nomov_68d29028b7fb54c4_del24.s"
+    },
+    {
+      "source": "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+      "tried": 24,
+      "best_error_sum": 129,
+      "best_failed_orders": 129,
+      "best_file": "round3/candidates/nomov_9f7a6fc77b297ff9_del24.s"
+    },
+    {
+      "source": "round3/candidates/nomov_4c02da04dce39b74.s",
+      "tried": 24,
+      "best_error_sum": 45,
+      "best_failed_orders": 27,
+      "best_file": "round3/candidates/nomov_4c02da04dce39b74_del27.s"
+    },
+    {
+      "source": "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+      "tried": 24,
+      "best_error_sum": 126,
+      "best_failed_orders": 126,
+      "best_file": "round3/candidates/nomov_7e5d1b2681c79ac1_del27.s"
+    },
+    {
+      "source": "round3/candidates/nomov_cb7f7a699c4c9842.s",
+      "tried": 24,
+      "best_error_sum": 126,
+      "best_failed_orders": 126,
+      "best_file": "round3/candidates/nomov_cb7f7a699c4c9842_del27.s"
+    }
+  ],
+  "neighbours": [
+    {
+      "index": 0,
+      "error_sum": 18,
+      "failed_orders": 14,
+      "file": "round3/candidates/n14_neighbour0.s"
+    },
+    {
+      "index": 1,
+      "error_sum": 18,
+      "failed_orders": 14,
+      "file": "round3/candidates/n14_neighbour1.s"
+    },
+    {
+      "index": 2,
+      "error_sum": 18,
+      "failed_orders": 14,
+      "file": "round3/candidates/n14_neighbour2.s"
+    },
+    {
+      "index": 3,
+      "error_sum": 26,
+      "failed_orders": 26,
+      "file": "round3/candidates/n14_neighbour3.s"
+    },
+    {
+      "index": 4,
+      "error_sum": 30,
+      "failed_orders": 30,
+      "file": "round3/candidates/n14_neighbour4.s"
+    },
+    {
+      "index": 5,
+      "error_sum": 54,
+      "failed_orders": 32,
+      "file": "round3/candidates/n14_neighbour5.s"
+    },
+    {
+      "index": 6,
+      "error_sum": 56,
+      "failed_orders": 44,
+      "file": "round3/candidates/n14_neighbour6.s"
+    }
+  ],
+  "jobs": [
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "round3/src/analyze.cpp",
+        "-o",
+        "round3/analyze"
+      ],
+      "wall_limit": 35.0,
+      "exit": 0,
+      "seconds": 5.167481093667448,
+      "log": "round3/logs/analyze_build.log",
+      "name": "analyze_build",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/analyze",
+        "round3/candidates/nomov_38bc4652d19a9d1c.s",
+        "round3/candidates/nomov_4c02da04dce39b74.s",
+        "round3/candidates/nomov_68d29028b7fb54c4.s",
+        "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+        "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+        "round3/candidates/nomov_cb7f7a699c4c9842.s"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.009777454659342766,
+      "log": "round3/logs/analyze_nomov.log",
+      "name": "analyze_nomov",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/verified/c8_215cbe6f0d1c7837.s",
+        "round3/candidates/control32.s",
+        "--control"
+      ],
+      "wall_limit": 25.0,
+      "exit": 0,
+      "seconds": 0.6200674623250961,
+      "log": "round3/logs/control32.log",
+      "name": "control32",
+      "solver_status": {
+        "status": "CANDIDATE",
+        "file": "round3/candidates/control32.s",
+        "seconds": 0.49818486627191305
+      },
+      "result": "CANDIDATE"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/final_checks.py"
+      ],
+      "wall_limit": 25.0,
+      "exit": 0,
+      "seconds": 2.4977780114859343,
+      "log": "round3/logs/duplicate_min_control.log",
+      "name": "duplicate_min_control",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/encoder_check.py"
+      ],
+      "wall_limit": 30.0,
+      "exit": 0,
+      "seconds": 5.0346925258636475,
+      "log": "round3/logs/encoder_check.log",
+      "name": "encoder_check",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/mine.py"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.35303347092122,
+      "log": "round3/logs/mine.log",
+      "name": "mine",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/mine.py"
+      ],
+      "wall_limit": 300.0,
+      "exit": 0,
+      "seconds": 58.512085759080946,
+      "log": "round3/logs/mine_complete.log",
+      "name": "mine_complete",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/audit.py"
+      ],
+      "wall_limit": 60.0,
+      "exit": 0,
+      "seconds": 13.94866693019867,
+      "log": "round3/logs/mined_audit.log",
+      "name": "mined_audit",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/near_analysis.py"
+      ],
+      "wall_limit": 15.0,
+      "exit": 0,
+      "seconds": 0.20176051184535027,
+      "log": "round3/logs/near14_analysis_updated.log",
+      "name": "near14_analysis_updated",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/near14_free_dest4.s",
+        "--typed",
+        "--changes",
+        "4",
+        "--change-cmp",
+        "--random-seed",
+        "8303"
+      ],
+      "wall_limit": 150.0,
+      "exit": 124,
+      "seconds": 150.02100999373943,
+      "log": "round3/logs/near14_free_dest4.log",
+      "name": "near14_free_dest4",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/near14_full4.s",
+        "--changes",
+        "4",
+        "--change-cmp",
+        "--random-seed",
+        "8302"
+      ],
+      "wall_limit": 240.0,
+      "exit": 124,
+      "seconds": 240.02003150526434,
+      "log": "round3/logs/near14_full4.log",
+      "name": "near14_full4",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/near14_full5.s",
+        "--changes",
+        "5",
+        "--change-cmp",
+        "--random-seed",
+        "8304"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.0207566143945,
+      "log": "round3/logs/near14_full5.log",
+      "name": "near14_full5",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/n14",
+        "scoreone"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 0.03502717800438404,
+      "log": "round3/logs/near14_scoreone.log",
+      "name": "near14_scoreone",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/n14",
+        "two"
+      ],
+      "wall_limit": 240.0,
+      "exit": 0,
+      "seconds": 6.087347578257322,
+      "log": "round3/logs/near14_two.log",
+      "name": "near14_two",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/near14_typed4.s",
+        "--changes",
+        "4",
+        "--typed",
+        "--fixed-dest",
+        "--change-cmp"
+      ],
+      "wall_limit": 180.0,
+      "exit": 0,
+      "seconds": 13.606922436505556,
+      "log": "round3/logs/near14_typed4.log",
+      "name": "near14_typed4",
+      "solver_status": {
+        "status": "UNSAT",
+        "cases": 13,
+        "seconds": 13.483735310845077
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/near14_typed6.s",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.02044388465583,
+      "log": "round3/logs/near14_typed6.log",
+      "name": "near14_typed6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/near14_typed8.s",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "8",
+        "--change-cmp",
+        "--random-seed",
+        "8305"
+      ],
+      "wall_limit": 150.0,
+      "exit": 124,
+      "seconds": 150.0208520339802,
+      "log": "round3/logs/near14_typed8.log",
+      "name": "near14_typed8",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/n14_neighbour1.s",
+        "round3/candidates/neighbour1_rank6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8401"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.01383325923234,
+      "log": "round3/logs/neighbour1_rank6.log",
+      "name": "neighbour1_rank6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/n14_neighbour2.s",
+        "round3/candidates/neighbour2_rank6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8402"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.02704701013863,
+      "log": "round3/logs/neighbour2_rank6.log",
+      "name": "neighbour2_rank6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/n14_neighbour3.s",
+        "round3/candidates/neighbour3_rank6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8403"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.02644539810717,
+      "log": "round3/logs/neighbour3_rank6.log",
+      "name": "neighbour3_rank6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/n14_neighbour4.s",
+        "round3/candidates/neighbour4_rank6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8404"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.01244267076254,
+      "log": "round3/logs/neighbour4_rank6.log",
+      "name": "neighbour4_rank6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/n14_neighbour5.s",
+        "round3/candidates/neighbour5_rank6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8405"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.02409642934799,
+      "log": "round3/logs/neighbour5_rank6.log",
+      "name": "neighbour5_rank6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/n14_neighbour6.s",
+        "round3/candidates/neighbour6_rank6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8406"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.01264603063464,
+      "log": "round3/logs/neighbour6_rank6.log",
+      "name": "neighbour6_rank6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "round3/src/neighbours.cpp",
+        "-o",
+        "round3/neighbours"
+      ],
+      "wall_limit": 40.0,
+      "exit": 0,
+      "seconds": 6.838197668083012,
+      "log": "round3/logs/neighbours_build.log",
+      "name": "neighbours_build",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "round3/src/neighbours.cpp",
+        "-o",
+        "round3/neighbours"
+      ],
+      "wall_limit": 35.0,
+      "exit": 0,
+      "seconds": 5.078301018103957,
+      "log": "round3/logs/neighbours_build2.log",
+      "name": "neighbours_build2",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round3/candidates/nomov_38bc4652d19a9d1c.s",
+        "round3/candidates/nomov_38bc4652d19a9d1c",
+        "delete"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.009693020954728127,
+      "log": "round3/logs/nomov_38bc4652d19a9d1c_deletions.log",
+      "name": "nomov_38bc4652d19a9d1c_deletions",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round3/candidates/nomov_4c02da04dce39b74.s",
+        "round3/candidates/nomov_4c02da04dce39b74",
+        "delete"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.009452600963413715,
+      "log": "round3/logs/nomov_4c02da04dce39b74_deletions.log",
+      "name": "nomov_4c02da04dce39b74_deletions",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round3/candidates/nomov_68d29028b7fb54c4.s",
+        "round3/candidates/nomov_68d29028b7fb54c4",
+        "delete"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.07893168553709984,
+      "log": "round3/logs/nomov_68d29028b7fb54c4_deletions.log",
+      "name": "nomov_68d29028b7fb54c4_deletions",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+        "round3/candidates/nomov_7e5d1b2681c79ac1",
+        "delete"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.018355602398514748,
+      "log": "round3/logs/nomov_7e5d1b2681c79ac1_deletions.log",
+      "name": "nomov_7e5d1b2681c79ac1_deletions",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+        "round3/candidates/nomov_9f7a6fc77b297ff9",
+        "delete"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.009582511149346828,
+      "log": "round3/logs/nomov_9f7a6fc77b297ff9_deletions.log",
+      "name": "nomov_9f7a6fc77b297ff9_deletions",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "./round3/neighbours",
+        "round3/candidates/nomov_cb7f7a699c4c9842.s",
+        "round3/candidates/nomov_cb7f7a699c4c9842",
+        "delete"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.028700223192572594,
+      "log": "round3/logs/nomov_cb7f7a699c4c9842_deletions.log",
+      "name": "nomov_cb7f7a699c4c9842_deletions",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/verified/c8_215cbe6f0d1c7837.s",
+        "round3/candidates/rank_control32.s",
+        "--control",
+        "--rank"
+      ],
+      "wall_limit": 15.0,
+      "exit": 0,
+      "seconds": 0.1408453257754445,
+      "log": "round3/logs/rank_control32.log",
+      "name": "rank_control32",
+      "solver_status": {
+        "status": "CANDIDATE",
+        "file": "round3/candidates/rank_control32.s",
+        "seconds": 0.04023738298565149
+      },
+      "result": "CANDIDATE"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/path/to/repo/shared/judge.py",
+        "round3/candidates/rank_control32.s",
+        "--strict",
+        "--model",
+        "out"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.9026621459051967,
+      "log": "round3/logs/rank_control32_judge.log",
+      "name": "rank_control32_judge",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_control_near31.s",
+        "--control",
+        "--rank"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.12896391190588474,
+      "log": "round3/logs/rank_control_near31.log",
+      "name": "rank_control_near31",
+      "solver_status": {
+        "status": "UNSAT",
+        "cases": 13,
+        "seconds": 0.0243865130469203
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/nomov_4c02da04dce39b74_del27.s",
+        "round3/candidates/rank_del27_full5.s",
+        "--rank",
+        "--changes",
+        "5",
+        "--change-cmp"
+      ],
+      "wall_limit": 120.0,
+      "exit": 124,
+      "seconds": 120.01812975481153,
+      "log": "round3/logs/rank_del27_full5.log",
+      "name": "rank_del27_full5",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round3/candidates/nomov_4c02da04dce39b74_del27.s",
+        "round3/candidates/rank_del27_typed7.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "7",
+        "--change-cmp"
+      ],
+      "wall_limit": 150.0,
+      "exit": 124,
+      "seconds": 150.01091124117374,
+      "log": "round3/logs/rank_del27_typed7.log",
+      "name": "rank_del27_typed7",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/rank_dynamic_check.py"
+      ],
+      "wall_limit": 30.0,
+      "exit": 0,
+      "seconds": 0.729850348085165,
+      "log": "round3/logs/rank_dynamic_check.log",
+      "name": "rank_dynamic_check",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_fixedout_c9full5.s",
+        "--rank",
+        "--fixed-outputs",
+        "--maxcmp",
+        "9",
+        "--changes",
+        "5",
+        "--change-cmp",
+        "--random-seed",
+        "8602"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.01634458079934,
+      "log": "round3/logs/rank_fixedout_c9full5.log",
+      "name": "rank_fixedout_c9full5",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_fixedout_free6.s",
+        "--rank",
+        "--fixed-outputs",
+        "--typed",
+        "--changes",
+        "6",
+        "--change-cmp",
+        "--random-seed",
+        "8601"
+      ],
+      "wall_limit": 60.0,
+      "exit": 124,
+      "seconds": 60.01709021534771,
+      "log": "round3/logs/rank_fixedout_free6.log",
+      "name": "rank_fixedout_free6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_fixedout_full4.s",
+        "--rank",
+        "--fixed-outputs",
+        "--changes",
+        "4",
+        "--change-cmp"
+      ],
+      "wall_limit": 60.0,
+      "exit": 124,
+      "seconds": 60.030024589039385,
+      "log": "round3/logs/rank_fixedout_full4.log",
+      "name": "rank_fixedout_full4",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_near14_fresh5.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--fresh",
+        "1",
+        "--changes",
+        "5",
+        "--change-cmp"
+      ],
+      "wall_limit": 150.0,
+      "exit": 0,
+      "seconds": 63.80271985195577,
+      "log": "round3/logs/rank_near14_fresh5.log",
+      "name": "rank_near14_fresh5",
+      "solver_status": {
+        "status": "UNSAT",
+        "cases": 13,
+        "seconds": 63.686975543387234
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_near14_full4.s",
+        "--rank",
+        "--changes",
+        "4",
+        "--change-cmp"
+      ],
+      "wall_limit": 150.0,
+      "exit": 124,
+      "seconds": 150.01885981764644,
+      "log": "round3/logs/rank_near14_full4.log",
+      "name": "rank_near14_full4",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_near14_merge16.s",
+        "--rank",
+        "--typed",
+        "--prefix",
+        "15",
+        "--changes",
+        "0",
+        "--change-cmp"
+      ],
+      "wall_limit": 150.0,
+      "exit": 124,
+      "seconds": 150.01437257230282,
+      "log": "round3/logs/rank_near14_merge16.log",
+      "name": "rank_near14_merge16",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/satrep.py",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/rank_near14_typed6.s",
+        "--rank",
+        "--typed",
+        "--fixed-dest",
+        "--changes",
+        "6",
+        "--change-cmp"
+      ],
+      "wall_limit": 150.0,
+      "exit": 124,
+      "seconds": 150.01259205210954,
+      "log": "round3/logs/rank_near14_typed6.log",
+      "name": "rank_near14_typed6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/triple_free.py",
+        "--control"
+      ],
+      "wall_limit": 20.0,
+      "exit": 0,
+      "seconds": 0.09949521627277136,
+      "log": "round3/logs/triple_control12.log",
+      "name": "triple_control12",
+      "solver_status": {
+        "status": "CONTROL_SAT",
+        "program": [
+          [
+            "mov",
+            3,
+            0
+          ],
+          [
+            "cmp",
+            1,
+            2
+          ],
+          [
+            "cmovle",
+            4,
+            2
+          ],
+          [
+            "cmovg",
+            4,
+            1
+          ],
+          [
+            "cmovl",
+            2,
+            1
+          ],
+          [
+            "cmp",
+            0,
+            2
+          ],
+          [
+            "cmovge",
+            0,
+            2
+          ],
+          [
+            "cmovge",
+            2,
+            3
+          ],
+          [
+            "cmp",
+            2,
+            4
+          ],
+          [
+            "cmovle",
+            3,
+            4
+          ],
+          [
+            "cmovl",
+            4,
+            2
+          ],
+          [
+            "mov",
+            1,
+            0
+          ]
+        ]
+      },
+      "result": "CONTROL_SAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/triple_copy.py",
+        "5"
+      ],
+      "wall_limit": 150.0,
+      "exit": 0,
+      "seconds": 3.9156251829117537,
+      "log": "round3/logs/triple_copy_R5.log",
+      "name": "triple_copy_R5",
+      "solver_status": {
+        "status": "UNSAT",
+        "iteration": 0
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/triple_free.py",
+        "--registers",
+        "5"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.01233494095504,
+      "log": "round3/logs/triple_free_R5.log",
+      "name": "triple_free_R5",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round3/src/triple_free.py",
+        "--registers",
+        "6"
+      ],
+      "wall_limit": 180.0,
+      "exit": 124,
+      "seconds": 180.01059253327549,
+      "log": "round3/logs/triple_free_R6.log",
+      "name": "triple_free_R6",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "./round3/union",
+        "round2/candidates/near14_frozen.s",
+        "round3/candidates/union31",
+        "31",
+        "0.7",
+        "1.5",
+        "180",
+        "8821",
+        "9",
+        "0"
+      ],
+      "wall_limit": 300.0,
+      "exit": 0,
+      "seconds": 180.01388314273208,
+      "log": "round3/logs/union31.log",
+      "name": "union31",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "/path/to/repo/shared/judge.py",
+        "round3/candidates/union31_near.s",
+        "--strict",
+        "--model",
+        "out"
+      ],
+      "wall_limit": 30.0,
+      "exit": 1,
+      "seconds": 0.032885896041989326,
+      "log": "round3/logs/union31_near_judge.log",
+      "name": "union31_near_judge",
+      "solver_status": null,
+      "result": "exit 1"
+    },
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-march=native",
+        "-std=c++17",
+        "round3/src/union.cpp",
+        "-o",
+        "round3/union"
+      ],
+      "wall_limit": 35.0,
+      "exit": 0,
+      "seconds": 6.640575652010739,
+      "log": "round3/logs/union_build.log",
+      "name": "union_build",
+      "solver_status": null,
+      "result": "completed"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round2/src/source_slots_sat.py",
+        "round3/candidates/nomov_38bc4652d19a9d1c.s",
+        "round3/candidates/zero0_sources5.s",
+        "--changes",
+        "5",
+        "--prefix",
+        "0"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 80.27251810394228,
+      "log": "round3/logs/zero0_sources5.log",
+      "name": "zero0_sources5",
+      "solver_status": {
+        "status": "UNSAT",
+        "types": 16,
+        "seconds": 79.83360434323549
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round2/src/source_slots_sat.py",
+        "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+        "round3/candidates/zero100_sources5.s",
+        "--changes",
+        "5",
+        "--prefix",
+        "0"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.02896843012422,
+      "log": "round3/logs/zero100_sources5.log",
+      "name": "zero100_sources5",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round2/src/source_slots_sat.py",
+        "round3/candidates/nomov_cb7f7a699c4c9842.s",
+        "round3/candidates/zero125_sources5.s",
+        "--changes",
+        "5",
+        "--prefix",
+        "0"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 89.68573747389019,
+      "log": "round3/logs/zero125_sources5.log",
+      "name": "zero125_sources5",
+      "solver_status": {
+        "status": "UNSAT",
+        "types": 16,
+        "seconds": 89.13733983412385
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round2/src/source_slots_sat.py",
+        "round3/candidates/nomov_4c02da04dce39b74.s",
+        "round3/candidates/zero25_sources5.s",
+        "--changes",
+        "5",
+        "--prefix",
+        "0"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 53.40985993668437,
+      "log": "round3/logs/zero25_sources5.log",
+      "name": "zero25_sources5",
+      "solver_status": {
+        "status": "UNSAT",
+        "types": 16,
+        "seconds": 53.03234706539661
+      },
+      "result": "UNSAT"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round2/src/source_slots_sat.py",
+        "round3/candidates/nomov_68d29028b7fb54c4.s",
+        "round3/candidates/zero50_sources5.s",
+        "--changes",
+        "5",
+        "--prefix",
+        "0"
+      ],
+      "wall_limit": 90.0,
+      "exit": 124,
+      "seconds": 90.01633413229138,
+      "log": "round3/logs/zero50_sources5.log",
+      "name": "zero50_sources5",
+      "solver_status": null,
+      "result": "UNKNOWN (wall limit)"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "round2/src/source_slots_sat.py",
+        "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+        "round3/candidates/zero75_sources5.s",
+        "--changes",
+        "5",
+        "--prefix",
+        "0"
+      ],
+      "wall_limit": 90.0,
+      "exit": 0,
+      "seconds": 59.16794974450022,
+      "log": "round3/logs/zero75_sources5.log",
+      "name": "zero75_sources5",
+      "solver_status": {
+        "status": "UNSAT",
+        "types": 16,
+        "seconds": 58.715598272159696
+      },
+      "result": "UNSAT"
+    }
+  ],
+  "strict_ledger": [
+    {
+      "source": "round3/candidates/nomov_38bc4652d19a9d1c.s",
+      "out_pass": true,
+      "out_log": "round3/logs/nomov_38bc4652d19a9d1c_out_judge.log",
+      "retained": "round3/verified/nomov_38bc4652d19a9d1c.s",
+      "out_sha256": "7e5fb8879b065ea864d070e7fcaa0eb974e0cf4e837676d119778e847f9b195e",
+      "memory": "round3/verified_mem/nomov_38bc4652d19a9d1c.s",
+      "mem_pass": true,
+      "mem_log": "round3/logs/nomov_38bc4652d19a9d1c_mem_judge.log",
+      "mem_sha256": "8c04c432fa8738059d28405d59eb9f4c7caae6aea352e4d3ae938ac8447dba6f"
+    },
+    {
+      "source": "round3/candidates/nomov_68d29028b7fb54c4.s",
+      "out_pass": true,
+      "out_log": "round3/logs/nomov_68d29028b7fb54c4_out_judge.log",
+      "retained": "round3/verified/nomov_68d29028b7fb54c4.s",
+      "out_sha256": "e04ca225a5cf3953c965e8affcdcb0ddeb2fa87756d6e57d9f077e1b075bf421",
+      "memory": "round3/verified_mem/nomov_68d29028b7fb54c4.s",
+      "mem_pass": true,
+      "mem_log": "round3/logs/nomov_68d29028b7fb54c4_mem_judge.log",
+      "mem_sha256": "76ab4b979ef35b08b5a10e8f8c5c3dca340f789ed49a56fce9d54a2d4f2068c5"
+    },
+    {
+      "source": "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+      "out_pass": true,
+      "out_log": "round3/logs/nomov_9f7a6fc77b297ff9_out_judge.log",
+      "retained": "round3/verified/nomov_9f7a6fc77b297ff9.s",
+      "out_sha256": "559ec2217d9993131237f0a739e8fcd5bedeb12e261c76a374a364673fc84184",
+      "memory": "round3/verified_mem/nomov_9f7a6fc77b297ff9.s",
+      "mem_pass": true,
+      "mem_log": "round3/logs/nomov_9f7a6fc77b297ff9_mem_judge.log",
+      "mem_sha256": "1db9fe5d6f40b81491a34b8a8c47b51df52e0fc49f8c87e6829fb331fccb366f"
+    },
+    {
+      "source": "round3/candidates/nomov_4c02da04dce39b74.s",
+      "out_pass": true,
+      "out_log": "round3/logs/nomov_4c02da04dce39b74_out_judge.log",
+      "retained": "round3/verified/nomov_4c02da04dce39b74.s",
+      "out_sha256": "6b89912bd57c69f3abda42328c56eacaa73d15c8c31eac26cd48cfedf1797017",
+      "memory": "round3/verified_mem/nomov_4c02da04dce39b74.s",
+      "mem_pass": true,
+      "mem_log": "round3/logs/nomov_4c02da04dce39b74_mem_judge.log",
+      "mem_sha256": "762f07cb25e911db27b53507969357ea21439770c4d509009631e04f7ec84ae1"
+    },
+    {
+      "source": "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+      "out_pass": true,
+      "out_log": "round3/logs/nomov_7e5d1b2681c79ac1_out_judge.log",
+      "retained": "round3/verified/nomov_7e5d1b2681c79ac1.s",
+      "out_sha256": "da5a4aa2873b78adb8a7d81215e2dc841bf9d05743f94764c13b82ae5c4d47f9",
+      "memory": "round3/verified_mem/nomov_7e5d1b2681c79ac1.s",
+      "mem_pass": true,
+      "mem_log": "round3/logs/nomov_7e5d1b2681c79ac1_mem_judge.log",
+      "mem_sha256": "67dfd18caac4dde7d6da127412df9abdcb7af7e269c6c7f489d976d327990d34"
+    },
+    {
+      "source": "round3/candidates/nomov_cb7f7a699c4c9842.s",
+      "out_pass": true,
+      "out_log": "round3/logs/nomov_cb7f7a699c4c9842_out_judge.log",
+      "retained": "round3/verified/nomov_cb7f7a699c4c9842.s",
+      "out_sha256": "f0f6193fb909c2cf3760b6252a409c5307547850ca430c11e91f6d4b10f9d387",
+      "memory": "round3/verified_mem/nomov_cb7f7a699c4c9842.s",
+      "mem_pass": true,
+      "mem_log": "round3/logs/nomov_cb7f7a699c4c9842_mem_judge.log",
+      "mem_sha256": "a5dc690fa09e61f1923af335b76594b802964b813cc03adbedb0fedeef091557"
+    }
+  ],
+  "union_search": {
+    "iterations": "107843584",
+    "accepted": "12868835",
+    "correct_visits": "0",
+    "best": "999",
+    "best_error": "18",
+    "cpu": "180.003",
+    "newstructures": "0",
+    "resets": "10",
+    "archive": "1",
+    "samples": "0"
+  },
+  "duplicate_min_control": [
+    {
+      "path": "round3/verified/duplicate_min_control32.s",
+      "model": "out",
+      "pass": true,
+      "log": "round3/logs/duplicate_min_control32_out_judge.log",
+      "sha256": "6b675d4e0d94cbaa9c5541bffb0508f988c3f6e1ac7fac2facc178f2d89010ea"
+    },
+    {
+      "path": "round3/verified_mem/duplicate_min_control32.s",
+      "model": "mem",
+      "pass": true,
+      "log": "round3/logs/duplicate_min_control32_mem_judge.log",
+      "sha256": "e0d21bc792e611671894cc0d9c62d14b110eca226b5d1eff91e7d23d3926ead6"
+    }
+  ],
+  "near_miss_analysis": {
+    "failed_orders": 14,
+    "strict_failed_orders": 8,
+    "output_errors": [
+      0,
+      12,
+      6,
+      0,
+      0
+    ],
+    "witnesses": [
+      [
+        17,
+        5
+      ],
+      [
+        29,
+        7
+      ],
+      [
+        30,
+        1
+      ],
+      [
+        26,
+        2
+      ],
+      [
+        22,
+        4
+      ]
+    ],
+    "failures": [
+      {
+        "case": [
+          0,
+          1,
+          2,
+          1,
+          3
+        ],
+        "actual": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "expected": [
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        "strict_order": false
+      },
+      {
+        "case": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          2,
+          3
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "strict_order": false
+      },
+      {
+        "case": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          0,
+          1,
+          3,
+          2,
+          4
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          0,
+          2,
+          2,
+          1,
+          3
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          2,
+          3
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "strict_order": false
+      },
+      {
+        "case": [
+          0,
+          2,
+          3,
+          1,
+          4
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          0,
+          3,
+          2,
+          1,
+          4
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          3,
+          1,
+          2,
+          1,
+          0
+        ],
+        "actual": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "expected": [
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        "strict_order": false
+      },
+      {
+        "case": [
+          3,
+          1,
+          2,
+          2,
+          0
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          2,
+          3
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "strict_order": false
+      },
+      {
+        "case": [
+          3,
+          2,
+          2,
+          1,
+          0
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          2,
+          3
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "strict_order": false
+      },
+      {
+        "case": [
+          4,
+          1,
+          2,
+          3,
+          0
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          4,
+          1,
+          3,
+          2,
+          0
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          4,
+          2,
+          3,
+          1,
+          0
+        ],
+        "actual": [
+          0,
+          2,
+          3,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      },
+      {
+        "case": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "actual": [
+          0,
+          2,
+          2,
+          3,
+          4
+        ],
+        "expected": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "strict_order": true
+      }
+    ],
+    "failure_condition": "min(P0,P4) < min(P1,P2,P3) and max(P0,P4) > max(P1,P2,P3) and P2 > min(P1,P2,P3)"
+  },
+  "bounded_jobs": 57,
+  "solver_queries": 34,
+  "cpu_affinity_at_final_audit": [
+    78,
+    79
+  ]
+}

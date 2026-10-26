@@ -1,0 +1,11 @@
+{
+  "tag": "rotations31",
+  "planned": 114,
+  "completed": 114,
+  "status": {
+    "NONE": 114
+  },
+  "calls": 48476654,
+  "wall_seconds": 93.84871625714004,
+  "max_rss_kib": 41232
+}

@@ -1,0 +1,10640 @@
+[
+  {
+    "index": 0,
+    "result": "cone_00.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "0",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_00",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.067707393000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 0,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_00",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b00_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 26025,
+    "clauses": 238107,
+    "stats": {
+      "restarts": 4287,
+      "conflicts": 48074,
+      "decisions": 754287,
+      "propagations": 45975770
+    },
+    "maxrss_kib": 83412,
+    "total_cpu": 10.076392807000001,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 1,
+    "result": "cone_01.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "1",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_01",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.287558935,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 1,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_01",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b00_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 28716,
+    "clauses": 262728,
+    "stats": {
+      "restarts": 3296,
+      "conflicts": 39034,
+      "decisions": 662273,
+      "propagations": 37241721
+    },
+    "maxrss_kib": 88396,
+    "total_cpu": 10.302937831,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 2,
+    "result": "cone_02.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "2",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_02",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.08384493,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 2,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_02",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b01_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 26025,
+    "clauses": 238119,
+    "stats": {
+      "restarts": 3608,
+      "conflicts": 47051,
+      "decisions": 633547,
+      "propagations": 41441387
+    },
+    "maxrss_kib": 88436,
+    "total_cpu": 10.097820876,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 3,
+    "result": "cone_03.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "3",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_03",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.154348930000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 3,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_03",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b01_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 28716,
+    "clauses": 262728,
+    "stats": {
+      "restarts": 3448,
+      "conflicts": 40034,
+      "decisions": 694693,
+      "propagations": 38375840
+    },
+    "maxrss_kib": 82908,
+    "total_cpu": 10.169442517,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 4,
+    "result": "cone_04.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "4",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_04",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.027674346,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 4,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_04",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b02_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 27839,
+    "clauses": 254389,
+    "stats": {
+      "restarts": 4843,
+      "conflicts": 50047,
+      "decisions": 746448,
+      "propagations": 50338555
+    },
+    "maxrss_kib": 82628,
+    "total_cpu": 10.042964103000001,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 5,
+    "result": "cone_05.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "5",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_05",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.091933144999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 5,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_05",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b02_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 27839,
+    "clauses": 254401,
+    "stats": {
+      "restarts": 4186,
+      "conflicts": 55060,
+      "decisions": 771258,
+      "propagations": 47998381
+    },
+    "maxrss_kib": 80000,
+    "total_cpu": 10.100717978,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 6,
+    "result": "cone_06.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "6",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_06",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.05986092,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 6,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_06",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b03_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 27839,
+    "clauses": 254389,
+    "stats": {
+      "restarts": 4769,
+      "conflicts": 52050,
+      "decisions": 749271,
+      "propagations": 49914107
+    },
+    "maxrss_kib": 92128,
+    "total_cpu": 10.067968264000001,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 7,
+    "result": "cone_07.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "7",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_07",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.179799359,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 7,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_07",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b03_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 27839,
+    "clauses": 254401,
+    "stats": {
+      "restarts": 4797,
+      "conflicts": 50045,
+      "decisions": 803874,
+      "propagations": 50040316
+    },
+    "maxrss_kib": 91324,
+    "total_cpu": 10.192620155,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 8,
+    "result": "cone_08.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "8",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_08",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.427840143000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 8,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_08",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b04_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 25064,
+    "clauses": 229276,
+    "stats": {
+      "restarts": 5814,
+      "conflicts": 50065,
+      "decisions": 620705,
+      "propagations": 52345103
+    },
+    "maxrss_kib": 77116,
+    "total_cpu": 10.437462348,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 9,
+    "result": "cone_09.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "9",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_09",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.123861787000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 9,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_09",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b04_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 27755,
+    "clauses": 253885,
+    "stats": {
+      "restarts": 5065,
+      "conflicts": 49049,
+      "decisions": 556290,
+      "propagations": 48104329
+    },
+    "maxrss_kib": 82160,
+    "total_cpu": 10.134033741,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 10,
+    "result": "cone_10.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "10",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_10",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.001943467,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 10,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_10",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b05_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 28327,
+    "clauses": 260197,
+    "stats": {
+      "restarts": 4410,
+      "conflicts": 42063,
+      "decisions": 639900,
+      "propagations": 46389162
+    },
+    "maxrss_kib": 83452,
+    "total_cpu": 10.014986283,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 11,
+    "result": "cone_11.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "11",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_11",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.145431077000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 11,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_11",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b05_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 31276,
+    "clauses": 287275,
+    "stats": {
+      "restarts": 3132,
+      "conflicts": 48071,
+      "decisions": 532219,
+      "propagations": 44998663
+    },
+    "maxrss_kib": 88512,
+    "total_cpu": 10.159499503,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 12,
+    "result": "cone_12.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "12",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_12",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.037818005,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 12,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_12",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b06_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 28327,
+    "clauses": 260185,
+    "stats": {
+      "restarts": 4423,
+      "conflicts": 48169,
+      "decisions": 803316,
+      "propagations": 51954118
+    },
+    "maxrss_kib": 84492,
+    "total_cpu": 10.049622999999999,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 13,
+    "result": "cone_13.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "13",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_13",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.099833573,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 13,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_13",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b06_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 31276,
+    "clauses": 287287,
+    "stats": {
+      "restarts": 3508,
+      "conflicts": 51108,
+      "decisions": 761669,
+      "propagations": 48068755
+    },
+    "maxrss_kib": 99508,
+    "total_cpu": 10.110809417,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 14,
+    "result": "cone_14.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "14",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_14",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.096996106,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 14,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_14",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b07_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 26025,
+    "clauses": 238107,
+    "stats": {
+      "restarts": 6162,
+      "conflicts": 50127,
+      "decisions": 859527,
+      "propagations": 55387882
+    },
+    "maxrss_kib": 78852,
+    "total_cpu": 10.107227589999999,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 15,
+    "result": "cone_15.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "15",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_15",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.015640172,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 15,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_15",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b07_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 28716,
+    "clauses": 262728,
+    "stats": {
+      "restarts": 4452,
+      "conflicts": 50035,
+      "decisions": 869382,
+      "propagations": 47642133
+    },
+    "maxrss_kib": 88920,
+    "total_cpu": 10.027640307,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 16,
+    "result": "cone_16.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "16",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_16",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.100409547,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 16,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_16",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b08_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27755,
+    "clauses": 253885,
+    "stats": {
+      "restarts": 5382,
+      "conflicts": 48056,
+      "decisions": 716989,
+      "propagations": 49258435
+    },
+    "maxrss_kib": 82508,
+    "total_cpu": 10.110472442,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 17,
+    "result": "cone_17.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "17",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_17",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.078867939,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 17,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_17",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b08_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27755,
+    "clauses": 253885,
+    "stats": {
+      "restarts": 5431,
+      "conflicts": 44069,
+      "decisions": 709860,
+      "propagations": 45445635
+    },
+    "maxrss_kib": 82380,
+    "total_cpu": 10.087467503,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 18,
+    "result": "cone_18.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "18",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_18",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.047042646,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 18,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_18",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b09_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 28327,
+    "clauses": 260173,
+    "stats": {
+      "restarts": 3857,
+      "conflicts": 50078,
+      "decisions": 797174,
+      "propagations": 50955304
+    },
+    "maxrss_kib": 92888,
+    "total_cpu": 10.0584319,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 19,
+    "result": "cone_19.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "19",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_19",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.183544471,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 19,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_19",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b09_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 31276,
+    "clauses": 287275,
+    "stats": {
+      "restarts": 3667,
+      "conflicts": 46064,
+      "decisions": 777551,
+      "propagations": 45790404
+    },
+    "maxrss_kib": 86744,
+    "total_cpu": 10.192881075,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 20,
+    "result": "cone_20.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "20",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_20",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.095443685000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 20,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_20",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b10_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 25064,
+    "clauses": 229288,
+    "stats": {
+      "restarts": 5213,
+      "conflicts": 49072,
+      "decisions": 589511,
+      "propagations": 49604174
+    },
+    "maxrss_kib": 85704,
+    "total_cpu": 10.106655079,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 21,
+    "result": "cone_21.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "21",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_21",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.431091423,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 21,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_21",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b10_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 27755,
+    "clauses": 253897,
+    "stats": {
+      "restarts": 4678,
+      "conflicts": 50084,
+      "decisions": 765314,
+      "propagations": 50764802
+    },
+    "maxrss_kib": 81640,
+    "total_cpu": 10.444537469,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 22,
+    "result": "cone_22.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "22",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_22",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.052645437999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 22,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_22",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b11_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 28716,
+    "clauses": 262716,
+    "stats": {
+      "restarts": 4740,
+      "conflicts": 41080,
+      "decisions": 787370,
+      "propagations": 46463677
+    },
+    "maxrss_kib": 84372,
+    "total_cpu": 10.063544352,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 23,
+    "result": "cone_23.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "23",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_23",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.163866703,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 23,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_23",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b11_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 28716,
+    "clauses": 262728,
+    "stats": {
+      "restarts": 4737,
+      "conflicts": 46037,
+      "decisions": 622122,
+      "propagations": 48304223
+    },
+    "maxrss_kib": 88908,
+    "total_cpu": 10.176589728,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 24,
+    "result": "cone_24.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "24",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_24",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.015880581,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 24,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_24",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b12_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 25064,
+    "clauses": 229288,
+    "stats": {
+      "restarts": 5759,
+      "conflicts": 45047,
+      "decisions": 605730,
+      "propagations": 49241251
+    },
+    "maxrss_kib": 77240,
+    "total_cpu": 10.025403004000001,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 25,
+    "result": "cone_25.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "25",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_25",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.027616024999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 25,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_25",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b12_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 27755,
+    "clauses": 253885,
+    "stats": {
+      "restarts": 5226,
+      "conflicts": 48071,
+      "decisions": 559568,
+      "propagations": 48549854
+    },
+    "maxrss_kib": 91804,
+    "total_cpu": 10.040903491000002,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 26,
+    "result": "cone_26.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "26",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_26",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.175828298,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 26,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_26",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b13_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      21,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 27280,
+    "clauses": 250539,
+    "stats": {
+      "restarts": 3706,
+      "conflicts": 46041,
+      "decisions": 560423,
+      "propagations": 48377799
+    },
+    "maxrss_kib": 80148,
+    "total_cpu": 10.186125923,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 27,
+    "result": "cone_27.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "27",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_27",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.403329770000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 27,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_27",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b13_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 30229,
+    "clauses": 277629,
+    "stats": {
+      "restarts": 4242,
+      "conflicts": 39051,
+      "decisions": 562040,
+      "propagations": 48043366
+    },
+    "maxrss_kib": 86896,
+    "total_cpu": 10.412152164,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 28,
+    "result": "cone_28.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "28",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_28",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.048792776,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 28,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_28",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b14_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 26025,
+    "clauses": 238131,
+    "stats": {
+      "restarts": 4767,
+      "conflicts": 47070,
+      "decisions": 655971,
+      "propagations": 47197888
+    },
+    "maxrss_kib": 78064,
+    "total_cpu": 10.057981551,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 29,
+    "result": "cone_29.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "29",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_29",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.057036683,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 29,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_29",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b14_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 28716,
+    "clauses": 262728,
+    "stats": {
+      "restarts": 2309,
+      "conflicts": 56059,
+      "decisions": 384220,
+      "propagations": 43392637
+    },
+    "maxrss_kib": 87204,
+    "total_cpu": 10.067495187,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 30,
+    "result": "cone_30.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "30",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_30",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.048330331,
+    "cases": 15,
+    "rounds": 0,
+    "args": {
+      "index": 30,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_30",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b15_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31
+    ],
+    "drop": 1,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        0,
+        1,
+        3,
+        2
+      ]
+    ],
+    "vars": 38734,
+    "clauses": 357889,
+    "stats": {
+      "restarts": 2956,
+      "conflicts": 26031,
+      "decisions": 346049,
+      "propagations": 39186835
+    },
+    "maxrss_kib": 108640,
+    "total_cpu": 10.058587874,
+    "suffix_builds": 15,
+    "registers": 10
+  },
+  {
+    "index": 31,
+    "result": "cone_31.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "31",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_31",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.141035993,
+    "cases": 15,
+    "rounds": 0,
+    "args": {
+      "index": 31,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_31",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "repair_b15_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 1,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        4,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        0,
+        1,
+        3,
+        2
+      ]
+    ],
+    "vars": 38734,
+    "clauses": 357879,
+    "stats": {
+      "restarts": 3159,
+      "conflicts": 26025,
+      "decisions": 356580,
+      "propagations": 40984205
+    },
+    "maxrss_kib": 108312,
+    "total_cpu": 10.152353539,
+    "suffix_builds": 15,
+    "registers": 10
+  },
+  {
+    "index": 32,
+    "result": "cone_32.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "32",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_32",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.13164824,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 32,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_32",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b00_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      21,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 25046,
+    "clauses": 229059,
+    "stats": {
+      "restarts": 4799,
+      "conflicts": 49060,
+      "decisions": 785530,
+      "propagations": 45583361
+    },
+    "maxrss_kib": 86600,
+    "total_cpu": 10.144680135,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 33,
+    "result": "cone_33.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "33",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_33",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.071953317,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 33,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_33",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b00_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27737,
+    "clauses": 253680,
+    "stats": {
+      "restarts": 4175,
+      "conflicts": 44063,
+      "decisions": 796354,
+      "propagations": 41710326
+    },
+    "maxrss_kib": 87160,
+    "total_cpu": 10.081356620000001,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 34,
+    "result": "cone_34.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "34",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_34",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.003248577,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 34,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_34",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b01_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      21,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 25046,
+    "clauses": 229071,
+    "stats": {
+      "restarts": 4075,
+      "conflicts": 43035,
+      "decisions": 673129,
+      "propagations": 41647173
+    },
+    "maxrss_kib": 77748,
+    "total_cpu": 10.01331673,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 35,
+    "result": "cone_35.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "35",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_35",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.027853515999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 35,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_35",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b01_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27737,
+    "clauses": 253680,
+    "stats": {
+      "restarts": 3967,
+      "conflicts": 42059,
+      "decisions": 757858,
+      "propagations": 40099115
+    },
+    "maxrss_kib": 87724,
+    "total_cpu": 10.040934532,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 36,
+    "result": "cone_36.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "36",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_36",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.134756992,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 36,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_36",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b02_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 26860,
+    "clauses": 245341,
+    "stats": {
+      "restarts": 4638,
+      "conflicts": 43029,
+      "decisions": 695657,
+      "propagations": 44181417
+    },
+    "maxrss_kib": 80732,
+    "total_cpu": 10.143568425,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 37,
+    "result": "cone_37.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "37",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_37",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.019842093,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 37,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_37",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b02_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 26860,
+    "clauses": 245353,
+    "stats": {
+      "restarts": 4098,
+      "conflicts": 39063,
+      "decisions": 524377,
+      "propagations": 43154659
+    },
+    "maxrss_kib": 85468,
+    "total_cpu": 10.030989108,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 38,
+    "result": "cone_38.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "38",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_38",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.016815623,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 38,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_38",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b03_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 26860,
+    "clauses": 245341,
+    "stats": {
+      "restarts": 4249,
+      "conflicts": 39045,
+      "decisions": 495824,
+      "propagations": 41915224
+    },
+    "maxrss_kib": 85204,
+    "total_cpu": 10.027464967,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 39,
+    "result": "cone_39.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "39",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_39",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.143885305000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 39,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_39",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b03_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 26860,
+    "clauses": 245353,
+    "stats": {
+      "restarts": 4815,
+      "conflicts": 41044,
+      "decisions": 540897,
+      "propagations": 44588495
+    },
+    "maxrss_kib": 84860,
+    "total_cpu": 10.154889938999998,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 40,
+    "result": "cone_40.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "40",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_40",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.054385128,
+    "cases": 20,
+    "rounds": 1,
+    "args": {
+      "index": 40,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_40",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b04_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      20,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    ],
+    "vars": 39357,
+    "clauses": 364728,
+    "stats": {
+      "restarts": 4437,
+      "conflicts": 39775,
+      "decisions": 450542,
+      "propagations": 44105569
+    },
+    "maxrss_kib": 93428,
+    "total_cpu": 10.065692391999999,
+    "suffix_builds": 20,
+    "registers": 9
+  },
+  {
+    "index": 41,
+    "result": "cone_41.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "41",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_41",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.258532183,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 41,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_41",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b04_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 26776,
+    "clauses": 244837,
+    "stats": {
+      "restarts": 5297,
+      "conflicts": 50051,
+      "decisions": 556137,
+      "propagations": 48199200
+    },
+    "maxrss_kib": 89980,
+    "total_cpu": 10.270168358,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 42,
+    "result": "cone_42.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "42",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_42",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.015889741,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 42,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_42",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b05_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 27260,
+    "clauses": 250298,
+    "stats": {
+      "restarts": 4124,
+      "conflicts": 40067,
+      "decisions": 534924,
+      "propagations": 44395664
+    },
+    "maxrss_kib": 80692,
+    "total_cpu": 10.024588406,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 43,
+    "result": "cone_43.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "43",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_43",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.071710843,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 43,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_43",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b05_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 30209,
+    "clauses": 277376,
+    "stats": {
+      "restarts": 3768,
+      "conflicts": 45060,
+      "decisions": 621926,
+      "propagations": 45566589
+    },
+    "maxrss_kib": 86492,
+    "total_cpu": 10.086786980000001,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 44,
+    "result": "cone_44.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "44",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_44",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.031157957,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 44,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_44",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b06_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      21,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 27260,
+    "clauses": 250286,
+    "stats": {
+      "restarts": 4499,
+      "conflicts": 41084,
+      "decisions": 748154,
+      "propagations": 46573011
+    },
+    "maxrss_kib": 91868,
+    "total_cpu": 10.044486302,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 45,
+    "result": "cone_45.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "45",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_45",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.155754689999998,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 45,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_45",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b06_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 30209,
+    "clauses": 277388,
+    "stats": {
+      "restarts": 3650,
+      "conflicts": 45101,
+      "decisions": 771180,
+      "propagations": 43160586
+    },
+    "maxrss_kib": 93976,
+    "total_cpu": 10.164467053,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 46,
+    "result": "cone_46.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "46",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_46",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.087784892,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 46,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_46",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b07_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      21,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 25046,
+    "clauses": 229059,
+    "stats": {
+      "restarts": 4812,
+      "conflicts": 55045,
+      "decisions": 882923,
+      "propagations": 48132581
+    },
+    "maxrss_kib": 76748,
+    "total_cpu": 10.095884135,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 47,
+    "result": "cone_47.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "47",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_47",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.159726901,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 47,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_47",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b07_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 27737,
+    "clauses": 253680,
+    "stats": {
+      "restarts": 3776,
+      "conflicts": 50060,
+      "decisions": 726057,
+      "propagations": 43970965
+    },
+    "maxrss_kib": 85656,
+    "total_cpu": 10.171319776,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 48,
+    "result": "cone_48.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "48",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_48",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.146889766000001,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 48,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_48",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b08_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 26776,
+    "clauses": 244837,
+    "stats": {
+      "restarts": 5690,
+      "conflicts": 49091,
+      "decisions": 668183,
+      "propagations": 49818752
+    },
+    "maxrss_kib": 91000,
+    "total_cpu": 10.155987161,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 49,
+    "result": "cone_49.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "49",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_49",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.054922739,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 49,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_49",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b08_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 26776,
+    "clauses": 244837,
+    "stats": {
+      "restarts": 4944,
+      "conflicts": 48196,
+      "decisions": 670450,
+      "propagations": 46271170
+    },
+    "maxrss_kib": 80912,
+    "total_cpu": 10.069537576,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 50,
+    "result": "cone_50.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "50",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_50",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.10386118,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 50,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_50",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b09_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      21,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 27260,
+    "clauses": 250274,
+    "stats": {
+      "restarts": 3839,
+      "conflicts": 43061,
+      "decisions": 623135,
+      "propagations": 46266834
+    },
+    "maxrss_kib": 82504,
+    "total_cpu": 10.115760396,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 51,
+    "result": "cone_51.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "51",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_51",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.123962687999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 51,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_51",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b09_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        0,
+        1,
+        4,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        4,
+        2
+      ],
+      [
+        1,
+        0,
+        4,
+        3,
+        2
+      ]
+    ],
+    "vars": 30209,
+    "clauses": 277376,
+    "stats": {
+      "restarts": 4070,
+      "conflicts": 46070,
+      "decisions": 808012,
+      "propagations": 47782717
+    },
+    "maxrss_kib": 87160,
+    "total_cpu": 10.134393432,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 52,
+    "result": "cone_52.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "52",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_52",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.131093568999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 52,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_52",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b10_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 24085,
+    "clauses": 220240,
+    "stats": {
+      "restarts": 4806,
+      "conflicts": 43048,
+      "decisions": 510826,
+      "propagations": 45426375
+    },
+    "maxrss_kib": 74908,
+    "total_cpu": 10.140150682,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 53,
+    "result": "cone_53.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "53",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_53",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.070611428,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 53,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_53",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b10_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    ],
+    "vars": 26776,
+    "clauses": 244849,
+    "stats": {
+      "restarts": 4405,
+      "conflicts": 47079,
+      "decisions": 725307,
+      "propagations": 44658175
+    },
+    "maxrss_kib": 89768,
+    "total_cpu": 10.079793081,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 54,
+    "result": "cone_54.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "54",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_54",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.05984836,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 54,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_54",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b11_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27737,
+    "clauses": 253668,
+    "stats": {
+      "restarts": 4167,
+      "conflicts": 40039,
+      "decisions": 697639,
+      "propagations": 41615246
+    },
+    "maxrss_kib": 86672,
+    "total_cpu": 10.067976803,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 55,
+    "result": "cone_55.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "55",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_55",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.045282254,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 55,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_55",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b11_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27737,
+    "clauses": 253680,
+    "stats": {
+      "restarts": 4621,
+      "conflicts": 42147,
+      "decisions": 770310,
+      "propagations": 44414559
+    },
+    "maxrss_kib": 81532,
+    "total_cpu": 10.053535757,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 56,
+    "result": "cone_56.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "56",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_56",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.086993760999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 56,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_56",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b12_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 24085,
+    "clauses": 220240,
+    "stats": {
+      "restarts": 5542,
+      "conflicts": 46046,
+      "decisions": 565996,
+      "propagations": 47386115
+    },
+    "maxrss_kib": 75484,
+    "total_cpu": 10.098343395999999,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 57,
+    "result": "cone_57.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "57",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_57",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.153248854,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 57,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_57",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b12_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 26776,
+    "clauses": 244837,
+    "stats": {
+      "restarts": 4755,
+      "conflicts": 41044,
+      "decisions": 492889,
+      "propagations": 42750017
+    },
+    "maxrss_kib": 80236,
+    "total_cpu": 10.162052526999998,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 58,
+    "result": "cone_58.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "58",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_58",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.087367102,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 58,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_58",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b13_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 26213,
+    "clauses": 240640,
+    "stats": {
+      "restarts": 4162,
+      "conflicts": 41054,
+      "decisions": 574936,
+      "propagations": 46369452
+    },
+    "maxrss_kib": 87264,
+    "total_cpu": 10.098146497,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 59,
+    "result": "cone_59.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "59",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_59",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.023296844999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 59,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_59",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b13_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    ],
+    "vars": 29162,
+    "clauses": 267730,
+    "stats": {
+      "restarts": 3226,
+      "conflicts": 38041,
+      "decisions": 530704,
+      "propagations": 40312642
+    },
+    "maxrss_kib": 84612,
+    "total_cpu": 10.031629508,
+    "suffix_builds": 12,
+    "registers": 10
+  },
+  {
+    "index": 60,
+    "result": "cone_60.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "60",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_60",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.015851481999999,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 60,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_60",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b14_p12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      21,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "drop": 0,
+    "free_outputs": [
+      1,
+      2
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 25046,
+    "clauses": 229083,
+    "stats": {
+      "restarts": 4663,
+      "conflicts": 43068,
+      "decisions": 646043,
+      "propagations": 44820680
+    },
+    "maxrss_kib": 86488,
+    "total_cpu": 10.024516885,
+    "suffix_builds": 12,
+    "registers": 9
+  },
+  {
+    "index": 61,
+    "result": "cone_61.json",
+    "command": [
+      "/usr/bin/python3",
+      "round8/search.py",
+      "--index",
+      "61",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "10.0",
+      "--extra",
+      "2",
+      "--stem",
+      "cone_61",
+      "--fast"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.609595062,
+    "cases": 12,
+    "rounds": 0,
+    "args": {
+      "index": 61,
+      "mode": "cone",
+      "tail": 6,
+      "cpu": 10.0,
+      "extra": 2,
+      "control": false,
+      "all_cases": false,
+      "stem": "cone_61",
+      "fast": true,
+      "unbounded": false
+    },
+    "key": "near_b14_p32",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "drop": 0,
+    "free_outputs": [
+      2,
+      3
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        0,
+        3
+      ]
+    ],
+    "vars": 27737,
+    "clauses": 253680,
+    "stats": {
+      "restarts": 3383,
+      "conflicts": 50055,
+      "decisions": 482788,
+      "propagations": 44088039
+    },
+    "maxrss_kib": 86748,
+    "total_cpu": 10.621496536999999,
+    "suffix_builds": 12,
+    "registers": 9
+  }
+]

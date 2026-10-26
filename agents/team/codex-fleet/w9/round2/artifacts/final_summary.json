@@ -1,0 +1,707 @@
+{
+  "batches": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w9/round2/artifacts/pilot.jsonl",
+      "queries": 4,
+      "status": {
+        "UNKNOWN": 4
+      },
+      "cpu": 16.172328187999998,
+      "registers": [
+        8
+      ],
+      "prefix_lengths": {
+        "0": 4
+      },
+      "cegis_candidates": 0
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w9/round2/artifacts/polarity_all.jsonl",
+      "queries": 114,
+      "status": {
+        "UNSAT": 24,
+        "UNKNOWN": 90
+      },
+      "cpu": 325.8572149899998,
+      "registers": [
+        9,
+        10
+      ],
+      "prefix_lengths": {
+        "22": 18,
+        "21": 93,
+        "20": 2,
+        "16": 1
+      },
+      "cegis_candidates": 3
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w9/round2/artifacts/polarity_pilot.jsonl",
+      "queries": 24,
+      "status": {
+        "UNKNOWN": 2,
+        "UNSAT": 22
+      },
+      "cpu": 53.039378185,
+      "registers": [
+        9
+      ],
+      "prefix_lengths": {
+        "22": 24
+      },
+      "cegis_candidates": 0
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w9/round2/artifacts/prefix_all.jsonl",
+      "queries": 633,
+      "status": {
+        "UNSAT": 27,
+        "UNKNOWN": 606
+      },
+      "cpu": 1245.6363625010015,
+      "registers": [
+        9,
+        10
+      ],
+      "prefix_lengths": {
+        "25": 25,
+        "24": 2,
+        "20": 1,
+        "17": 20,
+        "16": 94,
+        "15": 57,
+        "14": 4,
+        "13": 18,
+        "12": 61,
+        "9": 82,
+        "8": 17,
+        "6": 44,
+        "5": 9,
+        "4": 17,
+        "0": 182
+      },
+      "cegis_candidates": 6
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w9/round2/artifacts/prefix_pilot.jsonl",
+      "queries": 20,
+      "status": {
+        "UNSAT": 20
+      },
+      "cpu": 2.837269572000001,
+      "registers": [
+        9
+      ],
+      "prefix_lengths": {
+        "26": 14,
+        "25": 6
+      },
+      "cegis_candidates": 0
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w9/round2/artifacts/replay.jsonl",
+      "queries": 9,
+      "status": {
+        "UNSAT": 7,
+        "UNKNOWN": 2
+      },
+      "cpu": 38.67790603299999,
+      "registers": [
+        9
+      ],
+      "prefix_lengths": {
+        "25": 6,
+        "22": 3
+      },
+      "cegis_candidates": 9
+    }
+  ],
+  "first_pass_unique_orders": 653,
+  "first_pass_indices_complete": true,
+  "first_pass_status": {
+    "UNSAT": 47,
+    "UNKNOWN": 606
+  },
+  "source_flag_sequences": 178,
+  "families": 19,
+  "valid_family_order_pairs": 731,
+  "new_family_order_pairs": 653,
+  "checks": {
+    "retained_orders_checked": 731,
+    "rejected_sample_checked": 3889,
+    "controls": [
+      {
+        "family": "30ac78ad04f7",
+        "prefix": 0,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "30ac78ad04f7",
+        "prefix": 15,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "30ac78ad04f7",
+        "prefix": 25,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "30ac78ad04f7",
+        "prefix": 0,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "30ac78ad04f7",
+        "prefix": 15,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "30ac78ad04f7",
+        "prefix": 25,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "fd7a081c6ece",
+        "prefix": 0,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "fd7a081c6ece",
+        "prefix": 15,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "fd7a081c6ece",
+        "prefix": 25,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "fd7a081c6ece",
+        "prefix": 0,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "fd7a081c6ece",
+        "prefix": 15,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "fd7a081c6ece",
+        "prefix": 25,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "66221a2755ee",
+        "prefix": 0,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "66221a2755ee",
+        "prefix": 15,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "66221a2755ee",
+        "prefix": 25,
+        "polarity": false,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "66221a2755ee",
+        "prefix": 0,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "66221a2755ee",
+        "prefix": 15,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      },
+      {
+        "family": "66221a2755ee",
+        "prefix": 25,
+        "polarity": true,
+        "status": "SAT",
+        "cases": 25
+      }
+    ],
+    "cpu": 16.510861069
+  },
+  "symmetry": {
+    "valid_order_orbits": 731,
+    "new_order_orbits": 653,
+    "representation_new_but_known_by_symmetry": 0
+  },
+  "resources": {
+    "cpu_jobs_at_once": 1,
+    "cpu_affinity": "84",
+    "nice": 19,
+    "address_space_limit_mib": 2800
+  },
+  "latest_unique_queries": 795,
+  "latest_unique_status": {
+    "UNKNOWN": 701,
+    "UNSAT": 94
+  },
+  "snapshot_audit": [
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_10_54285964e250_24013675_1_k31.s",
+      "best_output_errors": [
+        0,
+        80,
+        90,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 116,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_12_fd7a081c6ece_24013675_1_k31.s",
+      "best_output_errors": [
+        0,
+        54,
+        75,
+        26,
+        0
+      ],
+      "best_snapshot_failed_orders": 95,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_13_fd7a081c6ece_42031675_1_k31.s",
+      "best_output_errors": [
+        0,
+        27,
+        27,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 27,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_25_54285964e250_20413675_1_k31.s",
+      "best_output_errors": [
+        0,
+        27,
+        99,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 99,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_26_54285964e250_20431675_1_k31.s",
+      "best_output_errors": [
+        0,
+        27,
+        99,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 99,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_30_65e288dc8ab2_42031675_1_k31.s",
+      "best_output_errors": [
+        0,
+        99,
+        148,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 220,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_40_fd7a081c6ece_20341675_1_k31.s",
+      "best_output_errors": [
+        0,
+        54,
+        54,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 54,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_41_fd7a081c6ece_20413675_1_k31.s",
+      "best_output_errors": [
+        0,
+        54,
+        54,
+        0,
+        0
+      ],
+      "best_snapshot_failed_orders": 54,
+      "all_outputs_available": false
+    },
+    {
+      "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_44_fd7a081c6ece_42013675_1_k31.s",
+      "best_output_errors": [
+        0,
+        54,
+        108,
+        78,
+        0
+      ],
+      "best_snapshot_failed_orders": 132,
+      "all_outputs_available": false
+    }
+  ],
+  "strict_audit_counts": {
+    "PASS": 8,
+    "FAIL": 9
+  },
+  "strict_ledger": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_30ac78ad04f7_k32.s",
+      "model": "out",
+      "length": 32,
+      "cmp": 8,
+      "mov": 4,
+      "cmov": 20,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_30ac78ad04f7_k32_out_audit.log",
+      "sha256": "5a516a3d58c5f9ed41296299fcdf860dcf9d27813eef4e31bce53e9b99d09a45",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/control_30ac78ad04f7_k32.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_30ac78ad04f7_k32_mem.s",
+      "model": "mem",
+      "length": 42,
+      "cmp": 8,
+      "mov": 14,
+      "cmov": 20,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_30ac78ad04f7_k32_mem_mem_audit.log",
+      "sha256": "88608ca9c8563f4cdb25cb2c80c4a6c6ec83c28122e0af1078d45ac58958d8d6",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/control_30ac78ad04f7_k32_mem.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_66221a2755ee_k32.s",
+      "model": "out",
+      "length": 32,
+      "cmp": 8,
+      "mov": 4,
+      "cmov": 20,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_66221a2755ee_k32_out_audit.log",
+      "sha256": "c9d1ca9d3e98e2b4b2c3f299924579a1afb51a38741f8b31551d7158345f74c3",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/control_66221a2755ee_k32.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_66221a2755ee_k32_mem.s",
+      "model": "mem",
+      "length": 42,
+      "cmp": 8,
+      "mov": 14,
+      "cmov": 20,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_66221a2755ee_k32_mem_mem_audit.log",
+      "sha256": "b136defa20b5e1426b870d20c7ebdfe8026dac3d853466db90b02c75345993be",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/control_66221a2755ee_k32_mem.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_fd7a081c6ece_k32.s",
+      "model": "out",
+      "length": 32,
+      "cmp": 8,
+      "mov": 2,
+      "cmov": 22,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_fd7a081c6ece_k32_out_audit.log",
+      "sha256": "67eef06a582c2afb274c118847d8605a0e5d87a0427faf345fb459c8d2af7dc7",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/control_fd7a081c6ece_k32.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/control_fd7a081c6ece_k32_mem.s",
+      "model": "mem",
+      "length": 42,
+      "cmp": 8,
+      "mov": 12,
+      "cmov": 22,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/control_fd7a081c6ece_k32_mem_mem_audit.log",
+      "sha256": "70ca0bc25cfae0c0e708bca395cc220d9347301137a94fb98390a66de3bbd2df",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/control_fd7a081c6ece_k32_mem.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_10_54285964e250_24013675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 4,
+      "cmov": 19,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_10_54285964e250_24013675_1_k31_out_audit.log",
+      "sha256": "92230dde31dd638f419e54d000c37179944b91541b76d47b2c9a2672ad3c8aa5"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_12_fd7a081c6ece_24013675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 4,
+      "cmov": 19,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_12_fd7a081c6ece_24013675_1_k31_out_audit.log",
+      "sha256": "399ca3063e0b6b9e64da6556a71101f7e890a7f7c662373e1336877f42e0144d"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_13_fd7a081c6ece_42031675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 2,
+      "cmov": 21,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_13_fd7a081c6ece_42031675_1_k31_out_audit.log",
+      "sha256": "130224650c03579cba2eab37d8a274c4a8ba6d229f9406c58045bb6676f0a5be"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_25_54285964e250_20413675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 3,
+      "cmov": 20,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_25_54285964e250_20413675_1_k31_out_audit.log",
+      "sha256": "6b9300c3f40dad2eb96720ddbe15cc46f88045e0543e140b37c02a23999cd9da"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_26_54285964e250_20431675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 2,
+      "cmov": 21,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_26_54285964e250_20431675_1_k31_out_audit.log",
+      "sha256": "a3b2531d40a2c5529de2600996ffb532cf880dd5bd79354a33e348d4027821fd"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_30_65e288dc8ab2_42031675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 1,
+      "cmov": 22,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_30_65e288dc8ab2_42031675_1_k31_out_audit.log",
+      "sha256": "ba88d72a5032accd8073472722446159b62724aae7b4e8b8a7082fe56c66a49d"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_40_fd7a081c6ece_20341675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 3,
+      "cmov": 20,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_40_fd7a081c6ece_20341675_1_k31_out_audit.log",
+      "sha256": "6dc4ad5063c553282ebec6042cae8386535388089107320246c23d94ee2f7e67"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_41_fd7a081c6ece_20413675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 3,
+      "cmov": 20,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_41_fd7a081c6ece_20413675_1_k31_out_audit.log",
+      "sha256": "9542a546da11a31e2cfe0636f56f7078320d1b7e11d9b24cb8583909e77940d1"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_44_fd7a081c6ece_42013675_1_k31.s",
+      "model": "out",
+      "length": 31,
+      "cmp": 8,
+      "mov": 3,
+      "cmov": 20,
+      "pass": false,
+      "returncode": 1,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/model_replay_44_fd7a081c6ece_42013675_1_k31_out_audit.log",
+      "sha256": "13470cfcf88ea6b30936d13411cf3aabe291a3ca5ca7954c67ed93671abac8d4"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/polarity_control32.s",
+      "model": "out",
+      "length": 32,
+      "cmp": 8,
+      "mov": 4,
+      "cmov": 20,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/polarity_control32_out_audit.log",
+      "sha256": "811b96e338699fa4013d1657960557c771d983ece9498c6201d98ae169c472c4",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/polarity_control32.s"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/polarity_control32_mem.s",
+      "model": "mem",
+      "length": 42,
+      "cmp": 8,
+      "mov": 14,
+      "cmov": 20,
+      "pass": true,
+      "returncode": 0,
+      "log": "/path/to/repo/agents/team/codex-fleet/w9/round2/logs/polarity_control32_mem_mem_audit.log",
+      "sha256": "673f64195d40fe7bccff5ea562e2696552a9506a3a71789fb07c20baea2e5aa1",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round2/verified/polarity_control32_mem.s"
+    }
+  ],
+  "hashes": {
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/audit.py": "6d36f8b4131d1846c335b25c826401cc794826e47b5ceccd97e2fb4c9366d7ec",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/checks.py": "201d26aa54a896330bb8fd33713685b481c9c1ee8aedf046e2218fea8afcede0",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/control.py": "63292d44ba46ef8eb9a147e06e4ca6f40a90184796966d1ee6a7c03c038fdac1",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/order_sat.py": "ada0ac6a82c1ab212b43f43f18fb7aecf3e5c15db6fe0b903e6c1daef5938f47",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/orders.py": "b05adabad3d065ddf77c3d9edaeb4a5b810b4fb3c4ffc8fc8a074caf115bc100",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/polarity_control.py": "14d489c166e38d8ca792cf69eaf5e9ac2845a25c57774a7fc5ea75af0fa40b0d",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/prefix_batch.py": "ac9dc6df8ff0be2ddfd65b41183bd1d01f9393ef1532db40caeb582e40263009",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/replay.py": "ddf2b2ff4bed771a3eefab5774039a53dcd0e7f2e9113ae8738ce5da51633828",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/report.py": "01a08a2105a5d1bd53a20fe31e2289e5cf266d15b7b3c41920e030253c81a487",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/snapshot_audit.py": "bfdb80e43514a9161041c112eeb616b7da6fcf7dbec65b37dfd777cdb9b1f7db",
+    "/path/to/repo/agents/team/codex-fleet/w9/round2/src/symmetry.py": "fa723c97cb17f7bd861baeade94053447a226cc7a0eca5fd1a2c6a9d5a6ef328",
+    "/path/to/repo/agents/team/codex-fleet/w9/src/encode.py": "289459ac45c54467083749190ead3d57a4adb122ff7c042a32b1bd1127080d79",
+    "/path/to/repo/agents/team/codex-fleet/w9/src/triple_encode.py": "9c3cc53fa5ef428df56ba26aa7f2f8f92519aed55fe500a0d0f9c8174ecacee3"
+  },
+  "source_hashes": {
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_10040eff416c0867.s": "f4464097333765736a806367355760741453a01461dd492aba90d352cfc12a5e",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1133ec48c6cddf1b.s": "5a7f85497dd979f04f2431f77f163be3693c39dbcd4ab910b1acb6631341ce21",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11c9d4867493ab47.s": "5f26f109bc96380ad48a1ae70a487ad2e46564c1519a1aefa1680172051b7236",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1225fd780bdd0fe7.s": "5732a053e0357d272c49250b1d2d65fd5f505e080566fe1daa4fc7317b7c7c03",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12651d8baa33ba0f.s": "ea9d5b38dc9e4618c099a077240d8b8b73362925bcd7b1826ab405cea628a2ee",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12b75491c4d308a3.s": "3089ffce809c5c34bad120122c2d807efa3841fe59c75b91840202dd369b2fc3",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1338d3424477e129.s": "6374e6600c60816a2d7daa320e35beab15b2aa8216852b5990e2a4dd7146e3b0",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_141a02776a21d45.s": "28049fbbe6bc88669c78be0946a331db8a30aa87caccc8d6328c72eae8b75da5",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_156fdd193572fb27.s": "3766a7566971eeb14db2af9deb7676e6ddcbd2de44844151aa8e2c95e1f21ccb",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15a18d5fe8f0f427.s": "d6599bc3468fa346bbc7255353cde6a9a12de47650da065d8292e848984bb095",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15bdbe5ff6cbe16f.s": "652f7be1ad2e1daf0116fe1653c2d9c201fb471237d8467c7cd53d96f01c1bb3",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_161f27bdd6e9955b.s": "aea5097196ffcf4aad9ed1b69a21ab93d5fa1dc30489c77c02f72fd37662f21a",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_164a24929b8970bb.s": "3f6925d44b698dadb72531ca5de36a546ebb9cbe57b515d544b27545ff70cca8",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_166731603245e2eb.s": "96e24e0fe08a420f4e72ce3074f2765cf6f2c3253ded688e2dc1bfcefd7b921f",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_17907dae653ca8f.s": "0b83e57fe7ac28b79dee0d4deabcf1a6963d1484b4d3677fd81aaa996732ab01",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a613ac2485250c7.s": "6c45c8a5b43199eb4d46e3f6481af69f654c9f5b9bc5d116df81217a4104e875",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a63d93b1f04a2cb.s": "a7030d8cd4645cb1f25168aa1853251789c5dec2f33fbd576f72259ca2868211",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1b0c08cec2e379c3.s": "12f10b6d8a89646a6d0432b8be9dbe427cc6010b63b14f36c5c6875d9a4e6900",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1be80efe56e14ebf.s": "8f1d000433d2a03c2a531ef363b9c88afc866a64fcc219179e8e66add23cdbdb",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1c180823effee2ab.s": "455c8e1d1e30161907cd043433262a27d10d91ee13ab3440b6112f8c912b37e6",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1d4ad416e35cc60b.s": "27895e0ab1f7cfa80df8df2fdd43d31c762e3809bb833264a7d0cc506ca283f7",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1e7b08432020f0b7.s": "9461d8660866b06008cbc108ba7dea2f5e00d8852ae4b15e434ef1f67e7f8273",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1fa5731a2358af7.s": "a2b5a0079cb6ecc9677a7da2bf8d5264900e05a484c59a215bc55b7f39b7ad4a",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_203f14ede4be42f.s": "c68954bae8525bbb61db121f123e05c7c3d06ad89739b1dffd160092450ecbce",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_215cbe6f0d1c7837.s": "7e5fb8879b065ea864d070e7fcaa0eb974e0cf4e837676d119778e847f9b195e",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21a6f16bedc5b8bf.s": "ecbdca9c827024caf95971bab8d1aaa216ecb486ad1b9f80203ec7b4d333c721",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21abacdf36bcd7b3.s": "f22f2350d3a662ca1ec113c07828fe90648758dcfa0270fc715fd223279dac1e",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_220dcb420effb46b.s": "95672b2d46cde1bb23b3499ef20cf392671fb0a9293959d4c9bf7117121a9940",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_224e45102f6e86b.s": "d36b4767884638f05f45334efc4446b33b29c09c1e6352b0ffc4abb45e02ef52",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24abc8199dc03077.s": "ee10b5b460969ba4b5589eea1713a04b7b3a4d82461021250d05ec371bd78bb3",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2642972b24ea19b.s": "53d1ab82c2a2cfff24ba0a22ca1a7a5d3a7f4f7c6841df5c0e7466bba550fbcc",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_267a2e3d4909af4b.s": "a343c4ce01260730ee3a1cd7a49b318f0897de9cc52c2c7bb447ef51eede8b59",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2726f4afb2d799.s": "ac08a7b487f129ffc1fd0c36506ad532ab571f90243a191aa974e79d51038799",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2755e8d9e8382207.s": "7b22f2b8f380119de1ed6d278dba51c462bd14f233a293fee2847a1667264506",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_27f65daa1cee4f4b.s": "99c2e826ed3fa171e9bace9dc27f3132bf63a926a6ed5db07e0587b854cc9eb3",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_290ba1ab50398fa7.s": "b5b8aa193b1a1442a00caa647920ef09672639dc1e0fc293afcd55e6febe4a94",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2ab6c13ccb245a63.s": "b893dbcce95c505fa13115ed30f5918d9f4ba92dcacc49900556a0852bebcf32",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_308486b4944cbdf.s": "122132a863a6e4964104d0003450983ed8ccf402e436acfe992c3850c87a2ad4",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_30f500aaf2d3b42b.s": "94625058fbe59e3dd874211f8adcec1929299e38bcb03247fa031ffb696cb7ce",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33e730edcd75dbbf.s": "24bc36085073df18f5ae626f020ff519d3433987c5bc8a631a67ea05a7321479",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_35006f3bfb8deb1b.s": "73280e82fb99e55ade2b06051905a7fa2df27458f215addcf49d5b44a9910cb6",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3631163abf06d7af.s": "02cc6e3065380ef0c28692a22cdbaf3da1e8e5238e4e2134822ba999722469e0",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c68fd07f08ff.s": "836f9fe7755c73329d8d6b12cbd5bb2b3035586169e7d4a95de1603e9c5746cb",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f8371a2666ae5c7.s": "e73c59cfdf01dc66c8048035b45802e8629badcc3cf65d94b79c739e3efeeb21",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_40718fc8b65bfb.s": "57e739e07fb4ed442d174a68ebc97d51c6d5bc92fcbd06af9f7f3e70a9dc7ff0",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43e28701f70f0cf.s": "acafaeef8b9a2046479108bbeac0c7dd5a4fa3097059600c6905deb16c9bfd66",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4480f6c61beea14b.s": "e91f4c46a5cd7fc1c8a5fd52e45abd4e9e8d93f4f07dc92c6ab50307a9bdb5cc",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4c82686d8d30d33.s": "74f3262a31e29b8720e61e196027cb5c46775fae5b61847026bb4621981d37b4",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_504956aa3c140ea3.s": "4a0bb4e0bc4d15068bff5f2cc01db53febe5347282bb75b9ee285e8ae6880540",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_5bdf24a222d2b63.s": "ab49d3e0cdff859aef8878c29fba018dd7af3b2527eb5b8fc4e7a38b6c6f56fd",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_63f1e94b2830099.s": "822814a68a54be41ebe9eadd76f4a34b1cf8387e9e3b5572b9c7cfb76be6718c",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66303d2fe517211.s": "3117c2994174154e1db78ccfbe2802494f6f9f618f2b6e366d0e3930ae17e75e",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66ea7778158faf.s": "1ccfb16326124df2036584ca09c8245b4a84bd6f2d2ace9272752b3be2247034",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7c7f65877f171ab.s": "79c549862993dc14833daa6f166c95c4d4c47ea20c7c67e5f04dfa800328acb3",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7f146a90e5e9bcf.s": "474fa48e534cf448454291be826f2a9815087b235dc54bbee6d770f12ef4a0a6",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8034dffd5d8c457.s": "37b7dad5cdd3aa7a822600e2bb3d362d1ca126066ad14727dd04f8897867ec62",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_81ed52dfbe00faf.s": "61531ebf9415fa06c3f233ff1aabd56bd14e23244af740adfe5126eb695cc7af",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_845547c9459fdb7b.s": "64e8dbb6afcf26a27652091916e270203b5905bce12dfad1ae33829d4b2167da",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8d0dd0ee89a970f.s": "2891cf820cba2bbd0da5772e143b49e1bd2a84ab62c9675d885a9dcb9848d462",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9755d36ddedc6b7.s": "6bca63cbb0cedd304629e7c4e149843ab3a183ef42d1af053468a2bdeaac88eb",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9e1a0f74131d81f.s": "910e61316174435884edf605ebaa81163764af4fecf1fb755630b9f77f9875ae",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a7b174f83a0f43b.s": "97299c50af0e3ff61e9d60815735d47176e2c008f4b2573acaf3bd7ede149438",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_bcbcb19411aea31.s": "7d935ee7e4b5f70ebf72c8b4e98f24b3e1a4250002d8d7b34477aedfdbfea928",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c3208d05a5329e7.s": "c978b860c2a56344006c01349b2dedd6d0e8caacebb1a9baa4be204b8026511b",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd2c6a654c268eb.s": "415b17a5f19da2ea41cca2e215cb9d0edd7cffc35bb80526b330cd1d748672b1",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d971bb526287b89.s": "8eb75dc321b09016ab0454c4f7c605f553cd2cdfff719cac6a46c3292627e2f6",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_db8ff5154396dd7.s": "74c5e4329c4f9f3aa828820ea91dfa7384e8732c4cc56fa8cd79955a362035de",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_dbbbb77809455d7.s": "a03eadba9f8e136c7bb786ce372fcae8afa4bc0ecd6b914f643c3fa01777d52a",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ee55e6ba214fb31.s": "1839ae0cbce87cfbb12b20a55c62a342941335560110cdbf92f06d8ec7021942",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f76ab7383f3162f.s": "a8b7c1ba919f7dd7bf4d9431ad80cd0a3ae9faaf90525deea70244a980078e48",
+    "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f861da3879904ef.s": "5fabf8891684f5004a237f6ce135258bf6f13939ee6f737c78247cb0c921ca6a",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s": "372dc9a16d4b2176b27a847593ec64a23c0f75a68976dbeabfb55d61516714bc",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_15d47dd100cf7fcb.s": "0ce8a387a6c182d42d9745969ec7c8a9deeafe178576e47e9ef8e325cdbea018",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_26e49cf60c846007.s": "33f719793851a71c6c355848f4004c3ad1c64b4bd2508fcb2c64b591bf4ca39e",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s": "596c92011343834c395c80a0b22f214f04a34df745c9a8e03f6edbc2cfda93a2",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3809e545578327.s": "1ade4b9c2b4a439b2952b235804b25bf5f897b30d7c96c96734816600ed534ca",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9f2faf3e2b5848b.s": "1df40c62465b6cbbd9931d78c78c1b30cb49460f7194d9bf91546d2912019d59",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_b71830c38f98f13.s": "4bc439ae43c5e179caaeee53f3aa8ce7b9efc6ee10e8cd34575f20fb2cb249ff",
+    "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s": "b8564599f0d92ecb4479d5ec612c971417c81efdd700b53521512f46086a3eee",
+    "/path/to/repo/agents/team/codex-fleet/w9/candidates/control32_out.s": "87b62f2f3bc3930041f254955efadd682f9a30dc75778c2ede5090715195839a",
+    "/path/to/repo/agents/team/codex-fleet/w9/candidates/m16a_near31_out.s": "8c007e7a37bc75eac0e8ee1c116ed31f66ab9493c29394edbb703684412028f2",
+    "/path/to/repo/agents/team/codex-fleet/w9/candidates/m16b_near31_out.s": "e9d834b9de74fcf10eb65a030c0e8f874bb12d491b8f4edadeab83fbf90dc400",
+    "/path/to/repo/agents/team/codex-fleet/w9/candidates/m16c_near31_out.s": "ba3a74a929cab86c2d1d3db24d8894389acf24977d1a9130ec477949a27303db",
+    "/path/to/repo/agents/team/codex-fleet/w9/candidates/residual_a_near31_out.s": "7e81b8ce1a2f0643db321375e43f066de382839e90571d2151271235999f8f1b"
+  }
+}

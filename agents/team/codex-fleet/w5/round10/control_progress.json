@@ -1,0 +1,11 @@
+{
+  "tag": "control",
+  "planned": 1,
+  "completed": 1,
+  "status": {
+    "UNKNOWN_NODE_LIMIT": 1
+  },
+  "calls": 3000085,
+  "wall_seconds": 2.8055088771507144,
+  "max_rss_kib": 16592
+}

@@ -1,0 +1,18 @@
+{
+  "name": "audit_c7",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/audit_c7.py"
+  ],
+  "wall_limit": 60.0,
+  "exit": 0,
+  "seconds": 1.2972704507410526,
+  "log": "round6/logs/audit_c7.log",
+  "affinity": [
+    78,
+    79
+  ],
+  "child_cpu_seconds": 0.10855999999999999,
+  "peak_child_rss_kib": 14660
+}

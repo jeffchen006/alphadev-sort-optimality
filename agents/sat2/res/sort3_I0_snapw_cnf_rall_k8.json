@@ -1,0 +1,1 @@
+{"n": 3, "k": 8, "R": 11, "iset": "I0", "enc": "cnf", "out": "snapw", "no_noop": false, "scratch_sym": true, "rules": "all", "result": "UNSAT", "iters": 5, "types": 6, "time": 49.75, "subset": [[0, 1, 0], [1, 1, 0], [0, 1, 1], [1, 0, 2], [0, 0, 1], [2, 0, 1]]}

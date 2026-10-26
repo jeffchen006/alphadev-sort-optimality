@@ -1,0 +1,626 @@
+{
+  "merge_rev0": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 49.028,
+      "log": "codex_work/log_merge_rev0_r9.txt"
+    }
+  ],
+  "merge23": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 49.784,
+      "log": "codex_work/log_merge23_r9.txt"
+    }
+  ],
+  "merge_rev1": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 44.243,
+      "log": "codex_work/log_merge_rev1_r9.txt"
+    }
+  ],
+  "merge_rev2": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 47.157,
+      "log": "codex_work/log_merge_rev2_r9.txt"
+    }
+  ],
+  "merge_rev_all": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 45.485,
+      "log": "codex_work/log_merge_rev_all_r9.txt"
+    }
+  ],
+  "merge_projected": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 54.495,
+      "log": "codex_work/log_merge_projected_r9.txt"
+    }
+  ],
+  "merge_cross0": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 36.387,
+      "log": "codex_work/log_merge_cross0_r9.txt"
+    }
+  ],
+  "base_low_both": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.831,
+      "log": "codex_work/log_base_low_both_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.931,
+      "log": "codex_work/log_base_low_both_r10.txt"
+    }
+  ],
+  "base_low_one": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.335,
+      "log": "codex_work/log_base_low_one_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.882,
+      "log": "codex_work/log_base_low_one_r10.txt"
+    }
+  ],
+  "merge_cross1": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 41.969,
+      "log": "codex_work/log_merge_cross1_r9.txt"
+    }
+  ],
+  "base_high_both": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.983,
+      "log": "codex_work/log_base_high_both_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.845,
+      "log": "codex_work/log_base_high_both_r10.txt"
+    }
+  ],
+  "base_high_one": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.839,
+      "log": "codex_work/log_base_high_one_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.133,
+      "log": "codex_work/log_base_high_one_r10.txt"
+    }
+  ],
+  "base_split": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.932,
+      "log": "codex_work/log_base_split_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.931,
+      "log": "codex_work/log_base_split_r10.txt"
+    }
+  ],
+  "base_right": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.385,
+      "log": "codex_work/log_base_right_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.731,
+      "log": "codex_work/log_base_right_r10.txt"
+    }
+  ],
+  "base_middle": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.881,
+      "log": "codex_work/log_base_middle_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.882,
+      "log": "codex_work/log_base_middle_r10.txt"
+    }
+  ],
+  "fj7_00": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.982,
+      "log": "codex_work/log_fj7_00_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 1.976,
+      "log": "codex_work/log_fj7_00_r10.txt"
+    }
+  ],
+  "base_last": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.731,
+      "log": "codex_work/log_base_last_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.782,
+      "log": "codex_work/log_base_last_r10.txt"
+    }
+  ],
+  "fj7_11": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.831,
+      "log": "codex_work/log_fj7_11_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 1.977,
+      "log": "codex_work/log_fj7_11_r10.txt"
+    }
+  ],
+  "fj7_22": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.43,
+      "log": "codex_work/log_fj7_22_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 1.977,
+      "log": "codex_work/log_fj7_22_r10.txt"
+    }
+  ],
+  "fj7_33": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.932,
+      "log": "codex_work/log_fj7_33_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 1.925,
+      "log": "codex_work/log_fj7_33_r10.txt"
+    }
+  ],
+  "fj7_03": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.329,
+      "log": "codex_work/log_fj7_03_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.882,
+      "log": "codex_work/log_fj7_03_r10.txt"
+    }
+  ],
+  "fj7_30": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 1.975,
+      "log": "codex_work/log_fj7_30_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.73,
+      "log": "codex_work/log_fj7_30_r10.txt"
+    }
+  ],
+  "fj7_12": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.882,
+      "log": "codex_work/log_fj7_12_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.388,
+      "log": "codex_work/log_fj7_12_r10.txt"
+    }
+  ],
+  "fj7_21": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 1.975,
+      "log": "codex_work/log_fj7_21_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 1.975,
+      "log": "codex_work/log_fj7_21_r10.txt"
+    }
+  ],
+  "fj8_00": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.283,
+      "log": "codex_work/log_fj8_00_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.184,
+      "log": "codex_work/log_fj8_00_r10.txt"
+    }
+  ],
+  "fj8_70": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 4.188,
+      "log": "codex_work/log_fj8_70_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.64,
+      "log": "codex_work/log_fj8_70_r10.txt"
+    }
+  ],
+  "fj8_21": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.284,
+      "log": "codex_work/log_fj8_21_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.334,
+      "log": "codex_work/log_fj8_21_r10.txt"
+    }
+  ],
+  "fj8_51": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.182,
+      "log": "codex_work/log_fj8_51_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.139,
+      "log": "codex_work/log_fj8_51_r10.txt"
+    }
+  ],
+  "base_sur3138": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 4.24,
+      "log": "codex_work/log_base_sur3138_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.383,
+      "log": "codex_work/log_base_sur3138_r10.txt"
+    }
+  ],
+  "base_sur3139": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 4.189,
+      "log": "codex_work/log_base_sur3139_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.937,
+      "log": "codex_work/log_base_sur3139_r10.txt"
+    }
+  ],
+  "base_sur4615": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.937,
+      "log": "codex_work/log_base_sur4615_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.082,
+      "log": "codex_work/log_base_sur4615_r10.txt"
+    }
+  ],
+  "base_sur4616": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.333,
+      "log": "codex_work/log_base_sur4616_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.988,
+      "log": "codex_work/log_base_sur4616_r10.txt"
+    }
+  ],
+  "base_sur4619": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.183,
+      "log": "codex_work/log_base_sur4619_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 3.535,
+      "log": "codex_work/log_base_sur4619_r10.txt"
+    }
+  ],
+  "base_sur4620": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.339,
+      "log": "codex_work/log_base_sur4620_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.188,
+      "log": "codex_work/log_base_sur4620_r10.txt"
+    }
+  ],
+  "base_sur6213": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 2.478,
+      "log": "codex_work/log_base_sur6213_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.884,
+      "log": "codex_work/log_base_sur6213_r10.txt"
+    }
+  ],
+  "base_sur6233": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.887,
+      "log": "codex_work/log_base_sur6233_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 2.529,
+      "log": "codex_work/log_base_sur6233_r10.txt"
+    }
+  ],
+  "base_sur3_0": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.434,
+      "log": "codex_work/log_base_sur3_0_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.239,
+      "log": "codex_work/log_base_sur3_0_r10.txt"
+    }
+  ],
+  "base_sur3_1": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 4.491,
+      "log": "codex_work/log_base_sur3_1_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.694,
+      "log": "codex_work/log_base_sur3_1_r10.txt"
+    }
+  ],
+  "base_sur3_2": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.736,
+      "log": "codex_work/log_base_sur3_2_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.389,
+      "log": "codex_work/log_base_sur3_2_r10.txt"
+    }
+  ],
+  "base_sur3_3": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 3.183,
+      "log": "codex_work/log_base_sur3_3_r9.txt"
+    },
+    {
+      "R": 10,
+      "result": "NONE <= 31",
+      "seconds": 4.541,
+      "log": "codex_work/log_base_sur3_3_r10.txt"
+    }
+  ],
+  "hybrid_clip": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 49.212,
+      "log": "codex_work/log_hybrid_clip_r9.txt"
+    }
+  ],
+  "hybrid_low": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 54.579,
+      "log": "codex_work/log_hybrid_low_r9.txt"
+    }
+  ],
+  "hybrid_high": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 41.216,
+      "log": "codex_work/log_hybrid_high_r9.txt"
+    }
+  ],
+  "hybrid_bridge": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 40.952,
+      "log": "codex_work/log_hybrid_bridge_r9.txt"
+    }
+  ],
+  "hybrid_core": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 38.699,
+      "log": "codex_work/log_hybrid_core_r9.txt"
+    }
+  ],
+  "hybrid_middle": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 49.25,
+      "log": "codex_work/log_hybrid_middle_r9.txt"
+    }
+  ],
+  "merge_m1": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 36.026,
+      "log": "codex_work/log_merge_m1_r9.txt"
+    }
+  ],
+  "merge_m1_altcore": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 36.279,
+      "log": "codex_work/log_merge_m1_altcore_r9.txt"
+    }
+  ],
+  "merge_m1_routes": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 37.836,
+      "log": "codex_work/log_merge_m1_routes_r9.txt"
+    }
+  ],
+  "merge_m1_caps": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 35.777,
+      "log": "codex_work/log_merge_m1_caps_r9.txt"
+    }
+  ],
+  "merge_m1_bothcore": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 77.875,
+      "log": "codex_work/log_merge_m1_bothcore_r9.txt"
+    }
+  ],
+  "merge_m1_altcaps": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 39.249,
+      "log": "codex_work/log_merge_m1_altcaps_r9.txt"
+    }
+  ],
+  "merge_m1_capsroute": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 51.166,
+      "log": "codex_work/log_merge_m1_capsroute_r9.txt"
+    }
+  ],
+  "merge_m1_projected": [
+    {
+      "R": 9,
+      "result": "NONE <= 31",
+      "seconds": 42.924,
+      "log": "codex_work/log_merge_m1_projected_r9.txt"
+    }
+  ]
+}

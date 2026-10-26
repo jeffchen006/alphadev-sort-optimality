@@ -1,0 +1,42 @@
+{
+  "generated_records": 1815,
+  "unique_skeletons": 1347,
+  "far_target_skeletons": 1269,
+  "final_status": {
+    "NONE": 1269
+  },
+  "near_skeletons_not_routed": 78,
+  "direct_none_records": 1269,
+  "recorded_calls": 537791471,
+  "query_wall_seconds": 925.214271934703,
+  "pass_files": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38.s",
+      "model": "out",
+      "status": "PASS",
+      "sha256": "5b672b5b6479a8be06acff0214d33293c3f7488189877c41d9cda2e4af42ebaa",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round10/logs/judge_pair_layouts_control_k38.log",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38.s [relaxed+strict] n=5 L=38 R=15 iset=I1 model=out\n",
+      "length": 38
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38_mem.s",
+      "model": "mem",
+      "status": "PASS",
+      "sha256": "7b72eb9432f8bf50271a25ed23115a74907c608d66f324044bb84633c43967fe",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round10/logs/judge_pair_layouts_control_k38_mem.log",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38_mem.s [relaxed+strict] n=5 L=48 R=20 iset=I1 model=mem\n",
+      "length": 48
+    }
+  ],
+  "limited_queries": [],
+  "assumption_tags": [
+    "G1",
+    "G2",
+    "G3",
+    "A4",
+    "A6"
+  ],
+  "assumptions_challenged": [],
+  "target_pass": false
+}

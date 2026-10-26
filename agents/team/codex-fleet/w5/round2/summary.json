@@ -1,0 +1,521 @@
+{
+  "base": {
+    "repair": {
+      "runs": 19,
+      "trials": 156190016,
+      "filters": 10397,
+      "full": 10416,
+      "seconds": 14.962557129561901
+    },
+    "repair3": {
+      "runs": 19,
+      "trials": 1848398736,
+      "filters": 44402,
+      "full": 44421,
+      "seconds": 155.36008147988468
+    },
+    "cmov3": {
+      "runs": 19,
+      "trials": 8432268096,
+      "filters": 7071,
+      "full": 7090,
+      "seconds": 445.1313836751506
+    }
+  },
+  "flags": {
+    "cmp": {
+      "runs": 19,
+      "trials": 112208000,
+      "filters": 0,
+      "full": 19,
+      "seconds": 9.282462948001921
+    },
+    "cmov": {
+      "runs": 19,
+      "trials": 25739000,
+      "filters": 334,
+      "full": 353,
+      "seconds": 2.505449365824461
+    },
+    "other": {
+      "runs": 19,
+      "trials": 8336122428,
+      "filters": 23971,
+      "full": 23990,
+      "seconds": 482.92365669086576
+    }
+  },
+  "alias": {
+    "runs": 19,
+    "trials": 49286
+  },
+  "walks": [
+    {
+      "name": "walk_03",
+      "moves": 35159606,
+      "accepted": 383063,
+      "unique": 340000,
+      "checkpoints": 170,
+      "aliastrials": 469692,
+      "trials": 5844197926,
+      "filterpasses": 511956,
+      "fullchecks": 512128,
+      "k": 32,
+      "seconds": 450.057,
+      "comparison_histogram": "8:339999"
+    },
+    {
+      "name": "walk_07",
+      "moves": 47974527,
+      "accepted": 530893,
+      "unique": 494000,
+      "checkpoints": 247,
+      "aliastrials": 637678,
+      "trials": 5834800390,
+      "filterpasses": 653734,
+      "fullchecks": 653983,
+      "k": 32,
+      "seconds": 453.42,
+      "comparison_histogram": "8:493999"
+    },
+    {
+      "name": "walk_15",
+      "moves": 47910697,
+      "accepted": 576298,
+      "unique": 534000,
+      "checkpoints": 267,
+      "aliastrials": 673874,
+      "trials": 6014790172,
+      "filterpasses": 824013,
+      "fullchecks": 824282,
+      "k": 32,
+      "seconds": 455.035,
+      "comparison_histogram": "8:533999"
+    },
+    {
+      "name": "walk_18",
+      "moves": 24360104,
+      "accepted": 306936,
+      "unique": 262000,
+      "checkpoints": 131,
+      "aliastrials": 395690,
+      "trials": 6179947865,
+      "filterpasses": 389986,
+      "fullchecks": 390119,
+      "k": 32,
+      "seconds": 455.393,
+      "comparison_histogram": "8:261999"
+    }
+  ],
+  "passes": {
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/00_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/00_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/00_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_00_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/00_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/00_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/00_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_00_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/01_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/01_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/01_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_01_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/01_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/01_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/01_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_01_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/02_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/02_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/02_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_02_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/02_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/02_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/02_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_02_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/03_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/03_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/03_flag_control_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 5: reads uninitialized S0; line 16: reads uninitialized S0; line 19: reads uninitialized S0\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_03_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/03_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/03_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/03_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 10: reads uninitialized S5; line 21: reads uninitialized S5; line 24: reads uninitialized S5; line 25: reads uninitialized S5\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_03_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/04_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/04_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/04_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 12: reads uninitialized S2; line 13: reads uninitialized S2; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 20: reads uninitialized S2\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_04_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/04_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/04_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/04_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 17: reads uninitialized S7; line 18: reads uninitialized S7; line 23: reads uninitialized S7; line 24: reads uninitialized S7; line 25: reads uninitialized S7; line 26: reads uninitialized S7\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_04_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/05_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/05_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/05_flag_control_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_05_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/05_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/05_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/05_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_05_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/06_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/06_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/06_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_06_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/06_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/06_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/06_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_06_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/07_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/07_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/07_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S1; line 9: reads uninitialized S1; line 14: reads uninitialized S1; line 15: reads uninitialized S1; line 16: reads uninitialized S1; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 27: reads uninitialized S2; line 28: reads uninitialized S2; line 33: reads uninitialized S2; line 34: reads uninitialized S2; line 35: reads uninitialized S2; line 37: reads uninitialized S2\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_07_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/07_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/07_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/07_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 12: reads uninitialized S6; line 14: reads uninitialized S6; line 19: reads uninitialized S6; line 20: reads uninitialized S6; line 21: reads uninitialized S6; line 23: reads uninitialized S7; line 24: reads uninitialized S7; line 32: reads uninitialized S7; line 33: reads uninitialized S7; line 38: reads uninitialized S7; line 39: reads uninitialized S7; line 40: reads uninitialized S7; line 42: reads uninitialized S7; line 43: reads uninitialized S7\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_07_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/08_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/08_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/08_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_08_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/08_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/08_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/08_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_08_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/09_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/09_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/09_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_09_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/09_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/09_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/09_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_09_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/10_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/10_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/10_flag_control_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_10_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/10_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/10_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/10_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_10_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/11_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/11_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/11_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 7: reads uninitialized S0\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_11_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/11_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/11_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/11_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 12: reads uninitialized S5\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_11_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/12_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/12_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/12_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 4: reads uninitialized S0; line 22: reads uninitialized S0; line 23: reads uninitialized S0; line 24: reads uninitialized S0\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_12_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/12_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/12_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/12_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 9: reads uninitialized S5; line 27: reads uninitialized S5; line 28: reads uninitialized S5; line 29: reads uninitialized S5; line 30: reads uninitialized S5\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_12_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/13_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/13_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/13_flag_control_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_13_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/13_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/13_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/13_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_13_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/14_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/14_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/14_flag_control_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_14_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/14_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/14_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/14_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_14_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/15_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/15_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/15_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_15_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/15_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/15_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/15_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_15_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/16_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/16_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/16_flag_control_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_16_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/16_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/16_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/16_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_16_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/17_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/17_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/17_flag_control_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_17_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/17_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/17_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/17_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_17_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/18_flag_control_k32.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/18_flag_control_k32.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/18_flag_control_k32.s [relaxed+strict] n=5 L=32 R=10 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_18_flag_control_k32.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/18_flag_control_k32_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/18_flag_control_k32_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/18_flag_control_k32_mem.s [relaxed+strict] n=5 L=42 R=15 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_18_flag_control_k32_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_03_final.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_final_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_03_final_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_07_final.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_07_final_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_15_final.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_15_final_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final.s [relaxed+strict] n=5 L=32 R=10 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S1; line 6: reads uninitialized S1; line 11: reads uninitialized S4; line 13: reads uninitialized S4; line 17: reads uninitialized S4; line 22: reads uninitialized S4; line 23: reads uninitialized S1; line 24: reads uninitialized S4; line 25: reads uninitialized S1; line 27: reads uninitialized S1; line 29: reads uninitialized S1; line 29: reads uninitialized S4; line 30: reads uninitialized S1; line 31: reads uninitialized S1; line 31: reads uninitialized S4; line 33: reads uninitialized S4; line 34: reads uninitialized S4; line 35: reads uninitialized S4\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_18_final.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final_mem.s [relaxed+strict] n=5 L=42 R=15 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S6; line 11: reads uninitialized S6; line 16: reads uninitialized S9; line 18: reads uninitialized S9; line 22: reads uninitialized S9; line 27: reads uninitialized S9; line 28: reads uninitialized S6; line 29: reads uninitialized S9; line 30: reads uninitialized S6; line 32: reads uninitialized S6; line 34: reads uninitialized S6; line 34: reads uninitialized S9; line 35: reads uninitialized S6; line 36: reads uninitialized S6; line 36: reads uninitialized S9; line 37: reads uninitialized S6; line 38: reads uninitialized S9; line 39: reads uninitialized S9; line 40: reads uninitialized S9; line 41: reads uninitialized S9\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_18_final_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_03_checkpoint.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_03_checkpoint_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_03_checkpoint_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_07_checkpoint.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_07_checkpoint_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_15_checkpoint.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_15_checkpoint_mem.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint.s [relaxed+strict] n=5 L=32 R=10 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S1; line 6: reads uninitialized S1; line 11: reads uninitialized S4; line 13: reads uninitialized S4; line 17: reads uninitialized S4; line 22: reads uninitialized S4; line 23: reads uninitialized S1; line 24: reads uninitialized S4; line 25: reads uninitialized S1; line 27: reads uninitialized S1; line 29: reads uninitialized S1; line 29: reads uninitialized S4; line 30: reads uninitialized S1; line 31: reads uninitialized S1; line 31: reads uninitialized S4; line 33: reads uninitialized S4; line 34: reads uninitialized S4; line 35: reads uninitialized S4\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_18_checkpoint.log"
+    },
+    "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint_mem.s": {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint_mem.s [relaxed+strict] n=5 L=42 R=15 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S6; line 11: reads uninitialized S6; line 16: reads uninitialized S9; line 18: reads uninitialized S9; line 22: reads uninitialized S9; line 27: reads uninitialized S9; line 28: reads uninitialized S6; line 29: reads uninitialized S9; line 30: reads uninitialized S6; line 32: reads uninitialized S6; line 34: reads uninitialized S6; line 34: reads uninitialized S9; line 35: reads uninitialized S6; line 36: reads uninitialized S6; line 36: reads uninitialized S9; line 37: reads uninitialized S6; line 38: reads uninitialized S9; line 39: reads uninitialized S9; line 40: reads uninitialized S9; line 41: reads uninitialized S9\n",
+      "log": "/path/to/repo/agents/team/codex-fleet/w5/round2/logs/judge_walk_18_checkpoint_mem.log"
+    }
+  },
+  "comparison_structures": {
+    "cases": 541,
+    "seed_classes": 18,
+    "new_walk_classes": 3,
+    "seed_classes_distinct": 18,
+    "new_walk_classes_distinct": 0,
+    "new_representatives": {
+      "99b46df5276e664d6e19e9fe": [
+        "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_checkpoint.s",
+        "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_07_final.s"
+      ],
+      "58b838ef0d868286491cb2fe": [
+        "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_checkpoint.s",
+        "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_15_final.s"
+      ],
+      "3363866678859d225cf71170": [
+        "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_checkpoint.s",
+        "/path/to/repo/agents/team/codex-fleet/w5/round2/verified/walk_18_final.s"
+      ]
+    },
+    "new_representatives_distinct": {}
+  },
+  "totals": {
+    "bounded_candidate_tests": 18910926276,
+    "alias_candidate_tests": 49286,
+    "walk_candidate_tests": 23873736353,
+    "walk_proposals": 155404934,
+    "walk_accepted": 1797190,
+    "walk_distinct_lists": 1630000,
+    "walk_checkpoints": 815
+  }
+}

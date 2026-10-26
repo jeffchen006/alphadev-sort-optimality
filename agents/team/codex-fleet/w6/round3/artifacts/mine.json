@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/mine.py"
+  ],
+  "wall_limit": 90.0,
+  "exit": 124,
+  "seconds": 90.35303347092122,
+  "log": "round3/logs/mine.log"
+}

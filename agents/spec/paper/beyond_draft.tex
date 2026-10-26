@@ -1,0 +1,63 @@
+% spec, 2026-10-24 (round 3). Subsection "Beyond AlphaDev's action space". Evidence: board/claims.md (spec, upper, x86).
+% Uses \pending (theory's main.tex) and lem:snapshot (model_counting.tex).
+\subsection{Beyond AlphaDev's action space: memory operands}\label{sec:beyond}
+
+AlphaDev's action space excludes memory operands in \texttt{cmp} and \texttt{cmov} (``We cannot compare or conditionally move
+to a memory location (illegal)'', Methods). The x86 ISA has them: \texttt{cmp r32,m32}, \texttt{cmp m32,r32} and
+\texttt{cmov}$cc$\texttt{ r32,m32} (memory \emph{source}; there is no form with a memory destination and none with two memory
+operands). Model MM+ allows exactly these forms and keeps everything else of MM, including the counting: every instruction
+counts~1, and a memory operand does not change that.
+
+\paragraph{Shorter kernels.} Table~\ref{tab:beyond} lists MM+ kernels that are shorter than AlphaDev's for every $n$ we
+studied. The kernels for $n = 3, 4, 5$ were found by stochastic search (MCMC with exhaustive window re-optimization); the
+$n = 2$ kernel is
+\begin{center}\small
+\texttt{mov r0,[m0]; cmp r0,[m1]; mov r1,[m1]; cmovg r1,[m0]; cmovg r0,[m1]; mov [m0],r0; mov [m1],r1}.
+\end{center}
+Each kernel passes our strict reference judge (all weak orders, symbolic garbage registers and flags, random 32-bit inputs
+with \texttt{INT\_MIN}, \texttt{INT\_MAX} and ties), and the kernels for $n = 3, 4$ and a 40-instruction kernel for
+$n = 5$ sort on real hardware (AMD EPYC 9654, more than $3 \times 10^6$ runs each with garbage in all scratch registers and random flags, memory operands kept as memory
+operands; 0 mismatches against the judge semantics); the 39-instruction $n = 5$ kernel is judge-checked, hardware run
+\pending.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{lrrrrrrrrr}\toprule
+$n$ & MM (AlphaDev) & MM+ & load & store & \texttt{mov} r,r & \texttt{cmp} r,r & \texttt{cmp} r,m & \texttt{cmov} r,r & \texttt{cmov} r,m \\\midrule
+2 & 8  & \textbf{7}  & 2 & 2 & 0 & 0 & 1 & 0 & 2 \\
+3 & 17 & \textbf{15} & 2 & 3 & 0 & 0 & 3 & 3 & 4 \\
+4 & 28 & \textbf{26} & 4 & 4 & 2 & 4 & 1 & 9 & 2 \\
+5 & 42 & \textbf{39} & 4 & 5 & 3 & 6 & 3 & 12 & 6 \\\bottomrule
+\end{tabular}
+\caption{Shortest known kernels with and without memory source operands. For $n = 2$ both columns are optimal
+(exhaustive search, Section~\ref{sec:beyond}), and for $n = 3$ the MM+ value 15 is optimal by search; for $n = 3, 4, 5$ the MM column is the lower bound of this paper \pending{}
+and the MM+ column is an upper bound.}
+\label{tab:beyond}
+\end{table}
+
+\paragraph{Why memory operands help.} A cell keeps its input until the kernel stores into it, so it acts as a free,
+read-only copy of $x_i$. In MM a kernel that needs $x_i$ both as a value that a \texttt{cmov} will overwrite and as an
+unchanged value must spend a register move (or a second load) on a copy; in MM+ the unchanged value can be read from memory by
+\texttt{cmp r,[m]} or \texttt{cmov r,[m]} at no extra cost. The $n = 3$ kernel shows the effect most clearly: it has no
+register-to-register \texttt{mov} at all and only two loads; the third input enters registers only through \texttt{cmov}s from
+memory. The same property breaks the snapshot lemma (Lemma~\ref{lem:snapshot}): a load can no longer be renamed away if a later
+\texttt{cmp} or \texttt{cmov} reads the cell, and a cell may never be loaded at all. In general only
+$L^{\min}_{\mathrm{MM+}} \ge k^{\min}_{\mathrm{RS}}$ holds, so the MM+ question needs its own search over states with cells.
+
+\paragraph{Optimality in MM+.} For $n = 2$ an exhaustive breadth-first search over exact abstract states (cells, multiset of
+register value vectors, flags; T-relaxed, all weak orders) gives $L^{\min}_{\mathrm{MM}}(2) = 8$ and
+$L^{\min}_{\mathrm{MM+}}(2) = 7$; the MM value agrees with Lemma~\ref{lem:snapshot} ($2n + k_{\mathrm{RS}} = 4 + 4$). For $n = 3$
+an independent iterative-deepening search over the same exact states, with an admissible bound (cells off goal, missing
+goal values, and $\lceil\log_2\rceil$ of the largest class of inputs not yet told apart), finds no MM+ kernel of length
+$\le 14$ ($1.2 \times 10^9$ nodes, 35 minutes); so $L^{\min}_{\mathrm{MM+}}(3) = 15$ \pending{} [search result, no
+certificate; review of the bound]. A shortest MM+ sort3 even exists in $I_0$.
+
+\paragraph{Shorter is not faster here.} AlphaDev uses length as the cost because length and latency correlate for its
+kernels. With memory operands this link breaks: in our measurements on the AMD EPYC 9654 the MM+ kernels have a longer
+dependency-chain latency than AlphaDev's (median cycles per call, harness baseline subtracted: $n = 3$: 13.5 vs.\ 9.7;
+$n = 4$: 15.4 vs.\ 10.4; $n = 5$, 40-instruction kernel: 24.2 vs.\ 16.7) and no better throughput, because each memory operand puts a load on the
+critical path \pending{} [shared machine; re-measure on an idle core]. So MM+ is a statement about AlphaDev's \emph{cost model}
+(instruction count), not a faster sort.
+
+\paragraph{Consequence for the main result.} AlphaDev's lengths 17, 28 and 42 are optimal in AlphaDev's own action space
+(MM) \pending, but not in the full x86 instruction set restricted to \texttt{mov}, \texttt{cmp} and \texttt{cmov}: the rule
+MM-1 is necessary for the claim. We state the main theorem for MM and report MM+ separately.

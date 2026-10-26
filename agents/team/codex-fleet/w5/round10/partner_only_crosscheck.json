@@ -1,0 +1,23 @@
+{
+  "path_counts": {
+    "0": 0,
+    "1": 318,
+    "2": 966,
+    "3": 744,
+    "4": 180,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "cache": "CacheInfo(hits=162938, misses=505085, maxsize=None, currsize=505085)",
+  "wall_seconds": 9.570986374281347,
+  "compared_counts": {
+    "2": 966,
+    "3": 744,
+    "4": 180,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "matched": true
+}

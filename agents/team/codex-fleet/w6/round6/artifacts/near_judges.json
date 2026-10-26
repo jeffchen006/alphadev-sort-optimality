@@ -1,0 +1,212 @@
+[
+  {
+    "file": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_0_out_judge.log",
+    "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_31_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_b5_c9t0.5_near_31.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_0_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_31.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_1_out_judge.log",
+    "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_27_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_b5_c9t0.5_near_27.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_1_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_b5_c9t0.5_near_27.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_2_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_699_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_699.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_2_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_699.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_729_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_3_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_729_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_729.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_3_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_729.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_2023_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_4_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2023_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_2023.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_4_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2023.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_425_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_5_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_425_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_425.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_5_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_425.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_460_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_6_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_460_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_460.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_6_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_460.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_469_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_7_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_469_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_469.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_7_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_469.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_1440_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_8_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1440_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_1440.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_8_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1440.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_447_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_9_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_447_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_447.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_9_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_447.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_10_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_624_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_624.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_10_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_624.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_1347_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_11_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1347_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_1347.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_11_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1347.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_2036_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_12_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2036_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_2036.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_12_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_2036.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_1999_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_13_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1999_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_1999.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_13_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_1999.s [relaxed+strict] n=5 L=41 R=13 iset=I1 model=mem"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_10_out.s",
+    "model": "out",
+    "exit": 1,
+    "log": "round6/logs/nearclass_14_out_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_10_out.s [relaxed+strict] n=5 L=31 R=7 iset=I1 model=out"
+  },
+  {
+    "file": "round6/candidates/mem_a4_c8t1.2_near_10.s",
+    "model": "mem",
+    "exit": 1,
+    "log": "round6/logs/nearclass_14_mem_judge.log",
+    "result": "FAIL round6/candidates/mem_a4_c8t1.2_near_10.s [relaxed+strict] n=5 L=41 R=12 iset=I1 model=mem"
+  }
+]

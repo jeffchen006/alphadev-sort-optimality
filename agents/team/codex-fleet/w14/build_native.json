@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-26T07:01:49Z",
+  "status_at_switch": {
+    "assigned": 10696,
+    "attempted": 1851,
+    "counts": {
+      "NONE": 1796,
+      "LIMIT": 55
+    },
+    "remaining": 8845,
+    "current": {
+      "index": 1851,
+      "local": "sk/round4_repeat10_r015362.txt",
+      "timeout": 2.0
+    },
+    "attempts": 1851,
+    "updated": "2026-10-26T07:01:48Z"
+  },
+  "affinity": [
+    75
+  ],
+  "command": "nice -n 10 g++ -O3 -march=native -DNDEBUG -std=c++17 dagx.cpp -o dagx.native",
+  "generic_sha256": "7619f48826e65f536e76b5918525d1b3f7b7499ea81953ecf8e8767813b4c569",
+  "native_sha256": "0e1148023da8fd49a3faa90b019b23ffd560db5c20692a01eb2a1862edc8900a"
+}

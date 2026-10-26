@@ -1,0 +1,20 @@
+{
+  "common": {"n":5,"iset":"I1","model":"out","mincmp":7,"maxcmp":8,"nice_increment":10},
+  "supplied_mcmc": [
+    {"run":"c8a","slots":34,"scratch":7,"temperature":2,"length_penalty":1,"cpu_seconds":600,"seed":6101,"start":"seeds/position33.s","collect_max":33},
+    {"run":"c8b","slots":35,"scratch":7,"temperature":4,"length_penalty":2,"cpu_seconds":600,"seed":6102,"start":"seeds/position33.s","collect_max":33},
+    {"run":"c8c","slots":33,"scratch":7,"temperature":0.5,"length_penalty":0.5,"cpu_seconds":600,"seed":6103,"start":"seeds/position33.s","collect_max":33},
+    {"run":"c8d","slots":34,"scratch":7,"temperature":8,"length_penalty":0.5,"cpu_seconds":600,"seed":6104,"start":"seeds/position33.s","collect_max":33},
+    {"run":"c8e","slots":33,"scratch":7,"temperature":1,"length_penalty":1,"cpu_seconds":900,"seed":6201,"start":"seeds/c8_32.s","collect_max":32},
+    {"run":"c8f","slots":33,"scratch":7,"temperature":3,"length_penalty":1,"cpu_seconds":900,"seed":6202,"start":"seeds/c8_32.s","collect_max":32}
+  ],
+  "packed": [
+    {"run":"p31a","binary":"packed","slots":31,"temperature":2,"length_penalty":0,"cpu_seconds":600,"seed":6301,"start":"artifacts/sort5_c8_k32_out.s"},
+    {"run":"p31b","binary":"packed","slots":31,"temperature":6,"length_penalty":0,"cpu_seconds":600,"seed":6302,"start":"artifacts/sort5_c8_k32_out.s"},
+    {"run":"p32a","binary":"packed","slots":33,"temperature":1.5,"length_penalty":1,"cpu_seconds":600,"seed":6303,"start":"artifacts/sort5_c8_k32_out.s"},
+    {"run":"p31c","binary":"packed2","slots":31,"temperature":1,"length_penalty":0,"cpu_seconds":600,"seed":6304,"start":"candidates/c8a_len32_c35b6.s"},
+    {"run":"p32b","binary":"packed2","slots":33,"temperature":3,"length_penalty":1,"cpu_seconds":480,"seed":6401,"start":"candidates/c8a_len32_c35b6.s"},
+    {"run":"p32c","binary":"packed2","slots":34,"temperature":0.75,"length_penalty":2,"cpu_seconds":480,"seed":6402,"start":"artifacts/sort5_c8_k32_out.s"},
+    {"run":"p32d","binary":"packed2","slots":33,"temperature":1,"length_penalty":1,"cpu_seconds":300,"seed":6501,"start":"seeds/c8_13_k32.s"}
+  ]
+}

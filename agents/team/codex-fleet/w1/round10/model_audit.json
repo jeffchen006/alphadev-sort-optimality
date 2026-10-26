@@ -1,0 +1,43 @@
+{
+  "programs": 6,
+  "values_checked": 38456,
+  "comparisons_checked": 14616,
+  "records": [
+    {
+      "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/check2_three",
+      "values_checked": 15,
+      "comparisons_checked": 3,
+      "result": "all decoded intermediate values and flags agree"
+    },
+    {
+      "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/n2_k6_three",
+      "values_checked": 15,
+      "comparisons_checked": 3,
+      "result": "all decoded intermediate values and flags agree"
+    },
+    {
+      "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_two",
+      "values_checked": 12443,
+      "comparisons_checked": 4869,
+      "result": "all decoded intermediate values and flags agree"
+    },
+    {
+      "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/check5_three",
+      "values_checked": 12984,
+      "comparisons_checked": 4869,
+      "result": "all decoded intermediate values and flags agree"
+    },
+    {
+      "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check2",
+      "values_checked": 15,
+      "comparisons_checked": 3,
+      "result": "all decoded intermediate values and flags agree"
+    },
+    {
+      "tag": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5",
+      "values_checked": 12984,
+      "comparisons_checked": 4869,
+      "result": "all decoded intermediate values and flags agree"
+    }
+  ]
+}

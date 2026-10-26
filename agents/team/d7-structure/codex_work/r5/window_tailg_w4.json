@@ -1,0 +1,22 @@
+{
+  "result": "unsat",
+  "reason": "",
+  "mode": "tailg",
+  "c": 2,
+  "writes": 4,
+  "initial": [
+    0,
+    19,
+    14,
+    6,
+    4,
+    12,
+    18,
+    17,
+    16,
+    25
+  ],
+  "cases": 24,
+  "iterations": 2,
+  "seconds": 16.283290969207883
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "status": "UNKNOWN",
+    "cpu": 62.240343048,
+    "cases": 28,
+    "rounds": 2,
+    "base": 0,
+    "editable": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      28,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 22589,
+    "clauses": 209746,
+    "stats": {
+      "restarts": 10257,
+      "conflicts": 268852,
+      "decisions": 661799,
+      "propagations": 312967630
+    },
+    "maxrss_kib": 68648,
+    "total_cpu": 62.243296109
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 60.047083393,
+    "cases": 36,
+    "rounds": 3,
+    "base": 1,
+    "editable": [
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      28,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 28901,
+    "clauses": 269346,
+    "stats": {
+      "restarts": 10206,
+      "conflicts": 270664,
+      "decisions": 627165,
+      "propagations": 343296556
+    },
+    "maxrss_kib": 74472,
+    "total_cpu": 60.049813044000004
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 21.382905781999995,
+    "cases": 28,
+    "rounds": 2,
+    "base": 2,
+    "editable": [
+      14,
+      15,
+      19,
+      21,
+      22,
+      25,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 22589,
+    "clauses": 209606,
+    "stats": {
+      "restarts": 3532,
+      "conflicts": 97014,
+      "decisions": 252892,
+      "propagations": 129666355
+    },
+    "maxrss_kib": 74472,
+    "total_cpu": 21.38498629300001
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 61.81824311,
+    "cases": 36,
+    "rounds": 3,
+    "base": 3,
+    "editable": [
+      14,
+      15,
+      19,
+      21,
+      22,
+      24,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 28901,
+    "clauses": 269310,
+    "stats": {
+      "restarts": 9175,
+      "conflicts": 273077,
+      "decisions": 644197,
+      "propagations": 386626205
+    },
+    "maxrss_kib": 80532,
+    "total_cpu": 61.820772241000014
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 44.30995385900002,
+    "cases": 28,
+    "rounds": 2,
+    "base": 4,
+    "editable": [
+      11,
+      13,
+      14,
+      16,
+      18,
+      21,
+      27,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 22393,
+    "clauses": 208458,
+    "stats": {
+      "restarts": 8072,
+      "conflicts": 192548,
+      "decisions": 492214,
+      "propagations": 260746025
+    },
+    "maxrss_kib": 80532,
+    "total_cpu": 44.31192899000001
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 60.62811968700001,
+    "cases": 44,
+    "rounds": 4,
+    "base": 5,
+    "editable": [
+      13,
+      14,
+      15,
+      17,
+      19,
+      21,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 37682,
+    "clauses": 353022,
+    "stats": {
+      "restarts": 8360,
+      "conflicts": 228640,
+      "decisions": 753061,
+      "propagations": 416282819
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 60.63095680800001
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 61.33212968600003,
+    "cases": 28,
+    "rounds": 2,
+    "base": 6,
+    "editable": [
+      13,
+      14,
+      15,
+      17,
+      19,
+      22,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 24178,
+    "clauses": 225134,
+    "stats": {
+      "restarts": 11801,
+      "conflicts": 288481,
+      "decisions": 893265,
+      "propagations": 419624154
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 61.334363026999995
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 60.378266197000016,
+    "cases": 28,
+    "rounds": 2,
+    "base": 7,
+    "editable": [
+      13,
+      14,
+      15,
+      17,
+      19,
+      22,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 22393,
+    "clauses": 208514,
+    "stats": {
+      "restarts": 11258,
+      "conflicts": 267457,
+      "decisions": 863192,
+      "propagations": 344257975
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 60.380279469000016
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 61.39581190000001,
+    "cases": 36,
+    "rounds": 3,
+    "base": 8,
+    "editable": [
+      15,
+      16,
+      19,
+      21,
+      22,
+      24,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 28901,
+    "clauses": 269274,
+    "stats": {
+      "restarts": 8915,
+      "conflicts": 242562,
+      "decisions": 658370,
+      "propagations": 353075111
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 61.398388480999984
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 62.04604253400004,
+    "cases": 28,
+    "rounds": 2,
+    "base": 9,
+    "editable": [
+      13,
+      14,
+      15,
+      17,
+      19,
+      22,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 24178,
+    "clauses": 225106,
+    "stats": {
+      "restarts": 10576,
+      "conflicts": 272599,
+      "decisions": 852857,
+      "propagations": 406763469
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 62.04832562499996
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 60.22644430499997,
+    "cases": 36,
+    "rounds": 3,
+    "base": 10,
+    "editable": [
+      11,
+      14,
+      15,
+      16,
+      19,
+      21,
+      28,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 28397,
+    "clauses": 266322,
+    "stats": {
+      "restarts": 8126,
+      "conflicts": 248279,
+      "decisions": 633561,
+      "propagations": 388776559
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 60.22842178600001
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 50.75617544199997,
+    "cases": 28,
+    "rounds": 2,
+    "base": 11,
+    "editable": [
+      15,
+      16,
+      19,
+      21,
+      22,
+      25,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 22393,
+    "clauses": 208570,
+    "stats": {
+      "restarts": 8940,
+      "conflicts": 266718,
+      "decisions": 599568,
+      "propagations": 299909205
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 50.75815565300002
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 54.01013858099998,
+    "cases": 44,
+    "rounds": 4,
+    "base": 12,
+    "editable": [
+      11,
+      14,
+      15,
+      16,
+      18,
+      21,
+      27,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 34905,
+    "clauses": 326922,
+    "stats": {
+      "restarts": 6605,
+      "conflicts": 174806,
+      "decisions": 444653,
+      "propagations": 360323025
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 54.0121507209999
+  },
+  {
+    "status": "UNKNOWN",
+    "cpu": 62.328144326999904,
+    "cases": 36,
+    "rounds": 3,
+    "base": 13,
+    "editable": [
+      11,
+      13,
+      14,
+      15,
+      18,
+      21,
+      27,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 30930,
+    "clauses": 289114,
+    "stats": {
+      "restarts": 10207,
+      "conflicts": 226048,
+      "decisions": 631721,
+      "propagations": 414636279
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 62.33041291799998
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 29.126724620999994,
+    "cases": 36,
+    "rounds": 3,
+    "base": 14,
+    "editable": [
+      13,
+      14,
+      15,
+      16,
+      19,
+      22,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 29153,
+    "clauses": 270858,
+    "stats": {
+      "restarts": 5710,
+      "conflicts": 126525,
+      "decisions": 360052,
+      "propagations": 184812645
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 29.12875155200004
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 9.960913248999987,
+    "cases": 39,
+    "rounds": 3,
+    "base": 15,
+    "editable": [
+      17,
+      19,
+      21,
+      23,
+      24,
+      26,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 8,
+      "cpu": 60.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 33657,
+    "clauses": 311848,
+    "stats": {
+      "restarts": 1939,
+      "conflicts": 45574,
+      "decisions": 132985,
+      "propagations": 70003352
+    },
+    "maxrss_kib": 92872,
+    "total_cpu": 9.96311221999997
+  }
+]

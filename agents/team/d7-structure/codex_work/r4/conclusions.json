@@ -1,0 +1,70 @@
+{
+  "main_claim": "unresolved; no proof and no counterexample",
+  "c9_onewrite_control": {
+    "c": 9,
+    "w": 25,
+    "blocks": [
+      2,
+      1,
+      3,
+      3,
+      2,
+      3,
+      5,
+      3,
+      3
+    ]
+  },
+  "c10_padding_control": {
+    "c": 10,
+    "w": 23,
+    "blocks": [
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0
+    ]
+  },
+  "c11_essential_control": {
+    "c": 11,
+    "w": 22,
+    "blocks": [
+      2,
+      2,
+      2,
+      3,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  "n4_network_pools": 22,
+  "n4_negative_tests": [
+    [
+      5,
+      14
+    ],
+    [
+      6,
+      13
+    ],
+    [
+      6,
+      14
+    ]
+  ],
+  "n4_global_synthesis": "unknown, timeout 480s per query",
+  "n3_global_synthesis": "unknown, timeout 120s",
+  "zero_copy103_condition_checked": true,
+  "recommendation": "do not discard c=9 on this evidence"
+}

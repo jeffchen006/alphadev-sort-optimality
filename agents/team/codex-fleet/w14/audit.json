@@ -1,0 +1,22 @@
+{
+  "updated": "2026-10-26T07:42:17Z",
+  "assigned": 10696,
+  "attempted": 7139,
+  "attempts": 7139,
+  "counts": {
+    "NONE": 6854,
+    "LIMIT": 285
+  },
+  "unattempted": 3557,
+  "comparison_counts": {
+    "10": 9905,
+    "9": 791
+  },
+  "completed_attempt_wall_seconds": 2787.836638345383,
+  "copied_inputs_match_sources": true,
+  "assigned_list_match": true,
+  "records_and_logs_checked": true,
+  "source_sha256": "170a39aed7d72b0f065e668876783b1ed33829effcbacc44bc112789cb6dec09",
+  "executable_sha256": "0e1148023da8fd49a3faa90b019b23ffd560db5c20692a01eb2a1862edc8900a",
+  "history_snapshot_sha256": "770ec68cc5d7a044c2d9e141915a10c47455f5038957e085bb573843194f3f30"
+}

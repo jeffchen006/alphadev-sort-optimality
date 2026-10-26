@@ -1,0 +1,19 @@
+{
+  "name": "mine_near_clean",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/mine_near.py",
+    "--clean"
+  ],
+  "wall_limit": 120.0,
+  "exit": 0,
+  "seconds": 15.086296938359737,
+  "log": "round6/logs/mine_near_clean.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 1.600889,
+  "peak_child_rss_kib": 41408
+}

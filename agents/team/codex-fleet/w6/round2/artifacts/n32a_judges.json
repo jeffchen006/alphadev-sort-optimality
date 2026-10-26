@@ -1,0 +1,50 @@
+[
+  {
+    "path": "round2/verified/c8_161f27bdd6e9955b.s",
+    "pass": true,
+    "log": "round2/logs/c8_161f27bdd6e9955b_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_166731603245e2eb.s",
+    "pass": true,
+    "log": "round2/logs/c8_166731603245e2eb_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_1a082026b9b8a97.s",
+    "pass": true,
+    "log": "round2/logs/c8_1a082026b9b8a97_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_35006f3bfb8deb1b.s",
+    "pass": true,
+    "log": "round2/logs/c8_35006f3bfb8deb1b_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_4033c0cef9939583.s",
+    "pass": true,
+    "log": "round2/logs/c8_4033c0cef9939583_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_40718fc8b65bfb.s",
+    "pass": true,
+    "log": "round2/logs/c8_40718fc8b65bfb_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_dbbbb77809455d7.s",
+    "pass": true,
+    "log": "round2/logs/c8_dbbbb77809455d7_judge.log",
+    "returncode": 0
+  },
+  {
+    "path": "round2/verified/c8_e32bfb331db9cf7.s",
+    "pass": true,
+    "log": "round2/logs/c8_e32bfb331db9cf7_judge.log",
+    "returncode": 0
+  }
+]

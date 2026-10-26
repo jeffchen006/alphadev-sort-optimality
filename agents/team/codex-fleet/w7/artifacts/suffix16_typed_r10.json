@@ -1,0 +1,24 @@
+{
+  "name": "suffix16_typed_r10",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix16_typed.s",
+    "--changes",
+    "0",
+    "--registers",
+    "10",
+    "--prefix",
+    "16",
+    "--typed"
+  ],
+  "limit": 1800,
+  "seconds": 1800.1569473017007,
+  "exit": -15,
+  "status": "timeout"
+}

@@ -1,0 +1,32 @@
+# n=4 R=10 iset=I1 model=mem source=suppG:Sort4_30
+# L=30 (every instruction counts). regs: S0=ecx S1=edx S2=eax S3=r8d S4=r9d S5=r10d
+mov S0, P1       # mov 0x4(%0), %%ecx
+mov S1, P2       # mov 0x8(%0), %%edx
+mov S2, P0       # mov (%0), %%eax
+cmp S1, S2       # cmp %%eax, %%edx
+mov S3, S2       # mov %%eax, %%r8d
+mov S2, P0       # mov (%0), %%eax
+cmovg S3, S1     # cmovg %%edx, %%r8d
+cmovge S1, S2    # cmovge %%eax, %%edx
+mov S2, P3       # mov 0xc(%0), %%eax
+cmp S2, S0       # cmp %%ecx, %%eax
+mov S4, S0       # mov %%ecx, %%r9d
+cmovg S4, S2     # cmovg %%eax, %%r9d
+cmovge S4, S2    # cmovge %%eax, %%r9d
+cmovg S2, S0     # cmovg %%ecx, %%eax
+cmp S4, S3       # cmp %%r8d, %%r9d
+mov S5, S3       # mov %%r8d, %%r10d
+cmovge S5, S4    # cmovge %%r9d, %%r10d
+mov P3, S5       # mov %%r10d, 0xc(%0)
+cmovg S4, S3     # cmovg %%r8d, %%r9d
+mov S5, S1       # mov %%edx, %%r10d
+cmp S2, S1       # cmp %%edx, %%eax
+cmovge S5, S2    # cmovge %%eax, %%r10d
+cmovge S2, S1    # cmovge %%edx, %%eax
+mov P0, S2       # mov %%eax, (%0)
+cmp S5, S4       # cmp %%r9d, %%r10d
+mov S1, S4       # mov %%r9d, %%edx
+cmovge S1, S5    # cmovge %%r10d, %%edx
+mov P2, S1       # mov %%edx, 0x8(%0)
+cmovge S5, S4    # cmovge %%r9d, %%r10d
+mov P1, S5       # mov %%r10d, 0x4(%0)

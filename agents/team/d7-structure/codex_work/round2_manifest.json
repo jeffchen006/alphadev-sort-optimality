@@ -1,0 +1,682 @@
+[
+  {
+    "tag": "merge23",
+    "idea": "sort2 + sort3 + adaptive merge",
+    "file": "codex_work/pool_merge23.txt",
+    "size": 23,
+    "notes": null,
+    "sha256": "92e414922fe2ec4d51b1894815ff92efcf905ead8eba5ed877ccd264a04d9688"
+  },
+  {
+    "tag": "merge_rev0",
+    "idea": "adaptive merge: opposite route 0",
+    "file": "codex_work/pool_merge_rev0.txt",
+    "size": 24,
+    "notes": null,
+    "sha256": "358d5de4f0137bc1d72e438d62b8337f6a58ef9c2059705a7cd13e0c0b02084d"
+  },
+  {
+    "tag": "merge_rev1",
+    "idea": "adaptive merge: opposite route 1",
+    "file": "codex_work/pool_merge_rev1.txt",
+    "size": 24,
+    "notes": null,
+    "sha256": "76676db76559787e3614cae49d2fd539a04570b7a2512e302d4bc6bbf351abe3"
+  },
+  {
+    "tag": "merge_rev2",
+    "idea": "adaptive merge: opposite route 2",
+    "file": "codex_work/pool_merge_rev2.txt",
+    "size": 24,
+    "notes": null,
+    "sha256": "903b3041edf69438bfc852fbc19690a6027a74ae303fd1f6589a050720dd37b5"
+  },
+  {
+    "tag": "merge_rev_all",
+    "idea": "adaptive merge: three opposite routes",
+    "file": "codex_work/pool_merge_rev_all.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "cbe0ec53aa166a22a79da8c3a9863f5abcedff66ddfe4a6a47d46bc9fd587dd7"
+  },
+  {
+    "tag": "merge_projected",
+    "idea": "adaptive merge + lattice counterparts",
+    "file": "codex_work/pool_merge_projected.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "97f6236de0074c4b69e5ca49615923065b63756715e8ccbb070e000d12c16a99"
+  },
+  {
+    "tag": "merge_cross0",
+    "idea": "adaptive merge: min/max cross route 15:16",
+    "file": "codex_work/pool_merge_cross0.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "f5a8d2de4dc783e85bbd1f053f9b9c11d125560512101b1483404f7fc912fb0a"
+  },
+  {
+    "tag": "merge_cross1",
+    "idea": "adaptive merge: min/max cross route 16:17",
+    "file": "codex_work/pool_merge_cross1.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "e01e54ed46b56d240b28273ba414bed21706e48b63b7164706b7301baf6128aa"
+  },
+  {
+    "tag": "base_low_both",
+    "idea": "base + two paired satellites (low)",
+    "file": "codex_work/pool_base_low_both.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "8fd07a1197d855352a8060e222c0c0eba1f9e4b65a15518653fab65eb7a19198"
+  },
+  {
+    "tag": "base_low_one",
+    "idea": "base + one paired satellite (low)",
+    "file": "codex_work/pool_base_low_one.txt",
+    "size": 24,
+    "notes": null,
+    "sha256": "37e6c2cde10a3929fab35955604f8dc8f834b8dd58f9041bfa7c6fc25af707b9"
+  },
+  {
+    "tag": "base_high_both",
+    "idea": "base + two paired satellites (high)",
+    "file": "codex_work/pool_base_high_both.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "3baba0e588204c44ad3ef5ab1500fb356c7b61c242c3bc2de02b62ce58e65804"
+  },
+  {
+    "tag": "base_high_one",
+    "idea": "base + one paired satellite (high)",
+    "file": "codex_work/pool_base_high_one.txt",
+    "size": 24,
+    "notes": null,
+    "sha256": "4a7de6e0e2e99ade8bc23dcf09d6cbccf28272cd60d3950ac8db754ba0100a30"
+  },
+  {
+    "tag": "base_split",
+    "idea": "base + adaptive pivot pair (split)",
+    "file": "codex_work/pool_base_split.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "6d697463ecc8761c98f4c4a73f0811d360c276cbbc1f3760c1d28fb6d8e06ee1"
+  },
+  {
+    "tag": "base_right",
+    "idea": "base + adaptive pivot pair (right)",
+    "file": "codex_work/pool_base_right.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "902eec6ff85343d0d58ba40b9cb736ff8a447bb68f445d0bd4a10815f79f4052"
+  },
+  {
+    "tag": "base_middle",
+    "idea": "base + adaptive pivot pair (middle)",
+    "file": "codex_work/pool_base_middle.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "a4db65f091fdcccabb84a2263a8a17a60e1edc2e770eb23d21cb9a49177b8e8e"
+  },
+  {
+    "tag": "base_last",
+    "idea": "base + adaptive pivot pair (last)",
+    "file": "codex_work/pool_base_last.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "2ecbbae0e87377b73193e047b95327537057f10b73184ae4ec99b4954d4ac827"
+  },
+  {
+    "tag": "fj7_00",
+    "idea": "FJ: x4 first, clamp variants 0/0",
+    "file": "codex_work/pool_fj7_00.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "941f0fc01c6f397d1ecac188a33bda51a23043024c775311f7b8ec0b5cdef7ff"
+  },
+  {
+    "tag": "fj7_11",
+    "idea": "FJ: x4 first, clamp variants 1/1",
+    "file": "codex_work/pool_fj7_11.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "18a89573fe2c72e73559d94f8d01e9b13e8b11f83db241ede9829cf4acc5723f"
+  },
+  {
+    "tag": "fj7_22",
+    "idea": "FJ: x4 first, clamp variants 2/2",
+    "file": "codex_work/pool_fj7_22.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "2d19cbeabbb23527217f0b208a9bc35826ac623da8ba8e923f2fd46a977890a4"
+  },
+  {
+    "tag": "fj7_33",
+    "idea": "FJ: x4 first, clamp variants 3/3",
+    "file": "codex_work/pool_fj7_33.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "8b7edb35586bf8a568e0d4eb509e3a57af73ec99a80ddf901371b69abd2b50dc"
+  },
+  {
+    "tag": "fj7_03",
+    "idea": "FJ: x4 first, clamp variants 0/3",
+    "file": "codex_work/pool_fj7_03.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "97eef6795a0a8e4b738ea3dede173993dcb66ca9776dd47d79d4dcfaad945f0d"
+  },
+  {
+    "tag": "fj7_30",
+    "idea": "FJ: x4 first, clamp variants 3/0",
+    "file": "codex_work/pool_fj7_30.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "71236896e830710bc892e49a2cbd220d7ef5741d961b5578b96ebf824409eaf2"
+  },
+  {
+    "tag": "fj7_12",
+    "idea": "FJ: x4 first, clamp variants 1/2",
+    "file": "codex_work/pool_fj7_12.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "19d662d7aef3f4ed29569b3a228bd709fca74772401a63ddc613a038b3d90fda"
+  },
+  {
+    "tag": "fj7_21",
+    "idea": "FJ: x4 first, clamp variants 2/1",
+    "file": "codex_work/pool_fj7_21.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "29caaf48c59c98e55413502496c518c407bbce23b4573425a5a4a062e8988189"
+  },
+  {
+    "tag": "fj8_00",
+    "idea": "FJ: pending low first, clamp 0 pivot 0",
+    "file": "codex_work/pool_fj8_00.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "c2de51f7be7617d9ec34a3f0913486e7d11f10cc24f3ad6f4da4b4838759dd0a"
+  },
+  {
+    "tag": "fj8_70",
+    "idea": "FJ: pending low first, clamp 7 pivot 0",
+    "file": "codex_work/pool_fj8_70.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "e86dfef08113ede31d427b0dc2955b3329cd08659339a13f6fd5701732cd4b60"
+  },
+  {
+    "tag": "fj8_21",
+    "idea": "FJ: pending low first, clamp 2 pivot 1",
+    "file": "codex_work/pool_fj8_21.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "d4356f54b420775ff5a4b7efbfc8ea2c3d02055681007a7589cb1b75037e63c0"
+  },
+  {
+    "tag": "fj8_51",
+    "idea": "FJ: pending low first, clamp 5 pivot 1",
+    "file": "codex_work/pool_fj8_51.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "6cf8b08bb314941cc8a31fa8517d9df5e1fd541704e59cc5d527378fbdc2857a"
+  },
+  {
+    "tag": "base_sur3138",
+    "idea": "base + six-gate comparison surrogate f4_0_12_l",
+    "file": "codex_work/pool_base_sur3138.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 3138,
+      "construct": [
+        [
+          9,
+          11,
+          0,
+          12
+        ]
+      ]
+    },
+    "sha256": "b192243b5fa9c47b9688d1c622cb980e86ff4a10faf46ced23c41905ca41050b"
+  },
+  {
+    "tag": "base_sur3139",
+    "idea": "base + six-gate comparison surrogate f4_0_12_le",
+    "file": "codex_work/pool_base_sur3139.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 3139,
+      "construct": [
+        [
+          9,
+          11,
+          0,
+          12
+        ],
+        [
+          9,
+          11,
+          11,
+          12
+        ],
+        [
+          9,
+          11,
+          14,
+          12
+        ]
+      ]
+    },
+    "sha256": "75563f68f3282860c6f947b30a323b73f2cf2792c0b3485bbe5b81b1ead5bd54"
+  },
+  {
+    "tag": "base_sur4615",
+    "idea": "base + six-gate comparison surrogate f6_0_11_l",
+    "file": "codex_work/pool_base_sur4615.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 4615,
+      "construct": [
+        [
+          0,
+          16,
+          0,
+          11
+        ],
+        [
+          0,
+          16,
+          12,
+          11
+        ],
+        [
+          0,
+          16,
+          17,
+          11
+        ]
+      ]
+    },
+    "sha256": "91f00978dd740e6ccf7eab6f60d8f2db15dbf9154e5b1153e778be8930516f3d"
+  },
+  {
+    "tag": "base_sur4616",
+    "idea": "base + six-gate comparison surrogate f6_0_11_le",
+    "file": "codex_work/pool_base_sur4616.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 4616,
+      "construct": [
+        [
+          0,
+          16,
+          0,
+          11
+        ],
+        [
+          0,
+          16,
+          12,
+          11
+        ],
+        [
+          0,
+          16,
+          17,
+          11
+        ]
+      ]
+    },
+    "sha256": "60acb8e0ce3fcf39d7b2919314c6dbdd2f230d52b5a516cea137d734aa0830bf"
+  },
+  {
+    "tag": "base_sur4619",
+    "idea": "base + six-gate comparison surrogate f6_0_14_l",
+    "file": "codex_work/pool_base_sur4619.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 4619,
+      "construct": [
+        [
+          0,
+          16,
+          0,
+          14
+        ],
+        [
+          0,
+          16,
+          12,
+          14
+        ],
+        [
+          0,
+          16,
+          17,
+          14
+        ]
+      ]
+    },
+    "sha256": "61d25843dbfb901c293853c58f034ba92b1eb1ca4a95f33bb8067f9f85654fcb"
+  },
+  {
+    "tag": "base_sur4620",
+    "idea": "base + six-gate comparison surrogate f6_0_14_le",
+    "file": "codex_work/pool_base_sur4620.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 4620,
+      "construct": [
+        [
+          0,
+          16,
+          0,
+          14
+        ],
+        [
+          0,
+          16,
+          12,
+          14
+        ],
+        [
+          0,
+          16,
+          17,
+          14
+        ]
+      ]
+    },
+    "sha256": "55f7989818c9af46ea36a462158d55b87301fd7a138e6fd279629e89f093d4d9"
+  },
+  {
+    "tag": "base_sur6213",
+    "idea": "base + six-gate comparison surrogate f8_11_0_l",
+    "file": "codex_work/pool_base_sur6213.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 6213,
+      "construct": [
+        [
+          15,
+          13,
+          11,
+          0
+        ]
+      ]
+    },
+    "sha256": "b420cf115bdc512a7dcf3f73910056014b67adf18a2e63dede986b6193bd1806"
+  },
+  {
+    "tag": "base_sur6233",
+    "idea": "base + six-gate comparison surrogate f8_11_10_l",
+    "file": "codex_work/pool_base_sur6233.txt",
+    "size": 24,
+    "notes": {
+      "candidate_id": 6233,
+      "construct": [
+        [
+          15,
+          13,
+          11,
+          10
+        ]
+      ]
+    },
+    "sha256": "8980a2487cc6e16a54ad48e9d597f3c07200040ae0f9e9d4b048a2485f27a617"
+  },
+  {
+    "tag": "base_sur3_0",
+    "idea": "base + three comparison surrogates 3138,4615,6213",
+    "file": "codex_work/pool_base_sur3_0.txt",
+    "size": 26,
+    "notes": {
+      "candidate_ids": [
+        3138,
+        4615,
+        6213
+      ]
+    },
+    "sha256": "9ffae42c4b4b4d8feae84af97bfcbc711924666359fcff9fc3c7951d37196a15"
+  },
+  {
+    "tag": "base_sur3_1",
+    "idea": "base + three comparison surrogates 3139,4616,6214",
+    "file": "codex_work/pool_base_sur3_1.txt",
+    "size": 26,
+    "notes": {
+      "candidate_ids": [
+        3139,
+        4616,
+        6214
+      ]
+    },
+    "sha256": "2d493f8254f4f19685f2cf907e2731e68ed8008f997b9b3a041ed4767a2e716b"
+  },
+  {
+    "tag": "base_sur3_2",
+    "idea": "base + three comparison surrogates 3138,4619,6235",
+    "file": "codex_work/pool_base_sur3_2.txt",
+    "size": 26,
+    "notes": {
+      "candidate_ids": [
+        3138,
+        4619,
+        6235
+      ]
+    },
+    "sha256": "98c10e215250e8de9ab6caa62e0d8c6a9f3acf284d75ac7a086f9b3ffbf66486"
+  },
+  {
+    "tag": "base_sur3_3",
+    "idea": "base + three comparison surrogates 3139,4620,6233",
+    "file": "codex_work/pool_base_sur3_3.txt",
+    "size": 26,
+    "notes": {
+      "candidate_ids": [
+        3139,
+        4620,
+        6233
+      ]
+    },
+    "sha256": "11a1ca4e8b9459e75b8fea71b06e38bec974ceda2d7daadce3bd7dda438b73fb"
+  },
+  {
+    "tag": "hybrid_low",
+    "idea": "aligned adaptive merge + base low terms",
+    "file": "codex_work/pool_hybrid_low.txt",
+    "size": 27,
+    "notes": {
+      "base_term_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "input_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    "sha256": "e6c603e9d2f5620d2673f9b485af7a33bb867491ed0b02aa83acb6db69a0aaf7"
+  },
+  {
+    "tag": "hybrid_clip",
+    "idea": "aligned adaptive merge + base clip terms",
+    "file": "codex_work/pool_hybrid_clip.txt",
+    "size": 27,
+    "notes": {
+      "base_term_indices": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "input_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    "sha256": "2c122803050a8fd04f2eb9b05b38682e48773f0bd66689f2712dc3670ff6c949"
+  },
+  {
+    "tag": "hybrid_high",
+    "idea": "aligned adaptive merge + base high terms",
+    "file": "codex_work/pool_hybrid_high.txt",
+    "size": 27,
+    "notes": {
+      "base_term_indices": [
+        15,
+        16,
+        18,
+        19
+      ],
+      "input_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    "sha256": "291f180f8193d20f0a0d8c13143032f95f4e6b52a63a40b644bd8337e3f712d6"
+  },
+  {
+    "tag": "hybrid_bridge",
+    "idea": "aligned adaptive merge + base bridge terms",
+    "file": "codex_work/pool_hybrid_bridge.txt",
+    "size": 27,
+    "notes": {
+      "base_term_indices": [
+        9,
+        13,
+        15,
+        16
+      ],
+      "input_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    "sha256": "e3fdcb61a07a3c01d463014223a63eb0b048d28372789ad077c6ec989b5f9c41"
+  },
+  {
+    "tag": "hybrid_core",
+    "idea": "aligned adaptive merge + base core terms",
+    "file": "codex_work/pool_hybrid_core.txt",
+    "size": 27,
+    "notes": {
+      "base_term_indices": [
+        9,
+        10,
+        15,
+        16
+      ],
+      "input_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    "sha256": "33d2705d5d9e8fe6c90e943aace63426e353efa8d8efd627a276e0329bd8ba25"
+  },
+  {
+    "tag": "hybrid_middle",
+    "idea": "aligned adaptive merge + base middle terms",
+    "file": "codex_work/pool_hybrid_middle.txt",
+    "size": 27,
+    "notes": {
+      "base_term_indices": [
+        11,
+        12,
+        15,
+        19
+      ],
+      "input_permutation": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ]
+    },
+    "sha256": "f24a971168029204cd02d76690df4ce158cc36aec15e7ad027d8689e73ab66b5"
+  },
+  {
+    "tag": "merge_m1",
+    "idea": "merge: smaller group maximum + exchanged middle pair",
+    "file": "codex_work/pool_merge_m1.txt",
+    "size": 23,
+    "notes": null,
+    "sha256": "ec40b56cad03e5d20f5dc3b04044726d99da119c1c4941076176c038cc16b8df"
+  },
+  {
+    "tag": "merge_m1_altcore",
+    "idea": "same merge, dual sort3 intermediate",
+    "file": "codex_work/pool_merge_m1_altcore.txt",
+    "size": 23,
+    "notes": null,
+    "sha256": "6bc982d35db5b2fd2d6092c78fdcc00c1f7154377a17193f4e568074a20b1f4e"
+  },
+  {
+    "tag": "merge_m1_bothcore",
+    "idea": "same merge, both sort3 intermediates",
+    "file": "codex_work/pool_merge_m1_bothcore.txt",
+    "size": 24,
+    "notes": null,
+    "sha256": "ee85405e69b7693f56dab5a76f601e8c8373c832c2a1fd28de490eab1a950d2b"
+  },
+  {
+    "tag": "merge_m1_routes",
+    "idea": "same merge + original three route columns",
+    "file": "codex_work/pool_merge_m1_routes.txt",
+    "size": 25,
+    "notes": null,
+    "sha256": "e81c76fbe0217accba32c000119c431a546bf0cbfff6f7738921b742b292ad87"
+  },
+  {
+    "tag": "merge_m1_caps",
+    "idea": "same merge + three bounded copy sources",
+    "file": "codex_work/pool_merge_m1_caps.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "3cff95444a1ae9f6c3cd6981798ec4b6b1c38c69d6f0b9d00ce7cb94cea908f7"
+  },
+  {
+    "tag": "merge_m1_altcaps",
+    "idea": "dual sort3 + bounded copy sources",
+    "file": "codex_work/pool_merge_m1_altcaps.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "9b3c9ab0600ba0ceef975266fe5abdefbfcfebb565df4df95ecf64890f104174"
+  },
+  {
+    "tag": "merge_m1_capsroute",
+    "idea": "same merge + bounded sources and original first route",
+    "file": "codex_work/pool_merge_m1_capsroute.txt",
+    "size": 27,
+    "notes": null,
+    "sha256": "57b994c3cf733bf221751928471e919709f4fb9d949b462f5b5e9490b4077f83"
+  },
+  {
+    "tag": "merge_m1_projected",
+    "idea": "same merge + lattice counterparts",
+    "file": "codex_work/pool_merge_m1_projected.txt",
+    "size": 26,
+    "notes": null,
+    "sha256": "3416250931deb4828edf2b3ed7b4159d69318ea463fee603375f7780703fb576"
+  }
+]

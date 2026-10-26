@@ -1,0 +1,20 @@
+[
+  [
+    "suffix16_typed_120",
+    300,
+    [
+      "seeds/near31.s",
+      "candidates/suffix16_120.s",
+      "--changes",
+      "0",
+      "--registers",
+      "10",
+      "--prefix",
+      "16",
+      "--typed",
+      "--initial",
+      "120",
+      "--proof"
+    ]
+  ]
+]

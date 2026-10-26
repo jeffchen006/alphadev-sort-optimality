@@ -1,0 +1,80 @@
+{
+  "checked_classes": 306,
+  "recorded_results": 205,
+  "unrun": 101,
+  "statuses": {
+    "UNSAT": 200,
+    "UNKNOWN": 5
+  },
+  "status_by_information_filter": {
+    "False": {
+      "UNSAT": 200
+    },
+    "True": {
+      "UNKNOWN": 5
+    }
+  },
+  "original_795_configuration_ledger": {
+    "UNSAT": 297,
+    "UNKNOWN": 498
+  },
+  "controls": 3,
+  "strict_pass_ledger": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_0_30ac78ad04f7_37102465_1_k32.s",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round5/verified/model_class_control_0_30ac78ad04f7_37102465_1_k32.s",
+      "model": "out",
+      "k": 32,
+      "sha256": "5a516a3d58c5f9ed41296299fcdf860dcf9d27813eef4e31bce53e9b99d09a45",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round5/logs/model_class_control_0_30ac78ad04f7_37102465_1_k32_strict.log",
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_0_30ac78ad04f7_37102465_1_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_0_30ac78ad04f7_37102465_1_k32_mem.s",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round5/verified/model_class_control_0_30ac78ad04f7_37102465_1_k32_mem.s",
+      "model": "mem",
+      "k": 32,
+      "sha256": "386bb6729eea76df33e74c90d747c7fb9fff551970f2e27e67651801f3c7a63c",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round5/logs/model_class_control_0_30ac78ad04f7_37102465_1_k32_mem_strict.log",
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_0_30ac78ad04f7_37102465_1_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_2_fd7a081c6ece_42031657_1_k32.s",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round5/verified/model_class_control_2_fd7a081c6ece_42031657_1_k32.s",
+      "model": "out",
+      "k": 32,
+      "sha256": "67eef06a582c2afb274c118847d8605a0e5d87a0427faf345fb459c8d2af7dc7",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round5/logs/model_class_control_2_fd7a081c6ece_42031657_1_k32_strict.log",
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_2_fd7a081c6ece_42031657_1_k32.s [relaxed+strict] n=5 L=32 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S1; line 9: reads uninitialized S1; line 14: reads uninitialized S1; line 15: reads uninitialized S1; line 16: reads uninitialized S1; line 18: reads uninitialized S2; line 19: reads uninitialized S2; line 27: reads uninitialized S2; line 28: reads uninitialized S2; line 33: reads uninitialized S2; line 34: reads uninitialized S2; line 35: reads uninitialized S2; line 37: reads uninitialized S2"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_2_fd7a081c6ece_42031657_1_k32_mem.s",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round5/verified/model_class_control_2_fd7a081c6ece_42031657_1_k32_mem.s",
+      "model": "mem",
+      "k": 32,
+      "sha256": "cca95f5cbd459ae29a469a122c1ee3fb3ae2fd4ea5bc88ad5cd6faa540f29bcf",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round5/logs/model_class_control_2_fd7a081c6ece_42031657_1_k32_mem_strict.log",
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_2_fd7a081c6ece_42031657_1_k32_mem.s [relaxed+strict] n=5 L=42 R=13 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 12: reads uninitialized S6; line 14: reads uninitialized S6; line 19: reads uninitialized S6; line 20: reads uninitialized S6; line 21: reads uninitialized S6; line 23: reads uninitialized S7; line 24: reads uninitialized S7; line 32: reads uninitialized S7; line 33: reads uninitialized S7; line 38: reads uninitialized S7; line 39: reads uninitialized S7; line 40: reads uninitialized S7; line 42: reads uninitialized S7; line 43: reads uninitialized S7"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_5_66221a2755ee_42031756_1_k32.s",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round5/verified/model_class_control_5_66221a2755ee_42031756_1_k32.s",
+      "model": "out",
+      "k": 32,
+      "sha256": "c9d1ca9d3e98e2b4b2c3f299924579a1afb51a38741f8b31551d7158345f74c3",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round5/logs/model_class_control_5_66221a2755ee_42031756_1_k32_strict.log",
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_5_66221a2755ee_42031756_1_k32.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_5_66221a2755ee_42031756_1_k32_mem.s",
+      "retained_copy": "/path/to/repo/agents/team/codex-fleet/w9/round5/verified/model_class_control_5_66221a2755ee_42031756_1_k32_mem.s",
+      "model": "mem",
+      "k": 32,
+      "sha256": "3a148195f1270772c17d40105d59a0b993cfab5f4cce8c27cde654106cc8d542",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w9/round5/logs/model_class_control_5_66221a2755ee_42031756_1_k32_mem_strict.log",
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w9/round5/candidates/model_class_control_5_66221a2755ee_42031756_1_k32_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem"
+    }
+  ],
+  "candidate_models": 0,
+  "note": "This audit checks saved identities and raw solver status, not an UNSAT certificate or the encoder semantics."
+}

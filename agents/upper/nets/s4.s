@@ -1,0 +1,21 @@
+# n=4 model=free iset=I0 source=net2s 0-1,2-3,0-2,1-3,1-2 len=20 outputs: P0 P1 P2 P3
+mov S0, P0
+cmp P0, P1
+cmovg P0, P1
+cmovg P1, S0
+mov S1, P2
+cmp P2, P3
+cmovg P2, P3
+cmovg P3, S1
+mov S2, P0
+cmp P0, P2
+cmovg P0, P2
+cmovg P2, S2
+mov S3, P1
+cmp P1, P3
+cmovg P1, P3
+cmovg P3, S3
+mov S4, P1
+cmp P1, P2
+cmovg P1, P2
+cmovg P2, S4

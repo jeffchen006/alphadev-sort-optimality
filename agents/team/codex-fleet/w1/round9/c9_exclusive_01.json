@@ -1,0 +1,112 @@
+{
+  "status": "UNSAT",
+  "cpu": 0.035302505,
+  "cases": 11,
+  "rounds": 1,
+  "args": {
+    "index": 1,
+    "mode": "exclusive",
+    "tail": 6,
+    "cpu": 30.0,
+    "extra": 2,
+    "unbounded": true,
+    "control": false,
+    "all_cases": false,
+    "stem": "c9_exclusive_01"
+  },
+  "key": "c9_b01",
+  "editable": [
+    30
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      1
+    ]
+  ],
+  "vars": 1383,
+  "clauses": 9507,
+  "stats": {
+    "restarts": 0,
+    "conflicts": 0,
+    "decisions": 0,
+    "propagations": 789
+  },
+  "maxrss_kib": 24016,
+  "total_cpu": 0.037568915999999994,
+  "registers": 11,
+  "suffix_builds": 10
+}

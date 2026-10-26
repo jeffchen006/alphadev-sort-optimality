@@ -1,0 +1,5 @@
+PASS /path/to/repo/agents/team/codex-fleet/w10/round4/arbitrary_control_c8.s [relaxed+strict] n=5 L=32 R=9 iset=I1 model=out
+  AlphaDev-pruning notes (not enforced): line 4: reads uninitialized S1; line 5: reads uninitialized S1; line 11: reads uninitialized S1; line 26: reads uninitialized S1
+PASS /path/to/repo/agents/team/codex-fleet/w10/round4/arbitrary_control_c8_mem.s [relaxed+strict] n=5 L=42 R=14 iset=I1 model=mem
+  AlphaDev-pruning notes (not enforced): line 9: reads uninitialized S6; line 10: reads uninitialized S6; line 16: reads uninitialized S6; line 31: reads uninitialized S6; line 32: reads uninitialized S6
+{"n": 5, "weak_orders": 541, "wrong_outputs": 0, "undefined_comparisons": 0, "partial_data_nodes": [1], "nonlattice_full_data_nodes": [12, 15, 16, 18, 19, 21], "lattice_full_data_nodes": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 17, 20, 22, 23], "k": 32, "comparisons": 8}

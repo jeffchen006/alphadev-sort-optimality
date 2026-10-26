@@ -1,0 +1,146 @@
+{
+  "clean": true,
+  "scanned": 2176,
+  "converted": 543,
+  "skipped": 1633,
+  "raw_signatures": 26,
+  "classes": 15,
+  "old_signature": "350eb39295a63cc2414cbd3a",
+  "representatives": [
+    {
+      "source": "round6/candidates/mem_b5_c9t0.5_near_31.s",
+      "file": "round6/candidates/mem_b5_c9t0.5_near_31_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "023a1c104c44cca93edef886",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_b5_c9t0.5_near_27.s",
+      "file": "round6/candidates/mem_b5_c9t0.5_near_27_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "0e1cca4cfd500280c3abfcb0",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_699.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_699_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "1c7d237840ceda999c64ed79",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_729.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_729_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "20c1f594d36617cdde1cd5af",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_2023.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_2023_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "2d44806c65929b08f0bba125",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_425.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_425_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "2ef45ba0109c4f8d60e1638d",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_460.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_460_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "57c6c1af14b422bad668af04",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_469.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_469_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "6bb72923b8d4f2b5e88fdcb8",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_1440.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1440_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "aaede86003306fca11386026",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_447.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_447_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "d37f4ff30cb4bacc710f1c80",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_624.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_624_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "d424a78ee4c6957a13946f80",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_1347.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1347_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "e390e094691bbc678b9648c9",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_2036.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_2036_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "e95d4ce7e62714cdec7f929c",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_1999.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_1999_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "fe5d925a0298b5563e273771",
+      "old_signature": false
+    },
+    {
+      "source": "round6/candidates/mem_a4_c8t1.2_near_10.s",
+      "file": "round6/candidates/mem_a4_c8t1.2_near_10_clean_out.s",
+      "k": 31,
+      "failed_orders": 9,
+      "error": 9,
+      "signature": "350eb39295a63cc2414cbd3a",
+      "old_signature": true
+    }
+  ]
+}

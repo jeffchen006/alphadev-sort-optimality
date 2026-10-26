@@ -1,0 +1,8 @@
+{
+  "status": "SAT",
+  "cases": 32,
+  "path": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/polarity_control32.s",
+  "reversed_comparison": 6,
+  "prefix_length": 25,
+  "full_case_check": 541
+}

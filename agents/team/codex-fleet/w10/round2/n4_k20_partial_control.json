@@ -1,0 +1,22 @@
+{
+  "n": 4,
+  "k": 20,
+  "c": 5,
+  "mode": "partial",
+  "cases": "weak",
+  "network": "01,23,02,13,12",
+  "blocks": "3,3,3,3,3",
+  "fixed": null,
+  "free_first": false,
+  "tag": "round2/n4_k20_partial_control",
+  "timeout": 30,
+  "proof": false,
+  "variables": 14261,
+  "clauses": 312918,
+  "orders": 75,
+  "build_seconds": 1.513073205947876,
+  "cnf_sha256": "c736362065ce3c4826b95965fbe4beb581a261d668640dc52e6ef190c90f5c92",
+  "returncode": 0,
+  "status": "UNKNOWN",
+  "elapsed_seconds": 31.566569534130394
+}

@@ -1,0 +1,50 @@
+{
+  "returncode": 0,
+  "external_limit": false,
+  "seconds": 1.338,
+  "records": [
+    {
+      "step": "parameters",
+      "free": [],
+      "registers": 11,
+      "initial_strict_cases": 16,
+      "readonly_fold": false
+    },
+    {
+      "step": "solve",
+      "iteration": 0,
+      "cases": 19,
+      "variables": 2029,
+      "clauses": 6613,
+      "seconds": 0.03417211677879095
+    },
+    {
+      "step": "candidate",
+      "iteration": 0,
+      "errors": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "edits": [],
+      "added": [],
+      "seconds": 0.04990233667194843
+    },
+    {
+      "status": "PASS",
+      "file": "/path/to/repo/agents/team/codex-fleet/w4/round4/candidates/repair_positive32.s",
+      "seconds": 1.1991908997297287
+    }
+  ],
+  "judges": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w4/round4/candidates/repair_positive32.s",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w4/round4/candidates/repair_positive32.s [relaxed+strict] n=5 L=32 R=10 iset=I1 model=out\n",
+      "judge_log": "/path/to/repo/agents/team/codex-fleet/w4/round4/logs/repair_positive32.judge",
+      "sha256": "f0b1ed76a3b7c66dc39e594d629e70edcdc5152f39b3328eb451b47092ab5240"
+    }
+  ]
+}

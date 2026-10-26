@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round3/candidates/n14_neighbour1.s",
+    "round3/candidates/neighbour1_rank6.s",
+    "--rank",
+    "--typed",
+    "--fixed-dest",
+    "--changes",
+    "6",
+    "--change-cmp",
+    "--random-seed",
+    "8401"
+  ],
+  "wall_limit": 90.0,
+  "exit": 124,
+  "seconds": 90.01383325923234,
+  "log": "round3/logs/neighbour1_rank6.log"
+}

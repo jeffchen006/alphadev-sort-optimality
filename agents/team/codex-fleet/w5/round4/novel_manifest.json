@@ -1,0 +1,1381 @@
+[
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample10.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/000.txt",
+    "signature": "1405e8d496103a5492e6bddb",
+    "registers": 8,
+    "sha256": "01eba7f6ef2eac21111105a4b18679f1f0561c745aa5a9d659a19088f437c699"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample101.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/001.txt",
+    "signature": "b520aba891a7db892fd12ef8",
+    "registers": 10,
+    "sha256": "db0ce9421bec2369abad03164e4b49b23944712973c533b8c3283f4bbcb99aee"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample102.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/002.txt",
+    "signature": "fd83c58093f171a2b67a841a",
+    "registers": 9,
+    "sha256": "ab3daa8c72cd64feb55f8912c8b5ab98031aa613e6b8859089d6bde147f21dd4"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample103.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/003.txt",
+    "signature": "b1326da83ea8ef327bcbe5a0",
+    "registers": 8,
+    "sha256": "de78d89b627d1df8fc0f7dc39a75d8e2d316421decfc04d4286f7d7f1925efe5"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample104.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/004.txt",
+    "signature": "291a7a92e782d583a17b76ed",
+    "registers": 9,
+    "sha256": "b45b40fdf63c113bc617ec9e9051728e94dc0deb9a5cbdfa68639c4102f46169"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample106.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/005.txt",
+    "signature": "038d93179310ccbb0b02efa2",
+    "registers": 10,
+    "sha256": "365d2474117ded97b8a9d471401d98188be0d433831090a069851be642bf1e99"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample107.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/006.txt",
+    "signature": "72f3c2888f5abca7db6920d3",
+    "registers": 9,
+    "sha256": "228e3f4a23a0ab83b2c6db9a0676b7d142f81539a105b8862a0fe988486898b8"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample110.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/007.txt",
+    "signature": "e069f688d5be63d1d67c6d90",
+    "registers": 9,
+    "sha256": "824019769c21252f7af80e38e966c61d9e54d30067229508841bfa78be3c0b71"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample113.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/008.txt",
+    "signature": "a8efbd979b4f5435e5b86575",
+    "registers": 9,
+    "sha256": "1158b77f141b6202c7b54a74062e70029ef211999990fffb19003886409377fb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample114.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/009.txt",
+    "signature": "085e7e1a3076d808d002793b",
+    "registers": 9,
+    "sha256": "6b6acd4e1eab537ee75de8e2f1703e8e480290f712adc4ee4626a3cb9e909896"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample116.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/010.txt",
+    "signature": "247e421e2295c43d6b4b60a5",
+    "registers": 9,
+    "sha256": "f2f4821279a6cbf6bf4ac3374e33c32d2d4e8774b08e5c2cfa0b75f0c172e7f2"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample117.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/011.txt",
+    "signature": "4eade912f7fe18b984fabd48",
+    "registers": 8,
+    "sha256": "59df60d65f3d2fdf7f0028cd445a7a82dee4f568d0489b254a041d15c1ea1ecb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample118.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/012.txt",
+    "signature": "61b9fb937277691f7d70bfff",
+    "registers": 9,
+    "sha256": "e1c9c10bc4ff93a3a2d7834018d0447c3503036337b09ad57530d3fda3df5217"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample119.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/013.txt",
+    "signature": "34d050362de1256a3a547727",
+    "registers": 8,
+    "sha256": "e05ab5bbc1cdf278503e90f14b22ffdda078d008cc63e9e878d4877007953729"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample122.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/014.txt",
+    "signature": "39c28158b9f44cd47c00f14e",
+    "registers": 9,
+    "sha256": "ed4f92e8f21c49cee58e92709413345008a18a92ca15f764f8d2392da33e1487"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample123.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/015.txt",
+    "signature": "9b5ef74d2927ac2e8321ab8d",
+    "registers": 9,
+    "sha256": "573f978ce9406bedf65d3f5ef3d37d842a42597a32eb17ce92359e5840e61737"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample125.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/016.txt",
+    "signature": "31fc12a60cd60416979e8b74",
+    "registers": 7,
+    "sha256": "2ea2ac5058520a255b9da0126da49f7e2023ed77b7d9cf17d82d29564aff8f67"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample126.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/017.txt",
+    "signature": "4c7a91abb1d3a85b9332bcd8",
+    "registers": 9,
+    "sha256": "4a76abddc57255d0d340c62e7f3bbadaac3ba3c676c4c007cb687aab649c6844"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample127.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/018.txt",
+    "signature": "f80ac4115042c22eeedfe442",
+    "registers": 8,
+    "sha256": "9f4da1ef4cbf0dd19a45cdf6ed170761954c9c0179c6ec2cb013228a2b02be24"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample128.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/019.txt",
+    "signature": "19e9f3ddf4d245aa12a0119d",
+    "registers": 9,
+    "sha256": "2a4b2e62285fbedc6c38b7508076070dac1ae5739dbcf4022166902f898b2818"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample129.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/020.txt",
+    "signature": "62f6be03c93287c169281f4b",
+    "registers": 10,
+    "sha256": "b588a4cf38354d592b74a7becc639902173905db08e2d53057edff4c5cd35ae5"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample134.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/021.txt",
+    "signature": "7da72b4953818b24f0c82e4b",
+    "registers": 9,
+    "sha256": "9a8c2594ddf6f0009d82032811b86261cb1e37917347d7ea434604745562379d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample135.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/022.txt",
+    "signature": "52d3db6023340425fc86d55b",
+    "registers": 8,
+    "sha256": "aa3c23635aa38471f98c01205087fc897c637afa40e5f726bafc176ddbcdd1d6"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample137.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/023.txt",
+    "signature": "5f0fd30721adca16598c3132",
+    "registers": 8,
+    "sha256": "2829781a77c817b55bb55613a56958d09d4e59f3907dc37af041cc08f0957487"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample138.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/024.txt",
+    "signature": "97960b159a8d720bb4a22736",
+    "registers": 9,
+    "sha256": "22b2e8bfcc45fe5093ff2fc9a038ebf78e37780ddedf4a7ad7251439bc731519"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample139.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/025.txt",
+    "signature": "6b6b038fb81a4342e1ea8cf3",
+    "registers": 9,
+    "sha256": "f726f67b715f8f6bc7ea2da76d61eb221fd69fd377cc1b01cb778a6bfe34fc91"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample14.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/026.txt",
+    "signature": "0a0cb2b9c2dcdfc95937e424",
+    "registers": 8,
+    "sha256": "ebf69b1c289861f6cb493fd2d8b161738a9834871139362f0d16ca307b2ed5da"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample140.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/027.txt",
+    "signature": "b66f9739d8f057b4c51d6167",
+    "registers": 8,
+    "sha256": "95b1be785463e3509fc6d2ae46eafaf184525128d75faee7931a44fce04a0d59"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample142.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/028.txt",
+    "signature": "6be0a2c8e468d40a5855149b",
+    "registers": 9,
+    "sha256": "610a8a13a3474ff031bebceacf7bacd1cce0b0da88ffe8673e80490e2530cf2d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample143.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/029.txt",
+    "signature": "11e5afd20b5a592069f7a668",
+    "registers": 9,
+    "sha256": "3caf12038955bf96d55cf68d316b5f5d4dcc686c21d3341c86e6ffffcb7c0e11"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample144.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/030.txt",
+    "signature": "d66eff647360b93c9a4ec210",
+    "registers": 8,
+    "sha256": "8ee4df51f832cf47fabdab5ff2b34c73fa3b63b3bfcd62dcbd552e9d3276b19f"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample145.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/031.txt",
+    "signature": "fb37c2e9584b657147f4c8a6",
+    "registers": 9,
+    "sha256": "d50e8b364455034d8c1246194dbb93a7727d4a1c18259ad889a2ceee2a8877e4"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample147.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/032.txt",
+    "signature": "c57024d8f86a3210095fe4d6",
+    "registers": 9,
+    "sha256": "809041010c0cc4fddede0237b742f5f5ab2e021b975ae23fb986ea7e24784f2b"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample148.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/033.txt",
+    "signature": "42d0fd8017f59082ede4db9b",
+    "registers": 9,
+    "sha256": "b7063497e335056537e0ff2fe53ea09f496a4e9be75720e154e5b9a038b0fe5d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample149.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/034.txt",
+    "signature": "18f70be8e0529e24fb784db2",
+    "registers": 9,
+    "sha256": "b211d7faddc6e765407ac3939d618522c2bdc6ddeb8cf9a59c0ca36b4d421b68"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample154.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/035.txt",
+    "signature": "1c52e8b965eec42561d09a86",
+    "registers": 8,
+    "sha256": "0817d836af3145c1bd26ee4f4c841640e9ae925d6e5c5bfca7a48a764c56dabb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample155.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/036.txt",
+    "signature": "bc210c816f65d496732d331f",
+    "registers": 9,
+    "sha256": "5e378b0a25d583227fc963fe7eeb8d21ff38db4860ebc87b960e811ca9174f8d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample158.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/037.txt",
+    "signature": "79171b6545bad085408ff321",
+    "registers": 10,
+    "sha256": "5ae71698cb85e77e4cfb70f543f8f404f84882abfa6de34a76d5a8f6b2dca118"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample162.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/038.txt",
+    "signature": "a4938460a1e8afa0c3577bb4",
+    "registers": 8,
+    "sha256": "12aa7275e21bf88fae45bbdcaa6ddf4499fcc63a04ae2b5e25f39a586faaa055"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample167.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/039.txt",
+    "signature": "a1ab7117e88b6a3053b6db84",
+    "registers": 10,
+    "sha256": "d6fc8ed4aa7406b97ec61a9d4a560816371960ef59ba41f0ac041861da13b2fc"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample171.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/040.txt",
+    "signature": "f57f9bbc4825c3207dbddfc7",
+    "registers": 10,
+    "sha256": "204562f625b08a063a7eb1bb34e679bda54912aa860a72032491e5fe7d748823"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample172.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/041.txt",
+    "signature": "2178c8ec5f74e087605ec3e5",
+    "registers": 7,
+    "sha256": "a16996a4f2099830df3a855027b1f677db7f0f192b9c8c04294e9fd013af719b"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample173.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/042.txt",
+    "signature": "1eb12723e73ff906904a868a",
+    "registers": 9,
+    "sha256": "3929c1c3c3520442d737882fcadb8e8b897bf2a8119a1da3c68c5aaf7c5cc9bb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample174.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/043.txt",
+    "signature": "7a05bc2b65f8c1844ec80b11",
+    "registers": 10,
+    "sha256": "9737f15d691609ffb8233daf0a97e0c5d5462c9d4ab8add1efce008be11d35d9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample176.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/044.txt",
+    "signature": "e7040ca622a2ae15b9ce7274",
+    "registers": 10,
+    "sha256": "8757e85629606a0e8da0bb46b16bfcf267194cca19cdd7b4512f19362153e17c"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample177.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/045.txt",
+    "signature": "0f96e8261a854c46221a9796",
+    "registers": 8,
+    "sha256": "f07316194b56ce1449db8147bcea8bc90051020dd1cefd6a1860ca67a4783921"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample180.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/046.txt",
+    "signature": "df15101d98e3d4a816e3f9ab",
+    "registers": 9,
+    "sha256": "b51bf8016f1509e8e8cd1664da80cddadcb3cdc712621dc88af8005106f89f94"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample181.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/047.txt",
+    "signature": "3cb5967ce0dfa2a1807bf7ac",
+    "registers": 9,
+    "sha256": "32b00453f0e453abd83f06709f6f86182b60b76028aa949114480c78f8fe0d87"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample187.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/048.txt",
+    "signature": "fb54888592d542b1d244ed8f",
+    "registers": 7,
+    "sha256": "ec32a28ef3cf2d64bb3584f1c38a9abf8295f588b056becdb6d3b766aa40719b"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample188.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/049.txt",
+    "signature": "aeb11bb5d0e1e6f71d4673bf",
+    "registers": 8,
+    "sha256": "0773ecbd138cdb2e01507b968ca4cd8e286613159e4b53fbf67daf009933b1a9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample190.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/050.txt",
+    "signature": "aea85de972e84fde3758c4b0",
+    "registers": 9,
+    "sha256": "406e17a222e20dd3c578d81ea98aab823c6662bc520ab0fb23e1fd0a6e10a98a"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample194.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/051.txt",
+    "signature": "cc9434773c681a22edb6aa9c",
+    "registers": 8,
+    "sha256": "c33fae789285b5e3c90994fd119afbd9f86d0fcb903a9985f2bcb4fe2c7cead1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample195.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/052.txt",
+    "signature": "8eb575f5a516ac2dcc6e8b0a",
+    "registers": 9,
+    "sha256": "eac541ff00886d897841fb6c05a95f0e85f9d9d3edee5d92a080bcdf0c89ea90"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample20.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/053.txt",
+    "signature": "8c80b3b05d1ac2336601f0e9",
+    "registers": 8,
+    "sha256": "18016185a5e46d99b891ae605b972ccd8295d13d40f0e7a1ec0e7023d0db8bb5"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample203.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/054.txt",
+    "signature": "4aa580d7fe0f544323d9d087",
+    "registers": 9,
+    "sha256": "65783e7d9a62ce4a60abf471b5b714cd59e3a3ac63f3b9d054bec5bbd7c3f6dd"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample205.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/055.txt",
+    "signature": "88319ad9d035c2f5cc4dd9c6",
+    "registers": 8,
+    "sha256": "805f8f113dfc5f8d191ee048f5979b7db11b06cd7d9bb31424fa1e2d348bfdd7"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample206.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/056.txt",
+    "signature": "b3277d9eb325910d1d1b0c40",
+    "registers": 9,
+    "sha256": "7846371a3ab4a437c7b74049d02e7b45d9284f003447fb26bb8f230f38337943"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample21.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/057.txt",
+    "signature": "4ee3d0ef1e0056f7edf2b7ed",
+    "registers": 10,
+    "sha256": "4aa4e34aa442ef9f8a69b4fd0833e6ef6e8441895aefc43eaf638de13b916ba2"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample210.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/058.txt",
+    "signature": "11e99fb271744c5879cb8413",
+    "registers": 8,
+    "sha256": "a8f3e996fd1d907918284e85161be82ec784bee20e50b9fcb0d56ae34e21f384"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample213.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/059.txt",
+    "signature": "ca1f6f70fb888c72e5fb01fe",
+    "registers": 8,
+    "sha256": "fc68f62225a20deffc8469cdfdc20eefd1caa176e244ce3da5ee465578276db9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample216.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/060.txt",
+    "signature": "f0453f626efb82b440f3d7ed",
+    "registers": 9,
+    "sha256": "1d1c8fa8d3788f8d9589f7e7bb22f3afa5e3f7e79653e0046c8a8c9ac7b6b6f4"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample219.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/061.txt",
+    "signature": "469af335323d0f2c139113c5",
+    "registers": 8,
+    "sha256": "dd0b2ba3d60a3eb2ba1602fdcd62e2b97ad41862dc7e6364fcaf2ffa585fff82"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample224.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/062.txt",
+    "signature": "8930709c0e47796268a18d0f",
+    "registers": 9,
+    "sha256": "a50e92bf88fc42fd5e13a559af21d0d9c6f33254f2ed655d0991d8499ed058c9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample228.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/063.txt",
+    "signature": "a7279f5fa09657302dc9906c",
+    "registers": 9,
+    "sha256": "e55b229bf9435a9c814fe5f50a5cc7815adb70e2c1334aa2ea2cc971faada9e9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample230.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/064.txt",
+    "signature": "3010cdd56b5d4ac940943ef3",
+    "registers": 8,
+    "sha256": "d30596bcef0dbdd57fa271110a05939a564bd27f25f035d98b72abd3c30364af"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample231.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/065.txt",
+    "signature": "dd34ef94d74d5128589f60e8",
+    "registers": 9,
+    "sha256": "9523c923c87ebcb044a1be8edd2c39deb4743eae27d22c90924d6797e908dc80"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample235.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/066.txt",
+    "signature": "361a07e392f734b10eecb77c",
+    "registers": 8,
+    "sha256": "f53815cf18beb1fb242f121e6d971331570dbaa5e9ee2265310b9eb54ea66359"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample236.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/067.txt",
+    "signature": "e82b23e4d9b0be01e77802fa",
+    "registers": 10,
+    "sha256": "fcb793b03d72802eafd906b51c38e68f61c2ebb9e3e02635c3e8b5d739529349"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample239.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/068.txt",
+    "signature": "11de1e342b2f2d2b17c1600a",
+    "registers": 9,
+    "sha256": "77999549828316d3eccebc5a9350dec8a4039f2fc9caf7c31721271a0ed0dfe4"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample242.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/069.txt",
+    "signature": "12cf27384fe23383808e4c41",
+    "registers": 9,
+    "sha256": "48cdb2821f923c757c745e1fd76b05a9e12cc04a1a1cd4a6d69ce717e648cae1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample243.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/070.txt",
+    "signature": "5b4bed5566c92fc76b300851",
+    "registers": 9,
+    "sha256": "2a95f630ffd3ca382c444bba4734943162ae86fffa6e94619f1050b2ab068ddd"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample245.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/071.txt",
+    "signature": "e102909c40fd9e124e76fdc9",
+    "registers": 9,
+    "sha256": "d8b419a21022060b3b4111b13392ea0f21db59eae1373bdb7b31e604ca1b550f"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample25.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/072.txt",
+    "signature": "c4044a5235e36f455ccdfc62",
+    "registers": 9,
+    "sha256": "1e765cab1c16889b3d062d1b7efac3dc3971b3dd901f26a47a86b59fd4438a6a"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample253.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/073.txt",
+    "signature": "aa95cbb57708d0b1b954551c",
+    "registers": 9,
+    "sha256": "f65fcc2b28f1b9347d817b47864b3607e9e197bc9a865f88881f4df08631e2ae"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample28.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/074.txt",
+    "signature": "7bd815475a875e64a2d63b89",
+    "registers": 7,
+    "sha256": "0329604b601770079f1ed1d82141edf6572fba165dbcd962334e3b203b0dbf50"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample29.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/075.txt",
+    "signature": "0d0a9833655c61f02e65054c",
+    "registers": 10,
+    "sha256": "75768b5457f01828962af0bdcd0602ba4e0a66dd6d107478bb2c9a024dc664a5"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample30.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/076.txt",
+    "signature": "891bee81376e290baf7735e3",
+    "registers": 9,
+    "sha256": "bf6fef2f2d08163bd0f7389cc2fa023a4c4be484a4d5cf537cde918559694c0e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample46.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/077.txt",
+    "signature": "74bb2547c0bdb1f63f8cde86",
+    "registers": 8,
+    "sha256": "bfb9c295ba39ec354bf5ce0b74b9a243d23e7cd9d82a74e9c465b7d6c68be084"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample51.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/078.txt",
+    "signature": "7e2e1c928405891a536fcba6",
+    "registers": 8,
+    "sha256": "e0aff8402e67703341c62ae57513a4a3f0dd4e144f88eca8e2e01e6d172f228d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample56.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/079.txt",
+    "signature": "f4ae4ff9aa1182d6cf99c199",
+    "registers": 9,
+    "sha256": "c9a0d22cd34f8710f750274555a02d0c50b3f4e95b05bc322add970c77ceb177"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample58.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/080.txt",
+    "signature": "d431690a950cb48606694505",
+    "registers": 7,
+    "sha256": "a9b66b00034d0f60039a171d35df90ca5c5d68f88ccf7b9bf622549e90790ca8"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample61.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/081.txt",
+    "signature": "bd7446e868ca1a64b7def2b7",
+    "registers": 9,
+    "sha256": "13c0a1899d332abfdd6d335e972dbee971abcfb32339a5a49c5499903d4e03ee"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample65.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/082.txt",
+    "signature": "998c5316db435912717b5b19",
+    "registers": 9,
+    "sha256": "ef1c32fc0dce9783c047aef5f2d7b868324a7f39f61626cfe77f39f8246e4d79"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample67.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/083.txt",
+    "signature": "f8d869dafc3bdbc5ae54a7f4",
+    "registers": 8,
+    "sha256": "b118b9e1e13c4bcd569247d352be785c7cba32058bb6569268f0d613ff5da091"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample69.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/084.txt",
+    "signature": "3ef0fc552fb514ebd51ae1f4",
+    "registers": 8,
+    "sha256": "2d215e4477905240482bbbefbca95e0fa07166e0c859407a5665d7c5818451b4"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample70.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/085.txt",
+    "signature": "d9f6b62a8c9700d8656608db",
+    "registers": 8,
+    "sha256": "4b735a75393828aa408f87f907902d32c0d270aa72382b40ad298fc96c241f37"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample8.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/086.txt",
+    "signature": "aa1771daab18883a2ffd1ef1",
+    "registers": 9,
+    "sha256": "2add80768ae93bb325260ced5cb61f62384daf0f7f2cd5bb590ad49dc4d87101"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample81.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/087.txt",
+    "signature": "942d09f85664d02e8f514096",
+    "registers": 10,
+    "sha256": "a9d14d687f12fb0251630cad5e075d4f71114d8548f41e48b5fe52138b838cea"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample84.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/088.txt",
+    "signature": "e24f2cf818451c3b3b9a202a",
+    "registers": 10,
+    "sha256": "99f2d4fefece1462b09d1a333e9523af1e840e73412e89dac765693b302398da"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample91.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/089.txt",
+    "signature": "e9e461a756b56d27bc477b28",
+    "registers": 8,
+    "sha256": "36e1f1d282f11867452d41057d728d26c5d7526aeacaa45642ec5568f508baf3"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample98.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/090.txt",
+    "signature": "e87f35a0d6b19ea9ba6176b7",
+    "registers": 9,
+    "sha256": "40da7228f5eaeb7f8a5aefcff82fb92cf0985dd7c89e706730a87abceefd0014"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_final.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/091.txt",
+    "signature": "e9e650858228c602d02f14d9",
+    "registers": 9,
+    "sha256": "a1ba1a12c5a4914921f917b40cc5f30c47b0830d3f845b29dde78cc1bbacca43"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample100.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/092.txt",
+    "signature": "c5d09a2026b222a5dcfbc35d",
+    "registers": 7,
+    "sha256": "6ca04bb048fae71a85726c9d58cefa2acc0916835bc561dcb5c0622e28f29d63"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample101.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/093.txt",
+    "signature": "03d58515dcb8bbca4ecac823",
+    "registers": 7,
+    "sha256": "18031c18ce79e4de30ae967296116c1c81a4a7f88270a553e0ac9e623a16dc55"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample108.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/094.txt",
+    "signature": "1fa9981cb98ebbda91832581",
+    "registers": 7,
+    "sha256": "ea638476a7db2c7914c6d180fcc655539cef3a373c20fa0368c00adb72700088"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample117.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/095.txt",
+    "signature": "6f45cd2e40dfe59bce8ea27b",
+    "registers": 7,
+    "sha256": "e687e231c3d7c68e4a194efc237fb5b5450ea234acb5b51e28fff1826328e0c0"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample118.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/096.txt",
+    "signature": "13bfaab027cb1df6935fe9fe",
+    "registers": 8,
+    "sha256": "e94a47e32dc7220e7bd1f5a04fa8caea5b4b4fbb8c4a99734da069bc5a539c87"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample121.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/097.txt",
+    "signature": "420fde1c6f5efd86f4ce014a",
+    "registers": 8,
+    "sha256": "d63bbc2050b44f8c221c312944c8402ee0993fc584bf1f4f6e50e4502ab85615"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample122.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/098.txt",
+    "signature": "f1cc273df0b3d1fdaedf4c4a",
+    "registers": 8,
+    "sha256": "5817d5450347419fbeae5f3e96f056db53508731396a292ef5f06ee5e3b1e008"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample124.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/099.txt",
+    "signature": "5d0d0769473c0e1214e6513f",
+    "registers": 8,
+    "sha256": "36d989af4f961318b9679008345b8c8caa43aeb19e2e6f47b6a32e84e2fe5d62"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample125.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/100.txt",
+    "signature": "a4e7ada597a7e422f61db41c",
+    "registers": 8,
+    "sha256": "2839d279adda74bd7b423115a2309609fb27f50fe323f85a04bb8cdfa438c68d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample129.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/101.txt",
+    "signature": "08545bf17cf4584a7a34d297",
+    "registers": 8,
+    "sha256": "62d8c293ac6ce34a79c9fb803771a6ecfb93ae6491667ae9f3ba24d72bee7b5d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample135.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/102.txt",
+    "signature": "9d672a5ffdffe6b67ba8f946",
+    "registers": 7,
+    "sha256": "a8af719ea87f8a6275f8d38dd7ef08f4b3c6c54ccbe479dbf7f5047d4176d8b7"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample136.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/103.txt",
+    "signature": "4871d83b41b732400a958715",
+    "registers": 8,
+    "sha256": "11fe14424c28869c37e913b5a74c149e70b86b0d177fc02d74f4eb9c5c02b187"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample137.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/104.txt",
+    "signature": "2eb4e91f1c332bd27eb5e594",
+    "registers": 8,
+    "sha256": "030fa7ffa70f32207c37406178e4061cf00fdf32ce8261b47e507962fb8ec940"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample143.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/105.txt",
+    "signature": "26eb89c0c47bbfcab796a56d",
+    "registers": 7,
+    "sha256": "d2835c3d0f3ae33abe286996b80660303edd1c73d8196af31c62033567501258"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample147.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/106.txt",
+    "signature": "355f151bc5ad2520cc9011c5",
+    "registers": 8,
+    "sha256": "aa6c088b1460fcb0d426836da8a05a27a644b1428006d40f09a10a1fad8104ba"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample15.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/107.txt",
+    "signature": "f8a3451cd20b06e442876b78",
+    "registers": 8,
+    "sha256": "9a2f066c045326dea789b795a781b6e81fddabe4e6e48b86212e31e9f90ca612"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample153.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/108.txt",
+    "signature": "d08a2484b80b093da416f85a",
+    "registers": 7,
+    "sha256": "d2e32a2b3578878e3694a66f391f17d3d4e17d84c51456092abf76c610c57c71"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample160.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/109.txt",
+    "signature": "0bd187ee7e5bffc6ed67a506",
+    "registers": 8,
+    "sha256": "b22a1f7f9b83e00a002fe87fed18558adba282816d31694b7aa18442b0501732"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample168.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/110.txt",
+    "signature": "9c60d3e70afe061216798dd0",
+    "registers": 8,
+    "sha256": "2ecb867bb9c4695e0e5da5ed825a244c12b0d5cc57d0bfc9ee77257afd585a3d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample173.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/111.txt",
+    "signature": "5e8940cf8ffbf9a16225d608",
+    "registers": 7,
+    "sha256": "f7cebe052a83814d4f5db8e2fa716ccb9f3e6348729c6e77a23b2ebd584e9c74"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample175.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/112.txt",
+    "signature": "172640ebc4bc5312c48d4f34",
+    "registers": 9,
+    "sha256": "5f214bd51d1c920f07f162aaab35198a25bf53dcab1f214a1a04cf82b177db10"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample18.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/113.txt",
+    "signature": "8011c430a73ddb5b49c5153c",
+    "registers": 8,
+    "sha256": "514c96ce29206c6e1b6a0c04f5d8cfc6421b8c98e3342f972098434b195e8fbe"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample180.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/114.txt",
+    "signature": "1988f36459a192eb97946a78",
+    "registers": 7,
+    "sha256": "a1a01b44c30ee6c45cf6ed7839c1df81e3692d2d72fcc78575c57d030aee9a20"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample181.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/115.txt",
+    "signature": "bc8588cdb56484561c2d0f10",
+    "registers": 9,
+    "sha256": "b4fa924f54a905f7956683168704598c13866cdd2a9e5c3b66b066f35a15e72e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample183.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/116.txt",
+    "signature": "94fe49e56aceadc06811f2b3",
+    "registers": 9,
+    "sha256": "bcd844de8dc2d7083417bdc9297488404d66ad8dbb1852cb3203a5dfc8904b64"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample184.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/117.txt",
+    "signature": "3162735b2893adaa13e0beab",
+    "registers": 9,
+    "sha256": "e0c6dd7fe3e226433fc5ea80e31685d2ce40198acee1880515e208e26d0bc8f7"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample192.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/118.txt",
+    "signature": "872c52e5129ec91ed4dc65ef",
+    "registers": 7,
+    "sha256": "70dd5ae4fc1db6d2ebb7352e46f34d4c3399bffc5751db75be6c49fff581bc79"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample196.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/119.txt",
+    "signature": "6157935b73c16e82c17fcf6e",
+    "registers": 7,
+    "sha256": "6631282194d6aacebea520dbd5a3d9c3a39912e47e91ce764c45db82263076fb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample199.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/120.txt",
+    "signature": "a3b3cdc93e2fb21c49e2d68c",
+    "registers": 7,
+    "sha256": "4d529f4701887dc85c42e6392399528ecbd1894bb84fca558a36e6e1f2e2d895"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample2.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/121.txt",
+    "signature": "032ec10c9fb23ad5a8fe606a",
+    "registers": 8,
+    "sha256": "cc67403929b68c45f830e146dd721d1a620952cf1df862fd628dab84eceaa84f"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample203.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/122.txt",
+    "signature": "c8c15623a6659fefc8f1d257",
+    "registers": 9,
+    "sha256": "221e202a9bfdaea10765738932bf2fed7fe59ffbd81081667436a3651e053539"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample205.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/123.txt",
+    "signature": "710607bc3b25c336f1baab64",
+    "registers": 8,
+    "sha256": "5cfe6de4940ecc1282ddfea69c8f76b2333051c8ce4bc7ae62491b11a351ff20"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample211.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/124.txt",
+    "signature": "cf56ec0dd1f2e8634331f7b1",
+    "registers": 8,
+    "sha256": "615936b5d4a48949ef58f2a3de8d2804c15c385e00b37878f0a09f6cfd0f3f22"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample214.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/125.txt",
+    "signature": "dd9a41203ac4f16be062d719",
+    "registers": 8,
+    "sha256": "7755622f97152492fa2aaa1f61bf246c0d4d8fcbba205bbcc8528e3479758ec4"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample215.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/126.txt",
+    "signature": "870cc1782e69ca86db62fccb",
+    "registers": 7,
+    "sha256": "c41c1ec00ff8ed1c23ba72f8a45414850480e939550ffb3cbdca80411f247caf"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample224.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/127.txt",
+    "signature": "41c0ccc07c09d3f345db1eb9",
+    "registers": 8,
+    "sha256": "327b2c1f018716a6134fd512e8de183f5a7e4c822b805c5af3771b015470efba"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample226.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/128.txt",
+    "signature": "128d313ac12ad5462f21856b",
+    "registers": 9,
+    "sha256": "7dc6355af8c8f31bd6c2a65e8d4e60782925237a6aa540b0dd82098f9f84bda1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample235.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/129.txt",
+    "signature": "d74165b111bbed0edade3dc1",
+    "registers": 8,
+    "sha256": "b8cbe48329e9dcfb33c75545d209a7b0d03f546eff4ace0abb27acb05a6b6632"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample237.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/130.txt",
+    "signature": "214c18937d9c358d1877d158",
+    "registers": 9,
+    "sha256": "a126d888c57dc710511ad6dce16ccaedb72dba350ec00988f62d5eb87e01c6a2"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample244.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/131.txt",
+    "signature": "b261060a9de5a3da72b227a6",
+    "registers": 8,
+    "sha256": "a960a0ad21e2cf2c8d6de0dbf43a2b16292cd05ef418d76345a03166a9705c92"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample249.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/132.txt",
+    "signature": "ddc2be51f0d145f3bbe7446c",
+    "registers": 8,
+    "sha256": "84dd4cc0453e5682affe5c13f1fd26d2a97d9803e52fd604497b3e3af5d827bb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample250.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/133.txt",
+    "signature": "1cf0ade9bfc0d70e58b4a722",
+    "registers": 7,
+    "sha256": "d57b459763cdc369a6149f74706c5caf0d5dcee5c68a24afb02398a7f57ac055"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample253.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/134.txt",
+    "signature": "0b0f0328c3391dbcbe00bb52",
+    "registers": 8,
+    "sha256": "b5c29f849dcbe69590c2c4e1f056d1f948a6b35a12a2eba2c10bef107ddabc2a"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample258.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/135.txt",
+    "signature": "ba8a4f402755ec5bb78db5cd",
+    "registers": 9,
+    "sha256": "1c0e66982bff8716abc253e2509dc56b085417ab625b0730f0d7ea0bc32cb284"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample259.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/136.txt",
+    "signature": "634f504fbb1d4fbf6b004770",
+    "registers": 8,
+    "sha256": "ffdb0fa09ed4697d8cfbdd70348bd80ed664ec7555ab70646e8950c17cf82dce"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample266.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/137.txt",
+    "signature": "83a3a7c9ae348bd3dea6a0c8",
+    "registers": 8,
+    "sha256": "9c752b39265694cb5531d9807c38ea518be7fd8ab6d02f7d0a1d18b976d27f1b"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample267.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/138.txt",
+    "signature": "e86dfa8a61581d2c962a59fa",
+    "registers": 8,
+    "sha256": "f4523dc47b45b3f699f44274304ee7178e54b6351cbfed95b696d18ca26b2361"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample269.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/139.txt",
+    "signature": "ecd7dbab726bbcc1da6572ce",
+    "registers": 8,
+    "sha256": "ebee7a9bd9afecc6711d16204ae7805ed826d57853ad057b7a2e7ea717b0d233"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample275.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/140.txt",
+    "signature": "9d9c0380016630987d271846",
+    "registers": 7,
+    "sha256": "aa38e138ef98f9c0ecb43cc3e53776f3c03f2ff4679113e88ef6d4f7e4d1306c"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample28.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/141.txt",
+    "signature": "871ea999aa8f5a2778eeac64",
+    "registers": 9,
+    "sha256": "3fc95e74dfd51e1a90bb8cd1a5f5a5165f1738bcecc031e3a7b408ad2aee19bc"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample287.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/142.txt",
+    "signature": "0dd205314d4d510286eb5786",
+    "registers": 8,
+    "sha256": "a6c8b79fa8207aa71b19f18b2b30d9097f8d654b92ef39dc43d99d3122c772a1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample299.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/143.txt",
+    "signature": "3d0be39f4294ded52bd2aa68",
+    "registers": 8,
+    "sha256": "5281a7563daa7ec6b143bef8e880b6a8c14221106e7f898a40370e1aca133ebd"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample3.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/144.txt",
+    "signature": "96ea53ed80402576e017e825",
+    "registers": 8,
+    "sha256": "88b4817348e2a641bbf88c4d07df8d49b85b1b4274f118f274df02c048b4b9b0"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample30.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/145.txt",
+    "signature": "c0d2defae8e5720762161120",
+    "registers": 7,
+    "sha256": "77f2afd56a256c17d0caeb383502bc307fd569752b4b411398f6074bf368ee4b"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample301.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/146.txt",
+    "signature": "2c5f8edf12eaae956d18e355",
+    "registers": 9,
+    "sha256": "82e9da0395a4d8c55a730b722b4851a4f13aadf21d20cddc7d110aacf591aca8"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample313.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/147.txt",
+    "signature": "fa3bd1f1119e300f1c5e6a2c",
+    "registers": 8,
+    "sha256": "6cefdcd808880a2b4ac461cca6fe877999420d9b706507cce404bbba037bc2b1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample314.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/148.txt",
+    "signature": "16551cc49585af946eba9488",
+    "registers": 7,
+    "sha256": "25725b0f66b7c55e633a62151097a029bf926deea8fbd32567235bcd26409ea2"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample317.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/149.txt",
+    "signature": "6d46303c2434b28b4e9f2b26",
+    "registers": 9,
+    "sha256": "6ac71507a76ee47fafc2626d0bba8a6f6ea1c38c9b7d36e0aeeab86b8fa91390"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample318.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/150.txt",
+    "signature": "f617b02d4646b01378f6ac13",
+    "registers": 7,
+    "sha256": "856297d1d83d1f4fa309268bd09052c4c45e3bb6fc18bb32b5da9fef018bc884"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample320.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/151.txt",
+    "signature": "cc34cd50891d9d666870593e",
+    "registers": 8,
+    "sha256": "82a087096167db39da95518e367778c980877b806b44108ea92ed046a7edb2c1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample338.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/152.txt",
+    "signature": "d841fea4767d7fe3aa622730",
+    "registers": 8,
+    "sha256": "37cce1f94fff3a55009cd126f7268186b7ac151f74f6d852fdbbe4428184f762"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample344.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/153.txt",
+    "signature": "5a0ac79fff005e9585e18ece",
+    "registers": 8,
+    "sha256": "86be9f4e9babb57ce4d83fa282ab3fa26f69702493ed76e2515f7e5ba15b0780"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample347.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/154.txt",
+    "signature": "b38370dfa25e705dad3c3d21",
+    "registers": 7,
+    "sha256": "51d1da822c2a1720de8ff39baed996e8c5d05cab2e7fb1d2ddc0f0205e12368d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample357.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/155.txt",
+    "signature": "4db0dc0cad65c05ec0beeec7",
+    "registers": 8,
+    "sha256": "cab1fe96d7398bc075609f4c0f75801ea33e7f335c8ff1c19ca3c8a72259a8ed"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample368.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/156.txt",
+    "signature": "3145eb9d6e4140d2d89b8f12",
+    "registers": 7,
+    "sha256": "dbb49aa111681a9fa14c55b960cc66135f70a2f988eee5a3b477a3905d67f4ed"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample369.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/157.txt",
+    "signature": "759ed6e9983d7f54d569cf88",
+    "registers": 8,
+    "sha256": "052b893f4c7927c38fa38bd603b9f955c75f94a3ae2f7cd24091c4cde939a6fb"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample372.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/158.txt",
+    "signature": "99b46df5276e664d6e19e9fe",
+    "registers": 8,
+    "sha256": "bb25da4f5eb27a603599a8ded61696cd5f4d669f5312b74d6173f9375476d77b"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample373.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/159.txt",
+    "signature": "7dd8286786c7a5ad282e44ff",
+    "registers": 8,
+    "sha256": "dc8a37f050c4d0c957faa4add7f03dffad1d4273bc1b25e084ef5c88f34438d9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample375.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/160.txt",
+    "signature": "0d314120e3e52dc6ec011318",
+    "registers": 7,
+    "sha256": "88267f137a3b7c9d3dd4566cfddf43a7a18425a101f3388ff33dc8718cd6f15c"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample378.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/161.txt",
+    "signature": "d91f04e4e25599e728233c10",
+    "registers": 9,
+    "sha256": "24a2a0e5ab2f67fa83b40976b5f267f623b848590987a1e9bebcb58b9b486823"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample385.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/162.txt",
+    "signature": "737ff0f250d420eea17102fe",
+    "registers": 7,
+    "sha256": "ee13102a37cb83a8ec78ca5c1a3484946552471e7a5ed8ebcb308a3f1e62131e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample396.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/163.txt",
+    "signature": "1d7eeea73ca79afe7b885397",
+    "registers": 7,
+    "sha256": "47025539136201127959f265f0aead65a10b939a5a0c87743607ef4b7d4b7457"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample399.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/164.txt",
+    "signature": "607131be9ac9e3b62d89e823",
+    "registers": 9,
+    "sha256": "44e5c3944af5f598af0f23905c1c64bc8d83cebdc0a0f684f6e462aa6119da11"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample401.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/165.txt",
+    "signature": "aa17ae9b0355706e2e3292d9",
+    "registers": 8,
+    "sha256": "cac8a1a4ea523211ba98fa0547a1886db31a221e45e38cab373476327a517b26"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample407.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/166.txt",
+    "signature": "b69799b8a6a98a871166bfc1",
+    "registers": 8,
+    "sha256": "17823cd35e65829c83271f9839423fb3917553d334ae6896c8d2c4998ce6d154"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample408.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/167.txt",
+    "signature": "e91bae1f2949a3cbe555a309",
+    "registers": 8,
+    "sha256": "67ff75cbe476d6da7f10c37eb4c2ce8442943aa88481576b728f49586c4dc2ad"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample420.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/168.txt",
+    "signature": "3b0c2854c764d31ba23ac538",
+    "registers": 8,
+    "sha256": "9ed99a28a0fda202f87aafa2d13b74c963e2611213ec5c35d8b246c2215f1d8e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample423.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/169.txt",
+    "signature": "d290190717467b88213aa7c1",
+    "registers": 8,
+    "sha256": "c36c75a10146b20ac4227a8d52ae0710b59f31b5ab117e70edad1f0009a5868e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample428.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/170.txt",
+    "signature": "edc3436526b30e555b1c0d09",
+    "registers": 8,
+    "sha256": "93079ee0e9227996f739ec882fe9288c8c2c864337308cc154abe7fa0eb28f72"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample429.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/171.txt",
+    "signature": "7419460d91721fc2b3bdc9d6",
+    "registers": 8,
+    "sha256": "48ec7e36b5af992d47041de634bc313e565ffa73dc40d8418046a5b09745cbe9"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample43.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/172.txt",
+    "signature": "d3e57aad3b2c9b4f5ed84ae4",
+    "registers": 9,
+    "sha256": "f62f6077fabd101a5a2267bbd5e992e2dd3ac56e1985412c3fbb32131317f452"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample431.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/173.txt",
+    "signature": "618fd3ab14038e2133ab1639",
+    "registers": 9,
+    "sha256": "4217b59e93d6f67dad42ec43f25d19570fd5b52f1da648cdf6d7ae40d40dc583"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample432.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/174.txt",
+    "signature": "b3f17357a0ea0e108fee7105",
+    "registers": 8,
+    "sha256": "3c27f6d2a57c146176e7bed7b8ad94053f11d854388182d7f6ff4c201d3d7081"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample433.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/175.txt",
+    "signature": "d4e31b1ce02dd478e18fc2fb",
+    "registers": 9,
+    "sha256": "f82cdd2f89b687f59110bbcb21b251c579409b071418337b7a8fc23af2287d4d"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample440.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/176.txt",
+    "signature": "45f495d306b6c1c0fdda5698",
+    "registers": 8,
+    "sha256": "0205a916d9d656da704479b9514a349e32655eb565428f36c3407331b6599f34"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample443.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/177.txt",
+    "signature": "fa9cf979ef7c8df233867047",
+    "registers": 9,
+    "sha256": "fe06b510322e7482fad57fce585b8cb40ffe3789cf4390c7dad0e67cf6e7b933"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample45.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/178.txt",
+    "signature": "ef9d83987ff600a778347373",
+    "registers": 9,
+    "sha256": "8d39bc432f440a05eb7555310a1d6e1b7ee2cd9c8c5f8a55fcee4fb780b4fb48"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample456.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/179.txt",
+    "signature": "9f66e0d119f6acea59a926e3",
+    "registers": 8,
+    "sha256": "d9431d3d61dea7dcc7a09c4919ff4f6568b4857802128bae37d7839131473fd5"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample468.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/180.txt",
+    "signature": "c2e3e9ea7cb52a7fe0212c67",
+    "registers": 7,
+    "sha256": "57c774a394e00fbb0992800298bb44252bc6440aea6d118c159618dea0644e0e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample478.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/181.txt",
+    "signature": "b708595617e2852ab52c13c9",
+    "registers": 9,
+    "sha256": "c1212a63a7484d32f23b3235dc884a8c75f65fbdc34bec761150390e2ab20a1c"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample48.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/182.txt",
+    "signature": "6ef3145234be4f820c03ef8b",
+    "registers": 7,
+    "sha256": "34d07df7e63337569becc58b380aefe2bbaf6e54411103aee0a273ec927dd73f"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample485.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/183.txt",
+    "signature": "b8f72cd26e4c9a1cb277cc48",
+    "registers": 9,
+    "sha256": "644ce1aec89d727f7ae55546a2ef42429d68ee407f222a6e9607dfa1be03838f"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample49.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/184.txt",
+    "signature": "41954f50a5722e8505cd24bb",
+    "registers": 8,
+    "sha256": "2d6bbb8fcea7a0736554622b692d1c585ec8eac47e84a7f29c6d7514efe2b05c"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample490.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/185.txt",
+    "signature": "254d3fedd7279e633950afda",
+    "registers": 8,
+    "sha256": "727bba1329c813c7bc193242057a89688f72a0ed23f8ccf59c92a4c059dcd635"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample496.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/186.txt",
+    "signature": "69831e5be562ef17570bcb9b",
+    "registers": 8,
+    "sha256": "2f0fcd843b7fd85e2d03c104b9eabbd52b2ff37e4260271f9dde94ea92e42464"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample500.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/187.txt",
+    "signature": "68d4e40c4e208936d31b1bcc",
+    "registers": 9,
+    "sha256": "13ff8f6c623f024ad20ceb9feae120638e5e3d4a4f4df076e3ad525fe6a0bb9e"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample513.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/188.txt",
+    "signature": "ea4a6f5cae16a3ce207b6efb",
+    "registers": 9,
+    "sha256": "61914879ea216201f27d4f946e603e0cd0fb3274a902ad3de0bf0709defe96fa"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample54.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/189.txt",
+    "signature": "5245ab5a469071e286f18858",
+    "registers": 7,
+    "sha256": "373addbed47a740c80293caf4b99c10e28b41664eb2502375a1ba5706c2a5406"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample58.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/190.txt",
+    "signature": "76d19cadea00197f2b685198",
+    "registers": 8,
+    "sha256": "487ac2a7be02e0a2fee2c7cff1af0e8425631b4cc602bc67b4f966134fdfca84"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample65.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/191.txt",
+    "signature": "3230a91b87f494f3c0c78752",
+    "registers": 9,
+    "sha256": "e00c0982fda414035b6d0e19b40bd349acf246955169ee0019503edcd316128f"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample66.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/192.txt",
+    "signature": "1c8603303c665c6f2cfdca76",
+    "registers": 8,
+    "sha256": "999d2d2f29febd38a6cd55211de8416d16a53e6ab87ebe8ebfd39e5e7c205055"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample79.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/193.txt",
+    "signature": "844f105d66fd35cd24cc8149",
+    "registers": 8,
+    "sha256": "bce5b4d3f60cb80017fba7f774123e4e825bcd669e35712f1c5078ceca015e81"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample8.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/194.txt",
+    "signature": "c4a68afb6897c61c78132458",
+    "registers": 8,
+    "sha256": "fb1061225537c596925bcd2bb38523a37c214e46f078550e2c6b1b533e3f45c1"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample97.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/195.txt",
+    "signature": "8da739b3ee70e7afb1ffe161",
+    "registers": 9,
+    "sha256": "f2b9d4a50c944c3061c0cfcae5d171d59ca86dbdf9ef4228e491f34b4a5e9dda"
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample98.s",
+    "seed": "/path/to/repo/agents/team/codex-fleet/w5/round4/novel_seeds/196.txt",
+    "signature": "5413101374cd45300c037628",
+    "registers": 7,
+    "sha256": "eece67198019e54fd62a1ac61a40d70feb2069a85511a3ae28946c93ec1418ff"
+  }
+]

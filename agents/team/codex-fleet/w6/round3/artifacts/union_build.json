@@ -1,0 +1,15 @@
+{
+  "command": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "round3/src/union.cpp",
+    "-o",
+    "round3/union"
+  ],
+  "wall_limit": 35.0,
+  "exit": 0,
+  "seconds": 6.640575652010739,
+  "log": "round3/logs/union_build.log"
+}

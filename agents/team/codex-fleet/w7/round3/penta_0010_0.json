@@ -1,0 +1,39 @@
+{
+  "kind": "penta",
+  "index": 10,
+  "window": [
+    3,
+    12,
+    15,
+    19,
+    21
+  ],
+  "attempt": 0,
+  "status": "UNKNOWN",
+  "registers": 8,
+  "limit_seconds": 15.0,
+  "search_seconds": 15.00575684569776,
+  "exit": -15,
+  "command": [
+    "nice",
+    "-n",
+    "19",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "round3/penta_0010_0.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--free",
+    "3,12,15,19,21",
+    "--proof",
+    "--initial",
+    "16",
+    "--binary"
+  ],
+  "solver_result": null,
+  "blocked_rejected_candidates": 0
+}

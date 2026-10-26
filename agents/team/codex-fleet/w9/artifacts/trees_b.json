@@ -1,0 +1,117 @@
+{
+  "args": {
+    "first": 52,
+    "last": 104,
+    "k": 16,
+    "regs": 7,
+    "seconds": 12.0,
+    "tag": "trees_b",
+    "solver": "cadical195"
+  },
+  "results": [
+    {
+      "tree": 52,
+      "status": "UNKNOWN",
+      "cpu": 12.317360307000001,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6002,
+        "conflicts": 118067,
+        "decisions": 424626,
+        "propagations": 54054151
+      }
+    },
+    {
+      "tree": 53,
+      "status": "UNKNOWN",
+      "cpu": 12.201874033,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 5958,
+        "conflicts": 122061,
+        "decisions": 433183,
+        "propagations": 57527829
+      }
+    },
+    {
+      "tree": 54,
+      "status": "UNKNOWN",
+      "cpu": 12.128169309,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6257,
+        "conflicts": 122053,
+        "decisions": 430418,
+        "propagations": 58368523
+      }
+    },
+    {
+      "tree": 55,
+      "status": "UNKNOWN",
+      "cpu": 12.150473788000006,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6085,
+        "conflicts": 120044,
+        "decisions": 442779,
+        "propagations": 57680688
+      }
+    },
+    {
+      "tree": 56,
+      "status": "UNKNOWN",
+      "cpu": 12.008758256,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6613,
+        "conflicts": 130068,
+        "decisions": 465990,
+        "propagations": 57015857
+      }
+    },
+    {
+      "tree": 57,
+      "status": "UNKNOWN",
+      "cpu": 12.17338393,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6138,
+        "conflicts": 124052,
+        "decisions": 434247,
+        "propagations": 59824607
+      }
+    },
+    {
+      "tree": 58,
+      "status": "UNKNOWN",
+      "cpu": 12.007019722999999,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6454,
+        "conflicts": 136064,
+        "decisions": 459069,
+        "propagations": 58035457
+      }
+    },
+    {
+      "tree": 59,
+      "status": "UNKNOWN",
+      "cpu": 12.044203745000004,
+      "vars": 10868,
+      "clauses": 76549,
+      "stats": {
+        "restarts": 6718,
+        "conflicts": 134069,
+        "decisions": 465435,
+        "propagations": 55692471
+      }
+    }
+  ]
+}

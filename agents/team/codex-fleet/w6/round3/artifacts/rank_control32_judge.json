@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "/path/to/repo/shared/judge.py",
+    "round3/candidates/rank_control32.s",
+    "--strict",
+    "--model",
+    "out"
+  ],
+  "wall_limit": 20.0,
+  "exit": 0,
+  "seconds": 0.9026621459051967,
+  "log": "round3/logs/rank_control32_judge.log"
+}

@@ -1,0 +1,43 @@
+{
+  "n": 4,
+  "weak_orders": 75,
+  "wrong_outputs": 0,
+  "undefined_comparisons": 0,
+  "partial_data_nodes": [
+    6,
+    9
+  ],
+  "nonlattice_full_data_nodes": [
+    3
+  ],
+  "lattice_full_data_nodes": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "k": 20,
+  "comparisons": 5,
+  "judges": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k20_partial_synth.s",
+      "model": "out",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w10/round2/n4_k20_partial_synth.s [relaxed+strict] n=4 L=20 R=8 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 11: reads uninitialized S1; line 12: reads uninitialized S1; line 16: reads uninitialized S2; line 17: reads uninitialized S2\n"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k20_partial_synth_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w10/round2/n4_k20_partial_synth_mem.s [relaxed+strict] n=4 L=28 R=12 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 15: reads uninitialized S5; line 16: reads uninitialized S5; line 17: reads uninitialized S5; line 20: reads uninitialized S6; line 21: reads uninitialized S6; line 22: reads uninitialized S6\n"
+    }
+  ]
+}

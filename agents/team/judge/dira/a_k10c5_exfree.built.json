@@ -1,0 +1,48 @@
+{
+  "n": 3,
+  "k": 10,
+  "c": 5,
+  "slots": null,
+  "cases": "strict",
+  "flag_program": null,
+  "fixed": null,
+  "blocks": null,
+  "free_first": false,
+  "no_symmetry": false,
+  "timeout": 1200,
+  "proof": false,
+  "tag": "a_k10c5_exfree",
+  "orders": 6,
+  "variables": 830,
+  "clauses": 6017,
+  "build_seconds": 0.014517569914460182,
+  "cnf_sha256": "112a2e607c768f7fee45c14995c1f63f0cd1385ebb139358e42ee4264686f860",
+  "encoder_sha256": "e3d39668e176875213ada0b4bb0419cef5aa35686108e02bb3410db9e3f35a9f",
+  "base_sha256": "1b02cc848e9cf10b4b2ce4c70bcac79e3b6229644415e11d3942a840915f00bd",
+  "symmetry_sha256": "87c20a7404d4bd5e5bbc6253f5eb6d735f1f4cf6c38a5697707e14b023d49975",
+  "first_pair": true,
+  "symmetry_clauses": 150,
+  "position_choices": [
+    [
+      259,
+      260,
+      261,
+      262,
+      263,
+      264
+    ],
+    [
+      265,
+      266,
+      267,
+      268,
+      269,
+      270
+    ]
+  ],
+  "lattice_shapes": "All monotone Boolean tables with endpoints 0 and 1",
+  "exception_bound": 2,
+  "comparison_values": "Full lattice",
+  "output_values": "Full lattice",
+  "register_cap": null
+}

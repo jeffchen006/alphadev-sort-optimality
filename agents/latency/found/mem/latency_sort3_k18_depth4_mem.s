@@ -1,0 +1,25 @@
+# n=3 R=11 iset=I0 model=mem source=latency (hand-compiled from joint relaxed DAG K=12: 3 cmp + 9 sel) k=18 depth U=4 E=4 (out2mem)
+mov S5, P0
+mov S6, P1
+mov S7, P2
+mov S0, S7
+mov S1, S7
+cmp S6, S7
+cmovl S0, S6
+cmovg S1, S6
+mov S2, S7
+mov S3, S7
+cmp S5, S7
+cmovl S2, S5
+cmovg S3, S5
+cmp S5, S6
+cmovl S0, S2
+mov P0, S0
+mov S4, S1
+cmovg S4, S3
+mov P2, S4
+cmovg S3, S1
+cmovl S2, S6
+cmp S6, S7
+cmovl S3, S2
+mov P1, S3

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "trim_bound_CEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_BLmin.txt",
+    "size": 25,
+    "result": "TIMEOUT",
+    "R": 10,
+    "seconds": 60.07,
+    "rc": -9
+  },
+  {
+    "id": "trim_bound_CEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_BLmax.txt",
+    "size": 25,
+    "result": "TIMEOUT",
+    "R": 10,
+    "seconds": 60.102,
+    "rc": -9
+  }
+]

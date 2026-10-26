@@ -1,0 +1,104 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round2/src/source_slots_sat.py",
+      "round3/candidates/nomov_38bc4652d19a9d1c.s",
+      "round3/candidates/zero0_sources5.s",
+      "--changes",
+      "5",
+      "--prefix",
+      "0"
+    ],
+    "wall_limit": 90.0,
+    "exit": 0,
+    "seconds": 80.27251810394228,
+    "log": "round3/logs/zero0_sources5.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round2/src/source_slots_sat.py",
+      "round3/candidates/nomov_4c02da04dce39b74.s",
+      "round3/candidates/zero25_sources5.s",
+      "--changes",
+      "5",
+      "--prefix",
+      "0"
+    ],
+    "wall_limit": 90.0,
+    "exit": 0,
+    "seconds": 53.40985993668437,
+    "log": "round3/logs/zero25_sources5.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round2/src/source_slots_sat.py",
+      "round3/candidates/nomov_68d29028b7fb54c4.s",
+      "round3/candidates/zero50_sources5.s",
+      "--changes",
+      "5",
+      "--prefix",
+      "0"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.01633413229138,
+    "log": "round3/logs/zero50_sources5.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round2/src/source_slots_sat.py",
+      "round3/candidates/nomov_7e5d1b2681c79ac1.s",
+      "round3/candidates/zero75_sources5.s",
+      "--changes",
+      "5",
+      "--prefix",
+      "0"
+    ],
+    "wall_limit": 90.0,
+    "exit": 0,
+    "seconds": 59.16794974450022,
+    "log": "round3/logs/zero75_sources5.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round2/src/source_slots_sat.py",
+      "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+      "round3/candidates/zero100_sources5.s",
+      "--changes",
+      "5",
+      "--prefix",
+      "0"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.02896843012422,
+    "log": "round3/logs/zero100_sources5.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round2/src/source_slots_sat.py",
+      "round3/candidates/nomov_cb7f7a699c4c9842.s",
+      "round3/candidates/zero125_sources5.s",
+      "--changes",
+      "5",
+      "--prefix",
+      "0"
+    ],
+    "wall_limit": 90.0,
+    "exit": 0,
+    "seconds": 89.68573747389019,
+    "log": "round3/logs/zero125_sources5.log"
+  }
+]

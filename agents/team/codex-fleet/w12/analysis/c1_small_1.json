@@ -1,0 +1,23 @@
+{
+  "result": {
+    "check": "all_programs_specialization_and_prefix_cost",
+    "n": 2,
+    "scratch": 2,
+    "length": 3,
+    "alphabet": 96,
+    "shard": 1,
+    "shards": 4,
+    "programs": 221184,
+    "concrete_specialization_checks": 663552,
+    "removed_comparisons": 64256,
+    "emitted_copy_instructions": 1152,
+    "max_length_excess": 0,
+    "seconds": 8.508769790641963,
+    "accepted": true,
+    "scope": "finite compiler check; no sort5 UNSAT claim"
+  },
+  "source_sha256": {
+    "/path/to/repo/agents/team/codex-fleet/w12/src/check_c1.py": "96e43e189c14f4950cfa7705545870705d69fc3a21c856507712cf1c9bbba131",
+    "/path/to/repo/agents/team/codex-fleet/w12/src/normalize_c1.py": "b94e7acdb5b5993019c3a41f79664491d97fb75c2d1ef15dbde1ceda1ba4f091"
+  }
+}

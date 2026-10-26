@@ -1,0 +1,14 @@
+{
+  "name": "evaluator_check",
+  "command": [
+    "./round4/check"
+  ],
+  "wall_limit": 60.0,
+  "exit": 127,
+  "seconds": 0.005311388522386551,
+  "log": "round4/logs/evaluator_check.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

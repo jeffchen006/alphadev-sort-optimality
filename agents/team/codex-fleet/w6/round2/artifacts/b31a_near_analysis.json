@@ -1,0 +1,51 @@
+{
+  "outputs": [
+    {
+      "output": 0,
+      "fail_weak": 0,
+      "fail_strict": 0,
+      "snapshot": [
+        17,
+        5
+      ]
+    },
+    {
+      "output": 1,
+      "fail_weak": 12,
+      "fail_strict": 8,
+      "snapshot": [
+        29,
+        7
+      ]
+    },
+    {
+      "output": 2,
+      "fail_weak": 18,
+      "fail_strict": 0,
+      "snapshot": [
+        30,
+        6
+      ]
+    },
+    {
+      "output": 3,
+      "fail_weak": 0,
+      "fail_strict": 0,
+      "snapshot": [
+        26,
+        2
+      ]
+    },
+    {
+      "output": 4,
+      "fail_weak": 0,
+      "fail_strict": 0,
+      "snapshot": [
+        22,
+        4
+      ]
+    }
+  ],
+  "strict_flag_classes": 120,
+  "operand_fingerprint": "c8_47641652f3b434f"
+}

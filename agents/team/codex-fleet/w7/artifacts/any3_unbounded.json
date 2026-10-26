@@ -1,0 +1,19 @@
+{
+  "name": "any3_unbounded",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/any3.s",
+    "--changes",
+    "3"
+  ],
+  "limit": 1800,
+  "seconds": 1800.1369286291301,
+  "exit": -15,
+  "status": "timeout"
+}

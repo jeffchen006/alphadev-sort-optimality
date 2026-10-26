@@ -1,0 +1,10 @@
+{
+  "distinct_pools": 54,
+  "runs": 86,
+  "R9": 54,
+  "R10": 32,
+  "search_process_elapsed_seconds_sum": 1205.841,
+  "results": "all NONE <= 31",
+  "workers": 2,
+  "nice": 10
+}

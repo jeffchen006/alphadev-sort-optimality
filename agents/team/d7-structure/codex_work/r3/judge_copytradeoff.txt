@@ -1,0 +1,1 @@
+PASS codex_work/r3/avoid_a_copy_33.s [relaxed+strict] n=5 L=33 R=8 iset=I1 model=out

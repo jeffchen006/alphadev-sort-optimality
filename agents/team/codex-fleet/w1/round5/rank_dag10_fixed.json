@@ -1,0 +1,21 @@
+{
+  "status": "UNSAT",
+  "cpu": 6.748568752,
+  "args": {
+    "gates": 10,
+    "cpu": 180.0,
+    "conflicts": 2000,
+    "solver": "cadical195",
+    "stem": "rank_dag10_fixed",
+    "order": "0,1,2,5,4,3"
+  },
+  "cases": 10,
+  "vars": 2491,
+  "clauses": 30688,
+  "stats": {
+    "restarts": 8403,
+    "conflicts": 177741,
+    "decisions": 437022,
+    "propagations": 12691273
+  }
+}

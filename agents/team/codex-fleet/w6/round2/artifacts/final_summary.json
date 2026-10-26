@@ -1,0 +1,159 @@
+{
+  "searches": {
+    "n32a": {
+      "iterations": "1239777280",
+      "accepted": "159188688",
+      "correct_visits": "288471",
+      "best": "32",
+      "best_error": "0",
+      "cpu": "900.001",
+      "newstructures": "4794",
+      "resets": "619",
+      "archive": "1238",
+      "samples": "1"
+    },
+    "b31a": {
+      "iterations": "792387584",
+      "accepted": "99170566",
+      "correct_visits": "0",
+      "best": "999",
+      "best_error": "9",
+      "cpu": "480",
+      "newstructures": "0",
+      "resets": "792",
+      "archive": "30",
+      "samples": "0"
+    },
+    "n32b": {
+      "iterations": "402001920",
+      "accepted": "51496368",
+      "correct_visits": "3382203",
+      "best": "32",
+      "best_error": "0",
+      "cpu": "300.002",
+      "newstructures": "665",
+      "resets": "201",
+      "archive": "161",
+      "samples": "14"
+    },
+    "f31a": {
+      "iterations": "283176960",
+      "accepted": "34316204",
+      "correct_visits": "0",
+      "best": "999",
+      "best_error": "18",
+      "cpu": "300.001",
+      "newstructures": "0",
+      "resets": "283",
+      "archive": "2",
+      "samples": "0"
+    },
+    "e31a": {
+      "iterations": "174874624",
+      "accepted": "21301282",
+      "correct_visits": "0",
+      "best": "999",
+      "best_error": "18",
+      "cpu": "300.004",
+      "newstructures": "0",
+      "resets": "174",
+      "archive": "1",
+      "samples": "0"
+    }
+  },
+  "repair_counts": {
+    "0": {
+      "tried": 3193616608,
+      "filtered": 0,
+      "groups": 291732
+    },
+    "1": {
+      "tried": 6217776576,
+      "filtered": 0,
+      "groups": 1068672
+    }
+  },
+  "new_verified_structures": 143,
+  "mov_distribution": {
+    "3": 54,
+    "2": 39,
+    "4": 32,
+    "5": 3,
+    "1": 14,
+    "0": 1
+  },
+  "selected_routing": [
+    {
+      "source": "round2/verified/c8_215cbe6f0d1c7837.s",
+      "skeleton": "round2/artifacts/skeletons/c8_215cbe6f0d1c7837.skel",
+      "node_limit": 60000000,
+      "wall_limit": 180,
+      "returncode": 0,
+      "result": [
+        "RESULT NONE K=31 calls=32930695 leaves=51840 sols=0 best=-1 time=88.9s"
+      ],
+      "seconds": 88.89352022018284,
+      "log": "round2/logs/c8_215cbe6f0d1c7837_selected_route31.log"
+    },
+    {
+      "source": "round2/verified/c8_70dac6520f0a05af.s",
+      "skeleton": "round2/artifacts/skeletons/c8_70dac6520f0a05af.skel",
+      "node_limit": 10000000,
+      "wall_limit": 60,
+      "returncode": 0,
+      "result": [
+        "RESULT LIMIT K=31 calls=10000049 leaves=0 sols=0 best=-1 time=25.8s (node limit hit: not exhaustive)"
+      ],
+      "seconds": 25.819693974219263,
+      "log": "round2/logs/c8_70dac6520f0a05af_selected_route31.log"
+    },
+    {
+      "source": "round2/verified/c8_44a89463151f5b8f.s",
+      "skeleton": "round2/artifacts/skeletons/c8_44a89463151f5b8f.skel",
+      "node_limit": 10000000,
+      "wall_limit": 60,
+      "returncode": 0,
+      "result": [
+        "RESULT LIMIT K=31 calls=10000083 leaves=14112 sols=0 best=-1 time=27.4s (node limit hit: not exhaustive)"
+      ],
+      "seconds": 27.36371031589806,
+      "log": "round2/logs/c8_44a89463151f5b8f_selected_route31.log"
+    },
+    {
+      "source": "round2/verified/c8_24f787e7e88ef5ab.s",
+      "skeleton": "round2/artifacts/skeletons/c8_24f787e7e88ef5ab.skel",
+      "node_limit": 10000000,
+      "wall_limit": 60,
+      "returncode": 0,
+      "result": [
+        "RESULT LIMIT K=31 calls=10000077 leaves=0 sols=0 best=-1 time=24.6s (node limit hit: not exhaustive)"
+      ],
+      "seconds": 24.60644779819995,
+      "log": "round2/logs/c8_24f787e7e88ef5ab_selected_route31.log"
+    },
+    {
+      "source": "round2/verified/c8_ffb1da4812016b.s",
+      "skeleton": "round2/artifacts/skeletons/c8_ffb1da4812016b.skel",
+      "node_limit": 10000000,
+      "wall_limit": 60,
+      "returncode": 0,
+      "result": [
+        "RESULT LIMIT K=31 calls=10000057 leaves=0 sols=0 best=-1 time=27.6s (node limit hit: not exhaustive)"
+      ],
+      "seconds": 27.58731415309012,
+      "log": "round2/logs/c8_ffb1da4812016b_selected_route31.log"
+    },
+    {
+      "source": "round2/verified/c8_36e5e6298381a683.s",
+      "skeleton": "round2/artifacts/skeletons/c8_36e5e6298381a683.skel",
+      "node_limit": 10000000,
+      "wall_limit": 60,
+      "returncode": 0,
+      "result": [
+        "RESULT LIMIT K=31 calls=10000060 leaves=17280 sols=0 best=-1 time=32.1s (node limit hit: not exhaustive)"
+      ],
+      "seconds": 32.12861798517406,
+      "log": "round2/logs/c8_36e5e6298381a683_selected_route31.log"
+    }
+  ]
+}

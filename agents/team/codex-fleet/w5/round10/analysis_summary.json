@@ -1,0 +1,23 @@
+{
+  "known_sources": 370,
+  "known_classes": 232,
+  "generated": 1815,
+  "unique": 1347,
+  "known_matches": 0,
+  "weak_order_failing_structures": 0,
+  "queue": 1347,
+  "distance_histogram": {
+    "0": 0,
+    "1": 0,
+    "2": 42,
+    "3": 36,
+    "4": 117,
+    "5": 206,
+    "6": 193,
+    "7": 753,
+    "8": 0
+  },
+  "w13_closed_exists": true,
+  "w13_reserved_classes": 22,
+  "w13_reserved_matches": 0
+}

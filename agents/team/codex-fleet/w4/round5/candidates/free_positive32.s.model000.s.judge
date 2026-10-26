@@ -1,0 +1,1 @@
+PASS /path/to/repo/agents/team/codex-fleet/w4/round5/candidates/free_positive32.s.model000.s [relaxed+strict] n=5 L=32 R=10 iset=I1 model=out

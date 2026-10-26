@@ -1,0 +1,16 @@
+{
+  "name": "prepare",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/prepare.py"
+  ],
+  "wall_limit": 180.0,
+  "exit": 0,
+  "seconds": 51.035180043429136,
+  "log": "round6/logs/prepare.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

@@ -1,0 +1,1394 @@
+[
+  {
+    "index": 26,
+    "result": "c8_schedule3_pilot_00.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "26",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_00",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.6373021959999999,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 26,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_00",
+      "resume_json": null
+    },
+    "key": "c8_b00",
+    "editable": [
+      26,
+      28,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    ],
+    "vars": 9366,
+    "clauses": 83430,
+    "stats": {
+      "restarts": 199,
+      "conflicts": 2909,
+      "decisions": 9189,
+      "propagations": 4460814
+    },
+    "maxrss_kib": 41524,
+    "total_cpu": 0.6460809000000001,
+    "registers": 13,
+    "suffix_builds": 10,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 27,
+    "result": "c8_schedule3_pilot_01.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "27",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_01",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 1.340478529,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 27,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_01",
+      "resume_json": null
+    },
+    "key": "c8_b01",
+    "editable": [
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        1
+      ]
+    ],
+    "vars": 16908,
+    "clauses": 155421,
+    "stats": {
+      "restarts": 263,
+      "conflicts": 4254,
+      "decisions": 19727,
+      "propagations": 11038528
+    },
+    "maxrss_kib": 56284,
+    "total_cpu": 1.349631494,
+    "registers": 15,
+    "suffix_builds": 19,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 28,
+    "result": "c8_schedule3_pilot_02.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "28",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_02",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 1.764816812,
+    "cases": 27,
+    "rounds": 3,
+    "args": {
+      "index": 28,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_02",
+      "resume_json": null
+    },
+    "key": "c8_b02",
+    "editable": [
+      26,
+      28,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        0
+      ]
+    ],
+    "vars": 16998,
+    "clauses": 159385,
+    "stats": {
+      "restarts": 524,
+      "conflicts": 5536,
+      "decisions": 30519,
+      "propagations": 12932631
+    },
+    "maxrss_kib": 55972,
+    "total_cpu": 1.772722996,
+    "registers": 13,
+    "suffix_builds": 19,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 29,
+    "result": "c8_schedule3_pilot_03.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "29",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_03",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.9547246169999999,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 29,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_03",
+      "resume_json": null
+    },
+    "key": "c8_b03",
+    "editable": [
+      26,
+      28,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ]
+    ],
+    "vars": 10881,
+    "clauses": 97835,
+    "stats": {
+      "restarts": 463,
+      "conflicts": 4985,
+      "decisions": 30961,
+      "propagations": 7012955
+    },
+    "maxrss_kib": 44812,
+    "total_cpu": 0.9641237310000002,
+    "registers": 14,
+    "suffix_builds": 11,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 30,
+    "result": "c8_schedule3_pilot_04.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "30",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_04",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 1.062091015,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 30,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_04",
+      "resume_json": null
+    },
+    "key": "c8_b04",
+    "editable": [
+      26,
+      28,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ]
+    ],
+    "vars": 15401,
+    "clauses": 141902,
+    "stats": {
+      "restarts": 239,
+      "conflicts": 3595,
+      "decisions": 17435,
+      "propagations": 7211633
+    },
+    "maxrss_kib": 51768,
+    "total_cpu": 1.069064488,
+    "registers": 14,
+    "suffix_builds": 16,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 31,
+    "result": "c8_schedule3_pilot_05.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "31",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_05",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 1.302730933,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 31,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_05",
+      "resume_json": null
+    },
+    "key": "c8_b05",
+    "editable": [
+      26,
+      28,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ]
+    ],
+    "vars": 11548,
+    "clauses": 103960,
+    "stats": {
+      "restarts": 554,
+      "conflicts": 5546,
+      "decisions": 29797,
+      "propagations": 10428442
+    },
+    "maxrss_kib": 45828,
+    "total_cpu": 1.312784497,
+    "registers": 15,
+    "suffix_builds": 11,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 32,
+    "result": "c8_schedule3_pilot_06.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "32",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_06",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.563575324,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 32,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_06",
+      "resume_json": null
+    },
+    "key": "c8_b06",
+    "editable": [
+      26,
+      28,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    ],
+    "vars": 8169,
+    "clauses": 72737,
+    "stats": {
+      "restarts": 267,
+      "conflicts": 3287,
+      "decisions": 15770,
+      "propagations": 3899103
+    },
+    "maxrss_kib": 38516,
+    "total_cpu": 0.570061448,
+    "registers": 14,
+    "suffix_builds": 8,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  },
+  {
+    "index": 33,
+    "result": "c8_schedule3_pilot_07.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "33",
+      "--mode",
+      "schedule",
+      "--tail",
+      "3",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c8_schedule3_pilot_07",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 1.3028130629999999,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 33,
+      "mode": "schedule",
+      "tail": 3,
+      "schedule_scope": "tail",
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c8_schedule3_pilot_07",
+      "resume_json": null
+    },
+    "key": "c8_b07",
+    "editable": [
+      26,
+      28,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ]
+    ],
+    "vars": 15401,
+    "clauses": 141883,
+    "stats": {
+      "restarts": 334,
+      "conflicts": 4786,
+      "decisions": 22081,
+      "propagations": 10649212
+    },
+    "maxrss_kib": 52972,
+    "total_cpu": 1.3105248870000001,
+    "registers": 14,
+    "suffix_builds": 16,
+    "schedule_normalized": true,
+    "requested_cpu": 30.0
+  }
+]

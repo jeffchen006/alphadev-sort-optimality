@@ -1,0 +1,19 @@
+{
+  "name": "triple_extrema_control",
+  "command": [
+    "python3",
+    "-B",
+    "round5/src/triple_extrema.py",
+    "--control",
+    "--registers",
+    "6"
+  ],
+  "wall_limit": 30.0,
+  "exit": 0,
+  "seconds": 2.1915713539347053,
+  "log": "round5/logs/triple_extrema_control.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

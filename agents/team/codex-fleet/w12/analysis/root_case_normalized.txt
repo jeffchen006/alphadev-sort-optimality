@@ -1,0 +1,9 @@
+# n=3 R=5 iset=I1 model=out source=w12_C1_normalization
+cmp P1, P2
+mov S0, P0
+cmovg S0, P1
+mov S1, P0
+cmovg S1, P2
+out 0, S0
+out 1, S1
+out 2, P0

@@ -1,0 +1,25 @@
+{
+  "selected_retries": 161,
+  "completed_retries": 76,
+  "pending_retries": 85,
+  "retry_statuses": {
+    "UNSAT": 76
+  },
+  "new_checked_UNSAT": 76,
+  "combined_checked_UNSAT": 104,
+  "combined_unresolved": 85,
+  "search_seconds": 2448.2454190403223,
+  "verify_seconds": 2215.3329857159406,
+  "peak_KiB": 108292,
+  "strict_judge_calls": 0,
+  "blocked_mappings": 0,
+  "strict_PASS_files": [],
+  "assumptions": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "A2",
+    "A11"
+  ]
+}

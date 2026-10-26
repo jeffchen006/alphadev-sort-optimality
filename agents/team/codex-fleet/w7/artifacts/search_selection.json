@@ -1,0 +1,5 @@
+{
+ "triple_keep_any": [14, 21],
+ "fold_readonly": true,
+ "skip_outputs": ["candidates/suffix16_free.s", "candidates/suffix12_c8.s"]
+}

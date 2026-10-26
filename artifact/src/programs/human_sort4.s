@@ -1,0 +1,30 @@
+# n=4 R=9 iset=I0 model=mem source=reconstructed human baseline: optimal sorting network [(0, 1), (2, 3), (0, 2), (1, 3), (1, 2)], comparator = mov t,a; cmp a,b; cmovg a,b; cmovg b,t
+# L = 2n + 4*5 = 28 (matches Nature Table 1a human benchmark)
+mov S0, P0
+mov S1, P1
+mov S2, P2
+mov S3, P3
+mov S4, S0
+cmp S0, S1
+cmovg S0, S1
+cmovg S1, S4
+mov S4, S2
+cmp S2, S3
+cmovg S2, S3
+cmovg S3, S4
+mov S4, S0
+cmp S0, S2
+cmovg S0, S2
+cmovg S2, S4
+mov S4, S1
+cmp S1, S3
+cmovg S1, S3
+cmovg S3, S4
+mov S4, S1
+cmp S1, S2
+cmovg S1, S2
+cmovg S2, S4
+mov P0, S0
+mov P1, S1
+mov P2, S2
+mov P3, S3

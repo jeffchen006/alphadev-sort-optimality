@@ -1,0 +1,2 @@
+skeleton c=8 K=31 budget(gates+copies)=23 lb(root)=15 classes(c)=120
+RESULT LIMIT K=31 calls=2000068 leaves=0 sols=0 best=-1 time=4.6s (node limit hit: not exhaustive)

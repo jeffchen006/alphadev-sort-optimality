@@ -1,0 +1,4146 @@
+[
+  {
+    "index": 0,
+    "result": "c9_exclusive_00.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "0",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_00",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.03145724300000001,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 0,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_00"
+    },
+    "key": "c9_b00",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1094,
+    "clauses": 7501,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 818
+    },
+    "maxrss_kib": 23848,
+    "total_cpu": 0.035503414999999997,
+    "registers": 10,
+    "suffix_builds": 8
+  },
+  {
+    "index": 1,
+    "result": "c9_exclusive_01.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "1",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_01",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.035302505,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 1,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_01"
+    },
+    "key": "c9_b01",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1383,
+    "clauses": 9507,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 789
+    },
+    "maxrss_kib": 24016,
+    "total_cpu": 0.037568915999999994,
+    "registers": 11,
+    "suffix_builds": 10
+  },
+  {
+    "index": 2,
+    "result": "c9_exclusive_02.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "2",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_02",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.06645655799999999,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 2,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_02"
+    },
+    "key": "c9_b02",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 2175,
+    "clauses": 17099,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1482
+    },
+    "maxrss_kib": 24364,
+    "total_cpu": 0.068993189,
+    "registers": 11,
+    "suffix_builds": 18
+  },
+  {
+    "index": 3,
+    "result": "c9_exclusive_03.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "3",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_03",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.033643084000000004,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 3,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_03"
+    },
+    "key": "c9_b03",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1278,
+    "clauses": 8834,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 726
+    },
+    "maxrss_kib": 24008,
+    "total_cpu": 0.03673869599999999,
+    "registers": 10,
+    "suffix_builds": 10
+  },
+  {
+    "index": 4,
+    "result": "c9_exclusive_04.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "4",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_04",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.07900603,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 4,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_04"
+    },
+    "key": "c9_b04",
+    "editable": [
+      27,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 2813,
+    "clauses": 23129,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 64,
+      "decisions": 101,
+      "propagations": 36003
+    },
+    "maxrss_kib": 26400,
+    "total_cpu": 0.083351802,
+    "registers": 12,
+    "suffix_builds": 11
+  },
+  {
+    "index": 5,
+    "result": "c9_exclusive_05.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "5",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_05",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.089242028,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 5,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_05"
+    },
+    "key": "c9_b05",
+    "editable": [
+      24,
+      28
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 3180,
+    "clauses": 26538,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 102,
+      "decisions": 2468,
+      "propagations": 76608
+    },
+    "maxrss_kib": 26488,
+    "total_cpu": 0.092202539,
+    "registers": 13,
+    "suffix_builds": 11
+  },
+  {
+    "index": 6,
+    "result": "c9_exclusive_06.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "6",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_06",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.063204377,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 6,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_06"
+    },
+    "key": "c9_b06",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 1977,
+    "clauses": 15717,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1482
+    },
+    "maxrss_kib": 23904,
+    "total_cpu": 0.06668578800000001,
+    "registers": 11,
+    "suffix_builds": 16
+  },
+  {
+    "index": 7,
+    "result": "c9_exclusive_07.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "7",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_07",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.212920549,
+    "cases": 27,
+    "rounds": 3,
+    "args": {
+      "index": 7,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_07"
+    },
+    "key": "c9_b07",
+    "editable": [
+      27,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        3
+      ]
+    ],
+    "vars": 6652,
+    "clauses": 60265,
+    "stats": {
+      "restarts": 2,
+      "conflicts": 88,
+      "decisions": 370,
+      "propagations": 139702
+    },
+    "maxrss_kib": 29996,
+    "total_cpu": 0.21691041100000003,
+    "registers": 13,
+    "suffix_builds": 27
+  },
+  {
+    "index": 8,
+    "result": "c9_exclusive_08.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "8",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_08",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.067837079,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 8,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_08"
+    },
+    "key": "c9_b08",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 2274,
+    "clauses": 17844,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1581
+    },
+    "maxrss_kib": 24620,
+    "total_cpu": 0.07285900999999999,
+    "registers": 11,
+    "suffix_builds": 19
+  },
+  {
+    "index": 9,
+    "result": "c9_exclusive_09.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "9",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_09",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.05351654199999999,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 9,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_09"
+    },
+    "key": "c9_b09",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 1554,
+    "clauses": 12749,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1278
+    },
+    "maxrss_kib": 24180,
+    "total_cpu": 0.057112252999999995,
+    "registers": 10,
+    "suffix_builds": 13
+  },
+  {
+    "index": 10,
+    "result": "c9_exclusive_10.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "10",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_10",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.07200621,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 10,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_10"
+    },
+    "key": "c9_b10",
+    "editable": [
+      27
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 2463,
+    "clauses": 20383,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1773
+    },
+    "maxrss_kib": 24532,
+    "total_cpu": 0.07835351300000001,
+    "registers": 11,
+    "suffix_builds": 18
+  },
+  {
+    "index": 11,
+    "result": "c9_exclusive_11.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "11",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_11",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.042662588,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 11,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_11"
+    },
+    "key": "c9_b11",
+    "editable": [
+      27
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1658,
+    "clauses": 12137,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 853
+    },
+    "maxrss_kib": 23832,
+    "total_cpu": 0.044510639,
+    "registers": 11,
+    "suffix_builds": 11
+  },
+  {
+    "index": 12,
+    "result": "c9_exclusive_12.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "12",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_12",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.11998833,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 12,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_12"
+    },
+    "key": "c9_b12",
+    "editable": [
+      25,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ]
+    ],
+    "vars": 3804,
+    "clauses": 34710,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 56,
+      "decisions": 80,
+      "propagations": 60582
+    },
+    "maxrss_kib": 27036,
+    "total_cpu": 0.12677321200000002,
+    "registers": 12,
+    "suffix_builds": 15
+  },
+  {
+    "index": 13,
+    "result": "c9_exclusive_13.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "13",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_13",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.03199971299999999,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 13,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_13"
+    },
+    "key": "c9_b13",
+    "editable": [
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1208,
+    "clauses": 8266,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 868
+    },
+    "maxrss_kib": 24180,
+    "total_cpu": 0.037321035,
+    "registers": 10,
+    "suffix_builds": 10
+  },
+  {
+    "index": 14,
+    "result": "c9_exclusive_14.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "14",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_14",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.145767701,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 14,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_14"
+    },
+    "key": "c9_b14",
+    "editable": [
+      27,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        3,
+        0
+      ]
+    ],
+    "vars": 4828,
+    "clauses": 42664,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 55,
+      "decisions": 330,
+      "propagations": 72725
+    },
+    "maxrss_kib": 28872,
+    "total_cpu": 0.148618002,
+    "registers": 13,
+    "suffix_builds": 19
+  },
+  {
+    "index": 15,
+    "result": "c9_exclusive_15.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "15",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_15",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.035120662999999996,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 15,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_15"
+    },
+    "key": "c9_b15",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1482,
+    "clauses": 10151,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 789
+    },
+    "maxrss_kib": 23960,
+    "total_cpu": 0.039729346,
+    "registers": 11,
+    "suffix_builds": 11
+  },
+  {
+    "index": 16,
+    "result": "c9_exclusive_16.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "16",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_16",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.051986921000000005,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 16,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_16"
+    },
+    "key": "c9_b16",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 1554,
+    "clauses": 12695,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1278
+    },
+    "maxrss_kib": 24040,
+    "total_cpu": 0.058672035,
+    "registers": 10,
+    "suffix_builds": 13
+  },
+  {
+    "index": 17,
+    "result": "c9_exclusive_17.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "17",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_17",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.064129697,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 17,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_17"
+    },
+    "key": "c9_b17",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        2
+      ]
+    ],
+    "vars": 2076,
+    "clauses": 16554,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1482
+    },
+    "maxrss_kib": 24288,
+    "total_cpu": 0.067373508,
+    "registers": 11,
+    "suffix_builds": 17
+  },
+  {
+    "index": 18,
+    "result": "c9_exclusive_18.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "18",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_18",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.075875432,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 18,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_18"
+    },
+    "key": "c9_b18",
+    "editable": [
+      25,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 2689,
+    "clauses": 22545,
+    "stats": {
+      "restarts": 2,
+      "conflicts": 80,
+      "decisions": 541,
+      "propagations": 48367
+    },
+    "maxrss_kib": 26124,
+    "total_cpu": 0.08190840499999999,
+    "registers": 12,
+    "suffix_builds": 10
+  },
+  {
+    "index": 19,
+    "result": "c9_exclusive_19.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "19",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_19",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.09370699900000001,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 19,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_19"
+    },
+    "key": "c9_b19",
+    "editable": [
+      21,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 3356,
+    "clauses": 28549,
+    "stats": {
+      "restarts": 3,
+      "conflicts": 179,
+      "decisions": 466,
+      "propagations": 83816
+    },
+    "maxrss_kib": 26712,
+    "total_cpu": 0.09865559200000001,
+    "registers": 13,
+    "suffix_builds": 11
+  },
+  {
+    "index": 20,
+    "result": "c9_exclusive_20.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "20",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_20",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.06671395799999999,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 20,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_20"
+    },
+    "key": "c9_b20",
+    "editable": [
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 2141,
+    "clauses": 16992,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1497
+    },
+    "maxrss_kib": 24592,
+    "total_cpu": 0.06925217900000001,
+    "registers": 11,
+    "suffix_builds": 19
+  },
+  {
+    "index": 21,
+    "result": "c9_exclusive_21.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "21",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_21",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.029954663000000006,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 21,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_21"
+    },
+    "key": "c9_b21",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 1186,
+    "clauses": 8136,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 818
+    },
+    "maxrss_kib": 24000,
+    "total_cpu": 0.035400335000000005,
+    "registers": 10,
+    "suffix_builds": 9
+  },
+  {
+    "index": 22,
+    "result": "c9_exclusive_22.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "22",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_22",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.070241959,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 22,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_22"
+    },
+    "key": "c9_b22",
+    "editable": [
+      28,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 2529,
+    "clauses": 20858,
+    "stats": {
+      "restarts": 2,
+      "conflicts": 69,
+      "decisions": 163,
+      "propagations": 29766
+    },
+    "maxrss_kib": 25896,
+    "total_cpu": 0.07398053100000002,
+    "registers": 12,
+    "suffix_builds": 10
+  },
+  {
+    "index": 23,
+    "result": "c9_exclusive_23.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "23",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_23",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.07989819399999998,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 23,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_23"
+    },
+    "key": "c9_b23",
+    "editable": [
+      27,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 3004,
+    "clauses": 24614,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 74,
+      "decisions": 227,
+      "propagations": 55834
+    },
+    "maxrss_kib": 26260,
+    "total_cpu": 0.087517026,
+    "registers": 13,
+    "suffix_builds": 11
+  },
+  {
+    "index": 24,
+    "result": "c9_exclusive_24.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "24",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_24",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.051116791999999994,
+    "cases": 19,
+    "rounds": 2,
+    "args": {
+      "index": 24,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_24"
+    },
+    "key": "c9_b24",
+    "editable": [
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    ],
+    "vars": 1462,
+    "clauses": 11462,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 1278
+    },
+    "maxrss_kib": 24168,
+    "total_cpu": 0.053466481999999996,
+    "registers": 10,
+    "suffix_builds": 12
+  },
+  {
+    "index": 25,
+    "result": "c9_exclusive_25.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "25",
+      "--mode",
+      "exclusive",
+      "--tail",
+      "6",
+      "--cpu",
+      "30.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_exclusive_25",
+      "--unbounded"
+    ],
+    "status": "UNSAT",
+    "cpu": 0.082554444,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 25,
+      "mode": "exclusive",
+      "tail": 6,
+      "cpu": 30.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_exclusive_25"
+    },
+    "key": "c9_b25",
+    "editable": [
+      22,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    ],
+    "vars": 3026,
+    "clauses": 25739,
+    "stats": {
+      "restarts": 0,
+      "conflicts": 80,
+      "decisions": 130,
+      "propagations": 30063
+    },
+    "maxrss_kib": 26628,
+    "total_cpu": 0.08646583599999999,
+    "registers": 13,
+    "suffix_builds": 10
+  }
+]

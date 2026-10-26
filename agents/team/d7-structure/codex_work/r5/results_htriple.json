@@ -1,0 +1,2186 @@
+[
+  {
+    "id": "htriple_15_11__15_5__12_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__15_5__12_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.98,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__15_5__12_5",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__15_5__12_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.449,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__15_5__11_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__15_5__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.464,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__15_5__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__15_5__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.044,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__15_5__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__15_5__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 12.732,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__15_5__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__15_5__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.156,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_15__12_5",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_15__12_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 15.244,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_15__11_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_15__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 12.948,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_15__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.472,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_15__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.156,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_15__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.4,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_5__11_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_5__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.36,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_5__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_5__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.156,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_5__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_5__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.828,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__12_5__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__12_5__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.612,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__11_15__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__11_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.556,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__11_15__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__11_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.456,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__11_15__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__11_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.152,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__11_12__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__11_12__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.908,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__11_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__11_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.084,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_11__5_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_11__5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 11.496,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_15__12_5",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_15__12_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 12.068,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_15__11_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_15__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.556,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_15__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.512,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_15__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.248,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_15__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.892,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_5__11_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_5__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.472,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_5__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_5__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.468,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_5__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_5__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.512,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__12_5__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__12_5__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.46,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__11_15__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__11_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.252,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__11_15__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__11_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.948,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__11_15__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__11_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.816,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__11_12__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__11_12__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.028,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__11_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__11_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.352,
+    "rc": 0
+  },
+  {
+    "id": "htriple_15_5__5_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_15_5__5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.256,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__12_5__11_15",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__12_5__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.47,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__12_5__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__12_5__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.672,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__12_5__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__12_5__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.213,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__12_5__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__12_5__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.464,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__11_15__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__11_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.356,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__11_15__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__11_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.304,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__11_15__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__11_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.312,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__11_12__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__11_12__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.464,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__11_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__11_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.416,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_15__5_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_15__5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.044,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_5__11_15__11_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_5__11_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.092,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_5__11_15__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_5__11_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.25,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_5__11_15__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_5__11_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.988,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_5__11_12__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_5__11_12__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.605,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_5__11_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_5__11_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.32,
+    "rc": 0
+  },
+  {
+    "id": "htriple_12_5__5_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_12_5__5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.132,
+    "rc": 0
+  },
+  {
+    "id": "htriple_11_15__11_12__5_12",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_11_15__11_12__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.896,
+    "rc": 0
+  },
+  {
+    "id": "htriple_11_15__11_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_11_15__11_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.58,
+    "rc": 0
+  },
+  {
+    "id": "htriple_11_15__5_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_11_15__5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.744,
+    "rc": 0
+  },
+  {
+    "id": "htriple_11_12__5_12__5_11",
+    "idea": "Three conditional pair states; replace the first dead-register select by mov",
+    "file": "codex_work/r5/pool_htriple_11_12__5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.58,
+    "rc": 0
+  }
+]

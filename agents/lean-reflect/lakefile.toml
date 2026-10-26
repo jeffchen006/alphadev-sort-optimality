@@ -1,0 +1,52 @@
+name = "leanreflect"
+defaultTargets = ["LeanReflect"]
+
+[[lean_lib]]
+name = "SortProof"
+
+[[lean_lib]]
+name = "LeanReflect"
+precompileModules = true
+
+[[lean_exe]]
+name = "searchexe"
+root = "Main"
+
+[[lean_exe]]
+name = "setexe"
+root = "MainS"
+
+[[lean_exe]]
+name = "symexe"
+root = "MainG"
+
+[[lean_exe]]
+name = "certexe"
+root = "MainC"
+
+[[lean_exe]]
+name = "ngexe"
+root = "MainNG"
+
+[[lean_exe]]
+name = "fastexe"
+root = "MainF"
+
+[[lean_exe]]
+name = "nexe"
+root = "MainN"
+
+[[lean_exe]]
+name = "pexe"
+root = "MainP"
+
+[[lean_exe]]
+name = "qexe"
+root = "MainQ"
+
+[[lean_exe]]
+name = "statexe"
+root = "MainStat"
+
+[[lean_lib]]
+name = "LRMM"

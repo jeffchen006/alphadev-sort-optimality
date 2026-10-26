@@ -1,0 +1,14 @@
+{
+  "name": "backward_check",
+  "command": [
+    "round5/bin/backward_check"
+  ],
+  "wall_limit": 40.0,
+  "exit": 0,
+  "seconds": 0.1891790423542261,
+  "log": "round5/logs/backward_check.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "suffix12_c8_r9",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix12_c8.s",
+    "--changes",
+    "0",
+    "--registers",
+    "9",
+    "--prefix",
+    "12",
+    "--maxcmp",
+    "8"
+  ],
+  "limit": 1800,
+  "seconds": 0.2193744508549571,
+  "exit": 0,
+  "status": "finished"
+}

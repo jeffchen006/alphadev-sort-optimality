@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bound_CEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_BLmin.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.048,
+    "rc": 0
+  },
+  {
+    "id": "bound_CEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_BLmax.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.948,
+    "rc": 0
+  },
+  {
+    "id": "bound_CEmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_C1L1min.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.316,
+    "rc": 0
+  },
+  {
+    "id": "bound_CEmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CEmin_C1L1max.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.104,
+    "rc": 0
+  },
+  {
+    "id": "bound_CDmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CDmax_BLmin.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.268,
+    "rc": 0
+  },
+  {
+    "id": "bound_BEmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_BEmax_BLmin.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.956,
+    "rc": 0
+  },
+  {
+    "id": "bound_BCpair_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_BCpair_BLmax.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.992,
+    "rc": 0
+  },
+  {
+    "id": "bound_CLmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds",
+    "file": "codex_work/r5/pool_bound_CLmin_BLmin.txt",
+    "size": 27,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.312,
+    "rc": 0
+  }
+]

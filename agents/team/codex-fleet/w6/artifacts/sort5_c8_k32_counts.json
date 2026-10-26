@@ -1,0 +1,16 @@
+{
+  "source": "seeds/c8_32.s",
+  "core": 32,
+  "total": 42,
+  "counts": {
+    "cmp": 8,
+    "mov": 4,
+    "cmovle": 4,
+    "cmovl": 4,
+    "cmovge": 6,
+    "cmovg": 6,
+    "out": 5
+  },
+  "out_file": "artifacts/sort5_c8_k32_out.s",
+  "mem_file": "artifacts/sort5_c8_k32_mem.s"
+}

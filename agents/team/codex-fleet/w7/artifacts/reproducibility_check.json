@@ -1,0 +1,6 @@
+{
+  "original_cnf_sha256": "d56ee7a7eeb266edcff7efc86bcbf61fe82cf70818dcbda60e44575b761984e9",
+  "replay_cnf_sha256": "d56ee7a7eeb266edcff7efc86bcbf61fe82cf70818dcbda60e44575b761984e9",
+  "cnf_identical": true,
+  "block_summary": "RESULT orders=11975040 filtered=0 full_relaxed_hits=0"
+}

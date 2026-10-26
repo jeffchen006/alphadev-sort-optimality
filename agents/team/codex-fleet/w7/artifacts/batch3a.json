@@ -1,0 +1,16 @@
+[
+  [
+    "suffix16_free_r10_new",
+    1800,
+    [
+      "seeds/near31.s",
+      "candidates/suffix16_free_new.s",
+      "--changes",
+      "0",
+      "--registers",
+      "10",
+      "--prefix",
+      "16"
+    ]
+  ]
+]

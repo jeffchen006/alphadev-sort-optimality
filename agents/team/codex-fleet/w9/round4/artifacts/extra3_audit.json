@@ -1,0 +1,323 @@
+{
+  "recorded_queries": 653,
+  "distinct_indices": 653,
+  "information_filter_status": {
+    "False_UNSAT": 395,
+    "False_UNKNOWN": 7,
+    "True_UNSAT": 6,
+    "True_UNKNOWN": 245
+  },
+  "accepted_order_unsat": [
+    {
+      "index": 425,
+      "family": "27a5f4f9f6ba",
+      "order": [
+        2,
+        0,
+        3,
+        4,
+        1,
+        6,
+        5,
+        7
+      ],
+      "regs": 9,
+      "free_data_slots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        20,
+        21,
+        22,
+        24,
+        26,
+        28,
+        31
+      ],
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "UNSAT",
+          "seconds": 1.2971944464370608,
+          "returncode": 20,
+          "cnf_sha256": "e0d722f1cf9e45368deed887a464895d73bc0a90cbabcd24e66dd7f2ff9e0721",
+          "variables": 30638,
+          "clauses": 232894,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round4/logs/median_extra3_0425_kissat_01.log"
+        }
+      ]
+    },
+    {
+      "index": 426,
+      "family": "27a5f4f9f6ba",
+      "order": [
+        2,
+        0,
+        3,
+        4,
+        6,
+        1,
+        5,
+        7
+      ],
+      "regs": 9,
+      "free_data_slots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        23,
+        26,
+        28,
+        31
+      ],
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "UNSAT",
+          "seconds": 2.564953152090311,
+          "returncode": 20,
+          "cnf_sha256": "55a38208cbcb24963fea1a81abf4b27117723507a88f71a4e991f681e5105376",
+          "variables": 30638,
+          "clauses": 232894,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round4/logs/median_extra3_0426_kissat_01.log"
+        }
+      ]
+    },
+    {
+      "index": 459,
+      "family": "65e288dc8ab2",
+      "order": [
+        2,
+        0,
+        3,
+        4,
+        1,
+        6,
+        5,
+        7
+      ],
+      "regs": 9,
+      "free_data_slots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        23,
+        24,
+        26,
+        30
+      ],
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "UNSAT",
+          "seconds": 3.0517386496067047,
+          "returncode": 20,
+          "cnf_sha256": "0a7a2cb8ffe7cce560053d457c139112864b45229d33af5c209f30d3be1b1662",
+          "variables": 30642,
+          "clauses": 232843,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round4/logs/median_extra3_0459_kissat_01.log"
+        }
+      ]
+    },
+    {
+      "index": 461,
+      "family": "65e288dc8ab2",
+      "order": [
+        2,
+        0,
+        3,
+        4,
+        6,
+        1,
+        5,
+        7
+      ],
+      "regs": 9,
+      "free_data_slots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        22,
+        24,
+        26,
+        30
+      ],
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "UNSAT",
+          "seconds": 1.3547032596543431,
+          "returncode": 20,
+          "cnf_sha256": "ad029625104e69ae544cac4145d34e3a1a0e86bd417ae96d03bf34384d900e8a",
+          "variables": 30642,
+          "clauses": 232843,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round4/logs/median_extra3_0461_kissat_01.log"
+        }
+      ]
+    },
+    {
+      "index": 465,
+      "family": "65e288dc8ab2",
+      "order": [
+        2,
+        0,
+        4,
+        3,
+        1,
+        6,
+        5,
+        7
+      ],
+      "regs": 9,
+      "free_data_slots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        23,
+        24,
+        26,
+        30
+      ],
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "UNSAT",
+          "seconds": 2.7761188372969627,
+          "returncode": 20,
+          "cnf_sha256": "1537a5aebfd5a0c810f9073fa0ea54afa65e5e1545c7d5bef57b0d83aa770bb4",
+          "variables": 30782,
+          "clauses": 233423,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round4/logs/median_extra3_0465_kissat_01.log"
+        }
+      ]
+    },
+    {
+      "index": 467,
+      "family": "65e288dc8ab2",
+      "order": [
+        2,
+        0,
+        4,
+        3,
+        6,
+        1,
+        5,
+        7
+      ],
+      "regs": 9,
+      "free_data_slots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        22,
+        24,
+        26,
+        30
+      ],
+      "solver_calls": [
+        {
+          "iteration": 1,
+          "status": "UNSAT",
+          "seconds": 3.3198189474642277,
+          "returncode": 20,
+          "cnf_sha256": "2fabe7f85726742fb5002b32562d9ab94a43d012522087f6c7a8829b7afb0a5b",
+          "variables": 30782,
+          "clauses": 233423,
+          "raw_log": "/path/to/repo/agents/team/codex-fleet/w9/round4/logs/median_extra3_0467_kissat_01.log"
+        }
+      ]
+    }
+  ],
+  "rejected_order_timeout_indices": [
+    24,
+    34,
+    70,
+    89,
+    251,
+    272,
+    550
+  ],
+  "models": 0,
+  "solver_calls": 653,
+  "cpu_parent": 648.8760903260002,
+  "cpu_child": 867.3992059999997,
+  "wall": 2317.14660920389,
+  "peak_rss_kib": 147432,
+  "assumptions": [
+    "A2",
+    "A4",
+    "A6",
+    "A11"
+  ]
+}

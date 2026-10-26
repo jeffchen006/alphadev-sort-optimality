@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_weak_b33332.json",
+  "cnf_sha256": "fd26b361dea16d1e6129616aea705f656c3b08a2d0aa2f7c1ab955af799d4a1d",
+  "proof_sha256": "605b002fc069ec17c419a4ed2e7c419772e631b69770cb88c04762bc19486115",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 26.984627227298915
+}

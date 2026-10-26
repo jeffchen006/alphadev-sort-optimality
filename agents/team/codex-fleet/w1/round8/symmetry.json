@@ -1,0 +1,1185 @@
+{
+  "scope": "exclusive",
+  "classes": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      20
+    ],
+    [
+      21
+    ],
+    [
+      22
+    ],
+    [
+      23
+    ],
+    [
+      24
+    ],
+    [
+      25
+    ],
+    [
+      26
+    ],
+    [
+      27
+    ],
+    [
+      28
+    ],
+    [
+      29
+    ],
+    [
+      30
+    ],
+    [
+      31
+    ],
+    [
+      32
+    ],
+    [
+      33
+    ],
+    [
+      34
+    ],
+    [
+      35
+    ],
+    [
+      36
+    ],
+    [
+      37
+    ],
+    [
+      38
+    ],
+    [
+      39
+    ],
+    [
+      40
+    ],
+    [
+      41
+    ],
+    [
+      42
+    ],
+    [
+      43
+    ],
+    [
+      44
+    ],
+    [
+      45
+    ],
+    [
+      46
+    ],
+    [
+      47
+    ],
+    [
+      48
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      51
+    ],
+    [
+      52
+    ],
+    [
+      53
+    ],
+    [
+      54
+    ],
+    [
+      55
+    ],
+    [
+      56
+    ],
+    [
+      57
+    ],
+    [
+      58
+    ],
+    [
+      59
+    ],
+    [
+      60
+    ],
+    [
+      61
+    ]
+  ],
+  "records": [
+    {
+      "index": 0,
+      "key": "repair_b00_p12",
+      "canonical": "684fac6285491c3dab01fe37ede076a3ecffa1774c006b182a6e25b8245fd726",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 1,
+      "key": "repair_b00_p32",
+      "canonical": "2f1202b5c399114fe6243ecaf4a512bc8573ec360310f5b40931e184d146dd24",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 2,
+      "key": "repair_b01_p12",
+      "canonical": "da9ae4a10a3323f901064f5ffa9489240b8f53aef74e3857f2f65a4cbdceb2b8",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 3,
+      "key": "repair_b01_p32",
+      "canonical": "40491af3122ffd801f74fb672dee150011cdc821ef72309c1ec2bd895b764670",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 4,
+      "key": "repair_b02_p12",
+      "canonical": "7b83a4e1203993fe714b5c5ff4df84545c5dcabde39e684956da58319bc6e370",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 5,
+      "key": "repair_b02_p32",
+      "canonical": "17bb7f8f2f04434bc01738acfc969013b024b554eed6583b60270552117586ef",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 6,
+      "key": "repair_b03_p12",
+      "canonical": "c4cdd2e67a44edc0af7d65b8053b9c32ae9c600cc9d8b8acbc1ab4c49b7d8602",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 7,
+      "key": "repair_b03_p32",
+      "canonical": "f35cfb547742978951f7f7954022b6c8f3ce20b864cd8c23f08cf0b3bab8ab8e",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 8,
+      "key": "repair_b04_p12",
+      "canonical": "0566968d24ecccd6439f18f60ca5e1ae4e239ded10df1e398de0afbbc559725c",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 9,
+      "key": "repair_b04_p32",
+      "canonical": "cc12bfb1bb1bbca667c1e5f1d8be714818b4a65ec01f97f216d599a4a3726955",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 10,
+      "key": "repair_b05_p12",
+      "canonical": "257aefaedab0b6d2b33e64ad7bb110c34b55f0eab7991627fcf2200bc3e92e51",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 11,
+      "key": "repair_b05_p32",
+      "canonical": "3da7f8725fb63a8de2f3ac935f27163ffda52676eed35500c4cc800f89005f23",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 12,
+      "key": "repair_b06_p12",
+      "canonical": "d87018cc150c7aaeb0b60edb881a9a7d038f1d04f65dc3dd2c017a348ef97683",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 13,
+      "key": "repair_b06_p32",
+      "canonical": "e697fe220846c3f990bbdf132a408154c6e305e15515c2c00fec6ce661593edb",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 14,
+      "key": "repair_b07_p12",
+      "canonical": "37f029db91212fe06b5e47ced07a55c9926cbf53db7b13881aad6dc0ce57f1d0",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 15,
+      "key": "repair_b07_p32",
+      "canonical": "c8a2a7a650973507c24acc1159dbc4c395f3cfeff98f4d64619980a78b8e62cc",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 16,
+      "key": "repair_b08_p12",
+      "canonical": "1d5eea1276e5a9f4f969fd65ca20850293c20758715ce4d3d10991c8c944108a",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 17,
+      "key": "repair_b08_p32",
+      "canonical": "34d595ade41bc190188f56a4c0f34472967491dbc181c0a1bfb37d5caddc006c",
+      "witness": {
+        "perm": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 18,
+      "key": "repair_b09_p12",
+      "canonical": "859330a91cf370e23d6fb38ef94bfa2c3d8484d331dc9fabec3e4f1fd4894ddb",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 19,
+      "key": "repair_b09_p32",
+      "canonical": "b4007a6f6f3fa1ec9b1eaa814542adb891072b73c1443dbe088287bb4320e253",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 20,
+      "key": "repair_b10_p12",
+      "canonical": "015a2a2528ab07cfebb157e01861a16289472167a6d4fd18662c7797093808e0",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 21,
+      "key": "repair_b10_p32",
+      "canonical": "c51b45d55a36f512efad8d5bee97e42e45c40b08b860499657fe7f9ebd8c75ba",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 22,
+      "key": "repair_b11_p12",
+      "canonical": "0df39c8f7438ffe6cc357fb21e9dc426fb6b66918f497d353be09f98db15fcc7",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 23,
+      "key": "repair_b11_p32",
+      "canonical": "fe8f1483434931e5cd06a1696cbc1cc47f2e12becd130f446b166f53f7de19f8",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 24,
+      "key": "repair_b12_p12",
+      "canonical": "632a6c02c1968fec6ef9c0bf9d140a4a97a22382c7f8539f7dbeb93eeb362f99",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 25,
+      "key": "repair_b12_p32",
+      "canonical": "9cd0c373b4c4eb4f549fa038d6a0359389b34e3b870b5769b3e74bdc4c5b2306",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 26,
+      "key": "repair_b13_p12",
+      "canonical": "577f70226f124e9cdc0113426c8646c5f34df7eb86d9c83ac20e238928ff1c7b",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          2,
+          0,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 27,
+      "key": "repair_b13_p32",
+      "canonical": "a6e70bd64f1356e02cbf22e49d2f3063bd2aa037c3cb8ffd248d71ac2adb51ff",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          2,
+          0,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 28,
+      "key": "repair_b14_p12",
+      "canonical": "e8edd84e22d60221236f45eb90dfa3d74196538aebfbf16667253bd623f7683c",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 29,
+      "key": "repair_b14_p32",
+      "canonical": "a587d52ddada9a4985cc20e0cd005f099f6d2877ff5be6ddd47fbe0db679b5cb",
+      "witness": {
+        "perm": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 30,
+      "key": "repair_b15_p12",
+      "canonical": "2ae45c27e09c0fa2e555b61f80265f3985e36ead11ff521ef81a1641af03be01",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 31,
+      "key": "repair_b15_p32",
+      "canonical": "0fa9548d0a9231dbd9bad177c72d76cc279d35803a5c00a4a792859b4b747204",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 32,
+      "key": "near_b00_p12",
+      "canonical": "c482ceef875c293b19e350a66f66c77317d16e892c1c439623025494dba2b49b",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 33,
+      "key": "near_b00_p32",
+      "canonical": "801512904f61611b0f71b2633c9a6a880f171452f0a23cc044663e1581443759",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 34,
+      "key": "near_b01_p12",
+      "canonical": "21021a2dc7734c7900c9c03ff7400fc3c1849fde82e87b6b51e89cf9fc43a0ea",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 35,
+      "key": "near_b01_p32",
+      "canonical": "bdaa1bb18124777a1e63588b75e9698b2c93511a2be4aa1b595e70bbe5086b77",
+      "witness": {
+        "perm": [
+          1,
+          0,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 36,
+      "key": "near_b02_p12",
+      "canonical": "85b549b966508e44f9a0f0fb8151f640b8a3e63ee4c18542c6fa729107679744",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 37,
+      "key": "near_b02_p32",
+      "canonical": "b8dcbd403ed27c75a3de092ffd3b2ef255e8ba5e70d1098c44c3491df9dab640",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 38,
+      "key": "near_b03_p12",
+      "canonical": "260fd6af693837c6c06a71b0f48ddcad586246efd6d4ab1bbc584f3f6caebd0c",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 39,
+      "key": "near_b03_p32",
+      "canonical": "8e8ff56a9af538d75384d95f9746126c695f92a41dbfc72a3ad1129225c0ab5e",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 40,
+      "key": "near_b04_p12",
+      "canonical": "c5e8b6ba157dc63c2449c71820c6fb7ee340f7489b426219a4c824e376f7f087",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 41,
+      "key": "near_b04_p32",
+      "canonical": "fc64c84143b9a7bce81cedb68b305a4ce0fc1acb454295582ef07e38d7551fca",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 42,
+      "key": "near_b05_p12",
+      "canonical": "3b1e66576eaaca1ddae816ab4a0d818c594a13856cccaf5f8546cc33b22497c2",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 43,
+      "key": "near_b05_p32",
+      "canonical": "0721f8c4c8df7770aeb1cece839b35cf67bbf0331fe75e7cb739379f8406769d",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 44,
+      "key": "near_b06_p12",
+      "canonical": "a611c26b92f438299e486775190676d00b696bae58ec23316d4b8c0a4c080a7f",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 45,
+      "key": "near_b06_p32",
+      "canonical": "965eb58dd6cfb5ff9cdf03153c8b2abd4f0f499c26395f791743cbcd2b96585f",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 46,
+      "key": "near_b07_p12",
+      "canonical": "6edf161ff0b6f085d128cb89623fadb92da9ad537fde8443e85fa6e441f178d6",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 47,
+      "key": "near_b07_p32",
+      "canonical": "b1a20a2232424859520e5b80ec16dbcdbf8fcbcdb2709d7db890aa5daa65e77f",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 48,
+      "key": "near_b08_p12",
+      "canonical": "7ae122f7272ccd5c63439736a612217cc9cbed2d8d95511dc6044a82b9b61623",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 49,
+      "key": "near_b08_p32",
+      "canonical": "d1b8041b980058d47742137b05e57632f34016bcc935069a15e39991be3bc9f0",
+      "witness": {
+        "perm": [
+          1,
+          2,
+          4,
+          0,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 50,
+      "key": "near_b09_p12",
+      "canonical": "c8f0382114b55c6c0ee838f17c7b388aa2e7e7a0ceb2cd99334888976fd3e39a",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 51,
+      "key": "near_b09_p32",
+      "canonical": "86d16f2a83dadeba672ce0c04e5a7c2f3f050435ff31ee715c00d394a30aff14",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          3,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    },
+    {
+      "index": 52,
+      "key": "near_b10_p12",
+      "canonical": "ad010e672172a00a4556a8807d317fe2aa3bc8d47fdbbd7593b0dbbc6e88e3a2",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 53,
+      "key": "near_b10_p32",
+      "canonical": "d5a36eee1638eb2d24759e66c19fd51828d24407e656ee00b2791d554d42f734",
+      "witness": {
+        "perm": [
+          0,
+          1,
+          4,
+          2,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 54,
+      "key": "near_b11_p12",
+      "canonical": "8ba43ad2020be525fb8d4a2a3ef7f8585f7589f4eefb642725d92872a830da34",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 55,
+      "key": "near_b11_p32",
+      "canonical": "b1ba155b3ffd54c516eb6eeddd544c0e719b95c142f619718731b666b61d9c95",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 56,
+      "key": "near_b12_p12",
+      "canonical": "dbbdb16921701c5f0b7f5c0b9e00f5c9a30ffc7b68890b3b34014d895b5cc7b9",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 57,
+      "key": "near_b12_p32",
+      "canonical": "a8d73466e8f7954241bb5638f287af13daf803ea981179f5a1857a7eb61b42c3",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 58,
+      "key": "near_b13_p12",
+      "canonical": "4e7dae12d5af7f379d4980e399a39f2852515d76185371feeba5f24241f4445c",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          2,
+          0,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 59,
+      "key": "near_b13_p32",
+      "canonical": "3d97cf8663d885b1589ceb3d8d0ca758cc4b68edc43183c8bc6b8740bec05031",
+      "witness": {
+        "perm": [
+          4,
+          1,
+          2,
+          0,
+          3
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 60,
+      "key": "near_b14_p12",
+      "canonical": "dfdf92fd03c9637ba843b6f69b76abc5b309290013b129b28c7b1672cfceb795",
+      "witness": {
+        "perm": [
+          0,
+          2,
+          4,
+          1,
+          3
+        ],
+        "reverse_values": 0,
+        "reverse_comparisons": 1
+      }
+    },
+    {
+      "index": 61,
+      "key": "near_b14_p32",
+      "canonical": "047ff28caea8a97d42e4f522c6cf6597c820769ed23587d7ad22d2ccdbdebaef",
+      "witness": {
+        "perm": [
+          1,
+          2,
+          3,
+          0,
+          4
+        ],
+        "reverse_values": 1,
+        "reverse_comparisons": 0
+      }
+    }
+  ]
+}

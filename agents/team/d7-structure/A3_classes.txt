@@ -1,0 +1,33 @@
+term-set classes 30  (MCMC class present: True )
+class   0 size 250074 nterms 14 budgets {(8, 20, 4): 108133, (8, 19, 5): 87307, (8, 21, 3): 45520, (8, 22, 2): 8457, (8, 23, 1): 592, (8, 24, 0): 65} srcs {'d6-qd': 110, 'd4-evolve': 117, 'd7-structure': 8, 'fleet/w4': 6, 'fleet/w2': 1, 'fleet/w5': 81, 'fleet/w1': 92, 'fleet/w6': 249659} N-cols {6: 41285, 5: 206694, 7: 1975, 8: 55, 4: 65}
+class   1 size  22495 nterms 18 budgets {(9, 19, 4): 9193, (9, 21, 2): 1415, (9, 18, 5): 6640, (9, 20, 3): 5081, (9, 22, 1): 164, (9, 23, 0): 2} srcs {'d6-qd': 2391, 'd4-evolve': 20001, 'd7-structure': 101, 'd5-extend': 1, 'd1-skeleton': 1} N-cols {0: 18212, 1: 3943, 2: 317, 3: 23}  <= MCMC class
+class   2 size   1233 nterms 13 budgets {(8, 21, 3): 502, (8, 22, 2): 107, (8, 20, 4): 608, (8, 23, 1): 16} srcs {'d6-qd': 18, 'd4-evolve': 18, 'fleet/w5': 7, 'fleet/w1': 16, 'fleet/w6': 1174} N-cols {7: 1081, 8: 149, 9: 3}
+class   3 size    174 nterms 14 budgets {(8, 22, 2): 40, (8, 21, 3): 54, (8, 24, 0): 3, (8, 23, 1): 23, (8, 20, 4): 34, (8, 19, 5): 20} srcs {'d6-qd': 35, 'd4-evolve': 35, 'd7-structure': 6, 'fleet/w5': 25, 'fleet/w1': 34, 'fleet/w6': 39} N-cols {6: 121, 7: 20, 5: 33}
+class   4 size      5 nterms 18 budgets {(9, 18, 5): 3, (9, 19, 4): 2} srcs {'d6-qd': 1, 'd4-evolve': 3, 'fleet/w1': 1} N-cols {0: 5}
+class   5 size      3 nterms 18 budgets {(9, 18, 5): 2, (9, 20, 3): 1} srcs {'d6-qd': 1, 'd4-evolve': 1, 'd7-structure': 1} N-cols {0: 3}
+class   6 size      3 nterms 18 budgets {(9, 18, 5): 3} srcs {'d6-qd': 1, 'd7-structure': 2} N-cols {0: 3}
+class   7 size      3 nterms 18 budgets {(9, 18, 5): 3} srcs {'d6-qd': 1, 'd4-evolve': 1, 'd7-structure': 1} N-cols {0: 3}
+class   8 size      3 nterms 18 budgets {(9, 18, 5): 3} srcs {'fleet/w3': 3} N-cols {0: 3}
+class   9 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  10 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  11 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  12 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  13 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  14 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  15 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  16 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  17 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  18 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  19 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  20 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  21 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  22 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  23 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  24 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  25 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  26 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  27 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  28 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+class  29 size      2 nterms 18 budgets {(9, 18, 5): 2} srcs {'d6-qd': 1, 'd7-structure': 1} N-cols {0: 2}
+classes found by ONE source only: {'fleet/w3': 1}
+classes per source: {'d6-qd': 29, 'd4-evolve': 7, 'd7-structure': 27, 'fleet/w4': 1, 'fleet/w2': 1, 'fleet/w5': 3, 'fleet/w1': 4, 'fleet/w6': 3, 'd5-extend': 1, 'd1-skeleton': 1, 'fleet/w3': 1}

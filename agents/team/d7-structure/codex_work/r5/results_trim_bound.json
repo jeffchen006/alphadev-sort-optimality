@@ -1,0 +1,412 @@
+[
+  {
+    "id": "trim_bound_CEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.833,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.092,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CEmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_AEmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.412,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CEmin_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_ADmin.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.524,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CEmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.1,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CEmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CEmin_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.144,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CDmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.136,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CDmax_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.14,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CDmax_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_AEmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.028,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CDmax_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_ADmin.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.875,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CDmax_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.092,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CDmax_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CDmax_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.833,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.62,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmax_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.154,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmax_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_AEmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.83,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmax_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_ADmin.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.988,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmax_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.892,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmax_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmax_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.452,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BCpair_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.604,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BCpair_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.268,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BCpair_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_AEmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.648,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BCpair_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_ADmin.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.236,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BCpair_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.548,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BCpair_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BCpair_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.584,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 5.037,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 4.566,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_AEmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.5,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmin_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_ADmin.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.574,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.568,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_BEmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_BEmin_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.482,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_LEmax_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.532,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_LEmax_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 5.13,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_LEmax_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_AEmax.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.368,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_LEmax_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 4.148,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_LEmax_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_LEmax_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.572,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CLmin_BLmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_BLmin.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.545,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CLmin_BLmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_BLmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.524,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CLmin_AEmax",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_AEmax.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.522,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CLmin_ADmin",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_ADmin.txt",
+    "size": 24,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.432,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CLmin_C1L1min",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_C1L1min.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.58,
+    "rc": 0
+  },
+  {
+    "id": "trim_bound_CLmin_C1L1max",
+    "idea": "Preserve max(3,4); alternate middle bounds; remove the two copy-substitute columns",
+    "file": "codex_work/r5/pool_trim_bound_CLmin_C1L1max.txt",
+    "size": 25,
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 3.604,
+    "rc": 0
+  }
+]

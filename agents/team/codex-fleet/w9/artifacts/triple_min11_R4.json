@@ -1,0 +1,19 @@
+{
+  "status": "UNKNOWN",
+  "seconds": 123.45562352892011,
+  "variables": 3988,
+  "clauses": 21907,
+  "attempts": 97,
+  "stats": {
+    "restarts": 13645,
+    "conflicts": 291076,
+    "decisions": 693887,
+    "propagations": 104836211
+  },
+  "args": {
+    "seconds": 120.0,
+    "registers": 4,
+    "k": 11,
+    "tag": "triple_min11_R4"
+  }
+}

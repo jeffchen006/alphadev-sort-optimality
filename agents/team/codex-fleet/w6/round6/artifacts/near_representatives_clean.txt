@@ -1,0 +1,15 @@
+round6/candidates/mem_b5_c9t0.5_near_31_clean_out.s
+round6/candidates/mem_b5_c9t0.5_near_27_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_699_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_729_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_2023_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_425_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_460_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_469_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_1440_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_447_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_624_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_1347_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_2036_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_1999_clean_out.s
+round6/candidates/mem_a4_c8t1.2_near_10_clean_out.s

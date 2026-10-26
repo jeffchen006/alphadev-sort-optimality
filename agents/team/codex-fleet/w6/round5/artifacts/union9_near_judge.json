@@ -1,0 +1,10 @@
+{
+  "source": "round5/candidates/union9_near.s",
+  "k": 31,
+  "sha256": "522992ff4be09f35f0e1e15afec6b3ec0257ffe5bd4122bd9353b7c72fcd9507",
+  "out": {
+    "pass": false,
+    "file": "round5/candidates/union9_near.s",
+    "log": "round5/logs/union9_near_out_judge.log"
+  }
+}

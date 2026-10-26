@@ -1,0 +1,458 @@
+[
+  {
+    "name": "00_repair",
+    "code": 0,
+    "seconds": 0.7827097456902266,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.778"
+    ]
+  },
+  {
+    "name": "00_repair3",
+    "code": 0,
+    "seconds": 7.006721374578774,
+    "tail": [
+      "DONE trials=78553600 filterpasses=0 fullchecks=1 accepted=0 seconds=7.001"
+    ]
+  },
+  {
+    "name": "00_cmov3",
+    "code": 0,
+    "seconds": 17.6221512965858,
+    "tail": [
+      "DONE trials=356805180 filterpasses=0 fullchecks=1 accepted=0 seconds=17.617"
+    ]
+  },
+  {
+    "name": "01_repair",
+    "code": 0,
+    "seconds": 0.7748265992850065,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.770"
+    ]
+  },
+  {
+    "name": "01_repair3",
+    "code": 0,
+    "seconds": 7.40945721976459,
+    "tail": [
+      "DONE trials=78553600 filterpasses=0 fullchecks=1 accepted=0 seconds=7.399"
+    ]
+  },
+  {
+    "name": "01_cmov3",
+    "code": 0,
+    "seconds": 18.1662614941597,
+    "tail": [
+      "DONE trials=356805180 filterpasses=0 fullchecks=1 accepted=0 seconds=18.162"
+    ]
+  },
+  {
+    "name": "02_repair",
+    "code": 0,
+    "seconds": 0.7744316505268216,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.770"
+    ]
+  },
+  {
+    "name": "02_repair3",
+    "code": 0,
+    "seconds": 6.357173354364932,
+    "tail": [
+      "DONE trials=70698240 filterpasses=1 fullchecks=2 accepted=0 seconds=6.353"
+    ]
+  },
+  {
+    "name": "02_cmov3",
+    "code": 0,
+    "seconds": 19.629222142510116,
+    "tail": [
+      "DONE trials=303284403 filterpasses=0 fullchecks=1 accepted=0 seconds=19.610"
+    ]
+  },
+  {
+    "name": "03_repair",
+    "code": 0,
+    "seconds": 0.667093750089407,
+    "tail": [
+      "DONE trials=9225632 filterpasses=0 fullchecks=1 accepted=0 seconds=0.663"
+    ]
+  },
+  {
+    "name": "03_repair3",
+    "code": 0,
+    "seconds": 12.971928715705872,
+    "tail": [
+      "DONE trials=132723360 filterpasses=0 fullchecks=1 accepted=0 seconds=12.968"
+    ]
+  },
+  {
+    "name": "03_cmov3",
+    "code": 0,
+    "seconds": 35.85382752772421,
+    "tail": [
+      "DONE trials=635211990 filterpasses=0 fullchecks=1 accepted=0 seconds=35.850"
+    ]
+  },
+  {
+    "name": "04_repair",
+    "code": 0,
+    "seconds": 0.8314449694007635,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.817"
+    ]
+  },
+  {
+    "name": "04_repair3",
+    "code": 0,
+    "seconds": 8.052791592665017,
+    "tail": [
+      "DONE trials=86822400 filterpasses=0 fullchecks=1 accepted=0 seconds=8.035"
+    ]
+  },
+  {
+    "name": "04_cmov3",
+    "code": 0,
+    "seconds": 25.18348004296422,
+    "tail": [
+      "DONE trials=416272710 filterpasses=0 fullchecks=1 accepted=0 seconds=25.166"
+    ]
+  },
+  {
+    "name": "05_repair",
+    "code": 0,
+    "seconds": 0.8779382202774286,
+    "tail": [
+      "DONE trials=9225632 filterpasses=0 fullchecks=1 accepted=0 seconds=0.873"
+    ]
+  },
+  {
+    "name": "05_repair3",
+    "code": 0,
+    "seconds": 10.808220587670803,
+    "tail": [
+      "DONE trials=120083040 filterpasses=0 fullchecks=1 accepted=0 seconds=10.803"
+    ]
+  },
+  {
+    "name": "05_cmov3",
+    "code": 0,
+    "seconds": 22.938957360573113,
+    "tail": [
+      "DONE trials=544467420 filterpasses=0 fullchecks=1 accepted=0 seconds=22.934"
+    ]
+  },
+  {
+    "name": "06_repair",
+    "code": 0,
+    "seconds": 0.8064590441063046,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.793"
+    ]
+  },
+  {
+    "name": "06_repair3",
+    "code": 0,
+    "seconds": 6.77697582449764,
+    "tail": [
+      "DONE trials=78553600 filterpasses=0 fullchecks=1 accepted=0 seconds=6.759"
+    ]
+  },
+  {
+    "name": "06_cmov3",
+    "code": 0,
+    "seconds": 22.99766947608441,
+    "tail": [
+      "DONE trials=356805180 filterpasses=0 fullchecks=1 accepted=0 seconds=22.981"
+    ]
+  },
+  {
+    "name": "07_repair",
+    "code": 0,
+    "seconds": 0.5714062489569187,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.567"
+    ]
+  },
+  {
+    "name": "07_repair3",
+    "code": 0,
+    "seconds": 6.241289514116943,
+    "tail": [
+      "DONE trials=95504640 filterpasses=2 fullchecks=3 accepted=0 seconds=6.237"
+    ]
+  },
+  {
+    "name": "07_cmov3",
+    "code": 0,
+    "seconds": 29.024755460210145,
+    "tail": [
+      "DONE trials=481999980 filterpasses=0 fullchecks=1 accepted=0 seconds=29.019"
+    ]
+  },
+  {
+    "name": "08_repair",
+    "code": 0,
+    "seconds": 0.57991714309901,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.565"
+    ]
+  },
+  {
+    "name": "08_repair3",
+    "code": 0,
+    "seconds": 4.729831712320447,
+    "tail": [
+      "DONE trials=78553600 filterpasses=0 fullchecks=1 accepted=0 seconds=4.726"
+    ]
+  },
+  {
+    "name": "08_cmov3",
+    "code": 0,
+    "seconds": 15.440157099626958,
+    "tail": [
+      "DONE trials=356805180 filterpasses=0 fullchecks=1 accepted=0 seconds=15.436"
+    ]
+  },
+  {
+    "name": "09_repair",
+    "code": 0,
+    "seconds": 0.8173511764034629,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.810"
+    ]
+  },
+  {
+    "name": "09_repair3",
+    "code": 0,
+    "seconds": 7.14504683855921,
+    "tail": [
+      "DONE trials=78553600 filterpasses=0 fullchecks=1 accepted=0 seconds=7.125"
+    ]
+  },
+  {
+    "name": "09_cmov3",
+    "code": 0,
+    "seconds": 18.055119362659752,
+    "tail": [
+      "DONE trials=356805180 filterpasses=0 fullchecks=1 accepted=0 seconds=18.050"
+    ]
+  },
+  {
+    "name": "10_repair",
+    "code": 0,
+    "seconds": 1.2001740830019116,
+    "tail": [
+      "DONE trials=9225632 filterpasses=10169 fullchecks=10170 accepted=0 seconds=1.184"
+    ]
+  },
+  {
+    "name": "10_repair3",
+    "code": 0,
+    "seconds": 13.135994235984981,
+    "tail": [
+      "DONE trials=120083040 filterpasses=43790 fullchecks=43791 accepted=0 seconds=13.129"
+    ]
+  },
+  {
+    "name": "10_cmov3",
+    "code": 0,
+    "seconds": 28.248495847918093,
+    "tail": [
+      "DONE trials=544467420 filterpasses=7071 fullchecks=7072 accepted=0 seconds=28.244"
+    ]
+  },
+  {
+    "name": "11_repair",
+    "code": 0,
+    "seconds": 0.6247182358056307,
+    "tail": [
+      "DONE trials=7472768 filterpasses=108 fullchecks=109 accepted=0 seconds=0.609"
+    ]
+  },
+  {
+    "name": "11_repair3",
+    "code": 0,
+    "seconds": 5.0586510412395,
+    "tail": [
+      "DONE trials=78553600 filterpasses=0 fullchecks=1 accepted=0 seconds=5.055"
+    ]
+  },
+  {
+    "name": "11_cmov3",
+    "code": 0,
+    "seconds": 19.48191191535443,
+    "tail": [
+      "DONE trials=356805180 filterpasses=0 fullchecks=1 accepted=0 seconds=19.478"
+    ]
+  },
+  {
+    "name": "12_repair",
+    "code": 0,
+    "seconds": 0.5832242015749216,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.579"
+    ]
+  },
+  {
+    "name": "12_repair3",
+    "code": 0,
+    "seconds": 5.766093545593321,
+    "tail": [
+      "DONE trials=86822400 filterpasses=0 fullchecks=1 accepted=0 seconds=5.762"
+    ]
+  },
+  {
+    "name": "12_cmov3",
+    "code": 0,
+    "seconds": 24.12883589975536,
+    "tail": [
+      "DONE trials=416272710 filterpasses=0 fullchecks=1 accepted=0 seconds=24.113"
+    ]
+  },
+  {
+    "name": "13_repair",
+    "code": 0,
+    "seconds": 0.6989004099741578,
+    "tail": [
+      "DONE trials=9225632 filterpasses=0 fullchecks=1 accepted=0 seconds=0.695"
+    ]
+  },
+  {
+    "name": "13_repair3",
+    "code": 0,
+    "seconds": 9.59233588539064,
+    "tail": [
+      "DONE trials=120083040 filterpasses=0 fullchecks=1 accepted=0 seconds=9.585"
+    ]
+  },
+  {
+    "name": "13_cmov3",
+    "code": 0,
+    "seconds": 25.133445693179965,
+    "tail": [
+      "DONE trials=544467420 filterpasses=0 fullchecks=1 accepted=0 seconds=25.120"
+    ]
+  },
+  {
+    "name": "14_repair",
+    "code": 0,
+    "seconds": 0.9201112240552902,
+    "tail": [
+      "DONE trials=9225632 filterpasses=0 fullchecks=1 accepted=0 seconds=0.912"
+    ]
+  },
+  {
+    "name": "14_repair3",
+    "code": 0,
+    "seconds": 9.283557613380253,
+    "tail": [
+      "DONE trials=108074736 filterpasses=0 fullchecks=1 accepted=0 seconds=9.265"
+    ]
+  },
+  {
+    "name": "14_cmov3",
+    "code": 0,
+    "seconds": 28.87974322028458,
+    "tail": [
+      "DONE trials=462797307 filterpasses=0 fullchecks=1 accepted=0 seconds=28.861"
+    ]
+  },
+  {
+    "name": "15_repair",
+    "code": 0,
+    "seconds": 0.5886333175003529,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.584"
+    ]
+  },
+  {
+    "name": "15_repair3",
+    "code": 0,
+    "seconds": 5.614647759124637,
+    "tail": [
+      "DONE trials=86822400 filterpasses=0 fullchecks=1 accepted=0 seconds=5.610"
+    ]
+  },
+  {
+    "name": "15_cmov3",
+    "code": 0,
+    "seconds": 18.311864655464888,
+    "tail": [
+      "DONE trials=416272710 filterpasses=0 fullchecks=1 accepted=0 seconds=18.308"
+    ]
+  },
+  {
+    "name": "16_repair",
+    "code": 0,
+    "seconds": 0.9224226223304868,
+    "tail": [
+      "DONE trials=9225632 filterpasses=76 fullchecks=77 accepted=0 seconds=0.908"
+    ]
+  },
+  {
+    "name": "16_repair3",
+    "code": 0,
+    "seconds": 10.545412309467793,
+    "tail": [
+      "DONE trials=120083040 filterpasses=609 fullchecks=610 accepted=0 seconds=10.526"
+    ]
+  },
+  {
+    "name": "16_cmov3",
+    "code": 0,
+    "seconds": 30.83925506658852,
+    "tail": [
+      "DONE trials=544467420 filterpasses=0 fullchecks=1 accepted=0 seconds=30.834"
+    ]
+  },
+  {
+    "name": "17_repair",
+    "code": 0,
+    "seconds": 0.5685048708692193,
+    "tail": [
+      "DONE trials=7472768 filterpasses=0 fullchecks=1 accepted=0 seconds=0.552"
+    ]
+  },
+  {
+    "name": "17_repair3",
+    "code": 0,
+    "seconds": 4.2385591845959425,
+    "tail": [
+      "DONE trials=70698240 filterpasses=0 fullchecks=1 accepted=0 seconds=4.234"
+    ]
+  },
+  {
+    "name": "17_cmov3",
+    "code": 0,
+    "seconds": 16.54351343307644,
+    "tail": [
+      "DONE trials=303284403 filterpasses=0 fullchecks=1 accepted=0 seconds=16.539"
+    ]
+  },
+  {
+    "name": "18_repair",
+    "code": 0,
+    "seconds": 1.3722896166145802,
+    "tail": [
+      "DONE trials=11163008 filterpasses=44 fullchecks=45 accepted=0 seconds=1.368"
+    ]
+  },
+  {
+    "name": "18_repair3",
+    "code": 0,
+    "seconds": 14.62539317086339,
+    "tail": [
+      "DONE trials=158578560 filterpasses=0 fullchecks=1 accepted=0 seconds=14.592"
+    ]
+  },
+  {
+    "name": "18_cmov3",
+    "code": 0,
+    "seconds": 28.652716680429876,
+    "tail": [
+      "DONE trials=678171123 filterpasses=0 fullchecks=1 accepted=0 seconds=28.649"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "pairs": {
+    "processed": 465,
+    "statuses": {
+      "UNSAT": 465
+    },
+    "proofs_verified": 465
+  },
+  "triples_first_scan": {
+    "processed": 4495,
+    "statuses": {
+      "UNSAT": 851,
+      "SKIPPED": 3637,
+      "timeout": 7
+    },
+    "proofs_verified": 851
+  },
+  "triples_retry": {
+    "processed": 7,
+    "statuses": {
+      "UNSAT": 7
+    },
+    "proofs_verified": 7
+  },
+  "selected_triples": {
+    "windows": 841,
+    "statuses": {
+      "UNSAT": 841
+    },
+    "proofs_verified": 841,
+    "unresolved": []
+  },
+  "block_reorders": {
+    "name": "block_reorders",
+    "exit": 0,
+    "summary": "RESULT orders=11975040 filtered=0 full_relaxed_hits=0",
+    "judges": [],
+    "suffix12_proof_verified": true,
+    "seconds": 133.8587118955329
+  },
+  "inside_reorders": {
+    "name": "inside_reorders",
+    "exit": 0,
+    "summary": "RESULT orders=3041280 filtered=0 full_relaxed_hits=0",
+    "judges": [],
+    "seconds": 3.2708384413272142
+  },
+  "strict_pass_files": [
+    {
+      "file": "seeds/repair32.s",
+      "model": "out",
+      "length": 32,
+      "judge_log": "logs/repair32_out_judge.log",
+      "sha256": "2c6c570e713d986cc0660936cd95278b95a4e27d2758879ab782bc1b61e99717"
+    },
+    {
+      "file": "candidates/control32.s",
+      "model": "out",
+      "length": 32,
+      "judge_log": "candidates/control32.s.judge.log",
+      "sha256": "23d4e240f90b71b8d42f1b1ced23c780268e391c4398381e201e5702ea1b42ac"
+    },
+    {
+      "file": "verified/repair32_mem.s",
+      "model": "mem",
+      "length": 42,
+      "judge_log": "logs/repair32_mem_judge.log",
+      "sha256": "7840ea48849fb1d0756b9002fe379d19bb3f8e6d343682595576a0eaf8fa174c"
+    }
+  ],
+  "source_hashes": {
+    "src/analyze.py": "2a899186c9a5863f32a2da26cbe0a6ada82ceef19352fe620be99924ea73d1d5",
+    "src/batch.py": "07b7d9d56105411f496228329f923c04b01283ce8eef3c89de6aa05f3679df74",
+    "src/check_proofs.py": "1d4e2f7122025d759f2fbb74767a0e12895474ae1c2953b43e89bd9539fbfcf1",
+    "src/crosscheck.py": "394d7357bcce92fc3f3aa5080c91d783cb52d82c49af832fee3362afa2d9d2d9",
+    "src/encode.py": "d383c8d3d9f6098a01fa093cbe65f113e9d2310a22d3abf49298f29c9403d357",
+    "src/rank_encode.py": "5960ad2fee12dee27738b588085d45e0b9501b53074a9d575766f3839f50726a",
+    "src/reference_window.py": "cddc9e5900d0698cdb644bda5e791c52e29d18e512916a0988c12513d18db172",
+    "src/reorder.cpp": "ed1972136dd590adf5fb070f000e666898c47979f4111b56e60cefdc7d00424c",
+    "src/report.py": "2bafb4248b548b66f780864a8fc9f16ce33c267defa4fe7066cdb626ba1417fd",
+    "src/run_inside.py": "acca7512179944959970b9b9272a2cd7d19d041efb0acc7608559eb1a21a61e0",
+    "src/run_reorder.py": "04dfa0d64504741bbc2767a879c28ec4c8b541b0e482f1fc75827edc74ce7cb2",
+    "src/run_retry.py": "2b89c8b9696f0661e9276b21d7c2418d527f6fa4dbf4638fced52252b2ff9a22",
+    "src/scan.py": "da2ffaa8271e514cf417fb9ed5215b72786cb3c185033c2076c7ecc5d8a85362",
+    "src/search.py": "8cc8173131fa4cebcf4372d9d9a8a3e4812d413d8e40bfb513c0c0525df9cd5c"
+  }
+}

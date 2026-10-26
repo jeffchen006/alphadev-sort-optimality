@@ -1,0 +1,178 @@
+[
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 14,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_candidates_control32_mem.log",
+    "sha256": "dd8a3c65a5bf2c91eccd734ab8f734152d403f4c5d3c67b8351cd8fb9146a4c6"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 4,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_candidates_control32_out.log",
+    "sha256": "87b62f2f3bc3930041f254955efadd682f9a30dc75778c2ede5090715195839a"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/residual_control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 14,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_candidates_residual_control32_mem.log",
+    "sha256": "ab40ba75a8cd5f7a2ed70a42b76cb2e04b3ea3b07970d28bc20566822473823b"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/residual_control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 4,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_candidates_residual_control32_out.log",
+    "sha256": "68f0428294cad32baab7878512a7b2f8f5edf3585fa521fe90bd6c5421f7bb96"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/synth_triple12_control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 14,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_candidates_synth_triple12_control32_mem.log",
+    "sha256": "0ba945a4278bbfe34a83f85fae54c0a00955efa334887f0238ad5da91b9dc731"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/synth_triple12_control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 4,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_candidates_synth_triple12_control32_out.log",
+    "sha256": "68f99d2ee2ce9a781374592a64fabd14c157831b802eba41b9707f4b4cb10d78"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/triplemin_control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 13,
+    "cmov": 21,
+    "pass": true,
+    "log": "logs/audit_candidates_triplemin_control32_mem.log",
+    "sha256": "8e98af2e33ef6bebba36818487c54f54d44580ff166b4d7fab1b51e5dd4fa031"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/candidates/triplemin_control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 3,
+    "cmov": 21,
+    "pass": true,
+    "log": "logs/audit_candidates_triplemin_control32_out.log",
+    "sha256": "4b934221584015b0d67cc121c08f8100293222e85acc813d89b32887e85f5498"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 14,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_verified_control32_mem.log",
+    "sha256": "dd8a3c65a5bf2c91eccd734ab8f734152d403f4c5d3c67b8351cd8fb9146a4c6"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 4,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_verified_control32_out.log",
+    "sha256": "87b62f2f3bc3930041f254955efadd682f9a30dc75778c2ede5090715195839a"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/residual_control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 14,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_verified_residual_control32_mem.log",
+    "sha256": "ab40ba75a8cd5f7a2ed70a42b76cb2e04b3ea3b07970d28bc20566822473823b"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/residual_control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 4,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_verified_residual_control32_out.log",
+    "sha256": "68f0428294cad32baab7878512a7b2f8f5edf3585fa521fe90bd6c5421f7bb96"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/synth_triple12_control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 14,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_verified_synth_triple12_control32_mem.log",
+    "sha256": "0ba945a4278bbfe34a83f85fae54c0a00955efa334887f0238ad5da91b9dc731"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/synth_triple12_control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 4,
+    "cmov": 20,
+    "pass": true,
+    "log": "logs/audit_verified_synth_triple12_control32_out.log",
+    "sha256": "68f99d2ee2ce9a781374592a64fabd14c157831b802eba41b9707f4b4cb10d78"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/triplemin_control32_mem.s",
+    "model": "mem",
+    "length": 42,
+    "cmp": 8,
+    "mov": 13,
+    "cmov": 21,
+    "pass": true,
+    "log": "logs/audit_verified_triplemin_control32_mem.log",
+    "sha256": "8e98af2e33ef6bebba36818487c54f54d44580ff166b4d7fab1b51e5dd4fa031"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w9/verified/triplemin_control32_out.s",
+    "model": "out",
+    "length": 32,
+    "cmp": 8,
+    "mov": 3,
+    "cmov": 21,
+    "pass": true,
+    "log": "logs/audit_verified_triplemin_control32_out.log",
+    "sha256": "4b934221584015b0d67cc121c08f8100293222e85acc813d89b32887e85f5498"
+  }
+]

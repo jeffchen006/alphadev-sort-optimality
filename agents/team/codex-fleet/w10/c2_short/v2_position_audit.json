@@ -1,0 +1,70 @@
+{
+  "created": "2026-10-26T07:51:59.621960+00:00",
+  "v2_bases": [
+    {
+      "c": 7,
+      "m": 24,
+      "cases": 301,
+      "base_sha256": "c2cdd1d6d4e8f72b4d2051b8b0b705468464710e40dde20892a15dd81d737e72",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 8,
+      "m": 23,
+      "cases": 277,
+      "base_sha256": "e52b77db97c9e4fd2fe3900e0ba854c5248e61a5910acd34e958d332012ea7f4",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 9,
+      "m": 22,
+      "cases": 254,
+      "base_sha256": "ac6ba8caf76b4d79fb0b3a2b5c867fd8f332c746e2ea5dbaeab9ca7418409f18",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 10,
+      "m": 21,
+      "cases": 232,
+      "base_sha256": "3e93aeeb321cc7f945858acdc8567a113b0d77aaddbfe508d4e1f317e5c901dd",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 11,
+      "m": 20,
+      "cases": 211,
+      "base_sha256": "68aff9e164147cef27ab7eef56d3d92699fa7bd0845f62d92299bfcc72374f60",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 12,
+      "m": 19,
+      "cases": 191,
+      "base_sha256": "3fd662c1daa6bac6a0ad62dd3a9c05edbb0b832b8618cffb898cab8b29240c0f",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 13,
+      "m": 18,
+      "cases": 172,
+      "base_sha256": "6ccb4185e48220422215eb1b4c81fbd34c27edebe990a5df235e3c2cdb6be4c0",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 14,
+      "m": 17,
+      "cases": 154,
+      "base_sha256": "558904480b309a1af2bc3f8bc45b662baf1f4dbdd1214cae1aa2ae502c35bc52",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    },
+    {
+      "c": 15,
+      "m": 16,
+      "cases": 137,
+      "base_sha256": "7f72fbaf712685113b589b4719ae02db8b2444aa8b7565f309ae6c45f516dff9",
+      "encoder_sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1"
+    }
+  ],
+  "total_position_cases": 1929,
+  "scope": "Base provenance and selector case coverage only; no position SAT decision"
+}

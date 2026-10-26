@@ -1,0 +1,21 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round2/candidates/near14_frozen.s",
+    "round3/candidates/rank_fixedout_free6.s",
+    "--rank",
+    "--fixed-outputs",
+    "--typed",
+    "--changes",
+    "6",
+    "--change-cmp",
+    "--random-seed",
+    "8601"
+  ],
+  "wall_limit": 60.0,
+  "exit": 124,
+  "seconds": 60.01709021534771,
+  "log": "round3/logs/rank_fixedout_free6.log"
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "file": "round10/invented/m00000.s",
+    "sha256": "080638b299cd4b9a2b4ea391443c8c7161ef600a976d1c2169a323bc34199eeb",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00000_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00001.s",
+    "sha256": "f9e0e08fec250fca0107e2d0e93ddd5ed754fecd1c6878a9eea0bd13056a152d",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00001_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00002.s",
+    "sha256": "e045a57ff6724eef98aba6da9b881e9f2924cd4fb9007099f182e55345627878",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00002_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00003.s",
+    "sha256": "0af6ea851f8a4ad8b1352f818dbcd4723ed1017f17b6768a1316db786aa8119e",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00003_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00004.s",
+    "sha256": "341aaf74f0e283b452c71d309dc4eed03ce3b3c0bb2f9c5ddd00188d253963b2",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00004_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00005.s",
+    "sha256": "4fe915636376eea2036e73810e0515d2f69af56aaf00763ba140d09f193e5110",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00005_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00006.s",
+    "sha256": "2d9d82cb9c000ed431b879cc014a7eee12eda8cd69db02f0f3b2425dcf938a80",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00006_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00007.s",
+    "sha256": "28d1fa65851ac0ce221532dc3a08a1e4a68fb6cf72d34ec7e7e57861da40fc94",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00007_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00008.s",
+    "sha256": "31f5be05a2780ae8e92e9a330d30dca21d70f65927ebae32f417781102085cf7",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00008_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00009.s",
+    "sha256": "6eb60b6cc54ba7bb32563baa968a04c682218f27a330c5dc5e6baa56fd8ade62",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00009_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00010.s",
+    "sha256": "39e7be34e33394359e55451f940e5af98ffe019284120ed6a30fd32e0929cfe1",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00010_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00011.s",
+    "sha256": "eb7b978eb3fa2a989c81dfa0656fdd3861bf4b4f4e8f89de602ba59a5575dc83",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00011_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00012.s",
+    "sha256": "65aad75e25f422a2e9980daa9430d03bd24f6268c37d1921957d903f79ff2490",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00012_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00013.s",
+    "sha256": "7a6a8cb5171b70addb620ab6735aea0b01771fc13b8f5c38d127da6b0e82cd99",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00013_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00014.s",
+    "sha256": "9ae2ff8881d9404470bab44d3f6c87e5872e9ca968316f6122be66ecd713f97b",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00014_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00015.s",
+    "sha256": "4830be2651c7db5d2365b2777fc95fa520360c72365ae2e5ca105eddf79d2ee2",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00015_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00016.s",
+    "sha256": "daa9682db8cd82155fcb8ce25f47ae9366c1fd17971fa66403b95b022407ac69",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00016_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00017.s",
+    "sha256": "3d00325ed4749e7d327b5735de478a2d31d161ad89897cef28286ef8334f7f81",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00017_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00018.s",
+    "sha256": "a6b7193b89383e7f15da051ed89c832bf114bca20c212e55236c117203738dac",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00018_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00019.s",
+    "sha256": "8a70ca9bcc8b36b436368df17bc42d56c0b4209eafc5f31308feb06399311be9",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00019_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00020.s",
+    "sha256": "39ed9273ed9561d236799eb05af727ba8a5edf4aaeb025e682ec4f5c9852ca01",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00020_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00021.s",
+    "sha256": "2fec08e20e88dea3064309974958db8185308f4594493e4a919dda3ccb6eb414",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00021_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00022.s",
+    "sha256": "f2205882c681dba0fba8ad602d0294264410626d601d6080fca47c7e5e62e62b",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00022_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00023.s",
+    "sha256": "58461ff0829718970c6722a5749e835b4c4e41b717aca1021529b0d38176f5bd",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00023_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00024.s",
+    "sha256": "690138b3f9a38eda61a2503b7da210fcef1616e9225da04719c2bab26f312aa8",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00024_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00025.s",
+    "sha256": "c7b133341f85fb4225774741111a6b0658b44d44d0cac984606204dd75808429",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00025_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00026.s",
+    "sha256": "be858b4e263296d8f47e3f324d724234307a6fef2af35e6249632a4185693163",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00026_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00027.s",
+    "sha256": "e0b300551960f33cb2ce53e75bce402cc1f1be4de230cc87bd0cfea500440b6e",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00027_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00028.s",
+    "sha256": "8955dcbdbf2acac90ff181657aadb60d12376984e9e2bf59e5a74ffd3fcbe689",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00028_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00029.s",
+    "sha256": "5d9d39c7f532d9509a399da90eb41675c722f1910c69ed17ab6736c10d0fedef",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00029_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00030.s",
+    "sha256": "b1a4df782765a16f583e6c5931a992fbfe199845526cf53fb3202e35ebec83e6",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00030_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00031.s",
+    "sha256": "e95f58b0c5a3acba76bb1bdef8d3926b93c43346eda7e5c6617b7aca636001be",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00031_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00032.s",
+    "sha256": "927465b245a5a427fc9910f0a8d00403461b8200da14bd01eb3355edd6371b78",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00032_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00033.s",
+    "sha256": "437967892eca9a3d58e2485a8f10d0f804bc0f8ecb85141d6ba820f4222df471",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00033_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00034.s",
+    "sha256": "619ced692721d07707105c041df0184a3694bfc38268b4cfbd4dc5b3dca59906",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00034_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00035.s",
+    "sha256": "9c6a1a16626fd654fa3c17bd4aaf0bed36ba55ad364f8e10d972e12fcd4c8ff7",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00035_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00036.s",
+    "sha256": "e40001009f1804b075e110bf0ac09f18b70360ca2ee4d69fa7370e383aff8fc4",
+    "strict_out": "FAIL",
+    "judge_log": "round10/logs/m00036_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00037.s",
+    "sha256": "fc2a3a0bfbc06a66ba066f92333085741af219500370af542ce4d21ee9e5b787",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00037_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00038.s",
+    "sha256": "a3ebb1bf1c7ba59741f6a9446b52f3842e7ab5bf8aba41fca1ad0d09eee75b96",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00038_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00039.s",
+    "sha256": "907860a39ab5026b8a464b174782fa4e495ddd2c4bddf5c9f61cac3e6bd20210",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00039_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00040.s",
+    "sha256": "31404f118a6d2615f7a64552bd0b691978e1f6cf66b3987ef42691dce0ed60c4",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00040_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00041.s",
+    "sha256": "7745212516a52155d7b5f247bcd1bcb313e74a8aefa0357a180f06dce3a37ea9",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00041_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00042.s",
+    "sha256": "d4e6ae5dbb0c349dc64502500774d81e58fbb2ea39a69ea02e7473c8edd5abe9",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00042_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00043.s",
+    "sha256": "efef0ac5537a63c88bfd4cb4ea1d5cd98ee4316e5f011f357debeaf9967399ab",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00043_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00044.s",
+    "sha256": "6986fd3c4f8ed3592b9036dfefae3aaf5f5e73e723a251b914f8bc18a94d738c",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00044_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00045.s",
+    "sha256": "d6ed19e77eaf83dd0b4205b06d9aeabfc6e05afec0f395f9b34233ddc82710b5",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00045_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00046.s",
+    "sha256": "bc959c394cf0065bdb806e2dc3959b3fe71c95e99f21a88fa24771f28ffafbfc",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00046_invented_out_judge.log"
+  },
+  {
+    "file": "round10/invented/m00047.s",
+    "sha256": "7a51da1281f195e3e8e3d894e99514c1a0777360832b2e8dca246c7e1153277e",
+    "strict_out": "PASS",
+    "judge_log": "round10/logs/m00047_invented_out_judge.log"
+  }
+]

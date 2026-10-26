@@ -1,0 +1,5291 @@
+{
+  "status": "UNKNOWN",
+  "cpu": 181.884079205,
+  "cases": 10,
+  "args": {
+    "cpu": 180.0,
+    "stem": "binary16_shapes"
+  },
+  "placements": 455,
+  "completed_unsat": 97,
+  "unknown": 358,
+  "records": [
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.17292089200000002
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.388396172
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 0.985210392
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.097335618
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.285969177
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.4720790639999999
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.696140107
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 1.978366735
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.377435873
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.649776194
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 2.824840206
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.040700316
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.208561936
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 3.209908016
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 3.210102726
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 3.2101425860000004
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 3.210176236
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 3.2102098260000003
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 3.2102413060000003
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.425276035
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.70481331
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 3.931215283
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.205994475
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.551442949
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.74105432
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 4.953354236
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.202192782
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.402702536
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.715312846
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 5.96523284
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.419437310999999
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.70786238
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 6.921453999
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.21091402
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.567171918
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 7.832363329
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.127510152
+    },
+    {
+      "positions": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.378626986
+    },
+    {
+      "positions": [
+        0,
+        3,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.617838955
+    },
+    {
+      "positions": [
+        0,
+        3,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 8.84410474
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.048014863
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.243948984
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.488085077
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 9.854893536999999
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.129464263
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.396216304
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.641777876999999
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 10.892824672
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.24964589
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.499477753999999
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.6807746
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 11.897232730999999
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.166018702999999
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.478710534
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.743302782999999
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        8
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.743507874
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.743669314
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.743707493999999
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.743740054
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.743770734
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.743810503999999
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.744767313999999
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.744812344
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.744846434
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.744887204
+    },
+    {
+      "positions": [
+        0,
+        1,
+        9,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.744918594
+    },
+    {
+      "positions": [
+        0,
+        1,
+        9,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 12.744949624
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 12.937780273
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.229937156
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.483730002
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 13.872547594
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.106914203
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.359656297999999
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.5799177
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 14.788942287
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.03152278
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.289162418
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.523773914
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 15.915207354
+    },
+    {
+      "positions": [
+        0,
+        2,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.150896042
+    },
+    {
+      "positions": [
+        0,
+        2,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.424291386
+    },
+    {
+      "positions": [
+        0,
+        2,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 16.691558604
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.056908577999998
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.404507563
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 17.784798262
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.039409519
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.319994138
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 18.819946815999998
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.112966798
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.342270884
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.655486794999998
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 19.891544402
+    },
+    {
+      "positions": [
+        0,
+        3,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.256436296
+    },
+    {
+      "positions": [
+        0,
+        3,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.538603733
+    },
+    {
+      "positions": [
+        0,
+        3,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.740613578
+    },
+    {
+      "positions": [
+        0,
+        3,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 20.986424329
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.207555392
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.518688702
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 21.962981627
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.239045803
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.656465008999998
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 22.942941393999998
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.296703493
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.600654486
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 23.862511355
+    },
+    {
+      "positions": [
+        0,
+        4,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.146053112
+    },
+    {
+      "positions": [
+        0,
+        4,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.500640037
+    },
+    {
+      "positions": [
+        0,
+        4,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 24.98939574
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.324561598
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.641206684
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 25.973225782
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.32705396
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.632731095
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 26.923608703
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.161371879
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.429318471
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 27.72261737
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.106558658
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.405484021
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 28.766343554
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.268396654
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 29.665679773
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.027465241999998
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.34919392
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 30.691882962
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.039701855
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.387960173
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388077202999998
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388211473
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388251813
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388309282999998
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388342483
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388374493
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388407123
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388438652999998
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388470083
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388502114
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388533914
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388573953999998
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388605564
+    },
+    {
+      "positions": [
+        0,
+        1,
+        9,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388636594
+    },
+    {
+      "positions": [
+        0,
+        1,
+        9,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388668014
+    },
+    {
+      "positions": [
+        0,
+        1,
+        10,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388699194
+    },
+    {
+      "positions": [
+        0,
+        1,
+        10,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388731474
+    },
+    {
+      "positions": [
+        0,
+        1,
+        10,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 31.388763924
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.578430184
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 31.800517108
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.06455373
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.428010432
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 32.724043331
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.016203973
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.284442995
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.511125913
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 33.788812826
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.01337224
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.218677927
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.458498964
+    },
+    {
+      "positions": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 34.760117221
+    },
+    {
+      "positions": [
+        0,
+        2,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.050094589
+    },
+    {
+      "positions": [
+        0,
+        2,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.247401391
+    },
+    {
+      "positions": [
+        0,
+        2,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.519194322
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 35.808214643
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.177973038
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 36.627709734999996
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.242017341
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.660201864
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 37.98845808
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.384158924
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.64119512
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 38.939159925
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.220296642
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.640496308
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 39.968055494
+    },
+    {
+      "positions": [
+        0,
+        3,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.380952296
+    },
+    {
+      "positions": [
+        0,
+        3,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.605480399
+    },
+    {
+      "positions": [
+        0,
+        3,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 40.849386932
+    },
+    {
+      "positions": [
+        0,
+        3,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.155062679
+    },
+    {
+      "positions": [
+        0,
+        3,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.445226179
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 41.730301068
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.065135677
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.322861173
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.651883791
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 42.878174915
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.263287344
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.568823822
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 43.784467411
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.167644009
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.505781351
+    },
+    {
+      "positions": [
+        0,
+        4,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 44.778701665
+    },
+    {
+      "positions": [
+        0,
+        4,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.145886017
+    },
+    {
+      "positions": [
+        0,
+        4,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.401842985
+    },
+    {
+      "positions": [
+        0,
+        4,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 45.698823609
+    },
+    {
+      "positions": [
+        0,
+        4,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.196464559
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.478318285
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 46.68381982
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.025222422
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.326541728
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.590632838
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 47.923086725
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.167315546
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.650550548
+    },
+    {
+      "positions": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 48.973439873
+    },
+    {
+      "positions": [
+        0,
+        5,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.307309771999996
+    },
+    {
+      "positions": [
+        0,
+        5,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.543974511
+    },
+    {
+      "positions": [
+        0,
+        5,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 49.853340569
+    },
+    {
+      "positions": [
+        0,
+        5,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.199226743
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.520788206
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 50.879485276
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.188950135
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.558277489
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 51.915416758
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.239076003
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.578251614
+    },
+    {
+      "positions": [
+        0,
+        6,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 52.831767059
+    },
+    {
+      "positions": [
+        0,
+        6,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.147728581
+    },
+    {
+      "positions": [
+        0,
+        6,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.400342146
+    },
+    {
+      "positions": [
+        0,
+        6,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.692597008999996
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 53.950061545
+    },
+    {
+      "positions": [
+        0,
+        7,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.335739294999996
+    },
+    {
+      "positions": [
+        0,
+        7,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.680130118
+    },
+    {
+      "positions": [
+        0,
+        7,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 54.955745203
+    },
+    {
+      "positions": [
+        0,
+        7,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.259600089
+    },
+    {
+      "positions": [
+        0,
+        7,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 55.650510874
+    },
+    {
+      "positions": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.272823213
+    },
+    {
+      "positions": [
+        0,
+        7,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.569772215
+    },
+    {
+      "positions": [
+        0,
+        7,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 56.927974335
+    },
+    {
+      "positions": [
+        0,
+        7,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.270038265
+    },
+    {
+      "positions": [
+        0,
+        7,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.645003706
+    },
+    {
+      "positions": [
+        0,
+        7,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 57.963032697
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963253147
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963393277
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        8
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963433316999996
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963468277
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963504307
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963537617
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963595767
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963630987
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963663896999996
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963697937
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963730697
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.963763867
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.966530148
+    },
+    {
+      "positions": [
+        0,
+        1,
+        9,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.966590058
+    },
+    {
+      "positions": [
+        0,
+        1,
+        10,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.966642138
+    },
+    {
+      "positions": [
+        0,
+        1,
+        11,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.966678208
+    },
+    {
+      "positions": [
+        0,
+        1,
+        11,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.966711778
+    },
+    {
+      "positions": [
+        0,
+        1,
+        11,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 57.966744808
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.259425551999996
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 58.763248752
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.046348908
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.323426144
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.673911971
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 59.959440659
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.233876416
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.495749706
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.641171928
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 60.861566609
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.110840924
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.400839214
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.6568029
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 61.885930506
+    },
+    {
+      "positions": [
+        0,
+        2,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.109910599
+    },
+    {
+      "positions": [
+        0,
+        2,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.34851633
+    },
+    {
+      "positions": [
+        0,
+        2,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.609769919
+    },
+    {
+      "positions": [
+        0,
+        2,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 62.848176297
+    },
+    {
+      "positions": [
+        0,
+        2,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.101054925
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.310582433
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.637075419
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 63.884664193000006
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.061029516
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.326592866
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.438659262
+    },
+    {
+      "positions": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.686978145
+    },
+    {
+      "positions": [
+        0,
+        3,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 64.925700084
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.139250773
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.692206534
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 65.933895675
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.129979697
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.430902421
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.674085711
+    },
+    {
+      "positions": [
+        0,
+        4,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 66.915793731
+    },
+    {
+      "positions": [
+        0,
+        4,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.378820444
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 67.734556501
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.122577422
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.461933273
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 68.764552589
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.08157544
+    },
+    {
+      "positions": [
+        0,
+        5,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.468319402
+    },
+    {
+      "positions": [
+        0,
+        5,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 69.836446906
+    },
+    {
+      "positions": [
+        0,
+        5,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.141953573
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.496434971
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 70.776805271
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.028214104
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.320042107
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.63851453
+    },
+    {
+      "positions": [
+        0,
+        6,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 71.909711334
+    },
+    {
+      "positions": [
+        0,
+        6,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.213438832
+    },
+    {
+      "positions": [
+        0,
+        6,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.509238175
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 72.850382796
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.245258142
+    },
+    {
+      "positions": [
+        0,
+        7,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.599430651
+    },
+    {
+      "positions": [
+        0,
+        7,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 73.991607231
+    },
+    {
+      "positions": [
+        0,
+        7,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.372974423
+    },
+    {
+      "positions": [
+        0,
+        7,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 74.756150582
+    },
+    {
+      "positions": [
+        0,
+        7,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.103480557
+    },
+    {
+      "positions": [
+        0,
+        7,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.399510569
+    },
+    {
+      "positions": [
+        0,
+        8,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 75.738325882
+    },
+    {
+      "positions": [
+        0,
+        8,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.04421476
+    },
+    {
+      "positions": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.414986723
+    },
+    {
+      "positions": [
+        0,
+        8,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 76.764153549
+    },
+    {
+      "positions": [
+        0,
+        8,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.17311564
+    },
+    {
+      "positions": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.574423326
+    },
+    {
+      "positions": [
+        0,
+        8,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 77.889662007
+    },
+    {
+      "positions": [
+        0,
+        8,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.290334014
+    },
+    {
+      "positions": [
+        0,
+        8,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.613317128
+    },
+    {
+      "positions": [
+        0,
+        8,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 78.962115124
+    },
+    {
+      "positions": [
+        0,
+        8,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.490163005
+    },
+    {
+      "positions": [
+        0,
+        8,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 79.804166005
+    },
+    {
+      "positions": [
+        0,
+        8,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.207669984
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.207844234
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.207984904
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208048834
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208085264
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208119994
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        10
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208153944
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        11
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208188174
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208221584
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208256134
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208289124
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208323464
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.208365654
+    },
+    {
+      "positions": [
+        0,
+        1,
+        6,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.211959496
+    },
+    {
+      "positions": [
+        0,
+        1,
+        7,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212017686
+    },
+    {
+      "positions": [
+        0,
+        1,
+        8,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212057986
+    },
+    {
+      "positions": [
+        0,
+        1,
+        9,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212094326
+    },
+    {
+      "positions": [
+        0,
+        1,
+        10,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212130316
+    },
+    {
+      "positions": [
+        0,
+        1,
+        11,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212164666
+    },
+    {
+      "positions": [
+        0,
+        1,
+        12,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212198406
+    },
+    {
+      "positions": [
+        0,
+        1,
+        12,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212242396
+    },
+    {
+      "positions": [
+        0,
+        1,
+        12,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.212275776
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.48611742
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.619456476
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 80.664605064
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 80.941567109
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.196650046
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.44485385
+    },
+    {
+      "positions": [
+        0,
+        2,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 81.691079062
+    },
+    {
+      "positions": [
+        0,
+        2,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.019543967
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 82.298852084
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 82.566839875
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.149065547
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.401727513
+    },
+    {
+      "positions": [
+        0,
+        3,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.608492629
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 83.781900221
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.007344624
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.280512108
+    },
+    {
+      "positions": [
+        0,
+        4,
+        7,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.511761195
+    },
+    {
+      "positions": [
+        0,
+        4,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.721969382
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        7
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 84.977437988
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.313163056
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.589347721
+    },
+    {
+      "positions": [
+        0,
+        5,
+        8,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 85.866066266
+    },
+    {
+      "positions": [
+        0,
+        5,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.154479818
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.478024963
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 86.787431183
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.147428493
+    },
+    {
+      "positions": [
+        0,
+        6,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.416041456
+    },
+    {
+      "positions": [
+        0,
+        6,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.724014856
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 87.971415218
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.226162625
+    },
+    {
+      "positions": [
+        0,
+        7,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.488710253
+    },
+    {
+      "positions": [
+        0,
+        7,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 88.813682498
+    },
+    {
+      "positions": [
+        0,
+        7,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.164246584
+    },
+    {
+      "positions": [
+        0,
+        8,
+        9,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.528347674
+    },
+    {
+      "positions": [
+        0,
+        8,
+        9,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 89.88891259
+    },
+    {
+      "positions": [
+        0,
+        8,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.41098503799999
+    },
+    {
+      "positions": [
+        0,
+        8,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 90.772180128
+    },
+    {
+      "positions": [
+        0,
+        8,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.162755931
+    },
+    {
+      "positions": [
+        0,
+        9,
+        10,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.578591513
+    },
+    {
+      "positions": [
+        0,
+        9,
+        10,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 91.879947579
+    },
+    {
+      "positions": [
+        0,
+        9,
+        10,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.163389819
+    },
+    {
+      "positions": [
+        0,
+        9,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.446013954
+    },
+    {
+      "positions": [
+        0,
+        9,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 92.761598528
+    },
+    {
+      "positions": [
+        0,
+        9,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.104470871
+    },
+    {
+      "positions": [
+        0,
+        9,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.417282323
+    },
+    {
+      "positions": [
+        0,
+        9,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 93.749627001
+    },
+    {
+      "positions": [
+        0,
+        9,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.03699365
+    },
+    {
+      "positions": [
+        0,
+        9,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.346898299
+    },
+    {
+      "positions": [
+        0,
+        9,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 94.630001628
+    },
+    {
+      "positions": [
+        0,
+        9,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.174721754
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.174893474
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        12
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179183005
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179252525
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179310045
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179346415
+    },
+    {
+      "positions": [
+        0,
+        1,
+        5,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179381215
+    },
+    {
+      "positions": [
+        0,
+        1,
+        13,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179415615
+    },
+    {
+      "positions": [
+        0,
+        1,
+        13,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.179472255
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 95.23486135899999
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.40155907
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.583602066
+    },
+    {
+      "positions": [
+        0,
+        2,
+        5,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 95.797445076
+    },
+    {
+      "positions": [
+        0,
+        2,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 96.04845115
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 96.349309707
+    },
+    {
+      "positions": [
+        0,
+        3,
+        5,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 96.619962638
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 96.884821937
+    },
+    {
+      "positions": [
+        0,
+        4,
+        6,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 97.201443919
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 97.560186849
+    },
+    {
+      "positions": [
+        0,
+        5,
+        7,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 97.831340862
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 98.060866307
+    },
+    {
+      "positions": [
+        0,
+        6,
+        8,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 98.385801482
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 98.629012284
+    },
+    {
+      "positions": [
+        0,
+        7,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 98.795886233
+    },
+    {
+      "positions": [
+        0,
+        8,
+        9,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 99.125627231
+    },
+    {
+      "positions": [
+        0,
+        8,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 99.359787138
+    },
+    {
+      "positions": [
+        0,
+        9,
+        10,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 99.592684484
+    },
+    {
+      "positions": [
+        0,
+        9,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 99.861164378
+    },
+    {
+      "positions": [
+        0,
+        10,
+        11,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 100.108051969
+    },
+    {
+      "positions": [
+        0,
+        10,
+        11,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 100.349129141
+    },
+    {
+      "positions": [
+        0,
+        10,
+        11,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 100.553708855
+    },
+    {
+      "positions": [
+        0,
+        10,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 100.718827193
+    },
+    {
+      "positions": [
+        0,
+        10,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 100.913373134
+    },
+    {
+      "positions": [
+        0,
+        10,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 101.116522979
+    },
+    {
+      "positions": [
+        0,
+        10,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 101.278065716
+    },
+    {
+      "positions": [
+        0,
+        10,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 101.64849695
+    },
+    {
+      "positions": [
+        0,
+        10,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 101.93749456
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 101.937631031
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        13
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 101.937761501
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 101.937803061
+    },
+    {
+      "positions": [
+        0,
+        1,
+        4,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 101.937841811
+    },
+    {
+      "positions": [
+        0,
+        1,
+        14,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 101.937878771
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 102.233757983
+    },
+    {
+      "positions": [
+        0,
+        2,
+        4,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 102.575855884
+    },
+    {
+      "positions": [
+        0,
+        3,
+        4,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 102.818259955
+    },
+    {
+      "positions": [
+        0,
+        4,
+        5,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 103.030863894
+    },
+    {
+      "positions": [
+        0,
+        5,
+        6,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 103.170764261
+    },
+    {
+      "positions": [
+        0,
+        6,
+        7,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 103.389135023
+    },
+    {
+      "positions": [
+        0,
+        7,
+        8,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 103.540212037
+    },
+    {
+      "positions": [
+        0,
+        8,
+        9,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 103.674232522
+    },
+    {
+      "positions": [
+        0,
+        9,
+        10,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 103.828177467
+    },
+    {
+      "positions": [
+        0,
+        10,
+        11,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 104.036500764
+    },
+    {
+      "positions": [
+        0,
+        11,
+        12,
+        13
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 104.302581695
+    },
+    {
+      "positions": [
+        0,
+        11,
+        12,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 104.390652312
+    },
+    {
+      "positions": [
+        0,
+        11,
+        12,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 104.67301756
+    },
+    {
+      "positions": [
+        0,
+        11,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 104.81831443
+    },
+    {
+      "positions": [
+        0,
+        11,
+        13,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 105.411226486
+    },
+    {
+      "positions": [
+        0,
+        11,
+        14,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 105.690790403
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 105.690960123
+    },
+    {
+      "positions": [
+        0,
+        1,
+        3,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 105.691094463
+    },
+    {
+      "positions": [
+        0,
+        2,
+        3,
+        15
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 105.91085107399999
+    },
+    {
+      "positions": [
+        0,
+        12,
+        13,
+        14
+      ],
+      "status": "UNKNOWN",
+      "budget": 2000,
+      "cpu_cumulative": 106.043215489
+    },
+    {
+      "positions": [
+        0,
+        12,
+        13,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 106.091936289
+    },
+    {
+      "positions": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 106.121379731
+    },
+    {
+      "positions": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 106.121544851
+    },
+    {
+      "positions": [
+        0,
+        13,
+        14,
+        15
+      ],
+      "status": "UNSAT",
+      "budget": 2000,
+      "cpu_cumulative": 106.130131925
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 109.505133488
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 112.396971323
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 115.540516851
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 118.85024232
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 122.35433549
+    },
+    {
+      "positions": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 125.699457117
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 129.432481064
+    },
+    {
+      "positions": [
+        0,
+        3,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 132.353341951
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 133.49858343900002
+    },
+    {
+      "positions": [
+        0,
+        3,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 136.266796362
+    },
+    {
+      "positions": [
+        0,
+        4,
+        8,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 139.34764073300002
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 141.69829488300002
+    },
+    {
+      "positions": [
+        0,
+        4,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 142.747155859
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 146.283789979
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 149.858544461
+    },
+    {
+      "positions": [
+        0,
+        2,
+        6,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 153.609154031
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 157.16393931200002
+    },
+    {
+      "positions": [
+        0,
+        2,
+        7,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 160.007073106
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 164.15782748200002
+    },
+    {
+      "positions": [
+        0,
+        2,
+        8,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 167.55887256800003
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        11
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 171.57411607300003
+    },
+    {
+      "positions": [
+        0,
+        2,
+        9,
+        12
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 174.83992426700001
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 178.40606615200002
+    },
+    {
+      "positions": [
+        0,
+        3,
+        6,
+        10
+      ],
+      "status": "UNKNOWN",
+      "budget": 20000,
+      "cpu_cumulative": 181.884058685
+    }
+  ],
+  "vars": 11376,
+  "clauses": 82174,
+  "stats": {
+    "restarts": 40924,
+    "conflicts": 1200550,
+    "decisions": 6015006,
+    "propagations": 664045353
+  }
+}

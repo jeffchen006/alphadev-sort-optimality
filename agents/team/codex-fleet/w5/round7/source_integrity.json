@@ -1,0 +1,13 @@
+{
+  "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py": "45c02ff65c50467fc18482d9e6302961f1eed6f37af938487cc520da8415ef8e",
+  "/path/to/repo/agents/team/codex-fleet/w5/round4/src/flag_sat.py": "1d6351dfeb0cc2545576e57ce8287947f4c69cc274896fff2f3fefcc16457687",
+  "/path/to/repo/agents/team/codex-fleet/w5/round3/rank_encode.py": "744a2fa97a75d130d4860703b2800c077dc1cdb7b534ede1bc0637eb212b9fdf",
+  "/path/to/repo/agents/team/codex-fleet/w5/round3/repair_sat.py": "60adfa404b6ed49a25fe25f646189b422394a44bb0521d770bd5dd711f65d669",
+  "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py": "9b0659cad5846aca96e2cdb0c9f734fc346fb0619aa9b0234432ed95b8b1ce57",
+  "/path/to/repo/agents/team/codex-fleet/w5/round7/kissat_repair.py": "b1a418cece65e0c10774109bd6b915fc8c2bf44925b2fd703229f0e3b93cdd9c",
+  "/path/to/repo/agents/team/codex-fleet/w5/round7/batch.py": "d86ae4d98ffa6953d8c263ae9c4ef5694e968148565b13b7a496877fe3a588fe",
+  "/path/to/repo/agents/team/codex-fleet/w5/round7/verify.py": "8fb7314631faeaff53eba237146c4b05414da5b8540dec5cfbc4a55b600cd955",
+  "/path/to/repo/agents/team/codex-fleet/w6/src/window_sat.py": "cddc9e5900d0698cdb644bda5e791c52e29d18e512916a0988c12513d18db172",
+  "/path/to/repo/agents/sat/encode.py": "d383c8d3d9f6098a01fa093cbe65f113e9d2310a22d3abf49298f29c9403d357",
+  "/path/to/workspace/schur6/bin/kissat": "5c0e5c1ec1afb054041d015278802dcdece107b9cdc848e54b44ac0cd26ae4c1"
+}

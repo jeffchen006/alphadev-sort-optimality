@@ -1,0 +1,1 @@
+{"case": "c10_21_21", "cubes": 43, "cover_cnf": "cubes/c10_21_21.cover.cnf", "cover_cnf_sha256": "fc87e36b5cc8f06d2c672230a96071321820339ac3772e0c72ebc6e59d7d1bfe", "cover_proof": "cubes/c10_21_21.cover.lrat", "solver_rc": 20, "verified": true}

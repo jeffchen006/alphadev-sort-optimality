@@ -1,0 +1,10 @@
+#!/bin/bash
+# Temporary first-pass budget for the running sequential recompute9 batch.
+# Preserve the requested budget for every other caller.
+case "$1:$4" in
+  sk/recompute9_wide/*:3000000)
+    printf 'ROUND_BUDGET requested_nodes=%s actual_nodes=300000 finite_first_pass\n' "$4"
+    exec "$(dirname "$0")/dagx_safe_exact_bin" "$1" "$2" "$3" 300000
+    ;;
+  *) exec "$(dirname "$0")/dagx_safe_exact_bin" "$@" ;;
+esac

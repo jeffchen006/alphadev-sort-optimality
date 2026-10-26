@@ -1,0 +1,32 @@
+{
+  "name": "groups_0001",
+  "free": [
+    0,
+    4,
+    14
+  ],
+  "registers": 11,
+  "status": "UNSAT",
+  "exit": 0,
+  "seconds": 11.792095102369785,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/groups_0001.s",
+    "--changes",
+    "0",
+    "--registers",
+    "11",
+    "--free",
+    "0,4,14",
+    "--proof"
+  ],
+  "proof_verified": true,
+  "cnf_sha256": "2735ee18ff2e394d423c391ddbe8753d3faf9f1fa26e7ac1b88ed69bc3448906",
+  "drat_sha256": "c6697a7322e2358f56c6709f0681b949793c3cb5a6547e52e23a5d7f2bfd69c4"
+}

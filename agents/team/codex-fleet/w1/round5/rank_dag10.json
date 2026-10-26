@@ -1,0 +1,20 @@
+{
+  "status": "UNKNOWN",
+  "cpu": 300.093345668,
+  "args": {
+    "gates": 10,
+    "cpu": 300.0,
+    "conflicts": 2000,
+    "solver": "cadical195",
+    "stem": "rank_dag10"
+  },
+  "cases": 10,
+  "vars": 2491,
+  "clauses": 30682,
+  "stats": {
+    "restarts": 96711,
+    "conflicts": 2947305,
+    "decisions": 4917471,
+    "propagations": 354934353
+  }
+}

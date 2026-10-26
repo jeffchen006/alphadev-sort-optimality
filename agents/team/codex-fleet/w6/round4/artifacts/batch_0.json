@@ -1,0 +1,59 @@
+[
+  {
+    "name": "flagswrites_0",
+    "command": [
+      "./round4/search_v2",
+      "round4/artifacts/all.txt",
+      "0",
+      "2",
+      "flagswrites",
+      "round4/candidates/flagswrites_0"
+    ],
+    "wall_limit": 1200.0,
+    "exit": 0,
+    "seconds": 178.74936883430928,
+    "log": "round4/logs/flagswrites_0.log",
+    "affinity": [
+      74,
+      75
+    ]
+  },
+  {
+    "name": "cmp2_0",
+    "command": [
+      "./round4/search_v2",
+      "round4/artifacts/all.txt",
+      "0",
+      "2",
+      "cmp2",
+      "round4/candidates/cmp2_0"
+    ],
+    "wall_limit": 1200.0,
+    "exit": 0,
+    "seconds": 43.675072888843715,
+    "log": "round4/logs/cmp2_0.log",
+    "affinity": [
+      74,
+      75
+    ]
+  },
+  {
+    "name": "flagsany_0",
+    "command": [
+      "./round4/search_v2",
+      "round4/artifacts/nomov.txt",
+      "0",
+      "2",
+      "flagsany",
+      "round4/candidates/flagsany_0"
+    ],
+    "wall_limit": 1200.0,
+    "exit": 0,
+    "seconds": 51.35557799786329,
+    "log": "round4/logs/flagsany_0.log",
+    "affinity": [
+      74,
+      75
+    ]
+  }
+]

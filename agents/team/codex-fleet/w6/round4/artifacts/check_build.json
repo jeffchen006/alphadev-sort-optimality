@@ -1,0 +1,20 @@
+{
+  "name": "check_build",
+  "command": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "round4/src/check.cpp",
+    "-o",
+    "round4/check"
+  ],
+  "wall_limit": 35.0,
+  "exit": 1,
+  "seconds": 1.3763574808835983,
+  "log": "round4/logs/check_build.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

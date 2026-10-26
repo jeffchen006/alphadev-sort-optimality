@@ -1,0 +1,6135 @@
+{
+  "summary": {
+    "programs": 167,
+    "pair_triple": 126,
+    "prefix_lengths": {
+      "15": 63,
+      "16": 98,
+      "17": 6
+    },
+    "copy_patterns": {
+      "(1, 1, 1, 1, 1)": 63,
+      "none": 41,
+      "(1, 1, 2, 1, 1)": 21,
+      "(2, 1, 1, 1, 1)": 36,
+      "(2, 2, 1, 1, 1)": 5,
+      "(1, 2, 1, 1, 1)": 1
+    }
+  },
+  "programs": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_10040eff416c0867.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovg": 3,
+        "cmovl": 4,
+        "cmovle": 1,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_100fdc9beb7f87fb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovg": 2,
+        "cmovle": 4,
+        "mov": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1125a776aad66f0f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 5,
+        "cmovle": 2,
+        "cmovg": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1133ec48c6cddf1b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovle": 5,
+        "cmovl": 3,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11c9d4867493ab47.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 4,
+        "cmovl": 2,
+        "cmovge": 3,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_11ff7541f319ba6f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovl": 3,
+        "cmovge": 3,
+        "cmovg": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1225fd780bdd0fe7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 4,
+        "cmovle": 1,
+        "cmovl": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12651d8baa33ba0f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 5,
+        "cmovl": 1,
+        "cmovg": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_12b75491c4d308a3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovle": 3,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2",
+              "S3"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1338d3424477e129.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 5,
+        "mov": 2,
+        "cmovge": 3,
+        "cmovg": 1,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3",
+              "S2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_141a02776a21d45.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 3,
+        "cmovge": 1,
+        "cmovg": 6,
+        "cmovl": 1,
+        "mov": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P3",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_153074ef2f383393.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 4,
+        "mov": 1,
+        "cmovge": 5,
+        "cmovle": 1,
+        "cmovg": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_156fdd193572fb27.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 4,
+        "cmovle": 2,
+        "cmovge": 2,
+        "cmovl": 2,
+        "mov": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "triple": [
+            0,
+            1,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15a18d5fe8f0f427.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 2,
+        "cmovge": 4,
+        "cmovl": 3,
+        "cmovg": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_15bdbe5ff6cbe16f.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 4,
+        "cmovle": 2,
+        "cmovl": 2,
+        "cmovge": 2,
+        "mov": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "triple": [
+            0,
+            1,
+            4
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_161f27bdd6e9955b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovl": 6,
+        "cmovle": 2,
+        "cmovge": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "S2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S3"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_164a24929b8970bb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 6,
+        "cmovge": 1,
+        "cmovg": 1,
+        "cmovl": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_166731603245e2eb.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 2,
+        "mov": 2,
+        "cmovg": 2,
+        "cmovl": 3,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_17907dae653ca8f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovl": 2,
+        "cmovg": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_185d571c2e0f14f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovg": 4,
+        "cmovl": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P3",
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a082026b9b8a97.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovle": 1,
+        "cmovg": 2,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3",
+              "S2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a613ac2485250c7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovg": 3,
+        "cmovle": 4,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1a63d93b1f04a2cb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovl": 2,
+        "cmovge": 4,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1ac755463afdc2ab.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovl": 2,
+        "cmovge": 5,
+        "mov": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "triple": [
+            0,
+            1,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1b0c08cec2e379c3.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovge": 2,
+        "cmovle": 4,
+        "cmovl": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1be80efe56e14ebf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovl": 5,
+        "mov": 2,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2",
+              "P4"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1c180823effee2ab.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovl": 4,
+        "cmovg": 3,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1cc416f5fb6c5bef.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovl": 1,
+        "cmovg": 4
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1d4ad416e35cc60b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovle": 4,
+        "mov": 2,
+        "cmovl": 1,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1e7b08432020f0b7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovl": 3,
+        "cmovle": 2,
+        "cmovge": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1f71d7979bb91b7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 5,
+        "mov": 2,
+        "cmovge": 1,
+        "cmovl": 4
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_1fa5731a2358af7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovge": 2,
+        "cmovg": 3,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_203f14ede4be42f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 2,
+        "cmovge": 3,
+        "cmovl": 2,
+        "cmovg": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_215cbe6f0d1c7837.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovg": 2,
+        "cmovle": 3,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21a6f16bedc5b8bf.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 5,
+        "cmovle": 4,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21abacdf36bcd7b3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 4,
+        "mov": 2,
+        "cmovge": 1,
+        "cmovle": 3,
+        "cmovl": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_21f839ca06fe77d3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovge": 4,
+        "cmovl": 1,
+        "cmovg": 2,
+        "cmovle": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_220dcb420effb46b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 7,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_22389f7b99df6097.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 2,
+        "cmovle": 3,
+        "cmovl": 1,
+        "cmovg": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_224e45102f6e86b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovg": 3,
+        "cmovle": 3,
+        "cmovge": 2,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2289ab6219955a3b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 3,
+        "cmovle": 3,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_22e8c2d0d1b113b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 5,
+        "mov": 2,
+        "cmovge": 1,
+        "cmovle": 3,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_23831cd511228447.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovl": 4,
+        "cmovle": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24853a2a978e287f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovle": 4,
+        "cmovg": 3,
+        "cmovl": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24abc8199dc03077.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovle": 5,
+        "cmovg": 2,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2",
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_24f787e7e88ef5ab.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 1,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovg": 2,
+        "cmovl": 3,
+        "cmovge": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2596dc2f20910faf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 3,
+        "mov": 3,
+        "cmovge": 4,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P1",
+              "S3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2642972b24ea19b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 1,
+        "cmovge": 3,
+        "cmovl": 3,
+        "cmovg": 3,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P1",
+              "P3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_267a2e3d4909af4b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovge": 4,
+        "cmovle": 2,
+        "mov": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2726f4afb2d799.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 3,
+        "cmovge": 1,
+        "cmovg": 3,
+        "cmovl": 4,
+        "mov": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_273efbe5788053db.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 4,
+        "cmovl": 3,
+        "cmovg": 2,
+        "cmovge": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2755e8d9e8382207.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 1,
+        "mov": 2,
+        "cmovle": 5,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_27f65daa1cee4f4b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 6,
+        "cmovl": 2,
+        "cmovge": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_281eb7be1ab4dfb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovle": 2,
+        "mov": 3,
+        "cmovge": 4
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_289340d6380f179f.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 5,
+        "mov": 2,
+        "cmovle": 1,
+        "cmovge": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2896d97bea6f9f9f.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 4,
+        "mov": 2,
+        "cmovle": 2,
+        "cmovge": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_290ba1ab50398fa7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 1,
+        "cmovle": 5,
+        "cmovl": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2a67840a0b9e7f13.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 5,
+        "cmovle": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2ab6c13ccb245a63.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 3,
+        "cmovl": 3,
+        "cmovle": 4,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2",
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2e9b0f58dbb178a7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovge": 3,
+        "cmovg": 3,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_2fc2edb8474e5733.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 5,
+        "cmovg": 3,
+        "cmovge": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_308486b4944cbdf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovge": 4,
+        "cmovg": 4,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P0",
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_30f500aaf2d3b42b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovg": 4,
+        "cmovge": 1,
+        "cmovl": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3169712e775f63e7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovge": 3,
+        "cmovl": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_336a411e8b85279.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovge": 1,
+        "cmovg": 3,
+        "cmovle": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33e730edcd75dbbf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 4,
+        "cmovge": 3,
+        "cmovg": 2,
+        "mov": 2,
+        "cmovle": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_33fd8cbe2fbbf34f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 3,
+        "mov": 3,
+        "cmovl": 4,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P3",
+              "S3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_34bda9f2efbb141b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 3,
+        "cmovge": 4,
+        "mov": 3,
+        "cmovle": 1,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0",
+              "S3"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_35006f3bfb8deb1b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 1,
+        "cmovle": 5,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P4",
+              "S3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3524001ad0523527.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovle": 2,
+        "cmovge": 3,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3631163abf06d7af.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovg": 4,
+        "cmovge": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36b2b7961244aaf3.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovle": 1,
+        "cmovge": 4,
+        "mov": 2,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c3eb8e6d6769f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovge": 4,
+        "cmovle": 2,
+        "cmovl": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36c68fd07f08ff.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 4,
+        "cmovle": 3,
+        "mov": 2,
+        "cmovge": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_36e5e6298381a683.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 1,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovle": 5,
+        "cmovg": 1,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_397c742a631c1cdb.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovg": 3,
+        "cmovge": 2,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_399842c2f1576827.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovge": 4,
+        "mov": 2,
+        "cmovle": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_39a6ceb5b893673.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovle": 3,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S2",
+              "S3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_39ca71836246603.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovg": 3,
+        "cmovl": 3,
+        "cmovge": 2,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3af92b135d8fbddb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovge": 4,
+        "mov": 3,
+        "cmovl": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3c8472e7eb77e88f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovle": 2,
+        "cmovge": 2,
+        "cmovl": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3dab8eea3595c0cf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovle": 3,
+        "cmovg": 1,
+        "cmovl": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f3513bf9cd6caf3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovge": 2,
+        "cmovl": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P0",
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3f8371a2666ae5c7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovg": 5,
+        "cmovge": 3,
+        "cmovl": 1,
+        "cmovle": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_3ff1974fb517ed2b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 3,
+        "cmovge": 2,
+        "cmovg": 2,
+        "cmovle": 1,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4033c0cef9939583.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovge": 2,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4065e579161132f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 4,
+        "cmovge": 1,
+        "cmovg": 1,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P1",
+              "S3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_40718fc8b65bfb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovg": 3,
+        "cmovle": 1,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P1",
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43a93e06324c3bc3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovle": 2,
+        "cmovl": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "S2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P1",
+              "S3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_43e28701f70f0cf.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovle": 4,
+        "mov": 2,
+        "cmovl": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4480f6c61beea14b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovge": 3,
+        "cmovg": 2,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_44a89463151f5b8f.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 1,
+        "cmovge": 5,
+        "cmovl": 3,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_45647ba89f2ce4ff.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 2,
+        "cmovg": 2,
+        "cmovl": 4,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4568144e518d6cff.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 5,
+        "mov": 2,
+        "cmovle": 1,
+        "cmovl": 2,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_490153be8f1298b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovg": 2,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0",
+              "S3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4a225b46e63e8737.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovl": 4,
+        "cmovg": 2,
+        "cmovge": 2,
+        "cmovle": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_4c82686d8d30d33.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 3,
+        "cmovge": 2,
+        "cmovle": 2,
+        "cmovg": 3,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "S1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_504956aa3c140ea3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovg": 1,
+        "cmovl": 1,
+        "cmovle": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_54b8fd94e189948f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovle": 4,
+        "cmovge": 1,
+        "cmovg": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_59bb347d4b01a577.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 2,
+        "cmovg": 3,
+        "cmovl": 2,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_5bdf24a222d2b63.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovl": 2,
+        "cmovle": 2,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_63f1e94b2830099.s",
+      "prefix_k": 17,
+      "suffix_k": 15,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 3,
+        "cmovge": 1,
+        "cmovl": 3,
+        "cmovle": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_6580b4e99d6036b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 1,
+        "cmovge": 4,
+        "cmovl": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66303d2fe517211.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovge": 3,
+        "cmovle": 2,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P2",
+              "S1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_66ea7778158faf.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 4,
+        "mov": 1,
+        "cmovl": 1,
+        "cmovle": 2,
+        "cmovg": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_6e38bedf286f04f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovg": 1,
+        "cmovl": 5,
+        "cmovge": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1",
+              "S3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_70dac6520f0a05af.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 3,
+        "cmovge": 4,
+        "cmovle": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_784551952e246563.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 2,
+        "cmovg": 3,
+        "cmovl": 3,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0",
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7c7f65877f171ab.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovge": 1,
+        "cmovg": 3,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_7f146a90e5e9bcf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 4,
+        "cmovg": 2,
+        "cmovl": 3,
+        "cmovge": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8034dffd5d8c457.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovg": 4,
+        "cmovge": 1,
+        "cmovl": 4,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2",
+              "S1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_81ed52dfbe00faf.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovge": 2,
+        "cmovg": 2,
+        "mov": 1,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_845547c9459fdb7b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovge": 5,
+        "cmovg": 2,
+        "cmovl": 2,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P1",
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_85b4809f0fae497.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovle": 5,
+        "cmovg": 2,
+        "cmovl": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8a1b7bc87d5e633.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "mov": 2,
+        "cmovl": 4,
+        "cmovle": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8d0dd0ee89a970f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovle": 1,
+        "cmovl": 2,
+        "cmovge": 4,
+        "cmovg": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_8fce06357f6d127.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 2,
+        "cmovle": 4,
+        "mov": 1,
+        "cmovg": 3,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9356fd7b120de37.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 2,
+        "cmovle": 3,
+        "cmovg": 2,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P3",
+              "S0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9755d36ddedc6b7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovg": 4,
+        "mov": 2,
+        "cmovge": 3,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "S2",
+              "S3"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_978e4716e9a7b55.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 3,
+        "cmovg": 3,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1",
+              "S2"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_9e1a0f74131d81f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovge": 5,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1",
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a333f1fdc61ed4b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovge": 2,
+        "cmovg": 2,
+        "mov": 2,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "triple": [
+            0,
+            1,
+            4
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_a7b174f83a0f43b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovge": 4,
+        "mov": 2,
+        "cmovle": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_adb02b770a6193.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovle": 1,
+        "cmovge": 4,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_b1dc9333293688f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovg": 1,
+        "cmovl": 1,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2",
+              "S3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_bcbcb19411aea31.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovl": 1,
+        "cmovg": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c060accd56c0c2f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 6,
+        "mov": 2,
+        "cmovge": 1,
+        "cmovl": 3
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_c3208d05a5329e7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovl": 2,
+        "cmovge": 3,
+        "cmovle": 2,
+        "cmovg": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd249ed48c06697.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 1,
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovg": 4,
+        "cmovge": 1,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_cd2c6a654c268eb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovge": 2,
+        "cmovl": 3,
+        "cmovg": 2
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ce431b9f3a92ab9.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovge": 4,
+        "cmovg": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d7ea38d35580a9b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovge": 1,
+        "cmovg": 6,
+        "mov": 2,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P3",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_d971bb526287b89.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 1,
+        "cmovl": 5,
+        "cmovle": 1,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1",
+              "S2"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_db8ff5154396dd7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovl": 4,
+        "cmovle": 2,
+        "cmovge": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_dbbbb77809455d7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 5,
+        "cmovg": 4,
+        "mov": 1,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "triple": [
+            0,
+            1,
+            4
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_e1c0ebef11c2d07.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 1,
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovg": 2,
+        "cmovle": 2,
+        "cmovge": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_e32bfb331db9cf7.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 1,
+        "cmovl": 3,
+        "cmovle": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4",
+              "S3"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ee55e6ba214fb31.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovle": 5
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_efa0c71440608fb.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 2,
+        "cmp": 4,
+        "cmovg": 5,
+        "cmovge": 1,
+        "cmovle": 3,
+        "cmovl": 1
+      },
+      "pieces": []
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f76ab7383f3162f.s",
+      "prefix_k": 17,
+      "suffix_k": 15,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovle": 2,
+        "cmovl": 3,
+        "mov": 2,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "P3"
+            ],
+            [
+              "S1",
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 2
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f861da3879904ef.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 2,
+        "cmovl": 3,
+        "cmovle": 5,
+        "cmovge": 1,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P3",
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_f8dffa39345ffaf.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 3,
+        "cmovle": 2,
+        "cmovl": 5,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "triple": [
+            1,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P3",
+              "S3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round2/verified/c8_ffb1da4812016b.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 2,
+        "cmovle": 3,
+        "cmovg": 3,
+        "mov": 1,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round3/verified/duplicate_min_control32.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 4,
+        "cmovge": 3,
+        "mov": 2,
+        "cmovg": 1,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1",
+              "P2"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round3/verified/nomov_4c02da04dce39b74.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovl": 1,
+        "cmovge": 4,
+        "cmovg": 3,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round3/verified/nomov_68d29028b7fb54c4.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovl": 1,
+        "cmovg": 4,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round3/verified/nomov_7e5d1b2681c79ac1.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 2,
+        "cmovl": 2,
+        "cmovg": 3,
+        "cmovge": 4
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S3"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round3/verified/nomov_9f7a6fc77b297ff9.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 6,
+        "cmovg": 3,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/round3/verified/nomov_cb7f7a699c4c9842.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovle": 6,
+        "cmovg": 2,
+        "cmovge": 2,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S3"
+            ],
+            [
+              "P4"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_108b52d1733c50f9.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovge": 4,
+        "cmovl": 1,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P1",
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_15d47dd100cf7fcb.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovl": 3,
+        "cmovge": 1,
+        "cmovle": 2,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_23f00ca3e09530d3.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovl": 1,
+        "cmovle": 3,
+        "cmovg": 3,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P4",
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_26e49cf60c846007.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 5,
+        "cmovl": 3,
+        "mov": 2,
+        "cmovg": 1,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2754b681df96846f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 3,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovge": 2,
+        "cmovl": 2,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P2",
+              "P3"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2b1431ee7889f02b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 4,
+        "cmovg": 3,
+        "cmovge": 3,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P4",
+              "S3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2c342e0e0fbafd57.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovg": 2,
+        "cmovge": 1,
+        "cmovle": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "triple": [
+            0,
+            2,
+            4
+          ],
+          "roles": [
+            [
+              "P2",
+              "P3"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2dfea391c9fdd3bb.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "mov": 1,
+        "cmp": 4,
+        "cmovle": 3,
+        "cmovl": 2,
+        "cmovg": 4,
+        "cmovge": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "triple": [
+            0,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_2fc1b3fefa56100b.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovg": 2,
+        "cmovge": 2,
+        "cmovle": 3,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "P3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3395266762428bd.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovl": 5,
+        "cmovle": 2,
+        "cmovg": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P1",
+              "S0"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_3809e545578327.s",
+      "prefix_k": 17,
+      "suffix_k": 15,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovge": 4,
+        "cmovg": 4,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            3
+          ],
+          "roles": [
+            [
+              "P4",
+              "S3"
+            ],
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 2
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_57fa7c797ed6c84f.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 2,
+        "cmovg": 1,
+        "mov": 2,
+        "cmovle": 3,
+        "cmovl": 3
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "P0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_903a0e9b56d0fdc7.s",
+      "prefix_k": 15,
+      "suffix_k": 17,
+      "prefix_counts": {
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovle": 4,
+        "mov": 2,
+        "cmovg": 1,
+        "cmovl": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P2"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 0
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9dc3b82d8b1e62f.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 4,
+        "cmovle": 2,
+        "cmovl": 2,
+        "cmovge": 2,
+        "cmovg": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "triple": [
+            0,
+            1,
+            2
+          ],
+          "roles": [
+            [
+              "P3"
+            ],
+            [
+              "S1",
+              "S3"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P1"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_9f2faf3e2b5848b.s",
+      "prefix_k": 17,
+      "suffix_k": 15,
+      "prefix_counts": {
+        "mov": 5,
+        "cmp": 4,
+        "cmovge": 3,
+        "cmovg": 1,
+        "cmovl": 3,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "triple": [
+            2,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1",
+              "S3"
+            ],
+            [
+              "P0",
+              "S1"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 2
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_b71830c38f98f13.s",
+      "prefix_k": 17,
+      "suffix_k": 15,
+      "prefix_counts": {
+        "cmp": 4,
+        "mov": 3,
+        "cmovl": 7,
+        "cmovge": 2,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "triple": [
+            1,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P0",
+              "P2"
+            ],
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P4"
+            ],
+            [
+              "P1"
+            ],
+            [
+              "P3"
+            ]
+          ],
+          "extra_roles": 2
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_be0bab6887969b3.s",
+      "prefix_k": 17,
+      "suffix_k": 15,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovle": 5,
+        "cmovg": 2,
+        "cmovl": 2
+      },
+      "pieces": [
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "roles": [
+            [
+              "S0",
+              "S2"
+            ],
+            [
+              "P0",
+              "S3"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "S1"
+            ],
+            [
+              "P2"
+            ]
+          ],
+          "extra_roles": 2
+        }
+      ]
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w6/verified/c8_de052e5a1c75d83.s",
+      "prefix_k": 16,
+      "suffix_k": 16,
+      "prefix_counts": {
+        "mov": 4,
+        "cmp": 4,
+        "cmovl": 2,
+        "cmovge": 3,
+        "cmovg": 2,
+        "cmovle": 1
+      },
+      "pieces": [
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "triple": [
+            0,
+            3,
+            4
+          ],
+          "roles": [
+            [
+              "P1",
+              "P2"
+            ],
+            [
+              "S0"
+            ],
+            [
+              "S2"
+            ],
+            [
+              "P3"
+            ],
+            [
+              "P0"
+            ]
+          ],
+          "extra_roles": 1
+        }
+      ]
+    }
+  ]
+}

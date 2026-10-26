@@ -1,0 +1,28 @@
+{
+  "name": "pairs_0235",
+  "free": [
+    9,
+    11
+  ],
+  "registers": 11,
+  "status": "UNSAT",
+  "exit": 0,
+  "seconds": 1.2798867421224713,
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/pairs_0235.s",
+    "--changes",
+    "0",
+    "--registers",
+    "11",
+    "--free",
+    "9,11",
+    "--proof"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "union9",
+  "command": [
+    "round5/bin/union",
+    "round5/candidates/fresh31_near.s",
+    "round5/candidates/union9",
+    "31",
+    "1.8",
+    "0.1",
+    "480",
+    "5231931",
+    "10",
+    "0"
+  ],
+  "wall_limit": 500.0,
+  "exit": 124,
+  "seconds": 500.00343795865774,
+  "log": "round5/logs/union9.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

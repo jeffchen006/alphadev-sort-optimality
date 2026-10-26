@@ -1,0 +1,8 @@
+{
+  "file": "round2/n4_k19_partial_freeblocks_noprune.json",
+  "cnf_sha256": "4680e25c1ca7da9a01f9475d1f28278607f653d75e7dbea3f888038394d859ef",
+  "proof_sha256": "a1c45ec8ed8bae2fb9000043bd34e594b8a8ce43c24d63107c79155736ddf017",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 125.80852117482573
+}

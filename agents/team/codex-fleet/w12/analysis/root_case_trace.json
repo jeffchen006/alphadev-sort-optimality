@@ -1,0 +1,57 @@
+[
+  {
+    "instruction": [
+      "mov",
+      "S1",
+      "S0"
+    ],
+    "input_prefix": 1,
+    "emitted": 0,
+    "potential": 1,
+    "static_eq": true
+  },
+  {
+    "instruction": [
+      "cmp",
+      "S0",
+      "P0"
+    ],
+    "input_prefix": 2,
+    "emitted": 0,
+    "potential": 2,
+    "static_eq": true
+  },
+  {
+    "instruction": [
+      "cmp",
+      "P1",
+      "P2"
+    ],
+    "input_prefix": 3,
+    "emitted": 1,
+    "potential": 2,
+    "static_eq": false
+  },
+  {
+    "instruction": [
+      "cmovg",
+      "S0",
+      "P1"
+    ],
+    "input_prefix": 4,
+    "emitted": 3,
+    "potential": 1,
+    "static_eq": false
+  },
+  {
+    "instruction": [
+      "cmovg",
+      "S1",
+      "P2"
+    ],
+    "input_prefix": 5,
+    "emitted": 5,
+    "potential": 0,
+    "static_eq": false
+  }
+]

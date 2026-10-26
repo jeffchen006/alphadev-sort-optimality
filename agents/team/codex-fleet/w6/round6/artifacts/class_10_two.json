@@ -1,0 +1,18 @@
+{
+  "name": "class_10_two",
+  "command": [
+    "round5/bin/near_repair",
+    "round6/candidates/mem_a4_c8t1.2_near_624_out.s",
+    "round6/candidates/class_10_two"
+  ],
+  "wall_limit": 90.0,
+  "exit": 0,
+  "seconds": 5.020411902107298,
+  "log": "round6/logs/class_10_two.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 4.911784,
+  "peak_child_rss_kib": 10812
+}

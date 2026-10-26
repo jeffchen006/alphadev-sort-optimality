@@ -1,0 +1,21 @@
+# n=4 iset=I1 model=free source=AlphaDev Sort4AlphaDev, k=20 (= L - 2n), outputs: O0=S2 O1=S4 O2=S3 O3=P1
+cmp P0, P2
+mov S0, P2
+cmovl S0, P0
+cmovl P0, P2
+cmp P1, P3
+mov S1, P3
+cmovl S1, P1
+cmovl P1, P3
+cmp S0, S1
+mov S2, S1
+cmovl S2, S0
+cmovge S1, S0
+cmp P0, P1
+mov S3, P1
+cmovl S3, P0
+cmovge P1, P0
+cmp S1, S3
+mov S4, S3
+cmovl S4, S1
+cmovge S3, S1

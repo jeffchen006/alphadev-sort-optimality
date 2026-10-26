@@ -1,0 +1,30 @@
+{
+  "name": "near9_typed4",
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round5/candidates/fresh31_near.s",
+    "round5/candidates/near9_typed4.s",
+    "--rank",
+    "--typed",
+    "--fixed-dest",
+    "--changes",
+    "4",
+    "--maxcmp",
+    "9",
+    "--change-cmp",
+    "--fresh",
+    "1",
+    "--random-seed",
+    "5231541"
+  ],
+  "wall_limit": 180.0,
+  "exit": 0,
+  "seconds": 7.945832129567862,
+  "log": "round5/logs/near9_typed4.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

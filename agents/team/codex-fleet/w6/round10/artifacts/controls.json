@@ -1,0 +1,49 @@
+[
+  {
+    "name": "fast",
+    "engine": "round10/bin/dagx_flags_fast",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/artifacts/control33.txt",
+      "33",
+      "1"
+    ],
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/control33_fast.log",
+    "wall_seconds": 120.01174168009311
+  },
+  {
+    "name": "safe",
+    "engine": "round10/bin/dagx_flags_safe",
+    "command": [
+      "round10/bin/dagx_flags_safe",
+      "round10/artifacts/control33.txt",
+      "33",
+      "1"
+    ],
+    "status": "FOUND",
+    "exit_code": 0,
+    "log": "round10/logs/control33_safe.log",
+    "wall_seconds": 3.3655851893126965,
+    "judges": [
+      {
+        "source": "round10/candidates/control33_safe_0_source.s",
+        "models": {
+          "out": {
+            "file": "round10/candidates/control33_safe_0_out.s",
+            "log": "round10/logs/control33_safe_0_out_judge.log",
+            "exit_code": 0,
+            "pass": true
+          },
+          "mem": {
+            "file": "round10/candidates/control33_safe_0_mem.s",
+            "log": "round10/logs/control33_safe_0_mem_judge.log",
+            "exit_code": 0,
+            "pass": true
+          }
+        }
+      }
+    ]
+  }
+]

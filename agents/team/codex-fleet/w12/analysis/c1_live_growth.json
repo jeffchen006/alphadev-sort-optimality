@@ -1,0 +1,726 @@
+{
+  "claim": "The current normalization maps a program with two partial and one full non-lattice written versions to three full non-lattice written versions, despite all original instructions being live under ordinary data/flag analysis.",
+  "limits": "Original k=40 and normalized k=39 exceed the k<=31 target. This refutes a column guarantee for this implementation, not existence of another reduction. The prefix ultimately computes S91=P0 and can be simplified semantically.",
+  "original_k": 40,
+  "normalized_k": 39,
+  "original": {
+    "joint_orders": 4683,
+    "partial": 2,
+    "non_lattice": 1,
+    "garbage_controlled_full": 0,
+    "rows": [
+      {
+        "code_index": 1,
+        "instruction": [
+          "mov",
+          "S90",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 2,
+        "instruction": [
+          "cmovl",
+          "S90",
+          "P3"
+        ],
+        "kind": "non_lattice",
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "code_index": 4,
+        "instruction": [
+          "cmovl",
+          "S91",
+          "P0"
+        ],
+        "kind": "partial",
+        "witness": null
+      },
+      {
+        "code_index": 6,
+        "instruction": [
+          "cmovl",
+          "S91",
+          "P0"
+        ],
+        "kind": "partial",
+        "witness": null
+      },
+      {
+        "code_index": 7,
+        "instruction": [
+          "cmovge",
+          "S91",
+          "P0"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 9,
+        "instruction": [
+          "mov",
+          "S1",
+          "P1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 10,
+        "instruction": [
+          "cmovl",
+          "P1",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 11,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 13,
+        "instruction": [
+          "mov",
+          "S1",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 14,
+        "instruction": [
+          "cmovl",
+          "P2",
+          "P4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 15,
+        "instruction": [
+          "mov",
+          "S4",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 16,
+        "instruction": [
+          "mov",
+          "S3",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 17,
+        "instruction": [
+          "cmovge",
+          "S1",
+          "P4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 18,
+        "instruction": [
+          "mov",
+          "S0",
+          "S91"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 20,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 21,
+        "instruction": [
+          "cmovge",
+          "S3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 23,
+        "instruction": [
+          "cmovle",
+          "S91",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 24,
+        "instruction": [
+          "cmovle",
+          "P3",
+          "S0"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 26,
+        "instruction": [
+          "cmovg",
+          "S91",
+          "S3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 27,
+        "instruction": [
+          "cmovg",
+          "S3",
+          "S0"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 30,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 31,
+        "instruction": [
+          "cmovg",
+          "P2",
+          "P1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 33,
+        "instruction": [
+          "cmovl",
+          "S0",
+          "S4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 35,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 37,
+        "instruction": [
+          "cmovg",
+          "P3",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 38,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 41,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "S91"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 43,
+        "instruction": [
+          "cmovl",
+          "S91",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      }
+    ]
+  },
+  "normalized": {
+    "joint_orders": 4683,
+    "partial": 0,
+    "non_lattice": 3,
+    "garbage_controlled_full": 0,
+    "rows": [
+      {
+        "code_index": 1,
+        "instruction": [
+          "mov",
+          "S0",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 2,
+        "instruction": [
+          "cmovl",
+          "S0",
+          "P3"
+        ],
+        "kind": "non_lattice",
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "code_index": 4,
+        "instruction": [
+          "mov",
+          "S1",
+          "S0"
+        ],
+        "kind": "non_lattice",
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "code_index": 5,
+        "instruction": [
+          "cmovl",
+          "S1",
+          "P0"
+        ],
+        "kind": "non_lattice",
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "code_index": 6,
+        "instruction": [
+          "cmovge",
+          "S1",
+          "P0"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 8,
+        "instruction": [
+          "mov",
+          "S2",
+          "P1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 9,
+        "instruction": [
+          "cmovl",
+          "S2",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 10,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "P1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 12,
+        "instruction": [
+          "mov",
+          "S3",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 13,
+        "instruction": [
+          "cmovl",
+          "S3",
+          "P4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 14,
+        "instruction": [
+          "cmovge",
+          "P2",
+          "P4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 16,
+        "instruction": [
+          "mov",
+          "S4",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 17,
+        "instruction": [
+          "cmovl",
+          "S4",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 18,
+        "instruction": [
+          "cmovge",
+          "P3",
+          "P2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 20,
+        "instruction": [
+          "mov",
+          "S5",
+          "S1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 21,
+        "instruction": [
+          "cmovle",
+          "S5",
+          "S4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 22,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "S1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 24,
+        "instruction": [
+          "cmovg",
+          "S5",
+          "P3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 25,
+        "instruction": [
+          "cmovg",
+          "P3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 28,
+        "instruction": [
+          "mov",
+          "S6",
+          "S3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 29,
+        "instruction": [
+          "cmovle",
+          "S6",
+          "S2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 30,
+        "instruction": [
+          "cmovg",
+          "S3",
+          "S2"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 32,
+        "instruction": [
+          "cmovl",
+          "S1",
+          "S6"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 34,
+        "instruction": [
+          "cmovle",
+          "S6",
+          "S4"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 36,
+        "instruction": [
+          "cmovg",
+          "S4",
+          "S3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 37,
+        "instruction": [
+          "cmovle",
+          "S6",
+          "S3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 40,
+        "instruction": [
+          "cmovl",
+          "S4",
+          "S5"
+        ],
+        "kind": "lattice",
+        "witness": null
+      },
+      {
+        "code_index": 42,
+        "instruction": [
+          "cmovl",
+          "S5",
+          "S3"
+        ],
+        "kind": "lattice",
+        "witness": null
+      }
+    ]
+  },
+  "all_original_instructions_live": true,
+  "judge_records": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_original_out.s",
+      "model": "out",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_original_out.s [relaxed+strict] n=5 L=40 R=97 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 5: reads uninitialized S91; line 6: reads uninitialized S91; line 7: reads uninitialized S91; line 8: reads uninitialized S91; line 9: reads uninitialized S91; line 20: reads uninitialized S91; line 24: reads uninitialized S91; line 25: reads uninitialized S91; line 27: reads uninitialized S91; line 28: reads uninitialized S91; line 42: reads uninitialized S91; line 43: reads uninitialized S91; line 45: reads uninitialized S91\n",
+      "sha256": "9cab99845f6b195c03ef080516668e88ee4d6c56d41a97cd8d1a0c139d5a3ea2"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_original_mem.s",
+      "model": "mem",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_original_mem.s [relaxed+strict] n=5 L=50 R=16 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 10: reads uninitialized S10; line 11: reads uninitialized S10; line 12: reads uninitialized S10; line 13: reads uninitialized S10; line 14: reads uninitialized S10; line 25: reads uninitialized S10; line 29: reads uninitialized S10; line 30: reads uninitialized S10; line 32: reads uninitialized S10; line 33: reads uninitialized S10; line 47: reads uninitialized S10; line 48: reads uninitialized S10; line 50: reads uninitialized S10; line 51: reads uninitialized S10\n",
+      "sha256": "ca71dd8ffee73c052038f1a885269c79b597c1b272731c46968d27e48fd73895"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_normalized_out.s",
+      "model": "out",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_normalized_out.s [relaxed+strict] n=5 L=39 R=12 iset=I1 model=out\n",
+      "sha256": "b78cb421b36b5610f9f3a0de208c405d907172a5468732d171e41a0f2f4673bb"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_normalized_mem.s",
+      "model": "mem",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_normalized_mem.s [relaxed+strict] n=5 L=49 R=17 iset=I1 model=mem\n",
+      "sha256": "f0452e685fb7e4b61dcebdbdd476830e5086442782eaa3f484276b4a96d1816e"
+    }
+  ],
+  "source_sha256": {
+    "/path/to/repo/agents/team/codex-fleet/w12/src/check_c1_live_growth.py": "431a22a0b3037e1e804cbf58f0b8b2fb8b61470534f14c75e4da90a1b5b111ed",
+    "/path/to/repo/agents/team/codex-fleet/w12/src/normalize_c1.py": "b94e7acdb5b5993019c3a41f79664491d97fb75c2d1ef15dbde1ceda1ba4f091",
+    "/path/to/repo/agents/team/codex-fleet/w12/src/check_c1_column_growth.py": "dc40128f148f21a52a386057a729ee6dc595e53aae123b57733ca2dbea80f4f9"
+  }
+}

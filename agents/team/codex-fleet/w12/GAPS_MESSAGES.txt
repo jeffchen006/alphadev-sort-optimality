@@ -1,0 +1,11 @@
+Recipient: judge
+w12 gap statements: /path/to/repo/agents/team/codex-fleet/w12/GAPS.md
+The file has exactly two paragraphs: C1-to-C2 column bound; mixed three-column reduction.
+Each paragraph states the missing theorem and what would close the gap.
+Delivery failed: the available message tool has no live /root/judge agent.
+
+Recipient: team-lead
+w12 gap statements: /path/to/repo/agents/team/codex-fleet/w12/GAPS.md
+The file has exactly two paragraphs: C1-to-C2 column bound; mixed three-column reduction.
+Each paragraph states the missing theorem and what would close the gap.
+Delivery failed: the available message tool does not accept this external session name.

@@ -1,0 +1,31 @@
+pool 25 terms
+rules 89298
+reduced rules 248
+root: min creations 18, min cmp blocks 9
+R = 9 (auto: 5 + K - creations - blocks = 9)
+depth 1 states 35 seen 35
+depth 2 states 383 seen 418
+depth 3 states 1805 seen 2223
+depth 4 states 6392 seen 8615
+depth 5 states 17443 seen 26058
+depth 6 states 31732 seen 57790
+depth 7 states 62500 seen 120290
+depth 8 states 70492 seen 190782
+depth 9 states 66092 seen 256874
+depth 10 states 108449 seen 365323
+depth 11 states 70384 seen 435707
+depth 12 states 88156 seen 523863
+depth 13 states 96560 seen 620423
+depth 14 states 36133 seen 656556
+depth 15 states 56674 seen 713230
+depth 16 states 40526 seen 753756
+depth 17 states 15746 seen 769502
+depth 18 states 38010 seen 807512
+depth 19 states 14559 seen 822071
+depth 20 states 5892 seen 827963
+depth 21 states 10670 seen 838633
+depth 22 states 4002 seen 842635
+depth 23 states 324 seen 842959
+depth 24 states 1296 seen 844255
+depth 25 states 0 seen 844255
+NONE <= 31

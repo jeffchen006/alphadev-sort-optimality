@@ -1,0 +1,18 @@
+[
+  [
+    "suffix12_c8_r9_new",
+    1800,
+    [
+      "seeds/near31.s",
+      "candidates/suffix12_c8_new.s",
+      "--changes",
+      "0",
+      "--registers",
+      "9",
+      "--prefix",
+      "12",
+      "--maxcmp",
+      "8"
+    ]
+  ]
+]

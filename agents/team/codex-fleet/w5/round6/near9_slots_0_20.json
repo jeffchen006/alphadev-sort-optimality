@@ -1,0 +1,726 @@
+[
+  {
+    "seed": "near9",
+    "index": 0,
+    "slots": [
+      0,
+      1
+    ],
+    "status": "UNSAT",
+    "seconds": 2.0389017648994923,
+    "wall_limit": 3.0,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_1.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_1.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,1"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 20,
+      "seconds": 1.880376729182899,
+      "stats": {
+        "restarts": 280,
+        "conflicts": 20651,
+        "decisions": 36705,
+        "propagations": 10659927
+      }
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 1,
+    "slots": [
+      0,
+      2
+    ],
+    "status": "UNSAT",
+    "seconds": 1.8419982325285673,
+    "wall_limit": 3.0,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_2.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_2.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,2"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 20,
+      "seconds": 1.6404588222503662,
+      "stats": {
+        "restarts": 250,
+        "conflicts": 14886,
+        "decisions": 27937,
+        "propagations": 10702777
+      }
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 2,
+    "slots": [
+      0,
+      3
+    ],
+    "status": "UNSAT",
+    "seconds": 2.545934404246509,
+    "wall_limit": 3.0,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_3.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_3.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,3"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 20,
+      "seconds": 2.3746229745447636,
+      "stats": {
+        "restarts": 1364,
+        "conflicts": 20646,
+        "decisions": 54644,
+        "propagations": 15039392
+      }
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 3,
+    "slots": [
+      0,
+      4
+    ],
+    "status": "UNSAT",
+    "seconds": 2.597801197320223,
+    "wall_limit": 3.0,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_4.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_4.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,4"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 20,
+      "seconds": 2.4300073655322194,
+      "stats": {
+        "restarts": 1301,
+        "conflicts": 20647,
+        "decisions": 52068,
+        "propagations": 15761042
+      }
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 4,
+    "slots": [
+      0,
+      5
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.037735612131655,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_5.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_5.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,5"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 77428,
+      "seconds": 0.20459517929702997
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 5,
+    "slots": [
+      0,
+      6
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0480660796165466,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_6.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_6.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,6"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.41653517354279757
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 6,
+    "slots": [
+      0,
+      7
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.047956347465515,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_7.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_7.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,7"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.411799275316298
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 7,
+    "slots": [
+      0,
+      8
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0479594320058823,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_8.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_8.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,8"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 77428,
+      "seconds": 0.38769424334168434
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 8,
+    "slots": [
+      0,
+      9
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.087928544729948,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_9.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_9.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,9"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.39731397945433855
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 9,
+    "slots": [
+      0,
+      10
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0639127930626273,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_10.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_10.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,10"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.4183901324868202
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 10,
+    "slots": [
+      0,
+      11
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.047954559326172,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_11.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_11.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,11"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.42262124083936214
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 11,
+    "slots": [
+      0,
+      12
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0719389095902443,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_12.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_12.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,12"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 77428,
+      "seconds": 0.4040710274130106
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 12,
+    "slots": [
+      0,
+      13
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0559720657765865,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_13.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_13.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,13"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.4005275294184685
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 13,
+    "slots": [
+      0,
+      14
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0799382366240025,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_14.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_14.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,14"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 77428,
+      "seconds": 0.3935245228931308
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 14,
+    "slots": [
+      0,
+      15
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.039910551160574,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_15.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_15.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,15"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.396247461438179
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 15,
+    "slots": [
+      0,
+      16
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.037168183363974,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_16.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_16.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,16"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 77428,
+      "seconds": 0.41647713351994753
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 16,
+    "slots": [
+      0,
+      17
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0339711429551244,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_17.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_17.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,17"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.25810865964740515
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 17,
+    "slots": [
+      0,
+      18
+    ],
+    "status": "UNSAT",
+    "seconds": 2.5572258001193404,
+    "wall_limit": 3.0,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_18.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_18.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,18"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 20,
+      "seconds": 2.3631774690002203,
+      "stats": {
+        "restarts": 1360,
+        "conflicts": 24599,
+        "decisions": 52937,
+        "propagations": 13807875
+      }
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 18,
+    "slots": [
+      0,
+      19
+    ],
+    "status": "UNSAT",
+    "seconds": 2.903024668805301,
+    "wall_limit": 3.0,
+    "code": 0,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_19.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_19.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,19"
+    ],
+    "last": {
+      "status": "UNSAT",
+      "types": 20,
+      "seconds": 2.7095818370580673,
+      "stats": {
+        "restarts": 2041,
+        "conflicts": 29782,
+        "decisions": 71041,
+        "propagations": 12840501
+      }
+    }
+  },
+  {
+    "seed": "near9",
+    "index": 19,
+    "slots": [
+      0,
+      20
+    ],
+    "status": "UNKNOWN_WALL_LIMIT",
+    "seconds": 3.0370207522064447,
+    "wall_limit": 3.0,
+    "code": null,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round6/logs/near9_slots_0_20.log",
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/sat_repair.py",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/candidates/near9_slots_0_20.s",
+      "--meta",
+      "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.json",
+      "--predicates",
+      "--slots",
+      "0,20"
+    ],
+    "last": {
+      "step": "solve",
+      "iteration": 0,
+      "types": 20,
+      "clauses": 76608,
+      "seconds": 0.248202221468091
+    }
+  }
+]

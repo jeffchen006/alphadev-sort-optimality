@@ -1,0 +1,2 @@
+FAIL /path/to/repo/agents/team/codex-fleet/w3/round5/programs/live_ordered_cl21_p37_c5_i0.s [relaxed+strict] n=5 L=31 R=110 iset=I1 model=out
+  counterexample: relaxed model: order type [0, 0, 0, 0, 1] -> output [1, 5, 0, 0, 1] (T=5 means scratch value), expected [0, 0, 0, 0, 1]

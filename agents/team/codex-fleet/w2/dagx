@@ -1,0 +1,3 @@
+#!/bin/bash
+while [ ! -x ./dagx_safe ]; do sleep 1; done
+exec ./dagx_safe "$@"

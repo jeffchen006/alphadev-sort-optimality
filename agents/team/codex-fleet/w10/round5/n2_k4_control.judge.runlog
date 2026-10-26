@@ -1,0 +1,3 @@
+PASS /path/to/repo/agents/team/codex-fleet/w10/round5/n2_k4_control.s [relaxed+strict] n=2 L=4 R=3 iset=I1 model=out
+PASS /path/to/repo/agents/team/codex-fleet/w10/round5/n2_k4_control_mem.s [relaxed+strict] n=2 L=8 R=5 iset=I1 model=mem
+{"n": 2, "weak_orders": 3, "wrong_outputs": 0, "undefined_comparisons": 0, "partial_data_nodes": [], "nonlattice_full_data_nodes": [], "lattice_full_data_nodes": [0, 1, 2], "k": 4, "comparisons": 1}

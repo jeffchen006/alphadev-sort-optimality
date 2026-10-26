@@ -1,0 +1,816 @@
+{
+  "status": "UNKNOWN",
+  "seconds": 198.3687316114083,
+  "variables": 3988,
+  "clauses": 21907,
+  "attempts": 99,
+  "stats": {
+    "restarts": 1824,
+    "conflicts": 529694,
+    "decisions": 746985,
+    "propagations": 108604828
+  },
+  "args": {
+    "seconds": 180.0,
+    "registers": 4,
+    "k": 11,
+    "tag": "triple_min11_full_shapes",
+    "pairfirst": false,
+    "solver": "glucose42",
+    "shapes": true
+  },
+  "shape_results": [
+    {
+      "positions": [
+        1,
+        2
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        3
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        4
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        5
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        3
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        4
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        5
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        4
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        5
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        5
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        7,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        7,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        7,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        8,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        8,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        9,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        1,
+        2
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        3
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        4
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        5
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        3
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        4
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        5
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        4
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        5
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        3,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        5
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        7,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        7,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        1,
+        2
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        3
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        4
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        5
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        6
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        7
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        8
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        9
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        1,
+        10
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        3
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        4
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        5
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        6
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        2,
+        7
+      ],
+      "budget": 20000,
+      "status": "UNKNOWN"
+    }
+  ]
+}

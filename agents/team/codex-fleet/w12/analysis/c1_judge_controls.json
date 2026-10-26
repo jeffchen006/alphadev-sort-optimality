@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_original_out.s",
+      "model": "out",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_original_out.s [relaxed+strict] n=2 L=9 R=5 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 2: reads uninitialized S0; line 3: reads uninitialized S0; line 4: consecutive cmp; line 5: reads uninitialized S0\n",
+      "sha256": "547430c9dc058d2d51be256bfc7353809c340b524fec8854a18ef8edc8f094a7"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_original_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_original_mem.s [relaxed+strict] n=2 L=13 R=7 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 4: reads uninitialized S2; line 5: reads uninitialized S2; line 6: consecutive cmp; line 7: reads uninitialized S2\n",
+      "sha256": "0ff7a825ebd3fd8d87094d809fad07047374daaa34065553d2b5b5d3ddc27c24"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_normalized_out.s",
+      "model": "out",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_normalized_out.s [relaxed+strict] n=2 L=9 R=5 iset=I1 model=out\n",
+      "sha256": "28bdbb970b8f7d33ce49d6adcff0512ef3906071e576275ff0228057d6f4298a"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_normalized_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_root_live_sort2_normalized_mem.s [relaxed+strict] n=2 L=13 R=7 iset=I1 model=mem\n",
+      "sha256": "52447842539d1438bfc1153119c1e87188340451b4a04588fe0fa18fc64ca47a"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_original_out.s",
+      "model": "out",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_original_out.s [relaxed+strict] n=5 L=33 R=105 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 2: reads uninitialized S99; line 3: consecutive cmp; line 4: reads uninitialized S1; line 6: reads uninitialized S1; line 8: reads uninitialized S1; line 12: reads uninitialized S1; line 14: reads uninitialized S1; line 15: reads uninitialized S1; line 16: reads uninitialized S1\n",
+      "sha256": "2c382e2de738d02720945427feba25128ae26d7ee131263496def943352425ac"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_original_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_original_mem.s [relaxed+strict] n=5 L=43 R=15 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 7: reads uninitialized S9; line 8: consecutive cmp; line 9: reads uninitialized S6; line 11: reads uninitialized S6; line 13: reads uninitialized S6; line 17: reads uninitialized S6; line 19: reads uninitialized S6; line 20: reads uninitialized S6; line 21: reads uninitialized S6\n",
+      "sha256": "97b4eaf7b1c82f364fb2a22318d06734795962eddcbeb0c23759cb84ab33ca73"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_normalized_out.s",
+      "model": "out",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_normalized_out.s [relaxed+strict] n=5 L=33 R=10 iset=I1 model=out\n",
+      "sha256": "23cf60085c8f68e1b330ea1635aa3381e1f6606702875ba8fc9fe5fc96ab6efc"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_normalized_mem.s",
+      "model": "mem",
+      "returncode": 0,
+      "judge_output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_gcmp_sort5_control_normalized_mem.s [relaxed+strict] n=5 L=43 R=15 iset=I1 model=mem\n",
+      "sha256": "1852339a5b1eadc7cb7e8864bc47e1dded5a1b2e696f4daa3a84d0af6c5ec2eb"
+    }
+  ],
+  "seed_path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_original.s",
+  "seed_sha256": "c43fe015549272193b6aa1dead74a612da310cb38cdac875ce18089b762d8cf9"
+}

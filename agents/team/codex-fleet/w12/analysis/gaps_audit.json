@@ -1,0 +1,22 @@
+{
+  "gap_paragraphs": 2,
+  "messages_delivered": 0,
+  "delivery_failure_record": "GAPS_MESSAGES.txt",
+  "column_growth_controls_decided": 2,
+  "remaining": 0,
+  "unknown": 0,
+  "new_strict_pass_files": [
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_original_out.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_original_mem.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_normalized_out.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_normalized_mem.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_original_out.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_original_mem.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_normalized_out.s",
+    "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_live_growth_normalized_mem.s"
+  ],
+  "source_hashes_checked": true,
+  "program_hashes_checked": true,
+  "scope_gaps": "both open",
+  "k31_solution": false
+}

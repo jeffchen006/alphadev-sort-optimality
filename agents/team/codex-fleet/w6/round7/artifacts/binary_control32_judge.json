@@ -1,0 +1,15 @@
+{
+  "source": "round7/candidates/binary_control32.s",
+  "k": 32,
+  "sha256": "66450031f61ce5427facb5a405c1e13ac509459dc8f25d56c60adcd9778021ff",
+  "out": {
+    "pass": true,
+    "file": "round7/candidates/binary_control32.s",
+    "log": "round7/logs/binary_control32_out_judge.log"
+  },
+  "mem": {
+    "pass": true,
+    "file": "round7/verified_mem/binary_control32.s",
+    "log": "round7/logs/binary_control32_mem_judge.log"
+  }
+}

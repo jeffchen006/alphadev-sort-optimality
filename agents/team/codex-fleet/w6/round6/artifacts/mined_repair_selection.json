@@ -1,0 +1,29 @@
+[
+  {
+    "source": "round6/candidates/mem_b5_c9t0.5_near_31.s",
+    "file": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "k": 31,
+    "failed_orders": 9,
+    "error": 9,
+    "signature": "023a1c104c44cca93edef886",
+    "old_signature": false
+  },
+  {
+    "source": "round6/candidates/mem_b5_c9t0.5_near_27.s",
+    "file": "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+    "k": 31,
+    "failed_orders": 9,
+    "error": 9,
+    "signature": "0e1cca4cfd500280c3abfcb0",
+    "old_signature": false
+  },
+  {
+    "source": "round6/candidates/mem_a4_c8t1.2_near_699.s",
+    "file": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+    "k": 31,
+    "failed_orders": 9,
+    "error": 9,
+    "signature": "1c7d237840ceda999c64ed79",
+    "old_signature": false
+  }
+]

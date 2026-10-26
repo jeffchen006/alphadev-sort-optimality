@@ -1,0 +1,29 @@
+{
+  "status": "UNKNOWN",
+  "cases": 20,
+  "cpu": 180.105700966,
+  "rounds": 0,
+  "args": {
+    "k": 20,
+    "regs": 8,
+    "cmps": 5,
+    "cpu": 180.0,
+    "conflicts": 2000,
+    "batch": 8,
+    "solver": "cadical195",
+    "stem": "triple20_c5",
+    "creation_outputs": true,
+    "fixed": "binary",
+    "prefix": "triple",
+    "predicate_order": "0,2,1,3"
+  },
+  "total_cpu": 180.11519089,
+  "vars": 30935,
+  "clauses": 241500,
+  "stats": {
+    "restarts": 44289,
+    "conflicts": 1056598,
+    "decisions": 4561489,
+    "propagations": 724055270
+  }
+}

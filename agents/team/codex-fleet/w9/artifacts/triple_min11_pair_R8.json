@@ -1,0 +1,360 @@
+{
+  "status": "UNSAT",
+  "seconds": 28.576608552597463,
+  "variables": 4387,
+  "clauses": 25356,
+  "attempts": 42,
+  "stats": {
+    "restarts": 346,
+    "conflicts": 83878,
+    "decisions": 147428,
+    "propagations": 23639679
+  },
+  "args": {
+    "seconds": 120.0,
+    "registers": 8,
+    "k": 11,
+    "tag": "triple_min11_pair_R8",
+    "pairfirst": true,
+    "solver": "glucose42",
+    "shapes": true
+  },
+  "shape_results": [
+    {
+      "positions": [
+        4,
+        5
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        6
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        7
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        6,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        7,
+        8
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        7,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        7,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        8,
+        9
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        8,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        9,
+        10
+      ],
+      "budget": 1000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        5
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        4,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNKNOWN"
+    },
+    {
+      "positions": [
+        5,
+        6
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        5,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        7
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        8
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        9
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        6,
+        10
+      ],
+      "budget": 5000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        5
+      ],
+      "budget": 20000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        6
+      ],
+      "budget": 20000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        7
+      ],
+      "budget": 20000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        8
+      ],
+      "budget": 20000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        9
+      ],
+      "budget": 20000,
+      "status": "UNSAT"
+    },
+    {
+      "positions": [
+        4,
+        10
+      ],
+      "budget": 20000,
+      "status": "UNSAT"
+    }
+  ]
+}

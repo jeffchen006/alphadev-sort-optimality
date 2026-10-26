@@ -1,0 +1,2 @@
+PASS /path/to/repo/agents/team/codex-fleet/w4/round6/extra/preflight_verified/partial_data36_mem.s [relaxed+strict] n=5 L=46 R=15 iset=I1 model=mem
+  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 9: reads uninitialized S6; line 9: reads uninitialized S5; line 10: reads uninitialized S6

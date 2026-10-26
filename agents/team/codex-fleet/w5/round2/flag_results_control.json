@@ -1,0 +1,154 @@
+[
+  {
+    "name": "00_flag_control",
+    "code": 0,
+    "seconds": 0.018470910377800465,
+    "tail": [
+      "DONE mode=control trials=11 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "01_flag_control",
+    "code": 0,
+    "seconds": 0.005814067088067532,
+    "tail": [
+      "DONE mode=control trials=1 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "02_flag_control",
+    "code": 0,
+    "seconds": 0.004561076872050762,
+    "tail": [
+      "DONE mode=control trials=1 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "03_flag_control",
+    "code": 0,
+    "seconds": 0.007650695741176605,
+    "tail": [
+      "DONE mode=control trials=42 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "04_flag_control",
+    "code": 0,
+    "seconds": 0.047688775695860386,
+    "tail": [
+      "DONE mode=control trials=11 filters=1 full=3 found=1 seconds=0.018"
+    ]
+  },
+  {
+    "name": "05_flag_control",
+    "code": 0,
+    "seconds": 0.025134616531431675,
+    "tail": [
+      "DONE mode=control trials=11 filters=1 full=3 found=1 seconds=0.020"
+    ]
+  },
+  {
+    "name": "06_flag_control",
+    "code": 0,
+    "seconds": 0.004927806556224823,
+    "tail": [
+      "DONE mode=control trials=3 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "07_flag_control",
+    "code": 0,
+    "seconds": 0.004800418391823769,
+    "tail": [
+      "DONE mode=control trials=1 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "08_flag_control",
+    "code": 0,
+    "seconds": 0.004807927645742893,
+    "tail": [
+      "DONE mode=control trials=11 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "09_flag_control",
+    "code": 0,
+    "seconds": 0.014980542473495007,
+    "tail": [
+      "DONE mode=control trials=1 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "10_flag_control",
+    "code": 0,
+    "seconds": 0.005380917340517044,
+    "tail": [
+      "DONE mode=control trials=11 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "11_flag_control",
+    "code": 0,
+    "seconds": 0.004687187261879444,
+    "tail": [
+      "DONE mode=control trials=43 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "12_flag_control",
+    "code": 0,
+    "seconds": 0.022812449373304844,
+    "tail": [
+      "DONE mode=control trials=39 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "13_flag_control",
+    "code": 0,
+    "seconds": 0.04176645819097757,
+    "tail": [
+      "DONE mode=control trials=1 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "14_flag_control",
+    "code": 0,
+    "seconds": 0.0047523872926831245,
+    "tail": [
+      "DONE mode=control trials=11 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "15_flag_control",
+    "code": 0,
+    "seconds": 0.004714198410511017,
+    "tail": [
+      "DONE mode=control trials=9 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  },
+  {
+    "name": "16_flag_control",
+    "code": 0,
+    "seconds": 0.011841172352433205,
+    "tail": [
+      "DONE mode=control trials=3 filters=1 full=3 found=1 seconds=0.001"
+    ]
+  },
+  {
+    "name": "17_flag_control",
+    "code": 0,
+    "seconds": 0.033646793104708195,
+    "tail": [
+      "DONE mode=control trials=3 filters=1 full=3 found=1 seconds=0.024"
+    ]
+  },
+  {
+    "name": "18_flag_control",
+    "code": 0,
+    "seconds": 0.03033270500600338,
+    "tail": [
+      "DONE mode=control trials=1 filters=1 full=3 found=1 seconds=0.000"
+    ]
+  }
+]

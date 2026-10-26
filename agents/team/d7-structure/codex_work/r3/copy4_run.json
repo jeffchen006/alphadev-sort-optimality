@@ -1,0 +1,13 @@
+{
+  "pool": "codex_work/r3/pool_41_copy4.txt",
+  "solver": "bfs_copy4",
+  "K": 32,
+  "mov_limit": 4,
+  "cmp_limit": 10,
+  "novel_cmov_only": true,
+  "seconds": 25.22456844896078,
+  "returncode": 0,
+  "log": "codex_work/r3/log_41_copy4_k32.txt",
+  "R": 10,
+  "result": "NONE <= 32"
+}

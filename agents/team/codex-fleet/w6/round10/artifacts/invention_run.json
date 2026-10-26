@@ -1,0 +1,16 @@
+{
+  "command": [
+    "round10/bin/collect_macros",
+    "round10/invented",
+    "120",
+    "2610731",
+    "0.35",
+    "round10/artifacts/macro_seed.csv"
+  ],
+  "exit_code": 0,
+  "cpu_seconds": 0.039944999999999994,
+  "wall_seconds": 0.04862555954605341,
+  "max_rss_kib": 27432,
+  "binary_sha256": "5017018cf19cc67035a8c4013861f082d812f83b202df1a329166cbecb42befb",
+  "seed_sha256": "82da769846328ef17b32737152e317404b61900279cb65f897c3c08956f58ac7"
+}

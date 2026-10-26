@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_freeblocks.json",
+  "cnf_sha256": "5189f8351a69bcaec165e6817ae46e290c01faf59ccb93c2a2cf1ec95413c93f",
+  "proof_sha256": "9223fbbe8f663caad9f0d8100631306e3e7eb0c03ecb3a2ebd7d306457306e16",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 74.02324135135859
+}

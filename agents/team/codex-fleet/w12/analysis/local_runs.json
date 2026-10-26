@@ -1,0 +1,476 @@
+[
+  {
+    "index": 0,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_2_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.2364034652709961
+  },
+  {
+    "index": 1,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_3_normalized.s",
+    "returncode": 0,
+    "seconds": 0.9830429553985596
+  },
+  {
+    "index": 2,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_2_normalized.s",
+    "returncode": 0,
+    "seconds": 0.9869711399078369
+  },
+  {
+    "index": 3,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_3_2.s",
+    "returncode": 0,
+    "seconds": 0.2920522689819336
+  },
+  {
+    "index": 4,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_2_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.21091437339782715
+  },
+  {
+    "index": 5,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_2_1.s",
+    "returncode": 0,
+    "seconds": 0.2799355983734131
+  },
+  {
+    "index": 6,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_normalized.s",
+    "returncode": 0,
+    "seconds": 0.9080226421356201
+  },
+  {
+    "index": 7,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave1_5_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.08395695686340332
+  },
+  {
+    "index": 8,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_1_normalized.s",
+    "returncode": 0,
+    "seconds": 0.6480662822723389
+  },
+  {
+    "index": 9,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_2_original.s",
+    "returncode": 0,
+    "seconds": 0.2662036418914795
+  },
+  {
+    "index": 10,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_2_0.s",
+    "returncode": 0,
+    "seconds": 0.18795490264892578
+  },
+  {
+    "index": 11,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_3_3.s",
+    "returncode": 0,
+    "seconds": 0.268357515335083
+  },
+  {
+    "index": 12,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_2_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.09336495399475098
+  },
+  {
+    "index": 13,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.1730339527130127
+  },
+  {
+    "index": 14,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/smoke_len32_b31726.s",
+    "returncode": 0,
+    "seconds": 0.2558863162994385
+  },
+  {
+    "index": 15,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_4_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.207594633102417
+  },
+  {
+    "index": 16,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_0_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.10100936889648438
+  },
+  {
+    "index": 17,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_2_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.1919717788696289
+  },
+  {
+    "index": 18,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_2_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.2901785373687744
+  },
+  {
+    "index": 19,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave1_1_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.22927069664001465
+  },
+  {
+    "index": 20,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_0_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.168687105178833
+  },
+  {
+    "index": 21,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.17192673683166504
+  },
+  {
+    "index": 22,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_3_1.s",
+    "returncode": 0,
+    "seconds": 0.1819906234741211
+  },
+  {
+    "index": 23,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_5_len32_7b005e.s",
+    "returncode": 0,
+    "seconds": 0.27361583709716797
+  },
+  {
+    "index": 24,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_2_2.s",
+    "returncode": 0,
+    "seconds": 0.1806812286376953
+  },
+  {
+    "index": 25,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_eliminated.s",
+    "returncode": 0,
+    "seconds": 0.4401538372039795
+  },
+  {
+    "index": 26,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_0_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.2555253505706787
+  },
+  {
+    "index": 27,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_original.s",
+    "returncode": 0,
+    "seconds": 0.20197772979736328
+  },
+  {
+    "index": 28,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_2_3.s",
+    "returncode": 0,
+    "seconds": 0.20307588577270508
+  },
+  {
+    "index": 29,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave1_3_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.09274935722351074
+  },
+  {
+    "index": 30,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_4.s",
+    "returncode": 0,
+    "seconds": 0.10636067390441895
+  },
+  {
+    "index": 31,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_1_eliminated.s",
+    "returncode": 0,
+    "seconds": 0.42371225357055664
+  },
+  {
+    "index": 32,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_2_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.11983585357666016
+  },
+  {
+    "index": 33,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_3_0.s",
+    "returncode": 0,
+    "seconds": 0.21879100799560547
+  },
+  {
+    "index": 34,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_3_eliminated.s",
+    "returncode": 0,
+    "seconds": 0.4488332271575928
+  },
+  {
+    "index": 35,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.17928171157836914
+  },
+  {
+    "index": 36,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_2_eliminated.s",
+    "returncode": 0,
+    "seconds": 0.40702295303344727
+  },
+  {
+    "index": 37,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_0_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.09913349151611328
+  },
+  {
+    "index": 38,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_2_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.2084050178527832
+  },
+  {
+    "index": 39,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_4_len32_4c79eb.s",
+    "returncode": 0,
+    "seconds": 0.22629547119140625
+  },
+  {
+    "index": 40,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_1_original.s",
+    "returncode": 0,
+    "seconds": 0.22556662559509277
+  },
+  {
+    "index": 41,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_1_3.s",
+    "returncode": 0,
+    "seconds": 0.27929162979125977
+  },
+  {
+    "index": 42,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_3_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.1307392120361328
+  },
+  {
+    "index": 43,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0.s",
+    "returncode": 0,
+    "seconds": 0.2648797035217285
+  },
+  {
+    "index": 44,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_0_0.s",
+    "returncode": 0,
+    "seconds": 0.17081880569458008
+  },
+  {
+    "index": 45,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_1_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.1455678939819336
+  },
+  {
+    "index": 46,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave1_0_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.14798808097839355
+  },
+  {
+    "index": 47,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0_movified.s",
+    "returncode": 0,
+    "seconds": 0.5018939971923828
+  },
+  {
+    "index": 48,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_1_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.18057537078857422
+  },
+  {
+    "index": 49,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_3_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.20592212677001953
+  },
+  {
+    "index": 50,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_4_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.10741090774536133
+  },
+  {
+    "index": 51,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_1_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.1999199390411377
+  },
+  {
+    "index": 52,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_1_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.12452387809753418
+  },
+  {
+    "index": 53,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_0_1.s",
+    "returncode": 0,
+    "seconds": 0.26394033432006836
+  },
+  {
+    "index": 54,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_1.s",
+    "returncode": 0,
+    "seconds": 0.24898242950439453
+  },
+  {
+    "index": 55,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/smoke_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.19603395462036133
+  },
+  {
+    "index": 56,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/nonlat_full_normalized.s",
+    "returncode": 0,
+    "seconds": 0.552009105682373
+  },
+  {
+    "index": 57,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_2.s",
+    "returncode": 0,
+    "seconds": 0.11992478370666504
+  },
+  {
+    "index": 58,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave1_2_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.172011137008667
+  },
+  {
+    "index": 59,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_1_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.24901819229125977
+  },
+  {
+    "index": 60,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_1_2.s",
+    "returncode": 0,
+    "seconds": 0.1902906894683838
+  },
+  {
+    "index": 61,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_1_0.s",
+    "returncode": 0,
+    "seconds": 0.22812175750732422
+  },
+  {
+    "index": 62,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave1_4_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.19601750373840332
+  },
+  {
+    "index": 63,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_0.s",
+    "returncode": 0,
+    "seconds": 0.11812949180603027
+  },
+  {
+    "index": 64,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_3_original.s",
+    "returncode": 0,
+    "seconds": 0.21194076538085938
+  },
+  {
+    "index": 65,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_3_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.10566854476928711
+  },
+  {
+    "index": 66,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_3.s",
+    "returncode": 0,
+    "seconds": 0.11200523376464844
+  },
+  {
+    "index": 67,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_0_3.s",
+    "returncode": 0,
+    "seconds": 0.2479109764099121
+  },
+  {
+    "index": 68,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_1_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.09190821647644043
+  },
+  {
+    "index": 69,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_1_delete_2.s",
+    "returncode": 0,
+    "seconds": 0.20207810401916504
+  },
+  {
+    "index": 70,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_4_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.10883903503417969
+  },
+  {
+    "index": 71,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_4_delete_1.s",
+    "returncode": 0,
+    "seconds": 0.12247896194458008
+  },
+  {
+    "index": 72,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/wave0_5_bestwrong.s",
+    "returncode": 0,
+    "seconds": 0.14774155616760254
+  },
+  {
+    "index": 73,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_0_2.s",
+    "returncode": 0,
+    "seconds": 0.20312190055847168
+  },
+  {
+    "index": 74,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_2.s",
+    "returncode": 0,
+    "seconds": 0.21862006187438965
+  },
+  {
+    "index": 75,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_3_delete_0.s",
+    "returncode": 0,
+    "seconds": 0.11798405647277832
+  },
+  {
+    "index": 76,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_1_1.s",
+    "returncode": 0,
+    "seconds": 0.10118484497070312
+  },
+  {
+    "index": 77,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/delete_1_1.s",
+    "returncode": 0,
+    "seconds": 0.18645668029785156
+  },
+  {
+    "index": 78,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/nonlat_full_original.s",
+    "returncode": 0,
+    "seconds": 0.11454558372497559
+  }
+]

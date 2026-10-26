@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/triple_free.py",
+    "--registers",
+    "6"
+  ],
+  "wall_limit": 180.0,
+  "exit": 124,
+  "seconds": 180.01059253327549,
+  "log": "round3/logs/triple_free_R6.log"
+}

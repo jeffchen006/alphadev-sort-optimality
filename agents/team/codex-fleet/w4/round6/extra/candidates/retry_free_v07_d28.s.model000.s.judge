@@ -1,0 +1,2 @@
+FAIL /path/to/repo/agents/team/codex-fleet/w4/round6/extra/candidates/retry_free_v07_d28.s.model000.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out
+  counterexample: relaxed model: order type [0, 0, 0, 2, 1] -> output [0, 0, 1, 1, 2] (T=5 means scratch value), expected [0, 0, 0, 1, 2]

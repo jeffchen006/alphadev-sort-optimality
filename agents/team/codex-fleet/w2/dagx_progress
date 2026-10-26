@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ -e .pause_recompute9 ]; then
+  echo 'ROUTER_PAUSE between_cases; no_search_running'
+fi
+while [ -e .pause_recompute9 ]; do sleep 1; done
+ROOTORDER=1 exec ./dagx_order "$@"

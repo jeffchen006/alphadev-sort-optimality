@@ -1,0 +1,257 @@
+[
+  {
+    "stem": "reuse_resolve_0_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "0",
+      "1",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_0_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_1_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "1",
+      "2",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_1_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_23_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "23",
+      "24",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_23_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_33_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "33",
+      "34",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_33_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_34_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "34",
+      "35",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_34_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_35_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "35",
+      "36",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_35_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_46_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "46",
+      "47",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_46_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_103_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "103",
+      "104",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_103_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_106_3",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "106",
+      "107",
+      "3",
+      "4",
+      "30",
+      "round4/reuse_resolve_106_3",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_106_7",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "106",
+      "107",
+      "7",
+      "8",
+      "30",
+      "round4/reuse_resolve_106_7",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_106_11",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "106",
+      "107",
+      "11",
+      "12",
+      "30",
+      "round4/reuse_resolve_106_11",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_106_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "106",
+      "107",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_106_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_107_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "107",
+      "108",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_107_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_119_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "119",
+      "120",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_119_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "stem": "reuse_resolve_143_15",
+    "args": [
+      "./round4/reuse",
+      "round4/problems.txt",
+      "143",
+      "144",
+      "15",
+      "16",
+      "30",
+      "round4/reuse_resolve_143_15",
+      "31",
+      "1",
+      "1",
+      "1"
+    ]
+  }
+]

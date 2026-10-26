@@ -1,0 +1,128 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/satrep.py",
+      "round3/candidates/n14_neighbour1.s",
+      "round3/candidates/neighbour1_rank6.s",
+      "--rank",
+      "--typed",
+      "--fixed-dest",
+      "--changes",
+      "6",
+      "--change-cmp",
+      "--random-seed",
+      "8401"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.01383325923234,
+    "log": "round3/logs/neighbour1_rank6.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/satrep.py",
+      "round3/candidates/n14_neighbour2.s",
+      "round3/candidates/neighbour2_rank6.s",
+      "--rank",
+      "--typed",
+      "--fixed-dest",
+      "--changes",
+      "6",
+      "--change-cmp",
+      "--random-seed",
+      "8402"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.02704701013863,
+    "log": "round3/logs/neighbour2_rank6.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/satrep.py",
+      "round3/candidates/n14_neighbour3.s",
+      "round3/candidates/neighbour3_rank6.s",
+      "--rank",
+      "--typed",
+      "--fixed-dest",
+      "--changes",
+      "6",
+      "--change-cmp",
+      "--random-seed",
+      "8403"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.02644539810717,
+    "log": "round3/logs/neighbour3_rank6.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/satrep.py",
+      "round3/candidates/n14_neighbour4.s",
+      "round3/candidates/neighbour4_rank6.s",
+      "--rank",
+      "--typed",
+      "--fixed-dest",
+      "--changes",
+      "6",
+      "--change-cmp",
+      "--random-seed",
+      "8404"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.01244267076254,
+    "log": "round3/logs/neighbour4_rank6.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/satrep.py",
+      "round3/candidates/n14_neighbour5.s",
+      "round3/candidates/neighbour5_rank6.s",
+      "--rank",
+      "--typed",
+      "--fixed-dest",
+      "--changes",
+      "6",
+      "--change-cmp",
+      "--random-seed",
+      "8405"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.02409642934799,
+    "log": "round3/logs/neighbour5_rank6.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "round3/src/satrep.py",
+      "round3/candidates/n14_neighbour6.s",
+      "round3/candidates/neighbour6_rank6.s",
+      "--rank",
+      "--typed",
+      "--fixed-dest",
+      "--changes",
+      "6",
+      "--change-cmp",
+      "--random-seed",
+      "8406"
+    ],
+    "wall_limit": 90.0,
+    "exit": 124,
+    "seconds": 90.01264603063464,
+    "log": "round3/logs/neighbour6_rank6.log"
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "status": "UNSAT",
+    "cpu": 4.985589396,
+    "cases": 28,
+    "rounds": 2,
+    "base": 0,
+    "editable": [
+      15,
+      16,
+      18,
+      22,
+      28,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18367,
+    "clauses": 169838,
+    "stats": {
+      "restarts": 1421,
+      "conflicts": 30256,
+      "decisions": 86590,
+      "propagations": 37551256
+    },
+    "total_cpu": 4.986951418
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 6.502126527000001,
+    "cases": 44,
+    "rounds": 4,
+    "base": 1,
+    "editable": [
+      15,
+      16,
+      18,
+      22,
+      28,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 28607,
+    "clauses": 266558,
+    "stats": {
+      "restarts": 1546,
+      "conflicts": 30090,
+      "decisions": 80667,
+      "propagations": 47639718
+    },
+    "total_cpu": 6.503372038
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 1.6651234240000008,
+    "cases": 28,
+    "rounds": 2,
+    "base": 2,
+    "editable": [
+      19,
+      21,
+      22,
+      25,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18563,
+    "clauses": 170874,
+    "stats": {
+      "restarts": 372,
+      "conflicts": 8181,
+      "decisions": 21538,
+      "propagations": 12183203
+    },
+    "total_cpu": 1.6663892839999992
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 4.20273325,
+    "cases": 28,
+    "rounds": 2,
+    "base": 3,
+    "editable": [
+      19,
+      21,
+      22,
+      24,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18563,
+    "clauses": 171014,
+    "stats": {
+      "restarts": 1077,
+      "conflicts": 26631,
+      "decisions": 73046,
+      "propagations": 27549525
+    },
+    "total_cpu": 4.203982561000002
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 5.494906779000001,
+    "cases": 28,
+    "rounds": 2,
+    "base": 4,
+    "editable": [
+      14,
+      16,
+      18,
+      21,
+      27,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18367,
+    "clauses": 169726,
+    "stats": {
+      "restarts": 1127,
+      "conflicts": 22502,
+      "decisions": 63758,
+      "propagations": 37965815
+    },
+    "total_cpu": 5.496493788999999
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 15.277323083000002,
+    "cases": 44,
+    "rounds": 4,
+    "base": 5,
+    "editable": [
+      15,
+      17,
+      19,
+      21,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 30764,
+    "clauses": 286554,
+    "stats": {
+      "restarts": 2308,
+      "conflicts": 51258,
+      "decisions": 145505,
+      "propagations": 95054057
+    },
+    "total_cpu": 15.279123512999998
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 10.786261982,
+    "cases": 36,
+    "rounds": 3,
+    "base": 6,
+    "editable": [
+      15,
+      17,
+      19,
+      22,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 25260,
+    "clauses": 234542,
+    "stats": {
+      "restarts": 1616,
+      "conflicts": 38994,
+      "decisions": 105959,
+      "propagations": 67213653
+    },
+    "total_cpu": 10.788090722999996
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 6.8478582119999984,
+    "cases": 36,
+    "rounds": 3,
+    "base": 7,
+    "editable": [
+      15,
+      17,
+      19,
+      22,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 23487,
+    "clauses": 218126,
+    "stats": {
+      "restarts": 1379,
+      "conflicts": 28540,
+      "decisions": 83325,
+      "propagations": 42802650
+    },
+    "total_cpu": 6.849471032999993
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 8.863803652000001,
+    "cases": 36,
+    "rounds": 3,
+    "base": 8,
+    "editable": [
+      19,
+      21,
+      22,
+      24,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 23739,
+    "clauses": 219674,
+    "stats": {
+      "restarts": 1551,
+      "conflicts": 39005,
+      "decisions": 111543,
+      "propagations": 57732625
+    },
+    "total_cpu": 8.865425613000006
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 10.022334702999999,
+    "cases": 36,
+    "rounds": 3,
+    "base": 9,
+    "editable": [
+      15,
+      17,
+      19,
+      22,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 25260,
+    "clauses": 234542,
+    "stats": {
+      "restarts": 2201,
+      "conflicts": 42885,
+      "decisions": 134423,
+      "propagations": 74046961
+    },
+    "total_cpu": 10.023747833000002
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 7.433728774000002,
+    "cases": 28,
+    "rounds": 2,
+    "base": 10,
+    "editable": [
+      15,
+      16,
+      19,
+      21,
+      28,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18171,
+    "clauses": 168662,
+    "stats": {
+      "restarts": 1813,
+      "conflicts": 39274,
+      "decisions": 119301,
+      "propagations": 55031056
+    },
+    "total_cpu": 7.434974984999997
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 6.880869572999998,
+    "cases": 28,
+    "rounds": 2,
+    "base": 11,
+    "editable": [
+      19,
+      21,
+      22,
+      25,
+      27,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18171,
+    "clauses": 168662,
+    "stats": {
+      "restarts": 1402,
+      "conflicts": 40188,
+      "decisions": 104850,
+      "propagations": 54978097
+    },
+    "total_cpu": 6.8821253139999925
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 8.73303726399999,
+    "cases": 36,
+    "rounds": 3,
+    "base": 12,
+    "editable": [
+      15,
+      16,
+      18,
+      21,
+      27,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 23487,
+    "clauses": 218090,
+    "stats": {
+      "restarts": 1504,
+      "conflicts": 37999,
+      "decisions": 106252,
+      "propagations": 70044954
+    },
+    "total_cpu": 8.734273063999993
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 4.5548643620000036,
+    "cases": 28,
+    "rounds": 2,
+    "base": 13,
+    "editable": [
+      14,
+      15,
+      18,
+      21,
+      27,
+      31
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 19756,
+    "clauses": 182602,
+    "stats": {
+      "restarts": 1125,
+      "conflicts": 20047,
+      "decisions": 70570,
+      "propagations": 37437160
+    },
+    "total_cpu": 4.5562477419999965
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 2.1269760760000054,
+    "cases": 28,
+    "rounds": 2,
+    "base": 14,
+    "editable": [
+      15,
+      16,
+      19,
+      22,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 18759,
+    "clauses": 172162,
+    "stats": {
+      "restarts": 747,
+      "conflicts": 11509,
+      "decisions": 49655,
+      "propagations": 15545190
+    },
+    "total_cpu": 2.1282062159999953
+  },
+  {
+    "status": "UNSAT",
+    "cpu": 1.6714938949999976,
+    "cases": 31,
+    "rounds": 2,
+    "base": 15,
+    "editable": [
+      21,
+      23,
+      24,
+      26,
+      28,
+      30
+    ],
+    "args": {
+      "mode": "tail",
+      "tail": 6,
+      "cpu": 45.0,
+      "extra": 2,
+      "start": 0,
+      "end": 16
+    },
+    "vars": 21975,
+    "clauses": 201132,
+    "stats": {
+      "restarts": 267,
+      "conflicts": 7486,
+      "decisions": 23998,
+      "propagations": 11373703
+    },
+    "total_cpu": 1.6728656949999987
+  }
+]

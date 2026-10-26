@@ -1,0 +1,122 @@
+[
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n2_k3_lattice.json",
+    "cnf_sha256": "7c8a81c7e9be27d16e075dfe79954fe1d80ebe91081107bf1d8ca79b9d894212",
+    "proof_sha256": "cbe0a5b6a161939ec5644b9edabb180495468822c4f85a4a11d7f6a78f89598a",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 0.13502245862036943
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n2_k3_partial.json",
+    "cnf_sha256": "c18895a7c2777e0656c3ea4915ca2195ab49c0ee095109521e77c14eb6d997e6",
+    "proof_sha256": "e0bdc139c7b376a0926d35e24b0e3fa0aeb67383ab15d3c48dd649efb34648c9",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 0.14006627537310123
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n3_k10_lattice.json",
+    "cnf_sha256": "14cf5a58f30952cfcb72c5330c38f06d871a01c665ff5e780ef9a47a3b03e714",
+    "proof_sha256": "ae7453e2128e0ed1894ad16ef9b8e004ea86bd63beed6df9f08a858fc973250b",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 6.345429005101323
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n3_k10_partial.json",
+    "cnf_sha256": "2a622a02733d6242c5cf3cd63cabc8e213875731eb3c4fe0e1ba36cf83e039c0",
+    "proof_sha256": "7a8ea20994303ab1d7ce78c07b682d82b3deaa107b3eb09bd022c3e961948896",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 90.16181190218776
+  },
+  {
+    "file": "round2/n4_k19_any_freeblocks.json",
+    "cnf_sha256": "f89c1d402c6ce7eccf38492af207220aaa0e7c00eda98a205c2c8c12c1947f39",
+    "proof_sha256": "1943080e5d7dc81a09973c976948109cd1ec72e60bddc5419b89c17722de048d",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 105.98351952526718
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_lattice_b33332.json",
+    "cnf_sha256": "9672513712a6c3434c5a84989d4a96987b8e3a03a53533b51d4ffb60e9132fc1",
+    "proof_sha256": "5f00124a004b881c647caeb7d9995977e72dde502ac355c92e573a7a17bc95a0",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 6.182568191550672
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_lattice_freeblocks.json",
+    "cnf_sha256": "07c8e7565cdaa526f910be05f171504bf30547e47b16e28bf3131910b4e1cb40",
+    "proof_sha256": "92c36df3c3e6886ab23066348d32894d9ccf828618c66a7909938f993e21eb30",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 21.97256168536842
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_b33332.json",
+    "cnf_sha256": "8c56eaa3ebc3995d341f823f59a1f21131da82ae2d13a8b7a8d6ca728734b061",
+    "proof_sha256": "11f7efbe06d88407722f15e35ea08563fbb00a15a78c91a7deaf89eedc512ea7",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 10.095284827053547
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_b33332_noprune.json",
+    "cnf_sha256": "ed1f7ede713aee10456dbd603716ccd0b5776b365797f589acf66e6e7a0147ac",
+    "proof_sha256": "bf6b56d3151c8c0c6a283ca8f9164fb575053e17834655ace0da63adabd8182b",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 8.732899942435324
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_freeblocks.json",
+    "cnf_sha256": "5189f8351a69bcaec165e6817ae46e290c01faf59ccb93c2a2cf1ec95413c93f",
+    "proof_sha256": "9223fbbe8f663caad9f0d8100631306e3e7eb0c03ecb3a2ebd7d306457306e16",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 74.02324135135859
+  },
+  {
+    "file": "round2/n4_k19_partial_freeblocks_noprune.json",
+    "cnf_sha256": "4680e25c1ca7da9a01f9475d1f28278607f653d75e7dbea3f888038394d859ef",
+    "proof_sha256": "a1c45ec8ed8bae2fb9000043bd34e594b8a8ce43c24d63107c79155736ddf017",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 125.80852117482573
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_partial_weak_b33332.json",
+    "cnf_sha256": "fd26b361dea16d1e6129616aea705f656c3b08a2d0aa2f7c1ab955af799d4a1d",
+    "proof_sha256": "605b002fc069ec17c419a4ed2e7c419772e631b69770cb88c04762bc19486115",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 26.984627227298915
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_lattice_reject_partial_fixed.json",
+    "cnf_sha256": "0e36cfc63f2f0f9d6bf44390f77d5ca2078839ae0b3fddcbbd72ac74635aada8",
+    "proof_sha256": "262d21ae83b1a6b371c553d52a05eaeba0d0ab5bceeb6eed97aa10a493a127ca",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 0.504947567358613
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_partial_reject_lattice_fixed.json",
+    "cnf_sha256": "81c67544b50b405d2df75ad7afaeb84367bf353d0faa96741e438ccf144d9718",
+    "proof_sha256": "097007458ab180e03284518e83fd3adcac69fa75eb0fe597082159e8f78e7e70",
+    "returncode": 0,
+    "verified": true,
+    "seconds": 0.4542676117271185
+  },
+  {
+    "file": "round2/n5_k31_partial_flags_blocks.json",
+    "cnf_sha256": "c4529a66d66e5b3bca3d49b250de72b4d7b7f7d5ab96a399d4d08cecdd7ece16",
+    "proof_sha256": "17ee2461750a2c73ee0025e97a3378c2b7cc1ef877646216b42e16762e709f2e",
+    "returncode": 0,
+    "verified": false,
+    "seconds": 301.25503338780254
+  }
+]

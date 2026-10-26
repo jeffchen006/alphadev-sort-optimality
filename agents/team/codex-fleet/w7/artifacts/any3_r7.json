@@ -1,0 +1,21 @@
+{
+  "name": "any3_r7",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/any3_r7.s",
+    "--changes",
+    "3",
+    "--registers",
+    "7"
+  ],
+  "limit": 1200,
+  "seconds": 1200.352433857508,
+  "exit": -15,
+  "status": "timeout"
+}

@@ -1,0 +1,8641 @@
+[
+  {
+    "index": 0,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_100_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 6,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 11,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 14,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 17,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 20,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 2,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 297
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 3,
+        "active_count": 39,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 39
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 445,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 414
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          3
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 2,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 264
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 5,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 156
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 1,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_103_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 1,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 6,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 8,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 24,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 3,
+        "active_count": 412,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          7,
+          8
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 297,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 297
+      },
+      {
+        "instruction": 27,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 2,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 399
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "active_count": 39,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 39
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 8,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 8,
+        "active_count": 307,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 168
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 2,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_105_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 6,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 290
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 6,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 8,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 3,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 39,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 39
+      },
+      {
+        "instruction": 28,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 1,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 1,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 3,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_108_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 4,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 290
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          3,
+          6
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 0,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1,
+          2
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0,
+          2
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 0,
+        "active_count": 445,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5,
+          6
+        ],
+        "changes": 445
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 5,
+        "active_count": 445,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 423
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 5,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 4,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_124_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 0,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 279,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3,
+          6
+        ],
+        "changes": 279
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 7,
+        "active_count": 175,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 175
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          2
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 2,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 5,
+        "active_count": 69,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 69
+      },
+      {
+        "instruction": 22,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 5,
+        "active_count": 472,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 421
+      },
+      {
+        "instruction": 24,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 6,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "active_count": 251,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 251
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 382,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 382
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 297,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          3
+        ],
+        "changes": 297
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 4,
+        "active_count": 117,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 117
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 5,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_135_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 7,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 4,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 326
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 1,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 8,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "active_count": 371,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 275,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          4
+        ],
+        "changes": 275
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 2,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 1,
+        "active_count": 352,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          2
+        ],
+        "changes": 352
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 75
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 6,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_150_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 5,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 1,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 8,
+        "active_count": 251,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 251
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 8,
+        "source": 2,
+        "active_count": 251,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 240
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "active_count": 390,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 390
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "active_count": 390,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 326
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 28,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 3,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 8,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 31,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 8,
+        "active_count": 385,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 258
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 7,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_153_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 1,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 6,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 3,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 0,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 6,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 1,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 326
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 8,
+        "active_count": 371,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 8,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 2,
+        "active_count": 258,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          8
+        ],
+        "changes": 258
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 156
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 8,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_155_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 1,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 6,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 5,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 3,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 0,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 2,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 352
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 8,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 28,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 8,
+        "active_count": 385,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 275
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 1,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 31,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 1,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 360
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 9,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_156_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 14,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 2,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "active_count": 379,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 379
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 99,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 99
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          2
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 360,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          4
+        ],
+        "changes": 360
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 360,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 360
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 5,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 4,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 156
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 10,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_157_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 6,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 290
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3,
+          5
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3,
+          5
+        ],
+        "changes": 463
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 3,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 6,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 8,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 28,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 0,
+        "active_count": 307,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 168
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6,
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 150,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 150
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 11,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_172_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 1,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 7,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 2,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 4,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 352
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 8,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 25,
+        "op": "cmovge",
+        "dest": 4,
+        "source": 8,
+        "active_count": 385,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 275
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 1,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 28,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 1,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 5,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 75
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 75,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 75
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 12,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_17_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          0,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 290
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 5,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          4,
+          6
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 6,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 2,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          3
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 24,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 7,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          3
+        ],
+        "changes": 463
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 1,
+        "active_count": 456,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 150,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 150
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 6,
+        "active_count": 150,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 150
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          7
+        ],
+        "changes": 168
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 7,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 156
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 13,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_19_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 6,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 14,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 1,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 17,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 2,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 5,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 6,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 22,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 6,
+        "active_count": 378,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 0,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 463
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 0,
+        "active_count": 39,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 39
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0,
+          6
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 6,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 264
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3,
+          4
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 7,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 156
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 14,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_21_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 0,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 8,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 7,
+        "active_count": 99,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 99
+      },
+      {
+        "instruction": 22,
+        "op": "cmovge",
+        "dest": 8,
+        "source": 7,
+        "active_count": 442,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 379
+      },
+      {
+        "instruction": 24,
+        "op": "cmovle",
+        "dest": 7,
+        "source": 5,
+        "active_count": 466,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          7,
+          8
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 8,
+        "active_count": 352,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 352
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 2,
+        "active_count": 275,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5,
+          8
+        ],
+        "changes": 275
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 2,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 360,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          8
+        ],
+        "changes": 360
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 4,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 78
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 15,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_22_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 1,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 8,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 1,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 3,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "active_count": 198,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 198
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 3,
+        "active_count": 198,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 198
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 1,
+        "active_count": 445,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5,
+          6
+        ],
+        "changes": 445
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 5,
+        "active_count": 445,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 423
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 0,
+        "active_count": 307,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 168
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 16,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_25_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 6,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 14,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 6,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 17,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 421,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 421
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 1,
+        "active_count": 69,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 69
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 1,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 2,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 5,
+        "active_count": 219,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 219
+      },
+      {
+        "instruction": 28,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 5,
+        "active_count": 322,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 227
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "active_count": 273,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          4
+        ],
+        "changes": 273
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 2,
+        "active_count": 117,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 117
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 17,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_27_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 379,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 379
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 5,
+        "active_count": 379,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 379
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 19,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 6,
+        "active_count": 378,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 1,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 2,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 352
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 8,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 28,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 8,
+        "active_count": 385,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 275
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 8,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 78
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 18,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_28_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 6,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 11,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 14,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          0,
+          6
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 379,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 379
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 99,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 99
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 5,
+        "active_count": 258,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          3,
+          4
+        ],
+        "changes": 258
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 258,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 258
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 1,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          2
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 238
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 1,
+        "active_count": 360,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 360
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 1,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 78
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 19,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_41_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 6,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 11,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5,
+          8
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 8,
+        "source": 3,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 8,
+        "active_count": 456,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 22,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 6,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3,
+          8
+        ],
+        "changes": 463
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 25,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 7,
+        "active_count": 274,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 3,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 309
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 7,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2,
+          8
+        ],
+        "changes": 168
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 7,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 20,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_50_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 14,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 17,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1,
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 8,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 20,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 0,
+        "active_count": 412,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5,
+          8
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 5,
+        "active_count": 297,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 297
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 414,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 414
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 6,
+        "active_count": 39,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 39
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 6,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 5,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          3,
+          8
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 8,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 21,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_68_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 14,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 17,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 2,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 20,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 0,
+        "active_count": 421,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 421
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 0,
+        "active_count": 69,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 69
+      },
+      {
+        "instruction": 23,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 1,
+        "active_count": 227,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 227
+      },
+      {
+        "instruction": 25,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 5,
+        "active_count": 227,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 207
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          6
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 6,
+        "active_count": 117,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          4
+        ],
+        "changes": 117
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 117,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 117
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 22,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_82_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 4,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 290
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 6,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 0,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5,
+          6
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 7,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          3
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 3,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 27,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 5,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 445
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 423,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 423
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 6,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5,
+          7
+        ],
+        "changes": 168
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 6,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 23,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_91_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 13,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 7,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 2,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 16,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 8,
+        "active_count": 221,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 2,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 6,
+        "active_count": 391,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 0,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 215
+      },
+      {
+        "instruction": 22,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 215,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 198
+      },
+      {
+        "instruction": 24,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 5,
+        "active_count": 466,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 390
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 6,
+        "active_count": 352,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 352
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 275,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5,
+          6
+        ],
+        "changes": 275
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 4,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 0,
+        "active_count": 360,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          4,
+          6
+        ],
+        "changes": 360
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 0,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 78
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 24,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_95_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 5,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 8,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 12,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 14,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 6,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 290
+      },
+      {
+        "instruction": 17,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 5,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 21,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 22,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 7,
+        "active_count": 378,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 24,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 0,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          6,
+          7
+        ],
+        "changes": 463
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 0,
+        "active_count": 39,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 39
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 3,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          7
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 28,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 7,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          4
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 156
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 25,
+    "source": "/path/to/repo/agents/team/d7-structure/fam32/net9_96_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 7,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 3,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 13,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 6,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 7,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3,
+          6
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 18,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 1,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          8
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 8,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovge",
+        "dest": 8,
+        "source": 6,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1,
+          8
+        ],
+        "changes": 463
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 1,
+        "active_count": 456,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 8,
+        "active_count": 150,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 150
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 8,
+        "source": 5,
+        "active_count": 150,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 150
+      },
+      {
+        "instruction": 27,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 3,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          5
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 3,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 5,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          1,
+          6
+        ],
+        "changes": 168
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 5,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 26,
+    "source": "/path/to/repo/programs/found/upper_sort5_I0_k32_out.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 3,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 4,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 4,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 0,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 8,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 0,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 10,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 5,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          0,
+          7
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 11,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 5,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 14,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 1,
+        "source": 0,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 5,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 8,
+        "source": 6,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3,
+          8
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 24,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 6,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 414
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 0,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          3,
+          6
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 7,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 28,
+        "op": "cmovl",
+        "dest": 7,
+        "source": 6,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 30,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 7,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 7,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 168
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 27,
+    "source": "/path/to/repo/programs/found/upper_sort5_I1_k32_out.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 1,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 3,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          5,
+          6,
+          7
+        ],
+        "changes": 308
+      },
+      {
+        "instruction": 3,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 4,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 4,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 4,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 0,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 2,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 9,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 6,
+        "active_count": 308,
+        "existing_result": [
+          6
+        ],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 11,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 1,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 12,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 1,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 14,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 2,
+        "active_count": 274,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 15,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 3,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 17,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 0,
+        "active_count": 145,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 19,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 1,
+        "active_count": 220,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 4,
+        "source": 6,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          4,
+          5
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 22,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 5,
+        "active_count": 337,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 337
+      },
+      {
+        "instruction": 24,
+        "op": "cmovge",
+        "dest": 6,
+        "source": 0,
+        "active_count": 274,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 0,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 0,
+        "source": 7,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0,
+          6
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 28,
+        "op": "cmovle",
+        "dest": 3,
+        "source": 6,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          3,
+          7
+        ],
+        "changes": 445
+      },
+      {
+        "instruction": 30,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 4,
+        "active_count": 373,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 234
+      },
+      {
+        "instruction": 31,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 7,
+        "active_count": 234,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          4
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 28,
+    "source": "/path/to/repo/programs/found/upper_sort5_k32_depthU10.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 2,
+        "op": "cmovle",
+        "dest": 5,
+        "source": 3,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 3,
+        "op": "cmovl",
+        "dest": 3,
+        "source": 0,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          3
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovge",
+        "dest": 3,
+        "source": 2,
+        "active_count": 220,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          3,
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 7,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 2,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 9,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 5,
+        "active_count": 220,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 145
+      },
+      {
+        "instruction": 11,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 5,
+        "active_count": 396,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 14,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 4,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1,
+          7
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 15,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 4,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 18,
+        "op": "cmovg",
+        "dest": 5,
+        "source": 2,
+        "active_count": 267,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          1,
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 19,
+        "op": "cmovge",
+        "dest": 2,
+        "source": 1,
+        "active_count": 378,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 3,
+        "source": 7,
+        "active_count": 163,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          3,
+          8
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 22,
+        "op": "cmovge",
+        "dest": 7,
+        "source": 8,
+        "active_count": 274,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          7
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 24,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 2,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          7,
+          8
+        ],
+        "changes": 456
+      },
+      {
+        "instruction": 25,
+        "op": "cmovle",
+        "dest": 1,
+        "source": 7,
+        "active_count": 502,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          1,
+          2
+        ],
+        "changes": 414
+      },
+      {
+        "instruction": 27,
+        "op": "cmovl",
+        "dest": 1,
+        "source": 6,
+        "active_count": 129,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          1
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 28,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 7,
+        "active_count": 244,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 129
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 2,
+        "source": 6,
+        "active_count": 168,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2,
+          8
+        ],
+        "changes": 168
+      },
+      {
+        "instruction": 31,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 6,
+        "active_count": 373,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          8
+        ],
+        "changes": 234
+      }
+    ],
+    "symmetries": []
+  },
+  {
+    "index": 29,
+    "source": "/path/to/repo/programs/found/sat_sort5_k32.s",
+    "terms": 23,
+    "comparisons": 9,
+    "cmovs": [
+      {
+        "instruction": 3,
+        "op": "cmovl",
+        "dest": 5,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0,
+          5
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 4,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 1,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          1
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 6,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 3,
+        "active_count": 233,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 7,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 3,
+        "active_count": 308,
+        "existing_result": [],
+        "active_equal": [
+          3
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 233
+      },
+      {
+        "instruction": 10,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 0,
+        "active_count": 320,
+        "existing_result": [],
+        "active_equal": [
+          0
+        ],
+        "inactive_equal": [
+          2,
+          7
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 11,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 7,
+        "active_count": 320,
+        "existing_result": [],
+        "active_equal": [
+          7
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 221
+      },
+      {
+        "instruction": 15,
+        "op": "cmovl",
+        "dest": 4,
+        "source": 6,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          4,
+          8
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 16,
+        "op": "cmovl",
+        "dest": 6,
+        "source": 8,
+        "active_count": 321,
+        "existing_result": [],
+        "active_equal": [
+          8
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 321
+      },
+      {
+        "instruction": 18,
+        "op": "cmovle",
+        "dest": 8,
+        "source": 2,
+        "active_count": 466,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          6,
+          8
+        ],
+        "changes": 391
+      },
+      {
+        "instruction": 19,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 6,
+        "active_count": 466,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 371
+      },
+      {
+        "instruction": 21,
+        "op": "cmovg",
+        "dest": 6,
+        "source": 5,
+        "active_count": 379,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2,
+          6
+        ],
+        "changes": 379
+      },
+      {
+        "instruction": 22,
+        "op": "cmovle",
+        "dest": 2,
+        "source": 5,
+        "active_count": 162,
+        "existing_result": [],
+        "active_equal": [
+          5
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 99
+      },
+      {
+        "instruction": 24,
+        "op": "cmovle",
+        "dest": 0,
+        "source": 2,
+        "active_count": 283,
+        "existing_result": [],
+        "active_equal": [
+          2
+        ],
+        "inactive_equal": [
+          0,
+          9
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 25,
+        "op": "cmovl",
+        "dest": 2,
+        "source": 9,
+        "active_count": 156,
+        "existing_result": [],
+        "active_equal": [
+          9
+        ],
+        "inactive_equal": [
+          2
+        ],
+        "changes": 156
+      },
+      {
+        "instruction": 27,
+        "op": "cmovle",
+        "dest": 6,
+        "source": 4,
+        "active_count": 303,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          6
+        ],
+        "changes": 163
+      },
+      {
+        "instruction": 28,
+        "op": "cmovge",
+        "dest": 5,
+        "source": 4,
+        "active_count": 378,
+        "existing_result": [],
+        "active_equal": [
+          4
+        ],
+        "inactive_equal": [
+          5
+        ],
+        "changes": 267
+      },
+      {
+        "instruction": 30,
+        "op": "cmovg",
+        "dest": 0,
+        "source": 6,
+        "active_count": 78,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          0
+        ],
+        "changes": 78
+      },
+      {
+        "instruction": 31,
+        "op": "cmovle",
+        "dest": 9,
+        "source": 6,
+        "active_count": 463,
+        "existing_result": [],
+        "active_equal": [
+          6
+        ],
+        "inactive_equal": [
+          9
+        ],
+        "changes": 360
+      }
+    ],
+    "symmetries": []
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "suffix5_dest_proof",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "candidates/suffix5_dest.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--prefix",
+    "5",
+    "--typed",
+    "--fixed-dest",
+    "--proof"
+  ],
+  "limit": 1800,
+  "seconds": 1800.3777316100895,
+  "exit": -15,
+  "status": "timeout"
+}

@@ -1,0 +1,9 @@
+{
+  "counts": {
+    "analyzed": 1613,
+    "with_partial": 1613,
+    "full_lattice_plus_partial": 1401,
+    "normalization_success": 1401
+  },
+  "exceptions": []
+}

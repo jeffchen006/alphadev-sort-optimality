@@ -1,0 +1,8 @@
+{
+  "status": "PASS_FIRST_OCCURRENCE_AUDIT",
+  "slots": 2,
+  "base_registers": 5,
+  "new_registers": 4,
+  "raw_operand_traces": 6561,
+  "canonical_operand_traces": 1540
+}

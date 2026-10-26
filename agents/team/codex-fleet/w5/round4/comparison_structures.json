@@ -1,0 +1,5400 @@
+{
+  "known_full_classes": 148,
+  "known_distinct_classes": 146,
+  "samples": 770,
+  "new_full_classes": 197,
+  "new_distinct_samples": 338,
+  "rows": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample1.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8f8f79dcb1d8871eecbf52eb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample10.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample100.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample101.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b520aba891a7db892fd12ef8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample102.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample103.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b1326da83ea8ef327bcbe5a0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample104.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "291a7a92e782d583a17b76ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample105.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample106.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample107.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "72f3c2888f5abca7db6920d3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample108.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7d0a54686df92e233a574dcb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample109.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample11.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample110.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e069f688d5be63d1d67c6d90"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample111.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "524131a121020ea9979e3cfe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample112.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample113.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a8efbd979b4f5435e5b86575"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample114.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample115.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample116.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "247e421e2295c43d6b4b60a5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample117.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample118.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample119.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "34d050362de1256a3a547727"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample12.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample120.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample121.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample122.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "39c28158b9f44cd47c00f14e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample123.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "9b5ef74d2927ac2e8321ab8d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample124.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample125.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "31fc12a60cd60416979e8b74"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample126.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4c7a91abb1d3a85b9332bcd8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample127.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f80ac4115042c22eeedfe442"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample128.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample129.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample13.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "93b0d0aabd387198d4cc073e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample130.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample131.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "f095c21c0c8cb82da696c859"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample132.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "9b5ef74d2927ac2e8321ab8d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample133.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9d2719d7c60bca38eda98124"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample134.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "7da72b4953818b24f0c82e4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample135.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "52d3db6023340425fc86d55b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample136.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample137.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "5f0fd30721adca16598c3132"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample138.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "97960b159a8d720bb4a22736"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample139.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample14.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0a0cb2b9c2dcdfc95937e424"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample140.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample141.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample142.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "6be0a2c8e468d40a5855149b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample143.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "11e5afd20b5a592069f7a668"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample144.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample145.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb37c2e9584b657147f4c8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample146.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "476cdf326bfc801236620fe8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample147.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample148.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "42d0fd8017f59082ede4db9b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample149.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "18f70be8e0529e24fb784db2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample15.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "1fb80d5ee55057b85f4fd905"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample150.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample151.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample152.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "51f8cfd838e5a0f4522fae4d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample153.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample154.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1c52e8b965eec42561d09a86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample155.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "bc210c816f65d496732d331f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample156.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample157.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "39c28158b9f44cd47c00f14e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample158.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "79171b6545bad085408ff321"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample159.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample16.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0e6876d557bd8cf55b2d8370"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample160.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "06221f0a51695df637fa8d2f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample161.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample162.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "a4938460a1e8afa0c3577bb4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample163.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "67fff345f8a1c954d9966ded"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample164.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a8efbd979b4f5435e5b86575"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample165.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample166.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "cc12a926ab57f90df2fca7ee"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample167.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a1ab7117e88b6a3053b6db84"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample168.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample169.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "1fb80d5ee55057b85f4fd905"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample17.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4fd2f5ab7cb9923ace1f2d25"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample170.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample171.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f57f9bbc4825c3207dbddfc7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample172.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2178c8ec5f74e087605ec3e5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample173.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample174.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "7a05bc2b65f8c1844ec80b11"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample175.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample176.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e7040ca622a2ae15b9ce7274"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample177.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0f96e8261a854c46221a9796"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample178.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample179.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8a7f7ba574219ac1bea24961"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample18.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "1fb80d5ee55057b85f4fd905"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample180.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "df15101d98e3d4a816e3f9ab"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample181.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "3cb5967ce0dfa2a1807bf7ac"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample182.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9d2719d7c60bca38eda98124"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample183.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9f201b720199f638fbb61a65"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample184.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample185.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "93b0d0aabd387198d4cc073e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample186.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7d0a54686df92e233a574dcb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample187.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb54888592d542b1d244ed8f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample188.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "aeb11bb5d0e1e6f71d4673bf"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample189.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample19.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample190.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aea85de972e84fde3758c4b0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample191.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "34d050362de1256a3a547727"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample192.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample193.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample194.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "cc9434773c681a22edb6aa9c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample195.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8eb575f5a516ac2dcc6e8b0a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample196.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample197.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample198.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample199.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample2.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample20.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8c80b3b05d1ac2336601f0e9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample200.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample201.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample202.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9d600a0bbbe4ace6d2b2f7c7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample203.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4aa580d7fe0f544323d9d087"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample204.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8faae5bc2dc7d9879d160811"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample205.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "88319ad9d035c2f5cc4dd9c6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample206.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample207.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "34d050362de1256a3a547727"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample208.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8eb575f5a516ac2dcc6e8b0a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample209.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "25fc4f3afb4919c65429168c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample21.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4ee3d0ef1e0056f7edf2b7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample210.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "11e99fb271744c5879cb8413"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample211.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample212.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0c6c29d7b215638caa06c5a4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample213.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "ca1f6f70fb888c72e5fb01fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample214.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample215.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "e29f911771663d1012d66a13"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample216.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f0453f626efb82b440f3d7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample217.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample218.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample219.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "469af335323d0f2c139113c5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample22.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample220.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample221.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e7040ca622a2ae15b9ce7274"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample222.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample223.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "2d0723643f34d6f15af6e4cf"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample224.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8930709c0e47796268a18d0f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample225.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample226.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample227.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample228.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a7279f5fa09657302dc9906c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample229.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample23.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample230.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3010cdd56b5d4ac940943ef3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample231.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "dd34ef94d74d5128589f60e8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample232.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample233.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample234.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "cc127be950cc3c9e9fe570c1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample235.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "361a07e392f734b10eecb77c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample236.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e82b23e4d9b0be01e77802fa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample237.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "67fff345f8a1c954d9966ded"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample238.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "afa69cb67d09e15c8d8c2d36"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample239.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "11de1e342b2f2d2b17c1600a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample24.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "89aed4aef29d78f652140b5b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample240.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4ee3d0ef1e0056f7edf2b7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample241.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb37c2e9584b657147f4c8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample242.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "12cf27384fe23383808e4c41"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample243.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5b4bed5566c92fc76b300851"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample244.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a1019e1fc74dfa65b448765f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample245.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e102909c40fd9e124e76fdc9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample246.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "88319ad9d035c2f5cc4dd9c6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample247.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample248.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample249.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample25.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "c4044a5235e36f455ccdfc62"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample250.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample251.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample252.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "34d050362de1256a3a547727"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample253.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aa95cbb57708d0b1b954551c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample26.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "93b0d0aabd387198d4cc073e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample27.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "62b037d32e45fd8788bb1ffc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample28.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "7bd815475a875e64a2d63b89"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample29.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d0a9833655c61f02e65054c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample3.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "79171b6545bad085408ff321"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample30.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "891bee81376e290baf7735e3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample31.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample32.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "524131a121020ea9979e3cfe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample33.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0e6876d557bd8cf55b2d8370"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample34.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e102909c40fd9e124e76fdc9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample35.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "63b86975238ae4d9f8c37c4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample36.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample37.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample38.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample39.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample4.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample40.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample41.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample42.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0effe124d342158d5e7b8e23"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample43.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample44.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample45.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "b6ad8629334f03f46ea8fac2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample46.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "74bb2547c0bdb1f63f8cde86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample47.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "2e79707bf103b5bdaa01fc39"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample48.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "11e5afd20b5a592069f7a668"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample49.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8f8f79dcb1d8871eecbf52eb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample5.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample50.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "5f0fd30721adca16598c3132"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample51.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7e2e1c928405891a536fcba6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample52.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample53.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "88319ad9d035c2f5cc4dd9c6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample54.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d0a9833655c61f02e65054c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample55.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample56.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "f4ae4ff9aa1182d6cf99c199"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample57.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e102909c40fd9e124e76fdc9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample58.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d431690a950cb48606694505"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample59.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample6.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample60.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample61.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "bd7446e868ca1a64b7def2b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample62.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample63.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3a7233d03322a1cccc741884"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample64.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4ee3d0ef1e0056f7edf2b7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample65.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "998c5316db435912717b5b19"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample66.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample67.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "f8d869dafc3bdbc5ae54a7f4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample68.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample69.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3ef0fc552fb514ebd51ae1f4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample7.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample70.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d9f6b62a8c9700d8656608db"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample71.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample72.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "63b86975238ae4d9f8c37c4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample73.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample74.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample75.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample76.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f57f9bbc4825c3207dbddfc7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample77.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample78.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e102909c40fd9e124e76fdc9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample79.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "88319ad9d035c2f5cc4dd9c6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample8.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aa1771daab18883a2ffd1ef1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample80.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample81.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "942d09f85664d02e8f514096"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample82.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "7a05bc2b65f8c1844ec80b11"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample83.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample84.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e24f2cf818451c3b3b9a202a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample85.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aa95cbb57708d0b1b954551c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample86.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8a934a225f1026d8826b4742"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample87.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f0453f626efb82b440f3d7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample88.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample89.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8c80b3b05d1ac2336601f0e9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample9.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e102909c40fd9e124e76fdc9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample90.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e82b23e4d9b0be01e77802fa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample91.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e9e461a756b56d27bc477b28"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample92.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample93.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "74bb2547c0bdb1f63f8cde86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample94.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample95.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2178c8ec5f74e087605ec3e5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample96.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample97.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e102909c40fd9e124e76fdc9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample98.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e87f35a0d6b19ea9ba6176b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/bridge_short_sample99.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e87f35a0d6b19ea9ba6176b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_checkpoint.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "bd7446e868ca1a64b7def2b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_final.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e9e650858228c602d02f14d9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample1.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample10.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample100.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c5d09a2026b222a5dcfbc35d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample101.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "03d58515dcb8bbca4ecac823"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample102.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample103.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "6246f2c1b699df89cf5caaf4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample104.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample105.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "166e231be0124c29301cefd9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample106.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4751a00d14cd5d614619b837"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample107.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "d63a9b5259799082062747fd"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample108.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "1fa9981cb98ebbda91832581"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample109.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample11.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5b4bed5566c92fc76b300851"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample110.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7793e10b536c3ff87efb5c2d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample111.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "dd34ef94d74d5128589f60e8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample112.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample113.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample114.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "6af2141a7221580434736496"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample115.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2178c8ec5f74e087605ec3e5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample116.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample117.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6f45cd2e40dfe59bce8ea27b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample118.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "13bfaab027cb1df6935fe9fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample119.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0e6876d557bd8cf55b2d8370"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample12.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6f45cd2e40dfe59bce8ea27b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample120.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample121.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "420fde1c6f5efd86f4ce014a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample122.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "f1cc273df0b3d1fdaedf4c4a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample123.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample124.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5d0d0769473c0e1214e6513f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample125.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a4e7ada597a7e422f61db41c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample126.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample127.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4ee3d0ef1e0056f7edf2b7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample128.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample129.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "08545bf17cf4584a7a34d297"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample13.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "9b5ef74d2927ac2e8321ab8d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample130.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample131.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample132.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample133.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9d2719d7c60bca38eda98124"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample134.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample135.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "9d672a5ffdffe6b67ba8f946"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample136.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4871d83b41b732400a958715"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample137.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2eb4e91f1c332bd27eb5e594"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample138.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "476cdf326bfc801236620fe8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample139.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample14.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1c52e8b965eec42561d09a86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample140.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a7daa5c6c4afbb5d626fdff0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample141.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample142.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample143.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "26eb89c0c47bbfcab796a56d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample144.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8f8f79dcb1d8871eecbf52eb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample145.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb37c2e9584b657147f4c8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample146.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "1fb80d5ee55057b85f4fd905"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample147.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "355f151bc5ad2520cc9011c5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample148.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9f201b720199f638fbb61a65"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample149.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample15.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "f8a3451cd20b06e442876b78"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample150.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample151.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a1019e1fc74dfa65b448765f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample152.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample153.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d08a2484b80b093da416f85a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample154.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample155.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample156.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample157.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample158.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample159.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample16.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "e8d9d6af78ddb986bbc227bc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample160.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0bd187ee7e5bffc6ed67a506"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample161.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2eb4e91f1c332bd27eb5e594"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample162.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample163.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample164.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample165.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9015b457057f4aadbf23f8db"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample166.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "291a7a92e782d583a17b76ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample167.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "7da72b4953818b24f0c82e4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample168.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "9c60d3e70afe061216798dd0"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample169.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample17.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample170.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4fd2f5ab7cb9923ace1f2d25"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample171.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9015b457057f4aadbf23f8db"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample172.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample173.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5e8940cf8ffbf9a16225d608"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample174.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9d2719d7c60bca38eda98124"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample175.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "172640ebc4bc5312c48d4f34"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample176.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7d0a54686df92e233a574dcb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample177.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "cc127be950cc3c9e9fe570c1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample178.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample179.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "78963c93c3b7c08b120d8fc8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample18.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8011c430a73ddb5b49c5153c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample180.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "1988f36459a192eb97946a78"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample181.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "bc8588cdb56484561c2d0f10"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample182.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "1fa9981cb98ebbda91832581"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample183.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "94fe49e56aceadc06811f2b3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample184.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3162735b2893adaa13e0beab"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample185.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5e8940cf8ffbf9a16225d608"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample186.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9015b457057f4aadbf23f8db"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample187.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample188.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e87f35a0d6b19ea9ba6176b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample189.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7d0a54686df92e233a574dcb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample19.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample190.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "9b5ef74d2927ac2e8321ab8d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample191.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample192.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "872c52e5129ec91ed4dc65ef"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample193.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample194.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample195.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "97960b159a8d720bb4a22736"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample196.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6157935b73c16e82c17fcf6e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample197.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample198.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "f8d869dafc3bdbc5ae54a7f4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample199.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a3b3cdc93e2fb21c49e2d68c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample2.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "032ec10c9fb23ad5a8fe606a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample20.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample200.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample201.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "51c86ae9db1e2518ac76045f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample202.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample203.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "c8c15623a6659fefc8f1d257"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample204.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "f8d869dafc3bdbc5ae54a7f4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample205.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "710607bc3b25c336f1baab64"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample206.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bea1f2ed2a3619c98e941766"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample207.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f0453f626efb82b440f3d7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample208.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4e5b0b0af0d7c27e74ed3e91"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample209.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "7a05bc2b65f8c1844ec80b11"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample21.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7e2e1c928405891a536fcba6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample210.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample211.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "cf56ec0dd1f2e8634331f7b1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample212.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "962a35c70f426e75d5dd1ef4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample213.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample214.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "dd9a41203ac4f16be062d719"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample215.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "870cc1782e69ca86db62fccb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample216.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample217.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d431690a950cb48606694505"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample218.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample219.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bea1f2ed2a3619c98e941766"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample22.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample220.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample221.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample222.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8c80b3b05d1ac2336601f0e9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample223.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4e5b0b0af0d7c27e74ed3e91"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample224.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "41c0ccc07c09d3f345db1eb9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample225.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "d026ed7ce016fbda8d20f52b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample226.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "128d313ac12ad5462f21856b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample227.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample228.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f0453f626efb82b440f3d7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample229.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "973f4b8b6e915a342dc30a5d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample23.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample230.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample231.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0bd187ee7e5bffc6ed67a506"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample232.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d0a9833655c61f02e65054c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample233.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample234.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "ca1f6f70fb888c72e5fb01fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample235.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d74165b111bbed0edade3dc1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample236.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "6ff7b0b45281ca80821a5f58"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample237.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "214c18937d9c358d1877d158"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample238.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "578c3a4005bb6e54983063a3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample239.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample24.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3a0199e21576f2bd60b6c934"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample240.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "05fc1b988b601b52840758a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample241.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample242.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1c52e8b965eec42561d09a86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample243.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "6be0a2c8e468d40a5855149b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample244.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b261060a9de5a3da72b227a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample245.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ec6cf12468edaa8fa9f31421"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample246.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8274ad3f62e459210eb4c2cd"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample247.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "6be0a2c8e468d40a5855149b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample248.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8011c430a73ddb5b49c5153c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample249.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "ddc2be51f0d145f3bbe7446c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample25.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample250.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1cf0ade9bfc0d70e58b4a722"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample251.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d0a9833655c61f02e65054c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample252.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e7040ca622a2ae15b9ce7274"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample253.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "0b0f0328c3391dbcbe00bb52"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample254.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample255.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5b4bed5566c92fc76b300851"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample256.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample257.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4751a00d14cd5d614619b837"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample258.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "ba8a4f402755ec5bb78db5cd"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample259.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "634f504fbb1d4fbf6b004770"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample26.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "11e5afd20b5a592069f7a668"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample260.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8011c430a73ddb5b49c5153c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample261.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample262.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7ac91392cd71fcb5e35d8003"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample263.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6157935b73c16e82c17fcf6e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample264.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "634f504fbb1d4fbf6b004770"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample265.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "6ff7b0b45281ca80821a5f58"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample266.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "83a3a7c9ae348bd3dea6a0c8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample267.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e86dfa8a61581d2c962a59fa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample268.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample269.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "ecd7dbab726bbcc1da6572ce"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample27.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "6ff7b0b45281ca80821a5f58"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample270.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample271.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4751a00d14cd5d614619b837"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample272.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d74165b111bbed0edade3dc1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample273.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e87f35a0d6b19ea9ba6176b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample274.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "986b6b4d37d710f8898067ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample275.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "9d9c0380016630987d271846"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample276.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample277.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample278.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "12101f3be57a187bc73ea601"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample279.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e87f35a0d6b19ea9ba6176b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample28.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "871ea999aa8f5a2778eeac64"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample280.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample281.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample282.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample283.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample284.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2178c8ec5f74e087605ec3e5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample285.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample286.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3162735b2893adaa13e0beab"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample287.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "0dd205314d4d510286eb5786"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample288.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b520aba891a7db892fd12ef8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample289.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "93b0d0aabd387198d4cc073e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample29.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "5f0fd30721adca16598c3132"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample290.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aa95cbb57708d0b1b954551c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample291.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample292.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8011c430a73ddb5b49c5153c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample293.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample294.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9f201b720199f638fbb61a65"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample295.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample296.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d0a9833655c61f02e65054c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample297.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "62b037d32e45fd8788bb1ffc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample298.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "291a7a92e782d583a17b76ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample299.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3d0be39f4294ded52bd2aa68"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample3.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "96ea53ed80402576e017e825"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample30.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "c0d2defae8e5720762161120"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample300.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "bd7446e868ca1a64b7def2b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample301.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2c5f8edf12eaae956d18e355"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample302.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample303.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample304.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample305.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample306.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b520aba891a7db892fd12ef8"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample307.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample308.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample309.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample31.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample310.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e86dfa8a61581d2c962a59fa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample311.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e24f2cf818451c3b3b9a202a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample312.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8f8f79dcb1d8871eecbf52eb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample313.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fa3bd1f1119e300f1c5e6a2c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample314.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "16551cc49585af946eba9488"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample315.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample316.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample317.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "6d46303c2434b28b4e9f2b26"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample318.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f617b02d4646b01378f6ac13"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample319.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample32.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample320.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "cc34cd50891d9d666870593e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample321.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample322.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "c4044a5235e36f455ccdfc62"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample323.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample324.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample325.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample326.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample327.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample328.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb37c2e9584b657147f4c8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample329.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample33.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "291a7a92e782d583a17b76ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample330.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample331.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1c52e8b965eec42561d09a86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample332.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a3b3cdc93e2fb21c49e2d68c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample333.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ff355ff3f27343980eaeebc4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample334.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample335.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample336.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "870cc1782e69ca86db62fccb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample337.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "12cf27384fe23383808e4c41"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample338.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d841fea4767d7fe3aa622730"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample339.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample34.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample340.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "b6ad8629334f03f46ea8fac2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample341.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0e6876d557bd8cf55b2d8370"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample342.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a8efbd979b4f5435e5b86575"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample343.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample344.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5a0ac79fff005e9585e18ece"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample345.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8eb575f5a516ac2dcc6e8b0a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample346.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "34d050362de1256a3a547727"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample347.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b38370dfa25e705dad3c3d21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample348.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "74bb2547c0bdb1f63f8cde86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample349.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4655b322199585cf322fcc92"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample35.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4ad2640637e4702551366b8c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample350.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f0453f626efb82b440f3d7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample351.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "524131a121020ea9979e3cfe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample352.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "629c34cd48b221ef4aa1ca60"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample353.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb54888592d542b1d244ed8f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample354.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "9d2719d7c60bca38eda98124"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample355.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample356.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "67fff345f8a1c954d9966ded"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample357.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "4db0dc0cad65c05ec0beeec7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample358.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample359.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample36.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "6be0a2c8e468d40a5855149b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample360.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample361.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "fff4197fff4ac22d4e0d1e08"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample362.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample363.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8011c430a73ddb5b49c5153c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample364.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "247e421e2295c43d6b4b60a5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample365.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "03d58515dcb8bbca4ecac823"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample366.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample367.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "6be0a2c8e468d40a5855149b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample368.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3145eb9d6e4140d2d89b8f12"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample369.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "759ed6e9983d7f54d569cf88"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample37.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample370.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample371.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample372.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "99b46df5276e664d6e19e9fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample373.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7dd8286786c7a5ad282e44ff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample374.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d66eff647360b93c9a4ec210"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample375.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d314120e3e52dc6ec011318"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample376.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample377.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "247e421e2295c43d6b4b60a5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample378.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "d91f04e4e25599e728233c10"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample379.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8eb575f5a516ac2dcc6e8b0a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample38.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "51f8cfd838e5a0f4522fae4d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample380.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e82b23e4d9b0be01e77802fa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample381.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "942d09f85664d02e8f514096"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample382.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample383.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample384.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "11de1e342b2f2d2b17c1600a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample385.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "737ff0f250d420eea17102fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample386.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1c52e8b965eec42561d09a86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample387.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2eb4e91f1c332bd27eb5e594"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample388.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample389.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e82b23e4d9b0be01e77802fa"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample39.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample390.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample391.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7e2e1c928405891a536fcba6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample392.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample393.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ff355ff3f27343980eaeebc4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample394.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "061d800334e2bf5335576f7f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample395.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample396.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1d7eeea73ca79afe7b885397"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample397.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "061d800334e2bf5335576f7f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample398.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample399.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "607131be9ac9e3b62d89e823"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample4.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample40.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample400.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample401.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aa17ae9b0355706e2e3292d9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample402.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "5f0fd30721adca16598c3132"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample403.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample404.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample405.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample406.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample407.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b69799b8a6a98a871166bfc1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample408.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e91bae1f2949a3cbe555a309"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample409.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bea1f2ed2a3619c98e941766"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample41.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "247e421e2295c43d6b4b60a5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample410.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample411.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "93b0d0aabd387198d4cc073e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample412.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample413.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample414.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8820b79082f37161b78cca2d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample415.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample416.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "cc127be950cc3c9e9fe570c1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample417.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0d0a9833655c61f02e65054c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample418.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c57024d8f86a3210095fe4d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample419.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7e2e1c928405891a536fcba6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample42.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample420.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3b0c2854c764d31ba23ac538"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample421.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample422.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "e87f35a0d6b19ea9ba6176b7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample423.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "d290190717467b88213aa7c1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample424.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "172640ebc4bc5312c48d4f34"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample425.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample426.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb37c2e9584b657147f4c8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample427.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e91bae1f2949a3cbe555a309"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample428.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "edc3436526b30e555b1c0d09"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample429.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7419460d91721fc2b3bdc9d6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample43.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "d3e57aad3b2c9b4f5ed84ae4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample430.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "39c28158b9f44cd47c00f14e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample431.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "618fd3ab14038e2133ab1639"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample432.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3f17357a0ea0e108fee7105"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample433.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d4e31b1ce02dd478e18fc2fb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample434.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample435.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a3b3cdc93e2fb21c49e2d68c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample436.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c701759092c92d7d030c7447"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample437.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "aa17ae9b0355706e2e3292d9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample438.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f57f9bbc4825c3207dbddfc7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample439.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "19e9f3ddf4d245aa12a0119d"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample44.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "67fff345f8a1c954d9966ded"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample440.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "45f495d306b6c1c0fdda5698"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample441.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "bc210c816f65d496732d331f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample442.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb54888592d542b1d244ed8f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample443.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fa9cf979ef7c8df233867047"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample444.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample445.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "62f6be03c93287c169281f4b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample446.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "1fb80d5ee55057b85f4fd905"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample447.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample448.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample449.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "b6ad8629334f03f46ea8fac2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample45.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "ef9d83987ff600a778347373"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample450.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "607131be9ac9e3b62d89e823"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample451.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f57f9bbc4825c3207dbddfc7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample452.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "89aed4aef29d78f652140b5b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample453.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "a7279f5fa09657302dc9906c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample454.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample455.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample456.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "9f66e0d119f6acea59a926e3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample457.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5a0ac79fff005e9585e18ece"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample458.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample459.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "06221f0a51695df637fa8d2f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample46.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample460.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "962a35c70f426e75d5dd1ef4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample461.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "39c28158b9f44cd47c00f14e"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample462.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample463.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "085e7e1a3076d808d002793b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample464.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a821dc5fef42b6902a280661"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample465.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "038d93179310ccbb0b02efa2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample466.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample467.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample468.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c2e3e9ea7cb52a7fe0212c67"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample469.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "97960b159a8d720bb4a22736"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample47.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8b3920e5b9c0544ef300f8e9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample470.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample471.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b3277d9eb325910d1d1b0c40"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample472.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "4a67333a9f5d3e34ce51c129"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample473.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample474.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "d91f04e4e25599e728233c10"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample475.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample476.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "0a0cb2b9c2dcdfc95937e424"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample477.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5d0d0769473c0e1214e6513f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample478.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "b708595617e2852ab52c13c9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample479.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "e733353f1cb45d4c1f47d79b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample48.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6ef3145234be4f820c03ef8b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample480.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample481.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bea1f2ed2a3619c98e941766"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample482.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "16551cc49585af946eba9488"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample483.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3162735b2893adaa13e0beab"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample484.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "0dd205314d4d510286eb5786"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample485.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "b8f72cd26e4c9a1cb277cc48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample486.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "291a7a92e782d583a17b76ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample487.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample488.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7d0a54686df92e233a574dcb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample489.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "0916ab4b71bbcc557ab39039"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample49.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "41954f50a5722e8505cd24bb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample490.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "254d3fedd7279e633950afda"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample491.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "3cb5967ce0dfa2a1807bf7ac"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample492.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "fd83c58093f171a2b67a841a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample493.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "b8f72cd26e4c9a1cb277cc48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample494.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "74bb2547c0bdb1f63f8cde86"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample495.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "99b46df5276e664d6e19e9fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample496.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "69831e5be562ef17570bcb9b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample497.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample498.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a4971c54e88a752ca6921380"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample499.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample5.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "c0d2defae8e5720762161120"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample50.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample500.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "68d4e40c4e208936d31b1bcc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample501.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample502.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample503.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a2f61b859303abdf5b41409c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample504.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "c49edb4656cf75cd0967cd21"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample505.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample506.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample507.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb54888592d542b1d244ed8f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample508.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "a1019e1fc74dfa65b448765f"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample509.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "7e2e1c928405891a536fcba6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample51.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample510.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "bb972a4932a7a0345c2ae3b6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample511.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "56b80d052abbafd648add702"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample512.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "61b9fb937277691f7d70bfff"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample513.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "ea4a6f5cae16a3ce207b6efb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample514.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7d0a54686df92e233a574dcb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample515.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "12cf27384fe23383808e4c41"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample52.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "64afb7728cd922b61bd05a96"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample53.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample54.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5245ab5a469071e286f18858"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample55.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "83e4cde2e12c5cbd6f867496"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample56.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "72f3c2888f5abca7db6920d3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample57.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8011c430a73ddb5b49c5153c"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample58.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "76d19cadea00197f2b685198"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample59.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "d08a2484b80b093da416f85a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample6.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5a0ac79fff005e9585e18ece"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample60.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "1d9a50df389f1562eb4687f4"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample61.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "291a7a92e782d583a17b76ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample62.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "d91f04e4e25599e728233c10"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample63.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample64.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1eb12723e73ff906904a868a"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample65.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "3230a91b87f494f3c0c78752"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample66.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "1c8603303c665c6f2cfdca76"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample67.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "76d19cadea00197f2b685198"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample68.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "fb37c2e9584b657147f4c8a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample69.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "607131be9ac9e3b62d89e823"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample7.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "89aed4aef29d78f652140b5b"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample70.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "2178c8ec5f74e087605ec3e5"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample71.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "12101f3be57a187bc73ea601"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample72.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "b708595617e2852ab52c13c9"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample73.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b66f9739d8f057b4c51d6167"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample74.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "03d58515dcb8bbca4ecac823"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample75.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample76.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "3363866678859d225cf71170"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample77.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "62b037d32e45fd8788bb1ffc"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample78.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "e91bae1f2949a3cbe555a309"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample79.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "844f105d66fd35cd24cc8149"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample8.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "c4a68afb6897c61c78132458"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample80.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "b261060a9de5a3da72b227a6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample81.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "acb45816ac2d901423ad71ae"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample82.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f57f9bbc4825c3207dbddfc7"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample83.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "f0453f626efb82b440f3d7ed"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample84.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "67fff345f8a1c954d9966ded"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample85.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "4eade912f7fe18b984fabd48"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample86.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "b5865cdac59b19b6018b9008"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample87.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "cf56ec0dd1f2e8634331f7b1"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample88.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "99b46df5276e664d6e19e9fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample89.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "6b6b038fb81a4342e1ea8cf3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample9.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "88319ad9d035c2f5cc4dd9c6"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample90.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "8fcf4126ec4ec41b9aeee1a2"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample91.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "1405e8d496103a5492e6bddb"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample92.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "99b46df5276e664d6e19e9fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample93.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": false,
+      "signature": "891bee81376e290baf7735e3"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample94.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "58b838ef0d868286491cb2fe"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample95.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5a0ac79fff005e9585e18ece"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample96.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "ef9300237cda63b9f0f50287"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample97.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "8da739b3ee70e7afb1ffe161"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample98.s",
+      "comparisons": 8,
+      "new_full": true,
+      "new_distinct": true,
+      "signature": "5413101374cd45300c037628"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w5/round4/candidates/restart_a_sample99.s",
+      "comparisons": 8,
+      "new_full": false,
+      "new_distinct": false,
+      "signature": "7e25a5b57306555f324ea4e4"
+    }
+  ],
+  "seconds": 47.60689507890493
+}

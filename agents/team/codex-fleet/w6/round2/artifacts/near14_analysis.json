@@ -1,0 +1,30 @@
+{
+  "classes": 120,
+  "outputs": [
+    {
+      "j": 0,
+      "weak_fail": 0,
+      "strict_fail": 0
+    },
+    {
+      "j": 1,
+      "weak_fail": 12,
+      "strict_fail": 8
+    },
+    {
+      "j": 2,
+      "weak_fail": 6,
+      "strict_fail": 4
+    },
+    {
+      "j": 3,
+      "weak_fail": 0,
+      "strict_fail": 0
+    },
+    {
+      "j": 4,
+      "weak_fail": 0,
+      "strict_fail": 0
+    }
+  ]
+}

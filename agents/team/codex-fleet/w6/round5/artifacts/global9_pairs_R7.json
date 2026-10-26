@@ -1,0 +1,25 @@
+{
+  "name": "global9_pairs_R7",
+  "command": [
+    "python3",
+    "-B",
+    "round5/src/global_sat.py",
+    "round5/candidates/global9_pairs_R7.s",
+    "--registers",
+    "7",
+    "--prefix",
+    "8",
+    "--cmps",
+    "0,4,8,11,14,17,20,24,28",
+    "--seed",
+    "523191"
+  ],
+  "wall_limit": 300.0,
+  "exit": 124,
+  "seconds": 300.01533124037087,
+  "log": "round5/logs/global9_pairs_R7.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

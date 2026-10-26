@@ -1,0 +1,3 @@
+s2135 R = 9 (auto: 5 + K - creations - blocks = 9) NONE <= 31 
+s2766 R = 9 (auto: 5 + K - creations - blocks = 9) NONE <= 31 
+s3168 R = 9 (auto: 5 + K - creations - blocks = 9) NONE <= 31 

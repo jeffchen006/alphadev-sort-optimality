@@ -1,0 +1,131 @@
+{
+  "status": "UNKNOWN",
+  "cpu": 12.07511038,
+  "cases": 12,
+  "rounds": 0,
+  "args": {
+    "index": 51,
+    "mode": "tail",
+    "tail": 6,
+    "cpu": 12.0,
+    "extra": 2,
+    "control": false,
+    "all_cases": false,
+    "stem": "tail6_51",
+    "fast": true,
+    "unbounded": false
+  },
+  "key": "near_b09_p32",
+  "editable": [
+    19,
+    20,
+    21,
+    23,
+    26,
+    27,
+    29
+  ],
+  "drop": 0,
+  "free_outputs": [
+    2,
+    3
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      2,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      3,
+      3,
+      2
+    ],
+    [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    [
+      0,
+      1,
+      4,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    [
+      1,
+      0,
+      4,
+      3,
+      2
+    ]
+  ],
+  "vars": 6365,
+  "clauses": 58788,
+  "stats": {
+    "restarts": 9112,
+    "conflicts": 108259,
+    "decisions": 638122,
+    "propagations": 51876333
+  },
+  "maxrss_kib": 45768,
+  "total_cpu": 12.083145933,
+  "suffix_builds": 9,
+  "registers": 10
+}

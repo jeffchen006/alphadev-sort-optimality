@@ -1,0 +1,18 @@
+{
+  "name": "audit_near",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/audit_near.py"
+  ],
+  "wall_limit": 120.0,
+  "exit": 0,
+  "seconds": 1.1724497489631176,
+  "log": "round6/logs/audit_near.log",
+  "affinity": [
+    73,
+    74
+  ],
+  "child_cpu_seconds": 1.006132,
+  "peak_child_rss_kib": 11348
+}

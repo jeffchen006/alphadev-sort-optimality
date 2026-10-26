@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/triple_free.py",
+    "--control"
+  ],
+  "wall_limit": 20.0,
+  "exit": 0,
+  "seconds": 0.09949521627277136,
+  "log": "round3/logs/triple_control12.log"
+}

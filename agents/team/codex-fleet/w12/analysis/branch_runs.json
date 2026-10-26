@@ -1,0 +1,38 @@
+[
+  {
+    "index": 0,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_original.s",
+    "returncode": 0,
+    "seconds": 4.933175563812256
+  },
+  {
+    "index": 1,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_normalized.s",
+    "returncode": 0,
+    "seconds": 11.309425354003906
+  },
+  {
+    "index": 2,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0.s",
+    "returncode": 0,
+    "seconds": 3.4798026084899902
+  },
+  {
+    "index": 3,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/c8_guard_0_0_movified.s",
+    "returncode": 0,
+    "seconds": 7.2517571449279785
+  },
+  {
+    "index": 4,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/nonlat_full_original.s",
+    "returncode": 0,
+    "seconds": 4.379333257675171
+  },
+  {
+    "index": 5,
+    "path": "/path/to/repo/agents/team/codex-fleet/w10/programs/nonlat_full_normalized.s",
+    "returncode": 0,
+    "seconds": 8.244905471801758
+  }
+]

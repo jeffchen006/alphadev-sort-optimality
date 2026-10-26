@@ -1,0 +1,488 @@
+/*Copyright 2022 DeepMind Technologies Limited. Licensed under the Apache License,
+ ,→ Version 2.0 and CC BY 4.0. You may not use this file except in compliance with these
+ ,→ licenses. Copies of the licenses can be found at
+ ,→ https://www.apache.org/licenses/LICENSE-2.0 and
+ ,→ https://creativecommons.org/licenses/by/4.0/legalcode.*/
+
+#include <algorithm>
+#include <functional>
+#include <utility>
+#include <vector>
+
+#include <gtest/gtest.h>
+
+void Sort3_17(int* buffer) {
+  asm volatile(
+      "mov 0x4(%0), %%r8d            \n"
+      "mov 0x8(%0), %%edx            \n"
+      "mov 0x8(%0), %%ecx            \n"
+      "cmp %%r8d, %%ecx              \n"
+      "cmovge %%r8d, %%edx           \n"
+      "cmovl %%r8d, %%ecx            \n"
+      "mov %%ecx, %%r8d              \n"
+      "mov (%0), %%eax               \n"
+      "cmp %%eax, %%r8d              \n"
+      "cmovge %%eax, %%r8d           \n"
+      "cmovl %%eax, %%ecx            \n"
+      "mov %%ecx, 0x8(%0)            \n"
+      "cmp %%edx, %%eax              \n"
+      "cmovle %%edx, %%r8d           \n"
+      "cmovg %%edx, %%eax            \n"
+      "mov %%r8d, 0x4(%0)            \n"
+      "mov %%eax, (%0)               \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "memory");
+}
+
+void Sort3_18(int* buffer) {
+  asm volatile(
+      "mov (%0), %%r8d              \n"
+      "mov 0x8(%0), %%edx           \n"
+      "mov %%edx, %%ecx             \n"
+      "mov 0x4(%0), %%eax           \n"
+
+
+                                           18
+      "cmp %%eax, %%edx              \n"
+      "cmovg %%eax, %%edx            \n"
+      "cmovl %%eax, %%ecx            \n"
+      "cmp %%r8d, %%ecx              \n"
+      "cmovle %%ecx, %%r8d           \n"
+      "mov (%0), %%eax               \n"
+      "cmovle %%eax, %%ecx           \n"
+      "cmp %%eax, %%edx              \n"
+      "cmovle %%edx, %%eax           \n"
+      "mov %%ecx, 0x8(%0)            \n"
+      "cmovle %%r8d, %%edx           \n"
+      "mov %%edx, 0x4(%0)            \n"
+      "mov %%edx, %%ecx              \n"
+      "mov %%eax, (%0)               \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "memory");
+}
+
+void Sort3_19(int* buffer) {
+  asm volatile(
+      "mov 0x8(%0), %%ecx            \n"
+      "mov (%0), %%r8d               \n"
+      "mov 0x4(%0), %%edx            \n"
+      "cmp %%edx, %%ecx              \n"
+      "cmovle %%ecx, %%edx           \n"
+      "mov 0x8(%0), %%eax            \n"
+      "mov 0x4(%0), %%eax            \n"
+      "cmovl %%eax, %%ecx            \n"
+      "cmp %%r8d, %%ecx              \n"
+      "cmovle %%ecx, %%r8d           \n"
+      "mov (%0), %%eax               \n"
+      "cmovle %%eax, %%ecx           \n"
+      "cmp %%eax, %%edx              \n"
+      "cmovle %%edx, %%eax           \n"
+      "cmovge %%edx, %%r8d           \n"
+      "mov %%eax, (%0)               \n"
+      "mov %%r8d, 0x4(%0)            \n"
+      "mov 0x4(%0), %%edx            \n"
+      "mov %%ecx, 0x8(%0)            \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "memory");
+}
+
+void Sort3_20(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax              \n"
+      "mov 0x4(%0), %%eax           \n"
+      "mov 0x8(%0), %%ecx           \n"
+      "mov %%eax, %%edx             \n"
+      "cmp %%eax, %%ecx             \n"
+      "cmovl %%ecx, %%edx           \n"
+      "cmovl %%eax, %%ecx           \n"
+
+
+                                           19
+      "mov (%0), %%eax               \n"
+      "mov %%eax, %%r8d              \n"
+      "cmp %%r8d, %%ecx              \n"
+      "cmovle %%ecx, %%r8d           \n"
+      "cmovl %%eax, %%ecx            \n"
+      "cmp %%edx, %%eax              \n"
+      "cmp %%eax, %%edx              \n"
+      "cmovl %%edx, %%eax            \n"
+      "cmovg %%edx, %%r8d            \n"
+      "cmp %%ecx, %%eax              \n"
+      "mov %%ecx, 0x8(%0)            \n"
+      "mov %%r8d, 0x4(%0)            \n"
+      "mov %%eax, (%0)               \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "memory");
+}
+
+
+void Sort4_28(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax               \n"
+      "mov 0x4(%0), %%ecx            \n"
+      "mov 0x8(%0), %%edx            \n"
+      "cmp %%eax, %%edx              \n"
+      "mov %%ecx, %%r9d              \n"
+      "mov (%0), %%r8d               \n"
+      "cmovg %%edx, %%r8d            \n"
+      "mov %%r8d, %%r10d             \n"
+      "cmovg %%eax, %%edx            \n"
+      "mov 0xc(%0), %%eax            \n"
+      "cmp %%ecx, %%eax              \n"
+      "cmovge %%eax, %%r9d           \n"
+      "cmovge %%ecx, %%eax           \n"
+      "cmp %%r10d, %%r9d             \n"
+      "cmovge %%r9d, %%r10d          \n"
+      "cmovge %%r8d, %%r9d           \n"
+      "mov %%r10d, 0xc(%0)           \n"
+      "mov %%edx, %%r10d             \n"
+      "cmp %%edx, %%eax              \n"
+      "cmovge %%eax, %%r10d          \n"
+      "cmovge %%edx, %%eax           \n"
+      "mov %%eax, (%0)               \n"
+      "cmp %%r9d, %%r10d             \n"
+      "mov %%r9d, %%edx              \n"
+      "cmovg %%r10d, %%edx           \n"
+      "mov %%edx, 0x8(%0)            \n"
+      "cmovge %%r9d, %%r10d          \n"
+      "mov %%r10d, 0x4(%0)           \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "r9d", "memory");
+}
+
+
+
+                                           20
+void Sort4_29(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax               \n"
+      "mov 0x4(%0), %%ecx            \n"
+      "mov %%ecx, %%r9d              \n"
+      "mov 0x8(%0), %%edx            \n"
+      "mov %%eax, %%r8d              \n"
+      "cmp %%r8d, %%edx              \n"
+      "cmovg %%edx, %%r8d            \n"
+      "cmovge %%eax, %%edx           \n"
+      "mov 0xc(%0), %%eax            \n"
+      "cmp %%ecx, %%eax              \n"
+      "cmovge %%eax, %%r9d           \n"
+      "cmovge %%ecx, %%eax           \n"
+      "cmp %%r8d, %%r9d              \n"
+      "mov %%r8d, %%r10d             \n"
+      "cmovge %%r9d, %%r10d          \n"
+      "cmovg %%r8d, %%r9d            \n"
+      "cmp %%edx, %%eax              \n"
+      "mov %%r10d, 0xc(%0)           \n"
+      "mov %%r9d, 0x8(%0)            \n"
+      "mov %%edx, %%r10d             \n"
+      "cmovg %%eax, %%r10d           \n"
+      "cmovge %%edx, %%eax           \n"
+      "mov %%r9d, %%edx              \n"
+      "cmp %%r9d, %%r10d             \n"
+      "mov %%eax, (%0)               \n"
+      "cmovg %%r10d, %%edx           \n"
+      "mov %%edx, 0x8(%0)            \n"
+      "cmovge %%r9d, %%r10d          \n"
+      "mov %%r10d, 0x4(%0)           \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "r9d", "memory");
+}
+
+void Sort4_30(int* buffer) {
+  asm volatile(
+      "mov 0x4(%0), %%ecx           \n"
+      "mov 0x8(%0), %%edx           \n"
+      "mov (%0), %%eax              \n"
+      "cmp %%eax, %%edx             \n"
+      "mov %%eax, %%r8d             \n"
+      "mov (%0), %%eax              \n"
+      "cmovg %%edx, %%r8d           \n"
+      "cmovge %%eax, %%edx          \n"
+      "mov 0xc(%0), %%eax           \n"
+      "cmp %%ecx, %%eax             \n"
+      "mov %%ecx, %%r9d             \n"
+      "cmovg %%eax, %%r9d           \n"
+      "cmovge %%eax, %%r9d          \n"
+      "cmovg %%ecx, %%eax           \n"
+      "cmp %%r8d, %%r9d             \n"
+      "mov %%r8d, %%r10d            \n"
+
+
+                                           21
+      "cmovge %%r9d, %%r10d          \n"
+      "mov %%r10d, 0xc(%0)           \n"
+      "cmovg %%r8d, %%r9d            \n"
+      "mov %%edx, %%r10d             \n"
+      "cmp %%edx, %%eax              \n"
+      "cmovge %%eax, %%r10d          \n"
+      "cmovge %%edx, %%eax           \n"
+      "mov %%eax, (%0)               \n"
+      "cmp %%r9d, %%r10d             \n"
+      "mov %%r9d, %%edx              \n"
+      "cmovge %%r10d, %%edx          \n"
+      "mov %%edx, 0x8(%0)            \n"
+      "cmovge %%r9d, %%r10d          \n"
+      "mov %%r10d, 0x4(%0)           \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "r9d", "memory");
+}
+
+void Sort4_31(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax              \n"
+      "mov 0x4(%0), %%ecx           \n"
+      "mov 0x8(%0), %%edx           \n"
+      "mov (%0), %%eax              \n"
+      "cmp %%eax, %%edx             \n"
+      "mov %%eax, %%r8d             \n"
+      "cmovg %%edx, %%r8d           \n"
+      "cmovge %%eax, %%edx          \n"
+      "cmp %%ecx, %%eax             \n"
+      "mov 0xc(%0), %%eax           \n"
+      "cmp %%ecx, %%eax             \n"
+      "mov %%ecx, %%r9d             \n"
+      "cmovg %%eax, %%r9d           \n"
+      "cmovge %%eax, %%r9d          \n"
+      "cmovg %%ecx, %%eax           \n"
+      "cmp %%r8d, %%r9d             \n"
+      "mov %%r8d, %%r10d            \n"
+      "cmovge %%r9d, %%r10d         \n"
+      "mov %%r10d, 0xc(%0)          \n"
+      "cmovg %%r8d, %%r9d           \n"
+      "mov %%edx, %%r10d            \n"
+      "cmp %%edx, %%eax             \n"
+      "cmovge %%eax, %%r10d         \n"
+      "cmovge %%edx, %%eax          \n"
+      "mov %%eax, (%0)              \n"
+      "cmp %%r9d, %%r10d            \n"
+      "mov %%r9d, %%edx             \n"
+      "cmovge %%r10d, %%edx         \n"
+      "mov %%edx, 0x8(%0)           \n"
+      "cmovg %%r9d, %%r10d          \n"
+      "mov %%r10d, 0x4(%0)          \n"
+      : "+r"(buffer)
+      :
+
+
+                                           22
+      : "eax", "ecx", "edx", "r8d", "r9d", "memory");
+}
+
+void Sort5_42(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax               \n"
+      "mov %%eax, %%ecx              \n"
+      "mov 0x4(%0), %%edx            \n"
+      "cmp %%edx, %%eax              \n"
+      "cmovg %%edx, %%eax            \n"
+      "cmovl %%edx, %%ecx            \n"
+      "mov 0x8(%0), %%r8d            \n"
+      "mov 0xc(%0), %%r9d            \n"
+      "mov %%r8d, %%r10d             \n"
+      "cmp %%r9d, %%r10d             \n"
+      "cmovl %%r9d, %%r10d           \n"
+      "mov 0x10(%0), %%edx           \n"
+      "cmovge %%r9d, %%r8d           \n"
+      "mov %%r8d, %%r9d              \n"
+      "cmp %%eax, %%r9d              \n"
+      "cmovge %%eax, %%r8d           \n"
+      "cmovge %%r9d, %%eax           \n"
+      "cmp %%edx, %%r10d             \n"
+      "mov %%edx, %%r9d              \n"
+      "cmovg %%r10d, %%edx           \n"
+      "cmovg %%r9d, %%r10d           \n"
+      "cmp %%r9d, %%r8d              \n"
+      "cmovle %%r8d, %%r9d           \n"
+      "cmovle %%r10d, %%r8d          \n"
+      "mov %%r9d, (%0)               \n"
+      "cmp %%ecx, %%r10d             \n"
+      "cmovge %%ecx, %%r8d           \n"
+      "cmovl %%ecx, %%r10d           \n"
+      "cmp %%eax, %%r8d              \n"
+      "mov %%eax, %%r9d              \n"
+      "cmovge %%r8d, %%eax           \n"
+      "cmovg %%r9d, %%r8d            \n"
+      "mov %%r8d, 0x4(%0)            \n"
+      "cmp %%r10d, %%edx             \n"
+      "cmovle %%edx, %%r10d          \n"
+      "cmovge %%edx, %%ecx           \n"
+      "mov %%ecx, 0x10(%0)           \n"
+      "cmp %%eax, %%r10d             \n"
+      "cmovl %%r10d, %%eax           \n"
+      "cmovge %%r10d, %%r9d          \n"
+      "mov %%eax, 0x8(%0)            \n"
+      "mov %%r9d, 0xc(%0)            \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "r9d", "r10d", "memory");
+}
+
+void Sort5_43(int* buffer) {
+  asm volatile(
+
+
+                                           23
+      "mov (%0), %%eax               \n"
+      "mov 0x4(%0), %%ecx            \n"
+      "cmp %%eax, %%ecx              \n"
+      "mov %%eax, %%edx              \n"
+      "cmovl %%ecx, %%edx            \n"
+      "cmovg %%ecx, %%eax            \n"
+      "mov 0xc(%0), %%r8d            \n"
+      "mov 0x10(%0), %%ecx           \n"
+      "cmp %%r8d, %%ecx              \n"
+      "mov %%r8d, %%r9d              \n"
+      "cmovl %%ecx, %%r9d            \n"
+      "cmovg %%ecx, %%r8d            \n"
+      "mov 0x8(%0), %%r10d           \n"
+      "cmp %%r10d, %%r8d             \n"
+      "mov %%r10d, %%ecx             \n"
+      "cmovl %%r8d, %%ecx            \n"
+      "cmovle %%r10d, %%r8d          \n"
+      "cmp %%ecx, %%r9d              \n"
+      "cmovle %%r9d, %%r10d          \n"
+      "cmovg %%r9d, %%ecx            \n"
+      "cmp %%eax, %%r8d              \n"
+      "mov %%eax, %%r9d              \n"
+      "cmovl %%r8d, %%r9d            \n"
+      "cmovle %%eax, %%r8d           \n"
+      "cmp %%edx, %%ecx              \n"
+      "mov %%edx, %%eax              \n"
+      "cmovl %%ecx, %%eax            \n"
+      "cmovle %%edx, %%ecx           \n"
+      "mov %%r8d, 0x10(%0)           \n"
+      "cmp %%eax, %%r10d             \n"
+      "cmovle %%r10d, %%edx          \n"
+      "mov %%edx, (%0)               \n"
+      "cmovg %%r10d, %%eax           \n"
+      "cmp %%r9d, %%ecx              \n"
+      "mov %%r9d, %%r8d              \n"
+      "cmovl %%ecx, %%r8d            \n"
+      "cmovle %%r9d, %%ecx           \n"
+      "mov %%ecx, 0xc(%0)            \n"
+      "cmp %%r8d, %%eax              \n"
+      "cmovle %%eax, %%r9d           \n"
+      "mov %%r9d, 0x4(%0)            \n"
+      "cmovg %%eax, %%r8d            \n"
+      "mov %%r8d, 0x8(%0)            \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "r9d", "r10d", "memory");
+}
+
+void Sort5_44(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax              \n"
+      "mov 0x4(%0), %%ecx           \n"
+      "mov 0xc(%0), %%r9d           \n"
+      "mov 0x10(%0), %%r10d         \n"
+
+
+                                           24
+      "mov %%eax, %%r8d              \n"
+      "mov 0x8(%0), %%edx            \n"
+      "cmp %%eax, %%ecx              \n"
+      "cmovle %%ecx, %%r8d           \n"
+      "cmovle %%eax, %%ecx           \n"
+      "mov 0xc(%0), %%eax            \n"
+      "cmp %%r9d, %%r10d             \n"
+      "cmovg %%r10d, %%r9d           \n"
+      "cmovle %%r10d, %%eax          \n"
+      "cmovle %%r9d, %%r10d          \n"
+      "cmp %%edx, %%r10d             \n"
+      "cmovg %%edx, %%r9d            \n"
+      "cmovl %%edx, %%r10d           \n"
+      "cmp %%eax, %%edx              \n"
+      "cmovle %%eax, %%r9d           \n"
+      "cmovge %%eax, %%edx           \n"
+      "mov %%edx, 0x4(%0)            \n"
+      "mov %%ecx, %%eax              \n"
+      "cmp %%ecx, %%r10d             \n"
+      "cmovge %%r10d, %%ecx          \n"
+      "cmovle %%r10d, %%eax          \n"
+      "mov %%ecx, 0x10(%0)           \n"
+      "mov %%r8d, %%ecx              \n"
+      "cmp %%ecx, %%r9d              \n"
+      "cmovle %%r9d, %%ecx           \n"
+      "mov %%eax, %%r10d             \n"
+      "cmovl %%r8d, %%r9d            \n"
+      "cmp %%edx, %%r8d              \n"
+      "cmovge %%edx, %%r8d           \n"
+      "cmovle %%edx, %%ecx           \n"
+      "cmp %%eax, %%r9d              \n"
+      "cmovl %%r9d, %%r10d           \n"
+      "mov %%r8d, (%0)               \n"
+      "cmovl %%eax, %%r9d            \n"
+      "cmp %%eax, %%edx              \n"
+      "cmovl %%ecx, %%eax            \n"
+      "cmovg %%ecx, %%r10d           \n"
+      "mov %%eax, 0x4(%0)            \n"
+      "mov %%r10d, 0x8(%0)           \n"
+      "mov %%r9d, 0xc(%0)            \n"
+      : "+r"(buffer)
+      :
+      : "eax", "ecx", "edx", "r8d", "r9d", "r10d", "memory");
+}
+
+void Sort5_45(int* buffer) {
+  asm volatile(
+      "mov (%0), %%eax              \n"
+      "mov 0x4(%0), %%r8d           \n"
+      "mov 0xc(%0), %%r9d           \n"
+      "mov %%r8d, %%ecx             \n"
+      "mov 0x10(%0), %%r10d         \n"
+      "mov 0x8(%0), %%edx           \n"
+      "cmp %%eax, %%r8d             \n"
+
+
+                                           25
+       "cmovg %%eax, %%r8d            \n"
+       "cmovle %%eax, %%ecx           \n"
+       "mov %%ecx, 0x4(%0)            \n"
+       "cmp %%r9d, %%r10d             \n"
+       "mov %%r8d, (%0)               \n"
+       "mov %%r9d, %%eax              \n"
+       "cmovle %%r10d, %%eax          \n"
+       "cmovl %%r9d, %%r10d           \n"
+       "cmovge %%r10d, %%r9d          \n"
+       "cmp %%edx, %%r9d              \n"
+       "cmovle %%edx, %%r10d          \n"
+       "cmovg %%edx, %%r9d            \n"
+       "cmp %%eax, %%edx              \n"
+       "cmovle %%eax, %%r9d           \n"
+       "cmovg %%eax, %%edx            \n"
+       "cmp %%ecx, %%r10d             \n"
+       "mov %%r10d, %%eax             \n"
+       "cmovge %%ecx, %%r10d          \n"
+       "cmovl %%ecx, %%eax            \n"
+       "mov %%r9d, %%ecx              \n"
+       "cmp %%r8d, %%r9d              \n"
+       "mov %%eax, 0x10(%0)           \n"
+       "cmovl %%r8d, %%r9d            \n"
+       "cmovg %%r8d, %%ecx            \n"
+       "mov %%r10d, %%eax             \n"
+       "cmp %%eax, %%r9d              \n"
+       "cmovle %%r9d, %%r10d          \n"
+       "cmovle %%eax, %%r9d           \n"
+       "cmp %%r8d, %%edx              \n"
+       "mov %%r9d, 0xc(%0)            \n"
+       "cmovl %%edx, %%r8d            \n"
+       "cmovge %%edx, %%ecx           \n"
+       "mov %%r8d, (%0)               \n"
+       "cmp %%eax, %%ecx              \n"
+       "cmovge %%ecx, %%r10d          \n"
+       "mov %%r10d, 0x8(%0)           \n"
+       "cmovl %%ecx, %%eax            \n"
+       "mov %%eax, 0x4(%0)            \n"
+       : "+r"(buffer)
+       :
+       : "eax", "ecx", "edx", "r8d", "r9d", "r10d", "memory");
+}
+

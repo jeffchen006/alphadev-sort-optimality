@@ -1,0 +1,17 @@
+{
+  "name": "macro9one31",
+  "command": [
+    "./dagx",
+    "round5/artifacts/macro9one.skel",
+    "31",
+    "1"
+  ],
+  "wall_limit": 300.0,
+  "exit": 0,
+  "seconds": 0.9296657489612699,
+  "log": "round5/logs/macro9one31.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

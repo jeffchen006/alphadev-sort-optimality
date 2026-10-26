@@ -1,0 +1,362 @@
+[
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_108b52d1733c50f9.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_108b52d1733c50f9.s",
+    "sha256": "372dc9a16d4b2176b27a847593ec64a23c0f75a68976dbeabfb55d61516714bc",
+    "registers": 8,
+    "cmp_positions": [
+      2,
+      6,
+      9,
+      12,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "e0f50ccddc04b4eef099133cd1ff172cfd9d2d3e054226681034c26eb72f4cb3"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_15d47dd100cf7fcb.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_15d47dd100cf7fcb.s",
+    "sha256": "0ce8a387a6c182d42d9745969ec7c8a9deeafe178576e47e9ef8e325cdbea018",
+    "registers": 8,
+    "cmp_positions": [
+      2,
+      5,
+      8,
+      12,
+      15,
+      19,
+      25,
+      28
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "0cfebd5199cac3fc9fea34910a3453c876e5eefd9282b2e9109f4f4fce0fc201"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_23f00ca3e09530d3.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_23f00ca3e09530d3.s",
+    "sha256": "3e626701bdf1a22d51d0e73408f4d6185fc13fce09ea0a71010aa828ed28db1c",
+    "registers": 8,
+    "cmp_positions": [
+      1,
+      5,
+      10,
+      13,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "c49edb4656cf75cd0967cd213b9b27ba31de109e1b92d17176e8505a74f9f813"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_26e49cf60c846007.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_26e49cf60c846007.s",
+    "sha256": "33f719793851a71c6c355848f4004c3ad1c64b4bd2508fcb2c64b591bf4ca39e",
+    "registers": 9,
+    "cmp_positions": [
+      0,
+      5,
+      9,
+      12,
+      16,
+      19,
+      26,
+      29
+    ],
+    "deletions": [
+      4
+    ],
+    "canonical_spine": "fb37c2e9584b657147f4c8a62b6d24ab357cabfab30229ce7d40645a1212f2c5"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_2754b681df96846f.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_2754b681df96846f.s",
+    "sha256": "c0dd624cfb86a9079e88028956c949b9ba8e1a8b665d020d4f3a9ca8502b624d",
+    "registers": 8,
+    "cmp_positions": [
+      2,
+      5,
+      9,
+      13,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "5c142d6b7798b8956b0423cebdeb67aaba42d1ac2d0135ca8084082858a2d334"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_2b1431ee7889f02b.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_2b1431ee7889f02b.s",
+    "sha256": "90cf813fd4a5b9a8f6f82ee14686967662fc871431259bdd0fa10ca3043a93c3",
+    "registers": 9,
+    "cmp_positions": [
+      0,
+      5,
+      9,
+      13,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      1
+    ],
+    "canonical_spine": "e9e650858228c602d02f14d970f96a8de1d43c9b740e3204f6bd3337685ee167"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_2c342e0e0fbafd57.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_2c342e0e0fbafd57.s",
+    "sha256": "8d00d0b960e69103b9486643bd3f7bf35696ba82e3bbf723ecf649ac134bc0b7",
+    "registers": 8,
+    "cmp_positions": [
+      1,
+      5,
+      9,
+      13,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "b1326da83ea8ef327bcbe5a046c74e8e483b67dcbb9588a4519548d5935cb4e3"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_2dfea391c9fdd3bb.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_2dfea391c9fdd3bb.s",
+    "sha256": "596c92011343834c395c80a0b22f214f04a34df745c9a8e03f6edbc2cfda93a2",
+    "registers": 8,
+    "cmp_positions": [
+      1,
+      4,
+      8,
+      12,
+      15,
+      19,
+      26,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "729cd0b6823efabcf55ccbdc924d741437db86172d1d5d1e692a4f31686ab23f"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_2fc1b3fefa56100b.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_2fc1b3fefa56100b.s",
+    "sha256": "dd66638e80043ad62d3f523c950109361b3b51e7fa57f51b10af45686f99b81c",
+    "registers": 8,
+    "cmp_positions": [
+      2,
+      5,
+      8,
+      13,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "ae60c9a9e4073609753087d45998de81a5f3d7f891969746f386faa0b3419eea"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_3395266762428bd.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_3395266762428bd.s",
+    "sha256": "c0feed08b2271cb813978078dd0881657b8e21bb6bbb2df10e1ed1f61ba1f1f8",
+    "registers": 8,
+    "cmp_positions": [
+      2,
+      5,
+      8,
+      13,
+      16,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "9347d1aa81167b4578b07d0cdb98a0a50f04f9424c2e13f5ca05a64d4fc630a4"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_3809e545578327.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_3809e545578327.s",
+    "sha256": "1ade4b9c2b4a439b2952b235804b25bf5f897b30d7c96c96734816600ed534ca",
+    "registers": 9,
+    "cmp_positions": [
+      1,
+      7,
+      10,
+      14,
+      17,
+      20,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "21522605747620212f2c4f7b28102285fa2b6a4d686e1db6abb467ae3779754b"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_57fa7c797ed6c84f.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_57fa7c797ed6c84f.s",
+    "sha256": "cfc140417025adffa788e670d8495081bb76b538e7ae95f1841b900c7ededb21",
+    "registers": 8,
+    "cmp_positions": [
+      0,
+      6,
+      9,
+      12,
+      15,
+      19,
+      25,
+      28
+    ],
+    "deletions": [
+      3
+    ],
+    "canonical_spine": "b520aba891a7db892fd12ef85b9de306663bab4cb273bfbbc9f511aa9917a944"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_903a0e9b56d0fdc7.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_903a0e9b56d0fdc7.s",
+    "sha256": "e26f88a46ae26891f338fe5b7c65169a745c63174090f2fed29e4eca06a070e6",
+    "registers": 8,
+    "cmp_positions": [
+      0,
+      5,
+      9,
+      12,
+      15,
+      19,
+      25,
+      29
+    ],
+    "deletions": [
+      3
+    ],
+    "canonical_spine": "58d284531b3cbd5c17e35e20f684d0b738f34358b019814c8b8ac9edcc547794"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_9dc3b82d8b1e62f.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_9dc3b82d8b1e62f.s",
+    "sha256": "d3e20cdaea4a5ab97ebe2bb188b6224f0de82b147e72dd01e18e4231379185e6",
+    "registers": 9,
+    "cmp_positions": [
+      0,
+      5,
+      10,
+      13,
+      16,
+      20,
+      25,
+      29
+    ],
+    "deletions": [
+      1
+    ],
+    "canonical_spine": "b6ad8629334f03f46ea8fac2c5d53459212e2fbddaf18da6217cedeaf442a893"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_9f2faf3e2b5848b.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_9f2faf3e2b5848b.s",
+    "sha256": "1df40c62465b6cbbd9931d78c78c1b30cb49460f7194d9bf91546d2912019d59",
+    "registers": 9,
+    "cmp_positions": [
+      2,
+      5,
+      9,
+      14,
+      17,
+      20,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "c4044a5235e36f455ccdfc62f32e2c137590a39f7099b697d2a0ba03414aab37"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_b71830c38f98f13.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_b71830c38f98f13.s",
+    "sha256": "4bc439ae43c5e179caaeee53f3aa8ce7b9efc6ee10e8cd34575f20fb2cb249ff",
+    "registers": 8,
+    "cmp_positions": [
+      0,
+      6,
+      9,
+      14,
+      17,
+      20,
+      25,
+      29
+    ],
+    "deletions": [
+      1
+    ],
+    "canonical_spine": "11e99fb271744c5879cb8413f4ace4243537c33f30dc93b24daef144553d8c5a"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_be0bab6887969b3.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_be0bab6887969b3.s",
+    "sha256": "b8564599f0d92ecb4479d5ec612c971417c81efdd700b53521512f46086a3eee",
+    "registers": 9,
+    "cmp_positions": [
+      1,
+      5,
+      9,
+      14,
+      17,
+      20,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "85d88cca3625a66967b411abb6d40da81826198ef77ec71336898a71bbb03b57"
+  },
+  {
+    "seed": "/path/to/repo/agents/team/codex-fleet/w4/round6/extra/seeds/c8_de052e5a1c75d83.s",
+    "source": "/path/to/repo/agents/team/codex-fleet/w4/round6/seeds/c8_de052e5a1c75d83.s",
+    "sha256": "bdbda19db10a7b58df4284278bbfb88d07df4ab8de49ae4f508001b143be8d84",
+    "registers": 8,
+    "cmp_positions": [
+      1,
+      4,
+      9,
+      12,
+      16,
+      20,
+      25,
+      29
+    ],
+    "deletions": [
+      0
+    ],
+    "canonical_spine": "8fcf4126ec4ec41b9aeee1a2712d2f2cf392d12546623b91b7734e6a1f942497"
+  }
+]

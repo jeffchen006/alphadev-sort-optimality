@@ -1,0 +1,28 @@
+{
+  "name": "near9_suffix12_typed",
+  "command": [
+    "python3",
+    "-B",
+    "round3/src/satrep.py",
+    "round5/candidates/fresh31_near.s",
+    "round6/candidates/near9_suffix12_typed.s",
+    "--rank",
+    "--typed",
+    "--changes",
+    "0",
+    "--prefix",
+    "19",
+    "--maxcmp",
+    "9",
+    "--random-seed",
+    "626122"
+  ],
+  "wall_limit": 180.0,
+  "exit": 124,
+  "seconds": 181.37794326618314,
+  "log": "round6/logs/near9_suffix12_typed.log",
+  "affinity": [
+    73,
+    74
+  ]
+}

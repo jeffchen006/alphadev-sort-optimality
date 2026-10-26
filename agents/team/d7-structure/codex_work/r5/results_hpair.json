@@ -1,0 +1,842 @@
+[
+  {
+    "id": "hpair_15_11__15_5",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__15_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.238,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_11__12_15",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__12_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 5.675,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_11__12_5",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__12_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.367,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_11__11_15",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.16,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_11__11_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.212,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_11__5_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.264,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_11__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_11__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.316,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_5__12_15",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_5__12_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.368,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_5__12_5",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_5__12_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.421,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_5__11_15",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_5__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.066,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_5__11_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_5__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 7.374,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_5__5_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_5__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 4.874,
+    "rc": 0
+  },
+  {
+    "id": "hpair_15_5__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_15_5__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 15,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 6.488,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_15__12_5",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_15__12_5.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.302,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_15__11_15",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_15__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 8.889,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_15__11_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.584,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_15__5_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.04,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_15__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 9.512,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_5__11_15",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_5__11_15.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 11.38,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_5__11_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_5__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 15.384,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_5__5_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_5__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 11.236,
+    "rc": 0
+  },
+  {
+    "id": "hpair_12_5__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_12_5__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 12,
+        "src": 5,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.248,
+    "rc": 0
+  },
+  {
+    "id": "hpair_11_15__11_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_11_15__11_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 13.888,
+    "rc": 0
+  },
+  {
+    "id": "hpair_11_15__5_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_11_15__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.46,
+    "rc": 0
+  },
+  {
+    "id": "hpair_11_15__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_11_15__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 15,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.14,
+    "rc": 0
+  },
+  {
+    "id": "hpair_11_12__5_12",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_11_12__5_12.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.664,
+    "rc": 0
+  },
+  {
+    "id": "hpair_11_12__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_11_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 11,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 14.828,
+    "rc": 0
+  },
+  {
+    "id": "hpair_5_12__5_11",
+    "idea": "Two alternative conditional pair states under cmp(max34,max012)",
+    "file": "codex_work/r5/pool_hpair_5_12__5_11.txt",
+    "size": 27,
+    "selects": [
+      {
+        "dest": 5,
+        "src": 12,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      },
+      {
+        "dest": 5,
+        "src": 11,
+        "flag": [
+          5,
+          11
+        ],
+        "condition": "g"
+      }
+    ],
+    "result": "NONE <= 31",
+    "R": 10,
+    "seconds": 10.984,
+    "rc": 0
+  }
+]

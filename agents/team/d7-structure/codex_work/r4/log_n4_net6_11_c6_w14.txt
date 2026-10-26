@@ -1,0 +1,17 @@
+pool 16 terms
+rules 16445
+reduced rules 73
+root: min creations 12, min cmp blocks 6
+R = 6 (auto: 4 + K - creations - blocks = 6)
+depth 1 states 17 seen 17
+depth 2 states 72 seen 89
+depth 3 states 116 seen 205
+depth 4 states 236 seen 441
+depth 5 states 96 seen 537
+depth 6 states 87 seen 624
+depth 7 states 276 seen 900
+depth 8 states 20 seen 920
+depth 9 states 10 seen 930
+depth 10 states 40 seen 970
+depth 11 states 0 seen 970
+NONE <= 20

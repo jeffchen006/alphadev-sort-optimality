@@ -1,0 +1,2 @@
+{"created": "2026-10-26T07:52:45.698137+00:00", "seed": 101026, "sampling": "Uniform without replacement; ceil(N/10)", "population": [], "population_size": 0, "requested_sample_size": 0, "results": [], "verified": 0, "complete": false}
+{"time": "2026-10-26T07:52:45.699369+00:00", "cases": {"total": 3280, "decided": 0, "remaining": 3280, "unknown": 0, "no_result": 3280, "incomplete": 0, "split": 1, "sat_pending_review": 0}, "independent_sample_verified": 0, "independent_sample_requested": 0, "sample_complete": false}

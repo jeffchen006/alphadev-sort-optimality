@@ -1,0 +1,14 @@
+[
+  {
+    "path": "candidates/synth_triple12_control32_out.s",
+    "model": "out",
+    "pass": true,
+    "log": "logs/synth_triple12_control32_out_judge.log"
+  },
+  {
+    "path": "candidates/synth_triple12_control32_mem.s",
+    "model": "mem",
+    "pass": true,
+    "log": "logs/synth_triple12_control32_mem_judge.log"
+  }
+]

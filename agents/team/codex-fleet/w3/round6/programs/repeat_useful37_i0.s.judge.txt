@@ -1,0 +1,2 @@
+PASS /path/to/repo/agents/team/codex-fleet/w3/round6/programs/repeat_useful37_i0.s [relaxed+strict] n=5 L=37 R=119 iset=I1 model=out
+  AlphaDev-pruning notes (not enforced): line 17: consecutive cmp

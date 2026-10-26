@@ -1,0 +1,3242 @@
+[
+  {
+    "file": "round10/sk_invented/i00026.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "870e392e1a0d791efd60e7825c119e24919eaab495fd0f5e92261d7c9ebe1305"
+  },
+  {
+    "file": "round10/sk_invented/i00062.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "e3ec27282d3b047721329c983a2e7be99d59e5a028e1c87583ebeb056ebd55e5"
+  },
+  {
+    "file": "round10/sk_invented/i00098.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "cf99d629f069a5f70c5e4976a70fb986aaa9f14ddd3a3ce19eb901cffb2bb30e"
+  },
+  {
+    "file": "round10/sk_invented/i00134.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "380039b4ed40db742a4e81cc2d6a070e73758c4e4e351f398e61cf6df4bd9017"
+  },
+  {
+    "file": "round10/sk_invented/i00170.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "591ae8b97cfcbace9fc45b0c780461f286d9548284c1eb814ede2752d49ee803"
+  },
+  {
+    "file": "round10/sk_invented/i00206.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "d1b6092ffc96fb93a5103d5162d2dd0be46dae53f8141676d7f1826cad8631dc"
+  },
+  {
+    "file": "round10/sk_invented/i00242.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "8883c1e8c1f05f0b7742940a1d31fc2287e1110cc83dc62399a90f395f830018"
+  },
+  {
+    "file": "round10/sk_invented/i00278.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "89ddd381d7132c466fa8fbff6c91500465c990f1dc198b5a9c650ef73381c84a"
+  },
+  {
+    "file": "round10/sk_invented/i00314.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "e7e5688fa724acc1e794cdeabe8656e6e19ac6d048c4ea87c36f1abe7fd6affb"
+  },
+  {
+    "file": "round10/sk_invented/i00350.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "c7e22f44a66c2fb8986c7c8b2a45abd18230fac14dc72e6f8f53a41e129b1b19"
+  },
+  {
+    "file": "round10/sk_invented/i00386.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "d3fb6261fcfbefc12fe397075f29377cbe7e9208e4449939be29c5c93ad41929"
+  },
+  {
+    "file": "round10/sk_invented/i00422.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "43c7536a859c55ebcab2a5ba325bf596d94690027f2b9e6bc6de047649d1ea5f"
+  },
+  {
+    "file": "round10/sk_invented/i00458.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "9022e29cd57cfd6d9b575a3460a7a4e11e0d9bf208fe1d45aaacbc35b58b54aa"
+  },
+  {
+    "file": "round10/sk_invented/i00494.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "0bc28a7e17144734f4e88ea7dfe378700ffabd12d4ec684406098c1445f237d5"
+  },
+  {
+    "file": "round10/sk_invented/i00530.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "1832c13cc9d830e71534bf4637059146674be440812c7c548a2c10fb30523aae"
+  },
+  {
+    "file": "round10/sk_invented/i00561.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "757f315cb3ec8454dc177d90000809e7302da9966dda73794b198c0914ad8206"
+  },
+  {
+    "file": "round10/sk_invented/i00592.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "f0e16a143115c367c87a755e0f8a6b82751bb54c379afa668299db502b3859e5"
+  },
+  {
+    "file": "round10/sk_invented/i00622.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "fd6501ab508c47759fbe68e5184053b57cb8f4aa12274a2baf6271a7806a143c"
+  },
+  {
+    "file": "round10/sk_invented/i00659.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "25419a0f8ddec664a961932d53760c33a81948e623b17b3b74a593b19a9b45b5"
+  },
+  {
+    "file": "round10/sk_invented/i00695.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "6f89f97a7bba9a95c476ad5281a1e0e98d8b3709f96164f89d4d755a8eff2742"
+  },
+  {
+    "file": "round10/sk_invented/i00731.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "30c7d208d76496789e319a4d9a3b976c8d1d00fe821b8b213542a78befdae700"
+  },
+  {
+    "file": "round10/sk_invented/i00767.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "ad623006464eb8029550a6e56a1205c208d9b3359ed9569cf7b84eebec6bcc53"
+  },
+  {
+    "file": "round10/sk_invented/i00803.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "5cd125e6530ec8c53c4963a90b929e31077ffd59314eca66cf05e27a31c166a3"
+  },
+  {
+    "file": "round10/sk_invented/i00839.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "8e219ac0ce36b0866fd2ff66e2a1ae8a21d06747a417fb454ab2eb7b23b17b43"
+  },
+  {
+    "file": "round10/sk_invented/i00875.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "2f70fb4909a611ab5f9a9a9d5980d07095686ea2ddf553109f52e0ad3766352a"
+  },
+  {
+    "file": "round10/sk_invented/i00911.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "81f4c5789c5b2b2097e66b34bd352ca0fb7a5b38aa944b3fa0a5f34d174f9d4b"
+  },
+  {
+    "file": "round10/sk_invented/i00947.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "e93abee9b2d444f7901fb23ae4821760fa2c01e8459241614c5a15f629d7cba2"
+  },
+  {
+    "file": "round10/sk_invented/i00983.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "734cd1d319da290a9cca1d0696d3a89e6e38a5d3a8125f308391c52eb7fe4966"
+  },
+  {
+    "file": "round10/sk_invented/i01019.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "dd76deff3744129003ca2fae393b1d383d8dda9e5915fc2d57824fefad519753"
+  },
+  {
+    "file": "round10/sk_invented/i01055.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "26851a947fd52c1224ac1e5645a2ff240b26904fcc7120dfab842a3ca36556fe"
+  },
+  {
+    "file": "round10/sk_invented/i01091.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "5189b3d35087fb8a04c4a7c56e18916d4e751a7004b4fb46c85fae2be48a172a"
+  },
+  {
+    "file": "round10/sk_invented/i01127.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "942c483efb6ca29279beb526c6d12fe8ff65c2d6cd0ebb59ff6552b9b93f0b97"
+  },
+  {
+    "file": "round10/sk_invented/i01163.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "ed206b9fde630533899824c832d37e39473e8a233bacfe7f4c34abc7ecc12961"
+  },
+  {
+    "file": "round10/sk_invented/i01199.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "1d43fa0b46da83d8e1c18bc4182c061607f878a03c43e1eb0124486846bd6fbf"
+  },
+  {
+    "file": "round10/sk_invented/i01235.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "700994be2691cbed607200ca1a098d5afe4d8e5425265f5d9d6eaaf5c3fac83b"
+  },
+  {
+    "file": "round10/sk_invented/i01271.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "3e0e2534908bbbe34a961d7400e16d2d40bebc38c2a3205aaf35e5678b1b29a4"
+  },
+  {
+    "file": "round10/sk_invented/i01307.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "e29b90ca59d89ff90d02d273f5a3d30fcd117b63928988d174f5673df4f6ac76"
+  },
+  {
+    "file": "round10/sk_invented/i01343.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "689883f256185e2fa0f2c257e2f43118c5446c1d7c508d18cebd05f6cf684716"
+  },
+  {
+    "file": "round10/sk_invented/i01379.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "184059fb694087c751e4b44e7f71ae67511557a80a8be2e7bfcd855a0fbb620f"
+  },
+  {
+    "file": "round10/sk_invented/i01415.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "42360cded01709f666aa15166fa48cb4b735ebf619c92028dae90e370d6259ed"
+  },
+  {
+    "file": "round10/sk_invented/i01451.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "f1ab31f4c454696b0e2002ab4fbed58d2ab91146083d9d489ae8b1e471702858"
+  },
+  {
+    "file": "round10/sk_invented/i01487.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "6413200d06b0f2f443e5c5fd13ceafec9bc4af94d127a527eaeb82605ebd5917"
+  },
+  {
+    "file": "round10/sk_invented/i01523.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "8766307d0df72f7aceec3bc011d6d3343852a005684b421d2366ba6a84cdf1ec"
+  },
+  {
+    "file": "round10/sk_invented/i01559.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "091b49f97421b6d39f706d60849fd3b53c91c4eacff1a97b562b5b27762cd5a8"
+  },
+  {
+    "file": "round10/sk_invented/i01595.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "9165ba87bd4cd697bb4dcaffbf51f99b5dc04571263b0c7adad06d917ef89107"
+  },
+  {
+    "file": "round10/sk_invented/i01631.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "006e90221670eff77eaf63542591ceefba331c6d8080f6b036117dab72eabc82"
+  },
+  {
+    "file": "round10/sk_invented/i00021.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "c6826dbdd4cf41d7b7f6b590fe897ca247bbb2bb32a5341a46cddd1b89993ef0"
+  },
+  {
+    "file": "round10/sk_invented/i00057.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "a254c7ed842a9f1afd149c233516bd7de61c27faa3e96e4f1fda92d33c4a899a"
+  },
+  {
+    "file": "round10/sk_invented/i00093.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "4bd7cd3f48273d7d2b66de44e282a6915f0feddc3d049a0c206f2c454e04d622"
+  },
+  {
+    "file": "round10/sk_invented/i00129.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "96af0935b086b794202df6e9c3e4fa63581727e00ef33f49dd9bb7da459f42fb"
+  },
+  {
+    "file": "round10/sk_invented/i00165.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "f87035953ab5d84f8700d8a30564f331700fa4a61156e8372928d7caebb3d272"
+  },
+  {
+    "file": "round10/sk_invented/i00201.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "a2e00da0838d1f2be50a02d3c5d785209400da4c5280176b50953d01e989f1bb"
+  },
+  {
+    "file": "round10/sk_invented/i00237.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "cbf874d1e2fac31b9cc8104c310e28ec2bf6eb86c46f7941ce74a3462717f468"
+  },
+  {
+    "file": "round10/sk_invented/i00273.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "58d5004d57be3f44507ba1cd2fe72f46f4735f86a3249f13c521f1ef525d5194"
+  },
+  {
+    "file": "round10/sk_invented/i00309.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "133f02f0bc2fdb0aa06da0e66b6c7250327780e7737744349bdaaffa8434333b"
+  },
+  {
+    "file": "round10/sk_invented/i00345.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "cb98773ec36e55967616c4db42cfd2ca3ecd06a3bf71c64f9fc244b482f993d9"
+  },
+  {
+    "file": "round10/sk_invented/i00381.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "cf3d96edaff4b36cdbcb75fa5fd024e9a67af4f4935e634d8339b860327b088e"
+  },
+  {
+    "file": "round10/sk_invented/i00417.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "de04d443183c702d490845cf69ab67d92d75e27c900839b5ec31451862dae613"
+  },
+  {
+    "file": "round10/sk_invented/i00453.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "ee2a77496e3b04e5b9520faf846762c8cd75eca899643a9ba9e4338445c155f7"
+  },
+  {
+    "file": "round10/sk_invented/i00489.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "6bb03655c28f5c95e609ae48ad0830d42e43ec5ca99d19e81ea43b5f29383a01"
+  },
+  {
+    "file": "round10/sk_invented/i00525.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "c0cb399012b071e29c872d677e41e2e6f356d529382bb102f5b158aca05dcabc"
+  },
+  {
+    "file": "round10/sk_invented/i00565.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "60bae7d287d3d37c7193c9a8ae3dfb51aae461936025fe8926ec81ce47469797"
+  },
+  {
+    "file": "round10/sk_invented/i00596.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "cc3ea7765b37a6b0bbf4ece35cdf9479e9e91823126df889da4773fa37967f10"
+  },
+  {
+    "file": "round10/sk_invented/i00627.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "e651a69f096ea44f014c1b62654246fb50f7cdb728bc6ce79c14d6090289df2a"
+  },
+  {
+    "file": "round10/sk_invented/i00654.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "39773327f790c667943103de9c6816fb41a59c65e34554c391576d414ce4e309"
+  },
+  {
+    "file": "round10/sk_invented/i00690.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "adea05d6b45c6aa3f46b70a30f3237b2699cae7eb7c4df0d580b170f30d3854a"
+  },
+  {
+    "file": "round10/sk_invented/i00726.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "f47c83c6369ab1a91eaa2e788d948a2a94adb167fffa75b4c66848dbdee88109"
+  },
+  {
+    "file": "round10/sk_invented/i00762.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "90e23ff42ae75b8c86b8a57517c834b5230288db187557d69f798da006a45c8d"
+  },
+  {
+    "file": "round10/sk_invented/i00798.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "de37590330422b50ed7f9474cde4632cb38a50384e861b919c5842a9734d62f6"
+  },
+  {
+    "file": "round10/sk_invented/i00834.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "ea7a7c2d42874fbfd54e7ee0172bfe77aadfa4ca9f344bc56a58de215e042c2d"
+  },
+  {
+    "file": "round10/sk_invented/i00870.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "56c0a1e25fac25048740d640fea15311c437778b8bae8a1c60b2795743109379"
+  },
+  {
+    "file": "round10/sk_invented/i00906.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "dbd811e59148040a762529c4e483bbb5cdf1dff9ea110b4c1c7279fb7d7f9883"
+  },
+  {
+    "file": "round10/sk_invented/i00942.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "e67dd521a2565e5a43de869ffdcf5ed3c721ec88ccf191a82ec935c845ff6612"
+  },
+  {
+    "file": "round10/sk_invented/i00978.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "cd45bde3d8143a8383ea2723ec909d3524382aed5c093e35a6e3a19ceb95f541"
+  },
+  {
+    "file": "round10/sk_invented/i01014.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "80b114ca15c1dfd702c1afb147011a69b2a43997b779f8419dc30b5fae218f11"
+  },
+  {
+    "file": "round10/sk_invented/i01050.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "8175e8ee0265a980066f08f7ba7744a3f8501a36c07a0440bb237fa097bd0733"
+  },
+  {
+    "file": "round10/sk_invented/i01086.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "b08af42346ac3c5e6d47aa129a15d32b1349ac286d86f278e65d638e1581e76d"
+  },
+  {
+    "file": "round10/sk_invented/i01122.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "1b85658d56ca5ae82216dc7e89e28a280e23480ffdbe64a2132a2d8bb2f1ebd5"
+  },
+  {
+    "file": "round10/sk_invented/i01158.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "38338dafb33d1b1ae87efa82b1d281a4f2b4eabbdfc2fc9db3e73dd5d63040f8"
+  },
+  {
+    "file": "round10/sk_invented/i01194.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "43ef013f656c374ff50fbd7ce67b708caace916cb1dc976ea00e0d3d5e00cce4"
+  },
+  {
+    "file": "round10/sk_invented/i01230.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "114f58ef9a03487a8a0b554907ec7076ce16ff18f4c7be03b5d524f60ed277e4"
+  },
+  {
+    "file": "round10/sk_invented/i01266.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "dd140429cdd3b51ec8c8d7d04f46ff8333c6b9b760d801a45c0161ae7663d5f7"
+  },
+  {
+    "file": "round10/sk_invented/i01302.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "ab3a06632c9ba63f85b7ecc9e5e54c5d975481b24c13646110c50a53e2bbfba8"
+  },
+  {
+    "file": "round10/sk_invented/i01338.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "04ede0a74f64747dc3250918a5012de3af915a682366e9e0b0244efb2b20a91a"
+  },
+  {
+    "file": "round10/sk_invented/i01374.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "99ea711c794eb0706a84128f8f52ab0a01445d8a24fcf9d974feae58b4904942"
+  },
+  {
+    "file": "round10/sk_invented/i01410.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "eb13c8cbf9d9489a98acbd93ff2e879fd273d70387aec8acce47209690f13b8c"
+  },
+  {
+    "file": "round10/sk_invented/i01446.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "586da080da54df3d44becbbd2c937eda8ff059e21df0040311bca183709d23dd"
+  },
+  {
+    "file": "round10/sk_invented/i01482.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "a3facf0685d4f94c4d851996313699743d1925c54d24c260c9e17b1947ec81e2"
+  },
+  {
+    "file": "round10/sk_invented/i01518.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "a810829a4b0799de6256888c9b111f28177587382a26adacf09906fed346855c"
+  },
+  {
+    "file": "round10/sk_invented/i01554.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "5d2a87656f388ce37acb70f34d8fc56c3be6c95bcb0593470f6b5347998a061a"
+  },
+  {
+    "file": "round10/sk_invented/i01590.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "d4903831f62d92c5cec79e9f47950f04487d10d8730e661d99c3150424d2aa6a"
+  },
+  {
+    "file": "round10/sk_invented/i01626.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 3,
+    "insert": 5,
+    "kind": "invented_macro_repeat",
+    "sha256": "407c4aaea08f93c547a9d0c0c308cfe355040330df0fdb989897c982dae8b6b6"
+  },
+  {
+    "file": "round10/sk_invented/i00030.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "f7bb7ac3b9539615e48a4b8df47e9610264468fa0fc1c85ad5ebab2ea4ad2b1a"
+  },
+  {
+    "file": "round10/sk_invented/i00066.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "8c8b54ac34523b01de8f78aaf450e9fc11b6a1f231b4422302ef808893073c30"
+  },
+  {
+    "file": "round10/sk_invented/i00102.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "dd7242ad2a50649dbccced864ff3d4145b79550f99036189a347d484b5920e78"
+  },
+  {
+    "file": "round10/sk_invented/i00138.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "ee0139f733b467dab0ed7f361b00312f39251600c5556e993134ad00280ae2d8"
+  },
+  {
+    "file": "round10/sk_invented/i00174.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "610c9993979575848ade6cbb8d5565bd03e758ccd7705faf13140f5c73ba3124"
+  },
+  {
+    "file": "round10/sk_invented/i00210.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "a19ad7162eae547da8f37ee0298f313bc0d6dff2d332f0d728bf438b1d42ef0a"
+  },
+  {
+    "file": "round10/sk_invented/i00246.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "1ffbc0608157d8949ba45d4f2e90ee5f101b51a6c85f5051055fe7d2e8db08d9"
+  },
+  {
+    "file": "round10/sk_invented/i00282.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "20665ff04fb80c0beea006806f678808accf6420c0f85270e65daecdc7d1c525"
+  },
+  {
+    "file": "round10/sk_invented/i00318.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "c8670b733ea35f1147fc398505bc342b7d8ac0029d36bf3824024b44e0cbb10e"
+  },
+  {
+    "file": "round10/sk_invented/i00354.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "22019d23f2434063cbf2ebde6a8f6d9f262dd777ef15a3468115199b900aa657"
+  },
+  {
+    "file": "round10/sk_invented/i00390.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "37b26e12e52c9c7c86b8d0a3f1968346d090ef4f93e774478db3ccdae9eeb9be"
+  },
+  {
+    "file": "round10/sk_invented/i00426.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "d0fae97f0ae967dd72867dfb5cb6825e3d2e695c954cd0ef1c6a93d14bf7bb4e"
+  },
+  {
+    "file": "round10/sk_invented/i00462.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "4453c92b555691dd7eef4a9ea127bcbc9e3ab5f6e07ad15b580773e0a22cba68"
+  },
+  {
+    "file": "round10/sk_invented/i00498.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "6423d7bbb808434744dbff7d143d372f8c48e7b5afdf91a58e79b1e709dc5a5e"
+  },
+  {
+    "file": "round10/sk_invented/i00534.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "f1cd0cc76d9d82c787b76b41e6d17bfad9dd71e5b3996cbdd25e8b42c844519f"
+  },
+  {
+    "file": "round10/sk_invented/i00555.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "9448774fef8a2e623ce48f7b8e39f85419b55c674fad92145fc3e16d4d6720ea"
+  },
+  {
+    "file": "round10/sk_invented/i00586.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "c023486ead3a551fb686367e3e81dab25111be14dfcc2152164c7cb48ccd13eb"
+  },
+  {
+    "file": "round10/sk_invented/i00617.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "01abc941cc4891db6da3b45747c102895c7b9e85d8cec3edfcec56424e3a5102"
+  },
+  {
+    "file": "round10/sk_invented/i00663.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "833b813b6bf24641b0c8ade20508eeb99ec46608c9e5495c999530fca693f966"
+  },
+  {
+    "file": "round10/sk_invented/i00699.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "b4743e21ac16f022d8e6bb016dfb666927ec421fdf206089fa47528486ba7671"
+  },
+  {
+    "file": "round10/sk_invented/i00735.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "7724ca1fcf8d3bfa4a55c44e9afcab61f9cd4a7ac628b13e0ccc72564ecfc76e"
+  },
+  {
+    "file": "round10/sk_invented/i00771.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "555115d3120905b54ffca5719fb2ad2c000cf99add18bd91ebcce393075b0097"
+  },
+  {
+    "file": "round10/sk_invented/i00807.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "40044cd55d4f8f9f18c84e17670dbd50002928911dcf3adbe249dde648a4279e"
+  },
+  {
+    "file": "round10/sk_invented/i00843.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "a55c9c08e309485ab04c957927bdcea075ea5b2ff35773cb3e9668fcad9fb7fe"
+  },
+  {
+    "file": "round10/sk_invented/i00879.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "37b6031151a4e0f050e3801c56d8622d723453fd5f53fea9a7d8c70c98fa8cd3"
+  },
+  {
+    "file": "round10/sk_invented/i00915.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "83c3b8caac3de48c9dcd9f28a024522bbb95c7386dd9b8f7161aac240aac386a"
+  },
+  {
+    "file": "round10/sk_invented/i00951.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "f30ab595a5839e8a16d3e0d30c53cfccb751ad8534eb45bccd128525a8ab52af"
+  },
+  {
+    "file": "round10/sk_invented/i00987.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "256885169209ee89c336541d2f69434c763b94d36fcc9a194ad6b0f63008ec88"
+  },
+  {
+    "file": "round10/sk_invented/i01023.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "ca292669024c9d4ada7f5e0dde6f52e131259a91c8cd14b5486e59f45310f7a7"
+  },
+  {
+    "file": "round10/sk_invented/i01059.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "66627d19223dfc4234f2d37bf50e5d4ed817b316173b75c1d7e4ed190deb3ad7"
+  },
+  {
+    "file": "round10/sk_invented/i01095.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "a9a0b7d84f1af1ce622e6d761ddb1c2a34a29d6a285d650c68f867d394229bb5"
+  },
+  {
+    "file": "round10/sk_invented/i01131.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "2229c8f24b7c75bafc698c8b518ce1c8ab3e55a9cef5b3951aef89baba8ce585"
+  },
+  {
+    "file": "round10/sk_invented/i01167.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "3ba9d4d950bfb71602b2955d1e0036d054489aa5cc80591948616249a3bbb372"
+  },
+  {
+    "file": "round10/sk_invented/i01203.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "9c4b9032599f9f0409d8b49681823a277c5d64cc9e5c6e7b742a254f715b2fcb"
+  },
+  {
+    "file": "round10/sk_invented/i01239.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "4df85e947f48a4480fb5646e7fad40de87a0a854a0e2e43c94e3f51b7a9c4f6a"
+  },
+  {
+    "file": "round10/sk_invented/i01275.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "e27f8cb9846e3d776007afe6eddbfa6d165a3b0d0b4f74e823b9585c8a17a851"
+  },
+  {
+    "file": "round10/sk_invented/i01311.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "755cad81c8944c1285a106172dfa638be578fc080a20ad7865e191393a20ea7a"
+  },
+  {
+    "file": "round10/sk_invented/i01347.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "34ddb48ad2d78e111eed2a035c39852db9b7fada607a1846f966fe092353ef54"
+  },
+  {
+    "file": "round10/sk_invented/i01383.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "ab8934b3c8c11da36847cea6fbf80085f2f7c842dcb494b0233e2cc76524e94d"
+  },
+  {
+    "file": "round10/sk_invented/i01419.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "4fe12758fa31ada45bc24d9efef8625478cdac6d34f6a75f13b8d08fb2dd527e"
+  },
+  {
+    "file": "round10/sk_invented/i01455.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "de963f9a556c7f9bcc2f7d3f6552d7bffe8b083e3110daf49392a481a46860d7"
+  },
+  {
+    "file": "round10/sk_invented/i01491.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "c9f457e9c1f2d31cf34a8ff736d2a43c61aa5a5ea01ba1a13d09db0da5198c83"
+  },
+  {
+    "file": "round10/sk_invented/i01527.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "0b53f97eec70bea642981ef84c39795db34f2c2c13eca7ee85bae81931e67003"
+  },
+  {
+    "file": "round10/sk_invented/i01563.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "7f20259d0427d29718c583531e584468413a6c7596a557605579d632602463b0"
+  },
+  {
+    "file": "round10/sk_invented/i01599.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "a8eac0619a4be25fe5726f98762ec905ea15a72efdfb1d5297b6b444b23b2004"
+  },
+  {
+    "file": "round10/sk_invented/i01635.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 5,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "e30ddfb57aa02649586cb87e9584596e7ac17bf873ab4b90362fe34c7b17e1f0"
+  },
+  {
+    "file": "round10/sk_invented/i00015.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "0b2f961978fcabc72fff6efa427085ff4b237257b91bd0a2d5f8804e94cea238"
+  },
+  {
+    "file": "round10/sk_invented/i00051.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "22cf9c39026092c5f3fe8bfbf0f292be922a0d4f76787198a7a8f20d78f5a6e6"
+  },
+  {
+    "file": "round10/sk_invented/i00087.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "394d8f33e6c96ea21e2b07aad53d59678cdb9f9cafef047038830fdb1163bada"
+  },
+  {
+    "file": "round10/sk_invented/i00123.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "015c7706287fb920f0f1518c6b5a3354df5c1ec76165667a0c18fc07030e5838"
+  },
+  {
+    "file": "round10/sk_invented/i00159.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "aeb21087855fdf850fef9989ac7846d653616479bf207c697904c8d616161e65"
+  },
+  {
+    "file": "round10/sk_invented/i00195.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "fc2117fd05fb018e081a5549754c1b16b0a889b66392d495fd6d3e1532b762b2"
+  },
+  {
+    "file": "round10/sk_invented/i00231.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "aaa3ab4d7c27b5b23daf7e0983430b6e176e4cb0b86e180d9a800b6da76ad711"
+  },
+  {
+    "file": "round10/sk_invented/i00267.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "8ce1559d24cdcacde6f224e1b7783bc2dc8d46c00610dbbd73360608dadef143"
+  },
+  {
+    "file": "round10/sk_invented/i00303.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "f3fec133329a7c452db382b47ecb1dd21993b85cc344e2a9872c57bd2a081262"
+  },
+  {
+    "file": "round10/sk_invented/i00339.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "d1b09a9b8022afb43f270438950d8adf8efa6fb41e232f7a13de3979511cfa2c"
+  },
+  {
+    "file": "round10/sk_invented/i00375.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "937dbc49941fd807ad93e734b8d808781d9bbc5eafc00e4a90e8b6999c3c3919"
+  },
+  {
+    "file": "round10/sk_invented/i00411.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "6e9e537494be271a81aed173ac1e0e445e0ac7a585ead0181eb72f4dfbca79d3"
+  },
+  {
+    "file": "round10/sk_invented/i00447.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "0583835c2bd8e1bdd22c4c93d538ca7ab937cdcc6782d5143b7f5cbde30e623b"
+  },
+  {
+    "file": "round10/sk_invented/i00483.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "7ee91f42ad93ce7c76c2aef59257a5f2f812af3c2d2a5ee414d291c831db6806"
+  },
+  {
+    "file": "round10/sk_invented/i00519.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "b144b135dbe38e792738a2e8dbf32d4542b05786ba149077aacb03e9987e6b8a"
+  },
+  {
+    "file": "round10/sk_invented/i00568.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "1bea24e2a70f402f36c78a8e2a3d82c60fe366b6a31d2a644fa7488827e97e86"
+  },
+  {
+    "file": "round10/sk_invented/i00599.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "b170a4e99b8c0b8f3b8363da6c14689ce61a5864f3952d3f096dbf1de42a820d"
+  },
+  {
+    "file": "round10/sk_invented/i00630.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "f6788f7c4e780b7325d98e617ec99649249dee14619bed0c44379b8db3b9210a"
+  },
+  {
+    "file": "round10/sk_invented/i00648.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "530192c5fdd7236bf20a2fad3a9a3a190cdb6fc577515182861b32b47d77d40d"
+  },
+  {
+    "file": "round10/sk_invented/i00684.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "f28f29cc6b9c119dcde079cf1db9d0ce0090cc8b2ea467b2b84510f897e97cd8"
+  },
+  {
+    "file": "round10/sk_invented/i00720.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "705ada2080ff5347ac4271c1a5c5500d717059d2b7ab24221a830f3fb1a5db4e"
+  },
+  {
+    "file": "round10/sk_invented/i00756.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "4ffc3d9e677d5fc32c230f392a21b31dc6dfd1099f83ab81bae000c00d250643"
+  },
+  {
+    "file": "round10/sk_invented/i00792.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "fba4beff2c80cdf966ec5bf7018d0fb9930ae492e4a6749d03557cbfdf1041f4"
+  },
+  {
+    "file": "round10/sk_invented/i00828.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "1ca906552d1da41dfedd171529eb0615cd7690fb4aa585da30b4b2ebe60d92c7"
+  },
+  {
+    "file": "round10/sk_invented/i00864.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "84ddb289e5a3226dca4dc3f9e47a85047a45ced1c3cd0025501dd043deef6d9a"
+  },
+  {
+    "file": "round10/sk_invented/i00900.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "c8617542734eacc5bb0fa4a301b7ef6cf90ced45d3dbbfde2b5c0d02e4308b89"
+  },
+  {
+    "file": "round10/sk_invented/i00936.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "59a3746f047b682bf104cacf8dd4eab31529a80a18c9fd6cfe3d7cc0c9843d76"
+  },
+  {
+    "file": "round10/sk_invented/i00972.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "507fd61922754c2f3c63de99bf4a8ce2e1afb4b5f65e7a88adabdf603dd81d12"
+  },
+  {
+    "file": "round10/sk_invented/i01008.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "f053cf1d99b78174031ee357f92d4a9c6ad41ccfacfee3978618cf210458601d"
+  },
+  {
+    "file": "round10/sk_invented/i01044.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "d4ad0ea07db40ba021572a926469ed8374e921df4f27dba3876114a8d1c135f7"
+  },
+  {
+    "file": "round10/sk_invented/i01080.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "b3b61a0c36897c23aa7384e5d048e672527e85e183a269b450bc98d707bc692a"
+  },
+  {
+    "file": "round10/sk_invented/i01116.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "e2226f15912c767de0f28e6b5c4ac17615643877b243a5ea0a9700fcb29e7603"
+  },
+  {
+    "file": "round10/sk_invented/i01152.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "1885db07b773ad7fd19f67ad0196675896b80dc539070a019e6641617df86443"
+  },
+  {
+    "file": "round10/sk_invented/i01188.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "2984e4c1f99f33df7be3a3fd1c7693a6b55d0eae4b866d192d429066f9e7f3fd"
+  },
+  {
+    "file": "round10/sk_invented/i01224.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "507cc5bd380df005fbce83e4354f0502ab066346294cf61e9550a14f0637ac5a"
+  },
+  {
+    "file": "round10/sk_invented/i01260.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "5fcff1b751c243c808e8a8d2eafa0db3c7ce0f630c676b6ac6c2228608e03d05"
+  },
+  {
+    "file": "round10/sk_invented/i01296.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "b00d63d8046a2524fd59cbd63bc82ff690c57ed50bebe46678862eb263047b37"
+  },
+  {
+    "file": "round10/sk_invented/i01332.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "cb2abf9c886b762cfa962443107e9e5fa5892b6a24f93df22c6b91721e9fd7f9"
+  },
+  {
+    "file": "round10/sk_invented/i01368.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "86290a4cc54a45911fa9f4c7227bf6c6366c01f3e3971472aef3d425d7f8079a"
+  },
+  {
+    "file": "round10/sk_invented/i01404.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "4f8ffb3ea3b4910528a2a748a96e3d85c65a76782381c28da116041baab3ccdc"
+  },
+  {
+    "file": "round10/sk_invented/i01440.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "d50583393bca723a048812f22d575fac85f8ee0d2e9bbf8a2e59c91eec045505"
+  },
+  {
+    "file": "round10/sk_invented/i01476.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "01a80579b4e374eb6abb272da78b298f85b74c6de205f0572893f879de04632e"
+  },
+  {
+    "file": "round10/sk_invented/i01512.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "53e3bf782fecf13051550206d2ca05461c6e2a7f8479f4ac18101e7a8177033b"
+  },
+  {
+    "file": "round10/sk_invented/i01548.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "7d6be3f56b0b7fa729110d9f57be28ea70e50f3cd30df8c44637e696254ecc95"
+  },
+  {
+    "file": "round10/sk_invented/i01584.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "ddea02f66695d82eaad448520c6b4a1093891497298a8b9455913e59cf62f711"
+  },
+  {
+    "file": "round10/sk_invented/i01620.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 2,
+    "insert": 4,
+    "kind": "invented_macro_repeat",
+    "sha256": "aecd82e4f854903d52adaec56d03e3ade46edceb1f15cadffbe7f7888055e1dd"
+  },
+  {
+    "file": "round10/sk_invented/i00033.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "0c7f5fe800cca428e952d7d88b45252c9f736b3f4053e7b879cd0ac0976b0a68"
+  },
+  {
+    "file": "round10/sk_invented/i00069.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "ac259d0f5ec2d23f3b709605885227b9539b9e22f78968e9461fc2cd7891dea2"
+  },
+  {
+    "file": "round10/sk_invented/i00105.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "440cb0da452a1eaa29a437582fdb81dbf49eeaeb24beb855995c927c4a9615f8"
+  },
+  {
+    "file": "round10/sk_invented/i00141.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "9cd669789eab0f1fb67a6923dd0f25eba30320ffd118abebd55661f1a57d99ce"
+  },
+  {
+    "file": "round10/sk_invented/i00177.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "3e4ec0425ed258daeef3d39f3d0331afe696f4ae0b375f97f10c545db11f6ea3"
+  },
+  {
+    "file": "round10/sk_invented/i00213.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "2c154b56c7e40a44fecf0224e2849679a0b1503ac7280ff917ac0fe78a23c34e"
+  },
+  {
+    "file": "round10/sk_invented/i00249.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "9112922031c02bc13512cdb653f1cebf85b9a8f3269ec193d01870725c3df31e"
+  },
+  {
+    "file": "round10/sk_invented/i00285.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "a192e668bcd0debe12170c08dc305eff6d91ccd5126d375a0022dac4299fa906"
+  },
+  {
+    "file": "round10/sk_invented/i00321.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "1850ee61f7b39d65910cb525f30ac6682e8feb2124bf348cf667ab5de8f39876"
+  },
+  {
+    "file": "round10/sk_invented/i00357.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "50243be8a95bcae44517b757e7f333a70196e6e5307988950b3d9dfd4a130330"
+  },
+  {
+    "file": "round10/sk_invented/i00393.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "e2ca7bb46d27b3b30b711a7b519ac7f3d97823aaaf677501fcfc774a4c4826eb"
+  },
+  {
+    "file": "round10/sk_invented/i00429.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "fb5e95ac27c2084bfdc922b80c284173cc3949d9844a69e86825c7d97b6e7890"
+  },
+  {
+    "file": "round10/sk_invented/i00465.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "c5df9627adb3f416be043f56e97e26dac700ceb9af6a71e9406e65b58e84c07b"
+  },
+  {
+    "file": "round10/sk_invented/i00501.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "de0dc7692198aa4f6cab2e63a6dc04d3b91f54778c22d31769ed34cc6a46f424"
+  },
+  {
+    "file": "round10/sk_invented/i00537.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "b20bbc9e02f41df49161ed7ceee2eaa7ef5da37d368ae1b7265713614be80acc"
+  },
+  {
+    "file": "round10/sk_invented/i00548.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "d24d0ca928381d0024f92f286edecbaaee320da1759bdeeaf9c16658e372a696"
+  },
+  {
+    "file": "round10/sk_invented/i00579.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "46bc5fb2dff45379258ff73cec557f1c56e5f044f50497168ce814b1234492df"
+  },
+  {
+    "file": "round10/sk_invented/i00610.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "1215422d9e9cc1b5721f7641bfe750c6b6266652c5f4d76c45702ca7fde1b5ef"
+  },
+  {
+    "file": "round10/sk_invented/i00666.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "30b370e33c1cd0f2eac92a15aadeb487206cff14ed709995621a324c7156aab1"
+  },
+  {
+    "file": "round10/sk_invented/i00702.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "b1430eecafc7de33f2a5bdb713773d25a233116d20e96b4219712d3b9e656f37"
+  },
+  {
+    "file": "round10/sk_invented/i00738.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "d43354a889d5cf4cb5bc01b64f80967836525eb6425808ab909b3d3cab5a6563"
+  },
+  {
+    "file": "round10/sk_invented/i00774.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "e7cadc831396369683bcb14f4815ea3cb89807f77a61fe0df2070fde69c954fc"
+  },
+  {
+    "file": "round10/sk_invented/i00810.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "93f79c7eb3fba16d8e591b12ecd8bc91b630df2c12413ab7e3165f9d5e301b84"
+  },
+  {
+    "file": "round10/sk_invented/i00846.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "767f3e793609c4f68eecac74630eea20979690ad45538a8ab189de4cac14a699"
+  },
+  {
+    "file": "round10/sk_invented/i00882.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "a9c4a59267cc3157fe9e2d674a01d3c1cd041de1ad41e835e8071370340bf3ca"
+  },
+  {
+    "file": "round10/sk_invented/i00918.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "754eb4e79c354e0f403884666da68e3c7ac0b709287853fd5039dbc5056f3c07"
+  },
+  {
+    "file": "round10/sk_invented/i00954.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "0c1b2f785f06b92d6c8e4f30f6a71a918b3708d65bd020f94d817229c62415e8"
+  },
+  {
+    "file": "round10/sk_invented/i00990.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "b3796cd66f55480c85c4cf03a864f7e4237eca3527dad33f8a4395c826f21368"
+  },
+  {
+    "file": "round10/sk_invented/i01026.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "a10a1cc1c053d5c5429a77b8d3723aea425d30e384f07e7eafe1e4629e22b557"
+  },
+  {
+    "file": "round10/sk_invented/i01062.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "dde1e5776dbf32dffb2adc4d93dcc5f8e26961462dc733d3352af1e69432b85c"
+  },
+  {
+    "file": "round10/sk_invented/i01098.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "2729843b149fc78200fa98683b87ab4cdd5c6802ff9b026220a65d30acc18ed7"
+  },
+  {
+    "file": "round10/sk_invented/i01134.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "56146cae430fe6ad0ea43f49d38f21f74fa9a8a2739f71e60d43fe41304baa8f"
+  },
+  {
+    "file": "round10/sk_invented/i01170.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "a4d3f6ac864fd39ce390ebd92cf534f6092d3d0b8ff0763159ee9892abfbeabb"
+  },
+  {
+    "file": "round10/sk_invented/i01206.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "4b7952a6fffe793a9304ab5d14eedfb4f511a6988b2e9fc30814f65ff2495faa"
+  },
+  {
+    "file": "round10/sk_invented/i01242.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "8dfdf102b23ea914041d9e11e5b8dfdf052bfd4ac91695cd2d2e9e5fd98b7460"
+  },
+  {
+    "file": "round10/sk_invented/i01278.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "a82faf76da86ec4f19a278dba1d916f50a8e722c36a89c6a49ce08c13d54faa1"
+  },
+  {
+    "file": "round10/sk_invented/i01314.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "120da9f78e28c2ee90e4c1fad3f4e68e9b0f551bab343427e46742a9d0eeacdc"
+  },
+  {
+    "file": "round10/sk_invented/i01350.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "5d2c8c663231b2ff61119606ac640f33bf5e890dc4f0f640b84de945a1e05fd3"
+  },
+  {
+    "file": "round10/sk_invented/i01386.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "82d8f16d084d4c287d376642261981a0cee1ae570c2d976bcc9332e4c32f256f"
+  },
+  {
+    "file": "round10/sk_invented/i01422.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "1319423ca1f2d8d5ba6a8d5b4f524973541304b6337cb26a5e1a1c99814ffecf"
+  },
+  {
+    "file": "round10/sk_invented/i01458.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "06f29c7e90ce2af674b3882d5a862fbc1b05cad77dd845147a7bb34c362fb4cb"
+  },
+  {
+    "file": "round10/sk_invented/i01494.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "96f028df25fdd87e2fe632551cb59aeff72fb45b5a515fd2d0bd33331b36dcbf"
+  },
+  {
+    "file": "round10/sk_invented/i01530.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "28bc27c5d9c90777e2d68318b9bb138e211832ad7f831821cdf4373f8b69b12d"
+  },
+  {
+    "file": "round10/sk_invented/i01566.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "55677bf8b61e5d6877ac2a58c70c61da5e39c0e36e73447f8668787619d19a0f"
+  },
+  {
+    "file": "round10/sk_invented/i01602.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "65e5f8cefcb758d45a8c10e794ad82fcc1c51081c1b1ff893ef47993e3c9582b"
+  },
+  {
+    "file": "round10/sk_invented/i01638.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 6,
+    "insert": 8,
+    "kind": "invented_macro_repeat",
+    "sha256": "a9944cf3fb5f85abb268aa917f15aa78b6c9e00499107833342735e1e4850ae8"
+  },
+  {
+    "file": "round10/sk_invented/i00008.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "a0c36fffab7f7475b4c706b250734e0a1fb2e08e75ae0257d26c9a64b0802769"
+  },
+  {
+    "file": "round10/sk_invented/i00044.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "177e39869c73f92963bea23fbc46ad76e29aa9ae74f448e34ea1587a926d0c2d"
+  },
+  {
+    "file": "round10/sk_invented/i00080.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "ae0c635d3f63df96fc234d2f7b62dbdb619772d58f199512d235095433e41d04"
+  },
+  {
+    "file": "round10/sk_invented/i00116.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "831f6be086764cbd9a4999727068b7c2cc5af194c35d579f3fda243ebbc7c5b2"
+  },
+  {
+    "file": "round10/sk_invented/i00152.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "7a16605ddd546085dd8e93ef2301165bb4169e11b4a29eed0e7ec0a02ec881d8"
+  },
+  {
+    "file": "round10/sk_invented/i00188.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "3e9d2b7a8828e2f7afe15b75176d304928dbf7ab2a8234c8ea57760b8eabfa88"
+  },
+  {
+    "file": "round10/sk_invented/i00224.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "ff9e7b04ab1a927e4b50d873f7e2200e3f8094d23e96f371f601232b79bd0277"
+  },
+  {
+    "file": "round10/sk_invented/i00260.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "64003fc5c0185843c548aec611874fcba2e200b3cb75cb366fc94a3c874604c6"
+  },
+  {
+    "file": "round10/sk_invented/i00296.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "651f3063de6af677a0b6361bb64aa6ccddb4a90844758cfc5a72f3577df759cf"
+  },
+  {
+    "file": "round10/sk_invented/i00332.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "c36190e1b6cf96dc412d90109ca1fe1087bf9460d69c75962732c19037afe29d"
+  },
+  {
+    "file": "round10/sk_invented/i00368.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "1efff1a83dc24e18f2ddefdefe896f79d86978e9923360bf50db6da19c245aa1"
+  },
+  {
+    "file": "round10/sk_invented/i00404.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "f24ce07144b9e62fe2b57a8f6a6e52d084041558995fbd9ed90a299e9d331903"
+  },
+  {
+    "file": "round10/sk_invented/i00440.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "0e2b6e5d78f9d2794ea4da1c42a63448fdb60ac2e7e65293e23e44619a17b731"
+  },
+  {
+    "file": "round10/sk_invented/i00476.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "57c73b721a841194da7da333083469eb3097e263ae15b4e132fb59d7c9de2236"
+  },
+  {
+    "file": "round10/sk_invented/i00512.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "0bad3b9ea4feacb46ce149c5b11beda0409a7a6d67986d1c0a14e553097a3eda"
+  },
+  {
+    "file": "round10/sk_invented/i00570.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "7e7f8f1d811d7a795610c95570a23a74de594d68c24706cb429ab8171f02c681"
+  },
+  {
+    "file": "round10/sk_invented/i00601.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "6b12b6a5e2e1afb9320d6fa468035879d2e488909512f6226a874b2ec3fadce1"
+  },
+  {
+    "file": "round10/sk_invented/i00632.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "dd925585e304279cff59d37667f342d4149805cacd5a559d6466548df8c9209e"
+  },
+  {
+    "file": "round10/sk_invented/i00641.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "bbdd68bc57d835cb07feca135d55846a1e65520a2ef8a25f470df3f49bd197f6"
+  },
+  {
+    "file": "round10/sk_invented/i00677.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "a60fa14781b0f61335ec7d1a3006ef4832d6df8b77d5a76bc69271c5a59c15e1"
+  },
+  {
+    "file": "round10/sk_invented/i00713.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "1492e7c0b8129c684eabdad4579c4adec0be41f30f48c65b9dd2b56a29d6c860"
+  },
+  {
+    "file": "round10/sk_invented/i00749.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "fffe571b546d98a34c401c7336d3b667400d74ff05eca12a557953a40d12365c"
+  },
+  {
+    "file": "round10/sk_invented/i00785.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "6497a12786da6fba79434284a6424bd9209639a75fb130456afcac86877273ab"
+  },
+  {
+    "file": "round10/sk_invented/i00821.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "498b87fa6580b08a80b293aa3564fe3ece59e0f944a14b20f4472f4c0f7051d2"
+  },
+  {
+    "file": "round10/sk_invented/i00857.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "37f2664ed0b7b1403d280ed77d8d3b39b7e65a851f54fc0a9cf4bf9d52654467"
+  },
+  {
+    "file": "round10/sk_invented/i00893.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "33df11a80f703c9ca18e322854b8d64dce20ecafecd0cb88d5d6b9ce6a0db020"
+  },
+  {
+    "file": "round10/sk_invented/i00929.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "483ca5b9a6e4092dcbb6e68450a4566f0b04d9a7eed792773bfee3c8dabae411"
+  },
+  {
+    "file": "round10/sk_invented/i00965.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "457d22789b80eef95275909fbaa4b59db10d207526bc49fbef9bfc8fa2d53992"
+  },
+  {
+    "file": "round10/sk_invented/i01001.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "9ca79363da017ebb3acefbc6085da95299e81a43f924e84b3ab80035092636b5"
+  },
+  {
+    "file": "round10/sk_invented/i01037.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "0ef17fac9881f424c14c55e3449743672364008e1deed657d3c9377f07f39116"
+  },
+  {
+    "file": "round10/sk_invented/i01073.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "4b12ad31c66704329c53dfcd910af5324f44c0d1b3e5f2ce52bba85ed4ad5716"
+  },
+  {
+    "file": "round10/sk_invented/i01109.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "b04ffe43390055a643e2a5ad3d9f823dbb6a8b76968eef7d1e1fa52d403ecfd9"
+  },
+  {
+    "file": "round10/sk_invented/i01145.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "d4837fbe9624e4de0a07510f2c167133f0a806e01838702bff29660ef106cdff"
+  },
+  {
+    "file": "round10/sk_invented/i01181.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "6aacb7c0eea5b7d79f005f644cb3797933a9ca9aab11a43a2a660e0ca4709ee5"
+  },
+  {
+    "file": "round10/sk_invented/i01217.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "95b935d2c02e5ee9a1a0393c1b4825ede27b4343033634f7061a696ee024077f"
+  },
+  {
+    "file": "round10/sk_invented/i01253.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "fa89e7e5b66de2df728c25994a5881a0d04cb674ce8683483b4d811fb8e4d30f"
+  },
+  {
+    "file": "round10/sk_invented/i01289.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "00f0aeeafcb010738de4cfb5cf56483fb0d8adc874f4949b8fb4c7328b801d05"
+  },
+  {
+    "file": "round10/sk_invented/i01325.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "ef75e6987444283750078f1aae421bf7a208edf5aa2174e1a84b4729ea6db217"
+  },
+  {
+    "file": "round10/sk_invented/i01361.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "a05d2a8332a6d6b9868242c8ed99112e1ec5052db59c6d446221230a0f11bdab"
+  },
+  {
+    "file": "round10/sk_invented/i01397.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "92733048fe47ffcb425e145d4a2266918b10ac7679e5d749eab46348df751a71"
+  },
+  {
+    "file": "round10/sk_invented/i01433.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "820bd1efd194114a61dddb99ea92458f78be9900a732b70c39e538fd0596bd44"
+  },
+  {
+    "file": "round10/sk_invented/i01469.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "69a516aae80b191bc794004e1eafe58093f461d1003c35b5416d26fc7f99a688"
+  },
+  {
+    "file": "round10/sk_invented/i01505.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "f92067455a8fa65609060e2bc2d164df529d1aa54a327fa6d7caf0c842a5d1cb"
+  },
+  {
+    "file": "round10/sk_invented/i01541.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "f43acfbc6c26d511ad2c9f11abe3663fdce99f5e4f50a30b5e238efdb118ac52"
+  },
+  {
+    "file": "round10/sk_invented/i01577.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "5f4460b3d3f15faa3d0458624a65213faa94400471b34b51b309a8204e4a0aa4"
+  },
+  {
+    "file": "round10/sk_invented/i01613.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 1,
+    "insert": 3,
+    "kind": "invented_macro_repeat",
+    "sha256": "7c77ff3f7fe836f40854a6fc43c6f631fafd0b6e73ac14ce54fea79533bf2cf8"
+  },
+  {
+    "file": "round10/sk_invented/i00035.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "1c23a4e6f4c583b64d47a474bf8d859c8459b0a6c4a73b02aeb2715aaa1ea28f"
+  },
+  {
+    "file": "round10/sk_invented/i00071.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "11b324a6e175aa682d1b9682d7e2b8414bdc9d00fd4b3c83321f2483790071f6"
+  },
+  {
+    "file": "round10/sk_invented/i00107.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "a3e18df8e7fc26a75317824402f14904e98f7f9e3f4e573df24d87633be3c209"
+  },
+  {
+    "file": "round10/sk_invented/i00143.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "260673258c7cb5a3cefd70f56409fa1877bb5a1d4598c7ba5813b4450449ce5f"
+  },
+  {
+    "file": "round10/sk_invented/i00179.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "59eeb06cf4b136749ea1b0de6cdb279d06d7c1c1a0929e2e9d20b5d6501373ba"
+  },
+  {
+    "file": "round10/sk_invented/i00215.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "06dd882327d93bbde92a30ce249a3dd9cc39c8079e2e400946077737ab903fcc"
+  },
+  {
+    "file": "round10/sk_invented/i00251.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "642b5b71ef542c79546e74b73b66d0c33a3e2ece925827368b0951e9e831c00c"
+  },
+  {
+    "file": "round10/sk_invented/i00287.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "a3f48ff1585d1b78a5d8b6f3b755f0bd896141295bc0c0b7d1790f72912c9c52"
+  },
+  {
+    "file": "round10/sk_invented/i00323.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "dec04703ca9e83b475e5f9488ad0540e458071cd27e72868dc2ebf245e994921"
+  },
+  {
+    "file": "round10/sk_invented/i00359.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "8ece9a112f3fb2b5bcab9c4ab5b02d1803107966b02d39d5f84418d83ec93418"
+  },
+  {
+    "file": "round10/sk_invented/i00395.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "fb7b2734a262a0ef56bfc0049f95e6640c3bfa1508de7296b6c37237f14aa761"
+  },
+  {
+    "file": "round10/sk_invented/i00431.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "5c58fe10c6d38f7d9b3c6919e09278260c899f8cb8506f83be493651e1c36bf9"
+  },
+  {
+    "file": "round10/sk_invented/i00467.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "6b9ac25a6a6bedd98bac9cd53f488d032e4ecc3ec01ea5c8d8c514aacb20210a"
+  },
+  {
+    "file": "round10/sk_invented/i00503.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "1d81de79bc9c95da6ca1ee2002f9eab6a019d1bbf4219651b77148c112856f4c"
+  },
+  {
+    "file": "round10/sk_invented/i00539.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "a3608d922b2814c5a009795a44113aaa796336fbc072ad769114308285cd5d04"
+  },
+  {
+    "file": "round10/sk_invented/i00540.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "83620146b234e5da515d7252975f570087b69088b72776448d4b832dcb88d4de"
+  },
+  {
+    "file": "round10/sk_invented/i00571.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "10d7d512affdabb3021f4c0a41d2765cd6fba46015a3b277dfde91d627d90b90"
+  },
+  {
+    "file": "round10/sk_invented/i00602.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "e0d481149c66a4d52faf65f931b3ecbce4e183c97dfc0e462cffddaba9131f1a"
+  },
+  {
+    "file": "round10/sk_invented/i00668.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "2ca8ff5d23238493e0a566d3b6c878f4513767040cd890f0e396ec7b6a24ac9d"
+  },
+  {
+    "file": "round10/sk_invented/i00704.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "0345aa55de79b51632b37cc676e293f5e54309b458708749c0af004811612378"
+  },
+  {
+    "file": "round10/sk_invented/i00740.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "8bf7a37201e4b0b0ce3ec533fb91fee4d0f3ba7ceb6dd505971c0562465dabab"
+  },
+  {
+    "file": "round10/sk_invented/i00776.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "ac9cb7f7d32fddcaf020f91af85b273118efd5682332d4bc8b473d3021575fc4"
+  },
+  {
+    "file": "round10/sk_invented/i00812.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "92dc6fc898bc2072cee78b3e4dd616a598be3313a5018d4d5a72096e0d7ac029"
+  },
+  {
+    "file": "round10/sk_invented/i00848.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "2c486f678f9d36978fd44115cfa91a07fc0a3b74e0cc03da7646f5edb96b123d"
+  },
+  {
+    "file": "round10/sk_invented/i00884.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "6ad8086082ab0f9a68aa08b024fd5176e046944632ab1f3e735ecdd30a1b58cb"
+  },
+  {
+    "file": "round10/sk_invented/i00920.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "4662171a1df94c67b4572a96117412729aa1d40940a83838df316520374b793c"
+  },
+  {
+    "file": "round10/sk_invented/i00956.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "5ffdd730c2c24bc9fdba29dfe3ed99ccd29ea1fd72d6ecc5b64a2980a3246605"
+  },
+  {
+    "file": "round10/sk_invented/i00992.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "0875db492b5334117bf215b7ca5b977ed50cc2ec5e45b94bb799759c16db90da"
+  },
+  {
+    "file": "round10/sk_invented/i01028.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "4bd3900a3da38191eb1841a7c15432796c3dfcd01045cef899ba2d943a2e3130"
+  },
+  {
+    "file": "round10/sk_invented/i01064.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "f06353d0f0f3ad82f65352f060a091b7eb88c8380718bf498a3c3d17ece7ca3a"
+  },
+  {
+    "file": "round10/sk_invented/i01100.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "ccc1e7bb1b385f806112296db9b022b0ee00eef74bc2c3160be5c3b7fb86b096"
+  },
+  {
+    "file": "round10/sk_invented/i01136.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "58a45da0b345db502e39dccffa530e89de2c662dadf048a55046979c7a05812f"
+  },
+  {
+    "file": "round10/sk_invented/i01172.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "433e3aba3b0f37b12863fb24189b8423f7b416faa6eaeb010b0f9ac5c35f340c"
+  },
+  {
+    "file": "round10/sk_invented/i01208.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "a349acb7253afeed15eb74a249c6214914d51b8e076f97b571cb0d923fdecd43"
+  },
+  {
+    "file": "round10/sk_invented/i01244.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "e5f5c3f970a0f2fcfcd60be055d5d76ae0919f6cf6ff0f0a1bfee3d80f2193d7"
+  },
+  {
+    "file": "round10/sk_invented/i01280.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "8aba564876b9dff1ebd1a44bb16c9054b8a6e85285ca195a9af5df158de3aa55"
+  },
+  {
+    "file": "round10/sk_invented/i01316.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "3532c659b1f7ce65a0675e5f7a3ff74216c6925593870826c669dc704fa4d549"
+  },
+  {
+    "file": "round10/sk_invented/i01352.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "35bc6ce8ea77c40f5fbc942e2527faa27d8328d8d772d06e81a748b2d835d370"
+  },
+  {
+    "file": "round10/sk_invented/i01388.txt",
+    "seed": "round10/invented/m00040.s",
+    "base": 40,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "7fdbd92d88bc223e88999641e9bcb7f4050baf7c93115ddf43aa0a9872b3101b"
+  },
+  {
+    "file": "round10/sk_invented/i01424.txt",
+    "seed": "round10/invented/m00041.s",
+    "base": 41,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "ea83a2b0e43df7ae01a4ee457657658d3a42578db2a4823f0071fa2677b6c126"
+  },
+  {
+    "file": "round10/sk_invented/i01460.txt",
+    "seed": "round10/invented/m00042.s",
+    "base": 42,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "c4407244d933d51d094fc13003ab0f8be62029225aa71105d1fda7689c54784c"
+  },
+  {
+    "file": "round10/sk_invented/i01496.txt",
+    "seed": "round10/invented/m00043.s",
+    "base": 43,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "dd319278853b6a755a2707190207b97a77487e1463e99e882392194efb14ea15"
+  },
+  {
+    "file": "round10/sk_invented/i01532.txt",
+    "seed": "round10/invented/m00044.s",
+    "base": 44,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "92884dcbb00eb3546f61be65b7d96859faa2dd10761eb6ee7c43416a951a4afd"
+  },
+  {
+    "file": "round10/sk_invented/i01568.txt",
+    "seed": "round10/invented/m00045.s",
+    "base": 45,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "55775b5bf6bff5b6b7a5346b3abd42da0acf6b2d8abd4e00a6f923b4e165c3eb"
+  },
+  {
+    "file": "round10/sk_invented/i01604.txt",
+    "seed": "round10/invented/m00046.s",
+    "base": 46,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "196a23d93f3d8940116fd6c1720b3d785cb417855b498a3fac4878387ea36510"
+  },
+  {
+    "file": "round10/sk_invented/i01640.txt",
+    "seed": "round10/invented/m00047.s",
+    "base": 47,
+    "repeat": 7,
+    "insert": 9,
+    "kind": "invented_macro_repeat",
+    "sha256": "3808245dd98e10a6b60f2110577c17868a5d40c2df56863863b7916ad0b2d0be"
+  },
+  {
+    "file": "round10/sk_invented/i00000.txt",
+    "seed": "round10/invented/m00001.s",
+    "base": 1,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "803b09adebc32332c8ffea02c69e52a994638881e74ba096854b53dd39bf9dea"
+  },
+  {
+    "file": "round10/sk_invented/i00036.txt",
+    "seed": "round10/invented/m00002.s",
+    "base": 2,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "b99b34fd42ea72fd4f6a4b7c948eb7bfb5d70ae62675bacbcb6f5a88abbf7a18"
+  },
+  {
+    "file": "round10/sk_invented/i00072.txt",
+    "seed": "round10/invented/m00003.s",
+    "base": 3,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "cc359786806286292b4e8ab469ab5c16bb97aa55a48ae55d53ecef5536d4d3bb"
+  },
+  {
+    "file": "round10/sk_invented/i00108.txt",
+    "seed": "round10/invented/m00004.s",
+    "base": 4,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "34465000deb42eafd5eb41d6aa5bd944b05b8c7e7734782b0cfa4d59bb51a194"
+  },
+  {
+    "file": "round10/sk_invented/i00144.txt",
+    "seed": "round10/invented/m00005.s",
+    "base": 5,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "4a08a7fed4bd587761e20d58928b29634b72d926aa32aff3cadc04e179e0ad49"
+  },
+  {
+    "file": "round10/sk_invented/i00180.txt",
+    "seed": "round10/invented/m00006.s",
+    "base": 6,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "e2da27d20ea0ffb1d404afbe787add5b6117cc2aa593cac75c0417d24aa6bb02"
+  },
+  {
+    "file": "round10/sk_invented/i00216.txt",
+    "seed": "round10/invented/m00007.s",
+    "base": 7,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "5b2290a1f627a3b8ed595788b62c1684654fa6d2e1a641cc39067bde2115c258"
+  },
+  {
+    "file": "round10/sk_invented/i00252.txt",
+    "seed": "round10/invented/m00008.s",
+    "base": 8,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "503682b420b1e68909fa98cc4850440a57445d3d19f07f3ba01f72ee0470ea73"
+  },
+  {
+    "file": "round10/sk_invented/i00288.txt",
+    "seed": "round10/invented/m00009.s",
+    "base": 9,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "278d5782d89bf287e121e0f734ae7ccc3a2435129f091c9762f94a196e5648f6"
+  },
+  {
+    "file": "round10/sk_invented/i00324.txt",
+    "seed": "round10/invented/m00010.s",
+    "base": 10,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "c33f5857001c8c064d7c08cc6fb299f8e89fbe5aadf9fad4c2b4e50896ac9143"
+  },
+  {
+    "file": "round10/sk_invented/i00360.txt",
+    "seed": "round10/invented/m00011.s",
+    "base": 11,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "da0a0d35fa9be69cc389208f16123f2fe244e9c3346d8bc628a975628618e4d8"
+  },
+  {
+    "file": "round10/sk_invented/i00396.txt",
+    "seed": "round10/invented/m00012.s",
+    "base": 12,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "94484c95d477088cc703b8fddff41acd216434e3aa2c03cead1ed4f5121fcbdb"
+  },
+  {
+    "file": "round10/sk_invented/i00432.txt",
+    "seed": "round10/invented/m00013.s",
+    "base": 13,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "b9c6f34c4b84843ff1ae3fe2173c812566cab84d6ba976e0f8d024da120c8392"
+  },
+  {
+    "file": "round10/sk_invented/i00468.txt",
+    "seed": "round10/invented/m00014.s",
+    "base": 14,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "1a46bb1c63e519d7830137d47af2c6536e8c50f6faa6cdf45ae2ea0c9fa31ed4"
+  },
+  {
+    "file": "round10/sk_invented/i00504.txt",
+    "seed": "round10/invented/m00015.s",
+    "base": 15,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "c0a42f57acd2452ab9ce1c29053d9b6661579db2be2586eda5f4108486b58f78"
+  },
+  {
+    "file": "round10/sk_invented/i00562.txt",
+    "seed": "round10/invented/m00016.s",
+    "base": 16,
+    "repeat": 4,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "28cfdaafae160356d5591777991a08fffdb53bdecaafcf4a55d083e69986bea8"
+  },
+  {
+    "file": "round10/sk_invented/i00593.txt",
+    "seed": "round10/invented/m00017.s",
+    "base": 17,
+    "repeat": 4,
+    "insert": 7,
+    "kind": "invented_macro_repeat",
+    "sha256": "3ddd1cd00e861db2e8f1c142c5e259aff8e8d9a82ef18fdf133a0d86c3469bc7"
+  },
+  {
+    "file": "round10/sk_invented/i00623.txt",
+    "seed": "round10/invented/m00018.s",
+    "base": 18,
+    "repeat": 3,
+    "insert": 6,
+    "kind": "invented_macro_repeat",
+    "sha256": "2c195cb4af6c7328af064983f865de22442213feec47c59f030f285e010f8f76"
+  },
+  {
+    "file": "round10/sk_invented/i00633.txt",
+    "seed": "round10/invented/m00019.s",
+    "base": 19,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "caeb05f83e53d885dc0aa3c35cc81ff1099bc0b364f5de03f140a2cd1c8be8d7"
+  },
+  {
+    "file": "round10/sk_invented/i00669.txt",
+    "seed": "round10/invented/m00020.s",
+    "base": 20,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "4705dce5366abde963ecb836e81ce9f21eedb84843f5c2ba7995ea6d62028eba"
+  },
+  {
+    "file": "round10/sk_invented/i00705.txt",
+    "seed": "round10/invented/m00021.s",
+    "base": 21,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "bb927dbdcd50db4c23f45009b69928e3f7c00103148eeaf3b531b50150c6efc8"
+  },
+  {
+    "file": "round10/sk_invented/i00741.txt",
+    "seed": "round10/invented/m00022.s",
+    "base": 22,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "96e67a00c72b3eae6509125e4c4f0cf870e3cf1056c824c44fe3f8fee7d62161"
+  },
+  {
+    "file": "round10/sk_invented/i00777.txt",
+    "seed": "round10/invented/m00023.s",
+    "base": 23,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "845d17a32e8b03eef3fb205960603ca7c7fc3f7e39e4b89bf83b9cf6250362f1"
+  },
+  {
+    "file": "round10/sk_invented/i00813.txt",
+    "seed": "round10/invented/m00024.s",
+    "base": 24,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "56eb2e97fe40debbc6e56e91a24b83ececa54077e23204f816bab52eb1ce7a7d"
+  },
+  {
+    "file": "round10/sk_invented/i00849.txt",
+    "seed": "round10/invented/m00025.s",
+    "base": 25,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "dbdf238d897e887fcb183a362b6fb3373cfef64547678d3b82c3866f5546492e"
+  },
+  {
+    "file": "round10/sk_invented/i00885.txt",
+    "seed": "round10/invented/m00026.s",
+    "base": 26,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "b1af07b77bbbb71eeb42910a6735027af41c6cb7d6c0a0fe9b442a2e60efd261"
+  },
+  {
+    "file": "round10/sk_invented/i00921.txt",
+    "seed": "round10/invented/m00027.s",
+    "base": 27,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "4b3fbce91c732a8330982bde5f51434cb04636b02d89c39dadf064f5957f4da3"
+  },
+  {
+    "file": "round10/sk_invented/i00957.txt",
+    "seed": "round10/invented/m00028.s",
+    "base": 28,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "b83c24162bf3183a485eefc7a4a10d8b3532f7a54bdeb0d24ddfea3c34c4e830"
+  },
+  {
+    "file": "round10/sk_invented/i00993.txt",
+    "seed": "round10/invented/m00029.s",
+    "base": 29,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "a8abe7e133e195208abe8b9966229f8c033c71b5f93858dbf6ecde902f75d5e5"
+  },
+  {
+    "file": "round10/sk_invented/i01029.txt",
+    "seed": "round10/invented/m00030.s",
+    "base": 30,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "2cc8406c228ca0e33ac4ff7feefa81bfe7e2fe73bfe2e3fdeabc3fdbdcdea8d7"
+  },
+  {
+    "file": "round10/sk_invented/i01065.txt",
+    "seed": "round10/invented/m00031.s",
+    "base": 31,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "cff80947672d1fc259c7ac086e5cec8f3e9ba79c9da44a45231cf8a5343ff966"
+  },
+  {
+    "file": "round10/sk_invented/i01101.txt",
+    "seed": "round10/invented/m00032.s",
+    "base": 32,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "aaf20e5a3b43f2440f82d0bacf0bca7f751b11bbbbe75e92864b6b1e70534158"
+  },
+  {
+    "file": "round10/sk_invented/i01137.txt",
+    "seed": "round10/invented/m00033.s",
+    "base": 33,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "7fa819b27478b88debd411d17480e846ac62a2aca7a44fe8a4ae945bfe110818"
+  },
+  {
+    "file": "round10/sk_invented/i01173.txt",
+    "seed": "round10/invented/m00034.s",
+    "base": 34,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "e617e238261e872e8834e9a8762d815776a7d21efaa4ceb799d540d469fe962d"
+  },
+  {
+    "file": "round10/sk_invented/i01209.txt",
+    "seed": "round10/invented/m00035.s",
+    "base": 35,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "f2d4ad6d86779fe6a19a378a1324f113458cb6f28ec4e7a60f5865411889e480"
+  },
+  {
+    "file": "round10/sk_invented/i01245.txt",
+    "seed": "round10/invented/m00037.s",
+    "base": 37,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "e833e66fa2bc06e875c29c8a6cbd37f5c853899c5469317df7e7bc4c0a8b20e1"
+  },
+  {
+    "file": "round10/sk_invented/i01281.txt",
+    "seed": "round10/invented/m00038.s",
+    "base": 38,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "1f3e4129d3ce4d577eada2dce26fb938f78557a8f62e56b37a7cd3a822f5f09e"
+  },
+  {
+    "file": "round10/sk_invented/i01317.txt",
+    "seed": "round10/invented/m00039.s",
+    "base": 39,
+    "repeat": 0,
+    "insert": 2,
+    "kind": "invented_macro_repeat",
+    "sha256": "3593a14a0652205f840325869393be8d724bf21ec91c37dfb544f9b608b61f39"
+  }
+]

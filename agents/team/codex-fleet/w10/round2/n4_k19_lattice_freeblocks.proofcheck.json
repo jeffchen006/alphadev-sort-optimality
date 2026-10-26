@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_k19_lattice_freeblocks.json",
+  "cnf_sha256": "07c8e7565cdaa526f910be05f171504bf30547e47b16e28bf3131910b4e1cb40",
+  "proof_sha256": "92c36df3c3e6886ab23066348d32894d9ccf828618c66a7909938f993e21eb30",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 21.97256168536842
+}

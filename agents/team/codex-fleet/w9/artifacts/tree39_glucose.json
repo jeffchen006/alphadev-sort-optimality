@@ -1,0 +1,26 @@
+{
+  "args": {
+    "first": 39,
+    "last": 40,
+    "k": 16,
+    "regs": 6,
+    "seconds": 15.0,
+    "tag": "tree39_glucose",
+    "solver": "glucose42"
+  },
+  "results": [
+    {
+      "tree": 39,
+      "status": "UNKNOWN",
+      "cpu": 15.028439998,
+      "vars": 9876,
+      "clauses": 68841,
+      "stats": {
+        "restarts": 923,
+        "conflicts": 234740,
+        "decisions": 522343,
+        "propagations": 77504424
+      }
+    }
+  ]
+}

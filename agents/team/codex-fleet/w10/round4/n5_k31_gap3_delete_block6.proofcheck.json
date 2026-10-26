@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/path/to/repo/bin/drat-trim",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4/n5_k31_gap3_delete_block6.cnf",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4/n5_k31_gap3_delete_block6.drat",
+    "-t",
+    "120"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 113.535729508847,
+  "cpu_seconds": 87.96617199999997,
+  "maxrss_kib": 387964,
+  "log": "/path/to/repo/agents/team/codex-fleet/w10/round4/n5_k31_gap3_delete_block6.proofcheck.runlog",
+  "cnf_sha256": "1207ef140c090c3674b5de75db26c08a03e76ce18718b91d89c6e57b24181b41",
+  "proof_sha256": "ebb050ab7a8a545b0769aa1b1466553a206a38f3fbae354a29bee621d6e16b68",
+  "verified": true,
+  "checker_status": "s VERIFIED"
+}

@@ -1,0 +1,1739 @@
+{
+  "seeds": 144,
+  "pairs": 30931,
+  "flag_choices": 61862,
+  "witnesses": 63,
+  "both_orders": 63,
+  "rows": [
+    {
+      "seed": 29,
+      "pair": [
+        6,
+        8
+      ],
+      "flag_source": 6,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 29,
+      "pair": [
+        6,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 29,
+      "pair": [
+        8,
+        14
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 3,
+          "source": 5
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 3,
+          "source": 5
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 29,
+      "pair": [
+        8,
+        16
+      ],
+      "flag_source": 16,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 7,
+          "source": 6
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 7,
+          "source": 6
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 43,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 7,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 43,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 43,
+      "pair": [
+        8,
+        10
+      ],
+      "flag_source": 10,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 7,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 7,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 43,
+      "pair": [
+        8,
+        12
+      ],
+      "flag_source": 12,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 43,
+      "pair": [
+        8,
+        17
+      ],
+      "flag_source": 17,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 44,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 7,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 44,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 44,
+      "pair": [
+        8,
+        10
+      ],
+      "flag_source": 10,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 7,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 7,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 44,
+      "pair": [
+        8,
+        12
+      ],
+      "flag_source": 12,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 44,
+      "pair": [
+        8,
+        14
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovge",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovle",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 7,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 5
+        },
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 5
+        },
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 5
+        },
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 5
+        },
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        8,
+        14
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        8,
+        15
+      ],
+      "flag_source": 15,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        8,
+        20
+      ],
+      "flag_source": 20,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        14,
+        15
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 3
+        },
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 3
+        },
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        14,
+        15
+      ],
+      "flag_source": 15,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 3
+        },
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 3
+        },
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        15,
+        20
+      ],
+      "flag_source": 20,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        15,
+        21
+      ],
+      "flag_source": 21,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 5
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 5
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 47,
+      "pair": [
+        15,
+        22
+      ],
+      "flag_source": 22,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 49,
+      "pair": [
+        13,
+        15
+      ],
+      "flag_source": 13,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 49,
+      "pair": [
+        13,
+        15
+      ],
+      "flag_source": 15,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 49,
+      "pair": [
+        15,
+        22
+      ],
+      "flag_source": 22,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 4
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 4
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 49,
+      "pair": [
+        15,
+        23
+      ],
+      "flag_source": 23,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 61,
+      "pair": [
+        10,
+        12
+      ],
+      "flag_source": 10,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 61,
+      "pair": [
+        10,
+        12
+      ],
+      "flag_source": 12,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 4
+        },
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 61,
+      "pair": [
+        12,
+        14
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 61,
+      "pair": [
+        12,
+        15
+      ],
+      "flag_source": 15,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 63,
+      "pair": [
+        6,
+        8
+      ],
+      "flag_source": 6,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 0
+        },
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 0
+        },
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 63,
+      "pair": [
+        6,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 0
+        },
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 0
+        },
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 63,
+      "pair": [
+        8,
+        17
+      ],
+      "flag_source": 17,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 2,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 2,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 78,
+      "pair": [
+        4,
+        5
+      ],
+      "flag_source": 4,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 2
+        },
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 2
+        },
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 78,
+      "pair": [
+        4,
+        5
+      ],
+      "flag_source": 5,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 2
+        },
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 2
+        },
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 78,
+      "pair": [
+        5,
+        10
+      ],
+      "flag_source": 10,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 78,
+      "pair": [
+        5,
+        11
+      ],
+      "flag_source": 11,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 78,
+      "pair": [
+        5,
+        14
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 6
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 6
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 83,
+      "pair": [
+        8,
+        9
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 2
+        },
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 2
+        },
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 83,
+      "pair": [
+        8,
+        9
+      ],
+      "flag_source": 9,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 2
+        },
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 2
+        },
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 83,
+      "pair": [
+        9,
+        11
+      ],
+      "flag_source": 11,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 4
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 4
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 83,
+      "pair": [
+        9,
+        12
+      ],
+      "flag_source": 12,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 83,
+      "pair": [
+        9,
+        18
+      ],
+      "flag_source": 18,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 5
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 5
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 91,
+      "pair": [
+        6,
+        8
+      ],
+      "flag_source": 6,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        },
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 4
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        },
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 4
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 91,
+      "pair": [
+        6,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 4,
+          "source": 0
+        },
+        {
+          "op": "cmovl",
+          "dest": 5,
+          "source": 4
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 4,
+          "source": 0
+        },
+        {
+          "op": "cmovg",
+          "dest": 5,
+          "source": 4
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 91,
+      "pair": [
+        8,
+        14
+      ],
+      "flag_source": 14,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 91,
+      "pair": [
+        8,
+        16
+      ],
+      "flag_source": 16,
+      "forward": [
+        {
+          "op": "cmovge",
+          "dest": 7,
+          "source": 6
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovle",
+          "dest": 7,
+          "source": 6
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 101,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 7,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 101,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 101,
+      "pair": [
+        8,
+        10
+      ],
+      "flag_source": 10,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 5,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 5,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 101,
+      "pair": [
+        8,
+        11
+      ],
+      "flag_source": 11,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 101,
+      "pair": [
+        8,
+        12
+      ],
+      "flag_source": 12,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 110,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 7,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 110,
+      "pair": [
+        7,
+        8
+      ],
+      "flag_source": 8,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 2,
+          "source": 6
+        },
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 110,
+      "pair": [
+        8,
+        10
+      ],
+      "flag_source": 10,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 5,
+          "source": 1
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 5,
+          "source": 1
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 110,
+      "pair": [
+        8,
+        11
+      ],
+      "flag_source": 11,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 1,
+          "source": 3
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 1,
+          "source": 3
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 110,
+      "pair": [
+        8,
+        12
+      ],
+      "flag_source": 12,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 139,
+      "pair": [
+        13,
+        15
+      ],
+      "flag_source": 13,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 139,
+      "pair": [
+        13,
+        15
+      ],
+      "flag_source": 15,
+      "forward": [
+        {
+          "op": "cmovg",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovl",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovl",
+          "dest": 0,
+          "source": 3
+        },
+        {
+          "op": "cmovg",
+          "dest": 3,
+          "source": 0
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 139,
+      "pair": [
+        15,
+        22
+      ],
+      "flag_source": 22,
+      "forward": [
+        {
+          "op": "cmovl",
+          "dest": 6,
+          "source": 4
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovg",
+          "dest": 6,
+          "source": 4
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    },
+    {
+      "seed": 139,
+      "pair": [
+        15,
+        23
+      ],
+      "flag_source": 23,
+      "forward": [
+        {
+          "op": "cmovle",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "reverse": [
+        {
+          "op": "cmovge",
+          "dest": 4,
+          "source": 2
+        }
+      ],
+      "status": "necessary_value_witness_only"
+    }
+  ],
+  "seconds": 5.023693162016571
+}

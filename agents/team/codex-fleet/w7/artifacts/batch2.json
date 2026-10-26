@@ -1,0 +1,6 @@
+[
+ ["suffix12_dest_proof",1200,["seeds/near31.s","candidates/suffix12_dest_proof.s","--changes","0","--registers","8","--prefix","12","--typed","--fixed-dest","--proof"]],
+ ["suffix5_dest_proof",1800,["seeds/near31.s","candidates/suffix5_dest.s","--changes","0","--registers","8","--prefix","5","--typed","--fixed-dest","--proof"]],
+ ["suffix16_untyped_r10",1800,["seeds/near31.s","candidates/suffix16_free.s","--changes","0","--registers","10","--prefix","16"]],
+ ["suffix12_c8_r9",1800,["seeds/near31.s","candidates/suffix12_c8.s","--changes","0","--registers","9","--prefix","12","--maxcmp","8"]]
+]

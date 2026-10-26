@@ -1,0 +1,21 @@
+{
+  "before": {
+    "k": 32,
+    "correct_120": true,
+    "partial_columns": 1,
+    "noncompletable_partial": 0,
+    "nonlattice_full": 6
+  },
+  "after": {
+    "k": 32,
+    "correct_120": true,
+    "partial_columns": 0,
+    "noncompletable_partial": 0,
+    "nonlattice_full": 5
+  },
+  "changes": [
+    3,
+    18
+  ],
+  "live_partial_noncompletable": []
+}

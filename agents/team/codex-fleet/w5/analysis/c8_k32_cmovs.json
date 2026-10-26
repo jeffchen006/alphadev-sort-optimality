@@ -1,0 +1,182 @@
+[
+  {
+    "instruction": 3,
+    "op": "cmovle",
+    "dest": 0,
+    "source": 3,
+    "existing_result": [],
+    "changes": 233,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 4,
+    "op": "cmovg",
+    "dest": 6,
+    "source": 3,
+    "existing_result": [],
+    "changes": 233,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 7,
+    "op": "cmovg",
+    "dest": 5,
+    "source": 4,
+    "existing_result": [],
+    "changes": 233,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 8,
+    "op": "cmovg",
+    "dest": 4,
+    "source": 2,
+    "existing_result": [],
+    "changes": 233,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 11,
+    "op": "cmovge",
+    "dest": 8,
+    "source": 4,
+    "existing_result": [],
+    "changes": 220,
+    "unknown_after": 321
+  },
+  {
+    "instruction": 12,
+    "op": "cmovge",
+    "dest": 4,
+    "source": 1,
+    "existing_result": [],
+    "changes": 145,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 13,
+    "op": "cmovle",
+    "dest": 8,
+    "source": 1,
+    "existing_result": [],
+    "changes": 321,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 15,
+    "op": "cmovge",
+    "dest": 8,
+    "source": 5,
+    "existing_result": [],
+    "changes": 145,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 16,
+    "op": "cmovle",
+    "dest": 1,
+    "source": 5,
+    "existing_result": [],
+    "changes": 321,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 18,
+    "op": "cmovg",
+    "dest": 3,
+    "source": 4,
+    "existing_result": [],
+    "changes": 267,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 19,
+    "op": "cmovg",
+    "dest": 4,
+    "source": 6,
+    "existing_result": [],
+    "changes": 267,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 21,
+    "op": "cmovg",
+    "dest": 0,
+    "source": 4,
+    "existing_result": [],
+    "changes": 150,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 22,
+    "op": "cmovg",
+    "dest": 4,
+    "source": 8,
+    "existing_result": [],
+    "changes": 129,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 23,
+    "op": "cmovle",
+    "dest": 7,
+    "source": 1,
+    "existing_result": [],
+    "changes": 267,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 24,
+    "op": "cmovle",
+    "dest": 1,
+    "source": 8,
+    "existing_result": [],
+    "changes": 312,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 26,
+    "op": "cmovle",
+    "dest": 8,
+    "source": 0,
+    "existing_result": [],
+    "changes": 219,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 27,
+    "op": "cmovle",
+    "dest": 0,
+    "source": 1,
+    "existing_result": [],
+    "changes": 225,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 28,
+    "op": "cmovle",
+    "dest": 1,
+    "source": 8,
+    "existing_result": [],
+    "changes": 225,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 30,
+    "op": "cmovl",
+    "dest": 1,
+    "source": 4,
+    "existing_result": [],
+    "changes": 147,
+    "unknown_after": 0
+  },
+  {
+    "instruction": 31,
+    "op": "cmovg",
+    "dest": 8,
+    "source": 4,
+    "existing_result": [],
+    "changes": 216,
+    "unknown_after": 0
+  }
+]

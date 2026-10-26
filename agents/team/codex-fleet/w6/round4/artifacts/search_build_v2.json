@@ -1,0 +1,20 @@
+{
+  "name": "search_build_v2",
+  "command": [
+    "g++",
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "round4/src/search.cpp",
+    "-o",
+    "round4/search_v2"
+  ],
+  "wall_limit": 40.0,
+  "exit": 0,
+  "seconds": 5.580154455266893,
+  "log": "round4/logs/search_build_v2.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

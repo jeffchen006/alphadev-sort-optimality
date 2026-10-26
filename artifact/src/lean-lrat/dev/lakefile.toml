@@ -1,0 +1,15 @@
+name = "leanlrat"
+defaultTargets = ["LeanLrat", "lrat-tool"]
+
+# Read-only snapshot of agents/lean/SortProof (see tools/vendor_check.sh); built in OUR .lake only.
+[[lean_lib]]
+name = "SortProof"
+srcDir = "vendor"
+globs = ["SortProof.Machine", "SortProof.X86", "SortProof.OrderType", "SortProof.Reps", "SortProof.Relax", "SortProof.Rename", "SortProof.Snap", "SortProof.SortFacts", "SortProof.L5"]
+
+[[lean_lib]]
+name = "LeanLrat"
+
+[[lean_exe]]
+name = "lrat-tool"
+root = "Main"

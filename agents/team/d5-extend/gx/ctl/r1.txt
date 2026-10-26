@@ -1,0 +1,41 @@
+skeleton c=9 K=32 budget(gates+copies)=23 lb(root)=16 classes(c)=120
+SOLUTION cost=32 gates=18 copies=5 calls=77788
+cmp P4, P3
+mov S0, P4
+cmovl S0, P3
+cmovl P3, P4
+cmp P2, P1
+mov S1, P2
+cmovl S1, P1
+cmovl P1, P2
+cmp P3, P1
+mov S2, P1
+cmovl S2, P3
+cmovl P3, P1
+cmp P3, P0
+mov S3, P0
+cmovl S3, P3
+cmovl P3, P0
+cmp S2, S3
+cmovg S3, S2
+cmovg S2, P0
+out 0, S2
+cmp S1, S0
+mov S4, S0
+cmovl S4, S1
+cmovl S1, S0
+cmp P0, S1
+cmovl P0, S1
+out 4, P0
+cmovl S1, P3
+cmp P3, S4
+cmovl S1, S4
+out 3, S1
+cmovg P3, S4
+cmp S4, S3
+cmovl P3, S3
+out 2, P3
+cmovl S3, S4
+out 1, S3
+END
+RESULT FOUND K=32 calls=77788 leaves=43 sols=1 best=32 time=1.1s

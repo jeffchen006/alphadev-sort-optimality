@@ -1,0 +1,10 @@
+{
+  "source": "round9/candidates/weighted_out_s02_best_fail_snapshots.s",
+  "k": 31,
+  "sha256": "63f0d536f0514b001691d41e5e08fa5f2f8e5fbac430202d9df0b8c299eedb34",
+  "out": {
+    "pass": false,
+    "file": "round9/candidates/weighted_out_s02_best_fail_snapshots.s",
+    "log": "round9/logs/weighted_out_s02_best_fail_snapshots_out_judge.log"
+  }
+}

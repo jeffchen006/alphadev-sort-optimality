@@ -1,0 +1,3 @@
+#!/bin/bash
+while [ -e .pause_flags ] || [ ! -x ./dagx_flags_safe ]; do sleep 1; done
+exec ./dagx_flags_safe "$@"

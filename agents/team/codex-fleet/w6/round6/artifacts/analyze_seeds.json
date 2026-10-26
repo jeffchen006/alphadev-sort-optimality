@@ -1,0 +1,16 @@
+{
+  "name": "analyze_seeds",
+  "command": [
+    "python3",
+    "-B",
+    "round6/src/analyze.py"
+  ],
+  "wall_limit": 60.0,
+  "exit": 0,
+  "seconds": 1.4990675831213593,
+  "log": "round6/logs/analyze_seeds.log",
+  "affinity": [
+    74,
+    75
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "strict_pass_records": 52,
+  "strict_pass_files": 52,
+  "k_le_31_pass": 0,
+  "census_programs": 868567,
+  "all_weak_order_pure_after": 868567,
+  "measured_search_iterations": 3000000,
+  "first_campaign_iteration_counts": "not available after wall timeouts",
+  "a15_general_status": "open"
+}

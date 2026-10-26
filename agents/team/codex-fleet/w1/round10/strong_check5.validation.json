@@ -1,0 +1,43 @@
+{
+  "partial": [
+    0,
+    3,
+    8
+  ],
+  "nonlattice": [],
+  "wrong": 0,
+  "badcmp": 0,
+  "cases": 541,
+  "judges": [
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.s",
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/repo/shared/judge.py",
+        "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.s",
+        "--strict",
+        "--model",
+        "out"
+      ],
+      "returncode": 0,
+      "sha256": "c8cc7ee38fecd72bc2f1a151fa48f5a2252d176bfd1a62513a7b0c5740ba4db1",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5.s [relaxed+strict] n=5 L=33 R=9 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 3: reads uninitialized S0; line 5: reads uninitialized S0; line 7: reads uninitialized S0; line 11: reads uninitialized S0; line 12: reads uninitialized S3; line 13: reads uninitialized S3; line 14: reads uninitialized S0; line 15: reads uninitialized S0; line 16: reads uninitialized S0; line 19: reads uninitialized S3; line 22: reads uninitialized S3; line 27: reads uninitialized S3; line 28: reads uninitialized S3\n"
+    },
+    {
+      "file": "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5_mem.s",
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/repo/shared/judge.py",
+        "/path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5_mem.s",
+        "--strict",
+        "--model",
+        "mem"
+      ],
+      "returncode": 0,
+      "sha256": "861550dd06a448a419912226b7f45427f7f7419e10e287c9bd8a418476daa901",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w1/round10/strong_check5_mem.s [relaxed+strict] n=5 L=43 R=14 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 8: reads uninitialized S5; line 10: reads uninitialized S5; line 12: reads uninitialized S5; line 16: reads uninitialized S5; line 17: reads uninitialized S8; line 18: reads uninitialized S8; line 19: reads uninitialized S5; line 20: reads uninitialized S5; line 21: reads uninitialized S5; line 24: reads uninitialized S8; line 27: reads uninitialized S8; line 32: reads uninitialized S8; line 33: reads uninitialized S8; line 34: reads uninitialized S8\n"
+    }
+  ],
+  "k": 33,
+  "n": 5
+}

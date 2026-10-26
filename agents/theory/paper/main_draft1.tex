@@ -1,0 +1,159 @@
+% Draft 1 (theory, 2026-10-24). Status markers: [PENDING] = result not yet on board/claims.md as "verified".
+% Build: pdflatex main.tex (needs amsmath, amsthm, amssymb, booktabs, hyperref). Appendix: appendix_proofs.tex.
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amssymb,booktabs,hyperref,graphicx}
+\usepackage[margin=1in]{geometry}
+\newtheorem{theorem}{Theorem}\newtheorem{lemma}[theorem]{Lemma}\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\pending}{\textbf{[PENDING]}}
+
+\title{AlphaDev's Sorting Kernels Are Shortest:\\ Certified Lower Bounds for \texttt{cmov} Sorting Code}
+\author{(team) }
+\date{Draft 1, 2026-10-24}
+\begin{document}\maketitle
+
+\begin{abstract}
+AlphaDev (Nature 2023) found x86 kernels that sort 3, 4 and 5 integers in 17, 28 and 42 instructions. We ask whether
+shorter kernels exist. We state a precise model --- the instructions \texttt{mov}, \texttt{cmp}, \texttt{cmovl},
+\texttt{cmovg}, \texttt{cmovle}, \texttt{cmovge} on signed 32-bit values, inputs and outputs in memory, every instruction
+counted, unbounded registers --- and reduce the question to a finite search through a chain of lemmas. Each lemma has a
+paper proof and a Lean~4 proof. The searches run in two SAT encodings and two independent enumerators; the SAT proofs are
+checked by the verified checker \texttt{cake\_lpr}. Result: sort3 needs 17 instructions \pending{} [certificate],
+sort4 needs 28 \pending, sort5 needs 42 \pending. We also show that the model matters: if \texttt{cmp} and \texttt{cmov} may
+read memory (legal on x86, excluded by AlphaDev), sort4 and sort5 fit in 26 and 40 instructions.
+\end{abstract}
+
+\section{Introduction}
+Mankowitz et al.~\cite{alphadev} used deep reinforcement learning to find short branchless sorting kernels for 3, 4 and 5
+elements, of length 17, 28 and 42 (the human-written sorting networks need 18, 28 and 46). The kernels are now in LLVM libc++.
+AlphaDev reports a brute-force argument that no sort3 kernel is shorter than 17 (about $10^{32}$ programs, with pruning), but
+gives no certificate and no exact model, and makes no claim for sort4 and sort5. Ullrich and Hack~\cite{ullrich} enumerate
+sorting kernels in a register-only model and report optimal lengths 11 ($n=3$) and 20 ($n=4$); their model has one scratch
+register, only \texttt{cmovl}/\texttt{cmovg}, distinct inputs only, and outputs fixed in the input registers. A lower bound in
+that model does not transfer to AlphaDev's setting (Section~\ref{sec:model}). No lower bound for $n=5$ is known.
+
+\paragraph{Contributions.}
+(1) A precise model of AlphaDev's setting, including memory and the exact counting (Section~\ref{sec:model}).
+(2) A chain of soundness lemmas from x86 semantics to a finite search problem (Section~\ref{sec:chain}); one of them, the
+\emph{snapshot lemma}, shows that the natural register model (``outputs in the input registers at the end'') is too strict
+and gives the exact replacement.
+(3) Two SAT encodings with CEGIS and symmetry breaking, and two enumerators; each symmetry rule has a proof
+(Section~\ref{sec:search}).
+(4) Results with certificates (Section~\ref{sec:results}).
+(5) A list of what is outside the model (Section~\ref{sec:threats}), with one shorter kernel family outside it.
+
+\section{Model}\label{sec:model}
+\subsection{Machine}
+Values are signed 32-bit integers. Instructions (Intel order, destination first): \texttt{mov D,S}; \texttt{cmp A,B};
+\texttt{cmov}$c$\texttt{ D,S} for $c \in \{l, g, le, ge\}$. $I_0$ uses $l, g$; $I_1$ uses all four (AlphaDev uses $I_1$:
+its sort3 and sort5 kernels fail if $le/ge$ are replaced by $l/g$). The four conditions read only $(ZF, SF\neq OF)$; all 16
+real flag states act as one of three abstract states $\mathsf{lt},\mathsf{eq},\mathsf{gt}$ (Lean: \texttt{xeval\_eq}).
+
+\subsection{AlphaDev's memory model MM}
+The $n$ inputs are in memory cells $m_0..m_{n-1}$; at the end $m_j$ must hold the $j$-th smallest input (ties judged by value).
+Registers are unbounded and hold garbage at the start; the flags are arbitrary. Memory is accessed only by loads
+\texttt{mov r,[m]} and stores \texttt{mov [m],r} (MM-1: AlphaDev's rule ``we cannot compare or conditionally move to a memory
+location''; we also exclude memory \emph{sources}, which AlphaDev's listings never use). Length = number of instructions,
+including loads and stores. With this counting AlphaDev's kernels have length 17, 28, 42.
+We do \emph{not} assume AlphaDev's search rules (read/write each cell once, registers in order, no uninitialised reads),
+so our lower bounds cover more programs than AlphaDev's search space.
+
+\subsection{Main theorem}
+\begin{theorem}[template]\label{thm:main}
+In MM with $I_1$, no program of length $\le L-1$ sorts all $x \in \mathbb{Z}_{32}^n$ (for all garbage and flags), for
+$(n, L) = (3, 17)$ \pending, $(4, 28)$ \pending, $(5, 42)$ \pending.
+\end{theorem}
+
+\subsection{Why the obvious register model is wrong}
+A natural register model puts input $i$ in register $P_i$ and requires the sorted values in $P_0..P_{n-1}$ at the end (RF).
+This model is \emph{stricter} than MM: a memory program loads into any register and stores from any register at any time,
+so RF excludes programs that MM allows, and an RF lower bound is not an MM lower bound. This is not only theoretical: every
+AlphaDev kernel, after removing its loads and stores, ends with its outputs in other registers (e.g.\ sort3 in
+$P_0, S_{11}, P_1$), so it is not an RF program of the same length. The exact model is RS (snapshot outputs), Lemma~\ref{lem:L5}.
+
+\section{The trust chain}\label{sec:chain}
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}llllll@{}}\toprule
+link & statement & paper & Lean & machine check\\\midrule
+X86 & 16 flag states $\to$ 3 & App.~\ref{app:proofs} & \texttt{xeval\_eq} & real-CPU differential tests\\
+L2 & strict $\Rightarrow$ T-relaxed & App. & \texttt{x86\_to\_relaxed}, \texttt{xsnap\_to\_relaxed} & --\\
+L5 & MM length $L$ $\Rightarrow$ RS length $L-2n$ & App. & G2 \pending & \texttt{l5map.py} on all 23 published programs\\
+L3 & $R = n+k$ registers suffice & App. & \texttt{register\_bound\_snap} & --\\
+L1 & order types (13/75/541); test subsets & App. & \texttt{x86\_iff\_reps}, \texttt{reps\_card} & --\\
+L6 & symmetry rules keep a shortest program & App. & G3 \pending & rules on/off agree ($n=2,3$); VeriPB (canon)\\
+L4 & exact-$k$ sweep / NOP suffix & App. & \texttt{lower\_bound\_chain\_snap} (no rules) & --\\
+enc & CNF $=$ model instance & -- & lean-lrat \pending & 2 encoders; random differential test (13\,500 cases)\\
+UNSAT & CNF has no model & -- & -- & DRAT/LRAT $\to$ \texttt{cake\_lpr}\\\bottomrule
+\end{tabular}}
+\caption{Trust chain. Every link has a paper proof (Appendix~\ref{app:proofs}); ``Lean'' names the formal theorem.}
+\end{table}
+
+\begin{lemma}[snapshot lemma, L5]\label{lem:L5}
+Under MM-1, $L^{\min}_{\mathrm{MM}} = k^{\min}_{\mathrm{RS}} + 2n$, where RS is the register model with inputs in
+$P_0..P_{n-1}$ and output $j$ = the value of a register $r_j$ after $t_j$ instructions ($r_j, t_j$ fixed by the program).
+\end{lemma}
+The proof (Appendix) needs neither ``loads first, stores last'' nor AlphaDev's read-once/write-once rule: it handles reloads,
+spills and stores in the middle of the code, by one fresh register per store segment and by renaming the live range of the
+last load of each segment.
+
+\section{Search}\label{sec:search}
+\paragraph{Abstraction.} By L1 a program is correct iff it is correct on one representative of each weak order type
+(13/75/541). For lower bounds any subset is enough (e.g.\ the $n!$ permutations, or a CEGIS set) --- but permutations with
+$I_0$ are \emph{not} a relaxation of weak orders with $I_1$ (a \texttt{cmp} of two copies of one input gives eq).
+\paragraph{Relaxation.} Scratch registers start as $T > $ all inputs, flags start eq (L2). This is sound; it can only make
+the relaxed optimum smaller (a $T$ register is a known $+\infty$).
+\paragraph{SAT encodings.} \texttt{sat}: one-hot operands, CEGIS, NOP suffix, rules canon, pcanon, comm, dead, flags, cmpord, movfresh,
+snapcmov, mincmp with a rewriting (normal-form) proof. \texttt{sat2}: binary operands, sweep, rules with a lex-least proof.
+\paragraph{Enumeration.} \texttt{enum}: BFS over sets of distinct ``columns'' (Lemma S: with unbounded registers and snapshot
+outputs, a \texttt{mov} is only needed as half of a copy), exact deduplication, admissible heuristics. \texttt{critic}: an
+independent register-level IDDFS.
+\paragraph{Analytic bounds.} $\#\texttt{cmp} \ge \lceil\log_2 n!\rceil$ (3/5/7; tight for $n=5$ with a 7-\texttt{cmp} kernel,
+so the sorting-network bound 9 does \emph{not} hold); $\#\texttt{cmov} \ge$ Huffman$(n)$ = 5/8/12 (Kraft inequality on the
+paths of each output); for $n=3$, $\#\texttt{cmov} \ge 6$ by exhaustive search in a relaxation.
+
+\section{Results}\label{sec:results}
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}lllll@{}}\toprule
+$n$ & claim (RS, $I_1$, T-relaxed, all weak orders) & tools & certificate & MM consequence\\\midrule
+3 & no program with $k \le 10$ & enum (exact BFS), critic (IDDFS) agree & cake\_lpr \pending & $L \ge 17$: AlphaDev optimal\\
+4 & no program with $k \le 19$ & \pending & \pending & $L \ge 28$\\
+5 & no program with $k \le 31$ & \pending & \pending & $L \ge 42$\\\bottomrule
+\end{tabular}}
+\caption{Lower bounds. Upper bounds: AlphaDev's kernels (checked in Lean on the x86 semantics for all inputs, garbage and flags,
+and on real hardware).}
+\end{table}
+Side results: (i) in $I_0$, $n=3$ also needs $k=11$ and sort5 has an $I_0$ kernel of length 42 (found by MCMC); (ii) a new
+$n=3$ core with 0 \texttt{mov}, legal on x86 but outside AlphaDev's search rules (it reads a garbage register only under the same
+flag); (iii) \#\texttt{cmp} and \#\texttt{cmov} bounds above.
+
+\section{Threats to validity: what is outside the model}\label{sec:threats}
+\begin{itemize}
+\item \textbf{Memory operands (MM+).} x86 allows \texttt{cmp r,m}, \texttt{cmp m,r}, \texttt{cmovcc r,m}. With them, sort4 and sort5
+fit in 26 and 40 instructions (checked on real hardware). So AlphaDev's kernels are optimal only under MM-1. Our snapshot
+lemma does not hold for MM+ (Lemma L8: only $L \ge k_{\mathrm{RS}}$); an MM+ optimum needs its own encoding.
+\item \textbf{Other instructions}: SIMD min/max, branches, arithmetic and masks, \texttt{setcc}, \texttt{xchg}, \texttt{lea},
+\texttt{cmove/cmovne}, unsigned conditions (they read flags that are not a function of the signed order).
+\item \textbf{Other costs}: latency, throughput, code size (AlphaDev reports that length and latency correlate for fixed sorts).
+\item \textbf{Data}: signed int32. Unsigned or floating-point kernels use other opcodes.
+\item \textbf{Registers}: our lower bounds allow unbounded registers (stronger); real x86 has at most 14 free GPRs.
+\item \textbf{Trust base}: the CNF encoders (two independent ones, differential tests, Lean route \pending), \texttt{cake\_lpr},
+the Lean kernel, the x86 semantics in Lean versus real hardware (differential tests).
+\item \textbf{Relaxation}: sound, but it may admit programs that read garbage registers usefully; a found relaxed program is
+re-checked in the strict model.
+\end{itemize}
+
+\section{Related work}
+AlphaDev~\cite{alphadev}; Ullrich and Hack~\cite{ullrich} (closest; differences: scratch registers, $I_0$, distinct inputs,
+fixed outputs, no certificate); superoptimisation (Massalin; STOKE; Souper); optimal sorting networks with SAT proofs (Codish,
+Cruz-Filipe, Frank, Schneider-Kamp: size and depth for small $n$; Bundala and Z\'avodn\'y); certified SAT (DRAT, LRAT,
+\texttt{cake\_lpr}); certified symmetry breaking (VeriPB dominance, satsuma, CakePB). [spec: full text \pending]
+
+\appendix
+\input{appendix_proofs}
+
+\begin{thebibliography}{9}
+\bibitem{alphadev} D.~J. Mankowitz et al. Faster sorting algorithms discovered using deep reinforcement learning.
+\emph{Nature} 618:257--263, 2023.
+\bibitem{ullrich} M.~Ullrich, S.~Hack. Synthesis of sorting kernels. CGO 2025, DOI 10.1145/3696443.3708954.
+\end{thebibliography}
+\end{document}

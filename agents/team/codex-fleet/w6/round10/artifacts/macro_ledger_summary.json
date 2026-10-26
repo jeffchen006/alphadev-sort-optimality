@@ -1,0 +1,10 @@
+{
+  "total": 36,
+  "statuses": {
+    "NONE": 36
+  },
+  "cpu_seconds": 4.5624,
+  "wall_seconds": 6.2694808803498745,
+  "max_rss_kib": 16332,
+  "planned": 36
+}

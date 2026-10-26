@@ -1,0 +1,14 @@
+un_0 28 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_1 28 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_2 29 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_3 29 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_4 26 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+un_5 29 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+un_6 29 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+un_7 29 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+un_8 29 R = 9 (auto: 5 + K - creations - blocks = 9) [v2-live] NONE <= 31 
+un_9 26 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_10 29 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_11 29 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_12 29 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 
+un_13 29 R = 10 (auto: 5 + K - creations - blocks = 10) [v2-live] NONE <= 31 

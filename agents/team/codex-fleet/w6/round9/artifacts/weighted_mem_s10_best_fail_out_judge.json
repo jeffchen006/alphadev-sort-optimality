@@ -1,0 +1,10 @@
+{
+  "source": "round9/artifacts/memory_conversions/weighted_mem_s10_best_fail_out.s",
+  "k": 31,
+  "sha256": "e36dff2cd1ed4cb99cdac2081232fa89e8a20d65e00eafe0d8c063012b6afb77",
+  "out": {
+    "pass": false,
+    "file": "round9/artifacts/memory_conversions/weighted_mem_s10_best_fail_out.s",
+    "log": "round9/logs/weighted_mem_s10_best_fail_out_out_judge.log"
+  }
+}

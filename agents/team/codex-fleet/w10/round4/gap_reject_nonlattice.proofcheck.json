@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/path/to/repo/bin/drat-trim",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_nonlattice.cnf",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_nonlattice.drat",
+    "-t",
+    "30"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.552070421166718,
+  "cpu_seconds": 1.4146009999999989,
+  "maxrss_kib": 387964,
+  "log": "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_nonlattice.proofcheck.runlog",
+  "cnf_sha256": "17b22ede84ce41142e19e95904766839076eb768321b37225fa745a5a465da36",
+  "proof_sha256": "838e6ed80eda083247dd87f5a27f2fc4665aa81eef057a4a333482492ae44a0c",
+  "verified": true,
+  "checker_status": "s VERIFIED"
+}

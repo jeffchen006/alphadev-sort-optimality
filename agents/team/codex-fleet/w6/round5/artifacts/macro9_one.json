@@ -1,0 +1,18 @@
+{
+  "name": "macro9_one",
+  "command": [
+    "round5/bin/macros9_one",
+    "round5/candidates/macro9one",
+    "25",
+    "5231091",
+    "9"
+  ],
+  "wall_limit": 30.0,
+  "exit": 0,
+  "seconds": 0.15599962882697582,
+  "log": "round5/logs/macro9_one.log",
+  "affinity": [
+    78,
+    79
+  ]
+}

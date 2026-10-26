@@ -1,0 +1,21 @@
+{
+  "status": "UNSAT",
+  "seconds": 42.26478609535843,
+  "variables": 3203,
+  "clauses": 17905,
+  "attempts": 36,
+  "stats": {
+    "restarts": 4313,
+    "conflicts": 105176,
+    "decisions": 196904,
+    "propagations": 33351777
+  },
+  "args": {
+    "seconds": 120.0,
+    "registers": 5,
+    "k": 11,
+    "tag": "triple_min11_pairfirst",
+    "pairfirst": true,
+    "solver": "cadical195"
+  }
+}

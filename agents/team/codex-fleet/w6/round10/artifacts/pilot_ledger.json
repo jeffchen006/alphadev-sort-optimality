@@ -1,0 +1,95 @@
+[
+  {
+    "file": "round10/sk_expanded/e00026.txt",
+    "seed": "round6/candidates/mem_b5_c9t0.5_near_31_out.s",
+    "base": 0,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "transformed_repeat_operands",
+    "alternatives": 5,
+    "sha256": "1f18e89ffa863546d6e6ea8760d9571c99bcf40496e4970b851db0eb06e6e5a1",
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/e00026_fast_k31.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_expanded/e00026.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 90,
+    "node_limit": null,
+    "wall_seconds": 90.00989295728505,
+    "cpu_seconds": 78.915021,
+    "max_rss_kib": 16060,
+    "result": null,
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 0,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  },
+  {
+    "file": "round10/sk_expanded/e00089.txt",
+    "seed": "round6/candidates/mem_b5_c9t0.5_near_27_out.s",
+    "base": 1,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "transformed_repeat_operands",
+    "alternatives": 5,
+    "sha256": "7438fdaa574c80180b66fbef0e6b7c555c18701e6e4ea4655cf6614b8ce02f0e",
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/e00089_fast_k31.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_expanded/e00089.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 90,
+    "node_limit": null,
+    "wall_seconds": 90.0109849665314,
+    "cpu_seconds": 77.10980200000003,
+    "max_rss_kib": 16060,
+    "result": null,
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 0,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  },
+  {
+    "file": "round10/sk_expanded/e00134.txt",
+    "seed": "round6/candidates/mem_a4_c8t1.2_near_699_out.s",
+    "base": 2,
+    "repeat": 4,
+    "insert": 6,
+    "kind": "transformed_repeat_operands",
+    "alternatives": 6,
+    "sha256": "74212486b7c0e29f0c70af400b694e95e56a0a69e08a9c167092e2e38b163a8c",
+    "status": "UNKNOWN_TIMEOUT",
+    "exit_code": null,
+    "log": "round10/logs/e00134_fast_k31.log",
+    "command": [
+      "round10/bin/dagx_flags_fast",
+      "round10/sk_expanded/e00134.txt",
+      "31",
+      "1"
+    ],
+    "wall_limit": 90,
+    "node_limit": null,
+    "wall_seconds": 90.01055356860161,
+    "cpu_seconds": 83.42900200000001,
+    "max_rss_kib": 16060,
+    "result": null,
+    "engine_sha256": "aeeb08f602430760a6e1cfe53ece29dd615a69cc7783efe87a17163740cc89d2",
+    "root_order": 0,
+    "assumptions": [
+      "A4",
+      "A6"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "created": "2026-10-26T07:12:47.925880+00:00",
+  "source_files": {
+    "threshold_sat.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/threshold_sat.py",
+      "sha256": "e3d39668e176875213ada0b4bb0419cef5aa35686108e02bb3410db9e3f35a9f",
+      "bytes": 12979
+    },
+    "threshold_cmpx.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/threshold_cmpx.py",
+      "sha256": "02ff447fb1f6b2a0294b2af024e1c1522357f1587313e0a354e0752f904b02b1",
+      "bytes": 13766
+    },
+    "partial_sat.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/partial_sat.py",
+      "sha256": "1b02cc848e9cf10b4b2ce4c70bcac79e3b6229644415e11d3942a840915f00bd",
+      "bytes": 20104
+    },
+    "partial_gap.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/partial_gap.py",
+      "sha256": "87c20a7404d4bd5e5bbc6253f5eb6d735f1f4cf6c38a5697707e14b023d49975",
+      "bytes": 8750
+    },
+    "build.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/build.py",
+      "sha256": "f24e28de5360105d59fa26e8dbd8c75bf50140ca3f8a55b7a9b22ccac0046a7f",
+      "bytes": 1669
+    },
+    "run.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/run.py",
+      "sha256": "873ae3aa9fd0f7cfc0bacc01175f257f4b63b8e2fb36faca6102285265136069",
+      "bytes": 7603
+    },
+    "cube.py": {
+      "source": "/path/to/repo/agents/team/d2-lattice/c2/src/cube.py",
+      "sha256": "62b2c8bc5b5fb9e248e2e2e5e690207d10df31f4daf57e589d1774bf56bb8194",
+      "bytes": 2266
+    }
+  },
+  "scope": "Source snapshots for independent encoder and coverage review; not solver decisions"
+}

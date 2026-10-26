@@ -1,0 +1,12 @@
+{
+  "all_pure_after": 868567,
+  "analyzed": 868567,
+  "cpu_milliseconds": 103204,
+  "full_lattice_plus_partial": 368301,
+  "noncompletable_partial": 5706,
+  "nonlattice_full_before": 157559,
+  "nonlattice_full_before_pure_after": 157559,
+  "normalization_success": 368301,
+  "reached_eof": 1,
+  "with_partial": 441515
+}

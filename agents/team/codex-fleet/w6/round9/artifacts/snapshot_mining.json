@@ -1,0 +1,216 @@
+{
+  "conversions": [
+    {
+      "source": "round9/candidates/weighted_mem_s00_best_fail.s",
+      "converted": "round9/artifacts/memory_conversions/weighted_mem_s00_best_fail_out.s",
+      "exit": 0,
+      "stderr": "k=31 L=41 L-2n=31 OK\n",
+      "k": 31
+    },
+    {
+      "source": "round9/candidates/weighted_mem_s00_best_objective.s",
+      "converted": "round9/artifacts/memory_conversions/weighted_mem_s00_best_objective_out.s",
+      "exit": 0,
+      "stderr": "k=31 L=41 L-2n=31 OK\n",
+      "k": 31
+    },
+    {
+      "source": "round9/candidates/weighted_mem_s02_best_fail.s",
+      "converted": "round9/artifacts/memory_conversions/weighted_mem_s02_best_fail_out.s",
+      "exit": 0,
+      "stderr": "k=31 L=41 L-2n=31 OK\n",
+      "k": 31
+    },
+    {
+      "source": "round9/candidates/weighted_mem_s02_best_objective.s",
+      "converted": "round9/artifacts/memory_conversions/weighted_mem_s02_best_objective_out.s",
+      "exit": 0,
+      "stderr": "k=31 L=41 L-2n=31 OK\n",
+      "k": 31
+    },
+    {
+      "source": "round9/candidates/weighted_mem_s10_best_fail.s",
+      "converted": "round9/artifacts/memory_conversions/weighted_mem_s10_best_fail_out.s",
+      "exit": 0,
+      "stderr": "k=31 L=41 L-2n=31 OK\n",
+      "k": 31
+    },
+    {
+      "source": "round9/candidates/weighted_mem_s10_best_objective.s",
+      "converted": "round9/artifacts/memory_conversions/weighted_mem_s10_best_objective_out.s",
+      "exit": 0,
+      "stderr": "k=31 L=41 L-2n=31 OK\n",
+      "k": 31
+    }
+  ],
+  "programs": [
+    {
+      "source": "round9/candidates/weighted_out_s00_best_fail.s",
+      "best_failed_orders": 9,
+      "nodes": 9,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "retained": "round9/candidates/weighted_out_s00_best_fail_snapshots.s",
+      "sha256": "5358aff59a1b12ee69a49e637b9c3d6c9199ac22cf827777d07f3758fcfbadfb"
+    },
+    {
+      "source": "round9/candidates/weighted_out_s00_best_objective.s",
+      "best_failed_orders": 39,
+      "nodes": 15,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "source": "round9/candidates/weighted_out_s02_best_fail.s",
+      "best_failed_orders": 9,
+      "nodes": 9,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "retained": "round9/candidates/weighted_out_s02_best_fail_snapshots.s",
+      "sha256": "63f0d536f0514b001691d41e5e08fa5f2f8e5fbac430202d9df0b8c299eedb34"
+    },
+    {
+      "source": "round9/candidates/weighted_out_s02_best_objective.s",
+      "best_failed_orders": 39,
+      "nodes": 14,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        9,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "round9/candidates/weighted_out_s10_best_fail.s",
+      "best_failed_orders": 9,
+      "nodes": 9,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "retained": "round9/candidates/weighted_out_s10_best_fail_snapshots.s",
+      "sha256": "cd04aaff4fd50cc6ce2441eafac5123c385d6d99a3182b9d8850140b90a4e090"
+    },
+    {
+      "source": "round9/candidates/weighted_out_s10_best_objective.s",
+      "best_failed_orders": 39,
+      "nodes": 11,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        6,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "source": "round9/artifacts/memory_conversions/weighted_mem_s00_best_fail_out.s",
+      "best_failed_orders": 9,
+      "nodes": 9,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "retained": "round9/candidates/weighted_mem_s00_best_fail_out_snapshots.s",
+      "sha256": "403b2413357301809c6bed2cfa29cf4b2ff002a661ec1fad3ee7757ff4f7760c"
+    },
+    {
+      "source": "round9/artifacts/memory_conversions/weighted_mem_s00_best_objective_out.s",
+      "best_failed_orders": 39,
+      "nodes": 15,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "source": "round9/artifacts/memory_conversions/weighted_mem_s02_best_fail_out.s",
+      "best_failed_orders": 9,
+      "nodes": 9,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "retained": "round9/candidates/weighted_mem_s02_best_fail_out_snapshots.s",
+      "sha256": "09d7fa967a2d76c0677a1238c5f18bd4bc9bdc6bfb084a06a7e9414ca273f39f"
+    },
+    {
+      "source": "round9/artifacts/memory_conversions/weighted_mem_s02_best_objective_out.s",
+      "best_failed_orders": 39,
+      "nodes": 15,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        5,
+        6,
+        1
+      ]
+    },
+    {
+      "source": "round9/artifacts/memory_conversions/weighted_mem_s10_best_fail_out.s",
+      "best_failed_orders": 9,
+      "nodes": 9,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "retained": "round9/candidates/weighted_mem_s10_best_fail_out_snapshots.s",
+      "sha256": "9c4c2467ae3c6ed0efe1a7df3556a52fd320a3b93b4f026d2e9824c8c91c7338"
+    },
+    {
+      "source": "round9/artifacts/memory_conversions/weighted_mem_s10_best_objective_out.s",
+      "best_failed_orders": 39,
+      "nodes": 11,
+      "status": "COMPLETE",
+      "domain_sizes": [
+        1,
+        6,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "case": "c14_02_04",
+  "index_within_c": 50,
+  "c": 14,
+  "k": 31,
+  "m": 17,
+  "i": 2,
+  "j": 4,
+  "units": [
+    2964,
+    2984
+  ],
+  "base": "/path/to/repo/agents/team/codex-fleet/w10/c2_short/base/base_k31_c14.cnf",
+  "base_sha256": "4463d0c20cb18f7d7f292cae3befde8e255f87e7b0aa94cfb94ac2cc2a7edb35",
+  "variables": 49925,
+  "clauses": 538223,
+  "started": "2026-10-26T07:24:11.058160+00:00",
+  "cnf_sha256": "450835feeefb6835f48547a6a8954583207e857e650281ef7fc63b5df0b57b5b",
+  "decided": false,
+  "solver_limit_seconds": 5,
+  "solver": {
+    "command": [
+      "/path/to/repo/bin/kissat",
+      "--time=5",
+      "/path/to/repo/agents/team/codex-fleet/w10/c2_short/c14_02_04/formula.cnf",
+      "/path/to/repo/agents/team/codex-fleet/w10/c2_short/c14_02_04/proof.drat"
+    ],
+    "returncode": 0,
+    "wall_seconds": 5.160775773227215,
+    "log": "/path/to/repo/agents/team/codex-fleet/w10/c2_short/c14_02_04/solver.log",
+    "nice": 19
+  },
+  "status": "UNKNOWN",
+  "pass_complete": true,
+  "finished": "2026-10-26T07:24:16.236605+00:00"
+}

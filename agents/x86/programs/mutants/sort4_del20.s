@@ -1,0 +1,29 @@
+# n=4 R=9 iset=I1 source=AlphaDev sort_functions_test.cc Sort4AlphaDev (converted by agents/x86/src/extract_alphadev.py)
+# L=28 ; S map: S0=eax S1=ecx S2=edx S3=r8d S4=r9d
+mov S0, P2
+mov S1, P0
+mov S2, P1
+cmp S1, S0
+mov S3, S0
+cmovl S3, S1
+cmovl S1, S0
+mov S4, P3
+cmp S2, S4
+mov S0, S4
+cmovl S0, S2
+cmovl S2, S4
+cmp S3, S0
+mov S4, S0
+cmovl S4, S3
+cmovge S0, S3
+mov P0, S4
+cmp S1, S2
+mov S3, S2
+cmovl S3, S1
+mov P3, S2
+cmp S0, S3
+mov S1, S3
+cmovl S1, S0
+cmovge S3, S0
+mov P2, S3
+mov P1, S1

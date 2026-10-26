@@ -1,0 +1,12 @@
+{
+  "command": [
+    "./round3/neighbours",
+    "round3/candidates/nomov_9f7a6fc77b297ff9.s",
+    "round3/candidates/nomov_9f7a6fc77b297ff9",
+    "delete"
+  ],
+  "wall_limit": 20.0,
+  "exit": 0,
+  "seconds": 0.009582511149346828,
+  "log": "round3/logs/nomov_9f7a6fc77b297ff9_deletions.log"
+}

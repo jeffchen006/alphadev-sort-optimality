@@ -1,0 +1,101 @@
+{
+  "path": "candidates/weak_prefix12_near31_out.s",
+  "core": 31,
+  "cmp": 8,
+  "errors": [
+    0,
+    12,
+    0,
+    0,
+    0
+  ],
+  "failed_weak_orders": 12,
+  "failed_cases": [
+    [
+      0,
+      2,
+      1,
+      2,
+      2
+    ],
+    [
+      0,
+      3,
+      1,
+      2,
+      2
+    ],
+    [
+      0,
+      3,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      1,
+      3,
+      2
+    ],
+    [
+      0,
+      4,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      4,
+      1,
+      3,
+      2
+    ],
+    [
+      2,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      3,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      3,
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      3,
+      0,
+      1,
+      3,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      0,
+      1,
+      3,
+      2
+    ]
+  ],
+  "judge": "FAIL candidates/weak_prefix12_near31_out.s [relaxed+strict] n=5 L=31 R=8 iset=I1 model=out\n  counterexample: relaxed model: order type [0, 2, 1, 2, 2] -> output [0, 2, 2, 2, 2] (T=5 means scratch value), expected [0, 1, 2, 2, 2]\n",
+  "log": "logs/weak_prefix12_near31_judge.log"
+}

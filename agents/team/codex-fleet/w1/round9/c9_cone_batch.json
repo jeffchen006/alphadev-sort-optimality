@@ -1,0 +1,4049 @@
+[
+  {
+    "index": 0,
+    "result": "c9_cone_00.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "0",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_00",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.121409212,
+    "cases": 3,
+    "rounds": 0,
+    "args": {
+      "index": 0,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_00",
+      "resume_json": null
+    },
+    "key": "c9_b00",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "vars": 44869,
+    "clauses": 499397,
+    "stats": {
+      "restarts": 3631,
+      "conflicts": 36092,
+      "decisions": 569221,
+      "propagations": 57087580
+    },
+    "maxrss_kib": 104884,
+    "total_cpu": 8.353245869,
+    "registers": 64,
+    "suffix_builds": 3,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 1,
+    "result": "c9_cone_01.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "1",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_01",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.814349663,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 1,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_01",
+      "resume_json": null
+    },
+    "key": "c9_b01",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "vars": 151050,
+    "clauses": 1520517,
+    "stats": {
+      "restarts": 1075,
+      "conflicts": 23152,
+      "decisions": 253579,
+      "propagations": 29259544
+    },
+    "maxrss_kib": 209708,
+    "total_cpu": 9.054090962,
+    "registers": 65,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 2,
+    "result": "c9_cone_02.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "2",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_02",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.247484826,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 2,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_02",
+      "resume_json": null
+    },
+    "key": "c9_b02",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 151050,
+    "clauses": 1520517,
+    "stats": {
+      "restarts": 2526,
+      "conflicts": 26654,
+      "decisions": 495888,
+      "propagations": 46722822
+    },
+    "maxrss_kib": 162976,
+    "total_cpu": 10.485114304000001,
+    "registers": 65,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 3,
+    "result": "c9_cone_03.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "3",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_03",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.035178795,
+    "cases": 3,
+    "rounds": 0,
+    "args": {
+      "index": 3,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_03",
+      "resume_json": null
+    },
+    "key": "c9_b03",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "vars": 44869,
+    "clauses": 499394,
+    "stats": {
+      "restarts": 2389,
+      "conflicts": 30053,
+      "decisions": 448854,
+      "propagations": 47024355
+    },
+    "maxrss_kib": 103432,
+    "total_cpu": 8.266841532,
+    "registers": 64,
+    "suffix_builds": 3,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 4,
+    "result": "c9_cone_04.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "4",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_04",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 9.114199304,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 4,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_04",
+      "resume_json": null
+    },
+    "key": "c9_b04",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 121249,
+    "clauses": 1208017,
+    "stats": {
+      "restarts": 2682,
+      "conflicts": 30314,
+      "decisions": 436674,
+      "propagations": 43672724
+    },
+    "maxrss_kib": 132756,
+    "total_cpu": 9.283834575,
+    "registers": 58,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 5,
+    "result": "c9_cone_05.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "5",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_05",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.341986579,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 5,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_05",
+      "resume_json": null
+    },
+    "key": "c9_b05",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      20,
+      21,
+      23,
+      24,
+      26,
+      28
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 90565,
+    "clauses": 892104,
+    "stats": {
+      "restarts": 1028,
+      "conflicts": 13535,
+      "decisions": 195616,
+      "propagations": 32929718
+    },
+    "maxrss_kib": 147780,
+    "total_cpu": 8.455444796,
+    "registers": 51,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 6,
+    "result": "c9_cone_06.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "6",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_06",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.701392269000001,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 6,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_06",
+      "resume_json": null
+    },
+    "key": "c9_b06",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ]
+    ],
+    "vars": 151050,
+    "clauses": 1520505,
+    "stats": {
+      "restarts": 625,
+      "conflicts": 15555,
+      "decisions": 143795,
+      "propagations": 16981805
+    },
+    "maxrss_kib": 160604,
+    "total_cpu": 9.014223158,
+    "registers": 65,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 7,
+    "result": "c9_cone_07.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "7",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_07",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.415814183999998,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 7,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_07",
+      "resume_json": null
+    },
+    "key": "c9_b07",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 123257,
+    "clauses": 1229634,
+    "stats": {
+      "restarts": 422,
+      "conflicts": 6596,
+      "decisions": 98133,
+      "propagations": 21193788
+    },
+    "maxrss_kib": 196672,
+    "total_cpu": 8.643672498,
+    "registers": 59,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 8,
+    "result": "c9_cone_08.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "8",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_08",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 9.105035687,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 8,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_08",
+      "resume_json": null
+    },
+    "key": "c9_b08",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 151050,
+    "clauses": 1520529,
+    "stats": {
+      "restarts": 1948,
+      "conflicts": 24256,
+      "decisions": 381077,
+      "propagations": 37451233
+    },
+    "maxrss_kib": 162284,
+    "total_cpu": 9.347538809000001,
+    "registers": 65,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 9,
+    "result": "c9_cone_09.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "9",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_09",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.104967724000002,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 9,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_09",
+      "resume_json": null
+    },
+    "key": "c9_b09",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "vars": 148805,
+    "clauses": 1495970,
+    "stats": {
+      "restarts": 445,
+      "conflicts": 7217,
+      "decisions": 102306,
+      "propagations": 19562498
+    },
+    "maxrss_kib": 235756,
+    "total_cpu": 8.339431080999999,
+    "registers": 64,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 10,
+    "result": "c9_cone_10.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "10",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_10",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.415948946,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 10,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_10",
+      "resume_json": null
+    },
+    "key": "c9_b10",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      23,
+      24,
+      26,
+      27
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "vars": 114566,
+    "clauses": 1139427,
+    "stats": {
+      "restarts": 2543,
+      "conflicts": 28870,
+      "decisions": 467118,
+      "propagations": 41497588
+    },
+    "maxrss_kib": 131032,
+    "total_cpu": 8.573068042,
+    "registers": 57,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 11,
+    "result": "c9_cone_11.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "11",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_11",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.554978426,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 11,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_11",
+      "resume_json": null
+    },
+    "key": "c9_b11",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      25,
+      26,
+      27
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 123257,
+    "clauses": 1229656,
+    "stats": {
+      "restarts": 548,
+      "conflicts": 13254,
+      "decisions": 119356,
+      "propagations": 24474337
+    },
+    "maxrss_kib": 196284,
+    "total_cpu": 8.730770778,
+    "registers": 59,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 12,
+    "result": "c9_cone_12.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "12",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_12",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.120818482999999,
+    "cases": 3,
+    "rounds": 0,
+    "args": {
+      "index": 12,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_12",
+      "resume_json": null
+    },
+    "key": "c9_b12",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23,
+      25,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "vars": 34141,
+    "clauses": 365861,
+    "stats": {
+      "restarts": 3380,
+      "conflicts": 34103,
+      "decisions": 577949,
+      "propagations": 53460929
+    },
+    "maxrss_kib": 86844,
+    "total_cpu": 8.270272395000001,
+    "registers": 56,
+    "suffix_builds": 3,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 13,
+    "result": "c9_cone_13.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "13",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_13",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.071316952,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 13,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_13",
+      "resume_json": null
+    },
+    "key": "c9_b13",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      23,
+      24,
+      26,
+      28,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 121249,
+    "clauses": 1207997,
+    "stats": {
+      "restarts": 193,
+      "conflicts": 7001,
+      "decisions": 58404,
+      "propagations": 15604954
+    },
+    "maxrss_kib": 190628,
+    "total_cpu": 8.291706614,
+    "registers": 58,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 14,
+    "result": "c9_cone_14.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "14",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_14",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.574623493999999,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 14,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_14",
+      "resume_json": null
+    },
+    "key": "c9_b14",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      21,
+      22,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 123257,
+    "clauses": 1229621,
+    "stats": {
+      "restarts": 310,
+      "conflicts": 6821,
+      "decisions": 77533,
+      "propagations": 17558914
+    },
+    "maxrss_kib": 195748,
+    "total_cpu": 8.803708059,
+    "registers": 59,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 15,
+    "result": "c9_cone_15.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "15",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_15",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.549515743,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 15,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_15",
+      "resume_json": null
+    },
+    "key": "c9_b15",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 151050,
+    "clauses": 1520540,
+    "stats": {
+      "restarts": 1945,
+      "conflicts": 24910,
+      "decisions": 327985,
+      "propagations": 34626634
+    },
+    "maxrss_kib": 163156,
+    "total_cpu": 10.861401542,
+    "registers": 65,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 16,
+    "result": "c9_cone_16.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "16",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_16",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.974345547999999,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 16,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_16",
+      "resume_json": null
+    },
+    "key": "c9_b16",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 148805,
+    "clauses": 1495982,
+    "stats": {
+      "restarts": 335,
+      "conflicts": 6124,
+      "decisions": 88681,
+      "propagations": 15560900
+    },
+    "maxrss_kib": 237292,
+    "total_cpu": 9.274096643,
+    "registers": 64,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 17,
+    "result": "c9_cone_17.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "17",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_17",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 9.180266169,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 17,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_17",
+      "resume_json": null
+    },
+    "key": "c9_b17",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "vars": 151050,
+    "clauses": 1520506,
+    "stats": {
+      "restarts": 1951,
+      "conflicts": 20810,
+      "decisions": 353338,
+      "propagations": 35470513
+    },
+    "maxrss_kib": 208516,
+    "total_cpu": 9.42252554,
+    "registers": 65,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 18,
+    "result": "c9_cone_18.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "18",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_18",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.060493607,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 18,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_18",
+      "resume_json": null
+    },
+    "key": "c9_b18",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 148805,
+    "clauses": 1496002,
+    "stats": {
+      "restarts": 922,
+      "conflicts": 12522,
+      "decisions": 177511,
+      "propagations": 25756855
+    },
+    "maxrss_kib": 225048,
+    "total_cpu": 8.291406521999999,
+    "registers": 64,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 19,
+    "result": "c9_cone_19.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "19",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_19",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 9.445656905,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 19,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_19",
+      "resume_json": null
+    },
+    "key": "c9_b19",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 123257,
+    "clauses": 1229645,
+    "stats": {
+      "restarts": 3672,
+      "conflicts": 38341,
+      "decisions": 633922,
+      "propagations": 57129981
+    },
+    "maxrss_kib": 136108,
+    "total_cpu": 9.617658777,
+    "registers": 59,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 20,
+    "result": "c9_cone_20.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "20",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_20",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.387500968,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 20,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_20",
+      "resume_json": null
+    },
+    "key": "c9_b20",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 141488,
+    "clauses": 1419748,
+    "stats": {
+      "restarts": 497,
+      "conflicts": 8595,
+      "decisions": 94358,
+      "propagations": 26070784
+    },
+    "maxrss_kib": 228912,
+    "total_cpu": 8.608089581,
+    "registers": 63,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 21,
+    "result": "c9_cone_21.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "21",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_21",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.282259321,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 21,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_21",
+      "resume_json": null
+    },
+    "key": "c9_b21",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      19,
+      20,
+      21,
+      22,
+      23,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "vars": 112637,
+    "clauses": 1118756,
+    "stats": {
+      "restarts": 757,
+      "conflicts": 11359,
+      "decisions": 162908,
+      "propagations": 36954336
+    },
+    "maxrss_kib": 180128,
+    "total_cpu": 8.430164773,
+    "registers": 56,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 22,
+    "result": "c9_cone_22.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "22",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_22",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 10.017925925,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 22,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_22",
+      "resume_json": null
+    },
+    "key": "c9_b22",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      28,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 148805,
+    "clauses": 1496004,
+    "stats": {
+      "restarts": 3410,
+      "conflicts": 38683,
+      "decisions": 609993,
+      "propagations": 58584069
+    },
+    "maxrss_kib": 159272,
+    "total_cpu": 10.250999283,
+    "registers": 64,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 23,
+    "result": "c9_cone_23.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "23",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_23",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.461688952,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 23,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_23",
+      "resume_json": null
+    },
+    "key": "c9_b23",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    ],
+    "vars": 123257,
+    "clauses": 1229632,
+    "stats": {
+      "restarts": 3099,
+      "conflicts": 35495,
+      "decisions": 541441,
+      "propagations": 49285414
+    },
+    "maxrss_kib": 139492,
+    "total_cpu": 8.641286796,
+    "registers": 59,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 24,
+    "result": "c9_cone_24.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "24",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_24",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.085380169,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 24,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_24",
+      "resume_json": null
+    },
+    "key": "c9_b24",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      23,
+      24,
+      26,
+      28,
+      29,
+      30
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "vars": 112637,
+    "clauses": 1118733,
+    "stats": {
+      "restarts": 2431,
+      "conflicts": 32255,
+      "decisions": 406429,
+      "propagations": 44787974
+    },
+    "maxrss_kib": 138876,
+    "total_cpu": 8.238584512,
+    "registers": 56,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  },
+  {
+    "index": 25,
+    "result": "c9_cone_25.json",
+    "command": [
+      "/usr/bin/python3",
+      "round9/search.py",
+      "--index",
+      "25",
+      "--mode",
+      "cone",
+      "--tail",
+      "6",
+      "--cpu",
+      "8.0",
+      "--extra",
+      "2",
+      "--stem",
+      "c9_cone_25",
+      "--schedule-scope",
+      "tail",
+      "--unbounded"
+    ],
+    "status": "UNKNOWN",
+    "cpu": 8.260789628,
+    "cases": 11,
+    "rounds": 1,
+    "args": {
+      "index": 25,
+      "mode": "cone",
+      "tail": 6,
+      "schedule_scope": "tail",
+      "cpu": 8.0,
+      "extra": 2,
+      "unbounded": true,
+      "control": false,
+      "all_cases": false,
+      "stem": "c9_cone_25",
+      "resume_json": null
+    },
+    "key": "c9_b25",
+    "editable": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      26,
+      27,
+      29,
+      31
+    ],
+    "used_cases": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "vars": 114566,
+    "clauses": 1139384,
+    "stats": {
+      "restarts": 2278,
+      "conflicts": 25631,
+      "decisions": 347510,
+      "propagations": 42584617
+    },
+    "maxrss_kib": 177260,
+    "total_cpu": 8.41794513,
+    "registers": 57,
+    "suffix_builds": 11,
+    "schedule_normalized": false,
+    "requested_cpu": 8.0
+  }
+]

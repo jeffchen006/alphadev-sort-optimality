@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/path/to/repo/bin/drat-trim",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_partial_pure.cnf",
+    "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_partial_pure.drat",
+    "-t",
+    "30"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.597391126677394,
+  "cpu_seconds": 1.4824639999999973,
+  "maxrss_kib": 387964,
+  "log": "/path/to/repo/agents/team/codex-fleet/w10/round4/gap_reject_partial_pure.proofcheck.runlog",
+  "cnf_sha256": "08a654cd10f072449f8f06a70cbcd21cd1c2739da46140f40f55b3456206a2d4",
+  "proof_sha256": "3441b8aa02f9a895d7ad971da766e6ecf32e86e1c0ee4c3ee94b366c4330fa1b",
+  "verified": true,
+  "checker_status": "s VERIFIED"
+}

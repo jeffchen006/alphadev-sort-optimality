@@ -1,0 +1,30 @@
+# n=4 R=9 iset=I1 model=mem source=repo:Sort4AlphaDev
+# L=28 (every instruction counts). regs: S0=eax S1=ecx S2=edx S3=r8d S4=r9d
+mov S0, P2       # mov 0x8(%0), %%eax
+mov S1, P0       # mov (%0), %%ecx
+mov S2, P1       # mov 0x4(%0), %%edx
+cmp S1, S0       # cmp %%eax, %%ecx
+mov S3, S0       # mov %%eax, %%r8d
+cmovl S3, S1     # cmovl %%ecx, %%r8d
+cmovl S1, S0     # cmovl %%eax, %%ecx
+mov S4, P3       # mov 0xc(%0), %%r9d
+cmp S2, S4       # cmp %%r9d, %%edx
+mov S0, S4       # mov %%r9d, %%eax
+cmovl S0, S2     # cmovl %%edx, %%eax
+cmovl S2, S4     # cmovl %%r9d, %%edx
+cmp S3, S0       # cmp %%eax, %%r8d
+mov S4, S0       # mov %%eax, %%r9d
+cmovl S4, S3     # cmovl %%r8d, %%r9d
+cmovge S0, S3    # cmovge %%r8d, %%eax
+mov P0, S4       # mov %%r9d, (%0)
+cmp S1, S2       # cmp %%edx, %%ecx
+mov S3, S2       # mov %%edx, %%r8d
+cmovl S3, S1     # cmovl %%ecx, %%r8d
+cmovge S2, S1    # cmovge %%ecx, %%edx
+mov P3, S2       # mov %%edx, 0xc(%0)
+cmp S0, S3       # cmp %%r8d, %%eax
+mov S1, S3       # mov %%r8d, %%ecx
+cmovl S1, S0     # cmovl %%eax, %%ecx
+cmovge S3, S0    # cmovge %%eax, %%r8d
+mov P2, S3       # mov %%r8d, 0x8(%0)
+mov P1, S1       # mov %%ecx, 0x4(%0)

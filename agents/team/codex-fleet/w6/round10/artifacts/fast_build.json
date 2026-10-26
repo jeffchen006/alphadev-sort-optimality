@@ -1,0 +1,54 @@
+{
+  "changes": [
+    {
+      "tag": "insert",
+      "old_lines": [
+        41,
+        41
+      ],
+      "new_lines": [
+        41,
+        43
+      ]
+    },
+    {
+      "tag": "replace",
+      "old_lines": [
+        158,
+        159
+      ],
+      "new_lines": [
+        160,
+        161
+      ]
+    },
+    {
+      "tag": "replace",
+      "old_lines": [
+        182,
+        183
+      ],
+      "new_lines": [
+        184,
+        187
+      ]
+    },
+    {
+      "tag": "replace",
+      "old_lines": [
+        267,
+        277
+      ],
+      "new_lines": [
+        271,
+        310
+      ]
+    }
+  ],
+  "hashes": {
+    "round10/src/dagx_safe.cpp": "595ab791dfb855f5ecfa1e5e0c06b0193982aaaabcc8c99623b64de194170df6",
+    "round10/src/dagx_flags_safe.cpp": "0899abfbb2670db5e7c3a162e8ff8cba28da1de530379404a9d35a32b731c792",
+    "round10/src/dagx_lb.cpp": "76d3d05bd8fced1718a60c074e22418370e5501fe5ea7fb82941c70175c79a17",
+    "round10/src/dagx_flags_fast.cpp": "3a8089800dc197e6f5049e083ff4a5d1efe5fa7a7a2d5e628e16cb2ec8605805"
+  }
+}

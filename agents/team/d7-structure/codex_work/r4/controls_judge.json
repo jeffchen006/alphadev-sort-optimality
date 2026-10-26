@@ -1,0 +1,6 @@
+{
+  "n3_reference11.s": "PASS codex_work/r4/n3_reference11.s [relaxed+strict] n=3 L=11 R=5 iset=I1 model=out",
+  "n4_positive20.s": "PASS codex_work/r4/n4_positive20.s [relaxed+strict] n=4 L=20 R=7 iset=I1 model=out",
+  "c9_onewrite_block.s": "PASS codex_work/r4/c9_onewrite_block.s [relaxed+strict] n=5 L=34 R=18 iset=I1 model=out",
+  "c10_padding.s": "PASS codex_work/r4/c10_padding.s [relaxed+strict] n=5 L=33 R=9 iset=I1 model=out"
+}

@@ -1,0 +1,137 @@
+theorem checkG_sound (hc : CtxOK c) (hs : SetCtxOK c) (G : List (List Nat)) (hgo : GroupOK c G)
+    (cs : List Cond) (hsw : ∀ x ∈ cs, x.swap ∈ cs) (KB : Nat)
+    (S : List (Key × Nat)) (look : Key → Option Nat) (hlook : ∀ k g, look k = some g → (k, g) ∈ S)
+    (hchk : checkG c G cs KB S look = true) (p : Program) (hp : p.length ≤ KB) (hcs : ∀ i ∈ p, condIn cs i)
+    (o : Snap)
+    (hsnap : ∀ w ∈ c.ts, ∀ j < c.n, (run compare (p.take (o j).2) (initOf c.n w)).regs (o j).1 = ((j : Nat) : Int)) :
+    False := by
+  simp only [checkG, Bool.and_eq_true, beq_iff_eq, List.all_eq_true] at hchk
+  obtain ⟨hroot, hall⟩ := hchk
+  let E := (p.flatMap Instr.regs).sum + 1
+  let B := c.n + E
+  have hB : ∀ i ∈ p, ∀ r ∈ i.regs, r < B := by
+    intro i hi r hr
+    have := le_sum_of_mem (List.mem_flatMap.2 ⟨i, hi, hr⟩)
+    simp only [B, E]; omega
+  let tm : Nat → Nat := fun j => min (o j).2 p.length
+  have hsn : ∀ w ∈ c.ts, ∀ j < c.n, (run compare (p.take (tm j)) (initOf c.n w)).regs (o j).1 = ((j : Nat) : Int) := by
+    intro w hw j hj; simp only [tm]; rw [take_min_len]; exact hsnap w hw j hj
+  let stAt : Nat → MS := fun d w => run compare (p.take d) (initOf c.n w)
+  have hstep : ∀ d (hd : d < p.length), stAt (d + 1) = stepMS (stAt d) p[d] := by
+    intro d hd; funext w
+    simp only [stAt, stepMS]
+    rw [List.take_succ_eq_append_getElem hd, run_append]; rfl
+  have hpres : ∀ d j, j < c.n → tm j = d → Pres c (stAt d) j := fun d j hj htm =>
+    ⟨(o j).1, fun w hw => by have := hsn w hw j hj; rwa [htm] at this⟩
+  have Inv : ∀ d, d ≤ p.length → ∃ k g x f, (k, g) ∈ S ∧ (∀ w ∈ c.ts, f w ∈ c.ts) ∧
+      g + Phi c B (view (stAt d) f) ≤ d ∧ k = norm c x ∧
+      RelW c B (view (stAt d) f) k ∧ ∀ j < c.n, tm j ≤ d → k.done.getD j false = true := by
+    intro d
+    induction d with
+    | zero =>
+      intro _
+      let k0 : Key := { cols := (List.range c.n).map (fun i => c.ts.map (fun w => w.getD i 0))
+                        flag := List.replicate c.m .eq, done := List.replicate c.n false }
+      have hR0 : RelW c B (stAt 0) (norm c k0) := rel_normW c hc ((rel_init c hc E).toW c hc)
+      have hphi : Phi c B (stAt 0) = 0 := phi_init c hc hs E
+      obtain ⟨f, hf, hRf, hPf, x, hx, hxd⟩ := canon_rel c hc hgo hR0
+      refine ⟨canon c G (root c), 0, x, f, hlook _ _ hroot, hf, by omega, hx, hRf, ?_⟩
+      intro j hj htm
+      exact done_of_mem_norm c hx hj (pres_mem c hc hRf hj (pres_view c hf (hpres 0 j hj (by omega))))
+    | succ d ih =>
+      intro hd1
+      obtain ⟨k, g, x, f, hkS, hf, hgd, hkx, hR, hdone⟩ := ih (by omega)
+      have hdl : d < p.length := by omega
+      have hk := hall (k, g) hkS
+      simp only [Bool.and_eq_true, Bool.not_eq_true', List.all_eq_true] at hk
+      obtain ⟨_, hsucc⟩ := hk
+      let i := p[d]
+      have hiP : i ∈ p := List.getElem_mem hdl
+      obtain ⟨w, hw, hcase⟩ := setStep c hc cs hsw hR i (hB i hiP) (hcs i hiP)
+      have hv : stepMS (view (stAt d) f) i = view (stAt (d + 1)) f := by rw [hstep d hdl]; rfl
+      rw [hv] at hw hcase
+      rcases hcase with ⟨hw0, hR'⟩ | ⟨y, hy, hmem, hR'⟩
+      · refine ⟨k, g, x, f, hkS, hf, by omega, hkx, hR', ?_⟩
+        intro j hj htm
+        rcases Nat.lt_or_ge (tm j) (d + 1) with hlt | hge
+        · exact hdone j hj (by omega)
+        · exact done_of_mem_norm c hkx hj
+            (pres_mem c hc hR' hj (pres_view c hf (hpres (d + 1) j hj (by omega))))
+      · obtain ⟨f2, hf2, hR2, hP2, x2, hx2, hx2d⟩ := canon_rel c hc hgo hR'
+        have hff : ∀ u ∈ c.ts, f (f2 u) ∈ c.ts := fun u hu => hf _ (hf2 u hu)
+        replace hR2 : RelW c B (view (stAt (d + 1)) (fun u => f (f2 u))) (canon c G (norm c y)) := hR2
+        replace hP2 : Phi c B (view (stAt (d + 1)) (fun u => f (f2 u))) = Phi c B (view (stAt (d + 1)) f) := hP2
+        have hdone' : ∀ j < c.n, tm j ≤ d + 1 → (canon c G (norm c y)).done.getD j false = true := by
+          intro j hj htm
+          rcases Nat.lt_or_ge (tm j) (d + 1) with hlt | hge
+          · rw [hx2, norm_done c x2 j hj, hx2d, norm_done c y j hj, hy, hdone j hj (by omega)]; simp
+          · exact done_of_mem_norm c hx2 hj
+              (pres_mem c hc hR2 hj (pres_view c hff (hpres (d + 1) j hj (by omega))))
+        let q := p.drop (d + 1)
+        have hF : Fut c (view (stAt (d + 1)) (fun u => f (f2 u))) q (undone c (canon c G (norm c y))) := by
+          apply fut_view c hff
+          intro j hj
+          have hjn : j < c.n := by simp [undone] at hj; exact hj.1
+          have hnd : (canon c G (norm c y)).done.getD j false = false := by simp [undone] at hj; simpa using hj.2
+          have hlt : d + 1 < tm j := by
+            rcases Nat.lt_or_ge (d + 1) (tm j) with h | h
+            · exact h
+            · rw [hdone' j hjn h] at hnd; exact absurd hnd (by decide)
+          have htmle : tm j ≤ p.length := Nat.min_le_right _ _
+          refine ⟨tm j - (d + 1), by simp [q]; omega, (o j).1, fun w hw => ?_⟩
+          have := hsn w hw j hjn
+          rw [show tm j = (d + 1) + (tm j - (d + 1)) by omega, List.take_add, run_append] at this
+          exact this
+        have hR2' : RelW c B (view (stAt (d + 1)) (fun u => f (f2 u))) (norm c x2) := hx2 ▸ hR2
+        have hA := undone_absent c hc x2 hR2'
+        rw [← hx2] at hA
+        have hnd := not_dead c hc hR2 hF
+        have hh := h_le c hc hR2 hA hF
+        have hql : q.length = p.length - (d + 1) := by simp [q]
+        have hok := hsucc (norm c y, w) hmem
+        have hraw : ¬ (KB < g + w + (undone c (norm c y)).length) ∧ dead c (norm c y) = false := by
+          have hA0 := undone_absent c hc y hR'
+          let q0 := p.drop (d + 1)
+          have hF0 : Fut c (view (stAt (d + 1)) f) q (undone c (norm c y)) := by
+            intro j hj
+            have hjn : j < c.n := by simp [undone] at hj; exact hj.1
+            have hnd0 : (norm c y).done.getD j false = false := by simp [undone] at hj; simpa using hj.2
+            have hlt : d + 1 < tm j := by
+              rcases Nat.lt_or_ge (d + 1) (tm j) with h | h
+              · exact h
+              · have e : (norm c y).done.getD j false = true := by
+                  rcases Nat.lt_or_ge (tm j) (d + 1) with hlt | hge
+                  · rw [norm_done c y j hjn, hy, hdone j hjn (by omega)]; simp
+                  · exact done_of_mem_norm c rfl hjn
+                      (pres_mem c hc hR' hjn (pres_view c hf (hpres (d + 1) j hjn (by omega))))
+                rw [e] at hnd0; exact absurd hnd0 (by decide)
+            have htmle : tm j ≤ p.length := Nat.min_le_right _ _
+            refine ⟨tm j - (d + 1), by simp [q]; omega, (o j).1, fun w' hw' => ?_⟩
+            have := hsn _ (hf w' hw') j hjn
+            rw [show tm j = (d + 1) + (tm j - (d + 1)) by omega, List.take_add, run_append] at this
+            exact this
+          have hu := und_le c hc q _ (undone c (norm c y)) (List.nodup_range.filter _) hA0 hF0
+          have h3 := ncmp_add_nwr q
+          refine ⟨by omega, not_dead c hc hR' hF0⟩
+        simp only [fastOK, hraw.1, hraw.2, decide_false, Bool.false_or] at hok
+        simp only [succOKG, hnd, Bool.or_false, Bool.or_eq_true, decide_eq_true_eq] at hok
+        rcases hok with hlook' | hlt
+        · cases hg' : look (canon c G (norm c y)) with
+          | none => rw [hg'] at hlook'; simp at hlook'
+          | some g' =>
+            rw [hg'] at hlook'
+            simp only [decide_eq_true_eq] at hlook'
+            exact ⟨canon c G (norm c y), g', x2, fun u => f (f2 u), hlook _ _ hg', hff, by omega, hx2, hR2, hdone'⟩
+        · exfalso; omega
+  obtain ⟨k, g, x, f, hkS, _, _, _, _, hdone⟩ := Inv p.length (Nat.le_refl _)
+  have hk := hall (k, g) hkS
+  simp only [Bool.and_eq_true, Bool.not_eq_true'] at hk
+  have hgoal : isGoal c k = true := by
+    simp only [isGoal, undone, List.isEmpty_iff, List.filter_eq_nil_iff]
+    intro j hj
+    have hjn := List.mem_range.1 hj
+    rw [hdone j hjn (Nat.min_le_right _ _)]; simp
+  rw [hgoal] at hk; exact absurd hk.1 (by decide)
+
+end
+

@@ -1,0 +1,133 @@
+{
+  "retained_orders_checked": 731,
+  "rejected_sample_checked": 3889,
+  "controls": [
+    {
+      "family": "30ac78ad04f7",
+      "prefix": 0,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "30ac78ad04f7",
+      "prefix": 15,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "30ac78ad04f7",
+      "prefix": 25,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "30ac78ad04f7",
+      "prefix": 0,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "30ac78ad04f7",
+      "prefix": 15,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "30ac78ad04f7",
+      "prefix": 25,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "fd7a081c6ece",
+      "prefix": 0,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "fd7a081c6ece",
+      "prefix": 15,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "fd7a081c6ece",
+      "prefix": 25,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "fd7a081c6ece",
+      "prefix": 0,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "fd7a081c6ece",
+      "prefix": 15,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "fd7a081c6ece",
+      "prefix": 25,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "66221a2755ee",
+      "prefix": 0,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "66221a2755ee",
+      "prefix": 15,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "66221a2755ee",
+      "prefix": 25,
+      "polarity": false,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "66221a2755ee",
+      "prefix": 0,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "66221a2755ee",
+      "prefix": 15,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    },
+    {
+      "family": "66221a2755ee",
+      "prefix": 25,
+      "polarity": true,
+      "status": "SAT",
+      "cases": 25
+    }
+  ],
+  "cpu": 16.510861069
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "./round3/union",
+    "round2/candidates/near14_frozen.s",
+    "round3/candidates/union31",
+    "31",
+    "0.7",
+    "1.5",
+    "180",
+    "8821",
+    "9",
+    "0"
+  ],
+  "wall_limit": 300.0,
+  "exit": 0,
+  "seconds": 180.01388314273208,
+  "log": "round3/logs/union31.log"
+}

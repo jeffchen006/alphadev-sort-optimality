@@ -1,0 +1,14 @@
+{
+  "programs": 884736,
+  "specialization_checks": 2654208,
+  "unknown": 0,
+  "remaining": 0,
+  "judge_pass_records": 8,
+  "source_hashes_checked": true,
+  "candidate_hashes_checked": true,
+  "scope": "construction check; not a sort5 UNSAT result",
+  "review": "pending; C2 column bound not established",
+  "root_family_programs": 3488,
+  "root_family_input_order_checks": 261600,
+  "root_family_source_hashes_checked": true
+}

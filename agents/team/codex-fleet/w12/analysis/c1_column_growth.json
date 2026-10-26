@@ -1,0 +1,748 @@
+{
+  "claim": "This implementation can produce more than two non-lattice written versions from one partial and one non-lattice original version.",
+  "limits": "k=38, above the target bound. Dead prefix. Not a counterexample to existence of a better reduction or to sorting lower bounds.",
+  "orders": 541,
+  "original": {
+    "k": 38,
+    "partial": 1,
+    "non_lattice": 1,
+    "lattice": 24,
+    "rows": [
+      {
+        "core_index": 2,
+        "instruction": [
+          "mov",
+          "S90",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 3,
+        "instruction": [
+          "cmovl",
+          "S90",
+          "P3"
+        ],
+        "kind": "non_lattice",
+        "garbage_entries": 0,
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "core_index": 6,
+        "instruction": [
+          "cmovl",
+          "S91",
+          "P3"
+        ],
+        "kind": "partial",
+        "garbage_entries": 308,
+        "witness": null
+      },
+      {
+        "core_index": 8,
+        "instruction": [
+          "mov",
+          "S1",
+          "P1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 9,
+        "instruction": [
+          "cmovl",
+          "P1",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 10,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 12,
+        "instruction": [
+          "mov",
+          "S1",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 13,
+        "instruction": [
+          "cmovl",
+          "P2",
+          "P4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 14,
+        "instruction": [
+          "mov",
+          "S4",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 15,
+        "instruction": [
+          "mov",
+          "S3",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 16,
+        "instruction": [
+          "cmovge",
+          "S1",
+          "P4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 17,
+        "instruction": [
+          "mov",
+          "S0",
+          "P0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 19,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 20,
+        "instruction": [
+          "cmovge",
+          "S3",
+          "S1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 22,
+        "instruction": [
+          "cmovle",
+          "P0",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 23,
+        "instruction": [
+          "cmovle",
+          "P3",
+          "S0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 25,
+        "instruction": [
+          "cmovg",
+          "P0",
+          "S3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 26,
+        "instruction": [
+          "cmovg",
+          "S3",
+          "S0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 28,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 29,
+        "instruction": [
+          "cmovg",
+          "P2",
+          "P1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 31,
+        "instruction": [
+          "cmovl",
+          "S0",
+          "S4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 32,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 34,
+        "instruction": [
+          "cmovg",
+          "P3",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 35,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 37,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "P0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 38,
+        "instruction": [
+          "cmovl",
+          "P0",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      }
+    ]
+  },
+  "normalized": {
+    "k": 38,
+    "partial": 0,
+    "non_lattice": 3,
+    "lattice": 24,
+    "rows": [
+      {
+        "core_index": 2,
+        "instruction": [
+          "mov",
+          "S0",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 3,
+        "instruction": [
+          "cmovl",
+          "S0",
+          "P3"
+        ],
+        "kind": "non_lattice",
+        "garbage_entries": 0,
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "core_index": 5,
+        "instruction": [
+          "mov",
+          "S1",
+          "S0"
+        ],
+        "kind": "non_lattice",
+        "garbage_entries": 0,
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "core_index": 6,
+        "instruction": [
+          "cmovl",
+          "S1",
+          "P3"
+        ],
+        "kind": "non_lattice",
+        "garbage_entries": 0,
+        "witness": {
+          "type": "same_threshold_mask",
+          "first": {
+            "input": [
+              0,
+              0,
+              2,
+              3,
+              1
+            ],
+            "value": 2,
+            "threshold": 3,
+            "mask": 8,
+            "bit": false
+          },
+          "second": {
+            "input": [
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            "value": 2,
+            "threshold": 2,
+            "mask": 8,
+            "bit": true
+          }
+        }
+      },
+      {
+        "core_index": 8,
+        "instruction": [
+          "mov",
+          "S2",
+          "P1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 9,
+        "instruction": [
+          "cmovl",
+          "S2",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 10,
+        "instruction": [
+          "cmovl",
+          "P3",
+          "P1"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 12,
+        "instruction": [
+          "mov",
+          "S3",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 13,
+        "instruction": [
+          "cmovl",
+          "S3",
+          "P4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 14,
+        "instruction": [
+          "cmovge",
+          "P2",
+          "P4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 16,
+        "instruction": [
+          "mov",
+          "S4",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 17,
+        "instruction": [
+          "cmovl",
+          "S4",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 18,
+        "instruction": [
+          "cmovge",
+          "P3",
+          "P2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 20,
+        "instruction": [
+          "mov",
+          "S5",
+          "P0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 21,
+        "instruction": [
+          "cmovle",
+          "S5",
+          "S4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 22,
+        "instruction": [
+          "cmovle",
+          "S4",
+          "P0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 24,
+        "instruction": [
+          "cmovg",
+          "S5",
+          "P3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 25,
+        "instruction": [
+          "cmovg",
+          "P3",
+          "P0"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 27,
+        "instruction": [
+          "mov",
+          "S6",
+          "S3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 28,
+        "instruction": [
+          "cmovle",
+          "S6",
+          "S2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 29,
+        "instruction": [
+          "cmovg",
+          "S3",
+          "S2"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 31,
+        "instruction": [
+          "cmovl",
+          "P0",
+          "S6"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 32,
+        "instruction": [
+          "cmovle",
+          "S6",
+          "S4"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 34,
+        "instruction": [
+          "cmovg",
+          "S4",
+          "S3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 35,
+        "instruction": [
+          "cmovle",
+          "S6",
+          "S3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 37,
+        "instruction": [
+          "cmovl",
+          "S4",
+          "S5"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      },
+      {
+        "core_index": 38,
+        "instruction": [
+          "cmovl",
+          "S5",
+          "S3"
+        ],
+        "kind": "lattice",
+        "garbage_entries": 0,
+        "witness": null
+      }
+    ]
+  },
+  "judge_records": [
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_original_out.s",
+      "model": "out",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_original_out.s [relaxed+strict] n=5 L=38 R=97 iset=I1 model=out\n  AlphaDev-pruning notes (not enforced): line 5: reads uninitialized S91; line 6: consecutive cmp; line 7: reads uninitialized S91\n",
+      "sha256": "30a914ba45720b34fce09ec164fe92e1aa708054a966ec1a951547c52a8654a4"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_original_mem.s",
+      "model": "mem",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_original_mem.s [relaxed+strict] n=5 L=48 R=16 iset=I1 model=mem\n  AlphaDev-pruning notes (not enforced): line 10: reads uninitialized S10; line 11: consecutive cmp; line 12: reads uninitialized S10\n",
+      "sha256": "a34c0e647c5ee61e3bf91064c87a69eacf6749bb625e4341a5db9beddcccaf21"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_normalized_out.s",
+      "model": "out",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_normalized_out.s [relaxed+strict] n=5 L=38 R=12 iset=I1 model=out\n",
+      "sha256": "accca12e78c64d36849432b4e629ac6e2997ddeaf51a8a6b80f1f2578b86b5fe"
+    },
+    {
+      "path": "/path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_normalized_mem.s",
+      "model": "mem",
+      "output": "PASS /path/to/repo/agents/team/codex-fleet/w12/programs/c1_column_growth_normalized_mem.s [relaxed+strict] n=5 L=48 R=17 iset=I1 model=mem\n",
+      "sha256": "4e9f12a6f77cbfce729ec1012c18d4e2ce9c7ae7f633c1b805381f9027aa3d0f"
+    }
+  ],
+  "baseline": "/path/to/repo/agents/team/codex-fleet/w10/programs/exception_0_normalized.s",
+  "baseline_sha256": "51b6b061a13d9acb45886e64b015f76fc326aa5948c6b11ca6565b67b7f674f1",
+  "source_sha256": {
+    "/path/to/repo/agents/team/codex-fleet/w12/src/check_c1_column_growth.py": "dc40128f148f21a52a386057a729ee6dc595e53aae123b57733ca2dbea80f4f9",
+    "/path/to/repo/agents/team/codex-fleet/w12/src/normalize_c1.py": "b94e7acdb5b5993019c3a41f79664491d97fb75c2d1ef15dbde1ceda1ba4f091"
+  }
+}

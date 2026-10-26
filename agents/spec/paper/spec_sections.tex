@@ -1,0 +1,16 @@
+% Standalone build of spec's sections (for checking only). Theory's main.tex can \input the three section files and
+% paste spec_bib.tex into its thebibliography. Build: pdflatex spec_sections.tex (twice).
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amssymb,booktabs,hyperref,graphicx}
+\usepackage[margin=1in]{geometry}
+\newtheorem{theorem}{Theorem}\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\pending}{\textbf{[PENDING]}}
+\begin{document}
+\input{background}
+\input{model_counting}
+\input{beyond}
+\input{related}
+\begin{thebibliography}{99}
+\input{spec_bib}
+\end{thebibliography}
+\end{document}

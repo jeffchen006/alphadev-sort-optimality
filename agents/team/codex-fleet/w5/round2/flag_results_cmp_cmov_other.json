@@ -1,0 +1,458 @@
+[
+  {
+    "name": "00_flag_cmp",
+    "code": 0,
+    "seconds": 0.4633599314838648,
+    "tail": [
+      "DONE mode=cmp trials=6913952 filters=0 full=1 found=0 seconds=0.459"
+    ]
+  },
+  {
+    "name": "00_flag_cmov",
+    "code": 0,
+    "seconds": 0.15978135727345943,
+    "tail": [
+      "DONE mode=cmov trials=1583712 filters=0 full=1 found=0 seconds=0.154"
+    ]
+  },
+  {
+    "name": "00_flag_other",
+    "code": 0,
+    "seconds": 25.435317710973322,
+    "tail": [
+      "DONE mode=other trials=358036520 filters=0 full=1 found=0 seconds=25.431"
+    ]
+  },
+  {
+    "name": "01_flag_cmp",
+    "code": 0,
+    "seconds": 0.4719546688720584,
+    "tail": [
+      "DONE mode=cmp trials=6913952 filters=0 full=1 found=0 seconds=0.468"
+    ]
+  },
+  {
+    "name": "01_flag_cmov",
+    "code": 0,
+    "seconds": 0.11147589422762394,
+    "tail": [
+      "DONE mode=cmov trials=1583712 filters=0 full=1 found=0 seconds=0.107"
+    ]
+  },
+  {
+    "name": "01_flag_other",
+    "code": 0,
+    "seconds": 17.621252113953233,
+    "tail": [
+      "DONE mode=other trials=358036520 filters=0 full=1 found=0 seconds=17.617"
+    ]
+  },
+  {
+    "name": "02_flag_cmp",
+    "code": 0,
+    "seconds": 0.42643174063414335,
+    "tail": [
+      "DONE mode=cmp trials=6337216 filters=0 full=1 found=0 seconds=0.422"
+    ]
+  },
+  {
+    "name": "02_flag_cmov",
+    "code": 0,
+    "seconds": 0.09594438131898642,
+    "tail": [
+      "DONE mode=cmov trials=1423656 filters=0 full=1 found=0 seconds=0.092"
+    ]
+  },
+  {
+    "name": "02_flag_other",
+    "code": 0,
+    "seconds": 17.628043359145522,
+    "tail": [
+      "DONE mode=other trials=367675527 filters=0 full=1 found=0 seconds=17.624"
+    ]
+  },
+  {
+    "name": "03_flag_cmp",
+    "code": 0,
+    "seconds": 0.9782028682529926,
+    "tail": [
+      "DONE mode=cmp trials=9283904 filters=0 full=1 found=0 seconds=0.968"
+    ]
+  },
+  {
+    "name": "03_flag_cmov",
+    "code": 0,
+    "seconds": 0.24986830167472363,
+    "tail": [
+      "DONE mode=cmov trials=2162400 filters=0 full=1 found=0 seconds=0.229"
+    ]
+  },
+  {
+    "name": "03_flag_other",
+    "code": 0,
+    "seconds": 38.52761310432106,
+    "tail": [
+      "DONE mode=other trials=524944530 filters=0 full=1 found=0 seconds=38.519"
+    ]
+  },
+  {
+    "name": "04_flag_cmp",
+    "code": 0,
+    "seconds": 0.5161483958363533,
+    "tail": [
+      "DONE mode=cmp trials=7514016 filters=0 full=1 found=0 seconds=0.512"
+    ]
+  },
+  {
+    "name": "04_flag_cmov",
+    "code": 0,
+    "seconds": 0.12125755753368139,
+    "tail": [
+      "DONE mode=cmov trials=1751544 filters=0 full=1 found=0 seconds=0.117"
+    ]
+  },
+  {
+    "name": "04_flag_other",
+    "code": 0,
+    "seconds": 17.79332668427378,
+    "tail": [
+      "DONE mode=other trials=343808790 filters=0 full=1 found=0 seconds=17.789"
+    ]
+  },
+  {
+    "name": "05_flag_cmp",
+    "code": 0,
+    "seconds": 0.547626968473196,
+    "tail": [
+      "DONE mode=cmp trials=8542784 filters=0 full=1 found=0 seconds=0.543"
+    ]
+  },
+  {
+    "name": "05_flag_cmov",
+    "code": 0,
+    "seconds": 0.1274929651990533,
+    "tail": [
+      "DONE mode=cmov trials=1955200 filters=0 full=1 found=0 seconds=0.123"
+    ]
+  },
+  {
+    "name": "05_flag_other",
+    "code": 0,
+    "seconds": 26.669462837278843,
+    "tail": [
+      "DONE mode=other trials=546708420 filters=0 full=1 found=0 seconds=26.443"
+    ]
+  },
+  {
+    "name": "06_flag_cmp",
+    "code": 0,
+    "seconds": 0.7040198501199484,
+    "tail": [
+      "DONE mode=cmp trials=6913952 filters=0 full=1 found=0 seconds=0.683"
+    ]
+  },
+  {
+    "name": "06_flag_cmov",
+    "code": 0,
+    "seconds": 0.16136082727462053,
+    "tail": [
+      "DONE mode=cmov trials=1583712 filters=0 full=1 found=0 seconds=0.157"
+    ]
+  },
+  {
+    "name": "06_flag_other",
+    "code": 0,
+    "seconds": 25.509710603393614,
+    "tail": [
+      "DONE mode=other trials=358036520 filters=0 full=1 found=0 seconds=25.505"
+    ]
+  },
+  {
+    "name": "07_flag_cmp",
+    "code": 0,
+    "seconds": 0.5827954122796655,
+    "tail": [
+      "DONE mode=cmp trials=8137408 filters=0 full=1 found=0 seconds=0.578"
+    ]
+  },
+  {
+    "name": "07_flag_cmov",
+    "code": 0,
+    "seconds": 0.13698481023311615,
+    "tail": [
+      "DONE mode=cmov trials=1927152 filters=0 full=1 found=0 seconds=0.133"
+    ]
+  },
+  {
+    "name": "07_flag_other",
+    "code": 0,
+    "seconds": 19.72075252328068,
+    "tail": [
+      "DONE mode=other trials=324679350 filters=0 full=1 found=0 seconds=19.715"
+    ]
+  },
+  {
+    "name": "08_flag_cmp",
+    "code": 0,
+    "seconds": 0.6938117844983935,
+    "tail": [
+      "DONE mode=cmp trials=6913952 filters=0 full=1 found=0 seconds=0.689"
+    ]
+  },
+  {
+    "name": "08_flag_cmov",
+    "code": 0,
+    "seconds": 0.15892837848514318,
+    "tail": [
+      "DONE mode=cmov trials=1583712 filters=0 full=1 found=0 seconds=0.154"
+    ]
+  },
+  {
+    "name": "08_flag_other",
+    "code": 0,
+    "seconds": 21.284427198581398,
+    "tail": [
+      "DONE mode=other trials=358036520 filters=0 full=1 found=0 seconds=21.280"
+    ]
+  },
+  {
+    "name": "09_flag_cmp",
+    "code": 0,
+    "seconds": 0.7082878109067678,
+    "tail": [
+      "DONE mode=cmp trials=6913952 filters=0 full=1 found=0 seconds=0.701"
+    ]
+  },
+  {
+    "name": "09_flag_cmov",
+    "code": 0,
+    "seconds": 0.1666285451501608,
+    "tail": [
+      "DONE mode=cmov trials=1583712 filters=0 full=1 found=0 seconds=0.159"
+    ]
+  },
+  {
+    "name": "09_flag_other",
+    "code": 0,
+    "seconds": 21.45437973085791,
+    "tail": [
+      "DONE mode=other trials=358036520 filters=0 full=1 found=0 seconds=21.435"
+    ]
+  },
+  {
+    "name": "10_flag_cmp",
+    "code": 0,
+    "seconds": 0.40388979483395815,
+    "tail": [
+      "DONE mode=cmp trials=3582848 filters=0 full=1 found=0 seconds=0.399"
+    ]
+  },
+  {
+    "name": "10_flag_cmov",
+    "code": 0,
+    "seconds": 0.10291851870715618,
+    "tail": [
+      "DONE mode=cmov trials=810400 filters=208 full=209 found=0 seconds=0.098"
+    ]
+  },
+  {
+    "name": "10_flag_other",
+    "code": 0,
+    "seconds": 40.548842559568584,
+    "tail": [
+      "DONE mode=other trials=546708420 filters=22495 full=22496 found=0 seconds=40.544"
+    ]
+  },
+  {
+    "name": "11_flag_cmp",
+    "code": 0,
+    "seconds": 0.4856578977778554,
+    "tail": [
+      "DONE mode=cmp trials=6913952 filters=0 full=1 found=0 seconds=0.482"
+    ]
+  },
+  {
+    "name": "11_flag_cmov",
+    "code": 0,
+    "seconds": 0.11377969663590193,
+    "tail": [
+      "DONE mode=cmov trials=1583712 filters=0 full=1 found=0 seconds=0.110"
+    ]
+  },
+  {
+    "name": "11_flag_other",
+    "code": 0,
+    "seconds": 18.241643368266523,
+    "tail": [
+      "DONE mode=other trials=358036520 filters=288 full=289 found=0 seconds=18.008"
+    ]
+  },
+  {
+    "name": "12_flag_cmp",
+    "code": 0,
+    "seconds": 0.5207224208861589,
+    "tail": [
+      "DONE mode=cmp trials=7514016 filters=0 full=1 found=0 seconds=0.516"
+    ]
+  },
+  {
+    "name": "12_flag_cmov",
+    "code": 0,
+    "seconds": 0.12321300432085991,
+    "tail": [
+      "DONE mode=cmov trials=1751544 filters=0 full=1 found=0 seconds=0.119"
+    ]
+  },
+  {
+    "name": "12_flag_other",
+    "code": 0,
+    "seconds": 20.551401420496404,
+    "tail": [
+      "DONE mode=other trials=343808790 filters=0 full=1 found=0 seconds=20.547"
+    ]
+  },
+  {
+    "name": "13_flag_cmp",
+    "code": 0,
+    "seconds": 0.29554898850619793,
+    "tail": [
+      "DONE mode=cmp trials=3582848 filters=0 full=1 found=0 seconds=0.283"
+    ]
+  },
+  {
+    "name": "13_flag_cmov",
+    "code": 0,
+    "seconds": 0.060522956773638725,
+    "tail": [
+      "DONE mode=cmov trials=810400 filters=0 full=1 found=0 seconds=0.057"
+    ]
+  },
+  {
+    "name": "13_flag_other",
+    "code": 0,
+    "seconds": 34.20414696633816,
+    "tail": [
+      "DONE mode=other trials=546708420 filters=0 full=1 found=0 seconds=34.200"
+    ]
+  },
+  {
+    "name": "14_flag_cmp",
+    "code": 0,
+    "seconds": 0.327308620326221,
+    "tail": [
+      "DONE mode=cmp trials=3086528 filters=0 full=1 found=0 seconds=0.323"
+    ]
+  },
+  {
+    "name": "14_flag_cmov",
+    "code": 0,
+    "seconds": 0.0761031936854124,
+    "tail": [
+      "DONE mode=cmov trials=684800 filters=0 full=1 found=0 seconds=0.071"
+    ]
+  },
+  {
+    "name": "14_flag_other",
+    "code": 0,
+    "seconds": 32.54714226536453,
+    "tail": [
+      "DONE mode=other trials=561465837 filters=2 full=3 found=0 seconds=32.540"
+    ]
+  },
+  {
+    "name": "15_flag_cmp",
+    "code": 0,
+    "seconds": 0.41557151172310114,
+    "tail": [
+      "DONE mode=cmp trials=3324864 filters=0 full=1 found=0 seconds=0.398"
+    ]
+  },
+  {
+    "name": "15_flag_cmov",
+    "code": 0,
+    "seconds": 0.14872606843709946,
+    "tail": [
+      "DONE mode=cmov trials=765936 filters=0 full=1 found=0 seconds=0.092"
+    ]
+  },
+  {
+    "name": "15_flag_other",
+    "code": 0,
+    "seconds": 17.044826420024037,
+    "tail": [
+      "DONE mode=other trials=343808790 filters=0 full=1 found=0 seconds=17.031"
+    ]
+  },
+  {
+    "name": "16_flag_cmp",
+    "code": 0,
+    "seconds": 0.27974717132747173,
+    "tail": [
+      "DONE mode=cmp trials=3582848 filters=0 full=1 found=0 seconds=0.270"
+    ]
+  },
+  {
+    "name": "16_flag_cmov",
+    "code": 0,
+    "seconds": 0.28556536976248026,
+    "tail": [
+      "DONE mode=cmov trials=810400 filters=126 full=127 found=0 seconds=0.087"
+    ]
+  },
+  {
+    "name": "16_flag_other",
+    "code": 0,
+    "seconds": 28.731658027507365,
+    "tail": [
+      "DONE mode=other trials=546708420 filters=343 full=344 found=0 seconds=28.708"
+    ]
+  },
+  {
+    "name": "17_flag_cmp",
+    "code": 0,
+    "seconds": 0.19002196937799454,
+    "tail": [
+      "DONE mode=cmp trials=2497984 filters=0 full=1 found=0 seconds=0.178"
+    ]
+  },
+  {
+    "name": "17_flag_cmov",
+    "code": 0,
+    "seconds": 0.04253903217613697,
+    "tail": [
+      "DONE mode=cmov trials=554688 filters=0 full=1 found=0 seconds=0.039"
+    ]
+  },
+  {
+    "name": "17_flag_other",
+    "code": 0,
+    "seconds": 17.93290550261736,
+    "tail": [
+      "DONE mode=other trials=367675527 filters=0 full=1 found=0 seconds=17.925"
+    ]
+  },
+  {
+    "name": "18_flag_cmp",
+    "code": 0,
+    "seconds": 0.27135514188557863,
+    "tail": [
+      "DONE mode=cmp trials=3737024 filters=0 full=1 found=0 seconds=0.266"
+    ]
+  },
+  {
+    "name": "18_flag_cmov",
+    "code": 0,
+    "seconds": 0.062358506955206394,
+    "tail": [
+      "DONE mode=cmov trials=828608 filters=0 full=1 found=0 seconds=0.058"
+    ]
+  },
+  {
+    "name": "18_flag_other",
+    "code": 0,
+    "seconds": 41.476804294623435,
+    "tail": [
+      "DONE mode=other trials=823202487 filters=843 full=844 found=0 seconds=41.473"
+    ]
+  }
+]

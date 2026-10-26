@@ -1,0 +1,10 @@
+{
+  "full_index_keys_by_length": {
+    "2160": 38987,
+    "1920": 156
+  },
+  "c8_prior_keys": 156,
+  "matches": [],
+  "prior_file": "/path/to/repo/agents/team/codex-fleet/w13/sk/prior_full.keys",
+  "prior_sha256": "6905e416543f5c5cd1259355524a11ac70095436d695df6f66d90d7a7aae4488"
+}

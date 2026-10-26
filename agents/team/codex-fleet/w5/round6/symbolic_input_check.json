@@ -1,0 +1,20 @@
+[
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near9.s",
+    "weak_orders": 541,
+    "initial_flag_states": 4,
+    "executions": 2164,
+    "failed_orders": 9,
+    "unresolved_scratch_comparisons": 0,
+    "garbage_outputs": 0
+  },
+  {
+    "file": "/path/to/repo/agents/team/codex-fleet/w5/round6/seeds/near14.s",
+    "weak_orders": 541,
+    "initial_flag_states": 4,
+    "executions": 2164,
+    "failed_orders": 14,
+    "unresolved_scratch_comparisons": 0,
+    "garbage_outputs": 0
+  }
+]

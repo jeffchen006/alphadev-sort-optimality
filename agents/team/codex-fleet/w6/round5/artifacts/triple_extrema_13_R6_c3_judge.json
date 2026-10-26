@@ -1,0 +1,15 @@
+{
+  "source": "round5/candidates/triple_extrema_13_R6_c3.s",
+  "k": 32,
+  "sha256": "8f59a09585d05f192bc62fc00ca1d8ee2440bd56e278bb724d9163cabd71e9bc",
+  "out": {
+    "pass": true,
+    "file": "round5/candidates/triple_extrema_13_R6_c3.s",
+    "log": "round5/logs/triple_extrema_13_R6_c3_out_judge.log"
+  },
+  "mem": {
+    "pass": true,
+    "file": "round5/verified_mem/triple_extrema_13_R6_c3.s",
+    "log": "round5/logs/triple_extrema_13_R6_c3_mem_judge.log"
+  }
+}

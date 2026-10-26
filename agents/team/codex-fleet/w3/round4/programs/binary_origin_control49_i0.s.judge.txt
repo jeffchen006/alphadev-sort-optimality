@@ -1,0 +1,1 @@
+PASS /path/to/repo/agents/team/codex-fleet/w3/round4/programs/binary_origin_control49_i0.s [relaxed+strict] n=5 L=49 R=118 iset=I1 model=out

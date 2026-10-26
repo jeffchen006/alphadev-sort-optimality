@@ -1,0 +1,23 @@
+[
+  {
+    "slack": 2,
+    "file": "sk/round4_repeat10_r015275.txt",
+    "seconds": 5.022748023271561,
+    "returncode": -9,
+    "log": "bench/cpl2.out"
+  },
+  {
+    "slack": 0,
+    "file": "sk/round4_repeat10_r015275.txt",
+    "seconds": 5.01558671798557,
+    "returncode": -9,
+    "log": "bench/cpl0.out"
+  },
+  {
+    "slack": 999,
+    "file": "sk/round4_repeat10_r015275.txt",
+    "seconds": 5.023502802476287,
+    "returncode": -9,
+    "log": "bench/cpl999.out"
+  }
+]

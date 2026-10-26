@@ -1,0 +1,265 @@
+% Final version (2026-10-26). Build: pdflatex main.tex (twice). Appendix: appendix_proofs.tex.
+% Every number below is backed by board/claims.md, board/team/FINAL.md or board/FINAL_REPORT.md.
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amssymb,booktabs,hyperref,graphicx}
+\usepackage[margin=1in]{geometry}
+\newtheorem{theorem}{Theorem}\newtheorem{lemma}[theorem]{Lemma}\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+
+\title{How Short Can a Branchless Sort Be?\\ Certified Optimality of AlphaDev's sort3 and sort4 Kernels,\\ and What Stands
+in the Way for sort5}
+\author{Zhiyang Chen}
+\date{October 2026}
+\begin{document}\maketitle
+
+\begin{abstract}
+AlphaDev (Nature 2023) found x86 kernels that sort 3, 4 and 5 integers in 17, 28 and 42 instructions. We ask whether
+shorter kernels exist. We state a precise model --- the instructions \texttt{mov}, \texttt{cmp}, \texttt{cmovl},
+\texttt{cmovg}, \texttt{cmovle}, \texttt{cmovge} on signed 32-bit values, inputs and outputs in memory, every instruction
+counted, unbounded registers, correctness for all inputs (with ties) and all initial register and flag values --- and reduce
+the question to a finite search through a chain of lemmas, each with a paper proof and a Lean~4 proof. Results:
+(i) sort3 needs 17 instructions. We give ten independent proofs, among them LRAT certificates checked by the verified checker
+\texttt{cake\_lpr}, a Lean theorem that uses only the Lean kernel and the three standard axioms, and a Rocq proof.
+(ii) sort4 needs 28 instructions, by an exhaustive search over $1.39\times10^9$ abstract states with reviewed pruning rules;
+its 123\,GB certificate is checked in Lean up to the bound $k \le 17$.
+(iii) For sort5 we find no kernel shorter than 42. We find a second kernel family with 8 instead of 9 comparisons, show that
+no pure min/max kernel of length $\le 41$ exists and that garbage registers never help, and isolate the remaining open case.
+(iv) The model matters: if \texttt{cmp} and \texttt{cmov} may read memory (legal on x86, excluded by AlphaDev), the kernels fit
+in 7, 15, 26 and 39 instructions for $n = 2, \dots, 5$.
+\end{abstract}
+
+\section{Introduction}
+Mankowitz et al.~\cite{alphadev} used deep reinforcement learning to find short branchless sorting kernels for 3, 4 and 5
+elements, of length 17, 28 and 42 (the human-written sorting networks need 18, 28 and 46). The kernels are now in LLVM libc++.
+AlphaDev reports a brute-force argument that no sort3 kernel is shorter than 17 (about $10^{32}$ programs, with pruning), but
+gives no certificate and no exact model, and makes no claim for sort4 and sort5. Ullrich and Hack~\cite{ullrich} enumerate
+sorting kernels in a register-only model and report optimal lengths 11 ($n=3$) and 20 ($n=4$); their model has one scratch
+register, only \texttt{cmovl}/\texttt{cmovg}, distinct inputs only, no reads of uninitialised registers, and outputs fixed in
+the input registers, and there is no certificate. A lower bound in that model does not transfer to AlphaDev's setting
+(Section~\ref{sec:model}). No lower bound for $n=5$ was known.
+
+\paragraph{Contributions.}
+(1) A precise model of AlphaDev's setting, including memory and the exact counting (Section~\ref{sec:model}).
+(2) A chain of soundness lemmas from x86 semantics to a finite search problem (Section~\ref{sec:chain}); one of them, the
+\emph{snapshot lemma}, shows that the natural register model (``outputs in the input registers at the end'') is too strict
+and gives the exact replacement.
+(3) Two SAT encodings with CEGIS and symmetry breaking, two enumerators, and verified checkers in Lean and Rocq
+(Section~\ref{sec:search}).
+(4) sort3 = 17 with ten independent proofs, including a kernel-only Lean theorem; sort4 = 28 by exhaustive search
+(Section~\ref{sec:results}).
+(5) A large discovery effort for sort5 with exact scopes, two new structural lemmas and the remaining open case
+(Section~\ref{sec:sort5}).
+(6) Side results: shorter kernels with memory operands, and kernels with a shorter critical path at AlphaDev's length.
+
+\input{../../spec/paper/background}
+\input{../../spec/paper/model_counting}
+\paragraph{Main results.}
+\begin{theorem}\label{thm:main}
+In MM with $I_1$ and unbounded registers, no program of length $\le L-1$ sorts all $x \in \mathbb{Z}_{32}^n$ (for all garbage
+and flags), for $(n, L) = (3, 17)$ (certified: \texttt{cake\_lpr}, Lean, Rocq) and $(4, 28)$ (exhaustive search; certificate
+checked in Lean up to $k \le 17$). Hence AlphaDev's sort3 and sort4 kernels are shortest.
+\end{theorem}
+For $n = 5$ the question stays open; Section~\ref{sec:sort5} gives the evidence and the exact remaining case.
+Evidence that RF differs in practice: every AlphaDev kernel, with loads and stores removed, ends with its outputs in other
+registers (e.g.\ sort3 in $P_0, S_{11}, P_1$), so it is not an RF program of the same length.
+
+\section{The trust chain}\label{sec:chain}
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}llllll@{}}\toprule
+link & statement & paper & Lean & machine check\\\midrule
+X86 & 16 flag states $\to$ 3 & App.~\ref{app:proofs} & \texttt{xeval\_eq} & real hardware; certified ACL2 x86isa model\\
+L2 & strict $\Rightarrow$ T-relaxed & App. & \texttt{x86\_to\_relaxed}, \texttt{xsnap\_to\_relaxed} & --\\
+L5 & MM length $L$ $\Rightarrow$ RS length $L-2n$ & App. & \texttt{l5}, \texttt{l5\_strict}, \texttt{mm\_lower\_bound} & \texttt{l5map.py} on all 23 published programs\\
+L3 & $R = n+k$ registers suffice & App. & \texttt{register\_bound\_snap} & --\\
+L1 & order types (13/75/541); test subsets & App. & \texttt{x86\_iff\_reps}, \texttt{reps\_card} & --\\
+L6 & symmetry rules keep a shortest program & App. & proved inside each verified checker (lean-reflect, lean-lrat, Rocq) & rules on/off agree ($n=2,3$); VeriPB + CakePB (canon, pcanon)\\
+L4 & exact-$k$ sweep / NOP suffix & App. & \texttt{lower\_bound\_chain\_snap} & --\\
+enc & CNF $=$ model instance & -- & verified Lean encoder (lean-lrat) & 2 more encoders; differential test (13\,500 cases)\\
+UNSAT & CNF has no model & -- & Lean's LRAT checker & DRAT/LRAT $\to$ \texttt{cake\_lpr}\\\bottomrule
+\end{tabular}}
+\caption{Trust chain. Every link has a paper proof (Appendix~\ref{app:proofs}); ``Lean'' names the formal theorem. The Lean
+x86 semantics agrees with real hardware (AMD EPYC 9654, hundreds of millions of runs) and with the certified ACL2 x86isa model
+(81\,000 state vectors, 48 programs).}
+\end{table}
+
+The most delicate link is the snapshot lemma (Lemma~\ref{lem:snapshot}, Appendix L5). Its proof needs neither ``loads
+first, stores last'' nor AlphaDev's read-once/write-once rule: it handles reloads, spills and stores in the middle of the
+code, by one fresh register per store segment and by renaming the live range of the last load of each segment.
+
+\section{Search}\label{sec:search}
+\paragraph{Abstraction.} By L1 a program is correct iff it is correct on one representative of each weak order type
+(13/75/541). For lower bounds any subset is enough (e.g.\ the $n!$ permutations, or a CEGIS set) --- but permutations with
+$I_0$ are \emph{not} a relaxation of weak orders with $I_1$ (a \texttt{cmp} of two copies of one input gives eq).
+\paragraph{Relaxation.} Scratch registers start as $T > $ all inputs, flags start eq (L2). This is sound; it can only make
+the relaxed optimum smaller (a $T$ register is a known $+\infty$).
+\paragraph{SAT encodings.} \texttt{sat}: one-hot operands, CEGIS, NOP suffix, rules canon, pcanon, comm, dead, flags, cmpord, movfresh,
+snapcmov, mincmp with a rewriting (normal-form) proof. \texttt{sat2}: binary operands, sweep, rules with a lex-least proof.
+\paragraph{Enumeration.} \texttt{enum}: BFS over sets of distinct ``columns'' (Lemma S: with unbounded registers and snapshot
+outputs, a \texttt{mov} is only needed as half of a copy), exact deduplication, admissible heuristics, and the rule NG
+(normal form for strict programs; reviewed). \texttt{critic}: an independent register-level IDDFS.
+\paragraph{Verified checkers.} lean-reflect and Rocq check the enumerator's closure certificates (every successor of a kept
+state is kept or pruned by a proved rule, and no kept state is sorted); lean-lrat checks LRAT proofs of CNFs produced by an
+encoder that is proved correct in Lean.
+\paragraph{Analytic bounds.} $\#\texttt{cmp} \ge \lceil\log_2 n!\rceil$ (3/5/7; tight for $n=5$ with a 7-\texttt{cmp} kernel,
+so the sorting-network bound 9 does \emph{not} hold); $\#\texttt{cmov} \ge$ Huffman$(n)$ = 5/8/12 (Kraft inequality on the
+paths of each output); for $n=3$, $\#\texttt{cmov} \ge 6$, and for $n=4$, $\#\texttt{cmov} \ge 10$, by exhaustive search in a
+relaxation.
+
+\section{Results for sort3 and sort4}\label{sec:results}
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}lllll@{}}\toprule
+$n$ & claim (RS, $I_1$, T-relaxed, all weak orders) & tools & certificate & MM consequence\\\midrule
+3 & no program with $k \le 10$ & enum, critic, sat2, bounds agree; sat finds $k=11$ & \texttt{cake\_lpr} (3 CNFs); Lean (kernel only; LRAT; reflection); Rocq & $L \ge 17$: AlphaDev optimal\\
+4 & no program with $k \le 19$ & enum: no strict program with $k \le 19$ ($1.39\times10^9$ states, rule NG); cross-checks: sat2 $k \le 12$, Rocq $k \le 14$, bounds (case $c = 9$) & 123\,GB closure certificate; Lean check up to $k \le 17$ & $L \ge 28$: AlphaDev optimal\\\bottomrule
+\end{tabular}}
+\caption{Lower bounds. Upper bounds: AlphaDev's kernels (checked in Lean on the x86 semantics for all inputs, garbage and flags,
+and on real hardware).}
+\end{table}
+\subsection{The sort3 bound: independent proofs and their trust bases}\label{sec:sort3trust}
+\begin{theorem}[sort3]\label{thm:sort3}
+In AlphaDev's model $M_{AD}(3, I_1)$ --- three signed 32-bit inputs in memory cells, sorted in place; instructions
+\texttt{mov} (load, store, register move), \texttt{cmp}, \texttt{cmovl}, \texttt{cmovg}, \texttt{cmovle}, \texttt{cmovge}; \texttt{cmp}
+and \texttt{cmov} on registers only (MM-1); unbounded registers; correct for every input, every initial register value and
+every initial flag state; every instruction counts --- no program of length $\le 16$ sorts. AlphaDev's 17-instruction kernel is
+therefore optimal. Formal statements (Lean): \texttt{LeanReflect.sort3\_mm\_lb :
+$\forall$ q, MMProg 3 q $\to$ q.length $\le$ 16 $\to$ $\lnot$ XCorrect 3 q}, and the kernel-only
+\texttt{KProto.D3k10I1G.lower\_bound\_kernel\_x86} for the register core.
+\end{theorem}
+Every route below proves ``no RS program with $k \le 10$'' ($n=3$, $I_1$); the step to $M_{AD}$ ($L \le 16$) is
+Lemma~\ref{lem:snapshot} (Lean: \texttt{l5}, \texttt{mm\_lower\_bound}, kernel only).
+\begin{table}[h]\centering\small
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}llllll@{}}\toprule
+route & search object & symmetry / pruning & proof checked by & trusted base & status\\\midrule
+Lean, kernel only & closure certificate, set model + $S_3$ (2,215 states) & rules proved in Lean & Lean kernel & Lean kernel, 3 standard axioms & done ($k \le 10$)\\
+Lean, reflection & verified search, 6 perms (lean-reflect) & W, D, H1, polarity (proved in Lean) & Lean kernel & \texttt{native\_decide} (Lean compiler) & done: \texttt{sort3\_mm\_lb}\\
+Lean, set model & verified set-model search (lean-reflect) & Lemma S, G, W, P, D, H1, H3$'$ (proved in Lean) & Lean kernel & \texttt{native\_decide} & done (\texttt{sort3\_rs\_lb\_G})\\
+Lean, LRAT & verified CNF encoder (lean-lrat) & first-touch canon, normal form (proved in Lean) & Lean's LRAT checker & \texttt{native\_decide} & done ($k \le 10$; two builds)\\
+SAT + LRAT (1) & CNF from \texttt{sat}, 6 perms & 8 rules + cut \texttt{hcmp} (paper proofs, reviewed) & \texttt{cake\_lpr} & Python encoder; rule proofs & done\\
+SAT + LRAT (2) & same, no cut & 8 rules (paper proofs, reviewed) & \texttt{cake\_lpr} & same & done\\
+SAT + LRAT (3) & second CNF (\texttt{sat2}, binary operands), CEGIS & R1--R6, M1--M4, live, C1 (reviewed) & \texttt{cake\_lpr} & second encoder; rule proofs & done\\
+Rocq & set-model checker; closed theorem by \texttt{native\_compute} & Lemma S, W, P, G, D, H1, H2, E3, H3$'$ (proved in Rocq) & Rocq kernel & \texttt{native\_compute} & done (\texttt{sort3\_lb10})\\
+CakePB & lean-lrat CNF + canon/pcanon dominance + LRAT, one proof & certified in the same proof & \texttt{cake\_pb\_cnf} & CakeML/HOL4 & done for $k \le 8$\\
+enumeration & set-model BFS (enum), register IDDFS (critic) & reviewed rules & -- & C++ code & cross-check\\\bottomrule
+\end{tabular}}
+\caption{Proofs of $k_{\mathrm{out}}(3) \ge 11$, i.e.\ Theorem~\ref{thm:sort3}. ``\texttt{native\_decide}'' = trust in the Lean
+compiler. The Rocq and Lean set-model checkers accept the same certificate file. The upper bound (AlphaDev's kernel is an MM
+program of length 17 and sorts) is proved in Lean with the kernel only (\texttt{alphadev\_mm}).}
+\end{table}
+
+\subsection{The sort4 bound}
+\begin{theorem}[sort4]\label{thm:sort4}
+In $M_{AD}(4, I_1)$ with unbounded registers no program of length $\le 27$ sorts; AlphaDev's 28-instruction kernel is optimal.
+The same holds in $I_0$ (AlphaDev's sort4 kernel also sorts after replacing \texttt{cmovle}/\texttt{cmovge} by
+\texttt{cmovl}/\texttt{cmovg}).
+\end{theorem}
+\emph{Evidence.} The enumerator explores all strict-correct register cores with $k \le 19$ on the 24 permutations
+($1.39\times10^9$ states, 96 minutes on 40 cores, peak 168\,GB) and finds none. Its pruning rules, including the strict normal
+form NG, have paper proofs reviewed by two reviewers and by an independent model (Codex), and NG is also proved in Lean
+(\texttt{NGMain.lower\_bound\_strict}, standard axioms). The admissible heuristic was tested along every prefix of all 15
+AlphaDev register cores (0 violations). The closure certificate (123\,GB, 16.7\,GB compressed) is checked by the verified Lean
+checker up to $k \le 17$ (\texttt{sort4\_x\_lb17}, 2.56 million states) and by the Rocq checker up to $k \le 14$; checking the
+full $k \le 19$ certificate needs a faster verified checker (about 12--40 hours estimated) and is left as future work.
+Independent partial results agree: \texttt{sat2} ($k \le 12$, SAT) and the bounds tool (case $c = 9$, exact set model).
+
+\subsection{Latency: AlphaDev's kernels are not Pareto-optimal}\label{sec:latency}
+Depth model: critical path over read-after-write edges on registers and flags (register renaming, so write-after-read and
+write-after-write do not count); \texttt{cmov} always reads its destination, its source and the flags; latencies from
+uops.info in three models: U (all 1), E (\texttt{mov} 0), Z2 (Zen~2: \texttt{mov} 0, \texttt{cmp}$\to$\texttt{cmov} 2).
+Lower bounds use a \emph{relaxed DAG}: each \texttt{cmp} a flag node, each \texttt{cmov} a select node, \texttt{mov} free;
+its depth is at most the program's depth, for any length and any output rule (proofs reviewed). Results (DRAT-checked UNSAT
+for the bounds, judge-checked programs for the constructions):
+\begin{itemize}
+\item minimum depth: $n=3$: 4 (U, E), 5 (Z2); $n=4$: 5 (U, E), 6 (Z2); $n=5$: 5 or 6 (U, E; a depth-6 kernel with $k = 174$ exists, and depth $\ge 5$ is DRAT-checked);
+\item $n=3$: every program of depth $\le 4$ needs $k \ge 12$; a $k=11$ program of depth 5 exists, so AlphaDev's sort3
+$(k, \text{depth}) = (11, 6)$ is dominated;
+\item $n=4$: a $k = 20$ kernel exists at depth 5;
+\item $n=5$, $k=32$: a kernel of depth U10/E10 beats AlphaDev's Sort5\_42 (U13/E11/Z2 16) at the same length.
+\end{itemize}
+AlphaDev optimised length for the fixed sorts (it reports that length and latency correlate); our results show that at
+optimal length, depth can still be improved.
+
+\section{sort5: the search for a shorter kernel}\label{sec:sort5}
+The target is a strict-correct register core with $k \le 31$, i.e.\ an MM kernel of length $\le 41$. A full lower-bound
+proof by the methods of Section~\ref{sec:results} is out of reach: extrapolation from $n = 4$ gives at least $10^{15}$
+abstract states. We therefore ran a large discovery effort (stochastic search, exact routing for fixed value skeletons,
+exhaustive searches in restricted program classes, LLM-guided program design) and recorded every negative result with its
+exact scope. Write a register core's cost as $k = c + g + v$ (\texttt{cmp}s, \texttt{cmov}s, \texttt{mov}s).
+
+\paragraph{The known optima.} We collected 274{,}035 correct programs with $k \le 32$; all have $k = 32$ exactly and fall into
+30 value-set classes. 27 classes have $c = 9$ and $g + v = 23$ (AlphaDev's split is $9 + 18 + 5$; we also found $9 + 21 + 2$);
+3 classes are new and have $c = 8$ and $g + v = 24$ ($8 + 20 + 4$, $8 + 22 + 2$). So sort5 at AlphaDev's length is possible
+with 8 comparisons, and in every class we found, fewer comparisons cost exactly as many extra \texttt{cmov}s and copies.
+One $c = 9$ class uses values that are not the term set of any 9-comparator sorting network.
+
+\paragraph{Two lemmas.}
+\begin{proposition}[garbage never helps]\label{prop:garbage}
+Every strict-correct program can be transformed into a program that never reads a register before writing it, with no more
+instructions and no more \texttt{cmp}s.
+\end{proposition}
+\begin{proposition}[no lattice kernel]\label{prop:lattice}
+No sort5 register core with $k \le 31$ exists in which every register always holds a min/max term of the inputs.
+\end{proposition}
+Proposition~\ref{prop:garbage} has a reviewed proof sketch and was tested on 5{,}606 programs (0 failures).
+Proposition~\ref{prop:lattice} is an exhaustive breadth-first search ($1.51\times10^9$ states, unbounded registers, reviewed
+tool, 9/9 positive controls on known $k = 32$ kernels). Together they show: a 41-instruction sort5 kernel, if it exists, must
+write at least one value that is not a min/max of the inputs (for example a ``partner'' carried along after a comparison).
+
+\paragraph{Exclusions within stated scopes.} No register core with $k \le 31$ exists
+\begin{itemize}
+\item for any value skeleton of the 16 flag classes of the known optima with min/max operands (640 skeletons each), of the
+177 nine- and 4{,}609 ten-comparator sorting networks, of 1{,}684 ``recompute instead of copy'' skeletons, of all 161 $c = 8$
+skeletons of length 32, and of more than 30{,}000 further neighbour and non-lattice skeletons (exact routing, no register cap);
+\item using only the terms of any 9- or 10-comparator network, or of a known optimum plus one or two extra values
+(about 68{,}000 term pools, exact search);
+\item of the form ``sort four inputs, then insert the fifth'' (inserting needs $\ge 12$ instructions, DRAT-checked);
+\item with $c \le 8$ and all \texttt{cmp} operands min/max terms (exhaustive);
+\item within three to four changes of either of the two best 41-instruction near misses (wrong on 9 and 14 of the 541 input
+orders); no window of 4--7 instructions of these, of the first $c = 8$ kernel (up to 8), or of 17 further $c = 8$ kernels (4--6)
+can be replaced by a shorter one.
+\end{itemize}
+Stochastic search ($\approx 7\times10^9$ proposals), quality-diversity search and LLM-guided design found many 32-instruction
+cores and no 31.
+
+\paragraph{The open case.} What remains are garbage-free programs that write one or more non-min/max values. For one or two
+such values we built SAT encodings (reviewed as sound), but they decide none of the 1{,}929 cases within an hour, and an exact
+enumeration would need $10^{11}$--$10^{12}$ states; programs with three or more such values were not searched exhaustively.
+We therefore conjecture, but do not claim, that 42 is optimal for sort5.
+
+\input{../../spec/paper/beyond}
+
+\section{Threats to validity: what is outside the model}\label{sec:threats}
+\begin{itemize}
+\item \textbf{Memory operands (MM+).} x86 allows \texttt{cmp r,m}, \texttt{cmp m,r}, \texttt{cmovcc r,m}. With them, sort3, sort4
+and sort5 fit in 15, 26 and 39 instructions (Section~\ref{sec:beyond}). So AlphaDev's kernels are optimal only under MM-1. Our
+snapshot lemma does not hold for MM+ (Lemma L8: only $L \ge k_{\mathrm{RS}}$); an MM+ optimum needs its own search.
+\item \textbf{Other instructions}: SIMD min/max, branches, arithmetic and masks, \texttt{setcc}, \texttt{lea}, unsigned
+conditions (they read flags that are not a function of the signed order). Adding \texttt{cmove}, \texttt{cmovne} and
+\texttt{xchg} gave no shorter kernel in our searches, and \texttt{xchg} is provably redundant (Lemma L11).
+\item \textbf{Other costs}: latency, throughput, code size (AlphaDev reports that length and latency correlate for fixed sorts).
+\item \textbf{Data}: signed int32. Unsigned or floating-point kernels use other opcodes.
+\item \textbf{Registers}: our lower bounds allow unbounded registers (stronger); real x86 has at most 14 free GPRs.
+\item \textbf{Trust base}: the Lean kernel (and, for some routes, the Lean compiler or the Rocq \texttt{native\_\-compute}
+feature),
+\texttt{cake\_lpr}, the Python encoders for the \texttt{cake\_lpr} routes, and the agreement of the x86 semantics with real
+hardware and the ACL2 x86isa model. For sort4 the trusted base also includes the enumerator for $18 \le k \le 19$.
+\item \textbf{Hardware}: all runs used one AMD EPYC 9654; no Intel processor was tested.
+\end{itemize}
+
+\input{../../spec/paper/related}
+
+\section{Conclusion}
+In AlphaDev's own model, the 17-instruction sort3 kernel is optimal, with machine-checked certificates down to a kernel-only Lean
+theorem, and the 28-instruction sort4 kernel is optimal by exhaustive search. For sort5 we found no kernel shorter than 42, a new
+8-comparison family of the same length, and two structural results that reduce the open question to kernels that carry
+non-min/max values. Closing that case needs a new idea, for example a lemma that bounds the number of such values in a
+shortest kernel. Two further observations matter for the original claim: AlphaDev's lengths are optimal only because its rules
+forbid memory operands, and at optimal length the critical path of its kernels can still be shortened.
+
+\appendix
+\input{appendix_proofs}
+
+\begin{thebibliography}{99}
+\input{../../spec/paper/spec_bib}
+\end{thebibliography}
+\end{document}

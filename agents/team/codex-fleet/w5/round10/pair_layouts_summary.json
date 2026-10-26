@@ -1,0 +1,80 @@
+{
+  "skeletons": 177,
+  "layouts": 354,
+  "histogram": {
+    "38": 190,
+    "41": 136,
+    "44": 28
+  },
+  "best": {
+    "source": "skeletons/two/p000000.txt",
+    "canonical_sha256": "511a6d26685de6a0c5e40e4ae454f4406a8457713299b2ae7b660379eefe07e1",
+    "fold": false,
+    "cost": 38,
+    "gates": 20,
+    "copies": 10,
+    "lines": [
+      "cmp P0, P1",
+      "mov S0, P1",
+      "cmovg S0, P0",
+      "cmovg P0, P1",
+      "cmp P2, P3",
+      "mov S1, P3",
+      "cmovg S1, P2",
+      "cmovg P2, P3",
+      "cmp P0, P2",
+      "mov S2, P2",
+      "cmovg S2, P0",
+      "cmovg P0, P2",
+      "mov S3, S1",
+      "cmovg S3, S0",
+      "cmovg S0, S1",
+      "cmp S0, P4",
+      "mov S4, P4",
+      "cmovg S4, S0",
+      "cmovg S0, P4",
+      "cmp P0, S0",
+      "mov S5, S0",
+      "cmovg S5, P0",
+      "cmovg P0, S0",
+      "out 0, P0",
+      "cmp S5, S2",
+      "mov S6, S2",
+      "cmovg S6, S5",
+      "cmovg S5, S2",
+      "out 1, S5",
+      "mov S7, S4",
+      "cmovg S7, S3",
+      "cmovg S3, S4",
+      "cmp S6, S7",
+      "mov S8, S7",
+      "cmovg S8, S6",
+      "cmovg S6, S7",
+      "out 2, S6",
+      "cmp S3, S8",
+      "mov S9, S8",
+      "cmovg S9, S3",
+      "out 4, S9",
+      "cmovg S3, S8",
+      "out 3, S3"
+    ],
+    "verification": [
+      {
+        "file": "/path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38.s",
+        "model": "out",
+        "status": "PASS",
+        "sha256": "5b672b5b6479a8be06acff0214d33293c3f7488189877c41d9cda2e4af42ebaa",
+        "log": "/path/to/repo/agents/team/codex-fleet/w5/round10/logs/judge_pair_layouts_control_k38.log",
+        "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38.s [relaxed+strict] n=5 L=38 R=15 iset=I1 model=out\n"
+      },
+      {
+        "file": "/path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38_mem.s",
+        "model": "mem",
+        "status": "PASS",
+        "sha256": "7b72eb9432f8bf50271a25ed23115a74907c608d66f324044bb84633c43967fe",
+        "log": "/path/to/repo/agents/team/codex-fleet/w5/round10/logs/judge_pair_layouts_control_k38_mem.log",
+        "output": "PASS /path/to/repo/agents/team/codex-fleet/w5/round10/verified/pair_layouts_control_k38_mem.s [relaxed+strict] n=5 L=48 R=20 iset=I1 model=mem\n"
+      }
+    ]
+  }
+}

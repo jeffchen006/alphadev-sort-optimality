@@ -1,0 +1,962 @@
+[
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_00.s",
+    "sha256": "51d95057c87da53f386a498a34168d7d1b4b70ce208bd8c6a804cd56aea9544c",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_00.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_00.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_00_mem.s",
+    "sha256": "585d4d35eea7820d14f5922ca9c32c0283257f4594dc1a53f25c1ae3a3ffdba2",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_00_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_00_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_01.s",
+    "sha256": "483f94f8b2bd4bbe0897ad3acd7a12fed289437ffaf2baf26914b375373ebe41",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_01.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_01.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_01_mem.s",
+    "sha256": "cbf096acf497156e6948cbee55e4b1a636090ba70c0c6297c9a8e6ac129a1a12",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_01_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_01_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_02.s",
+    "sha256": "179f81727900ce2f8dd176a82978c748a8d2c71419773aa38f366a0f416a16c7",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_02.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_02.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_02_mem.s",
+    "sha256": "ea85f40f35578b72d9d9b1a2be86056fe54871af0e959842b5658f9e9f07605a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_02_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_02_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_03.s",
+    "sha256": "5fa1ff09b03edf5cea2069a69764d5b88474df6741e0dbf84173f0b06f950d51",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_03.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_03.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_03_mem.s",
+    "sha256": "c480a1898f2bf3f0f75d0ab276df237964a639dd5d221c5a6b1399e610b02718",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_03_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_03_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_04.s",
+    "sha256": "33aa4f18fc9394c60555387de35cb0fcf1024b0776f0103b3098cca9d98225b8",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_04.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_04.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_04_mem.s",
+    "sha256": "ab63a75f5c10d2d4a88cd4603723c1d4bb20de9c4f061e308060ade95e07fdeb",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_04_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_04_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_05.s",
+    "sha256": "33aa4f18fc9394c60555387de35cb0fcf1024b0776f0103b3098cca9d98225b8",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_05.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_05.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_05_mem.s",
+    "sha256": "ab63a75f5c10d2d4a88cd4603723c1d4bb20de9c4f061e308060ade95e07fdeb",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_05_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_05_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_06.s",
+    "sha256": "04d57face7f08bbc3e17bc5932011eb3158fc36cc145922119b1f8a1d515affe",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_06.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_06.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_06_mem.s",
+    "sha256": "e696eae67af64b3138d61ef59f194d579147a48347b240de9df313dd85fe7689",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_06_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_06_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_07.s",
+    "sha256": "b0569fa2dab4500689565cf96728e10af9a9077a92a705eec307ac5e89cb26c9",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_07.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_07.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_07_mem.s",
+    "sha256": "1b5e4876cb4a59858a70ac2183f5b1715e11dd1b2f52f8add064577c5e07482b",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_07_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_07_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_08.s",
+    "sha256": "889fc9921955ce35fef4fc88b371c789fe6728dde275ab9ae51f25403d4e0339",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_08.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_08.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_08_mem.s",
+    "sha256": "1aef8ae1e13406c85423aaf3efea03ece9b2a3819079920914f15e3b6d69a691",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_08_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_08_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_09.s",
+    "sha256": "bb76d11b29bf6fc292873b1ad51e460374f69014aac3a722e72646c5fa270b7f",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_09.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_09.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_09_mem.s",
+    "sha256": "8e9be2ee9d821a73881fa5dec2253c1e00adf260e5a0031a47b7a28f0ed5bac5",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_09_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_09_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_10.s",
+    "sha256": "065fd46450d1089782abdb03de31086ee322a55b12402671c0929770085a44a8",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_10.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_10.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_10_mem.s",
+    "sha256": "5b3a0404e0558bef4beef01b03227301ea1899d2995e7fd5d8e34ba8b57fef08",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_10_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_10_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_11.s",
+    "sha256": "065fd46450d1089782abdb03de31086ee322a55b12402671c0929770085a44a8",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_11.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_11.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_11_mem.s",
+    "sha256": "5b3a0404e0558bef4beef01b03227301ea1899d2995e7fd5d8e34ba8b57fef08",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_11_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_11_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_12.s",
+    "sha256": "6c85512ad4f15832c7c1da325edd93e7c1ccdcf0e1333db2d150ac78845d4b30",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_12.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_12.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_12_mem.s",
+    "sha256": "ce464a9161884060494349da1a31fd5e6e9a6e9fc4b8bbb0ae92add9b06292d3",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_12_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_12_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_13.s",
+    "sha256": "6c85512ad4f15832c7c1da325edd93e7c1ccdcf0e1333db2d150ac78845d4b30",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_13.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_13.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_13_mem.s",
+    "sha256": "ce464a9161884060494349da1a31fd5e6e9a6e9fc4b8bbb0ae92add9b06292d3",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_13_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_13_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_14.s",
+    "sha256": "6e21bfdf59b5776ce94d0cf5e40791662cdcdf827ea662e2121e1bf1759edaca",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_14.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_14.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_14_mem.s",
+    "sha256": "48e5a81a4b442bfbe2cc948d9cf47a8d1c1f5d47f5fa9266cabf322d9e37e582",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_14_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_14_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_15.s",
+    "sha256": "6e21bfdf59b5776ce94d0cf5e40791662cdcdf827ea662e2121e1bf1759edaca",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_15.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_15.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_15_mem.s",
+    "sha256": "48e5a81a4b442bfbe2cc948d9cf47a8d1c1f5d47f5fa9266cabf322d9e37e582",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_15_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_15_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_16.s",
+    "sha256": "ba7eade6ef04e266f053371fe105cdae88bb43a3edca996c1df5fd9f7ab84e58",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_16.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_16.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_16_mem.s",
+    "sha256": "d633dd67f124a025ea9c951d7f3c9e37c58c0831ef35fc40fe13f6968d5e35b8",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_16_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_16_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_17.s",
+    "sha256": "17667e74e37b7f883763f66263ea71ea5c192f24592488b0bc998cd5cffcdf0c",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_17.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_17.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_17_mem.s",
+    "sha256": "b708a5c004b2ee2cf697f92f1b0cebc3e7d53f6144ef4a7527602c006745597c",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_17_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_17_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_18.s",
+    "sha256": "7f914238c4b5d80ef2aae4688727a938d62f8d4c378beda89d31c13c57efd88f",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_18.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_18.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_18_mem.s",
+    "sha256": "4bce7035d5e443dc35cadc42b01b0d8f98341ea2ccc83402ec8de44785fdd7e9",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_18_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_18_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_19.s",
+    "sha256": "7f914238c4b5d80ef2aae4688727a938d62f8d4c378beda89d31c13c57efd88f",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_19.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_19.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_19_mem.s",
+    "sha256": "4bce7035d5e443dc35cadc42b01b0d8f98341ea2ccc83402ec8de44785fdd7e9",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_19_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_19_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_20.s",
+    "sha256": "c0a1ed11674ed609887f7139214a65acdcd0afaf0b129baec998f6cd7c1a30a3",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_20.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_20.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_20_mem.s",
+    "sha256": "998f6e96fafe07c75777e0d7a4ce047af152a12080b868c63fbe0ad738ca5ce2",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_20_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_20_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_21.s",
+    "sha256": "9ca840679f488bdbdae819a29d44c8b015d2ca0dbb187bfccdb7f5c4add4a93e",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_21.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_21.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_21_mem.s",
+    "sha256": "9ef4f646cdda6ef71d6ff17ed157e2cad29eb63c82b909adf2cc20a9520c2d89",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_21_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_21_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_22.s",
+    "sha256": "68bdd46f30754e00007b66b2cb2c2efe7b022b773a807bd9568406bc2aa2275a",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_22.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_22.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_22_mem.s",
+    "sha256": "9015acb16be72256e8d84a92d1aebb15eb091965835dbcf09ace32ba3b7d153a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_22_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_22_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_23.s",
+    "sha256": "ce76b4924373fbeefff2f3565820b225ef8af690c3bc713cd4f0a9d4d6d4f4ce",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_23.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_23.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_23_mem.s",
+    "sha256": "f97458ad1b76bc4383e7ca1dafb365a3b479d39c3b2e196eb36b24b48c6a62be",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_23_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_23_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_24.s",
+    "sha256": "e8ef0bdabf60b27b7e8990d677bafcc8ec6307417ff752d582209f3da556ef1e",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_24.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_24.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_24_mem.s",
+    "sha256": "35f8ce60ae7025f9aa5978ee9ce3971b8e4358510388eb75bd3ed4c9fe64952b",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_24_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_24_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_25.s",
+    "sha256": "24ed78308194284086cfeaa3c4069fe0aa2c9f672a1557bdf7875e9a99f79993",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_25.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_25.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_25_mem.s",
+    "sha256": "bbe5e1a71d0f828edd10c571507186b2ccdea4c5e6a6fc802f6eeb1ef07b4cc6",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_25_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_25_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_26.s",
+    "sha256": "c69d12964ce48665d26da772376639bd69574e315cba522b02cab2c81bfd0fe5",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_26.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_26.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_26_mem.s",
+    "sha256": "42fbeec45ad66fe547744dd22eaf7fe6576b26d45d4325c5845f07a9432ea88e",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_26_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_26_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_27.s",
+    "sha256": "f5ade36bad3602c2aa364699d7b4c9967ecc44e5a22fd4243a17b59833686eeb",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_27.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_27.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_27_mem.s",
+    "sha256": "f05320a5c2d3b239c48d283bfbdeee7fcb520029357baa05f23b15e0238a5b19",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_27_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_27_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_28.s",
+    "sha256": "753d1632533cf9c692ad595e8c29308ea4c85f9f71597824b0e07d34cbe8bc7a",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_28.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_28.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_28_mem.s",
+    "sha256": "aa452fae26fa6ab9aa9bf8b9e617c7998e26665616ca41f24501c489270b2a92",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_28_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_28_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_29.s",
+    "sha256": "753d1632533cf9c692ad595e8c29308ea4c85f9f71597824b0e07d34cbe8bc7a",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_29.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_29.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_29_mem.s",
+    "sha256": "aa452fae26fa6ab9aa9bf8b9e617c7998e26665616ca41f24501c489270b2a92",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_29_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_29_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_30.s",
+    "sha256": "c9a9cb8f033ba555fcdb97a3d6ce43f0ba2e35391b48cb7766cdbe26a59c0f9b",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_30.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_30.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_30_mem.s",
+    "sha256": "7fce2ae04c6c8ff1d16f3c95724df17e2e858222c803347fdf8a40423f5a2f6a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_30_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_30_mem.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_31.s",
+    "sha256": "c9a9cb8f033ba555fcdb97a3d6ce43f0ba2e35391b48cb7766cdbe26a59c0f9b",
+    "model": "out",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_31.s",
+      "--strict",
+      "--model",
+      "out"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_31.judge.log"
+  },
+  {
+    "path": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_31_mem.s",
+    "sha256": "7fce2ae04c6c8ff1d16f3c95724df17e2e858222c803347fdf8a40423f5a2f6a",
+    "model": "mem",
+    "result": "PASS",
+    "command": [
+      "/usr/bin/python3",
+      "/path/to/repo/shared/judge.py",
+      "/path/to/repo/agents/team/codex-fleet/w1/round8/control_31_mem.s",
+      "--strict",
+      "--model",
+      "mem"
+    ],
+    "log": "/path/to/repo/agents/team/codex-fleet/w1/round8/control_31_mem.judge.log"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "planned": 580,
+  "finished": 580,
+  "remaining": 0,
+  "status_counts": {
+    "UNSAT": 580
+  },
+  "elapsed_this_run": 5391.658577122726,
+  "all_jobs_finished": true
+}

@@ -1,0 +1,142 @@
+{
+  "status": "UNKNOWN",
+  "cpu": 8.387500968,
+  "cases": 11,
+  "rounds": 1,
+  "args": {
+    "index": 20,
+    "mode": "cone",
+    "tail": 6,
+    "schedule_scope": "tail",
+    "cpu": 8.0,
+    "extra": 2,
+    "unbounded": true,
+    "control": false,
+    "all_cases": false,
+    "stem": "c9_cone_20",
+    "resume_json": null
+  },
+  "key": "c9_b20",
+  "editable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    26,
+    27,
+    29,
+    31
+  ],
+  "used_cases": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      1
+    ]
+  ],
+  "vars": 141488,
+  "clauses": 1419748,
+  "stats": {
+    "restarts": 497,
+    "conflicts": 8595,
+    "decisions": 94358,
+    "propagations": 26070784
+  },
+  "maxrss_kib": 228912,
+  "total_cpu": 8.608089581,
+  "registers": 63,
+  "suffix_builds": 11,
+  "schedule_normalized": false,
+  "requested_cpu": 8.0
+}

@@ -1,0 +1,243 @@
+[
+  {
+    "file": "round6/seeds/c8_c7_0_out.s",
+    "k": 31,
+    "cmp": 7,
+    "failed_orders": 147,
+    "nonlattice_operands": [
+      [
+        25,
+        0
+      ],
+      [
+        25,
+        1
+      ]
+    ]
+  },
+  {
+    "file": "round6/seeds/c8_c7_1_out.s",
+    "k": 31,
+    "cmp": 7,
+    "failed_orders": 238,
+    "nonlattice_operands": [
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        28,
+        0
+      ],
+      [
+        28,
+        1
+      ]
+    ]
+  },
+  {
+    "file": "round6/seeds/c8_c8_0_out.s",
+    "k": 31,
+    "cmp": 8,
+    "failed_orders": 129,
+    "nonlattice_operands": [
+      [
+        24,
+        0
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        28,
+        0
+      ]
+    ]
+  },
+  {
+    "file": "round6/seeds/c8_c8_1_out.s",
+    "k": 31,
+    "cmp": 8,
+    "failed_orders": 132,
+    "nonlattice_operands": [
+      [
+        25,
+        0
+      ],
+      [
+        25,
+        1
+      ],
+      [
+        28,
+        0
+      ],
+      [
+        28,
+        1
+      ]
+    ]
+  },
+  {
+    "file": "round6/seeds/near9_c9_0_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 9,
+    "nonlattice_operands": [
+      [
+        28,
+        1
+      ]
+    ]
+  },
+  {
+    "file": "round6/seeds/net41_c8_0_out.s",
+    "k": 31,
+    "cmp": 8,
+    "failed_orders": 99,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/net41_c8_1_out.s",
+    "k": 31,
+    "cmp": 8,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/net41_c9_0_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 87,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/net41_c9_1_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 129,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_0_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 87,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_10_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_11_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_1_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 87,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_2_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 129,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_3_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 150,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_4_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_5_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_6_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_7_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_8_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/partner_9_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 156,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/triple_c8_0_out.s",
+    "k": 31,
+    "cmp": 8,
+    "failed_orders": 216,
+    "nonlattice_operands": [
+      [
+        28,
+        0
+      ]
+    ]
+  },
+  {
+    "file": "round6/seeds/triple_c8_1_out.s",
+    "k": 31,
+    "cmp": 8,
+    "failed_orders": 237,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/triple_c9_0_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 39,
+    "nonlattice_operands": []
+  },
+  {
+    "file": "round6/seeds/triple_c9_1_out.s",
+    "k": 31,
+    "cmp": 9,
+    "failed_orders": 87,
+    "nonlattice_operands": []
+  }
+]

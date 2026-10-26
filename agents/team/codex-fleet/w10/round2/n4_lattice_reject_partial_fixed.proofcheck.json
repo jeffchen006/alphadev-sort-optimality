@@ -1,0 +1,8 @@
+{
+  "file": "/path/to/repo/agents/team/codex-fleet/w10/round2/n4_lattice_reject_partial_fixed.json",
+  "cnf_sha256": "0e36cfc63f2f0f9d6bf44390f77d5ca2078839ae0b3fddcbbd72ac74635aada8",
+  "proof_sha256": "262d21ae83b1a6b371c553d52a05eaeba0d0ab5bceeb6eed97aa10a493a127ca",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 0.504947567358613
+}

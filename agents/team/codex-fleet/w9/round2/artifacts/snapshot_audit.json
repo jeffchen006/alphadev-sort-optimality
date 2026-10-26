@@ -1,0 +1,110 @@
+[
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_10_54285964e250_24013675_1_k31.s",
+    "best_output_errors": [
+      0,
+      80,
+      90,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 116,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_12_fd7a081c6ece_24013675_1_k31.s",
+    "best_output_errors": [
+      0,
+      54,
+      75,
+      26,
+      0
+    ],
+    "best_snapshot_failed_orders": 95,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_13_fd7a081c6ece_42031675_1_k31.s",
+    "best_output_errors": [
+      0,
+      27,
+      27,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 27,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_25_54285964e250_20413675_1_k31.s",
+    "best_output_errors": [
+      0,
+      27,
+      99,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 99,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_26_54285964e250_20431675_1_k31.s",
+    "best_output_errors": [
+      0,
+      27,
+      99,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 99,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_30_65e288dc8ab2_42031675_1_k31.s",
+    "best_output_errors": [
+      0,
+      99,
+      148,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 220,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_40_fd7a081c6ece_20341675_1_k31.s",
+    "best_output_errors": [
+      0,
+      54,
+      54,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 54,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_41_fd7a081c6ece_20413675_1_k31.s",
+    "best_output_errors": [
+      0,
+      54,
+      54,
+      0,
+      0
+    ],
+    "best_snapshot_failed_orders": 54,
+    "all_outputs_available": false
+  },
+  {
+    "source": "/path/to/repo/agents/team/codex-fleet/w9/round2/candidates/model_replay_44_fd7a081c6ece_42013675_1_k31.s",
+    "best_output_errors": [
+      0,
+      54,
+      108,
+      78,
+      0
+    ],
+    "best_snapshot_failed_orders": 132,
+    "all_outputs_available": false
+  }
+]

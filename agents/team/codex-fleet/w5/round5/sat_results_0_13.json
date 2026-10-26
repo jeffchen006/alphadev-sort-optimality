@@ -1,0 +1,327 @@
+[
+  {
+    "number": 0,
+    "seed": 43,
+    "pair": [
+      7,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "43",
+      "7",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_43_7_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 8.889268405735493,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_43_7_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_43_7_8.s"
+  },
+  {
+    "number": 1,
+    "seed": 44,
+    "pair": [
+      7,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "44",
+      "7",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_44_7_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 6.423240990377963,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_44_7_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_44_7_8.s"
+  },
+  {
+    "number": 2,
+    "seed": 47,
+    "pair": [
+      7,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "47",
+      "7",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_47_7_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 4.091676147654653,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_47_7_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_47_7_8.s"
+  },
+  {
+    "number": 3,
+    "seed": 78,
+    "pair": [
+      4,
+      5
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "78",
+      "4",
+      "5",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_78_4_5.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 2.007576403208077,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_78_4_5.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_78_4_5.s"
+  },
+  {
+    "number": 4,
+    "seed": 83,
+    "pair": [
+      8,
+      9
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "83",
+      "8",
+      "9",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_83_8_9.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 3.36758435331285,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_83_8_9.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_83_8_9.s"
+  },
+  {
+    "number": 5,
+    "seed": 101,
+    "pair": [
+      7,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "101",
+      "7",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_7_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 4.659594927914441,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_101_7_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_101_7_8.s"
+  },
+  {
+    "number": 6,
+    "seed": 110,
+    "pair": [
+      7,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "110",
+      "7",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_7_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 5.3915544198825955,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_110_7_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_110_7_8.s"
+  },
+  {
+    "number": 7,
+    "seed": 29,
+    "pair": [
+      6,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "29",
+      "6",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_29_6_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 5.707499283365905,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_29_6_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_29_6_8.s"
+  },
+  {
+    "number": 8,
+    "seed": 49,
+    "pair": [
+      13,
+      15
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "49",
+      "13",
+      "15",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_49_13_15.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 1.7474907776340842,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_49_13_15.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_49_13_15.s"
+  },
+  {
+    "number": 9,
+    "seed": 61,
+    "pair": [
+      10,
+      12
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "61",
+      "10",
+      "12",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_61_10_12.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 2.1114727342501283,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_61_10_12.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_61_10_12.s"
+  },
+  {
+    "number": 10,
+    "seed": 63,
+    "pair": [
+      6,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "63",
+      "6",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_63_6_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 4.247485409490764,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_63_6_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_63_6_8.s"
+  },
+  {
+    "number": 11,
+    "seed": 91,
+    "pair": [
+      6,
+      8
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "91",
+      "6",
+      "8",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_91_6_8.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 5.595513745211065,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_91_6_8.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_91_6_8.s"
+  },
+  {
+    "number": 12,
+    "seed": 139,
+    "pair": [
+      13,
+      15
+    ],
+    "command": [
+      "nice",
+      "-n",
+      "19",
+      "/usr/bin/python3",
+      "-B",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/fusion_sat.py",
+      "139",
+      "13",
+      "15",
+      "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_139_13_15.s"
+    ],
+    "code": 0,
+    "status": "UNSAT",
+    "seconds": 1.6987790446728468,
+    "log": "/path/to/repo/agents/team/codex-fleet/w5/round5/logs/fusion_sat_139_13_15.log",
+    "output": "/path/to/repo/agents/team/codex-fleet/w5/round5/candidates/fusion_sat_139_13_15.s"
+  }
+]

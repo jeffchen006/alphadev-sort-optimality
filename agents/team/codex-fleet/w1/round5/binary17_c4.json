@@ -1,0 +1,28 @@
+{
+  "status": "UNKNOWN",
+  "cases": 10,
+  "cpu": 300.076666565,
+  "rounds": 0,
+  "args": {
+    "k": 17,
+    "regs": 8,
+    "cmps": 4,
+    "cpu": 300.0,
+    "conflicts": 2000,
+    "batch": 8,
+    "solver": "cadical195",
+    "stem": "binary17_c4",
+    "creation_outputs": true,
+    "fixed": "binary",
+    "prefix": "pair"
+  },
+  "total_cpu": 300.085433739,
+  "vars": 12060,
+  "clauses": 87193,
+  "stats": {
+    "restarts": 91831,
+    "conflicts": 2433431,
+    "decisions": 7722232,
+    "propagations": 957339001
+  }
+}

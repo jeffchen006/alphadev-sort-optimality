@@ -1,0 +1,1 @@
+skeleton c=9 K=31 budget(gates+copies)=22 lb(root)=15 classes(c)=120

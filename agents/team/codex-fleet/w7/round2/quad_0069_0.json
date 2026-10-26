@@ -1,0 +1,34 @@
+{
+  "index": 69,
+  "window": [
+    12,
+    21,
+    23,
+    27
+  ],
+  "attempt": 0,
+  "status": "UNKNOWN",
+  "registers": 8,
+  "limit_seconds": 10.0,
+  "search_seconds": 10.027108216658235,
+  "exit": -15,
+  "command": [
+    "nice",
+    "-n",
+    "19",
+    "python3",
+    "-B",
+    "src/search.py",
+    "seeds/near31.s",
+    "round2/quad_0069_0.s",
+    "--changes",
+    "0",
+    "--registers",
+    "8",
+    "--free",
+    "12,21,23,27",
+    "--proof"
+  ],
+  "solver_result": null,
+  "blocked_rejected_candidates": 0
+}
